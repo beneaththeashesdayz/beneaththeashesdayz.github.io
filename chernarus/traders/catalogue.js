@@ -77,7 +77,10 @@ document.addEventListener('DOMContentLoaded', function () {
       '</div>';
     } else {
       var value = state.sells ? purchasePrice(item) : resalePrice(item);
-      prices = '<span class="catalogue-price">' + money(value) + '</span>';
+      var label = state.sells ? 'Buy from trader' : 'Sell to trader';
+      prices = '<div class="catalogue-price-pair catalogue-price-single">' +
+        '<span><small>' + label + '</small><strong>' + money(value) + '</strong></span>' +
+      '</div>';
     }
 
     return '<article class="catalogue-item">' +
