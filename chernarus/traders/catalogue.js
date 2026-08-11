@@ -33,9 +33,18 @@ document.addEventListener('DOMContentLoaded', function () {
     return String(a).localeCompare(String(b), 'en', {sensitivity:'base', numeric:true});
   }
 
+  function usesInheritedBuyback(item) {
+    if (!cfg.inheritedCategoryBuyback || item.mode !== 'sell') return false;
+    var excluded = cfg.buybackExcludedCategories || [];
+    return excluded.indexOf(item.category) === -1;
+  }
+
   function permissions(item) {
     if (typeof item.traderSells === 'boolean' || typeof item.traderBuys === 'boolean') {
       return {sells:Boolean(item.traderSells), buys:Boolean(item.traderBuys)};
+    }
+    if (usesInheritedBuyback(item)) {
+      return {sells:true, buys:true};
     }
     return {sells:item.mode === 'sell', buys:item.mode === 'buy'};
   }
@@ -45,7 +54,13 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function resalePrice(item) {
-    return item.sellPrice != null ? item.sellPrice : (item.mode === 'buy' ? item.price : null);
+    if (item.sellPrice != null) return item.sellPrice;
+    if (item.mode === 'buy') return item.price;
+    if (usesInheritedBuyback(item)) {
+      var percent = cfg.inheritedSellPercent != null ? cfg.inheritedSellPercent : 75;
+      return Math.round((purchasePrice(item) || 0) * (percent / 100));
+    }
+    return null;
   }
 
   function itemMarkup(item) {
