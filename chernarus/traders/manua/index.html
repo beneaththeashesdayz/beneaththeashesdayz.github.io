@@ -11,6 +11,7 @@
   <meta property="og:url" content="https://beneaththeashesdayz.github.io/chernarus/traders/manua/">
   <meta property="og:image" content="https://beneaththeashesdayz.github.io/assets/traders/manua.jpg">
   <link rel="stylesheet" href="../../../styles.css">
+  <link rel="stylesheet" href="../catalogue.css?v=5">
 </head>
 <body>
 <header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
@@ -23,21 +24,44 @@
       <h1>Manua</h1>
       <div class="location">Scorched Isle Market • Mainland Chernarus</div>
       <div class="currency-line"><span class="currency-label">Currency</span><span class="currency-badge currency-usd">USD</span></div>
-      <p class="summary">Manua handles the supplies survivors need to establish, power, secure, furnish and maintain a base. Most of his inventory can be both bought and sold, with a handful of valuable items accepted for sale to Manua only.</p>
+      <p class="summary">Manua is Scorched Isle Market's one-stop counter for building, power, storage, tools and base furnishings. His catalogue is extensive, so use the search and category filters below to find exactly what you need and see whether each item can be bought, sold, or traded both ways.</p>
       <div class="chips"><span class="chip">Building</span><span class="chip">BBP</span><span class="chip">Power</span><span class="chip">Storage</span><span class="chip">Tools</span><span class="chip">Locks</span><span class="chip">Electronics</span><span class="chip">Furnishings</span></div>
 
-      <div class="info-grid">
-        <article class="panel buy"><h3>What Manua Buys &amp; Sells</h3><ul>
-          <li>Batteries</li><li>BBP Items</li><li>BBP Power Grid</li><li>Containers</li><li>Electronics</li><li>Flags</li><li>Lights</li><li>Locks</li><li>Supplies</li><li>Sleeping Bags</li><li>Tools <strong>(some items are buy-only)</strong></li><li>Tents</li><li>Territory Flag Kits</li>
-        </ul></article>
-        <article class="panel sell"><h3>What Manua Buys Only</h3><ul><li>Pickaxes</li><li>Hacksaws</li><li>Sledgehammers</li><li>RaG Base Items / Furnishings</li></ul></article>
-      </div>
+      <section class="catalogue-section" id="traderCatalogue">
+        <div class="catalogue-head"><div><div class="catalogue-kicker">Market Catalogue</div><h2>Manua's Inventory</h2></div><p>Search Manua's full building-supplies inventory or narrow it down by transaction type and category.</p></div>
+        <div class="catalogue-tools">
+          <input class="catalogue-search" data-catalogue-search type="search" placeholder="Search inventory..." aria-label="Search Manua's catalogue">
+          <div class="catalogue-filters" aria-label="Catalogue filters">
+            <button class="catalogue-filter active" data-catalogue-filter="all" type="button">All</button>
+            <button class="catalogue-filter" data-catalogue-filter="purchase" type="button">Buy From Trader</button>
+            <button class="catalogue-filter" data-catalogue-filter="sale" type="button">Sell To Trader</button>
+            <button class="catalogue-filter" data-catalogue-filter="both" type="button">Buys &amp; Sells</button>
+            <button class="catalogue-filter" data-catalogue-filter="Batteries" type="button">Batteries</button>
+            <button class="catalogue-filter" data-catalogue-filter="BBP Items" type="button">BBP Items</button>
+            <button class="catalogue-filter" data-catalogue-filter="BBP Power Grid" type="button">BBP Power Grid</button>
+            <button class="catalogue-filter" data-catalogue-filter="Containers" type="button">Containers</button>
+            <button class="catalogue-filter" data-catalogue-filter="Electronics" type="button">Electronics</button>
+            <button class="catalogue-filter" data-catalogue-filter="Flags" type="button">Flags</button>
+            <button class="catalogue-filter" data-catalogue-filter="Furnishings" type="button">Furnishings</button>
+            <button class="catalogue-filter" data-catalogue-filter="Lights" type="button">Lights</button>
+            <button class="catalogue-filter" data-catalogue-filter="Locks" type="button">Locks</button>
+            <button class="catalogue-filter" data-catalogue-filter="Sleeping Bags" type="button">Sleeping Bags</button>
+            <button class="catalogue-filter" data-catalogue-filter="Supplies" type="button">Supplies</button>
+            <button class="catalogue-filter" data-catalogue-filter="Tents" type="button">Tents</button>
+            <button class="catalogue-filter" data-catalogue-filter="Territory Flag Kit" type="button">Territory Flag Kit</button>
+            <button class="catalogue-filter" data-catalogue-filter="Tools" type="button">Tools</button>
+          </div>
+        </div>
+        <div class="catalogue-summary"><span data-catalogue-count></span><span>•</span><span>USD</span></div>
+        <div class="catalogue-list" data-catalogue-list></div>
+        <div class="catalogue-empty" data-catalogue-empty>No items match that search.</div>
+        <p class="catalogue-note">Categories and items are sorted alphabetically. Searching automatically opens matching categories, and transaction filters work across the entire catalogue.</p>
+      </section>
 
       <article class="panel notes"><h3>Survivor Notes</h3><ul>
-        <li><strong>Pickaxes, hacksaws and sledgehammers can be sold to Manua, but cannot be purchased from him.</strong></li>
-        <li>These are progression-sensitive raid and money-making tools and must be found while exploring Chernarus.</li>
-        <li>RaG Base Items / Furnishings can be sold to Manua, but cannot be purchased from him.</li>
-        <li>Tents are part of Manua's regular buy-and-sell inventory.</li>
+        <li><strong>Hacksaws, pickaxes and sledgehammers can only be sold to Manua. He does not sell these tools.</strong></li>
+        <li><strong>Tents can only be sold to Manua.</strong> They are not available for purchase from his counter.</li>
+        <li>Furnishings vary item by item. Check the catalogue badge and prices to see whether a specific furnishing is buy-and-sell or sell-to-Manua only.</li>
       </ul></article>
 
       <article class="panel lore"><div class="lore-eyebrow">Archive // Trader Dossier</div><h3>Trader Lore</h3><p>Long before Chernarus became a graveyard of half-finished fortifications, Manua made his living restoring places other people had already given up on.</p><p>He worked construction crews from the coast to the northern industrial towns, moving wherever there was a roof sagging, a generator coughing its last breath, or an old building somebody insisted could still be saved. He was never the loudest man on a job site, but he was usually the one people called when the first plan failed.</p><p>When the outbreak began, Manua did what he had always done: he started fixing things.</p><p>At first it was barricades. Then gates. Then makeshift power systems, reinforced shelters and entire safehouses stitched together from whatever could be stripped out of abandoned workshops and warehouses. For a while, he travelled with a small group of survivors who believed they could keep moving forever. They were wrong.</p><p>One winter, a settlement they had spent months building was overrun while Manua was away scavenging electrical parts. By the time he returned, there was nothing left worth repairing.</p><p>He stopped building homes after that.</p><p>Instead, he began collecting the pieces other survivors needed to build their own. Locks. Batteries. Wiring. Storage. Tools. Lighting. Anything that could turn four exposed walls into somewhere a person might survive the night. Eventually his stockpile grew too large to carry and too useful to hide, and Manua settled into Scorched Isle Market as its building supplies trader.</p><p>He still knows exactly how every piece on his shelves is meant to fit together. He just prefers not to be the one deciding where the walls should go anymore.</p><p class="lore-closing">Ask him why and he will usually shrug. <strong>“I build the parts now. You build the place.”</strong></p></article>
@@ -46,6 +70,8 @@
   </section>
 </main>
 <footer><div class="wrap">Beneath the Ashes • Chernarus Trader Network</div></footer>
+<script src="./catalogue-data.js?v=1"></script>
+<script src="../catalogue.js?v=7"></script>
 <script src="https://beneaththeashesdayz.github.io/site.js"></script>
 </body>
 </html>
