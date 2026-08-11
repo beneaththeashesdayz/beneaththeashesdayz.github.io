@@ -29,6 +29,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  function compareText(a, b) {
+    return String(a).localeCompare(String(b), 'en', {sensitivity:'base', numeric:true});
+  }
+
   function permissions(item) {
     if (typeof item.traderSells === 'boolean' || typeof item.traderBuys === 'boolean') {
       return {sells:Boolean(item.traderSells), buys:Boolean(item.traderBuys)};
@@ -99,14 +103,13 @@ document.addEventListener('DOMContentLoaded', function () {
       grouped[item.category].push(item);
     });
 
-    var categoryOrder = [];
-    cfg.items.forEach(function (item) {
-      if (categoryOrder.indexOf(item.category) === -1) categoryOrder.push(item.category);
+    Object.keys(grouped).forEach(function (category) {
+      grouped[category].sort(function (a, b) {
+        return compareText(a.name, b.name) || compareText(a.className, b.className);
+      });
     });
 
-    var visibleCategories = categoryOrder.filter(function (category) {
-      return grouped[category] && grouped[category].length;
-    });
+    var visibleCategories = Object.keys(grouped).sort(compareText);
 
     list.innerHTML = visibleCategories.map(function (category) {
       var items = grouped[category];
