@@ -13,6 +13,9 @@ document.addEventListener('DOMContentLoaded', function () {
   var active = 'all';
 
   function money(value) {
+    if (cfg.currencyLabel) {
+      return new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(value) + ' ' + cfg.currencyLabel;
+    }
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
       currency: cfg.currency || 'USD',
