@@ -21,20 +21,42 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function escapeHtml(value) {
-    return String(value).replace(/[&<>'"]/g, function (character) {
-      return {
-        '&': '&amp;',
-        '<': '&lt;',
-        '>': '&gt;',
-        "'": '&#39;',
-        '"': '&quot;'
-      }[character];
+    return String(value).replace(/[&<>'\"]/g, function (character) {
+      return {'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[character];
     });
   }
 
+  function permissions(item) {
+    if (typeof item.traderSells === 'boolean' || typeof item.traderBuys === 'boolean') {
+      return {sells:Boolean(item.traderSells), buys:Boolean(item.traderBuys)};
+    }
+    return {sells:item.mode === 'sell', buys:item.mode === 'buy'};
+  }
+
+  function purchasePrice(item) {
+    return item.buyPrice != null ? item.buyPrice : (item.mode === 'sell' ? item.price : null);
+  }
+
+  function resalePrice(item) {
+    return item.sellPrice != null ? item.sellPrice : (item.mode === 'buy' ? item.price : null);
+  }
+
   function itemMarkup(item) {
-    var direction = item.mode === 'buy' ? cfg.traderName + ' buys' : cfg.traderName + ' sells';
-    var directionClass = item.mode === 'buy' ? 'buys' : 'sells';
+    var state = permissions(item);
+    var both = state.sells && state.buys;
+    var direction = both ? 'Buys & Sells' : (state.buys ? cfg.traderName + ' buys' : cfg.traderName + ' sells');
+    var directionClass = both ? 'both' : (state.buys ? 'buys' : 'sells');
+    var prices = '';
+
+    if (both) {
+      prices = '<div class="catalogue-price-pair">' +
+        '<span><small>Buy from trader</small><strong>' + money(purchasePrice(item)) + '</strong></span>' +
+        '<span><small>Sell to trader</small><strong>' + money(resalePrice(item)) + '</strong></span>' +
+      '</div>';
+    } else {
+      var value = state.sells ? purchasePrice(item) : resalePrice(item);
+      prices = '<span class="catalogue-price">' + money(value) + '</span>';
+    }
 
     return '<article class="catalogue-item">' +
       '<div>' +
@@ -43,19 +65,26 @@ document.addEventListener('DOMContentLoaded', function () {
       '</div>' +
       '<div class="catalogue-meta">' +
         '<span class="catalogue-direction ' + directionClass + '">' + escapeHtml(direction) + '</span>' +
-        '<span class="catalogue-price">' + money(item.price) + '</span>' +
+        prices +
       '</div>' +
     '</article>';
+  }
+
+  function matchesActive(item) {
+    var state = permissions(item);
+    if (active === 'all') return true;
+    if (active === 'purchase') return state.sells;
+    if (active === 'sale') return state.buys;
+    if (active === 'both') return state.sells && state.buys;
+    return item.category === active;
   }
 
   function render() {
     var query = search ? search.value.trim().toLowerCase() : '';
 
     var rows = cfg.items.filter(function (item) {
-      var matchesFilter = active === 'all' || item.category === active || item.mode === active;
       var haystack = [item.name, item.className, item.category].join(' ').toLowerCase();
-      var matchesSearch = !query || haystack.indexOf(query) !== -1;
-      return matchesFilter && matchesSearch;
+      return matchesActive(item) && (!query || haystack.indexOf(query) !== -1);
     });
 
     count.textContent = rows.length + ' item' + (rows.length === 1 ? '' : 's');
@@ -94,13 +123,11 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   if (search) search.addEventListener('input', render);
-
   filters.forEach(function (button) {
     button.addEventListener('click', function () {
       active = button.dataset.catalogueFilter;
       render();
     });
   });
-
   render();
 });
