@@ -11,6 +11,7 @@
   <meta property="og:url" content="https://beneaththeashesdayz.github.io/chernarus/traders/rolf/">
   <meta property="og:image" content="https://beneaththeashesdayz.github.io/assets/traders/rolf.jpg">
   <link rel="stylesheet" href="../../../styles.css">
+  <link rel="stylesheet" href="../catalogue.css?v=5">
 </head>
 <body>
 <header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
@@ -45,6 +46,29 @@
         <li>Rolf is the mainland Zombie Note trader at Scorched Isle Market.</li>
       </ul></article>
 
+      <section class="catalogue-section" id="traderCatalogue">
+        <div class="catalogue-head"><div><div class="catalogue-kicker">Market Catalogue</div><h2>Rolf's Inventory</h2></div><p>Browse Rolf’s inventory by category or search for a specific item.</p></div>
+        <div class="catalogue-tools">
+          <input class="catalogue-search" data-catalogue-search type="search" placeholder="Search inventory..." aria-label="Search Rolf's catalogue">
+          <div class="catalogue-filters" aria-label="Catalogue filters">
+            <button class="catalogue-filter active" data-catalogue-filter="all" type="button">All</button>
+            <button class="catalogue-filter" data-catalogue-filter="purchase" type="button">Buy From Trader</button>
+            <button class="catalogue-filter" data-catalogue-filter="sale" type="button">Sell To Trader</button>
+            <button class="catalogue-filter" data-catalogue-filter="both" type="button">Buys &amp; Sells</button>
+            <button class="catalogue-filter" data-catalogue-filter="NBC Gear" type="button">NBC Gear</button>
+            <button class="catalogue-filter" data-catalogue-filter="Workbenches" type="button">Workbenches</button>
+            <button class="catalogue-filter" data-catalogue-filter="Mag Loaders" type="button">Mag Loaders</button>
+            <button class="catalogue-filter" data-catalogue-filter="Navigation" type="button">Navigation</button>
+            <button class="catalogue-filter" data-catalogue-filter="Sleeping Bags" type="button">Sleeping Bags</button>
+            <button class="catalogue-filter" data-catalogue-filter="Geb's Fishing Gear" type="button">Fishing Gear</button>
+          </div>
+        </div>
+        <div class="catalogue-summary"><span data-catalogue-count></span><span>•</span><span>Zombie Notes</span></div>
+        <div class="catalogue-list" data-catalogue-list></div>
+        <div class="catalogue-empty" data-catalogue-empty>No items match that search.</div>
+        <p class="catalogue-note">Inventory is grouped by market category. Searching automatically opens the matching category, and the transaction filters work across all categories.</p>
+      </section>
+
       <article class="panel lore"><div class="lore-eyebrow">Archive // Trader Dossier</div><h3>Trader Lore</h3>
         <p>Before the Collapse, Rolf always had a talent for knowing what things were worth.</p>
         <p>More importantly, he knew what people <em>thought</em> they were worth.</p>
@@ -63,6 +87,8 @@
   </section>
 </main>
 <footer><div class="wrap">Beneath the Ashes • Chernarus Trader Network</div></footer>
+<script src="./catalogue-data.js?v=1"></script>
+<script src="../catalogue.js?v=6"></script>
 <script src="https://beneaththeashesdayz.github.io/site.js"></script>
 </body>
 </html>
