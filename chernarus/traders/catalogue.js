@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var filters = Array.prototype.slice.call(root.querySelectorAll('[data-catalogue-filter]'));
   var active = 'all';
 
-  var guidanceText = 'Inventory is grouped by market category. Searching automatically opens the matching category, and the transaction filters work across all categories.';
+  var guidanceText = 'Inventory is grouped by market category. Use the transaction filters to jump directly to items you can buy, sell, or trade both ways.';
   var note = root.querySelector('.catalogue-note');
   if (!note) {
     note = document.createElement('p');
@@ -70,6 +70,43 @@ document.addEventListener('DOMContentLoaded', function () {
       return Math.round((purchasePrice(item) || 0) * (percent / 100));
     }
     return null;
+  }
+
+  function transactionCounts() {
+    var result = {all:cfg.items.length, purchase:0, sale:0, both:0};
+    cfg.items.forEach(function (item) {
+      var state = permissions(item);
+      if (state.sells) result.purchase += 1;
+      if (state.buys) result.sale += 1;
+      if (state.sells && state.buys) result.both += 1;
+    });
+    return result;
+  }
+
+  function setFilterLabels() {
+    var totals = transactionCounts();
+    var labels = {
+      all:'All Items',
+      purchase:'Buy From Trader',
+      sale:'Sell To Trader',
+      both:'Buys & Sells'
+    };
+    filters.forEach(function (button) {
+      var key = button.dataset.catalogueFilter;
+      if (!labels[key]) return;
+      button.innerHTML = '<span>' + labels[key] + '</span><strong>' + totals[key] + '</strong>';
+    });
+
+    var existing = root.querySelector('.catalogue-transaction-summary');
+    if (existing) existing.remove();
+    var summary = document.createElement('div');
+    summary.className = 'catalogue-transaction-summary';
+    summary.innerHTML =
+      '<div><small>Buy From Trader</small><strong>' + totals.purchase + '</strong><span>items Quinn sells</span></div>' +
+      '<div><small>Sell To Trader</small><strong>' + totals.sale + '</strong><span>items Quinn buys</span></div>' +
+      '<div><small>Both Ways</small><strong>' + totals.both + '</strong><span>items with both prices</span></div>';
+    var tools = root.querySelector('.catalogue-tools');
+    if (tools) tools.insertAdjacentElement('afterend', summary);
   }
 
   function itemMarkup(item) {
@@ -155,6 +192,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  setFilterLabels();
   if (search) search.addEventListener('input', render);
   filters.forEach(function (button) {
     button.addEventListener('click', function () {
