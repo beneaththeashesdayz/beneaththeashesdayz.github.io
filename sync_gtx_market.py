@@ -36,59 +36,66 @@ def normalize_json(raw: bytes) -> tuple[bytes, dict | list]:
     return normalized, parsed
 
 
-def resolve_remote_dir(sftp: paramiko.SFTPClient, configured: str) -> str:
-    """Resolve GTX paths whether SFTP starts at server root or a nested home directory."""
-    configured = configured.strip().replace("\\", "/")
-    candidates = []
+def is_dir(sftp: paramiko.SFTPClient, path: str) -> bool:
+    try:
+        sftp.listdir_attr(path)
+        return True
+    except (FileNotFoundError, IOError):
+        return False
 
-    if configured.startswith("/"):
-        candidates.append(configured)
-    else:
-        candidates.extend([configured, "/" + configured])
 
-    home = sftp.normalize(".")
-    if home and home != "/":
-        candidates.append(posixpath.join(home, configured.lstrip("/")))
+def discover_server_root(sftp: paramiko.SFTPClient) -> str:
+    """Find the DayZ server folder GTX places beneath the SFTP root."""
+    home = sftp.normalize(".") or "/"
 
-    seen = set()
-    for candidate in candidates:
-        if candidate in seen:
-            continue
-        seen.add(candidate)
-        try:
-            sftp.listdir_attr(candidate)
-            print(f"Resolved {configured} -> {candidate}")
-            return candidate
-        except (FileNotFoundError, IOError):
-            pass
+    # If the login directory itself already contains the expected server folders, use it.
+    for base in [home, "/", "."]:
+        if is_dir(sftp, posixpath.join(base, "profiles")) or is_dir(sftp, posixpath.join(base, "mpmissions")):
+            print(f"Detected GTX server root: {base}")
+            return base
 
-    # GTX panels sometimes show paths relative to a directory above the SFTP login root.
-    # Walk a few levels from the login directory and look for the expected first folder.
-    first = configured.lstrip("/").split("/", 1)[0]
-    remainder = configured.lstrip("/").split("/", 1)[1] if "/" in configured.lstrip("/") else ""
-    bases = [home, ".", "/"]
-    for base in bases:
+    # GTX commonly exposes one server-instance directory beneath '/'. Search one level down.
+    for base in [home, "/"]:
         try:
             names = sftp.listdir(base)
         except (FileNotFoundError, IOError):
             continue
-        match = next((n for n in names if n.lower() == first.lower()), None)
-        if match:
-            candidate = posixpath.join(base, match, remainder) if remainder else posixpath.join(base, match)
-            try:
-                sftp.listdir_attr(candidate)
-                print(f"Resolved {configured} -> {candidate}")
+
+        for name in names:
+            candidate = posixpath.join(base, name)
+            if is_dir(sftp, posixpath.join(candidate, "profiles")) or is_dir(sftp, posixpath.join(candidate, "mpmissions")):
+                print(f"Detected GTX server root: {candidate}")
                 return candidate
-            except (FileNotFoundError, IOError):
-                pass
 
     try:
         root_names = sftp.listdir(home)
     except Exception:
         root_names = []
     raise FileNotFoundError(
-        f"Could not resolve GTX directory '{configured}'. "
-        f"SFTP login directory is '{home}' and contains: {root_names[:40]}"
+        f"Could not discover GTX DayZ server root. SFTP login directory is '{home}' "
+        f"and contains: {root_names[:40]}"
+    )
+
+
+def resolve_remote_dir(sftp: paramiko.SFTPClient, server_root: str, configured: str) -> str:
+    configured = configured.strip().replace("\\", "/").lstrip("/")
+    candidates = [
+        posixpath.join(server_root, configured),
+        configured,
+        "/" + configured,
+    ]
+
+    seen = set()
+    for candidate in candidates:
+        if candidate in seen:
+            continue
+        seen.add(candidate)
+        if is_dir(sftp, candidate):
+            print(f"Resolved {configured} -> {candidate}")
+            return candidate
+
+    raise FileNotFoundError(
+        f"Could not resolve GTX directory '{configured}' beneath detected server root '{server_root}'."
     )
 
 
@@ -140,8 +147,9 @@ def main() -> None:
         sftp = paramiko.SFTPClient.from_transport(transport)
         try:
             print(f"SFTP login directory: {sftp.normalize('.')}")
-            market_remote = resolve_remote_dir(sftp, MARKET_REMOTE)
-            zones_remote = resolve_remote_dir(sftp, ZONES_REMOTE)
+            server_root = discover_server_root(sftp)
+            market_remote = resolve_remote_dir(sftp, server_root, MARKET_REMOTE)
+            zones_remote = resolve_remote_dir(sftp, server_root, ZONES_REMOTE)
             market_items = sync_dir(sftp, market_remote, MARKET_OUT, "market")
             zone_items = sync_dir(sftp, zones_remote, ZONES_OUT, "traderzones")
         finally:
