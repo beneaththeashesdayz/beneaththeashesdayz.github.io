@@ -12,6 +12,15 @@ document.addEventListener('DOMContentLoaded', function () {
   var filters = Array.prototype.slice.call(root.querySelectorAll('[data-catalogue-filter]'));
   var active = 'all';
 
+  var guidanceText = 'Inventory is grouped by market category. Searching automatically opens the matching category, and the transaction filters work across all categories.';
+  var note = root.querySelector('.catalogue-note');
+  if (!note) {
+    note = document.createElement('p');
+    note.className = 'catalogue-note';
+  }
+  note.textContent = guidanceText;
+  if (search) search.insertAdjacentElement('afterend', note);
+
   function money(value) {
     if (cfg.currencyLabel) {
       return new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(value) + ' ' + cfg.currencyLabel;
