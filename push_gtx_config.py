@@ -20,6 +20,7 @@ PASSWORD = os.environ["GTX_PASSWORD"]
 # GitHub to be able to write that config back to the live server.
 ALLOWLIST = {
     "data/live-market/traders/Clothing.json": "profiles/ExpansionMod/Traders/Clothing.json",
+    "data/live-market/traders/Attachments.json": "profiles/ExpansionMod/Traders/Attachments.json",
 }
 
 
