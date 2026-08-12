@@ -41,6 +41,7 @@ jobs:
           GTX_MARKET_PATH: profiles/ExpansionMod/Market
           GTX_TRADERS_PATH: profiles/ExpansionMod/Traders
           GTX_TRADERZONES_PATH: mpmissions/dayzOffline.chernarusplus/expansion/traderzones
+          GTX_MARKET_SETTINGS_PATH: mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json
         run: python sync_gtx_market.py
 
       - name: Build live trader catalogues
@@ -49,7 +50,10 @@ jobs:
       - name: Commit market and catalogue changes
         shell: bash
         run: |
-          git add data/live-market chernarus/traders/naomi/catalogue-data.js chernarus/traders/rolf/catalogue-data.js
+          git add data/live-market \
+            chernarus/traders/naomi/catalogue-data.js \
+            chernarus/traders/rolf/catalogue-data.js \
+            chernarus/traders/attachment-trader/catalogue-data.js
 
           if git diff --cached --quiet; then
             echo "No market or catalogue changes detected."
