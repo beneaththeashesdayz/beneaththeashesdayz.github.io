@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
+window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyback:true,inheritedSellPercent:1,buybackExcludedCategories:['Gardening'],items:[
 {name:'Baked Beans',className:'bakedbeanscan',category:'Food',mode:'sell',price:9965},
 {name:'Brisket Spread',className:'brisketspread',category:'Food',mode:'sell',price:10055},
 {name:'Canned Peaches',className:'peachescan',category:'Food',mode:'sell',price:10080},
