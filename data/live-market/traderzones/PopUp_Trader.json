@@ -1,0 +1,15 @@
+{
+  "m_Version": 6,
+  "m_DisplayName": "The Bone Broker",
+  "Position": [
+    6580.3701171875,
+    272.1969909667969,
+    11849.099609375
+  ],
+  "Radius": 100.0,
+  "BuyPricePercent": 0.0,
+  "SellPricePercent": 100.0,
+  "Stock": {
+    "humanskull": 1
+  }
+}

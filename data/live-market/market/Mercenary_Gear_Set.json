@@ -1,0 +1,94 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Mercenary Gear Set",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "sm_mercenary_bag_black_and_white",
+      "MaxPriceThreshold": 8000,
+      "MinPriceThreshold": 8000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "sm_mercenary_bag_black_and_blue",
+        "sm_mercenary_bag_red_and_yellow"
+      ]
+    },
+    {
+      "ClassName": "sm_mercenary_boots_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "sm_mercenary_boots_white",
+        "sm_mercenary_boots_red_and_yellow"
+      ]
+    },
+    {
+      "ClassName": "sm_mercenary_helmet_white_and_black",
+      "MaxPriceThreshold": 8000,
+      "MinPriceThreshold": 8000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "sm_mercenary_helmet_black_and_white",
+        "sm_mercenary_helmet_red_and_yellow"
+      ]
+    },
+    {
+      "ClassName": "sm_mercenary_jacket_black",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "sm_mercenary_jacket_white",
+        "sm_mercenary_jacket_yellow"
+      ]
+    },
+    {
+      "ClassName": "sm_mercenary_jacket_no_exo_black",
+      "MaxPriceThreshold": 14000,
+      "MinPriceThreshold": 14000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "sm_mercenary_jacket_no_exo_white",
+        "sm_mercenary_jacket_no_exo_yellow"
+      ]
+    },
+    {
+      "ClassName": "sm_mercenary_pants_black",
+      "MaxPriceThreshold": 12000,
+      "MinPriceThreshold": 12000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "sm_mercenary_pants_white",
+        "sm_mercenary_pants_red_and_yellow"
+      ]
+    }
+  ]
+}

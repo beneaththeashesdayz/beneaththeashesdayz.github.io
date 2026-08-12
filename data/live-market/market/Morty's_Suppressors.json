@@ -1,0 +1,153 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Morty's Suppressors",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "ttc_akmod_suppressor",
+      "MaxPriceThreshold": 8030,
+      "MinPriceThreshold": 8030,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ttc_dmr_suppressor",
+      "MaxPriceThreshold": 7980,
+      "MinPriceThreshold": 7980,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ttc_honey_suppressor",
+      "MaxPriceThreshold": 7965,
+      "MinPriceThreshold": 7965,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ttc_m14suppressor",
+      "MaxPriceThreshold": 8020,
+      "MinPriceThreshold": 8020,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ttc_mcx_spear_suppressor",
+      "MaxPriceThreshold": 8040,
+      "MinPriceThreshold": 8040,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ttc_mcx_spear_suppressor_black",
+      "MaxPriceThreshold": 8055,
+      "MinPriceThreshold": 8055,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ttc_pistolsuppressor",
+      "MaxPriceThreshold": 8035,
+      "MinPriceThreshold": 8035,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ttc_universal_suppressor_black",
+      "MaxPriceThreshold": 7955,
+      "MinPriceThreshold": 7955,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ttc_universal_suppressor_camo",
+      "MaxPriceThreshold": 7960,
+      "MinPriceThreshold": 7960,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ttc_universal_suppressor_snow",
+      "MaxPriceThreshold": 7975,
+      "MinPriceThreshold": 7975,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ttc_universal_suppressor_tan",
+      "MaxPriceThreshold": 7970,
+      "MinPriceThreshold": 7970,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ttc_universal_suppressor_tavor",
+      "MaxPriceThreshold": 8045,
+      "MinPriceThreshold": 8045,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ttc_universal_suppressor_tavor_tan",
+      "MaxPriceThreshold": 8050,
+      "MinPriceThreshold": 8050,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

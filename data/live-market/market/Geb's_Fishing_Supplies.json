@@ -1,0 +1,205 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Geb's Fish - Supplies",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "geb_bamboofishingnet",
+      "MaxPriceThreshold": 6800,
+      "MinPriceThreshold": 6800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "geb_bluefishingrod",
+      "MaxPriceThreshold": 14750,
+      "MinPriceThreshold": 14750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "geb_greenfishingrod",
+        "geb_purplefishingrod",
+        "geb_redfishingrod"
+      ]
+    },
+    {
+      "ClassName": "geb_bluefishknife",
+      "MaxPriceThreshold": 4425,
+      "MinPriceThreshold": 4425,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "geb_greenfishknife",
+        "geb_orangefishknife",
+        "geb_purplefishknife",
+        "geb_redfishknife",
+        "geb_yellowfishknife"
+      ]
+    },
+    {
+      "ClassName": "geb_bugcontainer",
+      "MaxPriceThreshold": 650,
+      "MinPriceThreshold": 650,
+      "SellPricePercent": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "geb_fieldcricket",
+      "MaxPriceThreshold": 145,
+      "MinPriceThreshold": 145,
+      "SellPricePercent": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "geb_fishingrodrepairkit",
+      "MaxPriceThreshold": 4200,
+      "MinPriceThreshold": 4200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "geb_grasshopper",
+      "MaxPriceThreshold": 165,
+      "MinPriceThreshold": 165,
+      "SellPricePercent": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "geb_grubworm",
+      "MaxPriceThreshold": 185,
+      "MinPriceThreshold": 185,
+      "SellPricePercent": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "geb_lure",
+      "MaxPriceThreshold": 1850,
+      "MinPriceThreshold": 1850,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "geb_lure1",
+        "geb_lure2",
+        "geb_lure3",
+        "geb_lure4"
+      ]
+    },
+    {
+      "ClassName": "geb_minnowbucket",
+      "MaxPriceThreshold": 2400,
+      "MinPriceThreshold": 2400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "geb_rubberworm",
+      "MaxPriceThreshold": 275,
+      "MinPriceThreshold": 275,
+      "SellPricePercent": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "geb_spinnerbait1",
+      "MaxPriceThreshold": 2750,
+      "MinPriceThreshold": 2750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "geb_spinnerbait2",
+        "geb_spinnerbait3",
+        "geb_spinnerbait4"
+      ]
+    },
+    {
+      "ClassName": "geb_tackle_base",
+      "MaxPriceThreshold": 1150,
+      "MinPriceThreshold": 1150,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "geb_bluetackle",
+        "geb_browntackle",
+        "geb_camotackle",
+        "geb_fungreentackle",
+        "geb_funpurpletackle",
+        "geb_funredtackle",
+        "geb_funyellowtackle",
+        "geb_greentackle",
+        "geb_lightbluetackle",
+        "geb_limetackle",
+        "geb_oldbluetackle",
+        "geb_oldgreentackle",
+        "geb_oldpurpletackle",
+        "geb_oldredtackle",
+        "geb_oldtacklebase",
+        "geb_orangetackle",
+        "geb_pinktackle",
+        "geb_purpletackle",
+        "geb_redtackle",
+        "geb_smalltackle",
+        "geb_yellowtackle"
+      ]
+    },
+    {
+      "ClassName": "geb_wormcontainer",
+      "MaxPriceThreshold": 650,
+      "MinPriceThreshold": 650,
+      "SellPricePercent": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Russian Soldier v2 Gear Set",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "tgk_russiansoldier_v2_6b45_black",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_russiansoldier_v2_6b45_alpine",
+        "tgk_russiansoldier_v2_6b45_black_mc",
+        "tgk_russiansoldier_v2_6b45_emr",
+        "tgk_russiansoldier_v2_6b45_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_russiansoldier_v2_balaclava_black",
+      "MaxPriceThreshold": 8000,
+      "MinPriceThreshold": 8000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_russiansoldier_v2_balaclava_alpine",
+        "tgk_russiansoldier_v2_balaclava_black_mc",
+        "tgk_russiansoldier_v2_balaclava_emr",
+        "tgk_russiansoldier_v2_balaclava_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_russiansoldier_v2_boots_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "tgk_russiansoldier_v2_gloves_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_russiansoldier_v2_gloves_alpine",
+        "tgk_russiansoldier_v2_gloves_black_mc",
+        "tgk_russiansoldier_v2_gloves_emr",
+        "tgk_russiansoldier_v2_gloves_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_russiansoldier_v2_granadepouch_black",
+      "MaxPriceThreshold": 4000,
+      "MinPriceThreshold": 4000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_russiansoldier_v2_granadepouch_alpine",
+        "tgk_russiansoldier_v2_granadepouch_black_mc",
+        "tgk_russiansoldier_v2_granadepouch_emr",
+        "tgk_russiansoldier_v2_granadepouch_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_russiansoldier_v2_groinplate_black",
+      "MaxPriceThreshold": 6000,
+      "MinPriceThreshold": 6000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_russiansoldier_v2_groinplate_alpine",
+        "tgk_russiansoldier_v2_groinplate_black_mc",
+        "tgk_russiansoldier_v2_groinplate_emr",
+        "tgk_russiansoldier_v2_groinplate_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_russiansoldier_v2_groinpouch_black",
+      "MaxPriceThreshold": 4000,
+      "MinPriceThreshold": 4000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_russiansoldier_v2_groinpouch_alpine",
+        "tgk_russiansoldier_v2_groinpouch_black_mc",
+        "tgk_russiansoldier_v2_groinpouch_emr",
+        "tgk_russiansoldier_v2_groinpouch_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_russiansoldier_v2_helmet_black",
+      "MaxPriceThreshold": 8000,
+      "MinPriceThreshold": 8000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_russiansoldier_v2_helmet_alpine",
+        "tgk_russiansoldier_v2_helmet_black_mc",
+        "tgk_russiansoldier_v2_helmet_emr",
+        "tgk_russiansoldier_v2_helmet_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_russiansoldier_v2_magpouchbig_black",
+      "MaxPriceThreshold": 4000,
+      "MinPriceThreshold": 4000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_russiansoldier_v2_magpouchbig_alpine",
+        "tgk_russiansoldier_v2_magpouchbig_black_mc",
+        "tgk_russiansoldier_v2_magpouchbig_emr",
+        "tgk_russiansoldier_v2_magpouchbig_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_russiansoldier_v2_magpouchsmall_black",
+      "MaxPriceThreshold": 4000,
+      "MinPriceThreshold": 4000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_russiansoldier_v2_magpouchsmall_alpine",
+        "tgk_russiansoldier_v2_magpouchsmall_black_mc",
+        "tgk_russiansoldier_v2_magpouchsmall_emr",
+        "tgk_russiansoldier_v2_magpouchsmall_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_russiansoldier_v2_magpouchsmall2_black",
+      "MaxPriceThreshold": 4000,
+      "MinPriceThreshold": 4000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_russiansoldier_v2_magpouchsmall2_alpine",
+        "tgk_russiansoldier_v2_magpouchsmall2_black_mc",
+        "tgk_russiansoldier_v2_magpouchsmall2_emr",
+        "tgk_russiansoldier_v2_magpouchsmall2_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_russiansoldier_v2_medpouch_black",
+      "MaxPriceThreshold": 4000,
+      "MinPriceThreshold": 4000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_russiansoldier_v2_medpouch_alpine",
+        "tgk_russiansoldier_v2_medpouch_black_mc",
+        "tgk_russiansoldier_v2_medpouch_emr",
+        "tgk_russiansoldier_v2_medpouch_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_russiansoldier_v2_pants_black",
+      "MaxPriceThreshold": 12000,
+      "MinPriceThreshold": 12000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_russiansoldier_v2_pants_alpine",
+        "tgk_russiansoldier_v2_pants_black_mc",
+        "tgk_russiansoldier_v2_pants_emr",
+        "tgk_russiansoldier_v2_pants_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_russiansoldier_v2_vkpo_black",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_russiansoldier_v2_vkpo_alpine",
+        "tgk_russiansoldier_v2_vkpo_black_mc",
+        "tgk_russiansoldier_v2_vkpo_emr",
+        "tgk_russiansoldier_v2_vkpo_mc"
+      ]
+    }
+  ]
+}

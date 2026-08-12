@@ -1,0 +1,98 @@
+{
+  "m_Version": 12,
+  "DisplayName": "LSD",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "im7s_lsd_adventure",
+      "MaxPriceThreshold": 26640,
+      "MinPriceThreshold": 26640,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_lsd_g_code",
+      "MaxPriceThreshold": 27820,
+      "MinPriceThreshold": 27820,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_lsd_ill",
+      "MaxPriceThreshold": 27105,
+      "MinPriceThreshold": 27105,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_lsd_lemoncarb",
+      "MaxPriceThreshold": 27495,
+      "MinPriceThreshold": 27495,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_lsd_mickey",
+      "MaxPriceThreshold": 26910,
+      "MinPriceThreshold": 26910,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_lsd_offbrand",
+      "MaxPriceThreshold": 27635,
+      "MinPriceThreshold": 27635,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_lsd_rick",
+      "MaxPriceThreshold": 26785,
+      "MinPriceThreshold": 26785,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_lsd_sundaytrip",
+      "MaxPriceThreshold": 27360,
+      "MinPriceThreshold": 27360,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

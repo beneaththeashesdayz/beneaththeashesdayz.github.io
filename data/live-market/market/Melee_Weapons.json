@@ -1,0 +1,149 @@
+{
+  "m_Version": 12,
+  "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_MEELE_WEAPONS",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "baseballbat",
+      "MaxPriceThreshold": 488,
+      "MinPriceThreshold": 488,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "barbedbaseballbat",
+        "nailedbaseballbat"
+      ]
+    },
+    {
+      "ClassName": "brassknuckles_dull",
+      "MaxPriceThreshold": 428,
+      "MinPriceThreshold": 428,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "brassknuckles_shiny"
+      ]
+    },
+    {
+      "ClassName": "broom",
+      "MaxPriceThreshold": 293,
+      "MinPriceThreshold": 293,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "broom_birch"
+      ]
+    },
+    {
+      "ClassName": "iceaxe",
+      "MaxPriceThreshold": 1313,
+      "MinPriceThreshold": 1313,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "lugwrench",
+      "MaxPriceThreshold": 728,
+      "MinPriceThreshold": 728,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mace",
+      "MaxPriceThreshold": 713,
+      "MinPriceThreshold": 713,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "meattenderizer",
+      "MaxPriceThreshold": 514,
+      "MinPriceThreshold": 514,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "pipe",
+      "MaxPriceThreshold": 473,
+      "MinPriceThreshold": 473,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "pipewrench",
+      "MaxPriceThreshold": 784,
+      "MinPriceThreshold": 784,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "spearbone",
+      "MaxPriceThreshold": 619,
+      "MinPriceThreshold": 619,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "spearstone",
+      "MaxPriceThreshold": 581,
+      "MinPriceThreshold": 581,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "stunbaton",
+      "MaxPriceThreshold": 353,
+      "MinPriceThreshold": 353,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

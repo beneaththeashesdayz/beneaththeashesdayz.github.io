@@ -1,0 +1,53 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Motorhome Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "motorhome_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "motorhome_driverdoor2",
+        "motorhome_driverdoorgreencamo",
+        "motorhome_driverrust"
+      ]
+    },
+    {
+      "ClassName": "motorhome_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "motorhome_hood2",
+        "motorhome_hood2greencamo",
+        "motorhome_hood2rust",
+        "motorhome_hoodgreencamo",
+        "motorhome_hoodrust"
+      ]
+    },
+    {
+      "ClassName": "motorhomerv_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Can-AM Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "mbm_canam_doors_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mbm_canam_doors_codriver_blue",
+        "mbm_canam_doors_codriver_green",
+        "mbm_canam_doors_codriver_grey",
+        "mbm_canam_doors_codriver_pink"
+      ]
+    },
+    {
+      "ClassName": "mbm_canam_doors_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mbm_canam_doors_driver_blue",
+        "mbm_canam_doors_driver_green",
+        "mbm_canam_doors_driver_grey",
+        "mbm_canam_doors_driver_pink"
+      ]
+    },
+    {
+      "ClassName": "mbm_canam_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mbm_canam_wheel_blue",
+        "mbm_canam_wheel_green",
+        "mbm_canam_wheel_grey",
+        "mbm_canam_wheel_pink"
+      ]
+    }
+  ]
+}

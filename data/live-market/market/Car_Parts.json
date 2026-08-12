@@ -1,0 +1,2272 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Car Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "armada_bearcat_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "armada_bearcat_cargo1_black"
+      ]
+    },
+    {
+      "ClassName": "armada_bearcat_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "armada_bearcat_cargo2_black"
+      ]
+    },
+    {
+      "ClassName": "armada_bearcat_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "armada_bearcat_codriver_black"
+      ]
+    },
+    {
+      "ClassName": "armada_bearcat_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "armada_bearcat_driver_black"
+      ]
+    },
+    {
+      "ClassName": "armada_bearcat_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "armada_bearcat_hood_black"
+      ]
+    },
+    {
+      "ClassName": "armada_bearcat_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "armada_bearcat_trunk_black"
+      ]
+    },
+    {
+      "ClassName": "armada_bearcat_wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "camaro_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "camaro_codriver_blue",
+        "camaro_codriver_red",
+        "camaro_codriver_white",
+        "camaro_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "camaro_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "camaro_driver_blue",
+        "camaro_driver_red",
+        "camaro_driver_white",
+        "camaro_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "camaro_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "camaro_hood_blue",
+        "camaro_hood_red",
+        "camaro_hood_white",
+        "camaro_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "camaro_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "camaro_trunk_blue",
+        "camaro_trunk_red",
+        "camaro_trunk_white",
+        "camaro_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "camarowheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "chevelle1970_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevelle1970_codriver_blue",
+        "chevelle1970_codriver_red",
+        "chevelle1970_codriver_white",
+        "chevelle1970_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevelle1970_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevelle1970_driver_blue",
+        "chevelle1970_driver_red",
+        "chevelle1970_driver_white",
+        "chevelle1970_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevelle1970_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevelle1970_hood_blue",
+        "chevelle1970_hood_red",
+        "chevelle1970_hood_white",
+        "chevelle1970_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevelle1970_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevelle1970_trunk_blue",
+        "chevelle1970_trunk_red",
+        "chevelle1970_trunk_white",
+        "chevelle1970_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevelle1970wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dodgecharger_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodgecharger_codriver_blue",
+        "dodgecharger_codriver_green",
+        "dodgecharger_codriver_lightblue",
+        "dodgecharger_codriver_pink",
+        "dodgecharger_codriver_red",
+        "dodgecharger_codriver_white"
+      ]
+    },
+    {
+      "ClassName": "dodgecharger_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodgecharger_driverdoor_blue",
+        "dodgecharger_driverdoor_green",
+        "dodgecharger_driverdoor_lightblue",
+        "dodgecharger_driverdoor_pink",
+        "dodgecharger_driverdoor_red",
+        "dodgecharger_driverdoor_white"
+      ]
+    },
+    {
+      "ClassName": "e60_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "e60_cargo1_blue",
+        "e60_cargo1_red",
+        "e60_cargo1_white",
+        "e60_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "e60_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "e60_cargo2_blue",
+        "e60_cargo2_red",
+        "e60_cargo2_white",
+        "e60_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "e60_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "e60_codriver_blue",
+        "e60_codriver_red",
+        "e60_codriver_white",
+        "e60_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "e60_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "e60_driver_blue",
+        "e60_driver_red",
+        "e60_driver_white",
+        "e60_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "e60_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "e60_hood_blue",
+        "e60_hood_red",
+        "e60_hood_white",
+        "e60_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "e60_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "e60_trunk_blue",
+        "e60_trunk_red",
+        "e60_trunk_white",
+        "e60_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "e60wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "esc_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "esc_cargo1_blue",
+        "esc_cargo1_red",
+        "esc_cargo1_white",
+        "esc_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "esc_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "esc_cargo2_blue",
+        "esc_cargo2_red",
+        "esc_cargo2_white",
+        "esc_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "esc_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "esc_codriver_blue",
+        "esc_codriver_red",
+        "esc_codriver_white",
+        "esc_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "esc_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "esc_driver_blue",
+        "esc_driver_red",
+        "esc_driver_white",
+        "esc_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "esc_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "esc_hood_blue",
+        "esc_hood_red",
+        "esc_hood_white",
+        "esc_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "esc_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "esc_trunk_blue",
+        "esc_trunk_red",
+        "esc_trunk_white",
+        "esc_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "escwheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "gt63_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "gt63_cargo1_blue",
+        "gt63_cargo1_red",
+        "gt63_cargo1_white",
+        "gt63_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "gt63_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "gt63_cargo2_blue",
+        "gt63_cargo2_red",
+        "gt63_cargo2_white",
+        "gt63_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "gt63_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "gt63_codriver_blue",
+        "gt63_codriver_red",
+        "gt63_codriver_white",
+        "gt63_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "gt63_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "gt63_driver_blue",
+        "gt63_driver_red",
+        "gt63_driver_white",
+        "gt63_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "gt63_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "gt63_hood_blue",
+        "gt63_hood_red",
+        "gt63_hood_white",
+        "gt63_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "gt63_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "gt63_trunk_blue",
+        "gt63_trunk_red",
+        "gt63_trunk_white",
+        "gt63_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "gt63wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "hennesseyf150d_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hennesseyf150d_cargo1_blue",
+        "hennesseyf150d_cargo1_red",
+        "hennesseyf150d_cargo1_white",
+        "hennesseyf150d_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "hennesseyf150d_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hennesseyf150d_cargo2_blue",
+        "hennesseyf150d_cargo2_red",
+        "hennesseyf150d_cargo2_white",
+        "hennesseyf150d_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "hennesseyf150d_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hennesseyf150d_codriver_blue",
+        "hennesseyf150d_codriver_red",
+        "hennesseyf150d_codriver_white",
+        "hennesseyf150d_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "hennesseyf150d_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hennesseyf150d_driver_blue",
+        "hennesseyf150d_driver_red",
+        "hennesseyf150d_driver_white",
+        "hennesseyf150d_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "hennesseyf150d_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hennesseyf150d_hood_blue",
+        "hennesseyf150d_hood_red",
+        "hennesseyf150d_hood_white",
+        "hennesseyf150d_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "hennesseyf150d_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hennesseyf150d_trunk_blue",
+        "hennesseyf150d_trunk_red",
+        "hennesseyf150d_trunk_white",
+        "hennesseyf150d_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "hennesseyf150dwheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "m3_g80_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m3_g80_cargo1_blue",
+        "m3_g80_cargo1_police",
+        "m3_g80_cargo1_police2",
+        "m3_g80_cargo1_red",
+        "m3_g80_cargo1_white",
+        "m3_g80_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "m3_g80_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m3_g80_cargo2_blue",
+        "m3_g80_cargo2_police",
+        "m3_g80_cargo2_police2",
+        "m3_g80_cargo2_red",
+        "m3_g80_cargo2_white",
+        "m3_g80_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "m3_g80_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m3_g80_codriver_blue",
+        "m3_g80_codriver_police",
+        "m3_g80_codriver_police2",
+        "m3_g80_codriver_red",
+        "m3_g80_codriver_white",
+        "m3_g80_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "m3_g80_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m3_g80_driver_blue",
+        "m3_g80_driver_police",
+        "m3_g80_driver_police2",
+        "m3_g80_driver_red",
+        "m3_g80_driver_white",
+        "m3_g80_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "m3_g80_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m3_g80_hood_blue",
+        "m3_g80_hood_police",
+        "m3_g80_hood_police2",
+        "m3_g80_hood_red",
+        "m3_g80_hood_white",
+        "m3_g80_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "m3_g80_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m3_g80_trunk_blue",
+        "m3_g80_trunk_police",
+        "m3_g80_trunk_police2",
+        "m3_g80_trunk_red",
+        "m3_g80_trunk_white",
+        "m3_g80_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "m3_g80wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "m4w_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m4w_codriver_black",
+        "m4w_codriver_blue",
+        "m4w_codriver_red",
+        "m4w_codriver_white",
+        "m4w_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "m4w_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m4w_driver_black",
+        "m4w_driver_blue",
+        "m4w_driver_red",
+        "m4w_driver_white",
+        "m4w_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "m4w_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m4w_hood_black",
+        "m4w_hood_blue",
+        "m4w_hood_red",
+        "m4w_hood_white",
+        "m4w_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "m4w_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m4w_trunk_black",
+        "m4w_trunk_blue",
+        "m4w_trunk_red",
+        "m4w_trunk_white",
+        "m4w_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "m4wwheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "m5_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m5_cargo1_blue",
+        "m5_cargo1_red",
+        "m5_cargo1_white",
+        "m5_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "m5_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m5_cargo2_blue",
+        "m5_cargo2_red",
+        "m5_cargo2_white",
+        "m5_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "m5_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m5_codriver_blue",
+        "m5_codriver_red",
+        "m5_codriver_white",
+        "m5_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "m5_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m5_driver_blue",
+        "m5_driver_red",
+        "m5_driver_white",
+        "m5_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "m5_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m5_hood_blue",
+        "m5_hood_red",
+        "m5_hood_white",
+        "m5_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "m5_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m5_trunk_blue",
+        "m5_trunk_red",
+        "m5_trunk_white",
+        "m5_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "m5wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mk5_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mk5_codriver_blue",
+        "mk5_codriver_red",
+        "mk5_codriver_white",
+        "mk5_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "mk5_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mk5_driver_blue",
+        "mk5_driver_red",
+        "mk5_driver_white",
+        "mk5_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "mk5_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mk5_hood_blue",
+        "mk5_hood_red",
+        "mk5_hood_white",
+        "mk5_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "mk5_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mk5_trunk_blue",
+        "mk5_trunk_red",
+        "mk5_trunk_white",
+        "mk5_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "mk5wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "star_audi_rs5_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_audi_rs5_codriver_blue",
+        "star_audi_rs5_codriver_carbon",
+        "star_audi_rs5_codriver_orange",
+        "star_audi_rs5_codriver_pink",
+        "star_audi_rs5_codriver_red",
+        "star_audi_rs5_codriver_silver",
+        "star_audi_rs5_codriver_white",
+        "star_audi_rs5_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_audi_rs5_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_audi_rs5_driver_blue",
+        "star_audi_rs5_driver_carbon",
+        "star_audi_rs5_driver_orange",
+        "star_audi_rs5_driver_pink",
+        "star_audi_rs5_driver_red",
+        "star_audi_rs5_driver_silver",
+        "star_audi_rs5_driver_white",
+        "star_audi_rs5_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_audi_rs5_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_audi_rs5_hood_blue",
+        "star_audi_rs5_hood_carbon",
+        "star_audi_rs5_hood_orange",
+        "star_audi_rs5_hood_pink",
+        "star_audi_rs5_hood_red",
+        "star_audi_rs5_hood_silver",
+        "star_audi_rs5_hood_white",
+        "star_audi_rs5_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_audi_rs5_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_audi_rs5_trunk_blue",
+        "star_audi_rs5_trunk_carbon",
+        "star_audi_rs5_trunk_orange",
+        "star_audi_rs5_trunk_pink",
+        "star_audi_rs5_trunk_red",
+        "star_audi_rs5_trunk_silver",
+        "star_audi_rs5_trunk_white",
+        "star_audi_rs5_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_audi_rs5_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_audi_rs5_wheel_blue",
+        "star_audi_rs5_wheel_carbon",
+        "star_audi_rs5_wheel_orange",
+        "star_audi_rs5_wheel_pink",
+        "star_audi_rs5_wheel_red",
+        "star_audi_rs5_wheel_silver",
+        "star_audi_rs5_wheel_white",
+        "star_audi_rs5_wheel_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_bmw_g81_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_bmw_g81_cargo1_black",
+        "star_bmw_g81_cargo1_blue",
+        "star_bmw_g81_cargo1_red",
+        "star_bmw_g81_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_bmw_g81_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_bmw_g81_cargo2_black",
+        "star_bmw_g81_cargo2_blue",
+        "star_bmw_g81_cargo2_red",
+        "star_bmw_g81_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_bmw_g81_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_bmw_g81_codriver_black",
+        "star_bmw_g81_codriver_blue",
+        "star_bmw_g81_codriver_red",
+        "star_bmw_g81_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_bmw_g81_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_bmw_g81_driver_black",
+        "star_bmw_g81_driver_blue",
+        "star_bmw_g81_driver_red",
+        "star_bmw_g81_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_bmw_g81_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_bmw_g81_hood_black",
+        "star_bmw_g81_hood_blue",
+        "star_bmw_g81_hood_red",
+        "star_bmw_g81_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_bmw_g81_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_bmw_g81_trunk_black",
+        "star_bmw_g81_trunk_blue",
+        "star_bmw_g81_trunk_red",
+        "star_bmw_g81_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_bmw_g81_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_bmw_g81_wheel_blue",
+        "star_bmw_g81_wheel_red",
+        "star_bmw_g81_wheel_white",
+        "star_bmw_g81_wheel_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_chevrolet_z71_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_chevrolet_z71_cargo1_blue",
+        "star_chevrolet_z71_cargo1_brown",
+        "star_chevrolet_z71_cargo1_orange",
+        "star_chevrolet_z71_cargo1_pink",
+        "star_chevrolet_z71_cargo1_red",
+        "star_chevrolet_z71_cargo1_white",
+        "star_chevrolet_z71_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_chevrolet_z71_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_chevrolet_z71_cargo2_blue",
+        "star_chevrolet_z71_cargo2_brown",
+        "star_chevrolet_z71_cargo2_orange",
+        "star_chevrolet_z71_cargo2_pink",
+        "star_chevrolet_z71_cargo2_red",
+        "star_chevrolet_z71_cargo2_white",
+        "star_chevrolet_z71_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_chevrolet_z71_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_chevrolet_z71_codriver_blue",
+        "star_chevrolet_z71_codriver_brown",
+        "star_chevrolet_z71_codriver_orange",
+        "star_chevrolet_z71_codriver_pink",
+        "star_chevrolet_z71_codriver_red",
+        "star_chevrolet_z71_codriver_white",
+        "star_chevrolet_z71_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_chevrolet_z71_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_chevrolet_z71_driver_blue",
+        "star_chevrolet_z71_driver_brown",
+        "star_chevrolet_z71_driver_orange",
+        "star_chevrolet_z71_driver_pink",
+        "star_chevrolet_z71_driver_red",
+        "star_chevrolet_z71_driver_white",
+        "star_chevrolet_z71_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_chevrolet_z71_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_chevrolet_z71_hood_blue",
+        "star_chevrolet_z71_hood_brown",
+        "star_chevrolet_z71_hood_orange",
+        "star_chevrolet_z71_hood_pink",
+        "star_chevrolet_z71_hood_red",
+        "star_chevrolet_z71_hood_white",
+        "star_chevrolet_z71_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_chevrolet_z71_lifted_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "star_chevrolet_z71_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_chevrolet_z71_trunk_blue",
+        "star_chevrolet_z71_trunk_brown",
+        "star_chevrolet_z71_trunk_orange",
+        "star_chevrolet_z71_trunk_pink",
+        "star_chevrolet_z71_trunk_red",
+        "star_chevrolet_z71_trunk_white",
+        "star_chevrolet_z71_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_chevrolet_z71_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "star_hummer_h1_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_cargo1_blue",
+        "star_hummer_h1_cargo1_carbon",
+        "star_hummer_h1_cargo1_orange",
+        "star_hummer_h1_cargo1_pink",
+        "star_hummer_h1_cargo1_red",
+        "star_hummer_h1_cargo1_white",
+        "star_hummer_h1_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_cargo2_blue",
+        "star_hummer_h1_cargo2_carbon",
+        "star_hummer_h1_cargo2_orange",
+        "star_hummer_h1_cargo2_pink",
+        "star_hummer_h1_cargo2_red",
+        "star_hummer_h1_cargo2_white",
+        "star_hummer_h1_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_cargo3",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_cargo3_blue",
+        "star_hummer_h1_cargo3_carbon",
+        "star_hummer_h1_cargo3_orange",
+        "star_hummer_h1_cargo3_pink",
+        "star_hummer_h1_cargo3_red",
+        "star_hummer_h1_cargo3_white",
+        "star_hummer_h1_cargo3_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_codriver_blue",
+        "star_hummer_h1_codriver_carbon",
+        "star_hummer_h1_codriver_orange",
+        "star_hummer_h1_codriver_pink",
+        "star_hummer_h1_codriver_red",
+        "star_hummer_h1_codriver_white",
+        "star_hummer_h1_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_driver_blue",
+        "star_hummer_h1_driver_carbon",
+        "star_hummer_h1_driver_orange",
+        "star_hummer_h1_driver_pink",
+        "star_hummer_h1_driver_red",
+        "star_hummer_h1_driver_white",
+        "star_hummer_h1_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_hood_blue",
+        "star_hummer_h1_hood_carbon",
+        "star_hummer_h1_hood_orange",
+        "star_hummer_h1_hood_pink",
+        "star_hummer_h1_hood_red",
+        "star_hummer_h1_hood_white",
+        "star_hummer_h1_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_trunk_blue",
+        "star_hummer_h1_trunk_carbon",
+        "star_hummer_h1_trunk_orange",
+        "star_hummer_h1_trunk_pink",
+        "star_hummer_h1_trunk_red",
+        "star_hummer_h1_trunk_white",
+        "star_hummer_h1_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_wheel_blue",
+        "star_hummer_h1_wheel_carbon",
+        "star_hummer_h1_wheel_orange",
+        "star_hummer_h1_wheel_pink",
+        "star_hummer_h1_wheel_red",
+        "star_hummer_h1_wheel_white",
+        "star_hummer_h1_wheel_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_jeep_rubi_extra_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_jeep_rubi_extra_cargo1_blue",
+        "star_jeep_rubi_extra_cargo1_carbon",
+        "star_jeep_rubi_extra_cargo1_orange",
+        "star_jeep_rubi_extra_cargo1_pink",
+        "star_jeep_rubi_extra_cargo1_red",
+        "star_jeep_rubi_extra_cargo1_white",
+        "star_jeep_rubi_extra_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_jeep_rubi_extra_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_jeep_rubi_extra_cargo2_blue",
+        "star_jeep_rubi_extra_cargo2_carbon",
+        "star_jeep_rubi_extra_cargo2_orange",
+        "star_jeep_rubi_extra_cargo2_pink",
+        "star_jeep_rubi_extra_cargo2_red",
+        "star_jeep_rubi_extra_cargo2_white",
+        "star_jeep_rubi_extra_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_jeep_rubi_extra_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_jeep_rubi_extra_codriver_blue",
+        "star_jeep_rubi_extra_codriver_carbon",
+        "star_jeep_rubi_extra_codriver_orange",
+        "star_jeep_rubi_extra_codriver_pink",
+        "star_jeep_rubi_extra_codriver_red",
+        "star_jeep_rubi_extra_codriver_white",
+        "star_jeep_rubi_extra_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_jeep_rubi_extra_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_jeep_rubi_extra_driver_blue",
+        "star_jeep_rubi_extra_driver_carbon",
+        "star_jeep_rubi_extra_driver_orange",
+        "star_jeep_rubi_extra_driver_pink",
+        "star_jeep_rubi_extra_driver_red",
+        "star_jeep_rubi_extra_driver_white",
+        "star_jeep_rubi_extra_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_jeep_rubi_extra_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_jeep_rubi_extra_hood_blue",
+        "star_jeep_rubi_extra_hood_carbon",
+        "star_jeep_rubi_extra_hood_orange",
+        "star_jeep_rubi_extra_hood_pink",
+        "star_jeep_rubi_extra_hood_red",
+        "star_jeep_rubi_extra_hood_white",
+        "star_jeep_rubi_extra_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_jeep_rubi_extra_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_jeep_rubi_extra_trunk_blue",
+        "star_jeep_rubi_extra_trunk_carbon",
+        "star_jeep_rubi_extra_trunk_orange",
+        "star_jeep_rubi_extra_trunk_pink",
+        "star_jeep_rubi_extra_trunk_red",
+        "star_jeep_rubi_extra_trunk_white",
+        "star_jeep_rubi_extra_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_jeep_rubi_extra_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_jeep_rubi_extra_wheel_blue",
+        "star_jeep_rubi_extra_wheel_carbon",
+        "star_jeep_rubi_extra_wheel_orange",
+        "star_jeep_rubi_extra_wheel_pink",
+        "star_jeep_rubi_extra_wheel_red",
+        "star_jeep_rubi_extra_wheel_white",
+        "star_jeep_rubi_extra_wheel_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_cargo1_blue",
+        "star_rover_defender_cargo1_braun",
+        "star_rover_defender_cargo1_green",
+        "star_rover_defender_cargo1_orange",
+        "star_rover_defender_cargo1_pink",
+        "star_rover_defender_cargo1_red",
+        "star_rover_defender_cargo1_white",
+        "star_rover_defender_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_cargo2_blue",
+        "star_rover_defender_cargo2_braun",
+        "star_rover_defender_cargo2_green",
+        "star_rover_defender_cargo2_orange",
+        "star_rover_defender_cargo2_pink",
+        "star_rover_defender_cargo2_red",
+        "star_rover_defender_cargo2_white",
+        "star_rover_defender_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_cargo3",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_cargo3_blue",
+        "star_rover_defender_cargo3_braun",
+        "star_rover_defender_cargo3_green",
+        "star_rover_defender_cargo3_orange",
+        "star_rover_defender_cargo3_pink",
+        "star_rover_defender_cargo3_red",
+        "star_rover_defender_cargo3_white",
+        "star_rover_defender_cargo3_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_codriver_blue",
+        "star_rover_defender_codriver_braun",
+        "star_rover_defender_codriver_green",
+        "star_rover_defender_codriver_orange",
+        "star_rover_defender_codriver_pink",
+        "star_rover_defender_codriver_red",
+        "star_rover_defender_codriver_white",
+        "star_rover_defender_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_driver_blue",
+        "star_rover_defender_driver_braun",
+        "star_rover_defender_driver_green",
+        "star_rover_defender_driver_orange",
+        "star_rover_defender_driver_pink",
+        "star_rover_defender_driver_red",
+        "star_rover_defender_driver_white",
+        "star_rover_defender_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_hood_blue",
+        "star_rover_defender_hood_braun",
+        "star_rover_defender_hood_green",
+        "star_rover_defender_hood_orange",
+        "star_rover_defender_hood_pink",
+        "star_rover_defender_hood_red",
+        "star_rover_defender_hood_white",
+        "star_rover_defender_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_trunk_blue",
+        "star_rover_defender_trunk_braun",
+        "star_rover_defender_trunk_green",
+        "star_rover_defender_trunk_orange",
+        "star_rover_defender_trunk_pink",
+        "star_rover_defender_trunk_red",
+        "star_rover_defender_trunk_white",
+        "star_rover_defender_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_wheel_blue",
+        "star_rover_defender_wheel_braun",
+        "star_rover_defender_wheel_green",
+        "star_rover_defender_wheel_orange",
+        "star_rover_defender_wheel_pink",
+        "star_rover_defender_wheel_red",
+        "star_rover_defender_wheel_white",
+        "star_rover_defender_wheel_yellow"
+      ]
+    },
+    {
+      "ClassName": "toyota_86_codriver_door",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "toyota_86_codriver_door_black",
+        "toyota_86_codriver_door_lightblue",
+        "toyota_86_codriver_door_red",
+        "toyota_86_codriver_door_white",
+        "toyota_86_codriver_door_yellow"
+      ]
+    },
+    {
+      "ClassName": "toyota_86_driver_door",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "toyota_86_driver_door_black",
+        "toyota_86_driver_door_lightblue",
+        "toyota_86_driver_door_red",
+        "toyota_86_driver_door_white",
+        "toyota_86_driver_door_yellow"
+      ]
+    },
+    {
+      "ClassName": "toyota_86_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "toyota_86_hood_black",
+        "toyota_86_hood_lightblue",
+        "toyota_86_hood_red",
+        "toyota_86_hood_white",
+        "toyota_86_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "toyota_86_rb_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "toyota_86_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "toyota_86_trunk_black",
+        "toyota_86_trunk_lightblue",
+        "toyota_86_trunk_red",
+        "toyota_86_trunk_white",
+        "toyota_86_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "tundra_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tundra_cargo1_blue",
+        "tundra_cargo1_red",
+        "tundra_cargo1_white",
+        "tundra_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "tundra_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tundra_cargo2_blue",
+        "tundra_cargo2_red",
+        "tundra_cargo2_white",
+        "tundra_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "tundra_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tundra_codriver_blue",
+        "tundra_codriver_red",
+        "tundra_codriver_white",
+        "tundra_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "tundra_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tundra_driver_blue",
+        "tundra_driver_red",
+        "tundra_driver_white",
+        "tundra_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "tundra_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tundra_hood_blue",
+        "tundra_hood_red",
+        "tundra_hood_white",
+        "tundra_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "tundra_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tundra_trunk_blue",
+        "tundra_trunk_red",
+        "tundra_trunk_white",
+        "tundra_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "tundrawheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "widebody_hellcat_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "widebody_hellcat_codriver_blue",
+        "widebody_hellcat_codriver_red",
+        "widebody_hellcat_codriver_white",
+        "widebody_hellcat_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "widebody_hellcat_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "widebody_hellcat_driver_blue",
+        "widebody_hellcat_driver_red",
+        "widebody_hellcat_driver_white",
+        "widebody_hellcat_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "widebody_hellcat_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "widebody_hellcat_hood_blue",
+        "widebody_hellcat_hood_red",
+        "widebody_hellcat_hood_white",
+        "widebody_hellcat_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "widebody_hellcat_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "widebody_hellcat_trunk_blue",
+        "widebody_hellcat_trunk_red",
+        "widebody_hellcat_trunk_white",
+        "widebody_hellcat_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "widebody_hellcatwheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "x5mcompetition_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "x5mcompetition_cargo1_blue",
+        "x5mcompetition_cargo1_carbon",
+        "x5mcompetition_cargo1_orange",
+        "x5mcompetition_cargo1_pink",
+        "x5mcompetition_cargo1_red",
+        "x5mcompetition_cargo1_white",
+        "x5mcompetition_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "x5mcompetition_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "x5mcompetition_cargo2_blue",
+        "x5mcompetition_cargo2_carbon",
+        "x5mcompetition_cargo2_orange",
+        "x5mcompetition_cargo2_pink",
+        "x5mcompetition_cargo2_red",
+        "x5mcompetition_cargo2_white",
+        "x5mcompetition_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "x5mcompetition_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "x5mcompetition_codriver_blue",
+        "x5mcompetition_codriver_carbon",
+        "x5mcompetition_codriver_orange",
+        "x5mcompetition_codriver_pink",
+        "x5mcompetition_codriver_red",
+        "x5mcompetition_codriver_white",
+        "x5mcompetition_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "x5mcompetition_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "x5mcompetition_driver_blue",
+        "x5mcompetition_driver_carbon",
+        "x5mcompetition_driver_orange",
+        "x5mcompetition_driver_pink",
+        "x5mcompetition_driver_red",
+        "x5mcompetition_driver_white",
+        "x5mcompetition_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "x5mcompetition_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "x5mcompetition_hood_blue",
+        "x5mcompetition_hood_carbon",
+        "x5mcompetition_hood_orange",
+        "x5mcompetition_hood_pink",
+        "x5mcompetition_hood_red",
+        "x5mcompetition_hood_white",
+        "x5mcompetition_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "x5mcompetition_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "x5mcompetition_trunk_blue",
+        "x5mcompetition_trunk_carbon",
+        "x5mcompetition_trunk_orange",
+        "x5mcompetition_trunk_pink",
+        "x5mcompetition_trunk_red",
+        "x5mcompetition_trunk_white",
+        "x5mcompetition_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "x5mcompetition_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

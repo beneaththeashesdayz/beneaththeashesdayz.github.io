@@ -1,0 +1,143 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Casual Soldier Gear Set",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "tgk_casual_backpack_black",
+      "MaxPriceThreshold": 4000,
+      "MinPriceThreshold": 4000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_casual_backpack_blue",
+        "tgk_casual_backpack_camodesert",
+        "tgk_casual_backpack_green",
+        "tgk_casual_backpack_red",
+        "tgk_casual_backpack_tan"
+      ]
+    },
+    {
+      "ClassName": "tgk_casual_belt_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_casual_belt_green",
+        "tgk_casual_belt_tan"
+      ]
+    },
+    {
+      "ClassName": "tgk_casual_boots_black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_casual_boots_gray",
+        "tgk_casual_boots_tan"
+      ]
+    },
+    {
+      "ClassName": "tgk_casual_hat_black",
+      "MaxPriceThreshold": 3000,
+      "MinPriceThreshold": 3000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_casual_hat_gray",
+        "tgk_casual_hat_green",
+        "tgk_casual_hat_tan"
+      ]
+    },
+    {
+      "ClassName": "tgk_casual_medpouch_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_casual_medpouch_tan"
+      ]
+    },
+    {
+      "ClassName": "tgk_casual_pants_black",
+      "MaxPriceThreshold": 6000,
+      "MinPriceThreshold": 6000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_casual_pants_blue",
+        "tgk_casual_pants_camodesert",
+        "tgk_casual_pants_camogreen",
+        "tgk_casual_pants_gray"
+      ]
+    },
+    {
+      "ClassName": "tgk_casual_pouch1_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_casual_pouch1_camodesert",
+        "tgk_casual_pouch1_green",
+        "tgk_casual_pouch1_tan"
+      ]
+    },
+    {
+      "ClassName": "tgk_casual_respirator_black",
+      "MaxPriceThreshold": 4000,
+      "MinPriceThreshold": 4000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_casual_respirator_white"
+      ]
+    },
+    {
+      "ClassName": "tgk_casual_top_black",
+      "MaxPriceThreshold": 8000,
+      "MinPriceThreshold": 8000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_casual_top_blue",
+        "tgk_casual_top_gray",
+        "tgk_casual_top_green",
+        "tgk_casual_top_tan"
+      ]
+    }
+  ]
+}

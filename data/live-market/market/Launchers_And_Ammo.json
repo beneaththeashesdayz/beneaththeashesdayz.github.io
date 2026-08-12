@@ -1,0 +1,65 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Launchers, Ammo & Blackbox",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "aysa_antiairmissile",
+      "MaxPriceThreshold": 8750,
+      "MinPriceThreshold": 8750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "aysa_antiairquadlauncher",
+      "MaxPriceThreshold": 22500,
+      "MinPriceThreshold": 22500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "aysa_blackbox",
+      "MaxPriceThreshold": 12500,
+      "MinPriceThreshold": 12500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "aysa_missilemag",
+      "MaxPriceThreshold": 6250,
+      "MinPriceThreshold": 6250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "aysa_seekerscope",
+      "MaxPriceThreshold": 4250,
+      "MinPriceThreshold": 4250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

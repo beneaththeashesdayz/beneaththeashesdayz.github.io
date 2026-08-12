@@ -1,0 +1,35 @@
+{
+  "m_Version": 6,
+  "m_DisplayName": "Main Medicals Trader",
+  "Position": [
+    7284.71484375,
+    260.51800537109375,
+    7076.1748046875
+  ],
+  "Radius": 5.0,
+  "BuyPricePercent": 100.0,
+  "SellPricePercent": 1.0,
+  "Stock": {
+    "gasmask_filter": 0,
+    "bandagedressing": 1,
+    "disinfectantalcohol": 1,
+    "painkillertablets": 1,
+    "tetracyclineantibiotics": 1,
+    "charcoaltablets": 1,
+    "morphine": 0,
+    "firstaidkit": 1,
+    "thermometer": 1,
+    "disinfectantspray": 1,
+    "heatpack": 0,
+    "purificationtablets": 1,
+    "bloodtestkit": 1,
+    "chelatingtablets": 1,
+    "epinephrine": 1,
+    "anticheminjector": 0,
+    "vitaminbottle": 1,
+    "salinebag": 0,
+    "bloodbagempty": 1,
+    "iodinetincture": 1,
+    "startkitiv": 1
+  }
+}

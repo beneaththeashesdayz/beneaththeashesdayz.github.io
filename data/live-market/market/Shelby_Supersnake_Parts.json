@@ -1,0 +1,89 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Shelby Supersnake Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "shelby_supersnake_codriverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "shelby_supersnake_codriverdoor_blue",
+        "shelby_supersnake_codriverdoor_darkblue",
+        "shelby_supersnake_codriverdoor_orange",
+        "shelby_supersnake_codriverdoor_red",
+        "shelby_supersnake_codriverdoor_white"
+      ]
+    },
+    {
+      "ClassName": "shelby_supersnake_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "shelby_supersnake_driverdoor_blue",
+        "shelby_supersnake_driverdoor_darkblue",
+        "shelby_supersnake_driverdoor_orange",
+        "shelby_supersnake_driverdoor_red",
+        "shelby_supersnake_driverdoor_white"
+      ]
+    },
+    {
+      "ClassName": "shelby_supersnake_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "shelby_supersnake_hood_blue",
+        "shelby_supersnake_hood_darkblue",
+        "shelby_supersnake_hood_orange",
+        "shelby_supersnake_hood_red",
+        "shelby_supersnake_hood_white"
+      ]
+    },
+    {
+      "ClassName": "shelby_supersnake_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "shelby_supersnake_trunk_blue",
+        "shelby_supersnake_trunk_darkblue",
+        "shelby_supersnake_trunk_orange",
+        "shelby_supersnake_trunk_red",
+        "shelby_supersnake_trunk_white"
+      ]
+    },
+    {
+      "ClassName": "shelby_supersnake_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

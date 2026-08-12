@@ -1,0 +1,93 @@
+{
+  "m_Version": 12,
+  "DisplayName": "BMW M3 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "bmw_m3_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bmw_m3_codriver_black",
+        "bmw_m3_codriver_blue",
+        "bmw_m3_codriver_green",
+        "bmw_m3_codriver_midnightblue",
+        "bmw_m3_codriver_orange",
+        "bmw_m3_codriver_red"
+      ]
+    },
+    {
+      "ClassName": "bmw_m3_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bmw_m3_driverdoor_black",
+        "bmw_m3_driverdoor_blue",
+        "bmw_m3_driverdoor_green",
+        "bmw_m3_driverdoor_midnightblue",
+        "bmw_m3_driverdoor_orange",
+        "bmw_m3_driverdoor_red"
+      ]
+    },
+    {
+      "ClassName": "bmw_m3_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bmw_m3_hood_black",
+        "bmw_m3_hood_blue",
+        "bmw_m3_hood_green",
+        "bmw_m3_hood_midnightblue",
+        "bmw_m3_hood_orange",
+        "bmw_m3_hood_red"
+      ]
+    },
+    {
+      "ClassName": "bmw_m3_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bmw_m3_trunk_black",
+        "bmw_m3_trunk_blue",
+        "bmw_m3_trunk_green",
+        "bmw_m3_trunk_midnightblue",
+        "bmw_m3_trunk_orange",
+        "bmw_m3_trunk_red"
+      ]
+    },
+    {
+      "ClassName": "bmw_m3_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

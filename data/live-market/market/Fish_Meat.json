@@ -1,0 +1,54 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Fish Meat",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "carpfilletmeat",
+      "MaxPriceThreshold": 82,
+      "MinPriceThreshold": 82,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mackerelfilletmeat",
+      "MaxPriceThreshold": 83,
+      "MinPriceThreshold": 83,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "steelheadtroutfilletmeat",
+      "MaxPriceThreshold": 96,
+      "MinPriceThreshold": 96,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "walleyepollockfilletmeat",
+      "MaxPriceThreshold": 97,
+      "MinPriceThreshold": 97,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Armored Vehicle",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "armada_bearcat",
+      "MaxPriceThreshold": 24000,
+      "MinPriceThreshold": 24000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "carbattery",
+        "sparkplug",
+        "carradiator",
+        "armada_bearcat_codriver",
+        "armada_bearcat_driver",
+        "armada_bearcat_hood",
+        "armada_bearcat_trunk",
+        "armada_bearcat_cargo1",
+        "armada_bearcat_cargo2",
+        "armada_bearcat_wheel_offroad",
+        "armada_bearcat_wheel_offroad",
+        "armada_bearcat_wheel_offroad",
+        "armada_bearcat_wheel_offroad",
+        "armada_bearcat_wheel_offroad",
+        "headlighth7",
+        "headlighth7"
+      ],
+      "Variants": [
+        "armada_bearcat_black"
+      ]
+    },
+    {
+      "ClassName": "armada_bearcat_black",
+      "MaxPriceThreshold": 24000,
+      "MinPriceThreshold": 24000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "carbattery",
+        "sparkplug",
+        "carradiator",
+        "armada_bearcat_codriver_black",
+        "armada_bearcat_driver_black",
+        "armada_bearcat_hood_black",
+        "armada_bearcat_trunk_black",
+        "armada_bearcat_cargo1_black",
+        "armada_bearcat_cargo2_black",
+        "armada_bearcat_wheel_offroad",
+        "armada_bearcat_wheel_offroad",
+        "armada_bearcat_wheel_offroad",
+        "armada_bearcat_wheel_offroad",
+        "armada_bearcat_wheel_offroad",
+        "headlighth7",
+        "headlighth7"
+      ],
+      "Variants": []
+    }
+  ]
+}

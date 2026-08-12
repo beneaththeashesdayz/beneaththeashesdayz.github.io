@@ -1,0 +1,141 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Audi RS6 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "audi_rs6_abt_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "audi_rs6_abt_cargo1_black",
+        "audi_rs6_abt_cargo1_blue",
+        "audi_rs6_abt_cargo1_green",
+        "audi_rs6_abt_cargo1_midnightblue",
+        "audi_rs6_abt_cargo1_pink",
+        "audi_rs6_abt_cargo1_red",
+        "audi_rs6_abt_cargo1_teal",
+        "audi_rs6_abt_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "audi_rs6_abt_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "audi_rs6_abt_cargo2_black",
+        "audi_rs6_abt_cargo2_blue",
+        "audi_rs6_abt_cargo2_green",
+        "audi_rs6_abt_cargo2_midnightblue",
+        "audi_rs6_abt_cargo2_pink",
+        "audi_rs6_abt_cargo2_red",
+        "audi_rs6_abt_cargo2_teal",
+        "audi_rs6_abt_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "audi_rs6_abt_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "audi_rs6_abt_codriver_black",
+        "audi_rs6_abt_codriver_blue",
+        "audi_rs6_abt_codriver_green",
+        "audi_rs6_abt_codriver_midnightblue",
+        "audi_rs6_abt_codriver_pink",
+        "audi_rs6_abt_codriver_red",
+        "audi_rs6_abt_codriver_teal",
+        "audi_rs6_abt_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "audi_rs6_abt_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "audi_rs6_abt_driver_black",
+        "audi_rs6_abt_driver_blue",
+        "audi_rs6_abt_driver_green",
+        "audi_rs6_abt_driver_midnightblue",
+        "audi_rs6_abt_driver_pink",
+        "audi_rs6_abt_driver_red",
+        "audi_rs6_abt_driver_teal",
+        "audi_rs6_abt_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "audi_rs6_abt_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "audi_rs6_abt_hood_black",
+        "audi_rs6_abt_hood_blue",
+        "audi_rs6_abt_hood_green",
+        "audi_rs6_abt_hood_midnightblue",
+        "audi_rs6_abt_hood_pink",
+        "audi_rs6_abt_hood_red",
+        "audi_rs6_abt_hood_teal",
+        "audi_rs6_abt_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "audi_rs6_abt_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "audi_rs6_abt_trunk_black",
+        "audi_rs6_abt_trunk_blue",
+        "audi_rs6_abt_trunk_green",
+        "audi_rs6_abt_trunk_midnightblue",
+        "audi_rs6_abt_trunk_pink",
+        "audi_rs6_abt_trunk_red",
+        "audi_rs6_abt_trunk_teal",
+        "audi_rs6_abt_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "audi_rs6_abt_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

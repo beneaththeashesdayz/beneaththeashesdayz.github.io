@@ -1,0 +1,53 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Geb's Fishing Gear",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "geb_bluefishgloves",
+      "MaxPriceThreshold": 75,
+      "MinPriceThreshold": 75,
+      "SellPricePercent": 100,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "geb_orangefishgloves"
+      ]
+    },
+    {
+      "ClassName": "geb_bluefishhat",
+      "MaxPriceThreshold": 125,
+      "MinPriceThreshold": 125,
+      "SellPricePercent": 100,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "geb_greenfishhat",
+        "geb_purplefishhat",
+        "geb_redfishhat"
+      ]
+    },
+    {
+      "ClassName": "geb_bluefishshirt",
+      "MaxPriceThreshold": 175,
+      "MinPriceThreshold": 175,
+      "SellPricePercent": 100,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "geb_greenfishshirt",
+        "geb_purplefishshirt",
+        "geb_redfishshirt"
+      ]
+    }
+  ]
+}

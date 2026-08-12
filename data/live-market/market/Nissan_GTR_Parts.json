@@ -1,0 +1,86 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Nissan GTR Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "nissangtr_codriverdoor_black",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "nissangtr_codriverdoor_blue",
+        "nissangtr_codriverdoor_darkpurple",
+        "nissangtr_codriverdoor_green",
+        "nissangtr_codriverdoor_orange",
+        "nissangtr_codriverdoor_pink",
+        "nissangtr_codriverdoor_red",
+        "nissangtr_codriverdoor_white"
+      ]
+    },
+    {
+      "ClassName": "nissangtr_driverdoor_black",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "nissangtr_driverdoor_blue",
+        "nissangtr_driverdoor_darkpurple",
+        "nissangtr_driverdoor_green",
+        "nissangtr_driverdoor_orange",
+        "nissangtr_driverdoor_pink",
+        "nissangtr_driverdoor_red",
+        "nissangtr_driverdoor_white"
+      ]
+    },
+    {
+      "ClassName": "nissangtr_hood_black",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "nissangtr_hood_blue",
+        "nissangtr_hood_darkpurple",
+        "nissangtr_hood_green",
+        "nissangtr_hood_orange",
+        "nissangtr_hood_pink",
+        "nissangtr_hood_red",
+        "nissangtr_hood_white"
+      ]
+    },
+    {
+      "ClassName": "nissangtr_trunk_black",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "nissangtr_trunk_blue",
+        "nissangtr_trunk_darkpurple",
+        "nissangtr_trunk_green",
+        "nissangtr_trunk_orange",
+        "nissangtr_trunk_pink",
+        "nissangtr_trunk_red",
+        "nissangtr_trunk_white"
+      ]
+    }
+  ]
+}

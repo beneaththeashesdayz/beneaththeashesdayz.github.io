@@ -1,0 +1,59 @@
+{
+  "m_Version": 12,
+  "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_BANDANAS",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "bandana_blackpattern",
+      "MaxPriceThreshold": 10285,
+      "MinPriceThreshold": 10285,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "bandana_camopattern",
+      "MaxPriceThreshold": 9820,
+      "MinPriceThreshold": 9820,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "bandana_greenpattern",
+      "MaxPriceThreshold": 10035,
+      "MinPriceThreshold": 10035,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "bandana_redpattern",
+      "MaxPriceThreshold": 10150,
+      "MinPriceThreshold": 10150,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bandana_pink",
+        "bandana_yellow",
+        "bandana_blue",
+        "bandana_polkapattern"
+      ]
+    }
+  ]
+}

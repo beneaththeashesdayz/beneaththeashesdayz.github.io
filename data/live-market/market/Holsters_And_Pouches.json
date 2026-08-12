@@ -1,0 +1,64 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Holsters & Pouches",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "chestholster",
+      "MaxPriceThreshold": 29820,
+      "MinPriceThreshold": 29820,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "nylonknifesheath",
+      "MaxPriceThreshold": 29505,
+      "MinPriceThreshold": 29505,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "platecarrierholster",
+      "MaxPriceThreshold": 30160,
+      "MinPriceThreshold": 30160,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "platecarrierholster_green",
+        "platecarrierholster_black",
+        "platecarrierholster_camo",
+        "platecarrierholster_winter"
+      ]
+    },
+    {
+      "ClassName": "platecarrierpouches",
+      "MaxPriceThreshold": 30365,
+      "MinPriceThreshold": 30365,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "platecarrierpouches_green",
+        "platecarrierpouches_black",
+        "platecarrierpouches_camo",
+        "platecarrierpouches_winter"
+      ]
+    }
+  ]
+}

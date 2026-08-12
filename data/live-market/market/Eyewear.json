@@ -1,0 +1,124 @@
+{
+  "m_Version": 12,
+  "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_EYEWEAR",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "aviatorglasses",
+      "MaxPriceThreshold": 10255,
+      "MinPriceThreshold": 10255,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "designerglasses",
+      "MaxPriceThreshold": 9920,
+      "MinPriceThreshold": 9920,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "eyemask_black",
+      "MaxPriceThreshold": 9710,
+      "MinPriceThreshold": 9710,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "eyemask_blue",
+        "eyemask_christmas",
+        "eyemask_dead",
+        "eyemask_newyears",
+        "eyemask_red",
+        "eyemask_valentines",
+        "eyemask_yellow"
+      ]
+    },
+    {
+      "ClassName": "nvgheadstrap",
+      "MaxPriceThreshold": 10275,
+      "MinPriceThreshold": 10275,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "skigoggles_blackyellow",
+      "MaxPriceThreshold": 10135,
+      "MinPriceThreshold": 10135,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "skigoggles_whiteclear",
+        "skigoggles_whitedark"
+      ]
+    },
+    {
+      "ClassName": "sportglasses_orange",
+      "MaxPriceThreshold": 9780,
+      "MinPriceThreshold": 9780,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "sportglasses_blue",
+        "sportglasses_black",
+        "sportglasses_green"
+      ]
+    },
+    {
+      "ClassName": "tacticalgoggles",
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "thickframesglasses",
+      "MaxPriceThreshold": 10140,
+      "MinPriceThreshold": 10140,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "thinframesglasses",
+      "MaxPriceThreshold": 9760,
+      "MinPriceThreshold": 9760,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

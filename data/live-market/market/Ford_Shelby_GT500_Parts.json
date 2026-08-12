@@ -1,0 +1,97 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Ford Shelby GT500 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "fordshelbygt500_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordshelbygt500_codriver_black",
+        "fordshelbygt500_codriver_blue",
+        "fordshelbygt500_codriver_darkblue",
+        "fordshelbygt500_codriver_green",
+        "fordshelbygt500_codriver_orange",
+        "fordshelbygt500_codriver_pink",
+        "fordshelbygt500_codriver_red"
+      ]
+    },
+    {
+      "ClassName": "fordshelbygt500_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordshelbygt500_driverdoor_black",
+        "fordshelbygt500_driverdoor_blue",
+        "fordshelbygt500_driverdoor_darkblue",
+        "fordshelbygt500_driverdoor_green",
+        "fordshelbygt500_driverdoor_orange",
+        "fordshelbygt500_driverdoor_pink",
+        "fordshelbygt500_driverdoor_red"
+      ]
+    },
+    {
+      "ClassName": "fordshelbygt500_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordshelbygt500_hood_black",
+        "fordshelbygt500_hood_blue",
+        "fordshelbygt500_hood_darkblue",
+        "fordshelbygt500_hood_green",
+        "fordshelbygt500_hood_orange",
+        "fordshelbygt500_hood_pink",
+        "fordshelbygt500_hood_red"
+      ]
+    },
+    {
+      "ClassName": "fordshelbygt500_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordshelbygt500_trunk_black",
+        "fordshelbygt500_trunk_blue",
+        "fordshelbygt500_trunk_darkblue",
+        "fordshelbygt500_trunk_green",
+        "fordshelbygt500_trunk_orange",
+        "fordshelbygt500_trunk_pink",
+        "fordshelbygt500_trunk_red"
+      ]
+    },
+    {
+      "ClassName": "fordshelbygt500_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

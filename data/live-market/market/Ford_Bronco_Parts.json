@@ -1,0 +1,99 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Ford Bronco Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "bronco_codriverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bronco_codriverdoor_black",
+        "bronco_codriverdoor_blue",
+        "bronco_codriverdoor_chinalake",
+        "bronco_codriverdoor_darkblue",
+        "bronco_codriverdoor_hunter",
+        "bronco_codriverdoor_red",
+        "bronco_codriverdoor_rust"
+      ]
+    },
+    {
+      "ClassName": "bronco_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bronco_driverdoor_black",
+        "bronco_driverdoor_blue",
+        "bronco_driverdoor_chinalake",
+        "bronco_driverdoor_darkblue",
+        "bronco_driverdoor_hunter",
+        "bronco_driverdoor_red",
+        "bronco_driverdoor_rust"
+      ]
+    },
+    {
+      "ClassName": "bronco_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bronco_hood_black",
+        "bronco_hood_blue",
+        "bronco_hood_chinalake",
+        "bronco_hood_darkblue",
+        "bronco_hood_hunter",
+        "bronco_hood_red",
+        "bronco_hood_rust"
+      ]
+    },
+    {
+      "ClassName": "bronco_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bronco_trunk_black",
+        "bronco_trunk_blue",
+        "bronco_trunk_chinalake",
+        "bronco_trunk_darkblue",
+        "bronco_trunk_hunter",
+        "bronco_trunk_red",
+        "bronco_trunk_rust"
+      ]
+    },
+    {
+      "ClassName": "bronco_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bronco_wheelcustom"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Drug Supplies",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 10.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "im7s_storagepallet_bricks",
+      "MaxPriceThreshold": 19995,
+      "MinPriceThreshold": 19995,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_ziplock",
+      "MaxPriceThreshold": 8750,
+      "MinPriceThreshold": 8750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_dryingrack_kit",
+      "MaxPriceThreshold": 42000,
+      "MinPriceThreshold": 42000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_hydroplanter_kit",
+      "MaxPriceThreshold": 28000,
+      "MinPriceThreshold": 28000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_hydroponics_dbs_kit",
+      "MaxPriceThreshold": 72000,
+      "MinPriceThreshold": 72000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_hydroponics_dwc_kit",
+      "MaxPriceThreshold": 72000,
+      "MinPriceThreshold": 72000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_labstation_kit",
+      "MaxPriceThreshold": 42000,
+      "MinPriceThreshold": 42000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_lsd_lab_kit",
+      "MaxPriceThreshold": 42000,
+      "MinPriceThreshold": 42000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_productiontable_kit",
+      "MaxPriceThreshold": 42000,
+      "MinPriceThreshold": 42000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_pillpress_industrial_kit",
+      "MaxPriceThreshold": 42000,
+      "MinPriceThreshold": 42000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_budtrimmer_kit",
+      "MaxPriceThreshold": 72000,
+      "MinPriceThreshold": 72000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

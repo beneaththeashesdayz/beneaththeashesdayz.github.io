@@ -1,0 +1,153 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Chevrolet Tahoe Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "chevrolettahoe_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevrolettahoe_cargo1_black",
+        "chevrolettahoe_cargo1_blue",
+        "chevrolettahoe_cargo1_brown",
+        "chevrolettahoe_cargo1_darkblue",
+        "chevrolettahoe_cargo1_gray",
+        "chevrolettahoe_cargo1_lightgreen",
+        "chevrolettahoe_cargo1_red",
+        "chevrolettahoe_cargo1_sheriff",
+        "chevrolettahoe_cargo1_sheriffrust",
+        "chevrolettahoe_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevrolettahoe_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevrolettahoe_cargo2_black",
+        "chevrolettahoe_cargo2_blue",
+        "chevrolettahoe_cargo2_brown",
+        "chevrolettahoe_cargo2_darkblue",
+        "chevrolettahoe_cargo2_gray",
+        "chevrolettahoe_cargo2_lightgreen",
+        "chevrolettahoe_cargo2_red",
+        "chevrolettahoe_cargo2_sheriff",
+        "chevrolettahoe_cargo2_sheriffrust",
+        "chevrolettahoe_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevrolettahoe_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevrolettahoe_codriver_black",
+        "chevrolettahoe_codriver_blue",
+        "chevrolettahoe_codriver_brown",
+        "chevrolettahoe_codriver_darkblue",
+        "chevrolettahoe_codriver_gray",
+        "chevrolettahoe_codriver_lightgreen",
+        "chevrolettahoe_codriver_red",
+        "chevrolettahoe_codriver_sheriff",
+        "chevrolettahoe_codriver_sheriffrust",
+        "chevrolettahoe_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevrolettahoe_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevrolettahoe_driver_black",
+        "chevrolettahoe_driver_blue",
+        "chevrolettahoe_driver_brown",
+        "chevrolettahoe_driver_darkblue",
+        "chevrolettahoe_driver_gray",
+        "chevrolettahoe_driver_lightgreen",
+        "chevrolettahoe_driver_red",
+        "chevrolettahoe_driver_sheriff",
+        "chevrolettahoe_driver_sheriffrust",
+        "chevrolettahoe_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevrolettahoe_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevrolettahoe_hood_black",
+        "chevrolettahoe_hood_blue",
+        "chevrolettahoe_hood_brown",
+        "chevrolettahoe_hood_darkblue",
+        "chevrolettahoe_hood_gray",
+        "chevrolettahoe_hood_lightgreen",
+        "chevrolettahoe_hood_red",
+        "chevrolettahoe_hood_sheriff",
+        "chevrolettahoe_hood_sheriffrust",
+        "chevrolettahoe_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevrolettahoe_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevrolettahoe_trunk_black",
+        "chevrolettahoe_trunk_blue",
+        "chevrolettahoe_trunk_brown",
+        "chevrolettahoe_trunk_darkblue",
+        "chevrolettahoe_trunk_gray",
+        "chevrolettahoe_trunk_lightgreen",
+        "chevrolettahoe_trunk_red",
+        "chevrolettahoe_trunk_sheriff",
+        "chevrolettahoe_trunk_sheriffrust",
+        "chevrolettahoe_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevrolettahoe_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

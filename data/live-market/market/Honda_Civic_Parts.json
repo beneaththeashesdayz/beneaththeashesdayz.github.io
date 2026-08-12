@@ -1,0 +1,93 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Honda Civic Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "honda_civic_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "honda_civic_codriver_black",
+        "honda_civic_codriver_blue",
+        "honda_civic_codriver_green",
+        "honda_civic_codriver_red",
+        "honda_civic_codriver_redcustom",
+        "honda_civic_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "honda_civic_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "honda_civic_driverdoor_black",
+        "honda_civic_driverdoor_blue",
+        "honda_civic_driverdoor_green",
+        "honda_civic_driverdoor_red",
+        "honda_civic_driverdoor_redcustom",
+        "honda_civic_driverdoor_yellow"
+      ]
+    },
+    {
+      "ClassName": "honda_civic_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "honda_civic_hood_black",
+        "honda_civic_hood_blue",
+        "honda_civic_hood_green",
+        "honda_civic_hood_red",
+        "honda_civic_hood_redcustom",
+        "honda_civic_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "honda_civic_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "honda_civic_trunk_black",
+        "honda_civic_trunk_blue",
+        "honda_civic_trunk_green",
+        "honda_civic_trunk_red",
+        "honda_civic_trunk_redcustom",
+        "honda_civic_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "honda_civic_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

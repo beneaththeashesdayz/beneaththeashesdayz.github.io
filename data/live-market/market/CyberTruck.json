@@ -1,0 +1,34 @@
+{
+  "m_Version": 12,
+  "DisplayName": "CyberTruck",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "van_cybertruck",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "van_cybertruck_doors_cargo1",
+        "van_cybertruck_doors_cargo2",
+        "van_cybertruck_doors_codriver",
+        "van_cybertruck_doors_driver",
+        "van_cybertruck_doors_trunk",
+        "van_cybertruck_wheel",
+        "van_cybertruckbattery",
+        "van_cybertruck_wheel",
+        "van_cybertruck_wheel",
+        "van_cybertruck_wheel",
+        "headlighth7",
+        "headlighth7"
+      ],
+      "Variants": []
+    }
+  ]
+}

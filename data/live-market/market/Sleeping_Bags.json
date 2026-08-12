@@ -1,0 +1,46 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Sleeping Bags",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "lbs_sleepingpacked_new_camo",
+      "MaxPriceThreshold": 500,
+      "MinPriceThreshold": 500,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "lbs_sleepingpacked_new_blue",
+        "lbs_sleepingpacked_extended_cow",
+        "lbs_sleepingpacked_extended_palm",
+        "lbs_sleepingpacked_extended_red_scale",
+        "lbs_sleepingpacked_extended_rick_and_morty",
+        "lbs_sleepingpacked_extended_stranger_things",
+        "lbs_sleepingpacked_extended_zedklr"
+      ]
+    },
+    {
+      "ClassName": "lbs_sleepingpacked_old_brown",
+      "MaxPriceThreshold": 14045,
+      "MinPriceThreshold": 14045,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "lbs_sleepingpacked_old_green",
+        "lbs_sleepingpacked_old_lightpurple",
+        "lbs_sleepingpacked_old_orange",
+        "lbs_sleepingpacked_old_purple",
+        "lbs_sleepingpacked_old_red"
+      ]
+    }
+  ]
+}

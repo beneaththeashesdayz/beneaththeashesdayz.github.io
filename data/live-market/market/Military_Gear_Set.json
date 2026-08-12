@@ -1,0 +1,115 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Military Gear Set",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "vp_set19_boots_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "vp_set19_boots_black_pink",
+        "vp_set19_boots_black_pixel",
+        "vp_set19_boots_desert"
+      ]
+    },
+    {
+      "ClassName": "vp_set19_cap_black",
+      "MaxPriceThreshold": 6000,
+      "MinPriceThreshold": 6000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "vp_set19_cap_black_pink",
+        "vp_set19_cap_black_pixel",
+        "vp_set19_cap_desert"
+      ]
+    },
+    {
+      "ClassName": "vp_set19_gloves_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "vp_set19_gloves_black_pink",
+        "vp_set19_gloves_black_pixel",
+        "vp_set19_gloves_desert"
+      ]
+    },
+    {
+      "ClassName": "vp_set19_mask_black",
+      "MaxPriceThreshold": 8000,
+      "MinPriceThreshold": 8000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "vp_set19_mask_black_pink",
+        "vp_set19_mask_black_pixel",
+        "vp_set19_mask_desert"
+      ]
+    },
+    {
+      "ClassName": "vp_set19_pants_black",
+      "MaxPriceThreshold": 12000,
+      "MinPriceThreshold": 12000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "vp_set19_pants_black_pink",
+        "vp_set19_pants_black_pixel",
+        "vp_set19_pants_desert"
+      ]
+    },
+    {
+      "ClassName": "vp_set19_top_black",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "vp_set19_top_black_pink",
+        "vp_set19_top_black_pixel",
+        "vp_set19_top_desert"
+      ]
+    },
+    {
+      "ClassName": "vp_set19_vest_black",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "vp_set19_vest_black_pink",
+        "vp_set19_vest_black_pixel",
+        "vp_set19_vest_desert"
+      ]
+    }
+  ]
+}

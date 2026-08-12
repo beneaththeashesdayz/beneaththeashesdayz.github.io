@@ -1,0 +1,129 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Harald's Suppressors",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "ha_suppressor_308",
+      "MaxPriceThreshold": 2200,
+      "MinPriceThreshold": 2200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ha_suppressor_cis_covered_black",
+      "MaxPriceThreshold": 1800,
+      "MinPriceThreshold": 1800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ha_suppressor_cis_covered_green",
+        "ha_suppressor_cis_covered_pink",
+        "ha_suppressor_cis_covered_red",
+        "ha_suppressor_cis_covered_tan"
+      ]
+    },
+    {
+      "ClassName": "ha_suppressor_improvised",
+      "MaxPriceThreshold": 900,
+      "MinPriceThreshold": 900,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ha_suppressor_nato_covered_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ha_suppressor_nato_covered_green",
+        "ha_suppressor_nato_covered_pink",
+        "ha_suppressor_nato_covered_red",
+        "ha_suppressor_nato_covered_tan"
+      ]
+    },
+    {
+      "ClassName": "ha_suppressor_osprey9",
+      "MaxPriceThreshold": 1700,
+      "MinPriceThreshold": 1700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ha_suppressor_pistol_covered_black",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ha_suppressor_pistol_covered_green",
+        "ha_suppressor_pistol_covered_pink",
+        "ha_suppressor_pistol_covered_red",
+        "ha_suppressor_pistol_covered_tan"
+      ]
+    },
+    {
+      "ClassName": "ha_suppressor_universal_octane",
+      "MaxPriceThreshold": 2800,
+      "MinPriceThreshold": 2800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ha_suppressor_universal_titan",
+      "MaxPriceThreshold": 3500,
+      "MinPriceThreshold": 3500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ha_suppressorcover_black",
+      "MaxPriceThreshold": 400,
+      "MinPriceThreshold": 400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ha_suppressorcover_green",
+        "ha_suppressorcover_pink",
+        "ha_suppressorcover_red",
+        "ha_suppressorcover_tan"
+      ]
+    }
+  ]
+}

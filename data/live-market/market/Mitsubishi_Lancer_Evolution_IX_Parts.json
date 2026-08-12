@@ -1,0 +1,135 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Mitsubishi Lancer Evolution IX Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "mitsubishi_lancerevolutionix_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mitsubishi_lancerevolutionix_cargo1_bee",
+        "mitsubishi_lancerevolutionix_cargo1_black",
+        "mitsubishi_lancerevolutionix_cargo1_blue",
+        "mitsubishi_lancerevolutionix_cargo1_darkblue",
+        "mitsubishi_lancerevolutionix_cargo1_fast2",
+        "mitsubishi_lancerevolutionix_cargo1_green",
+        "mitsubishi_lancerevolutionix_cargo1_lightblue",
+        "mitsubishi_lancerevolutionix_cargo1_pink",
+        "mitsubishi_lancerevolutionix_cargo1_red",
+        "mitsubishi_lancerevolutionix_cargo1_white",
+        "mitsubishi_lancerevolutionix_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "mitsubishi_lancerevolutionix_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mitsubishi_lancerevolutionix_cargo2_bee",
+        "mitsubishi_lancerevolutionix_cargo2_black",
+        "mitsubishi_lancerevolutionix_cargo2_blue",
+        "mitsubishi_lancerevolutionix_cargo2_darkblue",
+        "mitsubishi_lancerevolutionix_cargo2_fast2",
+        "mitsubishi_lancerevolutionix_cargo2_green",
+        "mitsubishi_lancerevolutionix_cargo2_lightblue",
+        "mitsubishi_lancerevolutionix_cargo2_pink",
+        "mitsubishi_lancerevolutionix_cargo2_red",
+        "mitsubishi_lancerevolutionix_cargo2_white",
+        "mitsubishi_lancerevolutionix_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "mitsubishi_lancerevolutionix_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mitsubishi_lancerevolutionix_driver_bee",
+        "mitsubishi_lancerevolutionix_driver_black",
+        "mitsubishi_lancerevolutionix_driver_blue",
+        "mitsubishi_lancerevolutionix_driver_darkblue",
+        "mitsubishi_lancerevolutionix_driver_fast2",
+        "mitsubishi_lancerevolutionix_driver_green",
+        "mitsubishi_lancerevolutionix_driver_lightblue",
+        "mitsubishi_lancerevolutionix_driver_pink",
+        "mitsubishi_lancerevolutionix_driver_red",
+        "mitsubishi_lancerevolutionix_driver_white",
+        "mitsubishi_lancerevolutionix_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "mitsubishi_lancerevolutionix_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mitsubishi_lancerevolutionix_hood_bee",
+        "mitsubishi_lancerevolutionix_hood_black",
+        "mitsubishi_lancerevolutionix_hood_blue",
+        "mitsubishi_lancerevolutionix_hood_darkblue",
+        "mitsubishi_lancerevolutionix_hood_fast2",
+        "mitsubishi_lancerevolutionix_hood_green",
+        "mitsubishi_lancerevolutionix_hood_lightblue",
+        "mitsubishi_lancerevolutionix_hood_pink",
+        "mitsubishi_lancerevolutionix_hood_red",
+        "mitsubishi_lancerevolutionix_hood_white",
+        "mitsubishi_lancerevolutionix_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "mitsubishi_lancerevolutionix_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mitsubishi_lancerevolutionix_trunk_bee",
+        "mitsubishi_lancerevolutionix_trunk_black",
+        "mitsubishi_lancerevolutionix_trunk_blue",
+        "mitsubishi_lancerevolutionix_trunk_darkblue",
+        "mitsubishi_lancerevolutionix_trunk_fast2",
+        "mitsubishi_lancerevolutionix_trunk_green",
+        "mitsubishi_lancerevolutionix_trunk_pink",
+        "mitsubishi_lancerevolutionix_trunk_red",
+        "mitsubishi_lancerevolutionix_trunk_white",
+        "mitsubishi_lancerevolutionix_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "mitsubishi_lancerevolutionix_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

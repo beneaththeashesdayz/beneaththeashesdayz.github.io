@@ -1,0 +1,326 @@
+{
+  "m_Version": 12,
+  "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_SUPPLIES",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "bbp_blueprint",
+      "MaxPriceThreshold": 79790,
+      "MinPriceThreshold": 79790,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "bbp_carpet_1",
+      "MaxPriceThreshold": 77705,
+      "MinPriceThreshold": 77705,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bbp_carpet_2"
+      ]
+    },
+    {
+      "ClassName": "bbp_cement",
+      "MaxPriceThreshold": 78115,
+      "MinPriceThreshold": 78115,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "bbp_mortar_mix",
+      "MaxPriceThreshold": 76475,
+      "MinPriceThreshold": 76475,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "bbp_plaster_1",
+      "MaxPriceThreshold": 78650,
+      "MinPriceThreshold": 78650,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bbp_plaster_2"
+      ]
+    },
+    {
+      "ClassName": "bbp_tapemeasure",
+      "MaxPriceThreshold": 79450,
+      "MinPriceThreshold": 79450,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "bbp_wallpaper_1",
+      "MaxPriceThreshold": 75855,
+      "MinPriceThreshold": 75855,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bbp_wallpaper_2"
+      ]
+    },
+    {
+      "ClassName": "bbp_wallpaper_mural_1",
+      "MaxPriceThreshold": 75105,
+      "MinPriceThreshold": 75105,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bbp_wallpaper_mural_2"
+      ]
+    },
+    {
+      "ClassName": "bear_beige",
+      "MaxPriceThreshold": 78410,
+      "MinPriceThreshold": 78410,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "bear_dark",
+        "bear_pink",
+        "bear_white"
+      ]
+    },
+    {
+      "ClassName": "camonet",
+      "MaxPriceThreshold": 24125,
+      "MinPriceThreshold": 24125,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "epoxyputty",
+      "MaxPriceThreshold": 79415,
+      "MinPriceThreshold": 79415,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "largegascanister",
+      "MaxPriceThreshold": 77905,
+      "MinPriceThreshold": 77905,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "nailbox",
+      "MaxPriceThreshold": 78395,
+      "MinPriceThreshold": 78395,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_cleaning_patches",
+      "MaxPriceThreshold": 37250,
+      "MinPriceThreshold": 37250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_coffee_jar",
+      "MaxPriceThreshold": 78930,
+      "MinPriceThreshold": 78930,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_coffee_mug_blue_bar",
+      "MaxPriceThreshold": 75060,
+      "MinPriceThreshold": 75060,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "rag_baseitems_coffee_mug_blue_break",
+        "rag_baseitems_coffee_mug_green_bar",
+        "rag_baseitems_coffee_mug_green_break",
+        "rag_baseitems_coffee_mug_green_fresh",
+        "rag_baseitems_coffee_mug_purple_bar",
+        "rag_baseitems_coffee_mug_purple_break",
+        "rag_baseitems_coffee_mug_rag",
+        "rag_baseitems_coffee_mug_red_bar",
+        "rag_baseitems_coffee_mug_red_break",
+        "rag_baseitems_coffee_mug_yellow_break",
+        "rag_baseitems_coffee_mug_yellow_fresh",
+        "rag_baseitems_coffee_mug_yellow_shop"
+      ]
+    },
+    {
+      "ClassName": "rag_baseitems_coffee_pack",
+      "MaxPriceThreshold": 79200,
+      "MinPriceThreshold": 79200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_coffee_thermos",
+      "MaxPriceThreshold": 78225,
+      "MinPriceThreshold": 78225,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_grammophone_disk",
+      "MaxPriceThreshold": 75230,
+      "MinPriceThreshold": 75230,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "rag_baseitems_grammophone_2_disk",
+        "rag_baseitems_grammophone_3_disk",
+        "rag_baseitems_grammophone_4_disk",
+        "rag_baseitems_grammophone_5_disk"
+      ]
+    },
+    {
+      "ClassName": "rag_baseitems_portafilter",
+      "MaxPriceThreshold": 79095,
+      "MinPriceThreshold": 79095,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_sawblade",
+      "MaxPriceThreshold": 76775,
+      "MinPriceThreshold": 76775,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_spraycan_paint",
+      "MaxPriceThreshold": 75045,
+      "MinPriceThreshold": 75045,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_spraycan_white",
+      "MaxPriceThreshold": 75360,
+      "MinPriceThreshold": 75360,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_weapon_solvent",
+      "MaxPriceThreshold": 35000,
+      "MinPriceThreshold": 35000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_workbench_blueprint",
+      "MaxPriceThreshold": 78795,
+      "MinPriceThreshold": 78795,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "tripod",
+      "MaxPriceThreshold": 78545,
+      "MinPriceThreshold": 78545,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

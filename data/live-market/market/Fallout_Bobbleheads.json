@@ -1,0 +1,252 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Fallout Bobbleheads",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "dlt_falloutz_bobbleheadagility",
+      "MaxPriceThreshold": 12000,
+      "MinPriceThreshold": 12000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadbarter",
+      "MaxPriceThreshold": 12040,
+      "MinPriceThreshold": 12040,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadbase",
+      "MaxPriceThreshold": 12100,
+      "MinPriceThreshold": 12100,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadbiggun",
+      "MaxPriceThreshold": 12140,
+      "MinPriceThreshold": 12140,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadcharisma",
+      "MaxPriceThreshold": 12200,
+      "MinPriceThreshold": 12200,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadendurance",
+      "MaxPriceThreshold": 12240,
+      "MinPriceThreshold": 12240,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadenergyweapons",
+      "MaxPriceThreshold": 12300,
+      "MinPriceThreshold": 12300,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadexplosive",
+      "MaxPriceThreshold": 12340,
+      "MinPriceThreshold": 12340,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadintelligence",
+      "MaxPriceThreshold": 12380,
+      "MinPriceThreshold": 12380,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadlockpicking",
+      "MaxPriceThreshold": 12440,
+      "MinPriceThreshold": 12440,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadluck",
+      "MaxPriceThreshold": 12480,
+      "MinPriceThreshold": 12480,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadmedicine",
+      "MaxPriceThreshold": 12520,
+      "MinPriceThreshold": 12520,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadmelee",
+      "MaxPriceThreshold": 12560,
+      "MinPriceThreshold": 12560,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadperception",
+      "MaxPriceThreshold": 12620,
+      "MinPriceThreshold": 12620,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadrepair",
+      "MaxPriceThreshold": 12660,
+      "MinPriceThreshold": 12660,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadscience",
+      "MaxPriceThreshold": 12720,
+      "MinPriceThreshold": 12720,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadsmallgun",
+      "MaxPriceThreshold": 12760,
+      "MinPriceThreshold": 12760,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadsneak",
+      "MaxPriceThreshold": 12800,
+      "MinPriceThreshold": 12800,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadspeech",
+      "MaxPriceThreshold": 12860,
+      "MinPriceThreshold": 12860,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadstandkit",
+      "MaxPriceThreshold": 12940,
+      "MinPriceThreshold": 12940,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadstrength",
+      "MaxPriceThreshold": 12980,
+      "MinPriceThreshold": 12980,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dlt_falloutz_bobbleheadunarmed",
+      "MaxPriceThreshold": 13000,
+      "MinPriceThreshold": 13000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

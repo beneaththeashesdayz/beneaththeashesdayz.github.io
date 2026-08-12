@@ -1,0 +1,42 @@
+{
+  "m_Version": 12,
+  "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_SWEATERS & #STR_EXPANSION_MARKET_CATEGORY_HOODIES",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "hoodie_black",
+      "MaxPriceThreshold": 45685,
+      "MinPriceThreshold": 45685,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hoodie_blue",
+        "hoodie_brown",
+        "hoodie_green",
+        "hoodie_grey",
+        "hoodie_red"
+      ]
+    },
+    {
+      "ClassName": "sweater_blue",
+      "MaxPriceThreshold": 43840,
+      "MinPriceThreshold": 43840,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "sweater_gray",
+        "sweater_green",
+        "sweater_red"
+      ]
+    }
+  ]
+}

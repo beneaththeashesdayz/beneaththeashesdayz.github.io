@@ -1,0 +1,98 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Bundles",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "im7s_bundle_coke",
+      "MaxPriceThreshold": 4525,
+      "MinPriceThreshold": 4525,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_bundle_crystal_blue",
+      "MaxPriceThreshold": 3975,
+      "MinPriceThreshold": 3975,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_bundle_crystal_pb",
+      "MaxPriceThreshold": 4640,
+      "MinPriceThreshold": 4640,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_bundle_crystal_pink",
+      "MaxPriceThreshold": 4265,
+      "MinPriceThreshold": 4265,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_bundle_thizz_blue",
+      "MaxPriceThreshold": 2875,
+      "MinPriceThreshold": 2875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_bundle_thizz_green",
+      "MaxPriceThreshold": 2895,
+      "MinPriceThreshold": 2895,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_bundle_thizz_purple",
+      "MaxPriceThreshold": 2915,
+      "MinPriceThreshold": 2915,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_bundle_thizz_yellow",
+      "MaxPriceThreshold": 2935,
+      "MinPriceThreshold": 2935,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Dodge Ram 3500 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "dodgeram_3500_codriverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodgeram_3500_codriverdoor_aj45",
+        "dodgeram_3500_codriverdoor_black",
+        "dodgeram_3500_codriverdoor_bluetiger",
+        "dodgeram_3500_codriverdoor_cyan",
+        "dodgeram_3500_codriverdoor_green",
+        "dodgeram_3500_codriverdoor_grey",
+        "dodgeram_3500_codriverdoor_kbtgr",
+        "dodgeram_3500_codriverdoor_m81",
+        "dodgeram_3500_codriverdoor_orange",
+        "dodgeram_3500_codriverdoor_purple",
+        "dodgeram_3500_codriverdoor_realtree",
+        "dodgeram_3500_codriverdoor_red",
+        "dodgeram_3500_codriverdoor_redtiger",
+        "dodgeram_3500_codriverdoor_scamtopia",
+        "dodgeram_3500_codriverdoor_yellow"
+      ]
+    },
+    {
+      "ClassName": "dodgeram_3500_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodgeram_3500_driverdoor_aj45",
+        "dodgeram_3500_driverdoor_black",
+        "dodgeram_3500_driverdoor_bluetiger",
+        "dodgeram_3500_driverdoor_cyan",
+        "dodgeram_3500_driverdoor_green",
+        "dodgeram_3500_driverdoor_grey",
+        "dodgeram_3500_driverdoor_kbtgr",
+        "dodgeram_3500_driverdoor_m81",
+        "dodgeram_3500_driverdoor_orange",
+        "dodgeram_3500_driverdoor_purple",
+        "dodgeram_3500_driverdoor_realtree",
+        "dodgeram_3500_driverdoor_red",
+        "dodgeram_3500_driverdoor_redtiger",
+        "dodgeram_3500_driverdoor_scamtopia",
+        "dodgeram_3500_driverdoor_yellow"
+      ]
+    },
+    {
+      "ClassName": "dodgeram_3500_frontbumper",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodgeram_3500_frontbumper_moddedblack"
+      ]
+    },
+    {
+      "ClassName": "dodgeram_3500_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodgeram_3500_hood_aj45",
+        "dodgeram_3500_hood_black",
+        "dodgeram_3500_hood_bluetiger",
+        "dodgeram_3500_hood_cyan",
+        "dodgeram_3500_hood_green",
+        "dodgeram_3500_hood_grey",
+        "dodgeram_3500_hood_kbtgr",
+        "dodgeram_3500_hood_m81",
+        "dodgeram_3500_hood_orange",
+        "dodgeram_3500_hood_purple",
+        "dodgeram_3500_hood_realtree",
+        "dodgeram_3500_hood_red",
+        "dodgeram_3500_hood_redtiger",
+        "dodgeram_3500_hood_scamtopia",
+        "dodgeram_3500_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "dodgeram_3500_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodgeram_3500_trunk_aj45",
+        "dodgeram_3500_trunk_black",
+        "dodgeram_3500_trunk_bluetiger",
+        "dodgeram_3500_trunk_cyan",
+        "dodgeram_3500_trunk_green",
+        "dodgeram_3500_trunk_grey",
+        "dodgeram_3500_trunk_kbtgr",
+        "dodgeram_3500_trunk_m81",
+        "dodgeram_3500_trunk_orange",
+        "dodgeram_3500_trunk_purple",
+        "dodgeram_3500_trunk_realtree",
+        "dodgeram_3500_trunk_red",
+        "dodgeram_3500_trunk_redtiger",
+        "dodgeram_3500_trunk_scamtopia",
+        "dodgeram_3500_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "dodgeram_3500_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

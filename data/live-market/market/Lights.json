@@ -1,0 +1,155 @@
+{
+  "m_Version": 12,
+  "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_LIGHTS",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "chemlight_blue",
+      "MaxPriceThreshold": 30455,
+      "MinPriceThreshold": 30455,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chemlight_green",
+        "chemlight_red",
+        "chemlight_white",
+        "chemlight_yellow"
+      ]
+    },
+    {
+      "ClassName": "fireworkslauncher",
+      "MaxPriceThreshold": 31375,
+      "MinPriceThreshold": 31375,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "flashlight",
+      "MaxPriceThreshold": 30490,
+      "MinPriceThreshold": 30490,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "battery9v"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "headtorch_black",
+      "MaxPriceThreshold": 29980,
+      "MinPriceThreshold": 29980,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "battery9v"
+      ],
+      "Variants": [
+        "headtorch_grey"
+      ]
+    },
+    {
+      "ClassName": "matchbox",
+      "MaxPriceThreshold": 29705,
+      "MinPriceThreshold": 29705,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "petrollighter",
+      "MaxPriceThreshold": 30720,
+      "MinPriceThreshold": 30720,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "portablegaslamp",
+      "MaxPriceThreshold": 29600,
+      "MinPriceThreshold": 29600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "roadflare",
+      "MaxPriceThreshold": 31010,
+      "MinPriceThreshold": 31010,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "spotlight",
+      "MaxPriceThreshold": 29085,
+      "MinPriceThreshold": 29085,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "tlrlight",
+      "MaxPriceThreshold": 29480,
+      "MinPriceThreshold": 29480,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "universallight",
+      "MaxPriceThreshold": 29520,
+      "MinPriceThreshold": 29520,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "battery9v"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "xmaslights",
+      "MaxPriceThreshold": 30505,
+      "MinPriceThreshold": 30505,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}
