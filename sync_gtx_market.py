@@ -12,6 +12,7 @@ import paramiko
 ROOT = Path(__file__).resolve().parent
 OUT_ROOT = ROOT / "data" / "live-market"
 MARKET_OUT = OUT_ROOT / "market"
+TRADERS_OUT = OUT_ROOT / "traders"
 ZONES_OUT = OUT_ROOT / "traderzones"
 
 HOST = os.environ["GTX_HOST"]
@@ -20,6 +21,7 @@ USERNAME = os.environ["GTX_USERNAME"]
 PASSWORD = os.environ["GTX_PASSWORD"]
 
 MARKET_REMOTE = os.environ.get("GTX_MARKET_PATH", "profiles/ExpansionMod/Market")
+TRADERS_REMOTE = os.environ.get("GTX_TRADERS_PATH", "profiles/ExpansionMod/Traders")
 ZONES_REMOTE = os.environ.get(
     "GTX_TRADERZONES_PATH",
     "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -149,8 +151,10 @@ def main() -> None:
             print(f"SFTP login directory: {sftp.normalize('.')}")
             server_root = discover_server_root(sftp)
             market_remote = resolve_remote_dir(sftp, server_root, MARKET_REMOTE)
+            traders_remote = resolve_remote_dir(sftp, server_root, TRADERS_REMOTE)
             zones_remote = resolve_remote_dir(sftp, server_root, ZONES_REMOTE)
             market_items = sync_dir(sftp, market_remote, MARKET_OUT, "market")
+            trader_items = sync_dir(sftp, traders_remote, TRADERS_OUT, "traders")
             zone_items = sync_dir(sftp, zones_remote, ZONES_OUT, "traderzones")
         finally:
             sftp.close()
@@ -161,13 +165,18 @@ def main() -> None:
         "source": "GTX Gaming DayZ Chernarus live server",
         "syncedAt": datetime.now(timezone.utc).isoformat(),
         "marketPath": MARKET_REMOTE,
+        "tradersPath": TRADERS_REMOTE,
         "traderZonesPath": ZONES_REMOTE,
         "marketFileCount": len(market_items),
+        "traderFileCount": len(trader_items),
         "traderZoneFileCount": len(zone_items),
-        "files": market_items + zone_items,
+        "files": market_items + trader_items + zone_items,
     }
     (OUT_ROOT / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"Synced {len(market_items)} market files and {len(zone_items)} trader-zone files.")
+    print(
+        f"Synced {len(market_items)} market files, {len(trader_items)} trader files "
+        f"and {len(zone_items)} trader-zone files."
+    )
 
 
 if __name__ == "__main__":
