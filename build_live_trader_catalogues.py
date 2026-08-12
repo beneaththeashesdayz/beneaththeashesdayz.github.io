@@ -67,7 +67,21 @@ def load_curated_metadata(slug: str) -> dict[str, dict]:
     return metadata
 
 
+def add_market_entry(index: dict[str, list[dict]], class_name: str, entry: dict) -> None:
+    key = class_name.lower()
+    existing = index.setdefault(key, [])
+    # A variant can appear in multiple files. Avoid exact duplicate source entries.
+    if not any(x["source"] == entry["source"] and x["price"] == entry["price"] for x in existing):
+        existing.append(entry)
+
+
 def build_market_index() -> dict[str, list[dict]]:
+    """Index both Expansion parent ClassName entries and every Variant classname.
+
+    Expansion Market commonly stores retextures/variants only inside the parent item's
+    Variants array. Trader zones, however, can reference those variant classnames
+    directly. Variants inherit the parent market entry's price and category.
+    """
     index: dict[str, list[dict]] = {}
     for path in sorted(MARKET_DIR.glob("*.json"), key=lambda p: p.name.lower()):
         data = read_json(path)
@@ -75,14 +89,18 @@ def build_market_index() -> dict[str, list[dict]]:
             class_name = item.get("ClassName")
             if not class_name:
                 continue
-            index.setdefault(class_name.lower(), []).append(
-                {
-                    "className": class_name,
-                    "category": category_from_filename(path),
-                    "price": item.get("MaxPriceThreshold", item.get("MinPriceThreshold", 0)),
-                    "source": path.name,
-                }
-            )
+            entry = {
+                "className": class_name,
+                "category": category_from_filename(path),
+                "price": item.get("MaxPriceThreshold", item.get("MinPriceThreshold", 0)),
+                "source": path.name,
+            }
+            add_market_entry(index, class_name, entry)
+            for variant in item.get("Variants", []) or []:
+                if variant:
+                    variant_entry = dict(entry)
+                    variant_entry["className"] = variant
+                    add_market_entry(index, variant, variant_entry)
     return index
 
 
@@ -112,7 +130,7 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
 
         curated_item = curated.get(class_name.lower())
         market = choose_market_entry(class_name, candidates, curated_item)
-        name = curated_item["name"] if curated_item else friendly_from_classname(market["className"])
+        name = curated_item["name"] if curated_item else friendly_from_classname(class_name)
         category = curated_item["category"] if curated_item else market["category"]
 
         # Beneath the Ashes trader-zone convention:
@@ -121,7 +139,7 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
         rows.append(
             {
                 "name": name,
-                "className": market["className"],
+                "className": class_name,
                 "category": category,
                 "mode": mode,
                 "price": market["price"],
