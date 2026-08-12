@@ -34,9 +34,9 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Water Bottle',className:'waterbottle',category:'Drinks',mode:'sell',price:10310},
 {name:'Empty Can',className:'loner_can_empty',category:'Cans',mode:'sell',price:300},
 {name:'Small Empty Can',className:'loner_can_small_empty',category:'Cans',mode:'sell',price:250},
-{name:'Garden Lime',className:'gardenlime',category:'Gardening',mode:'buy',price:35955},
-{name:'Pepper Seeds Pack',className:'pepperseedspack',category:'Gardening',mode:'buy',price:35355},
-{name:'Pumpkin Seeds Pack',className:'pumpkinseedspack',category:'Gardening',mode:'buy',price:34600},
-{name:'Tomato Seeds Pack',className:'tomatoseedspack',category:'Gardening',mode:'buy',price:34670},
-{name:'Zucchini Seeds Pack',className:'zucchiniseedspack',category:'Gardening',mode:'buy',price:34140}
+{name:'Garden Lime',className:'gardenlime',category:'Gardening',mode:'buy',price:35955,sellPrice:360},
+{name:'Pepper Seeds Pack',className:'pepperseedspack',category:'Gardening',mode:'buy',price:35355,sellPrice:354},
+{name:'Pumpkin Seeds Pack',className:'pumpkinseedspack',category:'Gardening',mode:'buy',price:34600,sellPrice:346},
+{name:'Tomato Seeds Pack',className:'tomatoseedspack',category:'Gardening',mode:'buy',price:34670,sellPrice:347},
+{name:'Zucchini Seeds Pack',className:'zucchiniseedspack',category:'Gardening',mode:'buy',price:34140,sellPrice:341}
 ]};
