@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Weapon attachment trader dossier graphic</title>
+  <desc id="desc">Dark industrial line art showing an optic, suppressor, magazine and rail components.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1114"/>
+      <stop offset="1" stop-color="#171d20"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity=".035" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg)"/>
+  <rect width="900" height="1200" fill="url(#grid)"/>
+  <g fill="none" stroke="#c74a33" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".9">
+    <path d="M160 340h415l76 44h94v86h-96l-75 45H160z"/>
+    <path d="M230 340v-68h184v68M263 272v-52h119v52"/>
+    <circle cx="323" cy="298" r="19"/>
+    <path d="M160 397H95m650 30h55"/>
+  </g>
+  <g fill="none" stroke="#d9d3c7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".82">
+    <path d="M170 645h310l42 28h188v54H521l-42 28H170z"/>
+    <path d="M236 645v-54h157v54M262 591v-36h106v36"/>
+    <path d="M608 755v184c0 31-25 56-56 56h-77l-34-240"/>
+    <path d="M671 755l28 203c5 34-22 64-56 64h-91"/>
+    <path d="M170 700H96m614 0h94"/>
+  </g>
+  <g stroke="#ffffff" stroke-opacity=".16" stroke-width="2">
+    <path d="M90 1090H810"/>
+    <path d="M90 1120H570"/>
+    <path d="M90 1150H690"/>
+  </g>
+  <circle cx="742" cy="116" r="42" fill="none" stroke="#c74a33" stroke-width="5" opacity=".7"/>
+  <path d="M742 90v52M716 116h52" stroke="#c74a33" stroke-width="5" opacity=".7"/>
+</svg>
