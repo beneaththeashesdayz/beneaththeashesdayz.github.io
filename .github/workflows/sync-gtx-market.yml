@@ -6,6 +6,7 @@ on:
     paths:
       - "sync_gtx_market.py"
       - "build_live_trader_catalogues.py"
+      - "activate_attachment_trader.py"
       - ".github/workflows/sync-gtx-market.yml"
   schedule:
     - cron: "17 * * * *"
@@ -47,10 +48,14 @@ jobs:
       - name: Build live trader catalogues
         run: python build_live_trader_catalogues.py
 
+      - name: Activate attachment trader directory card
+        run: python activate_attachment_trader.py
+
       - name: Commit market and catalogue changes
         shell: bash
         run: |
           git add data/live-market \
+            chernarus/traders/index.html \
             chernarus/traders/naomi/catalogue-data.js \
             chernarus/traders/rolf/catalogue-data.js \
             chernarus/traders/attachment-trader/catalogue-data.js
