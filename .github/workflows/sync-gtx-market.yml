@@ -8,6 +8,7 @@ on:
       - "build_live_trader_catalogues.py"
       - "build_linda_catalogue.py"
       - "build_quinn_catalogue.py"
+      - "polish_quinn_names.py"
       - "polish_attachment_names.py"
       - "activate_attachment_trader.py"
       - ".github/workflows/sync-gtx-market.yml"
@@ -58,6 +59,9 @@ jobs:
 
       - name: Build Quinn clothing catalogue
         run: python build_quinn_catalogue.py
+
+      - name: Polish Quinn clothing display names
+        run: python polish_quinn_names.py
 
       - name: Polish attachment trader display names
         run: python polish_attachment_names.py
