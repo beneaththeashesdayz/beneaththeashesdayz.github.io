@@ -124,12 +124,7 @@ def add_market_entry(index: dict[str, list[dict]], class_name: str, entry: dict)
 
 
 def build_market_index() -> dict[str, list[dict]]:
-    """Index Expansion parent items and every Variant classname.
-
-    Trader zones can reference a variant directly even when the market file stores
-    that classname only inside a parent item's Variants array. Variants inherit the
-    parent market entry's price and category.
-    """
+    """Index Expansion parent items and every Variant classname."""
     index: dict[str, list[dict]] = {}
     for path in sorted(MARKET_DIR.glob("*.json"), key=lambda p: p.name.lower()):
         data = read_json(path)
@@ -141,6 +136,7 @@ def build_market_index() -> dict[str, list[dict]]:
                 "className": class_name,
                 "category": category_from_filename(path),
                 "price": item.get("MaxPriceThreshold", item.get("MinPriceThreshold", 0)),
+                "sellPricePercent": item.get("SellPricePercent", -1),
                 "source": path.name,
             }
             add_market_entry(index, class_name, entry)
@@ -162,6 +158,23 @@ def choose_market_entry(class_name: str, candidates: list[dict], curated: dict |
             if wanted in candidate_category or candidate_category in wanted:
                 return candidate
     return candidates[0]
+
+
+def effective_sell_percent(market: dict, zone: dict) -> float | None:
+    item_percent = market.get("sellPricePercent", -1)
+    try:
+        item_percent = float(item_percent)
+    except (TypeError, ValueError):
+        item_percent = -1
+    if item_percent >= 0:
+        return item_percent
+
+    zone_percent = zone.get("SellPricePercent", -1)
+    try:
+        zone_percent = float(zone_percent)
+    except (TypeError, ValueError):
+        zone_percent = -1
+    return zone_percent if zone_percent >= 0 else None
 
 
 def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> None:
@@ -187,18 +200,24 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
         else:
             category = curated_item["category"] if curated_item else market["category"]
 
-        # Existing BTA convention used by these curated trader zones:
-        # 0 = normal stock sold by the trader; 1 = special stock bought from players.
         mode = "buy" if int(stock_value) == 1 else "sell"
-        rows.append(
-            {
-                "name": name,
-                "className": class_name,
-                "category": category,
-                "mode": mode,
-                "price": market["price"],
-            }
-        )
+        row = {
+            "name": name,
+            "className": class_name,
+            "category": category,
+            "mode": mode,
+            "price": market["price"],
+        }
+
+        # Items that are buy-only from the trader's perspective are items players
+        # sell TO the trader. Expansion resolves their payout from the item's own
+        # SellPricePercent when set, otherwise the trader-zone SellPricePercent.
+        if mode == "buy":
+            percent = effective_sell_percent(market, zone)
+            if percent is not None:
+                row["sellPrice"] = round(float(market["price"]) * (percent / 100.0))
+
+        rows.append(row)
 
     category_order = []
     for item in curated.values():
@@ -212,9 +231,6 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
     if cfg.get("currency_label"):
         header += f",currencyLabel:'{js_escape(cfg['currency_label'])}'"
 
-    # The catalogue renderer uses these flags to show both player-facing prices.
-    # The sell-back percentage comes directly from the live trader-zone JSON so a
-    # GTX config change flows through to the website on the next sync.
     if cfg.get("inherited_category_buyback"):
         sell_percent = zone.get("SellPricePercent")
         if sell_percent is not None and float(sell_percent) >= 0:
@@ -231,8 +247,8 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
         price = item["price"]
         if isinstance(price, float) and price.is_integer():
             price = int(price)
-        lines.append(
-            "{name:'%s',className:'%s',category:'%s',mode:'%s',price:%s}"
+        fields = (
+            "{name:'%s',className:'%s',category:'%s',mode:'%s',price:%s"
             % (
                 js_escape(item["name"]),
                 js_escape(item["className"]),
@@ -241,6 +257,10 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
                 price,
             )
         )
+        if "sellPrice" in item:
+            fields += f",sellPrice:{int(item['sellPrice'])}"
+        fields += "}"
+        lines.append(fields)
 
     output = header + ",\n".join(lines) + "\n]};\n"
     out_path = ROOT / "chernarus" / "traders" / slug / "catalogue-data.js"
