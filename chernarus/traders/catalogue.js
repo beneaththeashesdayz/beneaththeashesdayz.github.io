@@ -12,14 +12,13 @@ document.addEventListener('DOMContentLoaded', function () {
   var filters = Array.prototype.slice.call(root.querySelectorAll('[data-catalogue-filter]'));
   var active = 'all';
 
-  var guidanceText = 'Inventory is grouped by market category. Use the transaction filters to jump directly to items you can buy, sell, or trade both ways.';
+  // Keep the catalogue focused on the inventory itself. Transaction direction
+  // and the appropriate buy/sell price are shown on each individual item.
+  filters.forEach(function (button) { button.style.display = 'none'; });
   var note = root.querySelector('.catalogue-note');
-  if (!note) {
-    note = document.createElement('p');
-    note.className = 'catalogue-note';
-  }
-  note.textContent = guidanceText;
-  if (search) search.insertAdjacentElement('afterend', note);
+  if (note) note.style.display = 'none';
+  var existingSummary = root.querySelector('.catalogue-transaction-summary');
+  if (existingSummary) existingSummary.remove();
 
   function money(value) {
     if (cfg.currencyLabel) {
@@ -52,9 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (typeof item.traderSells === 'boolean' || typeof item.traderBuys === 'boolean') {
       return {sells:Boolean(item.traderSells), buys:Boolean(item.traderBuys)};
     }
-    if (usesInheritedBuyback(item)) {
-      return {sells:true, buys:true};
-    }
+    if (usesInheritedBuyback(item)) return {sells:true, buys:true};
     return {sells:item.mode === 'sell', buys:item.mode === 'buy'};
   }
 
@@ -70,43 +67,6 @@ document.addEventListener('DOMContentLoaded', function () {
       return Math.round((purchasePrice(item) || 0) * (percent / 100));
     }
     return null;
-  }
-
-  function transactionCounts() {
-    var result = {all:cfg.items.length, purchase:0, sale:0, both:0};
-    cfg.items.forEach(function (item) {
-      var state = permissions(item);
-      if (state.sells) result.purchase += 1;
-      if (state.buys) result.sale += 1;
-      if (state.sells && state.buys) result.both += 1;
-    });
-    return result;
-  }
-
-  function setFilterLabels() {
-    var totals = transactionCounts();
-    var labels = {
-      all:'All Items',
-      purchase:'Buy From Trader',
-      sale:'Sell To Trader',
-      both:'Buys & Sells'
-    };
-    filters.forEach(function (button) {
-      var key = button.dataset.catalogueFilter;
-      if (!labels[key]) return;
-      button.innerHTML = '<span>' + labels[key] + '</span><strong>' + totals[key] + '</strong>';
-    });
-
-    var existing = root.querySelector('.catalogue-transaction-summary');
-    if (existing) existing.remove();
-    var summary = document.createElement('div');
-    summary.className = 'catalogue-transaction-summary';
-    summary.innerHTML =
-      '<div><small>Buy From Trader</small><strong>' + totals.purchase + '</strong><span>items available to buy</span></div>' +
-      '<div><small>Sell To Trader</small><strong>' + totals.sale + '</strong><span>items accepted by trader</span></div>' +
-      '<div><small>Both Ways</small><strong>' + totals.both + '</strong><span>items with both prices</span></div>';
-    var tools = root.querySelector('.catalogue-tools');
-    if (tools) tools.insertAdjacentElement('afterend', summary);
   }
 
   function itemMarkup(item) {
@@ -130,35 +90,20 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     return '<article class="catalogue-item">' +
-      '<div>' +
-        '<div class="catalogue-name">' + escapeHtml(item.name) + '</div>' +
-        '<div class="catalogue-class">' + escapeHtml(item.className) + '</div>' +
-      '</div>' +
-      '<div class="catalogue-meta">' +
-        '<span class="catalogue-direction ' + directionClass + '">' + escapeHtml(direction) + '</span>' +
-        prices +
-      '</div>' +
+      '<div><div class="catalogue-name">' + escapeHtml(item.name) + '</div>' +
+      '<div class="catalogue-class">' + escapeHtml(item.className) + '</div></div>' +
+      '<div class="catalogue-meta"><span class="catalogue-direction ' + directionClass + '">' + escapeHtml(direction) + '</span>' + prices + '</div>' +
     '</article>';
-  }
-
-  function matchesActive(item) {
-    var state = permissions(item);
-    if (active === 'all') return true;
-    if (active === 'purchase') return state.sells;
-    if (active === 'sale') return state.buys;
-    if (active === 'both') return state.sells && state.buys;
-    return item.category === active;
   }
 
   function render() {
     var query = search ? search.value.trim().toLowerCase() : '';
-
     var rows = cfg.items.filter(function (item) {
       var haystack = [item.name, item.className, item.category].join(' ').toLowerCase();
-      return matchesActive(item) && (!query || haystack.indexOf(query) !== -1);
+      return !query || haystack.indexOf(query) !== -1;
     });
 
-    count.textContent = rows.length + ' item' + (rows.length === 1 ? '' : 's');
+    if (count) count.textContent = rows.length + ' item' + (rows.length === 1 ? '' : 's');
     empty.style.display = rows.length ? 'none' : 'block';
 
     var grouped = {};
@@ -166,39 +111,21 @@ document.addEventListener('DOMContentLoaded', function () {
       if (!grouped[item.category]) grouped[item.category] = [];
       grouped[item.category].push(item);
     });
-
     Object.keys(grouped).forEach(function (category) {
-      grouped[category].sort(function (a, b) {
-        return compareText(a.name, b.name) || compareText(a.className, b.className);
-      });
+      grouped[category].sort(function (a, b) { return compareText(a.name, b.name) || compareText(a.className, b.className); });
     });
 
     var visibleCategories = Object.keys(grouped).sort(compareText);
-
     list.innerHTML = visibleCategories.map(function (category) {
       var items = grouped[category];
-      var shouldOpen = Boolean(query) || active === category || visibleCategories.length === 1;
+      var shouldOpen = Boolean(query) || visibleCategories.length === 1;
       return '<details class="catalogue-group"' + (shouldOpen ? ' open' : '') + '>' +
-        '<summary class="catalogue-group-summary">' +
-          '<span class="catalogue-group-title">' + escapeHtml(category) + '</span>' +
-          '<span class="catalogue-group-count">' + items.length + ' item' + (items.length === 1 ? '' : 's') + '</span>' +
-        '</summary>' +
-        '<div class="catalogue-group-items">' + items.map(itemMarkup).join('') + '</div>' +
-      '</details>';
+        '<summary class="catalogue-group-summary"><span class="catalogue-group-title">' + escapeHtml(category) + '</span>' +
+        '<span class="catalogue-group-count">' + items.length + ' item' + (items.length === 1 ? '' : 's') + '</span></summary>' +
+        '<div class="catalogue-group-items">' + items.map(itemMarkup).join('') + '</div></details>';
     }).join('');
-
-    filters.forEach(function (button) {
-      button.classList.toggle('active', button.dataset.catalogueFilter === active);
-    });
   }
 
-  setFilterLabels();
   if (search) search.addEventListener('input', render);
-  filters.forEach(function (button) {
-    button.addEventListener('click', function () {
-      active = button.dataset.catalogueFilter;
-      render();
-    });
-  });
   render();
 });
