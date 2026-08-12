@@ -15,6 +15,10 @@ TRADERS = {
         "zone": "Main_Consumables_Trader.json",
         "currency": "USD",
         "currency_label": None,
+        # Naomi's normal consumables are available in both directions. Gardening
+        # stock is the deliberate exception: players may sell it to Naomi only.
+        "inherited_category_buyback": True,
+        "buyback_excluded_categories": ["Gardening"],
     },
     "rolf": {
         "name": "Rolf",
@@ -175,18 +179,16 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
         curated_item = curated.get(class_name.lower())
         market = choose_market_entry(class_name, candidates, curated_item)
 
-        # Known mod classname families get a deterministic human-friendly name even
-        # if an earlier generated catalogue contained a rough fallback name.
         special_name = special_friendly_name(class_name)
         name = special_name or (curated_item["name"] if curated_item else friendly_from_classname(class_name))
 
-        # Market-file category is authoritative for known categories such as Geb's
-        # Fishing Gear; curated labels remain preferred elsewhere.
         if market["source"] == "Gebs_Fishing_Gear.json":
             category = "Geb's Fishing Gear"
         else:
             category = curated_item["category"] if curated_item else market["category"]
 
+        # Existing BTA convention used by these curated trader zones:
+        # 0 = normal stock sold by the trader; 1 = special stock bought from players.
         mode = "buy" if int(stock_value) == 1 else "sell"
         rows.append(
             {
@@ -209,6 +211,19 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
     header = f"window.traderCatalogue={{traderName:'{js_escape(cfg['name'])}',currency:'{js_escape(cfg['currency'])}'"
     if cfg.get("currency_label"):
         header += f",currencyLabel:'{js_escape(cfg['currency_label'])}'"
+
+    # The catalogue renderer uses these flags to show both player-facing prices.
+    # The sell-back percentage comes directly from the live trader-zone JSON so a
+    # GTX config change flows through to the website on the next sync.
+    if cfg.get("inherited_category_buyback"):
+        sell_percent = zone.get("SellPricePercent")
+        if sell_percent is not None and float(sell_percent) >= 0:
+            header += f",inheritedCategoryBuyback:true,inheritedSellPercent:{float(sell_percent):g}"
+        excluded = cfg.get("buyback_excluded_categories") or []
+        if excluded:
+            encoded = ",".join("'%s'" % js_escape(category) for category in excluded)
+            header += f",buybackExcludedCategories:[{encoded}]"
+
     header += ",items:[\n"
 
     lines = []
