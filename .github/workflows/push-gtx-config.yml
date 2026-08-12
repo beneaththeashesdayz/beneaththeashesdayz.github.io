@@ -9,9 +9,6 @@ on:
         type: choice
         options:
           - data/live-market/traders/Clothing.json
-  push:
-    paths:
-      - "gtx-patches/quinn-clothing-buy-sell.trigger"
 
 permissions:
   contents: read
@@ -37,14 +34,10 @@ jobs:
       - name: Install SFTP dependency
         run: python -m pip install --disable-pip-version-check paramiko
 
-      - name: Apply Quinn vanilla buy/sell patch
-        if: github.event_name == 'push'
-        run: python patch_clothing_buy_sell.py
-
       - name: Validate and upload approved config
         env:
           GTX_HOST: ${{ secrets.GTX_HOST }}
           GTX_PORT: ${{ secrets.GTX_PORT }}
           GTX_USERNAME: ${{ secrets.GTX_USERNAME }}
           GTX_PASSWORD: ${{ secrets.GTX_PASSWORD }}
-        run: python push_gtx_config.py "data/live-market/traders/Clothing.json"
+        run: python push_gtx_config.py "${{ inputs.repo_path }}"
