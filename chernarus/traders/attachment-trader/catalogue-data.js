@@ -35,7 +35,7 @@ window.traderCatalogue={traderName:'Attachment Trader',currency:'USD',items:[
 {name:'.408 CheyTac',className:'ammo_ha_408ct',category:'Harald\'s Ammo',buyPrice:140,sellPrice:105,traderSells:true,traderBuys:true},
 {name:'.44 Magnum',className:'ammo_ha_44magnum',category:'Harald\'s Ammo',buyPrice:61,sellPrice:46,traderSells:true,traderBuys:true},
 {name:'.50 BMG',className:'ammo_ha_50bmg',category:'Harald\'s Ammo',buyPrice:135,sellPrice:101,traderSells:true,traderBuys:true},
-{name:'Weapon Cleaning Kit',className:'weaponcleaningkit',category:'Kits',buyPrice:34900,sellPrice:26175,traderSells:true,traderBuys:true},
+{name:'Weapon Cleaning Kit',className:'weaponcleaningkit',category:'Kits',buyPrice:34900,traderSells:true,traderBuys:false},
 {name:'.277 Fury',className:'ttc_ammo_277',category:'Morty\'s Ammo',buyPrice:88,sellPrice:66,traderSells:true,traderBuys:true},
 {name:'.30-06',className:'ttc_ammo_3006',category:'Morty\'s Ammo',buyPrice:82,sellPrice:62,traderSells:true,traderBuys:true},
 {name:'.300 Blackout',className:'ttc_ammo_300blk',category:'Morty\'s Ammo',buyPrice:56,sellPrice:42,traderSells:true,traderBuys:true},
