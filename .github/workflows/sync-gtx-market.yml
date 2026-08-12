@@ -26,6 +26,8 @@ jobs:
     steps:
       - name: Check out site
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -77,4 +79,11 @@ jobs:
           git config user.name "Beneath the Ashes Market Bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -m "Sync live GTX market and trader catalogues"
-          git push
+
+          # The GTX download takes long enough that main can change while this
+          # job is running. Rebase the generated commit onto the newest remote
+          # main before pushing so routine site edits do not cause a false
+          # workflow failure.
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
