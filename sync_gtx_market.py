@@ -14,6 +14,7 @@ OUT_ROOT = ROOT / "data" / "live-market"
 MARKET_OUT = OUT_ROOT / "market"
 TRADERS_OUT = OUT_ROOT / "traders"
 ZONES_OUT = OUT_ROOT / "traderzones"
+MARKET_SETTINGS_OUT = OUT_ROOT / "market-settings.json"
 
 HOST = os.environ["GTX_HOST"]
 PORT = int(os.environ.get("GTX_PORT", "22"))
@@ -25,6 +26,10 @@ TRADERS_REMOTE = os.environ.get("GTX_TRADERS_PATH", "profiles/ExpansionMod/Trade
 ZONES_REMOTE = os.environ.get(
     "GTX_TRADERZONES_PATH",
     "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
+)
+MARKET_SETTINGS_REMOTE = os.environ.get(
+    "GTX_MARKET_SETTINGS_PATH",
+    "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
 )
 
 
@@ -46,17 +51,23 @@ def is_dir(sftp: paramiko.SFTPClient, path: str) -> bool:
         return False
 
 
+def is_file(sftp: paramiko.SFTPClient, path: str) -> bool:
+    try:
+        sftp.stat(path)
+        return True
+    except (FileNotFoundError, IOError):
+        return False
+
+
 def discover_server_root(sftp: paramiko.SFTPClient) -> str:
     """Find the DayZ server folder GTX places beneath the SFTP root."""
     home = sftp.normalize(".") or "/"
 
-    # If the login directory itself already contains the expected server folders, use it.
     for base in [home, "/", "."]:
         if is_dir(sftp, posixpath.join(base, "profiles")) or is_dir(sftp, posixpath.join(base, "mpmissions")):
             print(f"Detected GTX server root: {base}")
             return base
 
-    # GTX commonly exposes one server-instance directory beneath '/'. Search one level down.
     for base in [home, "/"]:
         try:
             names = sftp.listdir(base)
@@ -79,16 +90,14 @@ def discover_server_root(sftp: paramiko.SFTPClient) -> str:
     )
 
 
-def resolve_remote_dir(sftp: paramiko.SFTPClient, server_root: str, configured: str) -> str:
+def remote_candidates(server_root: str, configured: str) -> list[str]:
     configured = configured.strip().replace("\\", "/").lstrip("/")
-    candidates = [
-        posixpath.join(server_root, configured),
-        configured,
-        "/" + configured,
-    ]
+    return [posixpath.join(server_root, configured), configured, "/" + configured]
 
+
+def resolve_remote_dir(sftp: paramiko.SFTPClient, server_root: str, configured: str) -> str:
     seen = set()
-    for candidate in candidates:
+    for candidate in remote_candidates(server_root, configured):
         if candidate in seen:
             continue
         seen.add(candidate)
@@ -98,6 +107,21 @@ def resolve_remote_dir(sftp: paramiko.SFTPClient, server_root: str, configured: 
 
     raise FileNotFoundError(
         f"Could not resolve GTX directory '{configured}' beneath detected server root '{server_root}'."
+    )
+
+
+def resolve_remote_file(sftp: paramiko.SFTPClient, server_root: str, configured: str) -> str:
+    seen = set()
+    for candidate in remote_candidates(server_root, configured):
+        if candidate in seen:
+            continue
+        seen.add(candidate)
+        if is_file(sftp, candidate):
+            print(f"Resolved {configured} -> {candidate}")
+            return candidate
+
+    raise FileNotFoundError(
+        f"Could not resolve GTX file '{configured}' beneath detected server root '{server_root}'."
     )
 
 
@@ -141,6 +165,21 @@ def sync_dir(sftp: paramiko.SFTPClient, remote_dir: str, local_dir: Path, group:
     return manifest_items
 
 
+def sync_json_file(sftp: paramiko.SFTPClient, remote_file: str, local_file: Path, group: str) -> dict:
+    with sftp.open(remote_file, "rb") as fh:
+        raw = fh.read()
+    normalized, parsed = normalize_json(raw)
+    local_file.parent.mkdir(parents=True, exist_ok=True)
+    local_file.write_bytes(normalized)
+    return {
+        "group": group,
+        "filename": local_file.name,
+        "sha256": sha256_bytes(normalized),
+        "topLevelType": "object" if isinstance(parsed, dict) else "array" if isinstance(parsed, list) else type(parsed).__name__,
+        "entryCount": len(parsed) if isinstance(parsed, (dict, list)) else None,
+    }
+
+
 def main() -> None:
     OUT_ROOT.mkdir(parents=True, exist_ok=True)
     transport = paramiko.Transport((HOST, PORT))
@@ -153,9 +192,13 @@ def main() -> None:
             market_remote = resolve_remote_dir(sftp, server_root, MARKET_REMOTE)
             traders_remote = resolve_remote_dir(sftp, server_root, TRADERS_REMOTE)
             zones_remote = resolve_remote_dir(sftp, server_root, ZONES_REMOTE)
+            market_settings_remote = resolve_remote_file(sftp, server_root, MARKET_SETTINGS_REMOTE)
             market_items = sync_dir(sftp, market_remote, MARKET_OUT, "market")
             trader_items = sync_dir(sftp, traders_remote, TRADERS_OUT, "traders")
             zone_items = sync_dir(sftp, zones_remote, ZONES_OUT, "traderzones")
+            settings_item = sync_json_file(
+                sftp, market_settings_remote, MARKET_SETTINGS_OUT, "market-settings"
+            )
         finally:
             sftp.close()
     finally:
@@ -167,15 +210,16 @@ def main() -> None:
         "marketPath": MARKET_REMOTE,
         "tradersPath": TRADERS_REMOTE,
         "traderZonesPath": ZONES_REMOTE,
+        "marketSettingsPath": MARKET_SETTINGS_REMOTE,
         "marketFileCount": len(market_items),
         "traderFileCount": len(trader_items),
         "traderZoneFileCount": len(zone_items),
-        "files": market_items + trader_items + zone_items,
+        "files": market_items + trader_items + zone_items + [settings_item],
     }
     (OUT_ROOT / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(
-        f"Synced {len(market_items)} market files, {len(trader_items)} trader files "
-        f"and {len(zone_items)} trader-zone files."
+        f"Synced {len(market_items)} market files, {len(trader_items)} trader files, "
+        f"{len(zone_items)} trader-zone files and MarketSettings.json."
     )
 
 
