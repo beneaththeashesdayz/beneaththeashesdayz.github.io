@@ -6,6 +6,7 @@ on:
     paths:
       - "sync_gtx_market.py"
       - "build_live_trader_catalogues.py"
+      - "polish_attachment_names.py"
       - "activate_attachment_trader.py"
       - ".github/workflows/sync-gtx-market.yml"
   schedule:
@@ -47,6 +48,9 @@ jobs:
 
       - name: Build live trader catalogues
         run: python build_live_trader_catalogues.py
+
+      - name: Polish attachment trader display names
+        run: python polish_attachment_names.py
 
       - name: Activate attachment trader directory card
         run: python activate_attachment_trader.py
