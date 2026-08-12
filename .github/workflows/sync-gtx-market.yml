@@ -13,7 +13,6 @@ on:
       - "polish_quinn_names.py"
       - "polish_quinn_acronyms.py"
       - "polish_attachment_names.py"
-      - "activate_attachment_trader.py"
       - ".github/workflows/sync-gtx-market.yml"
   schedule:
     - cron: "17 * * * *"
@@ -74,9 +73,6 @@ jobs:
 
       - name: Polish attachment trader display names
         run: python polish_attachment_names.py
-
-      - name: Activate attachment trader directory card
-        run: python activate_attachment_trader.py
 
       - name: Commit market and catalogue changes
         shell: bash
