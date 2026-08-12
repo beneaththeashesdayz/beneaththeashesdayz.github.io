@@ -37,17 +37,20 @@ jobs:
           GTX_TRADERZONES_PATH: mpmissions/dayzOffline.chernarusplus/expansion/traderzones
         run: python sync_gtx_market.py
 
-      - name: Commit market changes
+      - name: Build live trader catalogues
+        run: python build_live_trader_catalogues.py
+
+      - name: Commit market and catalogue changes
         shell: bash
         run: |
-          git add data/live-market
+          git add data/live-market chernarus/traders/naomi/catalogue-data.js chernarus/traders/rolf/catalogue-data.js
 
           if git diff --cached --quiet; then
-            echo "No market changes detected."
+            echo "No market or catalogue changes detected."
             exit 0
           fi
 
           git config user.name "Beneath the Ashes Market Bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -m "Sync live GTX market data"
+          git commit -m "Sync live GTX market and trader catalogues"
           git push
