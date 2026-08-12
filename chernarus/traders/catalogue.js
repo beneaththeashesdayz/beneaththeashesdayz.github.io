@@ -102,8 +102,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var summary = document.createElement('div');
     summary.className = 'catalogue-transaction-summary';
     summary.innerHTML =
-      '<div><small>Buy From Trader</small><strong>' + totals.purchase + '</strong><span>items Quinn sells</span></div>' +
-      '<div><small>Sell To Trader</small><strong>' + totals.sale + '</strong><span>items Quinn buys</span></div>' +
+      '<div><small>Buy From Trader</small><strong>' + totals.purchase + '</strong><span>items available to buy</span></div>' +
+      '<div><small>Sell To Trader</small><strong>' + totals.sale + '</strong><span>items accepted by trader</span></div>' +
       '<div><small>Both Ways</small><strong>' + totals.both + '</strong><span>items with both prices</span></div>';
     var tools = root.querySelector('.catalogue-tools');
     if (tools) tools.insertAdjacentElement('afterend', summary);
