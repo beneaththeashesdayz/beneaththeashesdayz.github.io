@@ -1,0 +1,22 @@
+{
+  "m_Version": 13,
+  "DisplayName": "Exotic Vehicle Parts",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Trader",
+  "Currencies": [
+    "zombie_note"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "Zombie Notes",
+  "UseCategoryOrder": 0,
+  "Categories": [
+    "Car_Parts",
+    "Car_Keys"
+  ],
+  "Items": {
+    "hb_flipvehicle_bollard": 0
+  }
+}

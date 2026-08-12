@@ -1,0 +1,27 @@
+{
+  "m_Version": 13,
+  "DisplayName": "Zombie Note Trader",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Trader",
+  "Currencies": [
+    "zombie_note"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "Zombie Notes",
+  "UseCategoryOrder": 0,
+  "Categories": [
+    "NBC_Gear:0",
+    "Workbenches:0",
+    "Mag_Loader:0",
+    "Gebs_Fishing_Gear:2"
+  ],
+  "Items": {
+    "compass": 0,
+    "gpsreceiver": 0,
+    "lbs_sleepingpacked_new_camo": 0,
+    "orienteeringcompass": 0
+  }
+}

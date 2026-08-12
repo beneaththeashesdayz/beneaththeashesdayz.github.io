@@ -1,0 +1,30 @@
+{
+  "m_Version": 13,
+  "DisplayName": "#STR_EXPANSION_MARKET_TRADER_FISHING",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Fishing",
+  "Currencies": [
+    "Money_Dollar1",
+    "Money_Dollar2",
+    "Money_Dollar5",
+    "Money_Dollar10",
+    "Money_Dollar20",
+    "Money_Dollar50",
+    "Money_Dollar100"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "USD",
+  "UseCategoryOrder": 0,
+  "Categories": [
+    "Fish:2",
+    "Fishing_Equipment:1",
+    "Geb's_Fishing_Supplies:1",
+    "Geb's_Fish_Meat:2",
+    "Gebs_Fish:2",
+    "Fish_Meat:2"
+  ],
+  "Items": {}
+}

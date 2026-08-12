@@ -1,0 +1,31 @@
+{
+  "m_Version": 13,
+  "DisplayName": "Collectables Trader",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Trader",
+  "Currencies": [
+    "money_dollar1",
+    "money_dollar10",
+    "money_dollar100",
+    "money_dollar2",
+    "money_dollar20",
+    "money_dollar5",
+    "money_dollar50"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "USD",
+  "UseCategoryOrder": 0,
+  "Categories": [
+    "Drippy_Sneakers:2",
+    "Paragon_Collectables:2",
+    "Pokemon:2",
+    "Vyse_Collectables:2",
+    "Fallout:2",
+    "Fallout_Bobbleheads:2",
+    "Fallout_Nuka_Cola:2"
+  ],
+  "Items": {}
+}

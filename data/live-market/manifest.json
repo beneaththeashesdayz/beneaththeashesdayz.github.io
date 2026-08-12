@@ -1,9 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-08-12T13:40:14.905624+00:00",
+  "syncedAt": "2026-08-12T14:56:55.696338+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
+  "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketFileCount": 184,
+  "traderFileCount": 33,
   "traderZoneFileCount": 18,
   "files": [
     {
@@ -1293,6 +1295,237 @@
       "sha256": "973c189aaaa3f94184c32262af940bb4276bc4efd5bcd74c94b9580e4700e3b3",
       "topLevelType": "object",
       "entryCount": 7
+    },
+    {
+      "group": "traders",
+      "filename": "Attachments.json",
+      "sha256": "d7d1b9e80b9e63c8cf57209fafc0b0ed031336330a61253294c723a2259bd8d2",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Blackmarket.json",
+      "sha256": "ec0229adba2192f60faaeebc405bf01a85b41088cf461401a12c79982b69f25d",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "BM_Zombie_Note_Trader.json",
+      "sha256": "842e1a5bfb0e103963247a1a4cfa82d957f9df5b1be367c41288428ca2822d39",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Boats.json",
+      "sha256": "f1ff23fc8a944f9dfa6a2b693b705cb2057aea8aef439da0c84e96ad5b3afa1c",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "BuildingSupplies.json",
+      "sha256": "7dadbe3d4d486378fd1004930662fc11bc3b16d5013812eff17dc4d68487259f",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Clothing.json",
+      "sha256": "69d910c70f737a930c2ae682ba52851b4da29b815bfb3a3859c9f15a19ce666e",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Clothing_Accessories.json",
+      "sha256": "00002f3b7096a5d7c04df5592022249e109243d5eb386c59e1b100d5a31570c8",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Collectables_Trader_BM.json",
+      "sha256": "4d3792dcb4957cba293addedcd6feae56d23581b73bfad50f4cf7fd35e413951",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Collectables_Trader_Main.json",
+      "sha256": "6f97b4038458e866ed7851a5eceb90363f312e24cb606e7d8b0bb3ceb7bfb3d5",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Components.json",
+      "sha256": "ee7f11c20cd15cba57c5f756feb571a390ba8ee061d11c038ce569a6e6ffcf6a",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Consumables.json",
+      "sha256": "c903181a26c98bc96c9b1b80fc94f63f72ba4112b391b48d379d82c977933c4f",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Drugs.json",
+      "sha256": "fac875d5d554ff3315b11c8863352dd547d8ef3aeee8dd1be64fc1956ab52fe5",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Event.json",
+      "sha256": "b22b420fe2a1bbbdac06b45e3d081ff9df183341cbbf84194d97682711d7ba25",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Exchange.json",
+      "sha256": "f678908f18084b5b94c1ec6b0cbf1374ca81de8295741090a9fe580297088aca",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Exotic_Vehicle_Trader.json",
+      "sha256": "d1f45eca3761dd2c6efd54180998ee92f3e1f32ff20d2c56709494318f6a78bb",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Exotric_Vehicle_Parts.json",
+      "sha256": "b46fde53f779c9a365f5f548dc08bc9e044eefd84e305f41415f15d4951c3ba3",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Fishing.json",
+      "sha256": "9bec04dc1277939cec531b2d00f43cfd8b8a6da2d58ed05da34c534524f1845a",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Hunting.json",
+      "sha256": "abc252a7720b1fef8796a6292d12234ef0e123a4e983f7f058301fc30d5ab0ee",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Medicals.json",
+      "sha256": "b10c24471932c0194c253a0d9fc9b3152762a2a57a4c8d59cc14f009d0a5d1f2",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Mining.json",
+      "sha256": "2f75bea03fc3c10f93b867efac0313b48d499386195bb1a651226d15c490917f",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Moonshine.json",
+      "sha256": "01ec1adeb11bb7874f113ed3278be2f1f1870b7f488bb0e16b3cd6217941ef50",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Paintball.json",
+      "sha256": "c52b578108d1eeef2fed3d2fdce4f0d3af8cd56f06336e50d7b2c6d2b09f3820",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Pop-Up_Alcohol_Trader.json",
+      "sha256": "bb5af661e68f50e899ec71c1d64d25f771ed14043fdb868563e7da58b7476961",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Secret_Trader.json",
+      "sha256": "5407d0b7af33524427ba55f9b812bf7569cbf1baabfc530ebb93d887d45a378a",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Special.json",
+      "sha256": "afc7e7f980525762d428f2158b9c56b73bc89f71a3449546659b051f3c02c47b",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Special_Gear.json",
+      "sha256": "d5a79c7a477a31c07c55cfd91b04ef44d7afb59e3dfc2256e34bb9b4ddd99612",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Spraycans.json",
+      "sha256": "1124e5e7303433842d9494c12ae689173fb1bcd731501e475f13f4351efe14d6",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "The_Bone_Broker.json",
+      "sha256": "897a5afcf986a26b836b56e2c42601f6be1178cf3149c2b7e79925010798963f",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "The_Captain's_Bounty.json",
+      "sha256": "85a37eb3be60b4b2b58e21adaee8154460acb585587a2e1a81d17618abd113bc",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "The_Deep_Vein.json",
+      "sha256": "78d79eb2e6bd5c7e353ca47ce35713ff3ab7be01e4777a356df7da511fc0511d",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Vehicle_Parts.json",
+      "sha256": "7df2a6bd58afb48c8b873c14603f7713d14c7e48fcc8f525a32dcddf31271ab7",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "Weapons.json",
+      "sha256": "7169030c52679dc1282907c6a6a6bc2f6a3ac22f13834727dbf370b416ebc0d7",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "YardSaleScripTrader.json",
+      "sha256": "8ec92765a6e515eb9b8d72a9785c32ad19097128f9cd9b9c86c27c5a6bb189c0",
+      "topLevelType": "object",
+      "entryCount": 13
     },
     {
       "group": "traderzones",

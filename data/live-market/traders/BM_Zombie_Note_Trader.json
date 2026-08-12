@@ -1,0 +1,50 @@
+{
+  "m_Version": 13,
+  "DisplayName": "BM Zombie Note Trader",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Trader",
+  "Currencies": [
+    "zombie_note"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "Zombie Notes",
+  "UseCategoryOrder": 0,
+  "Categories": [
+    "Custom_Flags",
+    "BallerZ_Gear",
+    "Workbenches",
+    "Mag_Loader",
+    "Gebs_Fishing_Gear:2",
+    "SpawnTickets:0",
+    "Ghillie_Sniper_Gear_Set:0",
+    "Hazmat_Gear_Set:0",
+    "Razor_Falcon_Gear_Set:0",
+    "Bat_Baby_Gear_Set:0",
+    "CoD_Gear_Set:0",
+    "Military_Gear_Set:0",
+    "Multi_Gear_Set:0",
+    "Operator_Gear_Set:0",
+    "Rider_Gear_Set:0",
+    "Mercenary_Gear_Set:0",
+    "Rabbit_Gear_Set:0",
+    "Casual_Soldier_Gear_Set:0",
+    "FSB_Alpha_Gear_Set:0",
+    "Russian_Soldier_v2_Gear_Set:0",
+    "Russian_Soldier_v3_Gear_Set:0",
+    "Russian_Soldier_v4_Gear_Set:0",
+    "Tracksuit_Gear_Set:0",
+    "Umbrella_Gear_Set:0",
+    "Ghost_Gear_Set:0",
+    "Fuel_Canisters:0",
+    "FOG_Gear_Higher_Tier:1"
+  ],
+  "Items": {
+    "compass": 0,
+    "gpsreceiver": 0,
+    "lbs_sleepingpacked_new_camo": 1,
+    "orienteeringcompass": 0
+  }
+}

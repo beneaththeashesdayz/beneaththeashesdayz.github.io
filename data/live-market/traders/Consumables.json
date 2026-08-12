@@ -1,0 +1,28 @@
+{
+  "m_Version": 13,
+  "DisplayName": "#STR_EXPANSION_MARKET_TRADER_CONSUMABLES",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Can Of Beans Big",
+  "Currencies": [
+    "Money_Dollar1",
+    "Money_Dollar2",
+    "Money_Dollar5",
+    "Money_Dollar10",
+    "Money_Dollar20",
+    "Money_Dollar50",
+    "Money_Dollar100"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "USD",
+  "UseCategoryOrder": 0,
+  "Categories": [
+    "Food:0",
+    "Drinks:0",
+    "Cans:0",
+    "Gardening:2"
+  ],
+  "Items": {}
+}

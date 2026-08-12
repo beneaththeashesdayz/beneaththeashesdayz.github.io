@@ -1,0 +1,30 @@
+{
+  "m_Version": 13,
+  "DisplayName": "The Deep Vein",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Trader",
+  "Currencies": [
+    "money_dollar1",
+    "money_dollar10",
+    "money_dollar100",
+    "money_dollar2",
+    "money_dollar20",
+    "money_dollar5",
+    "money_dollar50"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "USD",
+  "UseCategoryOrder": 0,
+  "Categories": [],
+  "Items": {
+    "FreezeGem_FancyColourDiamond_Flawed": 2,
+    "FreezeGem_FancyColourDiamond_Standard": 2,
+    "FreezeGem_FancyColourDiamond_Perfect": 2,
+    "FreezeBar_Bronze_Flawed": 2,
+    "FreezeBar_Bronze_Standard": 2,
+    "FreezeBar_Bronze_Perfect": 2
+  }
+}

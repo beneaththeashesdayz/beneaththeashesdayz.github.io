@@ -1,0 +1,44 @@
+{
+  "m_Version": 13,
+  "DisplayName": "#STR_EXPANSION_MARKET_TRADER_ATTACHMENTS",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Scrap Metal",
+  "Currencies": [
+    "Money_Dollar1",
+    "Money_Dollar2",
+    "Money_Dollar5",
+    "Money_Dollar10",
+    "Money_Dollar20",
+    "Money_Dollar50",
+    "Money_Dollar100"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "USD",
+  "UseCategoryOrder": 0,
+  "Categories": [
+    "Batteries:3",
+    "MYDF_Attachments:1",
+    "MYDF_Ammo:1",
+    "MYDF_Mags:1",
+    "Haralds_Ammo:1",
+    "Morty's_Ammo:1",
+    "Ammo:1",
+    "Bayonets:1",
+    "Buttstocks:1",
+    "Handguards:1",
+    "Magazines:1",
+    "Optics:1"
+  ],
+  "Items": {
+    "weaponcleaningkit": 1,
+    "Ammo_40mm_ChemGas": 2,
+    "Ammo_40mm_Explosive": 2,
+    "Ammo_40mm_Smoke_Black": 2,
+    "Ammo_40mm_Smoke_Green": 2,
+    "Ammo_40mm_Smoke_Red": 2,
+    "Ammo_40mm_Smoke_White": 2
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "m_Version": 13,
+  "DisplayName": "#STR_EXPANSION_MARKET_TRADER_EXCHANGE",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Trader",
+  "Currencies": [
+    "Money_Dollar1",
+    "Money_Dollar2",
+    "Money_Dollar5",
+    "Money_Dollar10",
+    "Money_Dollar20",
+    "Money_Dollar50",
+    "Money_Dollar100",
+    "blackmarket_note",
+    "zombie_note",
+    "TheBoneBounty_Giveaway_Ticket"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "",
+  "UseCategoryOrder": 0,
+  "Categories": [
+    "Exchange"
+  ],
+  "Items": {}
+}

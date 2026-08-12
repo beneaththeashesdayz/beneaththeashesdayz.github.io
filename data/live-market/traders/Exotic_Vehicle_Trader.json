@@ -1,0 +1,33 @@
+{
+  "m_Version": 13,
+  "DisplayName": "Exotic Vehicle Trader",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Trader",
+  "Currencies": [
+    "zombie_note"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "Zombie Notes",
+  "UseCategoryOrder": 0,
+  "Categories": [
+    "Car_Sedans",
+    "Car_Armored",
+    "Car_Parts:3",
+    "Car_Muscle",
+    "Car_Crates",
+    "Car_SUV",
+    "Car_Sports",
+    "Car_Station_Wagon"
+  ],
+  "Items": {
+    "truckbattery": 3,
+    "hb_flipvehicle_bollard": 3,
+    "carbattery": 3,
+    "carradiator": 3,
+    "headlighth7": 3,
+    "sparkplug": 3
+  }
+}

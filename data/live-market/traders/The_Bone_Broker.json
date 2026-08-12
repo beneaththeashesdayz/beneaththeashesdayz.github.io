@@ -1,0 +1,19 @@
+{
+  "m_Version": 13,
+  "DisplayName": "The Bone Broker",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Trader",
+  "Currencies": [
+    "bounty_ticket"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "Bone Broker Ticket",
+  "UseCategoryOrder": 0,
+  "Categories": [
+    "Human_Skulls:2"
+  ],
+  "Items": {}
+}
