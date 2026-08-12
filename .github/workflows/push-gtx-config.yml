@@ -9,6 +9,7 @@ on:
         type: choice
         options:
           - data/live-market/traders/Clothing.json
+          - data/live-market/traders/Attachments.json
 
 permissions:
   contents: read
