@@ -1,0 +1,43 @@
+name: Push Approved Config to GTX
+
+on:
+  workflow_dispatch:
+    inputs:
+      repo_path:
+        description: Approved repository config path to upload
+        required: true
+        type: choice
+        options:
+          - data/live-market/traders/Clothing.json
+
+permissions:
+  contents: read
+
+concurrency:
+  group: push-gtx-config
+  cancel-in-progress: false
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install SFTP dependency
+        run: python -m pip install --disable-pip-version-check paramiko
+
+      - name: Validate and upload approved config
+        env:
+          GTX_HOST: ${{ secrets.GTX_HOST }}
+          GTX_PORT: ${{ secrets.GTX_PORT }}
+          GTX_USERNAME: ${{ secrets.GTX_USERNAME }}
+          GTX_PASSWORD: ${{ secrets.GTX_PASSWORD }}
+        run: python push_gtx_config.py "${{ inputs.repo_path }}"
