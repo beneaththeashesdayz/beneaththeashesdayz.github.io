@@ -1,3 +1,4 @@
+# Refresh trigger after approved Quinn clothing config update
 name: Sync GTX Market
 
 on:
