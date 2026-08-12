@@ -10,6 +10,9 @@ on:
         options:
           - data/live-market/traders/Clothing.json
           - data/live-market/traders/Attachments.json
+  push:
+    paths:
+      - "gtx-patches/attachment-cleaning-kit.trigger"
 
 permissions:
   contents: read
@@ -41,4 +44,4 @@ jobs:
           GTX_PORT: ${{ secrets.GTX_PORT }}
           GTX_USERNAME: ${{ secrets.GTX_USERNAME }}
           GTX_PASSWORD: ${{ secrets.GTX_PASSWORD }}
-        run: python push_gtx_config.py "${{ inputs.repo_path }}"
+        run: python push_gtx_config.py "${{ github.event_name == 'push' && 'data/live-market/traders/Attachments.json' || inputs.repo_path }}"
