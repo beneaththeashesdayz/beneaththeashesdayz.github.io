@@ -2,6 +2,11 @@ name: Sync GTX Market
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "sync_gtx_market.py"
+      - "build_live_trader_catalogues.py"
+      - ".github/workflows/sync-gtx-market.yml"
   schedule:
     - cron: "17 * * * *"
 
@@ -34,6 +39,7 @@ jobs:
           GTX_USERNAME: ${{ secrets.GTX_USERNAME }}
           GTX_PASSWORD: ${{ secrets.GTX_PASSWORD }}
           GTX_MARKET_PATH: profiles/ExpansionMod/Market
+          GTX_TRADERS_PATH: profiles/ExpansionMod/Traders
           GTX_TRADERZONES_PATH: mpmissions/dayzOffline.chernarusplus/expansion/traderzones
         run: python sync_gtx_market.py
 
