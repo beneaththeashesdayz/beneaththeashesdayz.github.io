@@ -42,13 +42,58 @@ def js_escape(value: str) -> str:
     return value.replace("\\", "\\\\").replace("'", "\\'")
 
 
+def title_words(value: str) -> str:
+    words = value.replace("-", "_").split("_")
+    special = {
+        "gps": "GPS",
+        "nbc": "NBC",
+        "zedklr": "ZedKLR",
+        "rick": "Rick",
+        "morty": "Morty",
+    }
+    return " ".join(special.get(word.lower(), word.capitalize()) for word in words if word)
+
+
+def special_friendly_name(class_name: str) -> str | None:
+    lower = class_name.lower()
+
+    geb_match = re.fullmatch(r"geb_([a-z]+)fish(hat|shirt|gloves)", lower)
+    if geb_match:
+        color, item_type = geb_match.groups()
+        label = {
+            "hat": "Fish Hat",
+            "shirt": "Fish Shirt",
+            "gloves": "Fishing Gloves",
+        }[item_type]
+        return f"{color.capitalize()} {label}"
+
+    sleeping_prefixes = (
+        "lbs_sleepingpacked_new_",
+        "lbs_sleepingpacked_extended_",
+        "lbs_sleepingpacked_old_",
+    )
+    for prefix in sleeping_prefixes:
+        if lower.startswith(prefix):
+            theme = lower[len(prefix):]
+            theme_name = title_words(theme)
+            theme_name = theme_name.replace("Rick And Morty", "Rick & Morty")
+            return f"{theme_name} Sleeping Bag"
+
+    return None
+
+
 def friendly_from_classname(class_name: str) -> str:
+    special = special_friendly_name(class_name)
+    if special:
+        return special
     text = re.sub(r"[_-]+", " ", class_name)
     text = re.sub(r"(?<=[a-z0-9])(?=[A-Z])", " ", text)
     return " ".join(word.capitalize() for word in text.split())
 
 
 def category_from_filename(path: Path) -> str:
+    if path.name == "Gebs_Fishing_Gear.json":
+        return "Geb's Fishing Gear"
     return path.stem.replace("_", " ")
 
 
@@ -70,17 +115,16 @@ def load_curated_metadata(slug: str) -> dict[str, dict]:
 def add_market_entry(index: dict[str, list[dict]], class_name: str, entry: dict) -> None:
     key = class_name.lower()
     existing = index.setdefault(key, [])
-    # A variant can appear in multiple files. Avoid exact duplicate source entries.
     if not any(x["source"] == entry["source"] and x["price"] == entry["price"] for x in existing):
         existing.append(entry)
 
 
 def build_market_index() -> dict[str, list[dict]]:
-    """Index both Expansion parent ClassName entries and every Variant classname.
+    """Index Expansion parent items and every Variant classname.
 
-    Expansion Market commonly stores retextures/variants only inside the parent item's
-    Variants array. Trader zones, however, can reference those variant classnames
-    directly. Variants inherit the parent market entry's price and category.
+    Trader zones can reference a variant directly even when the market file stores
+    that classname only inside a parent item's Variants array. Variants inherit the
+    parent market entry's price and category.
     """
     index: dict[str, list[dict]] = {}
     for path in sorted(MARKET_DIR.glob("*.json"), key=lambda p: p.name.lower()):
@@ -130,11 +174,19 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
 
         curated_item = curated.get(class_name.lower())
         market = choose_market_entry(class_name, candidates, curated_item)
-        name = curated_item["name"] if curated_item else friendly_from_classname(class_name)
-        category = curated_item["category"] if curated_item else market["category"]
 
-        # Beneath the Ashes trader-zone convention:
-        # 0 = trader sells to players; 1 = trader buys from players.
+        # Known mod classname families get a deterministic human-friendly name even
+        # if an earlier generated catalogue contained a rough fallback name.
+        special_name = special_friendly_name(class_name)
+        name = special_name or (curated_item["name"] if curated_item else friendly_from_classname(class_name))
+
+        # Market-file category is authoritative for known categories such as Geb's
+        # Fishing Gear; curated labels remain preferred elsewhere.
+        if market["source"] == "Gebs_Fishing_Gear.json":
+            category = "Geb's Fishing Gear"
+        else:
+            category = curated_item["category"] if curated_item else market["category"]
+
         mode = "buy" if int(stock_value) == 1 else "sell"
         rows.append(
             {
@@ -148,8 +200,9 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
 
     category_order = []
     for item in curated.values():
-        if item["category"] not in category_order:
-            category_order.append(item["category"])
+        category = "Geb's Fishing Gear" if item["category"] == "Gebs Fishing Gear" else item["category"]
+        if category not in category_order:
+            category_order.append(category)
     order_lookup = {name: i for i, name in enumerate(category_order)}
     rows.sort(key=lambda x: (order_lookup.get(x["category"], 999), x["category"].lower(), x["name"].lower()))
 
