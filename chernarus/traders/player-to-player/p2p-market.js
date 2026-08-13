@@ -16,12 +16,11 @@
   let payload = null;
 
   const conditionLabels = {
-    0: 'Unknown',
-    1: 'Pristine',
-    2: 'Worn',
-    3: 'Damaged',
-    4: 'Badly Damaged',
-    5: 'Ruined'
+    0: 'Pristine',
+    1: 'Worn',
+    2: 'Damaged',
+    3: 'Badly Damaged',
+    4: 'Ruined'
   };
 
   function money(value) {
