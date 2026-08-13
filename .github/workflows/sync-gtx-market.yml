@@ -104,7 +104,7 @@ jobs:
         run: |
           git add data/live-market \
             chernarus/traders/index.html \
-            chernarus/traders/*/catalogue-data.js
+            -f chernarus/traders/*/catalogue-data.js
 
           if git diff --cached --quiet; then
             echo "No market or catalogue changes detected."
