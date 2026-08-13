@@ -12,6 +12,8 @@
   const clean = value => String(value || '')
     .replace(/[_-]+/g, ' ')
     .replace(/([a-z])([A-Z])/g, '$1 $2');
+  const displayColor = value => clean(value || 'Default finish')
+    .replace(/\b\w/g, letter => letter.toUpperCase());
   let payload;
 
   function priceRange(variants, field, disabledLabel) {
@@ -91,24 +93,64 @@
     ].filter(Boolean))];
   }
 
-  function variantPanel(vehicle) {
-    const panel = document.createElement('div');
-    panel.className = 'sparky-variant';
-    const color = document.createElement('h4');
-    color.textContent = vehicle.color || 'Default finish';
-    const className = document.createElement('div');
-    className.className = 'sparky-class';
-    className.textContent = vehicle.itemname || '';
-    const prices = document.createElement('dl');
-    prices.className = 'sparky-variant-prices';
-    addPriceRows(prices, [
-      ['Purchase', operationPrice(vehicle.buyCost, 'Not sold')],
-      ['Sell body', operationPrice(vehicle.sellPrice, 'Not accepted')],
-      ['Insurance', operationPrice(vehicle.insuranceCost, 'Not offered')],
-      ['Repaint', operationPrice(vehicle.repaintCost, 'Not offered')]
-    ]);
-    panel.append(color, className, prices);
-    return panel;
+  function colorList(variants) {
+    const list = document.createElement('div');
+    list.className = 'sparky-color-list';
+    list.replaceChildren(...variants.map(vehicle => {
+      const color = document.createElement('span');
+      color.className = 'sparky-color-chip';
+      color.textContent = displayColor(vehicle.color);
+      return color;
+    }));
+    return list;
+  }
+
+  function priceTiers(variants) {
+    const tiers = new Map();
+    variants.forEach(vehicle => {
+      const key = [vehicle.buyCost, vehicle.sellPrice, vehicle.insuranceCost, vehicle.repaintCost].join('|');
+      if (!tiers.has(key)) tiers.set(key, { sample: vehicle, variants: [] });
+      tiers.get(key).variants.push(vehicle);
+    });
+    return [...tiers.values()];
+  }
+
+  function colorVariantDetails(variants) {
+    const details = document.createElement('details');
+    details.className = 'sparky-variants';
+    const summary = document.createElement('summary');
+    const tiers = priceTiers(variants);
+    summary.textContent = tiers.length === 1
+      ? `View ${variants.length} colors`
+      : `View ${variants.length} colors in ${tiers.length} price tiers`;
+    details.append(summary);
+
+    if (tiers.length === 1) {
+      details.append(colorList(variants));
+      return details;
+    }
+
+    const tierList = document.createElement('div');
+    tierList.className = 'sparky-tier-list';
+    tiers.forEach((tier, index) => {
+      const section = document.createElement('section');
+      section.className = 'sparky-price-tier';
+      const label = document.createElement('div');
+      label.className = 'sparky-tier-label';
+      label.textContent = `Price tier ${index + 1}`;
+      const prices = document.createElement('dl');
+      prices.className = 'sparky-tier-prices';
+      addPriceRows(prices, [
+        ['Purchase', operationPrice(tier.sample.buyCost, 'Not sold')],
+        ['Sell body', operationPrice(tier.sample.sellPrice, 'Not accepted')],
+        ['Insurance', operationPrice(tier.sample.insuranceCost, 'Not offered')],
+        ['Repaint', operationPrice(tier.sample.repaintCost, 'Not offered')]
+      ]);
+      section.append(label, prices, colorList(tier.variants));
+      tierList.append(section);
+    });
+    details.append(tierList);
+    return details;
   }
 
   function vehicleCard(group) {
@@ -144,18 +186,10 @@
     if (group.variants.length === 1) {
       const color = document.createElement('div');
       color.className = 'sparky-single-color';
-      color.textContent = group.variants[0].color || 'Default finish';
+      color.textContent = displayColor(group.variants[0].color);
       card.append(color);
     } else {
-      const details = document.createElement('details');
-      details.className = 'sparky-variants';
-      const summary = document.createElement('summary');
-      summary.textContent = `View ${group.variants.length} color variants and prices`;
-      const grid = document.createElement('div');
-      grid.className = 'sparky-variant-grid';
-      grid.replaceChildren(...group.variants.map(variantPanel));
-      details.append(summary, grid);
-      card.append(details);
+      card.append(colorVariantDetails(group.variants));
     }
     return card;
   }

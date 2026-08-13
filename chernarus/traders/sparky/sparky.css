@@ -16,11 +16,12 @@
 .sparky-single-color{margin-top:13px;padding-top:11px;border-top:1px solid #2d302e;color:#c6a98d;font-size:.8rem}
 .sparky-variants{margin-top:14px;padding-top:12px;border-top:1px solid #2d302e}
 .sparky-variants summary{cursor:pointer;color:#d8c4ad;font-size:.82rem;font-weight:800}
-.sparky-variant-grid{display:grid;gap:8px;margin-top:12px}
-.sparky-variant{border:1px solid #303432;background:#101315;padding:12px}
-.sparky-variant h4{margin:0 0 2px;color:#e1d5c7;font-size:.9rem}
-.sparky-class{color:#747975;font-size:.67rem;overflow-wrap:anywhere;margin-bottom:9px}
-.sparky-variant-prices{font-size:.76rem}
+.sparky-color-list{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+.sparky-color-chip{border:1px solid #3b403d;background:#101315;padding:6px 9px;color:#d8cec1;font-size:.76rem;line-height:1}
+.sparky-tier-list{display:grid;gap:9px;margin-top:12px}
+.sparky-price-tier{border:1px solid #303432;background:#101315;padding:12px}
+.sparky-tier-label{margin-bottom:8px;color:#c6a98d;font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:.1em}
+.sparky-tier-prices{font-size:.76rem}
 .sparky-networks{line-height:1.7;color:var(--muted)}
 @media(max-width:720px){.sparky-grid{grid-template-columns:1fr}.sparky-toolbar{display:block}.sparky-toolbar input{max-width:none;margin-bottom:8px}}
 
