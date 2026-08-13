@@ -14,14 +14,24 @@
     .replace(/([a-z])([A-Z])/g, '$1 $2');
   let payload;
 
-  function priceRange(variants, field) {
+  function priceRange(variants, field, disabledLabel) {
     const prices = variants
       .map(variant => Number(variant[field]))
       .filter(price => Number.isFinite(price) && price >= 0)
       .sort((a, b) => a - b);
-    if (!prices.length) return 'Unavailable';
+    if (!prices.length) return disabledLabel;
     if (prices[0] === prices[prices.length - 1]) return money(prices[0]);
     return `${money(prices[0])} - ${money(prices[prices.length - 1])}`;
+  }
+
+  function isListedVehicle(vehicle) {
+    return ['buyCost', 'sellPrice', 'repaintCost'].some(field =>
+      Number.isFinite(Number(vehicle[field])) && Number(vehicle[field]) >= 0);
+  }
+
+  function operationPrice(value, disabledLabel) {
+    const price = Number(value);
+    return Number.isFinite(price) && price >= 0 ? money(price) : disabledLabel;
   }
 
   function groupVehicles(vehicles) {
@@ -57,12 +67,28 @@
   }
 
   function includedItems(variants) {
-    const values = variants.flatMap(vehicle => [
-      ...(vehicle.attachmentItems || []).map(item => item.itemname),
-      ...(vehicle.additionalCargoItems || []),
+    const attachmentMaps = variants.map(vehicle => {
+      const items = new Map();
+      (vehicle.attachmentItems || []).forEach(item => {
+        const key = item.colorGroup || item.itemname;
+        if (key && item.itemname && !items.has(key)) items.set(key, item.itemname);
+      });
+      return items;
+    });
+    const commonAttachments = attachmentMaps.length
+      ? [...attachmentMaps[0].keys()]
+          .filter(key => attachmentMaps.every(items => items.has(key)))
+          .map(key => attachmentMaps[0].get(key))
+      : [];
+    const cargoSets = variants.map(vehicle => new Set(vehicle.additionalCargoItems || []));
+    const commonCargo = cargoSets.length
+      ? [...cargoSets[0]].filter(item => cargoSets.every(items => items.has(item)))
+      : [];
+    return [...new Set([
+      ...commonAttachments,
+      ...commonCargo,
       ...(payload.cargoItemsWhenBuyingVehicle || [])
-    ]).filter(Boolean);
-    return [...new Set(values)];
+    ].filter(Boolean))];
   }
 
   function variantPanel(vehicle) {
@@ -76,10 +102,10 @@
     const prices = document.createElement('dl');
     prices.className = 'sparky-variant-prices';
     addPriceRows(prices, [
-      ['Purchase', money(vehicle.buyCost)],
-      ['Sell body', money(vehicle.sellPrice)],
-      ['Insurance', money(vehicle.insuranceCost)],
-      ['Repaint', money(vehicle.repaintCost)]
+      ['Purchase', operationPrice(vehicle.buyCost, 'Not sold')],
+      ['Sell body', operationPrice(vehicle.sellPrice, 'Not accepted')],
+      ['Insurance', operationPrice(vehicle.insuranceCost, 'Not offered')],
+      ['Repaint', operationPrice(vehicle.repaintCost, 'Not offered')]
     ]);
     panel.append(color, className, prices);
     return panel;
@@ -96,18 +122,23 @@
     const prices = document.createElement('dl');
     prices.className = 'sparky-price-summary';
     addPriceRows(prices, [
-      ['Purchase', priceRange(group.variants, 'buyCost')],
-      ['Sell body', priceRange(group.variants, 'sellPrice')],
-      ['Insurance', priceRange(group.variants, 'insuranceCost')],
-      ['Repaint', priceRange(group.variants, 'repaintCost')]
+      ['Purchase', priceRange(group.variants, 'buyCost', 'Not sold')],
+      ['Sell body', priceRange(group.variants, 'sellPrice', 'Not accepted')],
+      ['Insurance', priceRange(group.variants, 'insuranceCost', 'Not offered')],
+      ['Repaint', priceRange(group.variants, 'repaintCost', 'Not offered')]
     ]);
     card.append(title, variantCount, prices);
 
     const included = includedItems(group.variants);
     if (included.length) {
+      const details = document.createElement('details');
+      details.className = 'sparky-included';
+      const summary = document.createElement('summary');
+      summary.textContent = `Included equipment (${included.length})`;
       const line = document.createElement('p');
       line.textContent = `Included: ${included.map(clean).join(', ')}`;
-      card.append(line);
+      details.append(summary, line);
+      card.append(details);
     }
 
     if (group.variants.length === 1) {
@@ -131,7 +162,8 @@
 
   function render() {
     const query = root.querySelector('[data-search]').value.trim().toLowerCase();
-    const groups = groupVehicles(payload.vehicles);
+    const listedVehicles = payload.vehicles.filter(isListedVehicle);
+    const groups = groupVehicles(listedVehicles);
     const visible = groups.filter(group => !query || group.variants.some(vehicle =>
       [group.name, vehicle.groupName, vehicle.itemname, vehicle.color]
         .join(' ')
@@ -139,7 +171,7 @@
         .includes(query)
     ));
     root.querySelector('[data-count]').textContent =
-      `${visible.length} of ${groups.length} vehicle models | ${payload.vehicleCount} total color options`;
+      `${visible.length} of ${groups.length} vehicle models | ${listedVehicles.length} listed color options`;
     root.querySelector('[data-list]').replaceChildren(...visible.map(vehicleCard));
   }
 
@@ -150,9 +182,10 @@
     })
     .then(data => {
       payload = data;
-      const modelCount = groupVehicles(data.vehicles).length;
+      const listedVehicles = data.vehicles.filter(isListedVehicle);
+      const modelCount = groupVehicles(listedVehicles).length;
       root.querySelector('[data-status]').textContent =
-        `Live configuration | ${modelCount} vehicle models | ${data.vehicleCount} color options`;
+        `Live configuration | ${modelCount} available vehicle models | ${listedVehicles.length} listed color options`;
       const networks = root.querySelector('[data-networks]');
       networks.replaceChildren(...data.garageGroups.map(group => {
         const item = document.createElement('li');
