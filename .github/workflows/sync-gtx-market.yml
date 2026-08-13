@@ -7,6 +7,7 @@ on:
     paths:
       - "sync_gtx_market.py"
       - "sync_gtx_p2p.py"
+      - "sync_gtx_sparky.py"
       - "build_live_trader_catalogues.py"
       - "build_linda_catalogue.py"
       - "build_quinn_catalogue.py"
@@ -63,6 +64,15 @@ jobs:
           GTX_MISSION_PATH: mpmissions/dayzOffline.chernarusplus
           GTX_P2P_SETTINGS_PATH: mpmissions/dayzOffline.chernarusplus/expansion/settings/P2PMarketSettings.json
         run: python sync_gtx_p2p.py
+
+      - name: Download live GTX Sparky data
+        env:
+          GTX_HOST: ${{ secrets.GTX_HOST }}
+          GTX_PORT: ${{ secrets.GTX_PORT }}
+          GTX_USERNAME: ${{ secrets.GTX_USERNAME }}
+          GTX_PASSWORD: ${{ secrets.GTX_PASSWORD }}
+          GTX_LBMASTER_PATH: profiles/LBmaster
+        run: python sync_gtx_sparky.py
 
       - name: Build live trader catalogues
         run: python build_live_trader_catalogues.py
