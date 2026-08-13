@@ -69,6 +69,107 @@ document.addEventListener('DOMContentLoaded', function () {
     return null;
   }
 
+  function transactionValue(item, type) {
+    return type === 'purchase' ? purchasePrice(item) : resalePrice(item);
+  }
+
+  function transactionPrice(item, type) {
+    var variants = item.variants || [item];
+    var values = variants.map(function (variant) { return transactionValue(variant, type); })
+      .filter(function (value) { return value != null; })
+      .sort(function (a, b) { return a - b; });
+    if (!values.length) return '';
+    if (values[0] === values[values.length - 1]) return money(values[0]);
+    return money(values[0]) + ' – ' + money(values[values.length - 1]);
+  }
+
+  function titleWords(value) {
+    return String(value || 'Default')
+      .replace(/[_-]+/g, ' ')
+      .replace(/\b\w/g, function (letter) { return letter.toUpperCase(); });
+  }
+
+  function groupDrippyItems(items) {
+    if (!cfg.groupDrippyVariants) return items;
+    var styles = [
+      ['drip_adidascasual_', 'Adidas Casual'],
+      ['drip_adidasyeezy350_', 'Adidas Yeezy 350'],
+      ['drip_adidasyeezy750_', 'Adidas Yeezy 750'],
+      ['drip_adidasyeezyslides_', 'Adidas Yeezy Slides'],
+      ['drip_crocsocks_relaxed_', 'Crocs with Socks — Relaxed'],
+      ['drip_crocsocks_sport_', 'Crocs with Socks — Sport'],
+      ['drip_crocs_relaxed_', 'Crocs — Relaxed'],
+      ['drip_crocs_sport_', 'Crocs — Sport'],
+      ['drip_drippypoo_', 'Drippy Poo'],
+      ['drip_hobbitfeet_', 'Hobbit Feet'],
+      ['drip_mschfboots_', 'MSCHF Boots'],
+      ['drip_nikeairforce_1_', 'Nike Air Force 1'],
+      ['drip_nikeairjordan_1_', 'Nike Air Jordan 1'],
+      ['drip_nikeairjordan_4_', 'Nike Air Jordan 4'],
+      ['drip_nikeairyeezy_', 'Nike Air Yeezy'],
+      ['drip_nikeairzoom_', 'Nike Air Zoom'],
+      ['drip_nikemag_', 'Nike MAG'],
+      ['drip_pampaboots_', 'Pampa Boots'],
+      ['drip_piggyslippers_', 'Piggy Slippers'],
+      ['drip_ragezrlegend_', 'Rage ZR Legend'],
+      ['drip_sandals_', 'Sandals'],
+      ['drip_socksandals_', 'Socks & Sandals'],
+      ['drip_socks_', 'Socks'],
+      ['drip_timberlandboots_', 'Timberland Boots'],
+      ['drip_vansslipon_', 'Vans Slip-On']
+    ];
+    var grouped = {};
+    var standalone = [];
+    items.forEach(function (item) {
+      if (item.category !== 'Drippy Sneakers') {
+        standalone.push(item);
+        return;
+      }
+      var className = String(item.className || '').toLowerCase();
+      var style = styles.find(function (entry) { return className.indexOf(entry[0]) === 0; });
+      if (!style) {
+        standalone.push(item);
+        return;
+      }
+      if (!grouped[style[0]]) grouped[style[0]] = {name:style[1], variants:[]};
+      var variant = Object.assign({}, item);
+      variant.variantName = titleWords(className.slice(style[0].length));
+      grouped[style[0]].variants.push(variant);
+    });
+    Object.keys(grouped).forEach(function (key) {
+      var group = grouped[key];
+      group.variants.sort(function (a, b) { return compareText(a.variantName, b.variantName); });
+      if (group.variants.length === 1) {
+        standalone.push(group.variants[0]);
+        return;
+      }
+      var first = group.variants[0];
+      standalone.push({
+        name: group.name,
+        className: group.variants.length + ' listed styles',
+        category: first.category,
+        traderSells: first.traderSells,
+        traderBuys: first.traderBuys,
+        variants: group.variants
+      });
+    });
+    return standalone;
+  }
+
+  function variantMarkup(item) {
+    if (!item.variants) return '';
+    var rows = item.variants.map(function (variant) {
+      var state = permissions(variant);
+      var prices = [];
+      if (state.sells) prices.push('Buy ' + money(purchasePrice(variant)));
+      if (state.buys) prices.push('Sell ' + money(resalePrice(variant)));
+      return '<div class="catalogue-variant-row"><span>' + escapeHtml(variant.variantName) + '</span><strong>' +
+        escapeHtml(prices.join(' • ')) + '</strong></div>';
+    }).join('');
+    return '<details class="catalogue-variants"><summary>View ' + item.variants.length +
+      ' styles and exact prices</summary><div class="catalogue-variant-list">' + rows + '</div></details>';
+  }
+
   function itemMarkup(item) {
     var state = permissions(item);
     var both = state.sells && state.buys;
@@ -78,32 +179,40 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (both) {
       prices = '<div class="catalogue-price-pair">' +
-        '<span><small>Buy from trader</small><strong>' + money(purchasePrice(item)) + '</strong></span>' +
-        '<span><small>Sell to trader</small><strong>' + money(resalePrice(item)) + '</strong></span>' +
+        '<span><small>Buy from trader</small><strong>' + transactionPrice(item, 'purchase') + '</strong></span>' +
+        '<span><small>Sell to trader</small><strong>' + transactionPrice(item, 'resale') + '</strong></span>' +
       '</div>';
     } else {
-      var value = state.sells ? purchasePrice(item) : resalePrice(item);
+      var type = state.sells ? 'purchase' : 'resale';
       var label = state.sells ? 'Buy from trader' : 'Sell to trader';
       prices = '<div class="catalogue-price-pair catalogue-price-single">' +
-        '<span><small>' + label + '</small><strong>' + money(value) + '</strong></span>' +
+        '<span><small>' + label + '</small><strong>' + transactionPrice(item, type) + '</strong></span>' +
       '</div>';
     }
 
     return '<article class="catalogue-item">' +
       '<div><div class="catalogue-name">' + escapeHtml(item.name) + '</div>' +
       '<div class="catalogue-class">' + escapeHtml(item.className) + '</div></div>' +
-      '<div class="catalogue-meta"><span class="catalogue-direction ' + directionClass + '">' + escapeHtml(direction) + '</span>' + prices + '</div>' +
+      '<div class="catalogue-meta"><span class="catalogue-direction ' + directionClass + '">' + escapeHtml(direction) + '</span>' + prices + '</div>' + variantMarkup(item) +
     '</article>';
   }
 
   function render() {
     var query = search ? search.value.trim().toLowerCase() : '';
-    var rows = cfg.items.filter(function (item) {
-      var haystack = [item.name, item.className, item.category].join(' ').toLowerCase();
+    var allRows = groupDrippyItems(cfg.items);
+    var rows = allRows.filter(function (item) {
+      var variantText = (item.variants || []).map(function (variant) {
+        return [variant.name, variant.className, variant.variantName].join(' ');
+      }).join(' ');
+      var haystack = [item.name, item.className, item.category, variantText].join(' ').toLowerCase();
       return !query || haystack.indexOf(query) !== -1;
     });
 
-    if (count) count.textContent = rows.length + ' item' + (rows.length === 1 ? '' : 's');
+    if (count) {
+      var noun = cfg.groupDrippyVariants ? 'product' : 'item';
+      count.textContent = rows.length + ' ' + noun + (rows.length === 1 ? '' : 's');
+      if (cfg.groupDrippyVariants && !query) count.textContent += ' • ' + cfg.items.length + ' live item variants';
+    }
     empty.style.display = rows.length ? 'none' : 'block';
 
     var grouped = {};
@@ -129,3 +238,4 @@ document.addEventListener('DOMContentLoaded', function () {
   if (search) search.addEventListener('input', render);
   render();
 });
+
