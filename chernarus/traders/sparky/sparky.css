@@ -2,6 +2,16 @@
 .sparky-toolbar{display:flex;justify-content:space-between;gap:14px;align-items:center;margin:14px 0}
 .sparky-toolbar input{margin:0;max-width:430px}
 .sparky-status,.sparky-count{color:var(--muted);font-size:.8rem}
+.sparky-category-filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}
+.sparky-category-filter{appearance:none;border:1px solid #3b403d;background:#121517;padding:8px 12px;color:#aaa69f;font:inherit;font-size:.76rem;font-weight:800;cursor:pointer;transition:.15s ease}
+.sparky-category-filter:hover{border-color:#70513f;color:#e3d7c9}
+.sparky-category-filter.active{border-color:#a56543;background:#2a1c16;color:#f0ded0}
+.sparky-category-filter span{display:inline-flex;min-width:20px;justify-content:center;margin-left:6px;padding:2px 5px;background:rgba(255,255,255,.06);font-size:.66rem}
+.sparky-categories{display:grid;gap:28px}
+.sparky-category-section{min-width:0}
+.sparky-category-heading{display:flex;align-items:baseline;justify-content:space-between;gap:14px;margin-bottom:11px;padding-bottom:8px;border-bottom:1px solid #343735}
+.sparky-category-heading h3{margin:0;color:#e9ddd0;font-size:1.05rem;text-transform:uppercase;letter-spacing:.04em}
+.sparky-category-heading span{color:#817d77;font-size:.72rem}
 .sparky-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .sparky-card{border:1px solid var(--line);background:#141719;padding:18px;align-self:start}
 .sparky-card h3{margin:0;color:#eee2d4}
@@ -23,5 +33,6 @@
 .sparky-tier-label{margin-bottom:8px;color:#c6a98d;font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:.1em}
 .sparky-tier-prices{font-size:.76rem}
 .sparky-networks{line-height:1.7;color:var(--muted)}
+.sparky-empty{border:1px dashed #444743;background:#111416;padding:20px;color:var(--muted)}
 @media(max-width:720px){.sparky-grid{grid-template-columns:1fr}.sparky-toolbar{display:block}.sparky-toolbar input{max-width:none;margin-bottom:8px}}
 
