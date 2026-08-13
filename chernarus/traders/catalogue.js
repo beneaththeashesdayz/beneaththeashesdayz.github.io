@@ -277,6 +277,7 @@ document.addEventListener('DOMContentLoaded', function () {
       return String(variant.className || '').toLowerCase() === group.parentClassName;
     });
     if (groupName.length < 3) groupName = parent ? parent.name : names.slice().sort(function (a, b) { return a.length - b.length; })[0];
+    groupName = String(groupName).replace(/^[\s\-â€“â€”:|/]+|[\s\-â€“â€”:|/]+$/g, '').trim();
     group.name = groupName;
     group.variants.forEach(function (variant) {
       variant.variantName = cleanVariantName(
@@ -386,9 +387,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (count) {
       var groupedCatalogue = cfg.groupCollectableVariants || cfg.groupDrippyVariants || Boolean(window.marketVariantGroups);
+      var hasGroupedRows = allRows.some(function (item) { return Boolean(item.variants); });
       var noun = groupedCatalogue ? 'product' : 'item';
       count.textContent = rows.length + ' ' + noun + (rows.length === 1 ? '' : 's');
-      if (groupedCatalogue && !query) count.textContent += ' â€¢ ' + cfg.items.length + ' live item variants';
+      if (hasGroupedRows && !query) count.textContent += ' â€¢ ' + cfg.items.length + ' live item variants';
     }
     empty.style.display = rows.length ? 'none' : 'block';
 
