@@ -14,7 +14,14 @@
     .replace(/([a-z])([A-Z])/g, '$1 $2');
   const displayColor = value => clean(value || 'Default finish')
     .replace(/\b\w/g, letter => letter.toUpperCase());
+  const categoryOrder = ['ground', 'water', 'air'];
+  const categoryLabels = {
+    ground: 'Ground Vehicles',
+    water: 'Water Vehicles',
+    air: 'Air Vehicles'
+  };
   let payload;
+  let selectedCategory = 'all';
 
   function priceRange(variants, field, disabledLabel) {
     const prices = variants
@@ -52,10 +59,31 @@
     return [...groups.values()]
       .map(group => ({
         ...group,
+        category: vehicleCategory(group.variants),
         variants: group.variants.sort((a, b) =>
           String(a.color || '').localeCompare(String(b.color || '')))
       }))
       .sort((a, b) => a.name.localeCompare(b.name));
+  }
+
+  function categoryRoots(pattern) {
+    return (payload.garageGroups || [])
+      .filter(group => pattern.test(String(group.name || '')))
+      .flatMap(group => group.vehicleWhitelist || [])
+      .map(item => String(item).toLowerCase().replace(/_?base$/, ''));
+  }
+
+  function matchesRoots(vehicle, roots) {
+    const itemname = String(vehicle.itemname || '').toLowerCase();
+    return roots.some(root => itemname.startsWith(root));
+  }
+
+  function vehicleCategory(variants) {
+    const airRoots = categoryRoots(/heli|air/i);
+    const waterRoots = categoryRoots(/boat|water/i);
+    if (variants.some(vehicle => matchesRoots(vehicle, airRoots))) return 'air';
+    if (variants.some(vehicle => matchesRoots(vehicle, waterRoots))) return 'water';
+    return 'ground';
   }
 
   function addPriceRows(list, rows) {
@@ -194,19 +222,70 @@
     return card;
   }
 
+  function categorySection(category, groups) {
+    const section = document.createElement('section');
+    section.className = 'sparky-category-section';
+    section.dataset.category = category;
+    const heading = document.createElement('div');
+    heading.className = 'sparky-category-heading';
+    const title = document.createElement('h3');
+    title.textContent = categoryLabels[category];
+    const count = document.createElement('span');
+    count.textContent = `${groups.length} model${groups.length === 1 ? '' : 's'}`;
+    heading.append(title, count);
+    const grid = document.createElement('div');
+    grid.className = 'sparky-grid';
+    grid.replaceChildren(...groups.map(vehicleCard));
+    section.append(heading, grid);
+    return section;
+  }
+
+  function updateCategoryButtons(groups) {
+    const counts = Object.fromEntries(categoryOrder.map(category => [
+      category,
+      groups.filter(group => group.category === category).length
+    ]));
+    root.querySelectorAll('[data-category-filter]').forEach(button => {
+      const category = button.dataset.categoryFilter;
+      const active = category === selectedCategory;
+      const count = category === 'all' ? groups.length : counts[category];
+      button.classList.toggle('active', active);
+      button.setAttribute('aria-pressed', String(active));
+      const countEl = button.querySelector('[data-category-count]');
+      if (countEl) countEl.textContent = String(count || 0);
+    });
+  }
+
   function render() {
     const query = root.querySelector('[data-search]').value.trim().toLowerCase();
     const listedVehicles = payload.vehicles.filter(isListedVehicle);
     const groups = groupVehicles(listedVehicles);
-    const visible = groups.filter(group => !query || group.variants.some(vehicle =>
+    const searched = groups.filter(group => !query || group.variants.some(vehicle =>
       [group.name, vehicle.groupName, vehicle.itemname, vehicle.color]
         .join(' ')
         .toLowerCase()
         .includes(query)
     ));
+    const visible = selectedCategory === 'all'
+      ? searched
+      : searched.filter(group => group.category === selectedCategory);
+    updateCategoryButtons(groups);
     root.querySelector('[data-count]').textContent =
       `${visible.length} of ${groups.length} vehicle models | ${listedVehicles.length} listed color options`;
-    root.querySelector('[data-list]').replaceChildren(...visible.map(vehicleCard));
+    const sections = categoryOrder
+      .map(category => ({
+        category,
+        groups: visible.filter(group => group.category === category)
+      }))
+      .filter(section => section.groups.length)
+      .map(section => categorySection(section.category, section.groups));
+    if (!sections.length) {
+      const empty = document.createElement('p');
+      empty.className = 'sparky-empty';
+      empty.textContent = 'No vehicles match this search and category.';
+      sections.push(empty);
+    }
+    root.querySelector('[data-list]').replaceChildren(...sections);
   }
 
   fetch(`../../../data/live-market/sparky.json?v=${Date.now()}`, { cache: 'no-store' })
@@ -239,6 +318,12 @@
             : 'Ruined-vehicle recovery is enabled; insurance requirements vary.')
         : 'Ruined-vehicle insurance recovery is disabled.';
       root.querySelector('[data-search]').addEventListener('input', render);
+      root.querySelectorAll('[data-category-filter]').forEach(button => {
+        button.addEventListener('click', () => {
+          selectedCategory = button.dataset.categoryFilter;
+          render();
+        });
+      });
       render();
     })
     .catch(() => {
