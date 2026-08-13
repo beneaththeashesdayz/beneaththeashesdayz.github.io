@@ -12,6 +12,8 @@
   <meta property="og:url" content="https://beneaththeashesdayz.github.io/chernarus/traders/peter/">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="../../../styles.css">
+  <link rel="stylesheet" href="../catalogue.css?v=7">
+  <link rel="stylesheet" href="../catalogue-variants.css?v=1">
 </head>
 <body>
 <header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
@@ -28,12 +30,22 @@
       <div class="chips"><span class="chip">Hunting</span><span class="chip">Pelts</span><span class="chip">Meat</span><span class="chip">Crossbows</span></div>
       
       <article class="panel notes"><h3>Survivor Notes</h3><ul><li>Peter is the dedicated trader for hunting income and animal products.</li><li>Crossbows, hunting bolts, and hunting knives can be both bought from and sold to Peter.</li><li>His ammo category is specifically for hunting bolts, not general firearm ammunition.</li><li>Bring animal heads, meat, pelts, and rugs here to turn a successful hunt into cash.</li></ul></article>
+
+      <section class="catalogue-section" id="traderCatalogue">
+        <div class="catalogue-head"><div><div class="catalogue-kicker">Live Expansion Market Feed</div><h2>Peter's Inventory</h2></div><p>Browse Peter's live hunting catalogue, including animal products he buys and the crossbows, hunting bolts, and knives available in both directions.</p></div>
+        <div class="catalogue-tools"><input class="catalogue-search" data-catalogue-search type="search" placeholder="Search hunting gear, meat, pelts, or trophies..." aria-label="Search Peter's catalogue"></div>
+        <div class="catalogue-summary"><span data-catalogue-count></span><span>•</span><span>USD</span></div>
+        <div class="catalogue-list" data-catalogue-list></div><div class="catalogue-empty" data-catalogue-empty>No items match that search.</div>
+      </section>
       <article class="panel lore"><div class="lore-eyebrow">Archive // Trader Dossier</div><h3>Trader Lore</h3><p>Peter has little patience for survivors who treat the wilderness as scenery. To him, the forests of Chernarus are a pantry, a workshop, and a paycheck, provided you know what you are doing.</p><p>From <strong>Cinder & Fang</strong>, he trades in the practical remains of the hunt. Meat keeps people alive. Pelts and rugs carry value long after the fire burns out. Animal heads are proof that somebody went into the wild, found something worth tracking, and came back standing.</p><p>Peter also keeps a small selection of equipment moving through his counter. Crossbows, hunting bolts, and hunting knives are tools he is willing to buy back from survivors and sell to the next hunter preparing to head out.</p><p>He is not interested in being a general weapons dealer. If it does not belong in the hunt, it probably does not belong on his counter.</p><p class="lore-closing">For survivors willing to earn their money beyond the roads and towns, <strong>Peter makes sure a good hunt never goes to waste.</strong></p></article>
     </div>
     <img class="portrait" src="../../../assets/traders/peter.jpg" alt="Peter, Hunting Trader">
   </section>
 </main>
 <footer><div class="wrap">Beneath the Ashes • Chernarus Trader Network</div></footer>
+<script src="../../../data/live-market/variant-groups.js?v=1"></script>
+<script src="./catalogue-data.js?v=1"></script>
+<script src="../catalogue.js?v=17"></script>
 <script src="https://beneaththeashesdayz.github.io/site.js"></script>
 </body>
 </html>
