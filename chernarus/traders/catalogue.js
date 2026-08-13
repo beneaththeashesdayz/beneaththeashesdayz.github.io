@@ -336,7 +336,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function variantMarkup(item) {
     if (!item.variants) return '';
+    var signatures = item.variants.map(function (variant) {
+      var state = permissions(variant);
+      return [
+        state.sells,
+        state.buys,
+        state.sells ? purchasePrice(variant) : null,
+        state.buys ? resalePrice(variant) : null
+      ].join('|');
+    });
+    var uniform = signatures.every(function (signature) { return signature === signatures[0]; });
     var rows = item.variants.map(function (variant) {
+      if (uniform) {
+        return '<div class="catalogue-variant-row"><span>' + escapeHtml(variant.variantName) + '</span></div>';
+      }
       var state = permissions(variant);
       var prices = [];
       if (state.sells) prices.push('Buy ' + money(purchasePrice(variant)));
@@ -345,7 +358,8 @@ document.addEventListener('DOMContentLoaded', function () {
         escapeHtml(prices.join(' • ')) + '</strong></div>';
     }).join('');
     return '<details class="catalogue-variants"><summary>View ' + item.variants.length +
-      ' ' + escapeHtml(item.variantLabel || 'variants') + ' and exact prices</summary><div class="catalogue-variant-list">' + rows + '</div></details>';
+      ' ' + escapeHtml(item.variantLabel || 'variants') + (uniform ? '' : ' and exact prices') +
+      '</summary><div class="catalogue-variant-list">' + rows + '</div></details>';
   }
 
   function itemMarkup(item) {
