@@ -177,17 +177,26 @@ def apply_live() -> None:
     port = int(os.environ.get("GTX_PORT", "22"))
     username = os.environ["GTX_USERNAME"]
     password = os.environ["GTX_PASSWORD"]
-    market_root = os.environ.get("GTX_MARKET_PATH", "profiles/ExpansionMod/Market").rstrip("/")
-    traders_root = os.environ.get("GTX_TRADERS_PATH", "profiles/ExpansionMod/Traders").rstrip("/")
-    backup_root = os.environ.get("GTX_BACKUP_PATH", "profiles/CodexBackups").rstrip("/")
-    source_path = posixpath.join(market_root, f"{SOURCE_CATEGORY}.json")
-    trader_path = posixpath.join(traders_root, TRADER_FILE)
+    market_configured = os.environ.get("GTX_MARKET_PATH", "profiles/ExpansionMod/Market").rstrip("/")
+    traders_configured = os.environ.get("GTX_TRADERS_PATH", "profiles/ExpansionMod/Traders").rstrip("/")
+    backup_configured = os.environ.get("GTX_BACKUP_PATH", "profiles/CodexBackups").strip("/")
     token = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
     transport = paramiko.Transport((host, port))
     transport.connect(username=username, password=password)
     sftp = paramiko.SFTPClient.from_transport(transport)
     try:
+        # GTX commonly places the actual DayZ server inside a numbered folder
+        # beneath the SFTP login root. Reuse the proven discovery logic used by
+        # the hourly market downloader before touching any live path.
+        from sync_gtx_market import discover_server_root, resolve_remote_dir
+
+        server_root = discover_server_root(sftp)
+        market_root = resolve_remote_dir(sftp, server_root, market_configured)
+        traders_root = resolve_remote_dir(sftp, server_root, traders_configured)
+        backup_root = posixpath.join(server_root, backup_configured)
+        source_path = posixpath.join(market_root, f"{SOURCE_CATEGORY}.json")
+        trader_path = posixpath.join(traders_root, TRADER_FILE)
         source_raw = read_remote(sftp, source_path)
         trader_raw = read_remote(sftp, trader_path)
         source = parse_json(source_raw, source_path)
