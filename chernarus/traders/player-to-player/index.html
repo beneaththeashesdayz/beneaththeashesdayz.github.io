@@ -3,9 +3,10 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Player to Player Trader | Chernarus | Beneath the Ashes</title>
-  <meta name="description" content="Player to Player Trader at Scorched Isle Market. List items for other survivors to buy through the player-driven market.">
-  <meta property="og:title" content="Player to Player Trader | Beneath the Ashes"><meta property="og:description" content="List your gear. Set your price. Let another survivor buy it."><meta property="og:type" content="website">
+  <meta name="description" content="Player to Player Trader at Scorched Isle Market. Browse live survivor listings or list your own gear through the player-driven market.">
+  <meta property="og:title" content="Player to Player Trader | Beneath the Ashes"><meta property="og:description" content="Browse live survivor listings. List your gear. Set your price. Let another survivor buy it."><meta property="og:type" content="website">
   <link rel="stylesheet" href="../../../styles.css">
+  <link rel="stylesheet" href="./p2p-market.css?v=1">
 </head>
 <body>
 <header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
@@ -16,12 +17,35 @@
 <div class="location">Scorched Isle Market • Mainland Chernarus</div>
 <div class="currency-line"><span class="currency-label">Currency</span><span class="currency-badge currency-usd">USD</span></div>
 <p class="summary">The server's player-driven marketplace. Pay No Name to list your own items for sale, set your asking price, and make them available for other survivors to purchase.</p>
-<div class="chips"><span class="chip">Player Market</span><span class="chip">Buy & Sell</span><span class="chip">7-Day Listings</span><span class="chip">10% Fee</span></div>
+<div class="chips"><span class="chip">Player Market</span><span class="chip">Buy & Sell</span><span class="chip"><span data-p2p-duration>7 days</span> Listings</span><span class="chip"><span data-p2p-fee>10%</span> Fee</span></div>
+
+<section class="p2p-live-market" data-p2p-market>
+  <div class="p2p-market-head">
+    <div><div class="kicker">Live Market Feed</div><h2>Survivor Listings</h2></div>
+    <p>Current Player-to-Player listings pulled from the live Chernarus server and refreshed every hour.</p>
+  </div>
+  <div class="p2p-live-badge" data-p2p-status>Loading live listings…</div>
+  <div class="p2p-market-tools">
+    <input type="search" data-p2p-search placeholder="Search item, class name, or seller..." aria-label="Search live player market listings">
+    <select data-p2p-sort aria-label="Sort live player market listings">
+      <option value="expiring">Expiring Soon</option>
+      <option value="newest">Newest Listings</option>
+      <option value="price-low">Price: Low to High</option>
+      <option value="price-high">Price: High to Low</option>
+      <option value="seller">Seller Name</option>
+    </select>
+  </div>
+  <div class="p2p-market-summary"><span data-p2p-count>Loading market…</span><span data-p2p-synced></span></div>
+  <div class="p2p-listings" data-p2p-list></div>
+  <div class="p2p-market-empty" data-p2p-empty hidden>No live listings match that search.</div>
+</section>
+
 <div class="info-grid">
-<article class="panel buy"><h3>How the Market Works</h3><ul><li>List your own items for other survivors to purchase.</li><li>Choose the asking price for your listing.</li><li>Pay a 10% listing fee when the item is placed on the market.</li><li>Listings remain active for 7 days.</li></ul></article>
-<article class="panel sell"><h3>Reclaiming Your Item</h3><ul><li>The original lister may remove an item at any time during its 7-day listing.</li><li>There is no additional charge to reclaim the item.</li><li>The original 10% listing fee is non-refundable.</li><li>No Name keeps his commission whether the item sells or you pull it.</li></ul></article>
+<article class="panel buy"><h3>How the Market Works</h3><ul><li>List your own items for other survivors to purchase.</li><li>Choose the asking price for your listing.</li><li>Pay a <strong><span data-p2p-fee>10%</span> listing fee</strong> when the item is placed on the market.</li><li>Listings remain active for <strong><span data-p2p-duration>7 days</span></strong>.</li></ul></article>
+<article class="panel sell"><h3>Reclaiming Your Item</h3><ul><li>The original lister may remove an item at any time during its listing window.</li><li>There is no additional charge to reclaim the item.</li><li>The original listing fee is non-refundable.</li><li>No Name keeps his commission whether the item sells or you pull it.</li></ul></article>
 </div>
-<article class="panel notes"><h3>⚠ Market Expiration Policy</h3><ul><li><strong>Seven days means seven days.</strong></li><li>Unsold items must be reclaimed before the listing expires.</li><li>Anything left on the market after 7 days is sent to the scrap yard and permanently lost.</li><li>The 10% listing fee is still not refunded. No Name keeps his cut.</li></ul></article>
-<article class="panel lore"><div class="kicker">Archive // Trader Dossier</div><h3>Trader Lore</h3><p>Nobody seems to know his name, and he has never shown much interest in correcting that. Around Scorched Isle Market, survivors simply know where to find him when they have something valuable and would rather name their own price.</p><p>No Name does not buy your goods in the traditional sense. He rents you a place on his market, takes his commission up front, and lets the survivors of Chernarus decide whether your asking price is worth paying.</p><p>His rules are simple because he has no patience for arguments. Ten percent buys seven days on the market. Change your mind and you can take your property back, but the commission stays with him.</p><p>Forget about the listing entirely, however, and No Name becomes considerably less sentimental. When the seventh day passes, abandoned stock goes straight to the scrap yard. No extensions. No recovery. No refunds.</p><p><strong>No Name provides the counter. You provide the merchandise. The clock starts the moment he takes his cut.</strong></p></article>
+<article class="panel notes"><h3>⚠ Market Expiration Policy</h3><ul><li><strong>The listing clock is firm.</strong></li><li>Unsold items must be reclaimed before the listing expires.</li><li>Anything left on the market after the listing window is sent to the scrap yard and permanently lost.</li><li>The listing fee is still not refunded. No Name keeps his cut.</li></ul></article>
+<article class="panel lore"><div class="kicker">Archive // Trader Dossier</div><h3>Trader Lore</h3><p>Nobody seems to know his name, and he has never shown much interest in correcting that. Around Scorched Isle Market, survivors simply know where to find him when they have something valuable and would rather name their own price.</p><p>No Name does not buy your goods in the traditional sense. He rents you a place on his market, takes his commission up front, and lets the survivors of Chernarus decide whether your asking price is worth paying.</p><p>His rules are simple because he has no patience for arguments. The listing fee buys you a place on the market for the full listing window. Change your mind and you can take your property back, but the commission stays with him.</p><p>Forget about the listing entirely, however, and No Name becomes considerably less sentimental. When the clock runs out, abandoned stock goes straight to the scrap yard. No extensions. No recovery. No refunds.</p><p><strong>No Name provides the counter. You provide the merchandise. The clock starts the moment he takes his cut.</strong></p></article>
 </div><img class="portrait" src="../../../assets/traders/player-to-player.jpg" alt="Player to Player Trader"></section>
-</main><footer><div class="wrap">Beneath the Ashes • Chernarus Trader Network</div></footer><script src="https://beneaththeashesdayz.github.io/site.js"></script></body></html>
+</main><footer><div class="wrap">Beneath the Ashes • Chernarus Trader Network</div></footer>
+<script src="./p2p-market.js?v=1"></script><script src="https://beneaththeashesdayz.github.io/site.js"></script></body></html>
