@@ -12,6 +12,7 @@ on:
       - "build_linda_catalogue.py"
       - "build_quinn_catalogue.py"
       - "build_indar_catalogue.py"
+      - "build_market_variant_groups.py"
       - "polish_quinn_names.py"
       - "polish_quinn_acronyms.py"
       - "polish_attachment_names.py"
@@ -76,6 +77,9 @@ jobs:
 
       - name: Build live trader catalogues
         run: python build_live_trader_catalogues.py
+
+      - name: Build shared market variant groups
+        run: python build_market_variant_groups.py
 
       - name: Build Linda medical catalogue
         run: python build_linda_catalogue.py

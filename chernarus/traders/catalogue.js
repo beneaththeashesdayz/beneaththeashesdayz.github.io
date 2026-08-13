@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .sort(function (a, b) { return a - b; });
     if (!values.length) return '';
     if (values[0] === values[values.length - 1]) return money(values[0]);
-    return money(values[0]) + ' – ' + money(values[values.length - 1]);
+    return money(values[0]) + ' â€“ ' + money(values[values.length - 1]);
   }
 
   function titleWords(value) {
@@ -96,10 +96,10 @@ document.addEventListener('DOMContentLoaded', function () {
       ['drip_adidasyeezy350_', 'Adidas Yeezy 350'],
       ['drip_adidasyeezy750_', 'Adidas Yeezy 750'],
       ['drip_adidasyeezyslides_', 'Adidas Yeezy Slides'],
-      ['drip_crocsocks_relaxed_', 'Crocs with Socks — Relaxed'],
-      ['drip_crocsocks_sport_', 'Crocs with Socks — Sport'],
-      ['drip_crocs_relaxed_', 'Crocs — Relaxed'],
-      ['drip_crocs_sport_', 'Crocs — Sport'],
+      ['drip_crocsocks_relaxed_', 'Crocs with Socks â€” Relaxed'],
+      ['drip_crocsocks_sport_', 'Crocs with Socks â€” Sport'],
+      ['drip_crocs_relaxed_', 'Crocs â€” Relaxed'],
+      ['drip_crocs_sport_', 'Crocs â€” Sport'],
       ['drip_drippypoo_', 'Drippy Poo'],
       ['drip_hobbitfeet_', 'Hobbit Feet'],
       ['drip_mschfboots_', 'MSCHF Boots'],
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     match = className.match(/^pokemoncard_sealedbox(\d+)$/);
-    if (match) return {key:'pokemon_sealed_boxes', name:'Sealed Pokémon Collection Boxes', variantName:'Box ' + Number(match[1]), variantLabel:'boxes'};
+    if (match) return {key:'pokemon_sealed_boxes', name:'Sealed PokÃ©mon Collection Boxes', variantName:'Box ' + Number(match[1]), variantLabel:'boxes'};
 
     match = className.match(/^vyse_labubu_(.+)$/);
     if (match) return {key:'vyse_labubu', name:'Labubu Figures', variantName:titleWords(match[1]), variantLabel:'figures'};
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function () {
     match = className.match(/^vyse_lego_(.+)$/);
     if (match) return {key:'vyse_lego', name:'LEGO Figures', variantName:titleWords(match[1]), variantLabel:'figures'};
     match = className.match(/^vyse_pokemon_(.+)$/);
-    if (match) return {key:'vyse_pokemon_balls', name:'Pokémon Balls', variantName:titleWords(match[1]), variantLabel:'designs'};
+    if (match) return {key:'vyse_pokemon_balls', name:'PokÃ©mon Balls', variantName:titleWords(match[1]), variantLabel:'designs'};
     match = className.match(/^vyse_ps4_(.+)$/);
     if (match) {
       var ps4Names = {
@@ -217,31 +217,102 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     match = className.match(/^pokemoncard_box(\d+)$/);
-    if (match) return {key:'storage_pokemon_boxes', name:'Pokémon Card Storage Boxes', variantName:'Box ' + Number(match[1]), variantLabel:'boxes'};
+    if (match) return {key:'storage_pokemon_boxes', name:'PokÃ©mon Card Storage Boxes', variantName:'Box ' + Number(match[1]), variantLabel:'boxes'};
     match = className.match(/^fallout_lunchbox_(.+)$/);
     if (match) return {key:'storage_fallout_lunchboxes', name:'Fallout Lunchboxes', variantName:titleWords(match[1]), variantLabel:'designs'};
 
     return null;
   }
 
+  function marketFamily(item) {
+    var catalogue = window.marketVariantGroups;
+    var className = String(item.className || '').toLowerCase();
+    if (!catalogue || !catalogue.items || !className) return null;
+    var familyKey = catalogue.items[className];
+    if (!familyKey) return null;
+    var family = catalogue.families && catalogue.families[familyKey] || {};
+    return {
+      key: 'market:' + familyKey,
+      parentClassName: String(family.parent || '').toLowerCase(),
+      variantLabel: 'variants',
+      generic: true
+    };
+  }
+
+  function commonWords(names, fromEnd) {
+    var rows = names.map(function (name) { return String(name || '').trim().split(/\s+/); });
+    if (!rows.length) return '';
+    var shortest = Math.min.apply(null, rows.map(function (row) { return row.length; }));
+    var matched = [];
+    for (var index = 0; index < shortest; index += 1) {
+      var firstIndex = fromEnd ? rows[0].length - 1 - index : index;
+      var word = rows[0][firstIndex];
+      var same = rows.every(function (row) {
+        var rowIndex = fromEnd ? row.length - 1 - index : index;
+        return row[rowIndex].toLowerCase() === word.toLowerCase();
+      });
+      if (!same) break;
+      if (fromEnd) matched.unshift(word); else matched.push(word);
+    }
+    return matched.join(' ');
+  }
+
+  function cleanVariantName(name, groupName, isParent) {
+    var value = String(name || '').trim();
+    var group = String(groupName || '').trim();
+    var lower = value.toLowerCase();
+    var groupLower = group.toLowerCase();
+    if (group && lower.indexOf(groupLower) === 0) value = value.slice(group.length);
+    else if (group && lower.lastIndexOf(groupLower) === lower.length - groupLower.length) value = value.slice(0, value.length - group.length);
+    value = value.replace(/^[\s\-â€“â€”:|/]+|[\s\-â€“â€”:|/]+$/g, '').trim();
+    return value || (isParent ? 'Default' : 'Standard');
+  }
+
+  function prepareGenericGroup(group) {
+    var names = group.variants.map(function (variant) { return variant.name; });
+    var prefix = commonWords(names, false);
+    var suffix = commonWords(names, true);
+    var groupName = prefix.length >= suffix.length ? prefix : suffix;
+    var parent = group.variants.find(function (variant) {
+      return String(variant.className || '').toLowerCase() === group.parentClassName;
+    });
+    if (groupName.length < 3) groupName = parent ? parent.name : names.slice().sort(function (a, b) { return a.length - b.length; })[0];
+    group.name = groupName;
+    group.variants.forEach(function (variant) {
+      variant.variantName = cleanVariantName(
+        variant.name,
+        groupName,
+        String(variant.className || '').toLowerCase() === group.parentClassName
+      );
+    });
+  }
+
   function groupCollectableItems(items) {
-    if (!cfg.groupCollectableVariants && !cfg.groupDrippyVariants) return items;
+    var hasMarketFamilies = Boolean(window.marketVariantGroups && window.marketVariantGroups.items);
+    if (!cfg.groupCollectableVariants && !cfg.groupDrippyVariants && !hasMarketFamilies) return items;
     var grouped = {};
     var standalone = [];
     items.forEach(function (item) {
-      var family = collectableFamily(item);
+      var family = (cfg.groupCollectableVariants || cfg.groupDrippyVariants ? collectableFamily(item) : null) || marketFamily(item);
       if (!family) {
         standalone.push(item);
         return;
       }
       var key = item.category + '|' + family.key;
-      if (!grouped[key]) grouped[key] = {name:family.name, variantLabel:family.variantLabel, variants:[]};
+      if (!grouped[key]) grouped[key] = {
+        name:family.name,
+        parentClassName:family.parentClassName,
+        variantLabel:family.variantLabel,
+        generic:family.generic,
+        variants:[]
+      };
       var variant = Object.assign({}, item);
       variant.variantName = family.variantName;
       grouped[key].variants.push(variant);
     });
     Object.keys(grouped).forEach(function (key) {
       var group = grouped[key];
+      if (group.variants.length > 1 && group.generic) prepareGenericGroup(group);
       group.variants.sort(function (a, b) { return compareText(a.variantName, b.variantName); });
       if (group.variants.length === 1) {
         standalone.push(group.variants[0]);
@@ -269,7 +340,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (state.sells) prices.push('Buy ' + money(purchasePrice(variant)));
       if (state.buys) prices.push('Sell ' + money(resalePrice(variant)));
       return '<div class="catalogue-variant-row"><span>' + escapeHtml(variant.variantName) + '</span><strong>' +
-        escapeHtml(prices.join(' • ')) + '</strong></div>';
+        escapeHtml(prices.join(' â€¢ ')) + '</strong></div>';
     }).join('');
     return '<details class="catalogue-variants"><summary>View ' + item.variants.length +
       ' ' + escapeHtml(item.variantLabel || 'variants') + ' and exact prices</summary><div class="catalogue-variant-list">' + rows + '</div></details>';
@@ -314,10 +385,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     if (count) {
-      var groupedCatalogue = cfg.groupCollectableVariants || cfg.groupDrippyVariants;
+      var groupedCatalogue = cfg.groupCollectableVariants || cfg.groupDrippyVariants || Boolean(window.marketVariantGroups);
       var noun = groupedCatalogue ? 'product' : 'item';
       count.textContent = rows.length + ' ' + noun + (rows.length === 1 ? '' : 's');
-      if (groupedCatalogue && !query) count.textContent += ' • ' + cfg.items.length + ' live item variants';
+      if (groupedCatalogue && !query) count.textContent += ' â€¢ ' + cfg.items.length + ' live item variants';
     }
     empty.style.display = rows.length ? 'none' : 'block';
 
@@ -336,7 +407,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var shouldOpen = Boolean(query) || visibleCategories.length === 1;
       return '<details class="catalogue-group"' + (shouldOpen ? ' open' : '') + '>' +
         '<summary class="catalogue-group-summary"><span class="catalogue-group-title">' + escapeHtml(category) + '</span>' +
-        '<span class="catalogue-group-count">' + items.length + ' item' + (items.length === 1 ? '' : 's') + '</span></summary>' +
+        '<span class="catalogue-group-count">' + items.length + ' ' + (cfg.groupCollectableVariants || cfg.groupDrippyVariants || window.marketVariantGroups ? 'product' : 'item') + (items.length === 1 ? '' : 's') + '</span></summary>' +
         '<div class="catalogue-group-items">' + items.map(itemMarkup).join('') + '</div></details>';
     }).join('');
   }
