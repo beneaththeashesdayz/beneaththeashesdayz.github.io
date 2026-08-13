@@ -1,0 +1,7 @@
+.catalogue-variants{grid-column:1/-1;border-top:1px solid var(--line);padding-top:10px}
+.catalogue-variants summary{cursor:pointer;color:#d8c4ad;font-size:.72rem;font-weight:800}
+.catalogue-variant-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 14px;margin-top:10px}
+.catalogue-variant-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 10px;background:rgba(255,255,255,.025);color:var(--muted);font-size:.72rem}
+.catalogue-variant-row strong{color:#fff;white-space:nowrap}
+@media(max-width:760px){.catalogue-variant-list{grid-template-columns:1fr}}
+
