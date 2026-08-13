@@ -51,7 +51,7 @@ TRADER_CONFIG_CATALOGUES = {
 CATEGORY_LABELS = {
     "Drippy_Sneakers": "Drippy Sneakers",
     "Paragon_Collectables": "Paragon Collectables",
-    "Pokemon": "PokÃ©mon Collection Boxes",
+    "Pokemon": "Pokémon Collection Boxes",
     "Vyse_Collectables": "Vyse Collectables",
     "Fallout": "Fallout Collectables",
     "Fallout_Bobbleheads": "Fallout Bobbleheads",
@@ -111,11 +111,11 @@ def special_friendly_name(class_name: str) -> str | None:
 
     pokemon_box = re.fullmatch(r"pokemoncard_sealedbox(\d+)", lower)
     if pokemon_box:
-        return f"Sealed PokÃ©mon Collection Box {pokemon_box.group(1)}"
+        return f"Sealed Pokémon Collection Box {pokemon_box.group(1)}"
 
     pokemon_storage = re.fullmatch(r"pokemoncard_box(\d+)", lower)
     if pokemon_storage:
-        return f"PokÃ©mon Card Storage Box {pokemon_storage.group(1)}"
+        return f"Pokémon Card Storage Box {pokemon_storage.group(1)}"
 
     if lower == "dlt_falloutz_bobbleheadstandkit":
         return "Fallout Bobblehead Display Stand Kit"
