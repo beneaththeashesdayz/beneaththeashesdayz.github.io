@@ -116,6 +116,6 @@ jobs:
           git commit -m "Sync live GTX market and trader catalogues"
 
           git fetch origin main
-          git rebase origin/main
+          git rebase -X theirs origin/main
           git push origin HEAD:main
 
