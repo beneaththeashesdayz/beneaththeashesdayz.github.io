@@ -12,6 +12,7 @@ import build_bm_zombie_note_catalogue
 ROOT = Path(__file__).resolve().parent
 MARKET_DIR = ROOT / "data" / "live-market" / "market"
 OUTPUT = ROOT / "data" / "live-market" / "variant-groups.js"
+BM_OUTPUT = ROOT / "data" / "live-market" / "bm-zombie-note-catalogue.js"
 
 
 def read_json(path: Path):
@@ -56,6 +57,9 @@ def main() -> None:
     print(f"Built {len(families):,} market families covering {len(items):,} item classes ({conflicts} conflicts kept first).")
 
     build_bm_zombie_note_catalogue.main()
+    generated = ROOT / "chernarus" / "traders" / "black-market-zombie-note" / "catalogue-data.js"
+    BM_OUTPUT.write_text(generated.read_text(encoding="utf-8"), encoding="utf-8")
+    print("Staged Black Market Zombie Note catalogue with live-market data.")
 
 
 if __name__ == "__main__":
