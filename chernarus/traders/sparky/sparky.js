@@ -222,15 +222,18 @@
     return card;
   }
 
-  function categorySection(category, groups) {
-    const section = document.createElement('section');
+  function categorySection(category, groups, expanded) {
+    const section = document.createElement('details');
     section.className = 'sparky-category-section';
     section.dataset.category = category;
-    const heading = document.createElement('div');
+    section.open = expanded;
+    const heading = document.createElement('summary');
     heading.className = 'sparky-category-heading';
-    const title = document.createElement('h3');
+    const title = document.createElement('span');
+    title.className = 'sparky-category-title';
     title.textContent = categoryLabels[category];
     const count = document.createElement('span');
+    count.className = 'sparky-category-count';
     count.textContent = `${groups.length} model${groups.length === 1 ? '' : 's'}`;
     heading.append(title, count);
     const grid = document.createElement('div');
@@ -278,7 +281,11 @@
         groups: visible.filter(group => group.category === category)
       }))
       .filter(section => section.groups.length)
-      .map(section => categorySection(section.category, section.groups));
+      .map(section => categorySection(
+        section.category,
+        section.groups,
+        Boolean(query) || selectedCategory !== 'all'
+      ));
     if (!sections.length) {
       const empty = document.createElement('p');
       empty.className = 'sparky-empty';
@@ -309,7 +316,7 @@
         data.impound?.impoundRuinedVehicles && data.impound?.ruinedVehiclesRequireVehicleInsurance
           ? 'Insurance is required to recover a ruined vehicle.'
           : 'Ruined-vehicle recovery is not currently protected by required insurance.',
-        'Repair fees still apply; players pay for repairs performed on their vehicles.'
+        'When a ruined vehicle is recovered through insurance, the owner pays the recovery repair cost.'
       ];
       const ruleList = root.querySelector('[data-networks]');
       ruleList.replaceChildren(...rules.map(rule => {
