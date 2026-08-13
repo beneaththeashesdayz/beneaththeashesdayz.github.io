@@ -31,6 +31,14 @@ TRADERS = {
 }
 
 TRADER_CONFIG_CATALOGUES = {
+    "gabi": {
+        "name": "Gabi",
+        "trader": "Collectables_Trader_Main.json",
+        "zone": "Collectables.json",
+        "currency": "USD",
+        "currency_label": None,
+        "group_drippy_variants": True,
+    },
     "attachment-trader": {
         "name": "Attachment Trader",
         "trader": "Attachments.json",
@@ -41,6 +49,15 @@ TRADER_CONFIG_CATALOGUES = {
 }
 
 CATEGORY_LABELS = {
+    "Drippy_Sneakers": "Drippy Sneakers",
+    "Paragon_Collectables": "Paragon Collectables",
+    "Pokemon": "PokÃ©mon Collection Boxes",
+    "Vyse_Collectables": "Vyse Collectables",
+    "Fallout": "Fallout Collectables",
+    "Fallout_Bobbleheads": "Fallout Bobbleheads",
+    "Fallout_Nuka_Cola": "Fallout Nuka-Cola",
+    "Adult_Toys": "Adult Toys",
+    "Collector_Cards_Storage": "Collector Card Storage",
     "MYDF_Attachments": "My DF Attachments",
     "MYDF_Ammo": "My DF Ammo",
     "MYDF_Mags": "My DF Magazines",
@@ -91,6 +108,43 @@ def title_words(value: str) -> str:
 
 def special_friendly_name(class_name: str) -> str | None:
     lower = class_name.lower()
+
+    pokemon_box = re.fullmatch(r"pokemoncard_sealedbox(\d+)", lower)
+    if pokemon_box:
+        return f"Sealed PokÃ©mon Collection Box {pokemon_box.group(1)}"
+
+    pokemon_storage = re.fullmatch(r"pokemoncard_box(\d+)", lower)
+    if pokemon_storage:
+        return f"PokÃ©mon Card Storage Box {pokemon_storage.group(1)}"
+
+    if lower == "dlt_falloutz_bobbleheadstandkit":
+        return "Fallout Bobblehead Display Stand Kit"
+    fallout_bobblehead = re.fullmatch(r"dlt_falloutz_bobblehead(.+)", lower)
+    if fallout_bobblehead:
+        skill = title_words(fallout_bobblehead.group(1))
+        skill = skill.replace("Biggun", "Big Guns").replace("Smallgun", "Small Guns")
+        return f"Fallout {skill} Bobblehead"
+
+    if lower == "dlt_falloutz_nukacolarackkit":
+        return "Fallout Nuka-Cola Display Rack Kit"
+    nuka_cola = re.fullmatch(r"dlt_falloutz_nukacola(?:_(.+))?", lower)
+    if nuka_cola:
+        flavor = title_words(nuka_cola.group(1) or "Classic")
+        return f"Fallout Nuka-Cola {flavor}"
+
+    yugioh_card = re.fullmatch(r"vyse_yugioh_card_(\d+)", lower)
+    if yugioh_card:
+        return f"Yu-Gi-Oh! Card {int(yugioh_card.group(1))}"
+
+    explicit_collectables = {
+        "unciv_dayz_cardalbum_s1": "Collector Card Album",
+        "unciv_graded_sleeve": "Graded Card Sleeve",
+        "fallout_eyebottoy": "Fallout Eyebot Toy",
+        "fallout_rockettoy": "Fallout Rocket Toy",
+        "fallout_sheriffbadge": "Fallout Sheriff Badge",
+    }
+    if lower in explicit_collectables:
+        return explicit_collectables[lower]
 
     geb_match = re.fullmatch(r"geb_([a-z]+)fish(hat|shirt|gloves)", lower)
     if geb_match:
@@ -228,6 +282,8 @@ def format_js_catalogue(slug: str, cfg: dict, rows: list[dict]) -> None:
     header = f"window.traderCatalogue={{traderName:'{js_escape(cfg['name'])}',currency:'{js_escape(cfg['currency'])}'"
     if cfg.get("currency_label"):
         header += f",currencyLabel:'{js_escape(cfg['currency_label'])}'"
+    if cfg.get("group_drippy_variants"):
+        header += ",groupDrippyVariants:true"
     header += ",items:[\n"
 
     lines = []
@@ -468,3 +524,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
