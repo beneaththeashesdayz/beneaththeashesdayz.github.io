@@ -124,6 +124,21 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     var match;
+    match = className.match(/^im7s_brick_crystal_(.+)$/);
+    if (match) return {key:'drug_bricks_crystal', name:'Crystal Bricks', variantName:String(item.name).replace(/^Crystal /, '').replace(/ Brick$/, ''), variantLabel:'types'};
+    match = className.match(/^im7s_brick_thizz_(.+)$/);
+    if (match) return {key:'drug_bricks_thizz', name:'Thizz Bricks', variantName:String(item.name).replace(/^Thizz /, '').replace(/ Brick$/, ''), variantLabel:'colors'};
+    match = className.match(/^im7s_bundle_crystal_(.+)$/);
+    if (match) return {key:'drug_bundles_crystal', name:'Crystal Bundles', variantName:String(item.name).replace(/^Crystal /, '').replace(/ Bundle$/, ''), variantLabel:'types'};
+    match = className.match(/^im7s_bundle_thizz_(.+)$/);
+    if (match) return {key:'drug_bundles_thizz', name:'Thizz Bundles', variantName:String(item.name).replace(/^Thizz /, '').replace(/ Bundle$/, ''), variantLabel:'colors'};
+    match = className.match(/^im7s_lsd_(.+)$/);
+    if (match) return {key:'drug_lsd', name:'LSD', variantName:String(item.name).replace(/^LSD\s*[–—-]\s*/, ''), variantLabel:'designs'};
+    match = className.match(/^im7s_smallnug_(.+)$/);
+    if (match) return {key:'drug_nugs', name:'Cannabis Nuggets', variantName:String(item.name).replace(/ Nug$/, ''), variantLabel:'strains'};
+    match = className.match(/^im7s_psilocybin_(.+)$/);
+    if (match) return {key:'drug_shrooms', name:'Psilocybin Mushrooms', variantName:String(item.name).replace(/ Mushrooms$/, ''), variantLabel:'strains'};
+
     var paragonNames = {
       axe:'Axes', canister:'Canisters', crystal:'Crystals', cube:'Cubes',
       diamond:'Diamonds', gameboy:'Game Boys', glowrock:'Glow Rocks',

@@ -39,6 +39,15 @@ TRADER_CONFIG_CATALOGUES = {
         "currency_label": None,
         "group_collectable_variants": True,
     },
+    "hassan": {
+        "name": "Hassan",
+        "trader": "Drugs.json",
+        "zone": "Blackmarket.json",
+        "currency": "USD",
+        "currency_label": None,
+        "group_collectable_variants": True,
+        "clean_drug_names": True,
+    },
     "attachment-trader": {
         "name": "Attachment Trader",
         "trader": "Attachments.json",
@@ -88,6 +97,12 @@ CATEGORY_LABELS = {
     "Handguards": "Handguards",
     "Optics": "Optics",
     "Batteries": "Batteries",
+    "Bricks": "Drug Bricks",
+    "Bundles": "Drug Bundles",
+    "Drug_Supplies": "Production Supplies",
+    "LSD": "LSD",
+    "Nugs": "Cannabis Nuggets",
+    "Shrooms": "Psilocybin Mushrooms",
 }
 
 ITEM_RE = re.compile(
@@ -198,6 +213,68 @@ def special_friendly_name(class_name: str) -> str | None:
     return explicit.get(lower)
 
 
+DRUG_TOKEN_NAMES = {
+    "babybatter": "Baby Batter",
+    "blacktar": "Black Tar",
+    "bluecookies": "Blue Cookies",
+    "cheetahpiss": "Cheetah Piss",
+    "coke": "Cocaine",
+    "crystal_blue": "Crystal Blue",
+    "crystal_pb": "Crystal PB",
+    "crystal_pink": "Crystal Pink",
+    "fent": "Fentanyl",
+    "g_code": "G-Code",
+    "goldenteacher": "Golden Teacher",
+    "ghostcaps": "Ghost Caps",
+    "blueveils": "Blue Veils",
+    "lemoncarb": "Lemon Carb",
+    "mdma": "MDMA",
+    "mysticvoid": "Mystic Void",
+    "offbrand": "Off-Brand",
+    "sundaytrip": "Sunday Trip",
+    "sunspores": "Sun Spores",
+    "thizz_blue": "Thizz Blue",
+    "thizz_green": "Thizz Green",
+    "thizz_purple": "Thizz Purple",
+    "thizz_yellow": "Thizz Yellow",
+}
+
+
+def drug_token_name(value: str) -> str:
+    return DRUG_TOKEN_NAMES.get(value.lower(), title_words(value))
+
+
+def drug_friendly_name(class_name: str) -> str | None:
+    lower = class_name.lower()
+    supplies = {
+        "im7s_storagepallet_bricks": "Brick Storage Pallet",
+        "im7s_ziplock": "Zip-Lock Baggies",
+        "im7s_dryingrack_kit": "Drying Rack Kit",
+        "im7s_hydroplanter_kit": "Hydro Planter Kit",
+        "im7s_hydroponics_dbs_kit": "Hydroponics DBS Kit",
+        "im7s_hydroponics_dwc_kit": "Hydroponics DWC Kit",
+        "im7s_labstation_kit": "Lab Station Kit",
+        "im7s_lsd_lab_kit": "LSD Lab Kit",
+        "im7s_productiontable_kit": "Production Table Kit",
+        "im7s_pillpress_industrial_kit": "Industrial Pill Press Kit",
+        "im7s_budtrimmer_kit": "Bud Trimmer Kit",
+    }
+    if lower in supplies:
+        return supplies[lower]
+
+    prefixes = (
+        ("im7s_brick_", "", " Brick"),
+        ("im7s_bundle_", "", " Bundle"),
+        ("im7s_smallnug_", "", " Nug"),
+        ("im7s_lsd_", "LSD — ", ""),
+        ("im7s_psilocybin_", "", " Mushrooms"),
+    )
+    for prefix, before, after in prefixes:
+        if lower.startswith(prefix):
+            return before + drug_token_name(lower[len(prefix):]) + after
+    return None
+
+
 def friendly_from_classname(class_name: str) -> str:
     special = special_friendly_name(class_name)
     if special:
@@ -281,6 +358,11 @@ def vehicle_suffix_label(suffix: str) -> str:
 
 
 def trader_friendly_name(class_name: str, cfg: dict) -> str:
+    if cfg.get("clean_drug_names"):
+        drug_name = drug_friendly_name(class_name)
+        if drug_name:
+            return drug_name
+
     name = friendly_from_classname(class_name)
     if not cfg.get("clean_vehicle_names"):
         return name

@@ -110,6 +110,7 @@ jobs:
             chernarus/traders/quinn/catalogue-data.js \
             chernarus/traders/indar/catalogue-data.js \
             chernarus/traders/gabi/catalogue-data.js \
+            chernarus/traders/hassan/catalogue-data.js \
             chernarus/traders/attachment-trader/catalogue-data.js \
             chernarus/traders/emberline-motors/catalogue-data.js \
             chernarus/traders/emberline-parts/catalogue-data.js
