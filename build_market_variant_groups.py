@@ -13,11 +13,25 @@ ROOT = Path(__file__).resolve().parent
 MARKET_DIR = ROOT / "data" / "live-market" / "market"
 OUTPUT = ROOT / "data" / "live-market" / "variant-groups.js"
 BM_OUTPUT = ROOT / "data" / "live-market" / "bm-zombie-note-catalogue.js"
+TRADER_INDEX = ROOT / "chernarus" / "traders" / "index.html"
+BM_DIRECTORY_ENTRY = '{"slug":"black-market-zombie-note","name":"Zombie Note Trader","title":"Black Market Zombie Note Trader","location":"Cinder Market","region":"Eastern Sea","currency":"Zombie Notes","specialty":"Zombie Notes • High-Tier Gear • Workbenches • Mag Loaders • Fishing Gear","summary":"Cinder Market Zombie Note trader carrying specialist gear, workbenches, flags and rare supplies with live server pricing.","buys":["Geb\'s Fishing Gear","Select FOG higher-tier gear"],"sells":["Custom flags","BallerZ gear","Workbenches","Mag loaders","Spawn tickets","Specialist gear sets","Fuel canisters","Select FOG higher-tier gear"],"image":"assets/traders/BMZombieNoteTrader.jpg","group":"Cinder Market","order":40},'
 
 
 def read_json(path: Path):
     with path.open("r", encoding="utf-8-sig") as handle:
         return json.load(handle)
+
+
+def ensure_bm_directory_entry() -> None:
+    text = TRADER_INDEX.read_text(encoding="utf-8")
+    if '"slug":"black-market-zombie-note"' in text:
+        return
+    anchor = '{"slug":"kaito"'
+    position = text.find(anchor)
+    if position < 0:
+        raise RuntimeError("Could not locate Cinder Market directory anchor.")
+    TRADER_INDEX.write_text(text[:position] + BM_DIRECTORY_ENTRY + "\n" + text[position:], encoding="utf-8")
+    print("Added Black Market Zombie Note trader to directory.")
 
 
 def main() -> None:
@@ -59,6 +73,7 @@ def main() -> None:
     build_bm_zombie_note_catalogue.main()
     generated = ROOT / "chernarus" / "traders" / "black-market-zombie-note" / "catalogue-data.js"
     BM_OUTPUT.write_text(generated.read_text(encoding="utf-8"), encoding="utf-8")
+    ensure_bm_directory_entry()
     print("Staged Black Market Zombie Note catalogue with live-market data.")
 
 
