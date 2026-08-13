@@ -1,0 +1,73 @@
+name: Apply GTX Exotic Vehicle Part Categories
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "reorganize_gtx_exotic_vehicle_parts.py"
+      - ".github/workflows/apply-gtx-exotic-parts.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-gtx-market
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install SFTP dependency
+        run: python -m pip install --disable-pip-version-check paramiko
+
+      - name: Back up and reorganize live exotic vehicle parts
+        env:
+          GTX_HOST: ${{ secrets.GTX_HOST }}
+          GTX_PORT: ${{ secrets.GTX_PORT }}
+          GTX_USERNAME: ${{ secrets.GTX_USERNAME }}
+          GTX_PASSWORD: ${{ secrets.GTX_PASSWORD }}
+          GTX_MARKET_PATH: profiles/ExpansionMod/Market
+          GTX_TRADERS_PATH: profiles/ExpansionMod/Traders
+          GTX_BACKUP_PATH: profiles/CodexBackups
+        run: python reorganize_gtx_exotic_vehicle_parts.py
+
+      - name: Refresh repository market snapshot
+        env:
+          GTX_HOST: ${{ secrets.GTX_HOST }}
+          GTX_PORT: ${{ secrets.GTX_PORT }}
+          GTX_USERNAME: ${{ secrets.GTX_USERNAME }}
+          GTX_PASSWORD: ${{ secrets.GTX_PASSWORD }}
+          GTX_MARKET_PATH: profiles/ExpansionMod/Market
+          GTX_TRADERS_PATH: profiles/ExpansionMod/Traders
+          GTX_TRADERZONES_PATH: mpmissions/dayzOffline.chernarusplus/expansion/traderzones
+          GTX_MARKET_SETTINGS_PATH: mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json
+        run: python sync_gtx_market.py
+
+      - name: Commit refreshed live snapshot
+        shell: bash
+        run: |
+          git add data/live-market
+
+          if git diff --cached --quiet; then
+            echo "Live snapshot already matches the repository."
+            exit 0
+          fi
+
+          git config user.name "Beneath the Ashes Market Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync reorganized exotic vehicle parts"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
+
