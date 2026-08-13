@@ -104,22 +104,7 @@ jobs:
         run: |
           git add data/live-market \
             chernarus/traders/index.html \
-            chernarus/traders/naomi/catalogue-data.js \
-            chernarus/traders/rolf/catalogue-data.js \
-            chernarus/traders/linda/catalogue-data.js \
-            chernarus/traders/quinn/catalogue-data.js \
-            chernarus/traders/indar/catalogue-data.js \
-            chernarus/traders/gabi/catalogue-data.js \
-            chernarus/traders/hassan/catalogue-data.js \
-            chernarus/traders/attachment-trader/catalogue-data.js \
-            chernarus/traders/emberline-motors/catalogue-data.js \
-            chernarus/traders/emberline-parts/catalogue-data.js \
-            chernarus/traders/kaito/catalogue-data.js \
-            chernarus/traders/peter/catalogue-data.js \
-            chernarus/traders/keiko/catalogue-data.js \
-            chernarus/traders/manua/catalogue-data.js \
-            chernarus/traders/niki/catalogue-data.js \
-            chernarus/traders/mining-trader/catalogue-data.js
+            chernarus/traders/*/catalogue-data.js
 
           if git diff --cached --quiet; then
             echo "No market or catalogue changes detected."
