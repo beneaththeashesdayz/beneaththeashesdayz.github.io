@@ -324,6 +324,7 @@ document.addEventListener('DOMContentLoaded', function () {
         name: group.name,
         className: group.variants.length + ' listed ' + group.variantLabel,
         category: first.category,
+        mode: first.mode,
         traderSells: first.traderSells,
         traderBuys: first.traderBuys,
         variantLabel: group.variantLabel,
