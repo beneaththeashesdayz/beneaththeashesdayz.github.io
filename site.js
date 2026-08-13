@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     .site-discord-link{position:fixed;z-index:10000;top:18px;right:20px;display:inline-flex;align-items:center;gap:9px;min-height:44px;padding:0 16px;border:1px solid #7b83ff;border-radius:8px;background:#5865F2;color:#fff!important;font-size:.76rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 8px 28px rgba(0,0,0,.38);transition:transform .15s ease,background .15s ease}
     .site-discord-link:hover{transform:translateY(-2px);background:#6571f5}
     .site-discord-link svg{width:22px;height:22px;fill:currentColor;flex:none}
+    .trader-group .card[href="./linda/"] img,.search-grid .card[href="./linda/"] img{object-position:65% center!important}
     @media(max-width:760px){.site-discord-link{top:12px;right:12px;min-height:40px;padding:0 12px;font-size:.65rem}.site-discord-link svg{width:19px;height:19px}}
   `;
   document.head.appendChild(style);
