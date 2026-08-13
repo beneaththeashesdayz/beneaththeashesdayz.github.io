@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 import build_bm_zombie_note_catalogue
@@ -32,6 +33,35 @@ def ensure_bm_directory_entry() -> None:
         raise RuntimeError("Could not locate Cinder Market directory anchor.")
     TRADER_INDEX.write_text(text[:position] + BM_DIRECTORY_ENTRY + "\n" + text[position:], encoding="utf-8")
     print("Added Black Market Zombie Note trader to directory.")
+
+
+def polish_bm_catalogue(text: str) -> str:
+    """Clean technical classname-derived labels without changing classnames or prices."""
+    def clean(match: re.Match[str]) -> str:
+        raw = match.group(1)
+        value = raw
+        value = re.sub(r"^(?:Tgk FSB Alpha |Tgk Casual |Vp Set\d+ |Belt Set\d+ )", "", value)
+        replacements = {
+            "Camodesert": "Desert Camo",
+            "Camogreen": "Green Camo",
+            "Odgreen": "OD Green",
+            " Mc": " Multicam",
+            "Abdominalprotection": "Abdominal Protection",
+            "Backpanel": "Back Panel",
+            "Backpouch": "Back Pouch",
+            "Medpouch": "Medical Pouch",
+            "Pouch1": "Pouch 1",
+            "Vest2": "Vest 2",
+            "Nvgs": "NVGs",
+            "Nvg": "NVG",
+        }
+        for source, target in replacements.items():
+            value = value.replace(source, target)
+        return 'name:"' + value + '"'
+
+    text = re.sub(r'name:"([^"]+)"', clean, text)
+    text = text.replace('category:"#STR_EXPANSION_MARKET_CATEGORY_NAVIGATION"', 'category:"Navigation"')
+    return text
 
 
 def main() -> None:
@@ -72,9 +102,10 @@ def main() -> None:
 
     build_bm_zombie_note_catalogue.main()
     generated = ROOT / "chernarus" / "traders" / "black-market-zombie-note" / "catalogue-data.js"
-    BM_OUTPUT.write_text(generated.read_text(encoding="utf-8"), encoding="utf-8")
+    bm_text = polish_bm_catalogue(generated.read_text(encoding="utf-8"))
+    BM_OUTPUT.write_text(bm_text, encoding="utf-8")
     ensure_bm_directory_entry()
-    print("Staged Black Market Zombie Note catalogue with live-market data.")
+    print("Staged Black Market Zombie Note catalogue with polished display names.")
 
 
 if __name__ == "__main__":
