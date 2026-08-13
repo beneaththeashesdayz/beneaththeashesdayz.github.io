@@ -659,7 +659,7 @@ window.traderCatalogue={traderName:'Black Market Zombie Note Trader',currency:'Z
 {name:"Tgk Russiansolider V4 Top Gorka Colork",className:"tgk_russiansolider_v4_top_gorka_colork",category:"Russian Soldier v4 Gear Set",traderSells:true,traderBuys:false,buyPrice:8000},
 {name:"Tgk Russiansolider V4 Top Gorka Colorl",className:"tgk_russiansolider_v4_top_gorka_colorl",category:"Russian Soldier v4 Gear Set",traderSells:true,traderBuys:false,buyPrice:8000},
 {name:"Tgk Russiansolider V4 Top Gorka Colorw",className:"tgk_russiansolider_v4_top_gorka_colorw",category:"Russian Soldier v4 Gear Set",traderSells:true,traderBuys:false,buyPrice:8000},
-{name:"Camo Sleeping Bag",className:"lbs_sleepingpacked_new_camo",category:"Sleeping Bags",traderSells:true,traderBuys:true,buyPrice:250,sellPrice:750},
+{name:"Camo Sleeping Bag",className:"lbs_sleepingpacked_new_camo",category:"Sleeping Bags",traderSells:true,traderBuys:false,buyPrice:250},
 {name:"Cinder Ticket",className:"Cinder_Ticket",category:"Spawn Tickets",traderSells:true,traderBuys:false,buyPrice:2750},
 {name:"Tgk Tracksuit Pants Blue",className:"tgk_tracksuit_pants_blue",category:"Tracksuit Gear Set",traderSells:true,traderBuys:false,buyPrice:6000},
 {name:"Tgk Tracksuit Pants Green",className:"tgk_tracksuit_pants_green",category:"Tracksuit Gear Set",traderSells:true,traderBuys:false,buyPrice:6000},

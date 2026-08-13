@@ -44,7 +44,7 @@
   "Items": {
     "compass": 0,
     "gpsreceiver": 0,
-    "lbs_sleepingpacked_new_camo": 1,
+    "lbs_sleepingpacked_new_camo": 0,
     "orienteeringcompass": 0
   }
 }
