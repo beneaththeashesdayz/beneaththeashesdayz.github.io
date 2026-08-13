@@ -207,10 +207,95 @@ def friendly_from_classname(class_name: str) -> str:
     return " ".join(word.capitalize() for word in text.split())
 
 
+VEHICLE_EXACT_DISPLAY_NAMES = {
+    "camarowheel_offroad": "Chevrolet Camaro Off-Road Wheel",
+    "chevelle1970wheel_offroad": "Chevrolet Chevelle 1970 Off-Road Wheel",
+    "e60wheel_offroad": "BMW E60 Off-Road Wheel",
+    "escwheel_offroad": "Cadillac Escalade Off-Road Wheel",
+    "gt63wheel_offroad": "Mercedes GT63 Off-Road Wheel",
+    "hennesseyf150dwheel_offroad": "Hennessey F150D Off-Road Wheel",
+    "m3_g80wheel_offroad": "BMW M3 G80 Off-Road Wheel",
+    "m4wwheel_offroad": "BMW M4W Off-Road Wheel",
+    "m5wheel_offroad": "BMW M5 Off-Road Wheel",
+    "mk5wheel_offroad": "MK5 Off-Road Wheel",
+    "tundrawheel_offroad": "Toyota Tundra Off-Road Wheel",
+    "widebody_hellcatwheel_offroad": "Dodge Widebody Hellcat Off-Road Wheel",
+    "expansioncarkey": "Vehicle Key",
+    "hb_flipvehicle_bollard": "Flip Vehicle Bollard",
+}
+
+# Expansion Market JSON identifies items by classname. These prefixes mirror the
+# model names shown by the in-game trader and are shared by the showroom and its
+# replacement-parts counter. Longest/specific prefixes must come first.
+VEHICLE_DISPLAY_PREFIXES = (
+    ("star_chevrolet_z71_lifted", "Chevrolet Z71 Lifted"),
+    ("star_jeep_rubi_extra", "Jeep Rubicon"),
+    ("star_chevrolet_z71", "Chevrolet Z71"),
+    ("star_rover_defender", "Land Rover Defender"),
+    ("star_audi_rs5", "Audi RS5"),
+    ("star_bmw_g81", "BMW G81"),
+    ("star_hummer_h1", "Hummer H1"),
+    ("toyota_86_rb", "Toyota 86"),
+    ("toyota_86", "Toyota 86"),
+    ("armada_bearcat", "Armada BearCat"),
+    ("hennesseyf150d", "Hennessey F150D"),
+    ("x5mcompetition", "BMW X5 M Competition"),
+    ("widebody_hellcat", "Dodge Widebody Hellcat"),
+    ("dodgecharger", "Dodge Charger"),
+    ("chevelle1970", "Chevrolet Chevelle 1970"),
+    ("m3_g80", "BMW M3 G80"),
+    ("charger", "Dodge Charger"),
+    ("camaro", "Chevrolet Camaro"),
+    ("a_m5", "BMW M5"),
+    ("m5", "BMW M5"),
+    ("e60", "BMW E60"),
+    ("gt63", "Mercedes GT63"),
+    ("m4w", "BMW M4W"),
+    ("mk5", "MK5"),
+    ("tundra", "Toyota Tundra"),
+    ("esc", "Cadillac Escalade"),
+)
+
+VEHICLE_SUFFIX_TOKENS = {
+    "codriver": "Passenger Door",
+    "codriverdoor": "Passenger Door",
+    "driver": "Driver Door",
+    "driverdoor": "Driver Door",
+    "offroad": "Off-Road",
+    "police2": "Police 2",
+    "rb": "RB",
+    "un": "UN",
+}
+
+
+def vehicle_suffix_label(suffix: str) -> str:
+    labels = []
+    for token in suffix.split("_"):
+        numbered = re.fullmatch(r"(cargo|wheel)(\d+)", token)
+        if numbered:
+            word = "Cargo" if numbered.group(1) == "cargo" else "Wheel"
+            labels.append(f"{word} {numbered.group(2)}")
+        else:
+            labels.append(VEHICLE_SUFFIX_TOKENS.get(token, title_words(token)))
+    return " ".join(labels)
+
+
 def trader_friendly_name(class_name: str, cfg: dict) -> str:
     name = friendly_from_classname(class_name)
     if not cfg.get("clean_vehicle_names"):
         return name
+
+    lower = class_name.lower()
+    exact_name = VEHICLE_EXACT_DISPLAY_NAMES.get(lower)
+    if exact_name:
+        return exact_name
+
+    for prefix, display_name in VEHICLE_DISPLAY_PREFIXES:
+        if lower == prefix:
+            return display_name
+        marker = prefix + "_"
+        if lower.startswith(marker):
+            return f"{display_name} {vehicle_suffix_label(lower[len(marker):])}"
 
     if name.startswith("Star "):
         name = name[5:]
@@ -222,14 +307,13 @@ def trader_friendly_name(class_name: str, cfg: dict) -> str:
         "Mk5": "MK5",
         "F150d": "F150D",
         "Hennesseyf150d": "Hennessey F150D",
-        "Chevelle1970": "Chevelle 1970",
+        "Chevelle1970": "Chevrolet Chevelle 1970",
         "Bearcat": "BearCat",
-        "X5mcompetition": "X5 M Competition",
+        "X5mcompetition": "BMW X5 M Competition",
     }
     for source, target in replacements.items():
         name = re.sub(rf"\b{re.escape(source)}\b", target, name)
     return name
-
 
 def category_from_filename(path: Path) -> str:
     if path.name == "Gebs_Fishing_Gear.json":
