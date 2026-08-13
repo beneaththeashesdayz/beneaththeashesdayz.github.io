@@ -45,7 +45,23 @@ TRADER_CONFIG_CATALOGUES = {
         "zone": "Main_Attachments_Trader.json",
         "currency": "USD",
         "currency_label": None,
-    }
+    },
+    "emberline-motors": {
+        "name": "Emberline Motors",
+        "trader": "Exotic_Vehicle_Trader.json",
+        "zone": "ExoticVehicleTrader.json",
+        "currency": "ZOMBIE_NOTES",
+        "currency_label": "Zombie Notes",
+        "use_market_display_names": True,
+    },
+    "emberline-parts": {
+        "name": "Emberline Parts",
+        "trader": "Exotric_Vehicle_Parts.json",
+        "zone": "ExoticVehicleTrader.json",
+        "currency": "ZOMBIE_NOTES",
+        "currency_label": "Zombie Notes",
+        "use_market_display_names": True,
+    },
 }
 
 CATEGORY_LABELS = {
@@ -448,7 +464,11 @@ def build_from_trader_config(slug: str, cfg: dict, market_index: dict[str, list[
             continue
 
         category_data = read_json(category_path)
-        label = category_label(category_stem)
+        label = (
+            category_data.get("DisplayName")
+            if cfg.get("use_market_display_names")
+            else category_label(category_stem)
+        ) or category_label(category_stem)
         for market_item in category_data.get("Items", []):
             parent = market_item.get("ClassName")
             if not parent:
