@@ -19,13 +19,13 @@
     "my_df_weapons_pistols_m1911": 1,
     "my_df_weapons_lmg_pkm": 0,
     "kukriknife": 1,
+    "my_df_weapons_dmr_sp9": 0,
     "fangeknife": 0,
     "my_df_weapons_smg_p90": 1,
     "my_df_weapons_melees_annihil2": 0,
     "my_df_weapons_melees_annihil": 0,
     "my_df_weapons_rifles_ptr32": 1,
     "broom_birch": 0,
-    "orientalmachete": 1,
     "my_df_weapons_lmg_qjb201": 1,
     "my_df_weapons_snipers_awm": 0,
     "my_df_weapons_launcher_rpg7": 0,
@@ -90,11 +90,11 @@
     "my_df_weapons_melees_karambit_raidenshogun": 0,
     "iceaxe": 0,
     "my_df_weapons_shotguns_citori725": 0,
-    "huntingknife": 0,
-    "my_df_weapons_rifles_scarh": 1,
-    "my_df_weapons_smg_pp19": 1,
-    "my_df_weapons_dmr_sp9": 0,
+    "my_df_weapons_melees_thievesea": 0,
     "brassknuckles_dull": 0,
+    "my_df_weapons_smg_pp19": 1,
+    "my_df_weapons_rifles_scarh": 1,
+    "orientalmachete": 1,
     "nailedbaseballbat": 0,
     "my_df_weapons_dmr_svd": 0,
     "broom": 0,
@@ -118,6 +118,6 @@
     "my_df_weapons_melees_datathrowingknife_2": 0,
     "my_df_weapons_shotguns_fpss": 1,
     "my_df_weapons_shotguns_m1014": 1,
-    "my_df_weapons_melees_thievesea": 0
+    "huntingknife": 0
   }
 }
