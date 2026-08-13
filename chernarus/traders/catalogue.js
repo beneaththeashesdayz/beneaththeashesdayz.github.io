@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .sort(function (a, b) { return a - b; });
     if (!values.length) return '';
     if (values[0] === values[values.length - 1]) return money(values[0]);
-    return money(values[0]) + ' â€“ ' + money(values[values.length - 1]);
+    return money(values[0]) + ' – ' + money(values[values.length - 1]);
   }
 
   function titleWords(value) {
@@ -96,10 +96,10 @@ document.addEventListener('DOMContentLoaded', function () {
       ['drip_adidasyeezy350_', 'Adidas Yeezy 350'],
       ['drip_adidasyeezy750_', 'Adidas Yeezy 750'],
       ['drip_adidasyeezyslides_', 'Adidas Yeezy Slides'],
-      ['drip_crocsocks_relaxed_', 'Crocs with Socks â€” Relaxed'],
-      ['drip_crocsocks_sport_', 'Crocs with Socks â€” Sport'],
-      ['drip_crocs_relaxed_', 'Crocs â€” Relaxed'],
-      ['drip_crocs_sport_', 'Crocs â€” Sport'],
+      ['drip_crocsocks_relaxed_', 'Crocs with Socks — Relaxed'],
+      ['drip_crocsocks_sport_', 'Crocs with Socks — Sport'],
+      ['drip_crocs_relaxed_', 'Crocs — Relaxed'],
+      ['drip_crocs_sport_', 'Crocs — Sport'],
       ['drip_drippypoo_', 'Drippy Poo'],
       ['drip_hobbitfeet_', 'Hobbit Feet'],
       ['drip_mschfboots_', 'MSCHF Boots'],
@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function () {
       if (state.sells) prices.push('Buy ' + money(purchasePrice(variant)));
       if (state.buys) prices.push('Sell ' + money(resalePrice(variant)));
       return '<div class="catalogue-variant-row"><span>' + escapeHtml(variant.variantName) + '</span><strong>' +
-        escapeHtml(prices.join(' â€¢ ')) + '</strong></div>';
+        escapeHtml(prices.join(' • ')) + '</strong></div>';
     }).join('');
     return '<details class="catalogue-variants"><summary>View ' + item.variants.length +
       ' styles and exact prices</summary><div class="catalogue-variant-list">' + rows + '</div></details>';
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (count) {
       var noun = cfg.groupDrippyVariants ? 'product' : 'item';
       count.textContent = rows.length + ' ' + noun + (rows.length === 1 ? '' : 's');
-      if (cfg.groupDrippyVariants && !query) count.textContent += ' â€¢ ' + cfg.items.length + ' live item variants';
+      if (cfg.groupDrippyVariants && !query) count.textContent += ' • ' + cfg.items.length + ' live item variants';
     }
     empty.style.display = rows.length ? 'none' : 'block';
 
