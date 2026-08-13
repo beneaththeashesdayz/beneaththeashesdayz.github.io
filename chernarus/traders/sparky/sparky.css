@@ -10,6 +10,9 @@
 .sparky-card dt{color:#8e8a84}
 .sparky-card dd{margin:0;font-weight:800;text-align:right}
 .sparky-card p{color:var(--muted);font-size:.76rem;line-height:1.5}
+.sparky-included{margin-top:12px;color:var(--muted);font-size:.76rem}
+.sparky-included summary{cursor:pointer;color:#a9a198;font-weight:700}
+.sparky-included p{margin:8px 0 0}
 .sparky-single-color{margin-top:13px;padding-top:11px;border-top:1px solid #2d302e;color:#c6a98d;font-size:.8rem}
 .sparky-variants{margin-top:14px;padding-top:12px;border-top:1px solid #2d302e}
 .sparky-variants summary{cursor:pointer;color:#d8c4ad;font-size:.82rem;font-weight:800}
