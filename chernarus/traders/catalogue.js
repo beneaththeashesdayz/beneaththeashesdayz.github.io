@@ -209,7 +209,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     if (count) {
-      count.textContent = rows.length + ' product' + (rows.length === 1 ? '' : 's');
+      var noun = cfg.groupDrippyVariants ? 'product' : 'item';
+      count.textContent = rows.length + ' ' + noun + (rows.length === 1 ? '' : 's');
       if (cfg.groupDrippyVariants && !query) count.textContent += ' â€¢ ' + cfg.items.length + ' live item variants';
     }
     empty.style.display = rows.length ? 'none' : 'block';
