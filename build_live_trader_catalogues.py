@@ -73,6 +73,53 @@ TRADER_CONFIG_CATALOGUES = {
         "use_market_display_names": True,
         "clean_vehicle_names": True,
     },
+    "kaito": {
+        "name": "Kaito",
+        "trader": "Collectables_Trader_BM.json",
+        "zone": "Blackmarket.json",
+        "currency": "USD",
+        "currency_label": None,
+        "group_collectable_variants": True,
+    },
+    "peter": {
+        "name": "Peter",
+        "trader": "Hunting.json",
+        "zone": "Hunting.json",
+        "currency": "USD",
+        "currency_label": None,
+        "group_collectable_variants": True,
+    },
+    "keiko": {
+        "name": "Keiko",
+        "trader": "Fishing.json",
+        "zone": "Fishing_Trader.json",
+        "currency": "USD",
+        "currency_label": None,
+        "group_collectable_variants": True,
+    },
+    "manua": {
+        "name": "Manua",
+        "trader": "BuildingSupplies.json",
+        "zone": "Main_BuildingSupplies_Trader.json",
+        "currency": "USD",
+        "currency_label": None,
+    },
+    "niki": {
+        "name": "Niki",
+        "trader": "Vehicle_Parts.json",
+        "zone": "Main_VehicleParts_Trader.json",
+        "currency": "USD",
+        "currency_label": None,
+        "use_market_display_names": True,
+        "clean_vehicle_names": True,
+    },
+    "mining-trader": {
+        "name": "Mining Trader",
+        "trader": "Mining.json",
+        "zone": "Mining_Trader.json",
+        "currency": "USD",
+        "currency_label": None,
+    },
 }
 
 CATEGORY_LABELS = {
