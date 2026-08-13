@@ -13,7 +13,8 @@ from pathlib import Path
 
 
 SOURCE_CATEGORY = "Car_Parts"
-TRADER_FILE = "Exotric_Vehicle_Parts.json"
+PARTS_TRADER_FILE = "Exotric_Vehicle_Parts.json"
+VEHICLE_TRADER_FILE = "Exotic_Vehicle_Trader.json"
 PRESERVED_CATEGORIES = ["Car_Keys"]
 
 # Prefixes are matched against each parent ClassName in Car_Parts.json. The
@@ -108,7 +109,7 @@ def build_categories(source: dict) -> tuple[dict[str, dict], dict[str, int]]:
     return categories, counts
 
 
-def build_trader(trader: dict) -> dict:
+def build_parts_trader(trader: dict) -> dict:
     current = trader.get("Categories")
     expected = [stem for stem, _, _ in MODEL_GROUPS] + PRESERVED_CATEGORIES
     if current == expected:
@@ -123,16 +124,56 @@ def build_trader(trader: dict) -> dict:
     return updated
 
 
-def check_snapshot(source_path: Path, trader_path: Path) -> None:
+def build_vehicle_trader(trader: dict) -> dict:
+    current = trader.get("Categories")
+    if not isinstance(current, list):
+        raise RuntimeError("Exotic vehicle trader has no Categories array.")
+
+    legacy = f"{SOURCE_CATEGORY}:3"
+    replacements = [f"{stem}:3" for stem, _, _ in MODEL_GROUPS]
+    replacement_set = set(replacements)
+
+    if legacy in current:
+        if replacement_set.intersection(current):
+            raise RuntimeError(
+                "Exotic vehicle trader contains both the legacy and split attachment categories."
+            )
+        updated = deepcopy(trader)
+        index = current.index(legacy)
+        updated["Categories"] = current[:index] + replacements + current[index + 1 :]
+        return updated
+
+    if all(current.count(category) == 1 for category in replacements):
+        return deepcopy(trader)
+
+    raise RuntimeError(
+        "Exotic vehicle trader categories changed since the audit; refusing to overwrite: "
+        + repr(current)
+    )
+
+
+def retire_source_category(source: dict) -> dict:
+    retired = deepcopy(source)
+    retired["Items"] = []
+    return retired
+
+
+def check_snapshot(source_path: Path, parts_trader_path: Path, vehicle_trader_path: Path) -> None:
     source = parse_json(source_path.read_bytes(), str(source_path))
-    trader = parse_json(trader_path.read_bytes(), str(trader_path))
+    parts_trader = parse_json(parts_trader_path.read_bytes(), str(parts_trader_path))
+    vehicle_trader = parse_json(vehicle_trader_path.read_bytes(), str(vehicle_trader_path))
     categories, counts = build_categories(source)
-    updated_trader = build_trader(trader)
+    updated_parts_trader = build_parts_trader(parts_trader)
+    updated_vehicle_trader = build_vehicle_trader(vehicle_trader)
     summary = {
         "modelCategories": len(categories),
         "parentRows": sum(len(payload["Items"]) for payload in categories.values()),
         "itemClasses": sum(counts.values()),
-        "traderCategories": updated_trader["Categories"],
+        "partsTraderCategories": updated_parts_trader["Categories"],
+        "vehicleTraderAttachmentCategories": [
+            category for category in updated_vehicle_trader["Categories"] if category.endswith(":3")
+        ],
+        "legacyCategoryItemsAfterMigration": len(retire_source_category(source)["Items"]),
         "counts": counts,
     }
     print(json.dumps(summary, indent=2))
@@ -196,16 +237,41 @@ def apply_live() -> None:
         traders_root = resolve_remote_dir(sftp, server_root, traders_configured)
         backup_root = posixpath.join(server_root, backup_configured)
         source_path = posixpath.join(market_root, f"{SOURCE_CATEGORY}.json")
-        trader_path = posixpath.join(traders_root, TRADER_FILE)
+        parts_trader_path = posixpath.join(traders_root, PARTS_TRADER_FILE)
+        vehicle_trader_path = posixpath.join(traders_root, VEHICLE_TRADER_FILE)
         source_raw = read_remote(sftp, source_path)
-        trader_raw = read_remote(sftp, trader_path)
+        parts_trader_raw = read_remote(sftp, parts_trader_path)
+        vehicle_trader_raw = read_remote(sftp, vehicle_trader_path)
         source = parse_json(source_raw, source_path)
-        trader = parse_json(trader_raw, trader_path)
-        categories, counts = build_categories(source)
-        updated_trader = build_trader(trader)
-        expected = updated_trader["Categories"]
+        parts_trader = parse_json(parts_trader_raw, parts_trader_path)
+        vehicle_trader = parse_json(vehicle_trader_raw, vehicle_trader_path)
 
-        if trader.get("Categories") == expected:
+        if source.get("Items"):
+            categories, counts = build_categories(source)
+        else:
+            existing_categories = {}
+            for stem, _, _ in MODEL_GROUPS:
+                existing_categories[stem] = parse_json(
+                    read_remote(sftp, posixpath.join(market_root, f"{stem}.json")), stem
+                )
+            combined = deepcopy(next(iter(existing_categories.values())))
+            combined["Items"] = []
+            for payload in existing_categories.values():
+                combined["Items"].extend(deepcopy(payload.get("Items") or []))
+            categories, counts = build_categories(combined)
+            if categories != existing_categories:
+                raise RuntimeError("Existing split categories failed reconstruction validation.")
+
+        updated_parts_trader = build_parts_trader(parts_trader)
+        updated_vehicle_trader = build_vehicle_trader(vehicle_trader)
+        retired_source = retire_source_category(source)
+
+        already_fixed = (
+            source == retired_source
+            and parts_trader == updated_parts_trader
+            and vehicle_trader == updated_vehicle_trader
+        )
+        if already_fixed:
             for stem, payload in categories.items():
                 remote = parse_json(read_remote(sftp, posixpath.join(market_root, f"{stem}.json")), stem)
                 if remote != payload:
@@ -217,8 +283,10 @@ def apply_live() -> None:
         mkdir_p(sftp, backup_dir)
         with sftp.open(posixpath.join(backup_dir, f"{SOURCE_CATEGORY}.json"), "wb") as handle:
             handle.write(source_raw)
-        with sftp.open(posixpath.join(backup_dir, TRADER_FILE), "wb") as handle:
-            handle.write(trader_raw)
+        with sftp.open(posixpath.join(backup_dir, PARTS_TRADER_FILE), "wb") as handle:
+            handle.write(parts_trader_raw)
+        with sftp.open(posixpath.join(backup_dir, VEHICLE_TRADER_FILE), "wb") as handle:
+            handle.write(vehicle_trader_raw)
 
         for stem, payload in categories.items():
             target = posixpath.join(market_root, f"{stem}.json")
@@ -230,12 +298,26 @@ def apply_live() -> None:
                 raise RuntimeError(f"Refusing to overwrite unrelated existing category: {target}")
             atomic_write(sftp, target, json_bytes(payload), token)
 
-        # Switch the trader only after every new category has been written.
-        atomic_write(sftp, trader_path, json_bytes(updated_trader), token)
+        # Switch both traders only after every split category has been written.
+        # The vehicle trader needs the same categories in attachment-only mode
+        # so purchases keep receiving their configured parts.
+        atomic_write(sftp, parts_trader_path, json_bytes(updated_parts_trader), token)
+        atomic_write(sftp, vehicle_trader_path, json_bytes(updated_vehicle_trader), token)
 
-        verified_trader = parse_json(read_remote(sftp, trader_path), trader_path)
-        if verified_trader.get("Categories") != expected:
-            raise RuntimeError("Trader verification failed after upload.")
+        # Expansion has one global item registry. Leaving the original rows in
+        # Car_Parts.json makes every split row a duplicate, so retire the legacy
+        # rows only after both traders safely reference the split categories.
+        atomic_write(sftp, source_path, json_bytes(retired_source), token)
+
+        verified_parts_trader = parse_json(read_remote(sftp, parts_trader_path), parts_trader_path)
+        if verified_parts_trader != updated_parts_trader:
+            raise RuntimeError("Exotic parts trader verification failed after upload.")
+        verified_vehicle_trader = parse_json(read_remote(sftp, vehicle_trader_path), vehicle_trader_path)
+        if verified_vehicle_trader != updated_vehicle_trader:
+            raise RuntimeError("Exotic vehicle trader verification failed after upload.")
+        verified_source = parse_json(read_remote(sftp, source_path), source_path)
+        if verified_source != retired_source:
+            raise RuntimeError("Legacy Car_Parts category verification failed after upload.")
         for stem, payload in categories.items():
             verified = parse_json(read_remote(sftp, posixpath.join(market_root, f"{stem}.json")), stem)
             if verified != payload:
@@ -253,10 +335,18 @@ def apply_live() -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--check-snapshot", nargs=2, metavar=("CAR_PARTS_JSON", "TRADER_JSON"))
+    parser.add_argument(
+        "--check-snapshot",
+        nargs=3,
+        metavar=("CAR_PARTS_JSON", "PARTS_TRADER_JSON", "VEHICLE_TRADER_JSON"),
+    )
     args = parser.parse_args()
     if args.check_snapshot:
-        check_snapshot(Path(args.check_snapshot[0]), Path(args.check_snapshot[1]))
+        check_snapshot(
+            Path(args.check_snapshot[0]),
+            Path(args.check_snapshot[1]),
+            Path(args.check_snapshot[2]),
+        )
     else:
         apply_live()
 
