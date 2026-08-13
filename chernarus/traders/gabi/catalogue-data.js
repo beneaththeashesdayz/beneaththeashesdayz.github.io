@@ -645,4 +645,3 @@ window.traderCatalogue={traderName:'Gabi',currency:'USD',groupDrippyVariants:tru
 {name:'Yu-Gi-Oh! Card 8',className:'vyse_yugioh_card_08',category:'Vyse Collectables',sellPrice:1587,traderSells:false,traderBuys:true},
 {name:'Yu-Gi-Oh! Card 9',className:'vyse_yugioh_card_09',category:'Vyse Collectables',sellPrice:1503,traderSells:false,traderBuys:true}
 ]};
-
