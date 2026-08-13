@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mining Trader | Chernarus | Beneath the Ashes</title>
 <meta name="description" content="Mainland mining trader inventory for bars and gems.">
-<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">\n<link rel="stylesheet" href="../catalogue.css?v=6">\n<link rel="stylesheet" href="../catalogue-variants.css?v=1">
 </head>
 <body>
 <header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
@@ -22,15 +22,17 @@
 <article class="panel notes"><h3>Survivor Notes</h3><ul><li>Bring your mined materials here to sell them for USD.</li><li>Bars and gems are valued by material and quality, with higher-grade finds paying more.</li><li>The trader currently buys mining materials rather than selling them.</li><li>Location details and the trader's name will be added when available.</li></ul></article>
 <section class="catalogue-section" id="traderCatalogue">
 <div class="catalogue-head"><div><div class="catalogue-kicker">Live Market Catalogue</div><h2>Mining Trader's Inventory</h2></div><p>Search the current bars and gems catalogue to see what the mining trader will buy from you.</p></div>
-<div class="catalogue-tools"><input class="catalogue-search" data-catalogue-search type="search" placeholder="Search bars, gems, metals..." aria-label="Search mining inventory"><div class="catalogue-filters" aria-label="Catalogue filters"><button class="catalogue-filter active" data-catalogue-filter="all" type="button">All</button><button class="catalogue-filter" data-catalogue-filter="purchase" type="button">Buy From Trader</button><button class="catalogue-filter" data-catalogue-filter="sale" type="button">Sell To Trader</button><button class="catalogue-filter" data-catalogue-filter="Bars" type="button">Bars</button><button class="catalogue-filter" data-catalogue-filter="Gems" type="button">Gems</button></div></div>
+<div class="catalogue-tools"><input class="catalogue-search" data-catalogue-search type="search" placeholder="Search bars, gems, metals..." aria-label="Search mining inventory"><div class="catalogue-filters" aria-label="Catalogue filters"><button class="catalogue-filter active" data-catalogue-filter="all" type="button">All</button><button class="catalogue-filter" data-catalogue-filter="purchase" type="button">Buy From Trader</button><button class="catalogue-filter" data-catalogue-filter="sale" type="button">Sell To Trader</button><button class="catalogue-filter" data-catalogue-filter="both" type="button">Buys &amp; Sells</button><button class="catalogue-filter" data-catalogue-filter="Bars" type="button">Bars</button><button class="catalogue-filter" data-catalogue-filter="Gems" type="button">Gems</button></div></div>
 <div class="catalogue-summary"><span data-catalogue-count></span><span>•</span><span>USD</span></div>
-<div class="catalogue-list" data-catalogue-list></div><div class="catalogue-empty" data-catalogue-empty>No items match that search.</div>
+<div class="catalogue-list" data-catalogue-list></div><div class="catalogue-empty" data-catalogue-empty>No items match that search.</div><p class="catalogue-note">Inventory is grouped by mining category. Use the transaction filters to see which materials the trader buys from survivors.</p>
 </section>
 </div>
 <div class="portrait-frame"><div class="portrait" style="display:grid;place-items:center;color:#aaa;background:#171a1c;font-size:5rem">⛏</div></div>
 </section>
 </main>
 <footer><div class="wrap">Beneath the Ashes • Chernarus Trader Network</div></footer>
-<script src="../../../data/live-market/variant-groups.js?v=1"></script>\n<script src="./catalogue-data.js?v=1"></script>\n<script src="../catalogue.js?v=17"></script>\n<script src="https://beneaththeashesdayz.github.io/site.js"></script>
+<script src="../../../data/live-market/variant-groups.js?v=1"></script>
+<script src="./catalogue-data.js?v=1"></script>
+<script src="../catalogue.js?v=17"></script>\n<script src="https://beneaththeashesdayz.github.io/site.js"></script>
 </body>
 </html>
