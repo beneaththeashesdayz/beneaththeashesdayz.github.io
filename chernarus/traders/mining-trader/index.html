@@ -20,15 +20,17 @@
 <p class="summary">The mining trader deals in refined bars and valuable gems, giving survivors a place to turn hard-won resources into serious money.</p>
 <div class="chips"><span class="chip">Mining</span><span class="chip">Metal Bars</span><span class="chip">Gems</span></div>
 <article class="panel notes"><h3>Survivor Notes</h3><ul><li>Bring your mined materials here to sell them for USD.</li><li>Bars and gems are valued by material and quality, with higher-grade finds paying more.</li><li>The trader currently buys mining materials rather than selling them.</li><li>Location details and the trader's name will be added when available.</li></ul></article>
-<section class="info-grid">
-<article class="panel buy"><h3>Bars</h3><ul><li>Tin Bar — $4,000</li><li>Iron Bar — $5,200</li><li>Copper Bar — $6,400</li><li>Silver Bar — $7,600</li><li>Gold Bar — $8,800</li><li>Cobalt Bar — $10,000</li><li>Uranium Bar — $11,200</li><li>Eridium Bar — $12,400</li><li>Crimant Bar — $13,600</li><li>Adamantite Bar — $14,500</li><li>Enchanted Bar — $15,000</li></ul></article>
-<article class="panel sell"><h3>Gems</h3><ul><li>Turquoise — $9,000–$11,000</li><li>Jade — $9,140–$11,140</li><li>Amethyst — $9,285–$11,285</li><li>Iolite — $9,425–$11,425</li><li>Aquamarine — $9,570–$11,570</li><li>Amber — $9,710–$11,710</li><li>Ruby — $9,855–$11,855</li><li>Fancy Colour Diamond — $9,005–$12,000</li></ul></article>
+<section class="catalogue-section" id="traderCatalogue">
+<div class="catalogue-head"><div><div class="catalogue-kicker">Live Market Catalogue</div><h2>Mining Trader's Inventory</h2></div><p>Search the current bars and gems catalogue to see what the mining trader will buy from you.</p></div>
+<div class="catalogue-tools"><input class="catalogue-search" data-catalogue-search type="search" placeholder="Search bars, gems, metals..." aria-label="Search mining inventory"><div class="catalogue-filters" aria-label="Catalogue filters"><button class="catalogue-filter active" data-catalogue-filter="all" type="button">All</button><button class="catalogue-filter" data-catalogue-filter="purchase" type="button">Buy From Trader</button><button class="catalogue-filter" data-catalogue-filter="sale" type="button">Sell To Trader</button><button class="catalogue-filter" data-catalogue-filter="Bars" type="button">Bars</button><button class="catalogue-filter" data-catalogue-filter="Gems" type="button">Gems</button></div></div>
+<div class="catalogue-summary"><span data-catalogue-count></span><span>•</span><span>USD</span></div>
+<div class="catalogue-list" data-catalogue-list></div><div class="catalogue-empty" data-catalogue-empty>No items match that search.</div>
 </section>
 </div>
 <div class="portrait-frame"><div class="portrait" style="display:grid;place-items:center;color:#aaa;background:#171a1c;font-size:5rem">⛏</div></div>
 </section>
 </main>
 <footer><div class="wrap">Beneath the Ashes • Chernarus Trader Network</div></footer>
-<script src="https://beneaththeashesdayz.github.io/site.js"></script>
+<script src="../../../data/live-market/variant-groups.js?v=1"></script>\n<script src="./catalogue-data.js?v=1"></script>\n<script src="../catalogue.js?v=17"></script>\n<script src="https://beneaththeashesdayz.github.io/site.js"></script>
 </body>
 </html>
