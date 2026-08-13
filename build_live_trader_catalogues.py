@@ -53,6 +53,7 @@ TRADER_CONFIG_CATALOGUES = {
         "currency": "ZOMBIE_NOTES",
         "currency_label": "Zombie Notes",
         "use_market_display_names": True,
+        "clean_vehicle_names": True,
     },
     "emberline-parts": {
         "name": "Emberline Parts",
@@ -61,6 +62,7 @@ TRADER_CONFIG_CATALOGUES = {
         "currency": "ZOMBIE_NOTES",
         "currency_label": "Zombie Notes",
         "use_market_display_names": True,
+        "clean_vehicle_names": True,
     },
 }
 
@@ -203,6 +205,30 @@ def friendly_from_classname(class_name: str) -> str:
     text = re.sub(r"[_-]+", " ", class_name)
     text = re.sub(r"(?<=[a-z0-9])(?=[A-Z])", " ", text)
     return " ".join(word.capitalize() for word in text.split())
+
+
+def trader_friendly_name(class_name: str, cfg: dict) -> str:
+    name = friendly_from_classname(class_name)
+    if not cfg.get("clean_vehicle_names"):
+        return name
+
+    if name.startswith("Star "):
+        name = name[5:]
+
+    replacements = {
+        "Bmw": "BMW",
+        "Rs5": "RS5",
+        "Gt63": "GT63",
+        "Mk5": "MK5",
+        "F150d": "F150D",
+        "Hennesseyf150d": "Hennessey F150D",
+        "Chevelle1970": "Chevelle 1970",
+        "Bearcat": "BearCat",
+        "X5mcompetition": "X5 M Competition",
+    }
+    for source, target in replacements.items():
+        name = re.sub(rf"\b{re.escape(source)}\b", target, name)
+    return name
 
 
 def category_from_filename(path: Path) -> str:
@@ -482,7 +508,7 @@ def build_from_trader_config(slug: str, cfg: dict, market_index: dict[str, list[
 
             for class_name in class_names:
                 row = {
-                    "name": friendly_from_classname(class_name),
+                    "name": trader_friendly_name(class_name, cfg),
                     "className": class_name,
                     "category": label,
                     "traderSells": trader_sells,
@@ -511,7 +537,7 @@ def build_from_trader_config(slug: str, cfg: dict, market_index: dict[str, list[
         sell_percent = effective_sell_percent(market, zone, global_sell_percent)
         source_stem = Path(market["source"]).stem
         row = {
-            "name": friendly_from_classname(class_name),
+            "name": trader_friendly_name(class_name, cfg),
             "className": class_name,
             "category": category_label(source_stem),
             "traderSells": trader_sells,
