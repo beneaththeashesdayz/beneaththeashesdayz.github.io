@@ -299,24 +299,24 @@
       const modelCount = groupVehicles(listedVehicles).length;
       root.querySelector('[data-status]').textContent =
         `Live configuration | ${modelCount} available vehicle models | ${listedVehicles.length} listed color options`;
-      const networks = root.querySelector('[data-networks]');
-      networks.replaceChildren(...data.garageGroups.map(group => {
+      const garageGroups = data.garageGroups || [];
+      const garageAccessIsFree = garageGroups.length > 0 && garageGroups.every(group =>
+        Number(group.costDeposit) === 0 && Number(group.costWithdraw) === 0);
+      const rules = [
+        garageAccessIsFree
+          ? 'Garage deposits and withdrawals cost $0.'
+          : 'Deposit and withdrawal fees vary by garage.',
+        data.impound?.impoundRuinedVehicles && data.impound?.ruinedVehiclesRequireVehicleInsurance
+          ? 'Insurance is required to recover a ruined vehicle.'
+          : 'Ruined-vehicle recovery is not currently protected by required insurance.',
+        'Repair fees still apply; players pay for repairs performed on their vehicles.'
+      ];
+      const ruleList = root.querySelector('[data-networks]');
+      ruleList.replaceChildren(...rules.map(rule => {
         const item = document.createElement('li');
-        const services = [
-          group.canRepaintVehicles && 'repainting',
-          group.canRepairVehicle && 'engine repair',
-          group.canRepairVehicleAttachments && 'parts repair',
-          group.canRefuelVehicle && 'fuel/coolant'
-        ].filter(Boolean);
-        item.textContent = `${group.name}: deposit ${money(group.costDeposit)}, withdraw ${money(group.costWithdraw)}` +
-          (services.length ? ` | ${services.join(', ')}` : '');
+        item.textContent = rule;
         return item;
       }));
-      root.querySelector('[data-insurance]').textContent = data.impound?.impoundRuinedVehicles
-        ? (data.impound.ruinedVehiclesRequireVehicleInsurance
-            ? 'Insurance is required for ruined-vehicle recovery.'
-            : 'Ruined-vehicle recovery is enabled; insurance requirements vary.')
-        : 'Ruined-vehicle insurance recovery is disabled.';
       root.querySelector('[data-search]').addEventListener('input', render);
       root.querySelectorAll('[data-category-filter]').forEach(button => {
         button.addEventListener('click', () => {
