@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
-"""Build a compact browser-side index of Expansion Market variant families."""
+"""Build browser-side Expansion Market indexes used by the trader site."""
 
 from __future__ import annotations
 
 import json
 from pathlib import Path
+
+import build_bm_zombie_note_catalogue
 
 
 ROOT = Path(__file__).resolve().parent
@@ -53,7 +55,8 @@ def main() -> None:
     )
     print(f"Built {len(families):,} market families covering {len(items):,} item classes ({conflicts} conflicts kept first).")
 
+    build_bm_zombie_note_catalogue.main()
+
 
 if __name__ == "__main__":
     main()
-
