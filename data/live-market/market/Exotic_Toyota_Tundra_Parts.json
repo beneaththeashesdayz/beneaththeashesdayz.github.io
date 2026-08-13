@@ -1,0 +1,117 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Toyota Tundra Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "tundra_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tundra_cargo1_blue",
+        "tundra_cargo1_red",
+        "tundra_cargo1_white",
+        "tundra_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "tundra_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tundra_cargo2_blue",
+        "tundra_cargo2_red",
+        "tundra_cargo2_white",
+        "tundra_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "tundra_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tundra_codriver_blue",
+        "tundra_codriver_red",
+        "tundra_codriver_white",
+        "tundra_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "tundra_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tundra_driver_blue",
+        "tundra_driver_red",
+        "tundra_driver_white",
+        "tundra_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "tundra_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tundra_hood_blue",
+        "tundra_hood_red",
+        "tundra_hood_white",
+        "tundra_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "tundra_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tundra_trunk_blue",
+        "tundra_trunk_red",
+        "tundra_trunk_white",
+        "tundra_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "tundrawheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

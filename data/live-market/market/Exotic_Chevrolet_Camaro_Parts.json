@@ -1,0 +1,85 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Chevrolet Camaro Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "camaro_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "camaro_codriver_blue",
+        "camaro_codriver_red",
+        "camaro_codriver_white",
+        "camaro_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "camaro_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "camaro_driver_blue",
+        "camaro_driver_red",
+        "camaro_driver_white",
+        "camaro_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "camaro_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "camaro_hood_blue",
+        "camaro_hood_red",
+        "camaro_hood_white",
+        "camaro_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "camaro_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "camaro_trunk_blue",
+        "camaro_trunk_red",
+        "camaro_trunk_white",
+        "camaro_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "camarowheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

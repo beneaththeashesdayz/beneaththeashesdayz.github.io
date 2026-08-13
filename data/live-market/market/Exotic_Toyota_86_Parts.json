@@ -1,0 +1,89 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Toyota 86 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "toyota_86_codriver_door",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "toyota_86_codriver_door_black",
+        "toyota_86_codriver_door_lightblue",
+        "toyota_86_codriver_door_red",
+        "toyota_86_codriver_door_white",
+        "toyota_86_codriver_door_yellow"
+      ]
+    },
+    {
+      "ClassName": "toyota_86_driver_door",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "toyota_86_driver_door_black",
+        "toyota_86_driver_door_lightblue",
+        "toyota_86_driver_door_red",
+        "toyota_86_driver_door_white",
+        "toyota_86_driver_door_yellow"
+      ]
+    },
+    {
+      "ClassName": "toyota_86_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "toyota_86_hood_black",
+        "toyota_86_hood_lightblue",
+        "toyota_86_hood_red",
+        "toyota_86_hood_white",
+        "toyota_86_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "toyota_86_rb_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "toyota_86_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "toyota_86_trunk_black",
+        "toyota_86_trunk_lightblue",
+        "toyota_86_trunk_red",
+        "toyota_86_trunk_white",
+        "toyota_86_trunk_yellow"
+      ]
+    }
+  ]
+}

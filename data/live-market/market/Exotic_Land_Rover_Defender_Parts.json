@@ -1,0 +1,170 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Land Rover Defender Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "star_rover_defender_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_cargo1_blue",
+        "star_rover_defender_cargo1_braun",
+        "star_rover_defender_cargo1_green",
+        "star_rover_defender_cargo1_orange",
+        "star_rover_defender_cargo1_pink",
+        "star_rover_defender_cargo1_red",
+        "star_rover_defender_cargo1_white",
+        "star_rover_defender_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_cargo2_blue",
+        "star_rover_defender_cargo2_braun",
+        "star_rover_defender_cargo2_green",
+        "star_rover_defender_cargo2_orange",
+        "star_rover_defender_cargo2_pink",
+        "star_rover_defender_cargo2_red",
+        "star_rover_defender_cargo2_white",
+        "star_rover_defender_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_cargo3",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_cargo3_blue",
+        "star_rover_defender_cargo3_braun",
+        "star_rover_defender_cargo3_green",
+        "star_rover_defender_cargo3_orange",
+        "star_rover_defender_cargo3_pink",
+        "star_rover_defender_cargo3_red",
+        "star_rover_defender_cargo3_white",
+        "star_rover_defender_cargo3_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_codriver_blue",
+        "star_rover_defender_codriver_braun",
+        "star_rover_defender_codriver_green",
+        "star_rover_defender_codriver_orange",
+        "star_rover_defender_codriver_pink",
+        "star_rover_defender_codriver_red",
+        "star_rover_defender_codriver_white",
+        "star_rover_defender_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_driver_blue",
+        "star_rover_defender_driver_braun",
+        "star_rover_defender_driver_green",
+        "star_rover_defender_driver_orange",
+        "star_rover_defender_driver_pink",
+        "star_rover_defender_driver_red",
+        "star_rover_defender_driver_white",
+        "star_rover_defender_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_hood_blue",
+        "star_rover_defender_hood_braun",
+        "star_rover_defender_hood_green",
+        "star_rover_defender_hood_orange",
+        "star_rover_defender_hood_pink",
+        "star_rover_defender_hood_red",
+        "star_rover_defender_hood_white",
+        "star_rover_defender_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_trunk_blue",
+        "star_rover_defender_trunk_braun",
+        "star_rover_defender_trunk_green",
+        "star_rover_defender_trunk_orange",
+        "star_rover_defender_trunk_pink",
+        "star_rover_defender_trunk_red",
+        "star_rover_defender_trunk_white",
+        "star_rover_defender_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_rover_defender_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_rover_defender_wheel_blue",
+        "star_rover_defender_wheel_braun",
+        "star_rover_defender_wheel_green",
+        "star_rover_defender_wheel_orange",
+        "star_rover_defender_wheel_pink",
+        "star_rover_defender_wheel_red",
+        "star_rover_defender_wheel_white",
+        "star_rover_defender_wheel_yellow"
+      ]
+    }
+  ]
+}

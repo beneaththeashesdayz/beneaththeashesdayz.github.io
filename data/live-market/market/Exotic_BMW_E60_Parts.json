@@ -1,0 +1,117 @@
+{
+  "m_Version": 12,
+  "DisplayName": "BMW E60 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "e60_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "e60_cargo1_blue",
+        "e60_cargo1_red",
+        "e60_cargo1_white",
+        "e60_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "e60_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "e60_cargo2_blue",
+        "e60_cargo2_red",
+        "e60_cargo2_white",
+        "e60_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "e60_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "e60_codriver_blue",
+        "e60_codriver_red",
+        "e60_codriver_white",
+        "e60_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "e60_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "e60_driver_blue",
+        "e60_driver_red",
+        "e60_driver_white",
+        "e60_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "e60_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "e60_hood_blue",
+        "e60_hood_red",
+        "e60_hood_white",
+        "e60_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "e60_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "e60_trunk_blue",
+        "e60_trunk_red",
+        "e60_trunk_white",
+        "e60_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "e60wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

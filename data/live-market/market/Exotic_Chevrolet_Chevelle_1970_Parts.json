@@ -1,0 +1,85 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Chevrolet Chevelle 1970 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "chevelle1970_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevelle1970_codriver_blue",
+        "chevelle1970_codriver_red",
+        "chevelle1970_codriver_white",
+        "chevelle1970_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevelle1970_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevelle1970_driver_blue",
+        "chevelle1970_driver_red",
+        "chevelle1970_driver_white",
+        "chevelle1970_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevelle1970_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevelle1970_hood_blue",
+        "chevelle1970_hood_red",
+        "chevelle1970_hood_white",
+        "chevelle1970_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevelle1970_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "chevelle1970_trunk_blue",
+        "chevelle1970_trunk_red",
+        "chevelle1970_trunk_white",
+        "chevelle1970_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "chevelle1970wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "m_Version": 12,
+  "DisplayName": "MK5 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "mk5_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mk5_codriver_blue",
+        "mk5_codriver_red",
+        "mk5_codriver_white",
+        "mk5_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "mk5_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mk5_driver_blue",
+        "mk5_driver_red",
+        "mk5_driver_white",
+        "mk5_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "mk5_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mk5_hood_blue",
+        "mk5_hood_red",
+        "mk5_hood_white",
+        "mk5_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "mk5_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mk5_trunk_blue",
+        "mk5_trunk_red",
+        "mk5_trunk_white",
+        "mk5_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "mk5wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

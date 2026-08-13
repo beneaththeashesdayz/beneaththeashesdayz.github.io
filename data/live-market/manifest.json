@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-08-13T13:14:37.723040+00:00",
+  "syncedAt": "2026-08-13T13:54:55.662922+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 184,
+  "marketFileCount": 206,
   "traderFileCount": 33,
   "traderZoneFileCount": 18,
   "files": [
@@ -419,6 +419,160 @@
       "group": "market",
       "filename": "Exchange.json",
       "sha256": "28c15c08b846dffc160842a630d56ccfa9105f76b24fbe749fbe726c126dfa08",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Armada_Bearcat_Parts.json",
+      "sha256": "c4a6797d67e4188837d041c6c18288a77a1541f0141956a1dfd9bb9a6d9fa4c1",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Audi_RS5_Parts.json",
+      "sha256": "9cb22d644344d132d4b52570a122d329d3aea676edd41ffe3b8fac8da2ec9760",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_BMW_E60_Parts.json",
+      "sha256": "399db82b9ba4803270bd332b07be51a599b714cef0fb4b50f84cb703f6804796",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_BMW_G81_Parts.json",
+      "sha256": "dbc7fd9b57d87f6e246760bc69d24eae3439f7e35fde4d5bb4777c1dbd4312bb",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_BMW_M3_G80_Parts.json",
+      "sha256": "44556f10913922787a5ae45f201c46692cff5c08bc63920e3b9c4547d11536d8",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_BMW_M4W_Parts.json",
+      "sha256": "d70e5dabd3f370d0d70746bebe06e221683ba54de0338d40b3da1f2162e00d9a",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_BMW_M5_Parts.json",
+      "sha256": "e78af3386e0a58a9ddf443196b843d4db972a3b334c66983eed48fd3b338e2ff",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_BMW_X5M_Competition_Parts.json",
+      "sha256": "5d0d18eb52abf5391ecf1ed710e0da129fd265fc73113fc303e98c4a432707e5",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Cadillac_Escalade_Parts.json",
+      "sha256": "24611fedad51073e5e29544fa3ee3fc0884559e1037392086dccf54e86172736",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Chevrolet_Camaro_Parts.json",
+      "sha256": "6194de6f8412d5c372635f1d74d6657b8549f11ea703f75fbfa942db99e3b779",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Chevrolet_Chevelle_1970_Parts.json",
+      "sha256": "28d045b93fdb2d7a5ee12e9fd124c95b8e4d3d54cacb2bade62553da62a52b7a",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Chevrolet_Z71_Parts.json",
+      "sha256": "e251b4ab554f3a5e1df3ef7bf67ca7bf818d32255796ac4c1d15fa44ea539a77",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Dodge_Charger_Parts.json",
+      "sha256": "3a699e6e1343d43965329cfc9c3fe094973cc2b0bc9585e3a011bce74aef9adf",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Dodge_Widebody_Hellcat_Parts.json",
+      "sha256": "128707aa7fc56d394ffd5770159c60a7bf735f04fce7058de220c7cf8fd3ec96",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Hennessey_F150D_Parts.json",
+      "sha256": "87cd32a581b22686c9b42915ec17db3546875af97fef281697542fd44ea462fe",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Hummer_H1_Parts.json",
+      "sha256": "aa7a4be2695d70ba0324a225bbede694e8f453b3852850caa6b63ad24b8b649d",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Jeep_Rubicon_Parts.json",
+      "sha256": "b18bdcf8ecebf7ba7c31f4c6687b27308d78a92a885c899ece400069bac4dd43",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Land_Rover_Defender_Parts.json",
+      "sha256": "5c5324445b9e23eec24b035e9fcead6f0bbfff9868453e7dffa8deaf823f81b9",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Mercedes_GT63_Parts.json",
+      "sha256": "5e88ea90059dac3d268d4e8758918d7a1ed8ee4cdd3426c69ceeb1e24b192cee",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_MK5_Parts.json",
+      "sha256": "3ddf7d8d765d7b84877b701cffde7d2da1496c25bbcebaeaa9f1310d2b234410",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Toyota_86_Parts.json",
+      "sha256": "88ed3a3f0fd8d9e8fb7b2bdfce80b7fa4e50ae4671b7687131f47b164b8adeb4",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Toyota_Tundra_Parts.json",
+      "sha256": "a4a14daeac29d63af348a08d971fd8e98b4fbbca3b787ccc05c0990104f41f14",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1405,7 +1559,7 @@
     {
       "group": "traders",
       "filename": "Exotric_Vehicle_Parts.json",
-      "sha256": "b46fde53f779c9a365f5f548dc08bc9e044eefd84e305f41415f15d4951c3ba3",
+      "sha256": "7d035b6cca406b5a1d579418ebec8f21e5167dc416062f94c8f0e2ee5e0a80ca",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1587,14 +1741,14 @@
     {
       "group": "traderzones",
       "filename": "Main_BuildingSupplies_Trader.json",
-      "sha256": "7f81d22221e1dc182b1fdb57137676ebed3470732cff6b9c256fae5492b41732",
+      "sha256": "b64b8ea7f5ac49bfffdd1768942fb6f894765acbc225ccd8e02d16645bc02bfe",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Clothing_Trader.json",
-      "sha256": "43a87002eb07d27640ef35ee4abda3ea161a923e8f7c6cf7ecf6d3848e1a88c8",
+      "sha256": "1774323827d0dd9c848c2c4ecc4100ea2ac71985ce264eb30dfe5e1cc36bb4a3",
       "topLevelType": "object",
       "entryCount": 7
     },

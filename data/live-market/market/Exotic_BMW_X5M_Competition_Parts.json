@@ -1,0 +1,135 @@
+{
+  "m_Version": 12,
+  "DisplayName": "BMW X5 M Competition Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "x5mcompetition_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "x5mcompetition_cargo1_blue",
+        "x5mcompetition_cargo1_carbon",
+        "x5mcompetition_cargo1_orange",
+        "x5mcompetition_cargo1_pink",
+        "x5mcompetition_cargo1_red",
+        "x5mcompetition_cargo1_white",
+        "x5mcompetition_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "x5mcompetition_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "x5mcompetition_cargo2_blue",
+        "x5mcompetition_cargo2_carbon",
+        "x5mcompetition_cargo2_orange",
+        "x5mcompetition_cargo2_pink",
+        "x5mcompetition_cargo2_red",
+        "x5mcompetition_cargo2_white",
+        "x5mcompetition_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "x5mcompetition_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "x5mcompetition_codriver_blue",
+        "x5mcompetition_codriver_carbon",
+        "x5mcompetition_codriver_orange",
+        "x5mcompetition_codriver_pink",
+        "x5mcompetition_codriver_red",
+        "x5mcompetition_codriver_white",
+        "x5mcompetition_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "x5mcompetition_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "x5mcompetition_driver_blue",
+        "x5mcompetition_driver_carbon",
+        "x5mcompetition_driver_orange",
+        "x5mcompetition_driver_pink",
+        "x5mcompetition_driver_red",
+        "x5mcompetition_driver_white",
+        "x5mcompetition_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "x5mcompetition_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "x5mcompetition_hood_blue",
+        "x5mcompetition_hood_carbon",
+        "x5mcompetition_hood_orange",
+        "x5mcompetition_hood_pink",
+        "x5mcompetition_hood_red",
+        "x5mcompetition_hood_white",
+        "x5mcompetition_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "x5mcompetition_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "x5mcompetition_trunk_blue",
+        "x5mcompetition_trunk_carbon",
+        "x5mcompetition_trunk_orange",
+        "x5mcompetition_trunk_pink",
+        "x5mcompetition_trunk_red",
+        "x5mcompetition_trunk_white",
+        "x5mcompetition_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "x5mcompetition_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}
