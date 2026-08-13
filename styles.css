@@ -92,3 +92,5 @@ input{flex:1;min-width:220px}
 footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-size:.85rem}
 .empty{display:none;padding:30px;border:1px solid var(--line);color:var(--muted)}
 @media(max-width:760px){.profile-top,.profile-top-gabi{grid-template-columns:1fr}.info-grid{grid-template-columns:1fr}.hero{padding-top:48px}.portrait-frame-gabi{max-height:none;aspect-ratio:4/4.35}.lore{padding:24px 22px 24px 26px}.lore:after{font-size:2.5rem}.project-grid{grid-template-columns:1fr}.project-hero{padding-top:58px}body:after{top:12px;right:12px;padding:10px 12px 10px 38px;font-size:.66rem}body:before{top:20px;right:99px;width:18px;height:14px}}
+
+.trader-placeholder{width:100%;height:280px;display:grid;place-items:center;background:radial-gradient(circle at 50% 35%,rgba(201,103,45,.18),transparent 14rem),linear-gradient(145deg,#24201c,#111416 68%);color:#c9672d;font-size:5.5rem;border-bottom:1px solid var(--line)}
