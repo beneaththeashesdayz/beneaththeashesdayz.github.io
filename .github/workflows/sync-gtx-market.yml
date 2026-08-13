@@ -113,7 +113,13 @@ jobs:
             chernarus/traders/hassan/catalogue-data.js \
             chernarus/traders/attachment-trader/catalogue-data.js \
             chernarus/traders/emberline-motors/catalogue-data.js \
-            chernarus/traders/emberline-parts/catalogue-data.js
+            chernarus/traders/emberline-parts/catalogue-data.js \
+            chernarus/traders/kaito/catalogue-data.js \
+            chernarus/traders/peter/catalogue-data.js \
+            chernarus/traders/keiko/catalogue-data.js \
+            chernarus/traders/manua/catalogue-data.js \
+            chernarus/traders/niki/catalogue-data.js \
+            chernarus/traders/mining-trader/catalogue-data.js
 
           if git diff --cached --quiet; then
             echo "No market or catalogue changes detected."
