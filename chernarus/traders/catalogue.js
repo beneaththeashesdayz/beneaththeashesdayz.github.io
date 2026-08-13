@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', function () {
       .replace(/\b\w/g, function (letter) { return letter.toUpperCase(); });
   }
 
-  function groupDrippyItems(items) {
-    if (!cfg.groupDrippyVariants) return items;
+  function collectableFamily(item) {
+    var className = String(item.className || '').toLowerCase();
     var styles = [
       ['drip_adidascasual_', 'Adidas Casual'],
       ['drip_adidasyeezy350_', 'Adidas Yeezy 350'],
@@ -118,23 +118,127 @@ document.addEventListener('DOMContentLoaded', function () {
       ['drip_timberlandboots_', 'Timberland Boots'],
       ['drip_vansslipon_', 'Vans Slip-On']
     ];
+    var style = styles.find(function (entry) { return className.indexOf(entry[0]) === 0; });
+    if (style) {
+      return {key:style[0], name:style[1], variantName:titleWords(className.slice(style[0].length)), variantLabel:'styles'};
+    }
+
+    var match;
+    var paragonNames = {
+      axe:'Axes', canister:'Canisters', crystal:'Crystals', cube:'Cubes',
+      diamond:'Diamonds', gameboy:'Game Boys', glowrock:'Glow Rocks',
+      kaws:'KAWS Figures', skull:'Skulls', sword:'Swords',
+      triangle:'Triangles', trophy:'Trophies'
+    };
+    match = className.match(/^paragon_(axe|canister|crystal|cube|diamond|gameboy|glowrock|kaws|skull|sword|triangle|trophy)_(.+)$/);
+    if (match) {
+      return {key:'paragon_' + match[1], name:paragonNames[match[1]], variantName:titleWords(match[2]), variantLabel:'variants'};
+    }
+    if (className === 'paragon_goldbar' || className === 'paragon_goldbar_stack') {
+      return {key:'paragon_gold_bars', name:'Gold Bars', variantName:className.endsWith('_stack') ? 'Stack' : 'Single Bar', variantLabel:'sizes'};
+    }
+    if (className === 'paragon_silverbar' || className === 'paragon_silver_stack') {
+      return {key:'paragon_silver_bars', name:'Silver Bars', variantName:className.endsWith('_stack') ? 'Stack' : 'Single Bar', variantLabel:'sizes'};
+    }
+
+    match = className.match(/^pokemoncard_sealedbox(\d+)$/);
+    if (match) return {key:'pokemon_sealed_boxes', name:'Sealed Pokémon Collection Boxes', variantName:'Box ' + Number(match[1]), variantLabel:'boxes'};
+
+    match = className.match(/^vyse_labubu_(.+)$/);
+    if (match) return {key:'vyse_labubu', name:'Labubu Figures', variantName:titleWords(match[1]), variantLabel:'figures'};
+    if (className === 'vyse_monster_labubu') return {key:'vyse_labubu', name:'Labubu Figures', variantName:'Monster', variantLabel:'figures'};
+    match = className.match(/^vyse_lego_(.+)$/);
+    if (match) return {key:'vyse_lego', name:'LEGO Figures', variantName:titleWords(match[1]), variantLabel:'figures'};
+    match = className.match(/^vyse_pokemon_(.+)$/);
+    if (match) return {key:'vyse_pokemon_balls', name:'Pokémon Balls', variantName:titleWords(match[1]), variantLabel:'designs'};
+    match = className.match(/^vyse_ps4_(.+)$/);
+    if (match) {
+      var ps4Names = {
+        godofwar:'God of War', grandtheftautov:'Grand Theft Auto V',
+        horizonzerodawn:'Horizon Zero Dawn', madmax:'Mad Max', rdr2:'Red Dead Redemption 2',
+        shadowofthecolossus:'Shadow of the Colossus', spiderman:'Spider-Man',
+        thelastofus:'The Last of Us', uncharted4:'Uncharted 4', untildawn:'Until Dawn'
+      };
+      return {key:'vyse_ps4_games', name:'PlayStation 4 Games', variantName:ps4Names[match[1]] || titleWords(match[1]), variantLabel:'games'};
+    }
+    match = className.match(/^vyse_yugioh_card_(\d+)$/);
+    if (match) return {key:'vyse_yugioh_cards', name:'Yu-Gi-Oh! Cards', variantName:'Card ' + Number(match[1]), variantLabel:'cards'};
+
+    if (item.category === 'Fallout Bobbleheads' && className !== 'dlt_falloutz_bobbleheadstandkit') {
+      return {
+        key:'fallout_bobbleheads',
+        name:'Fallout Bobbleheads',
+        variantName:String(item.name).replace(/^Fallout /, '').replace(/ Bobblehead$/, ''),
+        variantLabel:'bobbleheads'
+      };
+    }
+    if (item.category === 'Fallout Nuka-Cola' && className !== 'dlt_falloutz_nukacolarackkit') {
+      return {
+        key:'fallout_nuka_cola',
+        name:'Fallout Nuka-Cola',
+        variantName:String(item.name).replace(/^Fallout Nuka-Cola /, ''),
+        variantLabel:'flavors'
+      };
+    }
+
+    match = className.match(/^arrakis_condom_(.+)$/);
+    if (match) {
+      var condomNames = {donkeydick:'Donkey', extralarge:'Extra Large', extrasmall:'Extra Small', large:'Large', medium:'Medium', micro:'Micro', small:'Small'};
+      return {key:'adult_condoms', name:'Condoms', variantName:condomNames[match[1]] || titleWords(match[1]), variantLabel:'sizes'};
+    }
+    match = className.match(/^arrakisbuttplug(.+)$/);
+    if (match) return {key:'adult_butt_plugs', name:'Butt Plugs', variantName:titleWords(match[1]), variantLabel:'colors'};
+    match = className.match(/^arrakis(.+)fleshlight$/);
+    if (match) {
+      var fleshlightNames = {black:'Black', brown:'Brown', pink:'Pink', bluewaffle:'Blue Waffle', cold:'Cold'};
+      return {key:'adult_fleshlights', name:'Fleshlights', variantName:fleshlightNames[match[1]] || titleWords(match[1]), variantLabel:'styles'};
+    }
+    match = className.match(/^arrakisxmasdildo([12])half$/);
+    if (match) return {key:'adult_dildos_half', name:'Half-Size Dildos', variantName:'Christmas ' + match[1], variantLabel:'styles'};
+    match = className.match(/^arrakisxmasdildo([12])mega$/);
+    if (match) return {key:'adult_dildos_mega', name:'Mega Dildos', variantName:'Christmas ' + match[1], variantLabel:'styles'};
+    match = className.match(/^arrakisxmasdildo([12])$/);
+    if (match) return {key:'adult_dildos', name:'Dildos', variantName:'Christmas ' + match[1], variantLabel:'styles'};
+    match = className.match(/^arrakis(.+)dildohalf$/);
+    if (match) return {key:'adult_dildos_half', name:'Half-Size Dildos', variantName:titleWords(match[1]), variantLabel:'styles'};
+    match = className.match(/^arrakis(.+)dildomega$/);
+    if (match) return {key:'adult_dildos_mega', name:'Mega Dildos', variantName:titleWords(match[1]), variantLabel:'styles'};
+    match = className.match(/^arrakisdildopresent(.+)$/);
+    if (match) return {key:'adult_dildo_presents', name:'Gift-Wrapped Dildos', variantName:titleWords(match[1]), variantLabel:'styles'};
+    match = className.match(/^arrakis(.+)dildo$/);
+    if (match) return {key:'adult_dildos', name:'Dildos', variantName:titleWords(match[1]), variantLabel:'styles'};
+    match = className.match(/^arrakisprisonwallet(.+)$/);
+    if (match) {
+      var walletSizes = {dd:'Double D', el:'Extra Large', l:'Large', m:'Medium', mp:'Medium Plus', s:'Small', xs:'Extra Small'};
+      return {key:'adult_prison_wallets', name:'Prison Wallets', variantName:walletSizes[match[1]] || match[1].toUpperCase(), variantLabel:'sizes'};
+    }
+    if (className === 'arrakissoap' || className === 'arrakissoappresent') {
+      return {key:'adult_soap', name:'Soap', variantName:className.endsWith('present') ? 'Gift-Wrapped' : 'Standard', variantLabel:'versions'};
+    }
+
+    match = className.match(/^pokemoncard_box(\d+)$/);
+    if (match) return {key:'storage_pokemon_boxes', name:'Pokémon Card Storage Boxes', variantName:'Box ' + Number(match[1]), variantLabel:'boxes'};
+    match = className.match(/^fallout_lunchbox_(.+)$/);
+    if (match) return {key:'storage_fallout_lunchboxes', name:'Fallout Lunchboxes', variantName:titleWords(match[1]), variantLabel:'designs'};
+
+    return null;
+  }
+
+  function groupCollectableItems(items) {
+    if (!cfg.groupCollectableVariants && !cfg.groupDrippyVariants) return items;
     var grouped = {};
     var standalone = [];
     items.forEach(function (item) {
-      if (item.category !== 'Drippy Sneakers') {
+      var family = collectableFamily(item);
+      if (!family) {
         standalone.push(item);
         return;
       }
-      var className = String(item.className || '').toLowerCase();
-      var style = styles.find(function (entry) { return className.indexOf(entry[0]) === 0; });
-      if (!style) {
-        standalone.push(item);
-        return;
-      }
-      if (!grouped[style[0]]) grouped[style[0]] = {name:style[1], variants:[]};
+      var key = item.category + '|' + family.key;
+      if (!grouped[key]) grouped[key] = {name:family.name, variantLabel:family.variantLabel, variants:[]};
       var variant = Object.assign({}, item);
-      variant.variantName = titleWords(className.slice(style[0].length));
-      grouped[style[0]].variants.push(variant);
+      variant.variantName = family.variantName;
+      grouped[key].variants.push(variant);
     });
     Object.keys(grouped).forEach(function (key) {
       var group = grouped[key];
@@ -146,10 +250,11 @@ document.addEventListener('DOMContentLoaded', function () {
       var first = group.variants[0];
       standalone.push({
         name: group.name,
-        className: group.variants.length + ' listed styles',
+        className: group.variants.length + ' listed ' + group.variantLabel,
         category: first.category,
         traderSells: first.traderSells,
         traderBuys: first.traderBuys,
+        variantLabel: group.variantLabel,
         variants: group.variants
       });
     });
@@ -167,7 +272,7 @@ document.addEventListener('DOMContentLoaded', function () {
         escapeHtml(prices.join(' • ')) + '</strong></div>';
     }).join('');
     return '<details class="catalogue-variants"><summary>View ' + item.variants.length +
-      ' styles and exact prices</summary><div class="catalogue-variant-list">' + rows + '</div></details>';
+      ' ' + escapeHtml(item.variantLabel || 'variants') + ' and exact prices</summary><div class="catalogue-variant-list">' + rows + '</div></details>';
   }
 
   function itemMarkup(item) {
@@ -199,7 +304,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function render() {
     var query = search ? search.value.trim().toLowerCase() : '';
-    var allRows = groupDrippyItems(cfg.items);
+    var allRows = groupCollectableItems(cfg.items);
     var rows = allRows.filter(function (item) {
       var variantText = (item.variants || []).map(function (variant) {
         return [variant.name, variant.className, variant.variantName].join(' ');
@@ -209,9 +314,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     if (count) {
-      var noun = cfg.groupDrippyVariants ? 'product' : 'item';
+      var groupedCatalogue = cfg.groupCollectableVariants || cfg.groupDrippyVariants;
+      var noun = groupedCatalogue ? 'product' : 'item';
       count.textContent = rows.length + ' ' + noun + (rows.length === 1 ? '' : 's');
-      if (cfg.groupDrippyVariants && !query) count.textContent += ' • ' + cfg.items.length + ' live item variants';
+      if (groupedCatalogue && !query) count.textContent += ' • ' + cfg.items.length + ' live item variants';
     }
     empty.style.display = rows.length ? 'none' : 'block';
 

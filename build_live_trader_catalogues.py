@@ -37,7 +37,7 @@ TRADER_CONFIG_CATALOGUES = {
         "zone": "Collectables.json",
         "currency": "USD",
         "currency_label": None,
-        "group_drippy_variants": True,
+        "group_collectable_variants": True,
     },
     "attachment-trader": {
         "name": "Attachment Trader",
@@ -282,8 +282,8 @@ def format_js_catalogue(slug: str, cfg: dict, rows: list[dict]) -> None:
     header = f"window.traderCatalogue={{traderName:'{js_escape(cfg['name'])}',currency:'{js_escape(cfg['currency'])}'"
     if cfg.get("currency_label"):
         header += f",currencyLabel:'{js_escape(cfg['currency_label'])}'"
-    if cfg.get("group_drippy_variants"):
-        header += ",groupDrippyVariants:true"
+    if cfg.get("group_collectable_variants"):
+        header += ",groupCollectableVariants:true"
     header += ",items:[\n"
 
     lines = []

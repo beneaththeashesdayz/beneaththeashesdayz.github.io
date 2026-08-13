@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Gabi',currency:'USD',groupDrippyVariants:true,items:[
+window.traderCatalogue={traderName:'Gabi',currency:'USD',groupCollectableVariants:true,items:[
 {name:'Arrakis Black Dildo',className:'ArrakisBlackDildo',category:'Adult Toys',sellPrice:1250,traderSells:false,traderBuys:true},
 {name:'Arrakis Black Dildo Half',className:'ArrakisBlackDildoHalf',category:'Adult Toys',sellPrice:900,traderSells:false,traderBuys:true},
 {name:'Arrakis Black Dildo Mega',className:'ArrakisBlackDildoMega',category:'Adult Toys',sellPrice:2000,traderSells:false,traderBuys:true},
@@ -645,3 +645,4 @@ window.traderCatalogue={traderName:'Gabi',currency:'USD',groupDrippyVariants:tru
 {name:'Yu-Gi-Oh! Card 8',className:'vyse_yugioh_card_08',category:'Vyse Collectables',sellPrice:1587,traderSells:false,traderBuys:true},
 {name:'Yu-Gi-Oh! Card 9',className:'vyse_yugioh_card_09',category:'Vyse Collectables',sellPrice:1503,traderSells:false,traderBuys:true}
 ]};
+
