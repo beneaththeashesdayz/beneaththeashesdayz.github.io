@@ -3,13 +3,21 @@ document.addEventListener('DOMContentLoaded',()=>{
   const style=document.createElement('style');
   style.textContent=`
     body.discord-ready::before,body.discord-ready::after,body.discord-ready>header::after{display:none!important}
-    .site-store-link{position:fixed;z-index:10000;top:18px;right:190px;display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:154px;min-height:44px;padding:0 16px;border:1px solid #e17a3a;border-radius:8px;background:#c9672d;color:#fff!important;font-size:.76rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 8px 28px rgba(0,0,0,.38);transition:transform .15s ease,background .15s ease}.site-store-link:hover{transform:translateY(-2px);background:#db7334}.site-store-link .store-flame{width:20px;height:22px;display:inline-flex;align-items:center}.site-store-link .store-flame svg{width:20px;height:22px;fill:currentColor}.site-discord-link{position:fixed;z-index:10000;top:18px;right:20px;display:inline-flex;align-items:center;gap:9px;min-height:44px;padding:0 16px;border:1px solid #7b83ff;border-radius:8px;background:#5865F2;color:#fff!important;font-size:.76rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 8px 28px rgba(0,0,0,.38);transition:transform .15s ease,background .15s ease}
+    .site-server-link{position:fixed;z-index:10000;top:18px;right:360px;display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:154px;min-height:44px;padding:0 16px;border:1px solid #8f6c3c;border-radius:8px;background:#6f542d;color:#fff!important;font-size:.76rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 8px 28px rgba(0,0,0,.38);transition:transform .15s ease,background .15s ease}.site-server-link:hover{transform:translateY(-2px);background:#816238}.site-store-link{position:fixed;z-index:10000;top:18px;right:190px;display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:154px;min-height:44px;padding:0 16px;border:1px solid #e17a3a;border-radius:8px;background:#c9672d;color:#fff!important;font-size:.76rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 8px 28px rgba(0,0,0,.38);transition:transform .15s ease,background .15s ease}.site-store-link:hover{transform:translateY(-2px);background:#db7334}.site-store-link .store-flame{width:20px;height:22px;display:inline-flex;align-items:center}.site-store-link .store-flame svg{width:20px;height:22px;fill:currentColor}.site-discord-link{position:fixed;z-index:10000;top:18px;right:20px;display:inline-flex;align-items:center;gap:9px;min-height:44px;padding:0 16px;border:1px solid #7b83ff;border-radius:8px;background:#5865F2;color:#fff!important;font-size:.76rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 8px 28px rgba(0,0,0,.38);transition:transform .15s ease,background .15s ease}
     .site-discord-link:hover{transform:translateY(-2px);background:#6571f5}
     .site-discord-link svg{width:22px;height:22px;fill:currentColor;flex:none}
     .trader-group .card[href="./linda/"] img,.search-grid .card[href="./linda/"] img{object-position:65% center!important}
-    @media(max-width:760px){.site-store-link{top:12px;right:137px;min-width:0;min-height:40px;padding:0 12px;font-size:.65rem}.site-discord-link{top:12px;right:12px;min-height:40px;padding:0 12px;font-size:.65rem}.site-discord-link svg{width:19px;height:19px}}
+    @media(max-width:760px){.site-server-link{top:12px;right:262px;min-width:0;min-height:40px;padding:0 10px;font-size:.58rem}.site-store-link{top:12px;right:137px;min-width:0;min-height:40px;padding:0 12px;font-size:.65rem}.site-discord-link{top:12px;right:12px;min-height:40px;padding:0 12px;font-size:.65rem}.site-discord-link svg{width:19px;height:19px}}
   `;
   document.head.appendChild(style);
+  if(!document.querySelector('.site-server-link')){
+    const a=document.createElement('a');
+    a.className='site-server-link';
+    a.href='steam://connect/69.10.59.28:2302';
+    a.setAttribute('aria-label','Join the Beneath the Ashes DayZ server');
+    a.textContent='Join Server';
+    document.body.appendChild(a);
+  }
   if(!document.querySelector('.site-store-link')){
     const a=document.createElement('a');
     a.className='site-store-link';
