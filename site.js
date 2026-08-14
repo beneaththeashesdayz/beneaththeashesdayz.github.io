@@ -13,8 +13,11 @@ document.addEventListener('DOMContentLoaded',()=>{
   if(!document.querySelector('.site-server-link')){
     const a=document.createElement('a');
     a.className='site-server-link';
-    a.href='steam://connect/69.10.59.28:2302';
-    a.setAttribute('aria-label','Join the Beneath the Ashes DayZ server');
+    const isNamalsk=window.location.pathname.toLowerCase().includes('/namalsk/');
+    const endpoint=isNamalsk?'205.209.105.251:2680':'69.10.59.28:2302';
+    const world=isNamalsk?'Namalsk':'Chernarus';
+    a.href='steam://connect/'+endpoint;
+    a.setAttribute('aria-label','Join the Beneath the Ashes '+world+' DayZ server');
     a.textContent='Join Server';
     document.body.appendChild(a);
   }
