@@ -19,7 +19,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     a.className='site-server-link '+(isNamalsk?'namalsk':'chernarus');
     a.style.setProperty('background-color',isNamalsk?'#a9cad8':'#deb899','important');
     a.style.setProperty('color',isNamalsk?'#131a1d':'#1c1714','important');
-    a.href='steam://run/221100//+connect%20'+endpoint;
+    const [serverIp,serverPort]=endpoint.split(':');
+    a.href='steam://run/221100//-connect='+serverIp+'%20-port='+serverPort;
     a.setAttribute('aria-label','Join the Beneath the Ashes '+world+' DayZ server');
     a.innerHTML='<span>Play '+world+'</span>';
     document.body.appendChild(a);
