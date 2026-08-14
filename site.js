@@ -10,21 +10,6 @@ document.addEventListener('DOMContentLoaded',()=>{
     @media(max-width:760px){.site-server-link{top:12px;right:284px;width:120px;min-height:40px;padding:0 8px;font-size:.58rem;white-space:nowrap}.site-store-link{top:12px;right:148px;width:120px;min-height:40px;padding:0 8px;font-size:.55rem;white-space:nowrap}.site-discord-link{top:12px;right:12px;width:120px;min-height:40px;padding:0 8px;font-size:.55rem;white-space:nowrap}.site-discord-link svg{width:19px;height:19px}}
   `;
   document.head.appendChild(style);
-  const onWorldPage=/\/(chernarus|namalsk)(\/|$)/i.test(window.location.pathname);
-  if(onWorldPage&&!document.querySelector('.site-server-link')){
-    const a=document.createElement('a');
-    const isNamalsk=window.location.pathname.toLowerCase().includes('/namalsk/');
-    const endpoint=isNamalsk?'205.209.105.251:2680':'69.10.59.28:2302';
-    const world=isNamalsk?'Namalsk':'Chernarus';
-    a.className='site-server-link '+(isNamalsk?'namalsk':'chernarus');
-    a.style.setProperty('background-color',isNamalsk?'#a9cad8':'#deb899','important');
-    a.style.setProperty('color',isNamalsk?'#131a1d':'#1c1714','important');
-    const [serverIp,serverPort]=endpoint.split(':');
-    a.href='steam://rungameid/221100//-nolauncher%20+connect%20'+serverIp+':'+serverPort;
-    a.setAttribute('aria-label','Join the Beneath the Ashes '+world+' DayZ server');
-    a.innerHTML='<span>Play '+world+'</span>';
-    document.body.appendChild(a);
-  }
   if(!document.querySelector('.site-store-link')){
     const a=document.createElement('a');
     a.className='site-store-link';
