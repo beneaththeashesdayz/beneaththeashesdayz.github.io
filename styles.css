@@ -67,7 +67,7 @@ input{flex:1;min-width:220px}
 .lore p:last-child{margin-bottom:0}
 .lore strong{color:#f1e7dc}
 .lore-closing{padding-top:4px;color:#d9c8b8!important}
-.back{display:inline-block;margin-bottom:24px;color:#d9b18f;font-weight:800}
+.back{display:inline-block;margin:0 16px 24px 0;color:#d9b18f;font-weight:800;vertical-align:middle}
 .project-hero{padding:82px 0 42px}
 .project-hero h1{font-size:clamp(3rem,9vw,7rem);line-height:.82;margin:14px 0 24px;text-transform:uppercase;letter-spacing:-.055em}
 .project-hero p{max-width:760px;color:var(--muted);font-size:1.05rem;line-height:1.7}
