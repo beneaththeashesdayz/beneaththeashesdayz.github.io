@@ -2,10 +2,10 @@
   "source": "Beneath the Ashes Chernarus live P2P market",
   "status": "ok",
   "note": null,
-  "syncedAt": "2026-08-14T19:35:44.128653+00:00",
+  "syncedAt": "2026-08-14T21:12:29.999736+00:00",
   "maxListingTimeSeconds": 604800,
   "listingFeePercent": 10,
-  "listingCount": 13,
+  "listingCount": 16,
   "listings": [
     {
       "key": "e6e74790b8a4a6c9",
@@ -20,22 +20,6 @@
       "healthLevel": 0,
       "quantity": 0.0,
       "quantityType": 0,
-      "includedItemCount": 0,
-      "includedItems": []
-    },
-    {
-      "key": "1a08dd37878882f9",
-      "traderId": 1,
-      "name": "Plate Carrier Vest Desert",
-      "className": "PlateCarrierVest_Desert",
-      "skinName": null,
-      "seller": "Gemineye",
-      "price": 1,
-      "listedAt": "2026-08-09T21:59:21+00:00",
-      "expiresAt": "2026-08-16T21:59:21+00:00",
-      "healthLevel": 0,
-      "quantity": 0.800000011920929,
-      "quantityType": 64,
       "includedItemCount": 0,
       "includedItems": []
     },
@@ -231,6 +215,77 @@
           "className": "HA_Suppressor_Pistol_covered_Tan",
           "name": "HA Suppressor Pistol Covered Tan",
           "quantity": 0.0,
+          "attached": true
+        }
+      ]
+    },
+    {
+      "key": "7b900c4426ec01a9",
+      "traderId": 1,
+      "name": "I M7s Ziplock",
+      "className": "iM7s_Ziplock",
+      "skinName": null,
+      "seller": "Mahatma Bambi",
+      "price": 12000,
+      "listedAt": "2026-08-14T20:40:18+00:00",
+      "expiresAt": "2026-08-21T20:40:18+00:00",
+      "healthLevel": 0,
+      "quantity": 24.0,
+      "quantityType": 1,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "3f80fe0382bf4e22",
+      "traderId": 1,
+      "name": "Fallout Card Pack Western",
+      "className": "Fallout_CardPack_Western",
+      "skinName": null,
+      "seller": "Mahatma Bambi",
+      "price": 2500,
+      "listedAt": "2026-08-14T20:40:34+00:00",
+      "expiresAt": "2026-08-21T20:40:34+00:00",
+      "healthLevel": 0,
+      "quantity": 0.0,
+      "quantityType": 0,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "238a29134e0483e6",
+      "traderId": 1,
+      "name": "Fallout Card Pack Western",
+      "className": "Fallout_CardPack_Western",
+      "skinName": null,
+      "seller": "Mahatma Bambi",
+      "price": 2500,
+      "listedAt": "2026-08-14T20:40:50+00:00",
+      "expiresAt": "2026-08-21T20:40:50+00:00",
+      "healthLevel": 0,
+      "quantity": 0.0,
+      "quantityType": 0,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "6e9d94dfba1f08a5",
+      "traderId": 1,
+      "name": "HA Optics AK Acog Low",
+      "className": "HA_Optics_AK_AcogLow",
+      "skinName": null,
+      "seller": "Mahatma Bambi",
+      "price": 1000,
+      "listedAt": "2026-08-14T20:41:13+00:00",
+      "expiresAt": "2026-08-21T20:41:13+00:00",
+      "healthLevel": 0,
+      "quantity": 0.0,
+      "quantityType": 0,
+      "includedItemCount": 1,
+      "includedItems": [
+        {
+          "className": "Battery9V",
+          "name": "Battery9V",
+          "quantity": 100.0,
           "attached": true
         }
       ]
