@@ -126,3 +126,4 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 .project-card{cursor:default}.project-card:hover{transform:none;border-color:var(--line);box-shadow:none}.project-card .button{position:relative;z-index:2}
 .card:hover{transform:none;border-color:var(--line);box-shadow:none}
 .project-card:hover{transform:none!important;border-color:var(--line)!important;box-shadow:none!important}.project-card:not(.frozen):hover{border-color:var(--line)!important;box-shadow:none!important}.card:hover{transform:none!important;border-color:var(--line)!important;box-shadow:none!important}
+.trader-groups .card:hover,.search-grid .card:hover{transform:translateY(-3px)!important;border-color:#c9672d!important;box-shadow:0 4px 18px rgba(201,103,45,.22)!important}
