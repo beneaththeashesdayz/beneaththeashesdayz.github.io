@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   const style=document.createElement('style');
   style.textContent=`
     body.discord-ready::before,body.discord-ready::after,body.discord-ready>header::after{display:none!important}
-    .site-store-link{position:fixed;z-index:10000;top:18px;right:190px;display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:154px;min-height:44px;padding:0 16px;border:1px solid #e17a3a;border-radius:8px;background:#c9672d;color:#fff!important;font-size:.76rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 8px 28px rgba(0,0,0,.38);transition:transform .15s ease,background .15s ease}.site-store-link:hover{transform:translateY(-2px);background:#db7334}.site-store-link .store-flame{font-size:1.1rem;line-height:1}.site-discord-link{position:fixed;z-index:10000;top:18px;right:20px;display:inline-flex;align-items:center;gap:9px;min-height:44px;padding:0 16px;border:1px solid #7b83ff;border-radius:8px;background:#5865F2;color:#fff!important;font-size:.76rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 8px 28px rgba(0,0,0,.38);transition:transform .15s ease,background .15s ease}
+    .site-store-link{position:fixed;z-index:10000;top:18px;right:190px;display:inline-flex;align-items:center;justify-content:center;gap:9px;min-width:154px;min-height:44px;padding:0 16px;border:1px solid #e17a3a;border-radius:8px;background:#c9672d;color:#fff!important;font-size:.76rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 8px 28px rgba(0,0,0,.38);transition:transform .15s ease,background .15s ease}.site-store-link:hover{transform:translateY(-2px);background:#db7334}.site-store-link .store-flame{width:20px;height:22px;display:inline-flex;align-items:center}.site-store-link .store-flame svg{width:20px;height:22px;fill:currentColor}.site-discord-link{position:fixed;z-index:10000;top:18px;right:20px;display:inline-flex;align-items:center;gap:9px;min-height:44px;padding:0 16px;border:1px solid #7b83ff;border-radius:8px;background:#5865F2;color:#fff!important;font-size:.76rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 8px 28px rgba(0,0,0,.38);transition:transform .15s ease,background .15s ease}
     .site-discord-link:hover{transform:translateY(-2px);background:#6571f5}
     .site-discord-link svg{width:22px;height:22px;fill:currentColor;flex:none}
     .trader-group .card[href="./linda/"] img,.search-grid .card[href="./linda/"] img{object-position:65% center!important}
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     a.target='_blank';
     a.rel='noopener noreferrer';
     a.setAttribute('aria-label','Open the Beneath the Ashes store');
-    a.innerHTML='<span class="store-flame" aria-hidden="true">🔥</span><span>Store</span>';
+    a.innerHTML='<span class="store-flame" aria-hidden="true"><svg viewBox="0 0 24 28"><path d="M13.7 0c.3 5.4-2.8 7.2-4.7 10.1-1.2 1.8-1.4 3.5-.5 5.1-2.1-1.1-3.1-3.1-2.8-5.8C2.1 12.7 0 16.7 0 20.3 0 24.6 5.4 28 12 28s12-3.4 12-7.7c0-5.1-3.4-9.2-6.2-12.2-.2 2.5-1.1 4.5-2.8 5.9.4-4.8-.1-8.9-3.3-14ZM12 25.5c-2.8 0-5-1.5-5-3.5 0-1.8 1-3.1 2.6-4.8-.1 1.8.6 3 1.6 3.6-.3-2.2.8-3.5 2.1-5.2 1.4 1.7 3.7 3.7 3.7 6.4 0 2-2.2 3.5-5 3.5Z"/></svg></span><span>Store Front</span>';
     document.body.appendChild(a);
   }
   if(!document.querySelector('.site-discord-link')){
