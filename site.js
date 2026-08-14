@@ -10,7 +10,8 @@ document.addEventListener('DOMContentLoaded',()=>{
     @media(max-width:760px){.site-server-link{top:12px;right:284px;width:120px;min-height:40px;padding:0 8px;font-size:.58rem;white-space:nowrap}.site-store-link{top:12px;right:148px;width:120px;min-height:40px;padding:0 8px;font-size:.55rem;white-space:nowrap}.site-discord-link{top:12px;right:12px;width:120px;min-height:40px;padding:0 8px;font-size:.55rem;white-space:nowrap}.site-discord-link svg{width:19px;height:19px}}
   `;
   document.head.appendChild(style);
-  if(!document.querySelector('.site-server-link')){
+  const onWorldPage=/\/(chernarus|namalsk)(\/|$)/i.test(window.location.pathname);
+  if(onWorldPage&&!document.querySelector('.site-server-link')){
     const a=document.createElement('a');
     const isNamalsk=window.location.pathname.toLowerCase().includes('/namalsk/');
     const endpoint=isNamalsk?'205.209.105.251:2680':'69.10.59.28:2302';
