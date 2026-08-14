@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     a.target='_blank';
     a.rel='noopener noreferrer';
     a.setAttribute('aria-label','Open the Beneath the Ashes store');
-    a.innerHTML='<span class="store-flame" aria-hidden="true"><svg viewBox="0 0 24 28"><path d="M13.7 0c.3 5.4-2.8 7.2-4.7 10.1-1.2 1.8-1.4 3.5-.5 5.1-2.1-1.1-3.1-3.1-2.8-5.8C2.1 12.7 0 16.7 0 20.3 0 24.6 5.4 28 12 28s12-3.4 12-7.7c0-5.1-3.4-9.2-6.2-12.2-.2 2.5-1.1 4.5-2.8 5.9.4-4.8-.1-8.9-3.3-14ZM12 25.5c-2.8 0-5-1.5-5-3.5 0-1.8 1-3.1 2.6-4.8-.1 1.8.6 3 1.6 3.6-.3-2.2.8-3.5 2.1-5.2 1.4 1.7 3.7 3.7 3.7 6.4 0 2-2.2 3.5-5 3.5Z"/></svg></span><span>Store Front</span>';
+    a.innerHTML='<span>Store Front</span>';
     document.body.appendChild(a);
   }
   if(!document.querySelector('.site-discord-link')){
