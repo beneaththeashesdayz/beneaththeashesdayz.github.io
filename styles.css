@@ -109,5 +109,3 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 .launcher-select{min-height:44px;padding:0 13px;border:1px solid #40545f;background:#131a1d;color:#a9cad8;font:inherit;font-size:.74rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.launcher-select:focus{outline:2px solid #a9cad8;outline-offset:2px}
 
-/* Temporarily disabled while launcher links are being tested. */
-.server-info{display:none!important}
