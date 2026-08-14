@@ -142,3 +142,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 
 .home-page .project-grid{padding-bottom:24px!important;margin-bottom:0!important}
+
+
+.site-support-link{position:fixed;z-index:10000;top:18px;right:360px;display:inline-flex;align-items:center;justify-content:center;width:154px;min-height:44px;padding:0 16px;border:1px solid #8f6c3c;border-radius:8px;background:#6f542d;color:#fff!important;font-size:.76rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 8px 28px rgba(0,0,0,.38);transition:transform .15s ease,background .15s ease}.site-support-link:hover{transform:translateY(-2px);background:#816238}@media(max-width:760px){.site-support-link{top:12px;right:284px;width:120px;min-height:40px;padding:0 8px;font-size:.55rem;white-space:nowrap}}
