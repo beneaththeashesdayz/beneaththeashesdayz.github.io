@@ -108,3 +108,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 .world-namalsk .kicker,.world-namalsk .project-label{color:#a9cad8}.world-namalsk .button{border-color:#40545f;background:#131a1d;color:#a9cad8}.world-namalsk .button:hover{border-color:#a9cad8;background:#1b2930;color:#a9cad8}.world-namalsk .section-nav a:hover{border-color:#40545f;color:#a9cad8}.world-namalsk .server-info .copy-server{border-color:#40545f;background:#131a1d;color:#a9cad8}.world-namalsk .server-info .copy-server:hover{border-color:#a9cad8;background:#1b2930}
 
 .launcher-select{min-height:44px;padding:0 13px;border:1px solid #40545f;background:#131a1d;color:#a9cad8;font:inherit;font-size:.74rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}.launcher-select:focus{outline:2px solid #a9cad8;outline-offset:2px}
+
+/* Temporarily disabled while launcher links are being tested. */
+.server-info{display:none!important}
