@@ -131,3 +131,8 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 /* Center team profile buttons within their cards */
 .project-card .chips{justify-content:center}
+
+
+/* Team profile buttons */
+.project-card .chips .chip{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 14px;border:1px solid #70513f;background:#211813;color:#f2d0b6;font-size:.74rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;transition:transform .18s ease,background .18s ease,border-color .18s ease,box-shadow .18s ease}
+.project-card .chips .chip:hover{transform:translateY(-2px);border-color:#c9672d;background:#2b1d16;color:#f2d0b6;box-shadow:0 4px 14px rgba(201,103,45,.22)}
