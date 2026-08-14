@@ -114,3 +114,4 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 /* Beneath the Ashes full logo header mark */
 .brand{gap:14px}.brand>div:last-child{display:block}.mark{width:100px;height:92px;border:0;transform:none;background:transparent url('assets/beneath-the-ashes-logo.png') center/contain no-repeat}.mark span{display:none}
 @media(max-width:760px){.mark{width:82px;height:76px}}
+.server-info .button:hover,.server-info .launcher-select:hover{border-color:#70513f;color:#f0c7aa;background:#211813}.world-namalsk .server-info .button:hover,.world-namalsk .server-info .launcher-select:hover{border-color:#a9cad8;color:#a9cad8;background:#1b2930}
