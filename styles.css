@@ -112,5 +112,5 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 .world-namalsk .launcher-select{border-color:#40545f;background:#131a1d;color:#a9cad8}.world-namalsk .launcher-select:focus{outline-color:#a9cad8}
 
 /* Beneath the Ashes full logo header mark */
-.brand{gap:0}.brand>div:last-child{display:none}.mark{width:100px;height:92px;border:0;transform:none;background:transparent url('assets/beneath-the-ashes-logo.png') center/contain no-repeat}.mark span{display:none}
+.brand{gap:14px}.brand>div:last-child{display:block}.mark{width:100px;height:92px;border:0;transform:none;background:transparent url('assets/beneath-the-ashes-logo.png') center/contain no-repeat}.mark span{display:none}
 @media(max-width:760px){.mark{width:82px;height:76px}}
