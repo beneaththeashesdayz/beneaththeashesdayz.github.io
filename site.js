@@ -7,11 +7,21 @@ document.addEventListener('DOMContentLoaded',()=>{
     .site-discord-link:hover{transform:translateY(-2px);background:#6571f5}.site-discord-link span{white-space:nowrap}
     .site-discord-link svg{width:22px;height:22px;fill:currentColor;flex:none}
     .trader-group .card[href="./linda/"] img,.search-grid .card[href="./linda/"] img{object-position:65% center!important}
-    @media(max-width:760px){.site-server-link{top:12px;right:284px;width:120px;min-height:40px;padding:0 8px;font-size:.58rem;white-space:nowrap}.site-store-link{top:12px;right:148px;width:120px;min-height:40px;padding:0 8px;font-size:.55rem;white-space:nowrap}.site-discord-link{top:12px;right:12px;width:120px;min-height:40px;padding:0 8px;font-size:.55rem;white-space:nowrap}.site-discord-link svg{width:19px;height:19px}}
+    @media(max-width:760px){.site-server-link{top:12px;right:284px;width:120px;min-height:40px;padding:0 8px;font-size:.58rem;white-space:nowrap}.site-support-link{top:12px;right:284px;width:120px;min-height:40px;padding:0 8px;font-size:.55rem;white-space:nowrap}.site-store-link{top:12px;right:148px;width:120px;min-height:40px;padding:0 8px;font-size:.55rem;white-space:nowrap}.site-discord-link{top:12px;right:12px;width:120px;min-height:40px;padding:0 8px;font-size:.55rem;white-space:nowrap}.site-discord-link svg{width:19px;height:19px}}
   `;
   document.head.appendChild(style);
   document.querySelectorAll('.launcher-select').forEach(select=>select.addEventListener('change',()=>{const urls={steam:'https://store.steampowered.com/app/221100/DayZ/',dzsa:'https://dayzsalauncher.com/',beans:'https://dayzbeanslauncher.com/',titan:'https://dayz-launcher.com/?lang=en'};const url=urls[select.value];if(url){window.open(url,'_blank','noopener,noreferrer');select.selectedIndex=0}}));
   document.querySelectorAll('.server-info').forEach(panel=>{const button=panel.querySelector('.copy-server');button?.addEventListener('click',async()=>{const value=panel.dataset.serverIp+':'+panel.dataset.serverPort;let copied=false;try{if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(value);copied=true}}catch(e){}if(!copied){const area=document.createElement('textarea');area.value=value;area.setAttribute('readonly','');area.style.position='fixed';area.style.opacity='0';document.body.appendChild(area);area.select();try{copied=document.execCommand('copy')}catch(e){}area.remove()}if(copied){button.textContent='Copied';button.classList.add('copied');setTimeout(()=>{button.textContent='Copy Connection Info';button.classList.remove('copied')},1800)}else{window.prompt('Copy connection info:',value)}})});
+  if(!document.querySelector('.site-support-link')){
+    const a=document.createElement('a');
+    a.className='site-support-link';
+    a.href='https://discord.com/channels/1278830251383721984/1402637759990202368';
+    a.target='_blank';
+    a.rel='noopener noreferrer';
+    a.setAttribute('aria-label','Open Beneath the Ashes support tickets');
+    a.textContent='Support';
+    document.body.appendChild(a);
+  }
   if(!document.querySelector('.site-store-link')){
     const a=document.createElement('a');
     a.className='site-store-link';
