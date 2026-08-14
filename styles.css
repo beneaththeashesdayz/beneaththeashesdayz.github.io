@@ -102,3 +102,5 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 .vehicle-rules .rule-block ul,.admin-support .rule-block ul{margin:0;padding-left:20px;line-height:1.8}
 
 .page-context{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:24px}.page-context .back,.page-context .world-tag{margin:0}.page-context .world-tag{display:inline-flex}
+
+.server-info{display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:22px;margin:0 0 22px;padding:22px;border:1px solid var(--line);background:var(--panel)}.server-info h2{margin:6px 0;font-size:1.45rem;text-transform:uppercase}.server-info p{margin:0;color:var(--muted);line-height:1.55}.server-endpoint{display:flex;align-items:center;gap:10px;color:#d8c4ad;font-weight:800;letter-spacing:.05em}.server-endpoint span{padding:11px 13px;border:1px solid var(--line);background:#111416}.server-info .button{cursor:pointer;white-space:nowrap}.copy-server.copied{color:#b8cfaa;border-color:#40543b}@media(max-width:760px){.server-info{grid-template-columns:1fr;gap:14px}.server-endpoint{flex-wrap:wrap}.server-info>a{justify-self:start}}
