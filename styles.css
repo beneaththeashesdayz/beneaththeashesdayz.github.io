@@ -138,4 +138,4 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 .project-card .chips .chip:hover{transform:translateY(-2px);border-color:#c9672d;background:#2b1d16;color:#f2d0b6;box-shadow:0 4px 14px rgba(201,103,45,.22)}
 
 
-.team-page .project-grid{padding-bottom:28px}
+.team-page .project-grid{padding-bottom:0!important;margin-bottom:0!important}
