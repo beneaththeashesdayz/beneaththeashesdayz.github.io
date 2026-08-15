@@ -2,10 +2,10 @@
   "source": "Beneath the Ashes Chernarus live P2P market",
   "status": "ok",
   "note": null,
-  "syncedAt": "2026-08-14T23:00:24.249209+00:00",
+  "syncedAt": "2026-08-15T00:01:59.322857+00:00",
   "maxListingTimeSeconds": 604800,
   "listingFeePercent": 10,
-  "listingCount": 16,
+  "listingCount": 20,
   "listings": [
     {
       "key": "e6e74790b8a4a6c9",
@@ -289,6 +289,70 @@
           "attached": true
         }
       ]
+    },
+    {
+      "key": "3d9f4d4515e4886a",
+      "traderId": 1,
+      "name": "Lockpick",
+      "className": "Lockpick",
+      "skinName": null,
+      "seller": "eRIK",
+      "price": 10000,
+      "listedAt": "2026-08-14T23:05:12+00:00",
+      "expiresAt": "2026-08-21T23:05:12+00:00",
+      "healthLevel": 0,
+      "quantity": 0.0,
+      "quantityType": 0,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "c02752a359db648f",
+      "traderId": 1,
+      "name": "DLT Fallout Z Bobblehead Unarmed",
+      "className": "DLT_FalloutZ_BobbleheadUnarmed",
+      "skinName": null,
+      "seller": "eRIK",
+      "price": 10000,
+      "listedAt": "2026-08-14T23:05:33+00:00",
+      "expiresAt": "2026-08-21T23:05:33+00:00",
+      "healthLevel": 0,
+      "quantity": 0.0,
+      "quantityType": 0,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "e3dad77999865552",
+      "traderId": 1,
+      "name": "Pokemon Booster Pack Basic1 1x",
+      "className": "PokemonBoosterPack_Basic1_1x",
+      "skinName": null,
+      "seller": "eRIK",
+      "price": 1500,
+      "listedAt": "2026-08-14T23:05:52+00:00",
+      "expiresAt": "2026-08-21T23:05:52+00:00",
+      "healthLevel": 1,
+      "quantity": 0.0,
+      "quantityType": 0,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "e997a516197606f7",
+      "traderId": 1,
+      "name": "DLT Fallout Z Bobblehead Charisma",
+      "className": "DLT_FalloutZ_BobbleheadCharisma",
+      "skinName": null,
+      "seller": "eRIK",
+      "price": 8000,
+      "listedAt": "2026-08-14T23:08:06+00:00",
+      "expiresAt": "2026-08-21T23:08:06+00:00",
+      "healthLevel": 0,
+      "quantity": 0.0,
+      "quantityType": 0,
+      "includedItemCount": 0,
+      "includedItems": []
     }
   ]
 }
