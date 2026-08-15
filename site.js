@@ -1,5 +1,13 @@
 document.addEventListener('DOMContentLoaded',()=>{
   document.body.classList.add('discord-ready');
+  if(document.body.classList.contains('home-page')||document.querySelector('.world-tag:not(.frozen)')){
+    const emberStyle=document.createElement('style');
+    emberStyle.textContent='.ember-field{position:fixed;inset:0;z-index:1;pointer-events:none;overflow:hidden}.ember-field i{position:absolute;bottom:-10px;width:3px;height:3px;border-radius:50%;background:#f3a15b;box-shadow:0 0 7px 2px rgba(235,126,55,.8);animation:ember-float linear infinite;opacity:0}@keyframes ember-float{0%{transform:translate3d(0,0,0) scale(.6);opacity:0}12%{opacity:.85}80%{opacity:.45}100%{transform:translate3d(var(--drift),-110vh,0) scale(1);opacity:0}}@media(prefers-reduced-motion:reduce){.ember-field i{animation:none;opacity:.2}}';
+    document.head.appendChild(emberStyle);
+    const field=document.createElement('div');field.className='ember-field';field.setAttribute('aria-hidden','true');
+    for(let i=0;i<18;i++){const ember=document.createElement('i');ember.style.left=`${(i*37)%100}%`;ember.style.setProperty('--drift',`${((i%5)-2)*22}px`);ember.style.animationDuration=`${13+(i%7)*2}s`;ember.style.animationDelay=`-${(i*1.7)%18}s`;ember.style.width=ember.style.height=`${2+(i%3)}px`;field.appendChild(ember)}
+    document.body.appendChild(field);
+  }
   const style=document.createElement('style');
   style.textContent=`
     body.discord-ready::before,body.discord-ready::after,body.discord-ready>header::after{display:none!important}
