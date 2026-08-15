@@ -12,6 +12,12 @@ document.addEventListener('DOMContentLoaded',()=>{
     for(let i=0;i<18;i++){const ember=document.createElement('i');ember.style.left=`${(i*37)%100}%`;ember.style.setProperty('--drift',`${((i%5)-2)*22}px`);ember.style.animationDuration=`${13+(i%7)*2}s`;ember.style.animationDelay=`-${(i*1.7)%18}s`;ember.style.width=ember.style.height=`${2+(i%3)}px`;field.appendChild(ember)}
     document.body.appendChild(field);
   }
+  if(document.body.classList.contains('world-namalsk')){
+    const snowStyle=document.createElement('style');snowStyle.textContent='.snow-field{position:fixed;inset:0;z-index:1;pointer-events:none;overflow:hidden}.snow-field i{position:absolute;top:-12px;width:var(--flake);height:var(--flake);border-radius:50%;background:rgba(224,241,248,.9);box-shadow:0 0 5px rgba(193,224,237,.75);animation:snow-fall linear infinite;opacity:0}@keyframes snow-fall{0%{transform:translate3d(0,-4vh,0) rotate(0);opacity:0}10%{opacity:.8}50%{transform:translate3d(var(--sway),50vh,0) rotate(140deg);opacity:.75}100%{transform:translate3d(calc(var(--sway)*-.7),110vh,0) rotate(300deg);opacity:0}}@media(prefers-reduced-motion:reduce){.snow-field i{animation:none;opacity:.25}}';document.head.appendChild(snowStyle);
+    const snow=document.createElement('div');snow.className='snow-field';snow.setAttribute('aria-hidden','true');
+    for(let i=0;i<34;i++){const flake=document.createElement('i');flake.style.left=`${(i*29)%100}%`;flake.style.setProperty('--flake',`${2+(i%4)}px`);flake.style.setProperty('--sway',`${((i%7)-3)*18}px`);flake.style.animationDuration=`${11+(i%9)*1.8}s`;flake.style.animationDelay=`-${(i*1.1)%20}s`;snow.appendChild(flake)}
+    document.body.appendChild(snow);
+  }
   const style=document.createElement('style');
   style.textContent=`
     body.discord-ready::before,body.discord-ready::after,body.discord-ready>header::after{display:none!important}
