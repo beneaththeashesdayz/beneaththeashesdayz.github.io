@@ -171,3 +171,7 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 /* Remove obsolete treasure-hunt collection instructions */
 .events-page .reward-section:before{display:none!important}
 .events-page .section-heading>p:after{content:none!important}
+
+/* Match Clue 05 to the standard clue-card appearance */
+.treasure-clues .reward-card.master{--tier:#9eb98e;border-color:var(--line);background:linear-gradient(100deg,#171a1c,#101214)}
+.treasure-clues .reward-card.master .reward-tier h3{color:var(--text)}
