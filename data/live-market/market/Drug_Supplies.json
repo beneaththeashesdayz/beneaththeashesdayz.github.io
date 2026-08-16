@@ -1,9 +1,9 @@
 {
   "m_Version": 12,
-  "DisplayName": "Drug Supplies",
+  "DisplayName": "Drug Production & Supplies",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 10.0,
+  "InitStockPercent": 10,
   "IsExchange": 0,
   "Items": [
     {
@@ -126,6 +126,21 @@
       "QuantityPercent": 100,
       "SpawnAttachments": [],
       "Variants": []
+    },
+    {
+      "ClassName": "iM7s_Chem_Barrel_Blue",
+      "MaxPriceThreshold": 75000,
+      "MinPriceThreshold": 75000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "iM7s_Chem_Barrel_Green",
+        "iM7s_Chem_Barrel_Hazmat",
+        "iM7s_Chem_Barrel_White"
+      ]
     }
   ]
 }
