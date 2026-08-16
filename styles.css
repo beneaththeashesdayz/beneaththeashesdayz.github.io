@@ -167,3 +167,7 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 .treasure-hunt-event h2{margin:10px 0 0!important;line-height:1.2}
 .treasure-hunt-event>p{max-width:900px;margin:0 0 18px!important;line-height:1.75}
 .treasure-hunt-event .event-status{margin-top:0}
+
+/* Remove obsolete treasure-hunt collection instructions */
+.events-page .reward-section:before{display:none!important}
+.events-page .section-heading>p:after{content:none!important}
