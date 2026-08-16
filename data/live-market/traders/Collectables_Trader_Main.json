@@ -29,5 +29,7 @@
     "Adult_Toys:2",
     "Collector_Cards_Storage:0"
   ],
-  "Items": {}
+  "Items": {
+    "dlt_falloutz_bobbleheadstandkit": 0
+  }
 }

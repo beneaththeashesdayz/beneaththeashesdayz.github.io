@@ -27,5 +27,7 @@
     "Fallout_Bobbleheads:2",
     "Fallout_Nuka_Cola:2"
   ],
-  "Items": {}
+  "Items": {
+    "dlt_falloutz_bobbleheadstandkit": 0
+  }
 }
