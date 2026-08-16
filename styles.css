@@ -180,3 +180,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 .pokemon-event .reward-section:before{display:block!important}
 .pokemon-event .section-heading>p{font-size:0!important}
 .pokemon-event .section-heading>p:after{content:"Collect the required balls to unlock each reward."!important;font-size:.86rem}
+
+/* Improve Pokémon event guidance readability */
+.pokemon-event .reward-section:before{font-size:1rem;line-height:1.8;padding:20px 22px}
