@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Nissan 180SX Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Nissan_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Nissan_codriver_Blue",
+        "Nissan_codriver_Red",
+        "Nissan_codriver_white",
+        "Nissan_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Nissan_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Nissan_driver_Blue",
+        "Nissan_driver_Red",
+        "Nissan_driver_white",
+        "Nissan_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Nissan_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Nissan_hood_Blue",
+        "Nissan_hood_Red",
+        "Nissan_hood_white",
+        "Nissan_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "Nissan_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Nissan_trunk_Blue",
+        "Nissan_trunk_Red",
+        "Nissan_trunk_white",
+        "Nissan_trunk_yellow"
+      ]
+    }
+  ]
+}

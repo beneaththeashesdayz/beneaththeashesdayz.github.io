@@ -1,0 +1,135 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Mercedes Yachting Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Star_Mercedes_Yacht_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Mercedes_Yacht_cargo1_Blue",
+        "Star_Mercedes_Yacht_cargo1_carbon",
+        "Star_Mercedes_Yacht_cargo1_orange",
+        "Star_Mercedes_Yacht_cargo1_pink",
+        "Star_Mercedes_Yacht_cargo1_Red",
+        "Star_Mercedes_Yacht_cargo1_white",
+        "Star_Mercedes_Yacht_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Mercedes_Yacht_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Mercedes_Yacht_cargo2_Blue",
+        "Star_Mercedes_Yacht_cargo2_carbon",
+        "Star_Mercedes_Yacht_cargo2_orange",
+        "Star_Mercedes_Yacht_cargo2_pink",
+        "Star_Mercedes_Yacht_cargo2_Red",
+        "Star_Mercedes_Yacht_cargo2_white",
+        "Star_Mercedes_Yacht_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Mercedes_Yacht_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Mercedes_Yacht_codriver_Blue",
+        "Star_Mercedes_Yacht_codriver_carbon",
+        "Star_Mercedes_Yacht_codriver_orange",
+        "Star_Mercedes_Yacht_codriver_pink",
+        "Star_Mercedes_Yacht_codriver_Red",
+        "Star_Mercedes_Yacht_codriver_white",
+        "Star_Mercedes_Yacht_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Mercedes_Yacht_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Mercedes_Yacht_driver_Blue",
+        "Star_Mercedes_Yacht_driver_carbon",
+        "Star_Mercedes_Yacht_driver_orange",
+        "Star_Mercedes_Yacht_driver_pink",
+        "Star_Mercedes_Yacht_driver_Red",
+        "Star_Mercedes_Yacht_driver_white",
+        "Star_Mercedes_Yacht_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Mercedes_Yacht_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Mercedes_Yacht_hood_Blue",
+        "Star_Mercedes_Yacht_hood_carbon",
+        "Star_Mercedes_Yacht_hood_orange",
+        "Star_Mercedes_Yacht_hood_pink",
+        "Star_Mercedes_Yacht_hood_Red",
+        "Star_Mercedes_Yacht_hood_white",
+        "Star_Mercedes_Yacht_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Mercedes_Yacht_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Mercedes_Yacht_trunk_Blue",
+        "Star_Mercedes_Yacht_trunk_carbon",
+        "Star_Mercedes_Yacht_trunk_orange",
+        "Star_Mercedes_Yacht_trunk_pink",
+        "Star_Mercedes_Yacht_trunk_Red",
+        "Star_Mercedes_Yacht_trunk_white",
+        "Star_Mercedes_Yacht_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Mercedes_Yacht_Wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}
