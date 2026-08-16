@@ -183,3 +183,10 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 /* Improve Pokémon event guidance readability */
 .pokemon-event .reward-section:before{font-size:1rem;line-height:1.8;padding:20px 22px}
+
+/* Place Pokémon event illustration beside its header panel */
+.pokemon-event-header{display:grid!important;grid-template-columns:minmax(0,1fr) 230px!important;gap:30px!important;align-items:center!important}
+.pokemon-event-header .pokemon-header-copy{min-width:0}
+.pokemon-event-header .pokemon-header-copy>p{max-width:900px;margin:18px 0!important}
+.pokemon-event-header .event-ball{width:210px;height:210px;margin:auto}
+@media(max-width:760px){.pokemon-event-header{grid-template-columns:1fr!important}.pokemon-event-header .event-ball{width:165px;height:165px;grid-row:1}}
