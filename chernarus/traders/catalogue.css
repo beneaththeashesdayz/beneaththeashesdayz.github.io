@@ -2,3 +2,10 @@
 /* Keep trader world tag and page label inline */
 .profile-top>div:first-child>.world-tag{display:inline-flex!important;align-items:center;vertical-align:middle;margin:0 10px 0 0!important;white-space:nowrap}
 .profile-top>div:first-child>.kicker{display:inline-block!important;vertical-align:middle;margin:0!important;white-space:nowrap}
+
+/* Put the world tag beside the trader directory label in the top navigation row */
+.profile{position:relative}
+.profile>.back{display:inline-flex!important;align-items:center;vertical-align:middle;margin-left:183px!important}
+.profile-top>div:first-child>.world-tag{position:absolute!important;left:0;top:-1px;z-index:2;margin:0!important}
+.profile-top>div:first-child>.kicker{display:none!important}
+@media(max-width:760px){.profile>.back{margin-left:0!important}.profile-top>div:first-child>.world-tag{position:static!important;margin-top:10px!important}.profile-top>div:first-child>.kicker{display:none!important}}
