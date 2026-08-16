@@ -14,3 +14,8 @@
 .profile>.back{margin-top:0!important}
 .profile-top>div:first-child>.world-tag{top:-15px!important}
 @media(max-width:760px){.profile-top>div:first-child>.world-tag{top:auto!important}}
+
+/* Trader header order: directory link first, world tag second */
+.profile>.back{margin-left:0!important}
+.profile-top>div:first-child>.world-tag{left:173px!important}
+@media(max-width:760px){.profile>.back{margin-left:0!important}.profile-top>div:first-child>.world-tag{left:0!important}}
