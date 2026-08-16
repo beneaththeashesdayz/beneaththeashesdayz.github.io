@@ -19,3 +19,11 @@
 .profile>.back{margin-left:0!important}
 .profile-top>div:first-child>.world-tag{left:173px!important}
 @media(max-width:760px){.profile>.back{margin-left:0!important}.profile-top>div:first-child>.world-tag{left:0!important}}
+
+/* Unified trader profile header */
+.profile-header{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 18px}
+.profile-header .back{display:inline-flex!important;align-items:center;margin:0!important;white-space:nowrap}
+.profile-header .world-tag{display:inline-flex!important;align-items:center;margin:0!important;white-space:nowrap}
+.profile-top>div:first-child>.world-tag{display:none!important}
+.profile-top>div:first-child>.kicker{display:block!important;margin:0 0 8px!important}
+@media(max-width:760px){.profile-header{gap:8px;margin-bottom:14px}.profile-header .back,.profile-header .world-tag{font-size:.68rem}}
