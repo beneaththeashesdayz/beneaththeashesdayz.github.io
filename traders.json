@@ -6,19 +6,20 @@
     "location": "The Curator's Refuge",
     "region": "Mainland Chernarus",
     "currency": "USD",
-    "specialty": "Collectables \u2022 Pok\u00e9mon \u2022 Storage",
-    "summary": "A mainland collectables trader who buys rare finds and sealed Pok\u00e9mon collection boxes, while supplying storage solutions for collectors.",
+    "specialty": "Collectables • Pokémon • Storage",
+    "summary": "A mainland collectables trader who buys rare finds and sealed Pokémon collection boxes, while supplying storage solutions for collectors.",
     "buys": [
       "Drippy sneakers",
       "Fallout bobbleheads",
       "Fallout Nuka Cola collectables",
       "Paragon collectables",
       "Vyse collectables",
-      "Sealed Pok\u00e9mon collection boxes"
+      "Sealed Pokémon collection boxes"
     ],
     "sells": [
       "Collectable storage solutions",
-      "Card albums and collection storage supplies"
+      "Card albums and collection storage supplies",
+      "Bobblehead display stands"
     ],
     "notes": [
       "Gabi pays less than Cinder Market, but offers a convenient mainland option.",
@@ -34,7 +35,7 @@
     "location": "Cinder Market",
     "region": "Eastern Sea",
     "currency": "USD",
-    "specialty": "Finished Goods \u2022 Production Kits",
+    "specialty": "Finished Goods • Production Kits",
     "summary": "Cinder Market trader for finished drug products and drug production equipment.",
     "buys": [
       "Finished drug bricks of all types",
@@ -57,7 +58,7 @@
     "location": "Cinder Market",
     "region": "Eastern Sea",
     "currency": "USD",
-    "specialty": "Rare \u2022 Epic \u2022 Premium Collectables",
+    "specialty": "Rare • Epic • Premium Collectables",
     "summary": "Cinder Market's premium collectables buyer, offering stronger payouts for valuable finds.",
     "buys": [
       "Rare and high-tier collectables",
@@ -65,7 +66,8 @@
       "Vyse and other premium collectables"
     ],
     "sells": [
-      "Select collectable-related items"
+      "Select collectable-related items",
+      "Bobblehead display stands"
     ],
     "notes": [
       "Cinder Market is generally the best payout for premium collectables.",
@@ -80,7 +82,7 @@
     "location": "Cinder & Fang",
     "region": "Chernarus",
     "currency": "USD",
-    "specialty": "Hunting \u2022 Pelts \u2022 Game",
+    "specialty": "Hunting • Pelts • Game",
     "summary": "Hunting-focused trader for survivors making their living from the wild.",
     "buys": [
       "Hunting-related goods",
@@ -101,7 +103,7 @@
     "location": "The Grey Current",
     "region": "Chernarus",
     "currency": "USD",
-    "specialty": "Fishing \u2022 Seafood \u2022 Supplies",
+    "specialty": "Fishing • Seafood • Supplies",
     "summary": "Fishing specialist and one of the strongest routes for survival-focused income.",
     "buys": [
       "Fish and select fishing catches"
