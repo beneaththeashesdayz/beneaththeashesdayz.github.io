@@ -190,3 +190,8 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 .pokemon-event-header .pokemon-header-copy>p{max-width:900px;margin:18px 0!important}
 .pokemon-event-header .event-ball{width:210px;height:210px;margin:auto}
 @media(max-width:760px){.pokemon-event-header{grid-template-columns:1fr!important}.pokemon-event-header .event-ball{width:165px;height:165px;grid-row:1}}
+
+/* Found marker for completed treasure hunt clues */
+.clue-found-card{padding-right:130px}
+.clue-found{position:absolute;right:22px;top:50%;transform:translateY(-50%);padding:8px 12px;border:1px solid #9eb98e;background:#182018;color:#b8cfaa;font-size:.72rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
+@media(max-width:760px){.clue-found-card{padding-right:22px;padding-top:54px}.clue-found{top:18px;right:22px;transform:none}}
