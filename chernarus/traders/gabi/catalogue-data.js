@@ -467,7 +467,7 @@ window.traderCatalogue={traderName:'Gabi',currency:'USD',groupCollectableVariant
 {name:'Fallout Barter Bobblehead',className:'dlt_falloutz_bobbleheadbarter',category:'Fallout Bobbleheads',sellPrice:903,traderSells:false,traderBuys:true},
 {name:'Fallout Base Bobblehead',className:'dlt_falloutz_bobbleheadbase',category:'Fallout Bobbleheads',sellPrice:908,traderSells:false,traderBuys:true},
 {name:'Fallout Big Guns Bobblehead',className:'dlt_falloutz_bobbleheadbiggun',category:'Fallout Bobbleheads',sellPrice:910,traderSells:false,traderBuys:true},
-{name:'Fallout Bobblehead Display Stand Kit',className:'dlt_falloutz_bobbleheadstandkit',category:'Fallout Bobbleheads',sellPrice:970,traderSells:false,traderBuys:true},
+{name:'Fallout Bobblehead Display Stand Kit',className:'dlt_falloutz_bobbleheadstandkit',category:'Fallout Bobbleheads',buyPrice:9705,traderSells:true,traderBuys:false},
 {name:'Fallout Charisma Bobblehead',className:'dlt_falloutz_bobbleheadcharisma',category:'Fallout Bobbleheads',sellPrice:915,traderSells:false,traderBuys:true},
 {name:'Fallout Endurance Bobblehead',className:'dlt_falloutz_bobbleheadendurance',category:'Fallout Bobbleheads',sellPrice:918,traderSells:false,traderBuys:true},
 {name:'Fallout Energyweapons Bobblehead',className:'dlt_falloutz_bobbleheadenergyweapons',category:'Fallout Bobbleheads',sellPrice:922,traderSells:false,traderBuys:true},
