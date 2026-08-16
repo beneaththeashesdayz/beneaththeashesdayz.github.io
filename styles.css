@@ -198,3 +198,9 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 /* Increase completed clue marker readability */
 .clue-found{padding:11px 16px;font-size:.9rem;letter-spacing:.16em}
+
+/* Fix treasure clue card layout and emphasize completed clues */
+.treasure-clues .reward-card{grid-template-columns:minmax(180px,.85fr) minmax(0,1.6fr);min-width:0}
+.treasure-clues .reward-card>p{min-width:0;overflow-wrap:break-word}
+.treasure-clues .clue-found{right:20px;padding:13px 19px!important;border:2px solid #b8cfaa!important;background:#243323!important;color:#d8edc9!important;font-size:1.15rem!important;font-weight:1000!important;letter-spacing:.18em!important;box-shadow:0 0 18px rgba(158,185,142,.3)}
+@media(max-width:760px){.treasure-clues .reward-card{grid-template-columns:1fr}.treasure-clues .clue-found{right:18px;top:18px;padding:10px 15px!important;font-size:1rem!important}}
