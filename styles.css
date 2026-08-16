@@ -213,3 +213,7 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 /* Make completed clue badge highly visible */
 .treasure-clues .clue-found{right:18px;padding:16px 24px!important;font-size:1.35rem!important;letter-spacing:.2em!important;box-shadow:0 0 24px rgba(158,185,142,.45)}
 @media(max-width:760px){.treasure-clues .clue-found{padding:13px 19px!important;font-size:1.15rem!important}}
+
+/* Keep clue descriptions aligned when a status badge is present */
+.treasure-clues .reward-card{grid-template-columns:300px minmax(0,1fr)!important;gap:24px}
+@media(max-width:760px){.treasure-clues .reward-card{grid-template-columns:1fr!important;gap:14px}}
