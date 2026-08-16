@@ -195,3 +195,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 .clue-found-card{padding-right:130px}
 .clue-found{position:absolute;right:22px;top:50%;transform:translateY(-50%);padding:8px 12px;border:1px solid #9eb98e;background:#182018;color:#b8cfaa;font-size:.72rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
 @media(max-width:760px){.clue-found-card{padding-right:22px;padding-top:54px}.clue-found{top:18px;right:22px;transform:none}}
+
+/* Increase completed clue marker readability */
+.clue-found{padding:11px 16px;font-size:.9rem;letter-spacing:.16em}
