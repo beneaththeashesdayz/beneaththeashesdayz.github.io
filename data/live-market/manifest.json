@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-08-16T14:59:37.602216+00:00",
+  "syncedAt": "2026-08-16T15:57:15.757081+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -600,7 +600,7 @@
     {
       "group": "market",
       "filename": "Fallout_Bobbleheads.json",
-      "sha256": "47e16afc47464657a0c58b13d7e35b1ab95584b171cb101f2ee394392c261b6c",
+      "sha256": "e7552133969a78cfb1bbf41ad779ab1f486b4edaac00eb94906fd6481c65bb2a",
       "topLevelType": "object",
       "entryCount": 7
     },
