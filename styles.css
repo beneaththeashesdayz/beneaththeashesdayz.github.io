@@ -175,3 +175,8 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 /* Match Clue 05 to the standard clue-card appearance */
 .treasure-clues .reward-card.master{--tier:#9eb98e;border-color:var(--line);background:linear-gradient(100deg,#171a1c,#101214)}
 .treasure-clues .reward-card.master .reward-tier h3{color:var(--text)}
+
+/* Restore shared collection guidance for the Pokémon event */
+.pokemon-event .reward-section:before{display:block!important}
+.pokemon-event .section-heading>p{font-size:0!important}
+.pokemon-event .section-heading>p:after{content:"Collect the required balls to unlock each reward."!important;font-size:.86rem}
