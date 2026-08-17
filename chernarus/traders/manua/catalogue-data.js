@@ -312,7 +312,6 @@ window.traderCatalogue={traderName:'Manua',currency:'USD',items:[
 {name:'Partytent Blue',className:'partytent_blue',category:'Tents',sellPrice:443,traderSells:false,traderBuys:true},
 {name:'Partytent Brown',className:'partytent_brown',category:'Tents',sellPrice:443,traderSells:false,traderBuys:true},
 {name:'Partytent Lunapark',className:'partytent_lunapark',category:'Tents',sellPrice:460,traderSells:false,traderBuys:true},
-{name:'Territoryflagkit',className:'territoryflagkit',category:'Territory Flagpole',buyPrice:150000,traderSells:true,traderBuys:false},
 {name:'Bbp Cement Mixer Kit',className:'bbp_cement_mixer_kit',category:'Tools',buyPrice:52485,traderSells:true,traderBuys:false},
 {name:'Canopener',className:'canopener',category:'Tools',buyPrice:49245,traderSells:true,traderBuys:false},
 {name:'Farminghoe',className:'farminghoe',category:'Tools',buyPrice:51390,traderSells:true,traderBuys:false},
