@@ -3,7 +3,7 @@
   "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_ASSAULT_RIFLES",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75,
+  "InitStockPercent": 0,
   "IsExchange": 0,
   "Items": [
     {
@@ -11,8 +11,8 @@
       "MaxPriceThreshold": 4225,
       "MinPriceThreshold": 2815,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "ak_plasticbttstck",
@@ -29,8 +29,8 @@
       "MaxPriceThreshold": 9370,
       "MinPriceThreshold": 6245,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "ak74_woodbttstck",
@@ -47,8 +47,8 @@
       "MaxPriceThreshold": 10935,
       "MinPriceThreshold": 7290,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "ak_woodbttstck",
@@ -62,8 +62,8 @@
       "MaxPriceThreshold": 2980,
       "MinPriceThreshold": 1985,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_aug_30rnd"
@@ -75,8 +75,8 @@
       "MaxPriceThreshold": 4580,
       "MinPriceThreshold": 3055,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_aug_30rnd"
@@ -88,8 +88,8 @@
       "MaxPriceThreshold": 9980,
       "MinPriceThreshold": 6655,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "fal_oebttstck",
@@ -102,8 +102,8 @@
       "MaxPriceThreshold": 4465,
       "MinPriceThreshold": 2975,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_famas_25rnd"

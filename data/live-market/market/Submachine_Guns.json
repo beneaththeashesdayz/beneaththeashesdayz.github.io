@@ -3,7 +3,7 @@
   "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_SUBMACHINE_GUNS",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75,
+  "InitStockPercent": 0,
   "IsExchange": 0,
   "Items": [
     {
@@ -11,8 +11,8 @@
       "MaxPriceThreshold": 8745,
       "MinPriceThreshold": 5830,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "aks74u_bttstck",
@@ -25,8 +25,8 @@
       "MaxPriceThreshold": 4795,
       "MinPriceThreshold": 3195,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_cz61_20rnd"
@@ -38,8 +38,8 @@
       "MaxPriceThreshold": 5395,
       "MinPriceThreshold": 3595,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mp5k_stockbttstck",
@@ -53,8 +53,8 @@
       "MaxPriceThreshold": 6910,
       "MinPriceThreshold": 4605,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "pp19_bttstck",
@@ -67,8 +67,8 @@
       "MaxPriceThreshold": 6410,
       "MinPriceThreshold": 4275,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_ump_25rnd"
@@ -80,8 +80,8 @@
       "MaxPriceThreshold": 6530,
       "MinPriceThreshold": 4355,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []

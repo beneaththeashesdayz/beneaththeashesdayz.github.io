@@ -3,7 +3,7 @@
   "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_PISTOLS",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75,
+  "InitStockPercent": 0,
   "IsExchange": 0,
   "Items": [
     {
@@ -11,8 +11,8 @@
       "MaxPriceThreshold": 5305,
       "MinPriceThreshold": 5305,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_1911_7rnd"
@@ -24,8 +24,8 @@
       "MaxPriceThreshold": 2920,
       "MinPriceThreshold": 2920,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_cz75_15rnd"
@@ -37,8 +37,8 @@
       "MaxPriceThreshold": 2880,
       "MinPriceThreshold": 2880,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_deagle_9rnd"
@@ -52,8 +52,8 @@
       "MaxPriceThreshold": 3110,
       "MinPriceThreshold": 3110,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -66,8 +66,8 @@
       "MaxPriceThreshold": 4975,
       "MinPriceThreshold": 4975,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_1911_7rnd"
@@ -79,8 +79,8 @@
       "MaxPriceThreshold": 7390,
       "MinPriceThreshold": 7390,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_fnx45_15rnd"
@@ -92,8 +92,8 @@
       "MaxPriceThreshold": 3090,
       "MinPriceThreshold": 3090,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_glock_15rnd"
@@ -105,8 +105,8 @@
       "MaxPriceThreshold": 3095,
       "MinPriceThreshold": 3095,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
@@ -116,8 +116,8 @@
       "MaxPriceThreshold": 2895,
       "MinPriceThreshold": 2895,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -129,8 +129,8 @@
       "MaxPriceThreshold": 3020,
       "MinPriceThreshold": 3020,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_ij70_8rnd"
@@ -142,8 +142,8 @@
       "MaxPriceThreshold": 3085,
       "MinPriceThreshold": 3085,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_mkii_10rnd"
@@ -155,8 +155,8 @@
       "MaxPriceThreshold": 2995,
       "MinPriceThreshold": 2995,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_p1_8rnd"

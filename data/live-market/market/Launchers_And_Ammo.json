@@ -3,7 +3,7 @@
   "DisplayName": "Launchers, Ammo & Blackbox",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75,
+  "InitStockPercent": 0,
   "IsExchange": 0,
   "Items": [
     {
@@ -22,8 +22,8 @@
       "MaxPriceThreshold": 22500,
       "MinPriceThreshold": 22500,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
@@ -33,8 +33,8 @@
       "MaxPriceThreshold": 12500,
       "MinPriceThreshold": 12500,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
@@ -44,8 +44,8 @@
       "MaxPriceThreshold": 6250,
       "MinPriceThreshold": 6250,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
@@ -55,8 +55,8 @@
       "MaxPriceThreshold": 4250,
       "MinPriceThreshold": 4250,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []

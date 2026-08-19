@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-08-19T12:01:41.457607+00:00",
+  "syncedAt": "2026-08-19T14:11:21.344529+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -19,7 +19,7 @@
     {
       "group": "market",
       "filename": "Ammo.json",
-      "sha256": "0ac284fb50e5137931b8ae313e81a8137e0fe9abc0ad98482c64dc66646e5c8d",
+      "sha256": "ae5acccb4aa9ebd7bf31c957d339ca169ca7e2912e298ac5cae4d14fbe0a0222",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -40,7 +40,7 @@
     {
       "group": "market",
       "filename": "Assault_Rifles.json",
-      "sha256": "58a34111bcbed9d90717598e07717719d25e50c99754c29e1d588de6e4b2ab33",
+      "sha256": "af3b27f14270fb3488e5c3b6cd364134d34aeaa2f72843787fa27f0f4c531db7",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -327,7 +327,7 @@
     {
       "group": "market",
       "filename": "Crossbows.json",
-      "sha256": "44c16f8affadae8f73e7dea286873fe460800d4f859a7a6a1d16b6091d15a679",
+      "sha256": "f8ad6f98e5debe6fe2914821595b448f86545b95cdfb7bae2c2e35436a42038d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -621,21 +621,21 @@
     {
       "group": "market",
       "filename": "Fish.json",
-      "sha256": "2c630ebaf1bd4501d1a9551522a9a3cca13069b70399000055f3384bac5c83f1",
+      "sha256": "ffda4e77e11b08a6e3c838ae6ea1812fe3e8ba949a94c0b7fd7455967b9cf6b1",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Fish_Meat.json",
-      "sha256": "029a549a6c2fa213a0e94f495492f7ff2272e126338cfe0f28b8309cbf884666",
+      "sha256": "b94b0d136ab3b19b9604ae3ae005ea50b6a89221f11c1a4eb672c55e534c6601",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Fishing_Equipment.json",
-      "sha256": "ba98bbdf29371bbd9a477fad09cd8f2dc6e47da05e59604d4c7c36061aa90dd7",
+      "sha256": "7b7c0bdc8eece9152413983d4e4c278834f4345d9974934dc68e012558068b62",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -733,21 +733,21 @@
     {
       "group": "market",
       "filename": "Geb's_Fish_Meat.json",
-      "sha256": "7a1e96f3d89939d67d1aa9eafb2930af1c34ce5476f82f50c30ae89ffbf30be7",
+      "sha256": "a0b4b71d456eb935ce0a62a386e6066fa1fac452e9ebbec454327b0873bb4908",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Geb's_Fishing_Supplies.json",
-      "sha256": "b683407a0215d70f925e0dd1b7247b70081c1bdeedd58e319023d0c684ff381d",
+      "sha256": "acfef3e2c5c6cbdf8021408701c8b895519e276f22de9a9da3a50723b8258ebe",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Gebs_Fish.json",
-      "sha256": "0f300f268a00b105cfa12e023946870e6ff2559944a115520b0034f69382ef8e",
+      "sha256": "d33170b0bab74aff8397b6a3a3cae8332c55891252dad6c71756fb34d4a7792a",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -803,7 +803,7 @@
     {
       "group": "market",
       "filename": "Handguards.json",
-      "sha256": "b3e7094a205f9ac3192d6ccce28800f4368205943ead94fcab5db574f52e8344",
+      "sha256": "f6dbd745ee8fcf2f8c3b14d1383a6fd308e4cc1face94e219b586aad3bad2ec3",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -922,14 +922,14 @@
     {
       "group": "market",
       "filename": "Knifes.json",
-      "sha256": "0803f9aa0812bba997ddd1b461a9bedfbcd96e2053877ac1f736576aea7e104d",
+      "sha256": "2cac799787b08f160923d1615c0d947c15f1eb2ea7c3aada9450e58f6f1ae84c",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Launchers_And_Ammo.json",
-      "sha256": "a93fe53665efed9f7814a50356ad573afe855cc00834fe93c2cec04f06dbf32c",
+      "sha256": "553b4df4b8d22f4f575c19ec01e5bb853d9fb1522306c15dc25fde699adfd990",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -971,7 +971,7 @@
     {
       "group": "market",
       "filename": "Magazines.json",
-      "sha256": "bd25f2d9ef5ce48807d64405b1196ac09b6481c1c8627dcc69891e006312d485",
+      "sha256": "1ca1d0b456d5f52411d05f98f744b1fda0e06d2d2810339c4b998e349b8fde6e",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -999,7 +999,7 @@
     {
       "group": "market",
       "filename": "Melee_Weapons.json",
-      "sha256": "1e81921f038bdb4b5d5faadfe7e94f6c4cd8ded825a25e9d73c411730a51856c",
+      "sha256": "17aa4056968bee7df63279010256b382bf3d63cd4c63f096d98ca57cb4c92e0c",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1097,7 +1097,7 @@
     {
       "group": "market",
       "filename": "Muzzles.json",
-      "sha256": "46ec64bf041e21fcd3985047f0fb1014203edc705ac2acde19236251a2e20f8a",
+      "sha256": "c7404d292c14a367d100963c89642501f0c5c854f8364ffb0b412b4668c66702",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1111,28 +1111,28 @@
     {
       "group": "market",
       "filename": "MYDF_Attachments.json",
-      "sha256": "8b0666196a93f166a6da54a2ad7619e600c7dd364ea178e13313c26c709df4ac",
+      "sha256": "1ea79e83dbf98c091324c471b36fb3b05e2d7c64265d9029d0e0a8b9746c8173",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "MYDF_Mags.json",
-      "sha256": "a29f130b78490540e88d2168eac57db9212b7536398c2a53ab02c5a80e1b3cea",
+      "sha256": "5d362dc4491de4cd32ede0aff912aed0aa3d84392d0c1d7129c0461339e328c4",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "MYDF_Melee.json",
-      "sha256": "6033450638fc350eeff52a511ca086b80dd0b5cc074de165c43bdbf6d4d96dfb",
+      "sha256": "3698f158a3674f1858b8f8176c1d4e90e97b99da89bba2b01906dc81b5f8d674",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "MYDF_Weapons.json",
-      "sha256": "a895f1f3d0507f553b385031e842d930a88725e403b66239e0456298586b4bec",
+      "sha256": "e4327aab349a1e8ca8c3fd0b45b2c5f94d529c69ea1614b40bd5d2fd312478dc",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1202,7 +1202,7 @@
     {
       "group": "market",
       "filename": "Optics.json",
-      "sha256": "54a27c78fd04cf2de66adf9ba7d702d955678f3b8b2bc147df99d7f72cb8e63d",
+      "sha256": "85467d9df6d97cc612876ca2b28a2a1fca8f9f68321084753fb39ef57db3444f",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1230,7 +1230,7 @@
     {
       "group": "market",
       "filename": "Pistols.json",
-      "sha256": "78ef809d69e93693b0812291bd3b74cc4ce1cc4e3972895b99358cd36db913d1",
+      "sha256": "993d8b204fa9d6c03f3c15abe378c4b26c22da64fae0896e9b90e7a115758758",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1279,7 +1279,7 @@
     {
       "group": "market",
       "filename": "Rifles.json",
-      "sha256": "0491a8853220d7db6b06b7a0f816d07adb28a8d047874770adb92a0bf2bcf492",
+      "sha256": "733cb7fdebdae04034ab2a8c80ba352390bc70411285d4f36353d4f60fc6474b",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1328,7 +1328,7 @@
     {
       "group": "market",
       "filename": "Shotguns.json",
-      "sha256": "754482765f216e93bcfb81d40b31bb8ba76e64b025ce68b6441df7ddc0226122",
+      "sha256": "d94e12f1b48723c6de454b465c90c9830193c06bc3f369f25b96cd7dc185d378",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1349,7 +1349,7 @@
     {
       "group": "market",
       "filename": "Sniper_Rifles.json",
-      "sha256": "b5ac6d4ec5a0fb71be087f5fc5ae15c030dae3c3c79ce9e16c35638f9d2e5283",
+      "sha256": "0eb7af7cd5edfc1db7e397b6d64a987df8c7df5e19b527d127d97c559e621f07",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1363,7 +1363,7 @@
     {
       "group": "market",
       "filename": "Submachine_Guns.json",
-      "sha256": "176aee4cc6d9e915881952b1e0c3f536c7f467eab1286aa099b97bab418336e5",
+      "sha256": "a16d550203076b5ed1dd7ab8d93bf113614f460551b14896155e48a35959559d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1573,7 +1573,7 @@
     {
       "group": "traders",
       "filename": "Fishing.json",
-      "sha256": "9bec04dc1277939cec531b2d00f43cfd8b8a6da2d58ed05da34c534524f1845a",
+      "sha256": "411ff0e3cc4442d0b7e0347a5da2d20ae1e3c2f159a88343b15c4a30bca937c2",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1678,7 +1678,7 @@
     {
       "group": "traders",
       "filename": "Weapons.json",
-      "sha256": "7169030c52679dc1282907c6a6a6bc2f6a3ac22f13834727dbf370b416ebc0d7",
+      "sha256": "7e208dc06ebc296b733bc69067a3c6ec0927d89a0d0d8b670e4a3a416f015662",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1727,21 +1727,21 @@
     {
       "group": "traderzones",
       "filename": "Fishing_Trader.json",
-      "sha256": "3ceb6fb2e2a45028aab6d9b50178e4b1e5b0cb5b4f8907081532f95baef5e3ab",
+      "sha256": "eefb35a679bbf4b00143b06db7fda2d749cd0e684dd3098b4d9971e2e7dec58f",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Hunting.json",
-      "sha256": "53bab44a6b78d3eb2b49661f16ad103f97ae4ea9b94a596de5f0b6a81c0b6139",
+      "sha256": "93377645070aa2d29dd422b18bc7557058e6beeb58e544c261dc1965e51da16a",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "95958af25e260d29ff1822edb4f22bb148114210ae2270f1a0d3a00554e81f02",
+      "sha256": "cb54a15a22b882bbb14f7260c0255a962b7c33a790a0b12370b3bf40c9337852",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1783,7 +1783,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "b1d7332132d3299ce8bab4e9c719ffac9e3cdb012dccc0e4eca1cb82dc6f90ab",
+      "sha256": "5ed20e7efcc41c1a47abd142e4209757ea43a067d027ab986a79064b28d0d21d",
       "topLevelType": "object",
       "entryCount": 7
     },

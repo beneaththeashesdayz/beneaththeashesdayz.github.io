@@ -19,12 +19,12 @@
   "DisplayCurrencyName": "USD",
   "UseCategoryOrder": 0,
   "Categories": [
-    "Fish:2",
+    "Fish:1",
     "Fishing_Equipment:1",
     "Geb's_Fishing_Supplies:1",
-    "Geb's_Fish_Meat:2",
-    "Gebs_Fish:2",
-    "Fish_Meat:2"
+    "Geb's_Fish_Meat:1",
+    "Gebs_Fish:1",
+    "Fish_Meat:1"
   ],
   "Items": {}
 }

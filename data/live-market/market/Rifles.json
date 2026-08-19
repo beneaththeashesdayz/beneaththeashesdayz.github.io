@@ -3,16 +3,16 @@
   "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_RIFLES",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 0,
   "IsExchange": 0,
   "Items": [
     {
       "ClassName": "cz527",
       "MaxPriceThreshold": 2920,
       "MinPriceThreshold": 2920,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_cz527_5rnd"
@@ -27,9 +27,9 @@
       "ClassName": "cz550",
       "MaxPriceThreshold": 5715,
       "MinPriceThreshold": 5715,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_cz550_10rnd"
@@ -40,9 +40,9 @@
       "ClassName": "izh18",
       "MaxPriceThreshold": 3080,
       "MinPriceThreshold": 3080,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -53,9 +53,9 @@
       "ClassName": "m14",
       "MaxPriceThreshold": 10805,
       "MinPriceThreshold": 10805,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_m14_10rnd"
@@ -66,9 +66,9 @@
       "ClassName": "mosin9130",
       "MaxPriceThreshold": 3075,
       "MinPriceThreshold": 3075,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -85,9 +85,9 @@
       "ClassName": "repeater",
       "MaxPriceThreshold": 3095,
       "MinPriceThreshold": 3095,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
@@ -96,9 +96,9 @@
       "ClassName": "ruger1022",
       "MaxPriceThreshold": 2945,
       "MinPriceThreshold": 2945,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_ruger1022_15rnd"
@@ -109,9 +109,9 @@
       "ClassName": "sks",
       "MaxPriceThreshold": 2995,
       "MinPriceThreshold": 2995,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "sks_bayonet"
@@ -125,9 +125,9 @@
       "ClassName": "ssg82",
       "MaxPriceThreshold": 6095,
       "MinPriceThreshold": 6095,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_ssg82_5rnd"
@@ -138,9 +138,9 @@
       "ClassName": "winchester70",
       "MaxPriceThreshold": 5900,
       "MinPriceThreshold": 5900,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [

@@ -1,8 +1,8 @@
 window.traderCatalogue={traderName:'Peter',currency:'USD',groupCollectableVariants:true,items:[
-{name:'Crossbow Autumn',className:'crossbow_autumn',category:'Crossbows',buyPrice:1050,sellPrice:525,traderSells:true,traderBuys:true},
-{name:'Crossbow Black',className:'crossbow_black',category:'Crossbows',buyPrice:1050,sellPrice:525,traderSells:true,traderBuys:true},
-{name:'Crossbow Summer',className:'crossbow_summer',category:'Crossbows',buyPrice:1050,sellPrice:525,traderSells:true,traderBuys:true},
-{name:'Crossbow Wood',className:'crossbow_wood',category:'Crossbows',buyPrice:1050,sellPrice:525,traderSells:true,traderBuys:true},
+{name:'Crossbow Autumn',className:'crossbow_autumn',category:'Crossbows',buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true},
+{name:'Crossbow Black',className:'crossbow_black',category:'Crossbows',buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true},
+{name:'Crossbow Summer',className:'crossbow_summer',category:'Crossbows',buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true},
+{name:'Crossbow Wood',className:'crossbow_wood',category:'Crossbows',buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true},
 {name:'Head Bear',className:'head_bear',category:'Heads',buyPrice:2344,sellPrice:1172,traderSells:true,traderBuys:true},
 {name:'Head Bull',className:'head_bull',category:'Heads',buyPrice:681,sellPrice:340,traderSells:true,traderBuys:true},
 {name:'Head Bull Brown',className:'head_bull_brown',category:'Heads',buyPrice:681,sellPrice:340,traderSells:true,traderBuys:true},
@@ -24,8 +24,8 @@ window.traderCatalogue={traderName:'Peter',currency:'USD',groupCollectableVarian
 {name:'Head Wolf',className:'head_wolf',category:'Heads',buyPrice:981,sellPrice:490,traderSells:true,traderBuys:true},
 {name:'Head Wolf Grey',className:'head_wolf_grey',category:'Heads',buyPrice:981,sellPrice:490,traderSells:true,traderBuys:true},
 {name:'Head Wolf White',className:'head_wolf_white',category:'Heads',buyPrice:981,sellPrice:490,traderSells:true,traderBuys:true},
-{name:'Fangeknife',className:'fangeknife',category:'Knifes',buyPrice:974,sellPrice:292,traderSells:true,traderBuys:true},
-{name:'Huntingknife',className:'huntingknife',category:'Knifes',buyPrice:992,sellPrice:298,traderSells:true,traderBuys:true},
+{name:'Fangeknife',className:'fangeknife',category:'Knifes',buyPrice:974,sellPrice:487,traderSells:true,traderBuys:true},
+{name:'Huntingknife',className:'huntingknife',category:'Knifes',buyPrice:992,sellPrice:496,traderSells:true,traderBuys:true},
 {name:'Bearsteakmeat',className:'bearsteakmeat',category:'Meat',buyPrice:406,sellPrice:203,traderSells:true,traderBuys:true},
 {name:'Boarsteakmeat',className:'boarsteakmeat',category:'Meat',buyPrice:269,sellPrice:134,traderSells:true,traderBuys:true},
 {name:'Chickenbreastmeat',className:'chickenbreastmeat',category:'Meat',buyPrice:119,sellPrice:60,traderSells:true,traderBuys:true},
@@ -90,5 +90,5 @@ window.traderCatalogue={traderName:'Peter',currency:'USD',groupCollectableVarian
 {name:'Wolfskinrug',className:'wolfskinrug',category:'Rugs',buyPrice:925,sellPrice:462,traderSells:true,traderBuys:true},
 {name:'Wolfskinrug Grey',className:'wolfskinrug_grey',category:'Rugs',buyPrice:955,sellPrice:478,traderSells:true,traderBuys:true},
 {name:'Wolfskinrug White',className:'wolfskinrug_white',category:'Rugs',buyPrice:975,sellPrice:488,traderSells:true,traderBuys:true},
-{name:'Ammo Huntingbolt',className:'ammo_huntingbolt',category:'Vanilla Ammo',buyPrice:27,sellPrice:8,traderSells:true,traderBuys:true}
+{name:'Ammo Huntingbolt',className:'ammo_huntingbolt',category:'Vanilla Ammo',buyPrice:40,sellPrice:20,traderSells:true,traderBuys:true}
 ]};

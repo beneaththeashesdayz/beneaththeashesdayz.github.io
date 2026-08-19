@@ -3,7 +3,7 @@
   "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_SHOTGUNS",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75,
+  "InitStockPercent": 0,
   "IsExchange": 0,
   "Items": [
     {
@@ -11,8 +11,8 @@
       "MaxPriceThreshold": 1915,
       "MinPriceThreshold": 1915,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -24,8 +24,8 @@
       "MaxPriceThreshold": 1905,
       "MinPriceThreshold": 1905,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -37,8 +37,8 @@
       "MaxPriceThreshold": 5535,
       "MinPriceThreshold": 5535,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
@@ -48,8 +48,8 @@
       "MaxPriceThreshold": 5455,
       "MinPriceThreshold": 5455,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
@@ -59,8 +59,8 @@
       "MaxPriceThreshold": 4220,
       "MinPriceThreshold": 4220,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "saiga_bttstck",

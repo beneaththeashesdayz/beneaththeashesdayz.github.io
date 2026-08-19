@@ -272,9 +272,9 @@
     },
     {
       "ClassName": "ammo_huntingbolt",
-      "MaxPriceThreshold": 27,
-      "MinPriceThreshold": 27,
-      "SellPricePercent": 30,
+      "MaxPriceThreshold": 40,
+      "MinPriceThreshold": 40,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
