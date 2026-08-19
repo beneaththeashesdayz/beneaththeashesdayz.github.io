@@ -3,16 +3,16 @@
   "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_SKIRTS & #STR_EXPANSION_MARKET_CATEGORY_DRESSES",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 0,
   "IsExchange": 0,
   "Items": [
     {
       "ClassName": "minidress_pink",
-      "MaxPriceThreshold": 20045,
-      "MinPriceThreshold": 20045,
+      "MaxPriceThreshold": 500,
+      "MinPriceThreshold": 500,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -27,11 +27,11 @@
     },
     {
       "ClassName": "nursedress_blue",
-      "MaxPriceThreshold": 20145,
-      "MinPriceThreshold": 20145,
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -40,11 +40,11 @@
     },
     {
       "ClassName": "skirt_blue",
-      "MaxPriceThreshold": 19745,
-      "MinPriceThreshold": 19745,
+      "MaxPriceThreshold": 500,
+      "MinPriceThreshold": 500,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [

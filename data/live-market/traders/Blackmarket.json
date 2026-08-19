@@ -19,7 +19,6 @@
   "DisplayCurrencyName": "USD",
   "UseCategoryOrder": 0,
   "Categories": [
-    "Haralds_Ammo:1",
     "Launchers_And_Ammo:2",
     "Batteries:3",
     "Explosives_And_Grenades:2",
@@ -34,13 +33,9 @@
     "Morty's_Optics:1",
     "Morty's_Extras:1",
     "Morty's_Suppressors:1",
-    "Morty's_Ammo:1",
     "Advanced_Weapon_Scopes:1",
     "MYDF_Weapons:1",
-    "MYDF_Melee:1",
-    "MYDF_Attachments:1",
-    "MYDF_Ammo:1",
-    "MYDF_Mags:1"
+    "MYDF_Melee:1"
   ],
   "Items": {
     "AYSA_blackBox": 2,

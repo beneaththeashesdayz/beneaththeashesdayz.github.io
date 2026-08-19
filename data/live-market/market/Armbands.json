@@ -8,8 +8,8 @@
   "Items": [
     {
       "ClassName": "armband_apa",
-      "MaxPriceThreshold": 30210,
-      "MinPriceThreshold": 30210,
+      "MaxPriceThreshold": 250,
+      "MinPriceThreshold": 250,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
@@ -48,8 +48,8 @@
     },
     {
       "ClassName": "armband_white",
-      "MaxPriceThreshold": 29935,
-      "MinPriceThreshold": 29935,
+      "MaxPriceThreshold": 250,
+      "MinPriceThreshold": 250,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,

@@ -3,16 +3,16 @@
   "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_BLOUSES & #STR_EXPANSION_MARKET_CATEGORY_SUITS",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 0,
   "IsExchange": 0,
   "Items": [
     {
       "ClassName": "blouse_blue",
-      "MaxPriceThreshold": 40190,
-      "MinPriceThreshold": 40190,
+      "MaxPriceThreshold": 500,
+      "MinPriceThreshold": 500,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -23,11 +23,11 @@
     },
     {
       "ClassName": "mansuit_beige",
-      "MaxPriceThreshold": 40475,
-      "MinPriceThreshold": 40475,
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -42,11 +42,11 @@
     },
     {
       "ClassName": "womansuit_beige",
-      "MaxPriceThreshold": 40110,
-      "MinPriceThreshold": 40110,
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
