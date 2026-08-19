@@ -8,6 +8,28 @@
   ],
   "Radius": 5.0,
   "BuyPricePercent": 100.0,
-  "SellPricePercent": 50,
-  "Stock": {}
+  "SellPricePercent": 50.0,
+  "Stock": {
+    "gasmask_filter": 0,
+    "bandagedressing": 0,
+    "disinfectantalcohol": 0,
+    "painkillertablets": 0,
+    "tetracyclineantibiotics": 0,
+    "charcoaltablets": 0,
+    "morphine": 0,
+    "firstaidkit": 0,
+    "thermometer": 0,
+    "disinfectantspray": 0,
+    "heatpack": 0,
+    "purificationtablets": 0,
+    "bloodtestkit": 0,
+    "chelatingtablets": 0,
+    "epinephrine": 0,
+    "anticheminjector": 0,
+    "vitaminbottle": 0,
+    "salinebag": 0,
+    "bloodbagempty": 0,
+    "iodinetincture": 0,
+    "startkitiv": 0
+  }
 }
