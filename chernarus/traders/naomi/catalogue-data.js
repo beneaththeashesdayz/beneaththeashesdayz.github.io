@@ -31,7 +31,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'NotaCola',className:'sodacan_fronta',category:'Drinks',mode:'sell',price:10040},
 {name:'Pipsi',className:'sodacan_pipsi',category:'Drinks',mode:'sell',price:10165},
 {name:'Spite',className:'sodacan_spite',category:'Drinks',mode:'sell',price:9780},
-{name:'Water Bottle',className:'waterbottle',category:'Drinks',mode:'sell',price:10310},
+{name:'Water Bottle',className:'waterbottle',category:'Drinks',mode:'buy',price:10310,sellPrice:5155},
 {name:'Empty Can',className:'loner_can_empty',category:'Cans',mode:'sell',price:300},
 {name:'Small Empty Can',className:'loner_can_small_empty',category:'Cans',mode:'sell',price:250},
 {name:'Agaricusmushroom',className:'agaricusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
@@ -52,8 +52,8 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Tomato',className:'tomato',category:'Fruit And Vegetables',mode:'sell',price:200},
 {name:'Zucchini',className:'zucchini',category:'Fruit And Vegetables',mode:'sell',price:900},
 {name:'Gardenlime',className:'gardenlime',category:'Gardening',mode:'sell',price:35955},
-{name:'Pepperseedspack',className:'pepperseedspack',category:'Gardening',mode:'sell',price:35355},
-{name:'Pumpkinseedspack',className:'pumpkinseedspack',category:'Gardening',mode:'sell',price:34600},
+{name:'Pepperseedspack',className:'pepperseedspack',category:'Gardening',mode:'buy',price:35355,sellPrice:17678},
+{name:'Pumpkinseedspack',className:'pumpkinseedspack',category:'Gardening',mode:'buy',price:34600,sellPrice:17300},
 {name:'Tomatoseedspack',className:'tomatoseedspack',category:'Gardening',mode:'sell',price:34670},
 {name:'Zucchiniseedspack',className:'zucchiniseedspack',category:'Gardening',mode:'sell',price:34140}
 ]};
