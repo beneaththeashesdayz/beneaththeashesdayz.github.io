@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-08-19T11:37:34.022681+00:00",
+  "syncedAt": "2026-08-19T11:42:48.695087+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -726,7 +726,7 @@
     {
       "group": "market",
       "filename": "Gardening.json",
-      "sha256": "36f1efab2342d44388a0dcc25159d7a6a69f5fc5388b2b3cadab545de3067064",
+      "sha256": "de2bebe68b0574b62b222500e887bcb61f30cc43c4ee2f15bc3f382d6700c60b",
       "topLevelType": "object",
       "entryCount": 7
     },
