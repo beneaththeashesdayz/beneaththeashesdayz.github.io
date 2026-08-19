@@ -17,10 +17,8 @@ TRADERS = {
         "zone": "Main_Consumables_Trader.json",
         "currency": "USD",
         "currency_label": None,
-        # Naomi's normal consumables are available in both directions. Gardening
-        # stock is the deliberate exception: players may sell it to Naomi only.
-        "inherited_category_buyback": True,
-        "buyback_excluded_categories": ["Gardening"],
+        # Naomi's entire configured market is available in both directions.
+        "force_bidirectional": True,
     },
     "rolf": {
         "name": "Rolf",
@@ -594,6 +592,7 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
         else:
             category = curated_item["category"] if curated_item else market["category"]
 
+        force_bidirectional = bool(cfg.get("force_bidirectional"))
         mode = "buy" if int(stock_value) == 1 else "sell"
         row = {
             "name": name,
@@ -603,7 +602,14 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
             "price": market["price"],
         }
 
-        if mode == "buy":
+        if force_bidirectional:
+            row["traderSells"] = True
+            row["traderBuys"] = True
+            percent = effective_sell_percent(market, zone)
+            if percent is not None:
+                row["buyPrice"] = round(float(market["price"]))
+                row["sellPrice"] = round(float(market["price"]) * (percent / 100.0))
+        elif mode == "buy":
             percent = effective_sell_percent(market, zone)
             if percent is not None:
                 row["sellPrice"] = round(float(market["price"]) * (percent / 100.0))
@@ -648,8 +654,14 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
                 price,
             )
         )
+        if "buyPrice" in item:
+            fields += f",buyPrice:{int(item['buyPrice'])}"
         if "sellPrice" in item:
             fields += f",sellPrice:{int(item['sellPrice'])}"
+        if "traderSells" in item:
+            fields += ",traderSells:true"
+        if "traderBuys" in item:
+            fields += ",traderBuys:true"
         fields += "}"
         lines.append(fields)
 
