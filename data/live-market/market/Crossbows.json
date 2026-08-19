@@ -3,16 +3,16 @@
   "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_CROSSBOWS",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75,
+  "InitStockPercent": 0,
   "IsExchange": 0,
   "Items": [
     {
       "ClassName": "crossbow_autumn",
       "MaxPriceThreshold": 1050,
       "MinPriceThreshold": 1050,
-      "SellPricePercent": 30,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [

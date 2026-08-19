@@ -19,11 +19,11 @@
   "DisplayCurrencyName": "USD",
   "UseCategoryOrder": 0,
   "Categories": [
-    "Pelts:2",
-    "Meat:2",
+    "Pelts:1",
+    "Meat:1",
     "Crossbows:1",
-    "Heads:2",
-    "Rugs:2"
+    "Heads:1",
+    "Rugs:1"
   ],
   "Items": {
     "ammo_huntingbolt": 1,

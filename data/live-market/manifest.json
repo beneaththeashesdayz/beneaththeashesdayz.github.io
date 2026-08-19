@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-08-19T11:42:48.695087+00:00",
+  "syncedAt": "2026-08-19T12:01:41.457607+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -327,7 +327,7 @@
     {
       "group": "market",
       "filename": "Crossbows.json",
-      "sha256": "c8947b009b3c815e842817ab92ef256bcb692d6ebee0f180973965b40d950548",
+      "sha256": "44c16f8affadae8f73e7dea286873fe460800d4f859a7a6a1d16b6091d15a679",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -866,7 +866,7 @@
     {
       "group": "market",
       "filename": "Heads.json",
-      "sha256": "01365970eb979ef11ca3e9f7ea062419e83aa41c200cb9e800cc5ffbcc682142",
+      "sha256": "39fc1f85296f538dfb64183b38a2c4b84aedd402d4175d05a1418468784c0e03",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -985,7 +985,7 @@
     {
       "group": "market",
       "filename": "Meat.json",
-      "sha256": "6eeaecef5ca1e5f883f7063bf24971e05676911a9e59c035b1368fb8e00f3f11",
+      "sha256": "a1b62e909954b3bf83896fa015f91b0f3952edc3dd6d3bc27ccec45ac5ef8cc1",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1223,7 +1223,7 @@
     {
       "group": "market",
       "filename": "Pelts.json",
-      "sha256": "b30ec5a083e29cc44b0380068aebe2eb495b6fba45fd2f5f3f72e2af0d4d92a5",
+      "sha256": "b6310b4a40979aa2acc7290566dbeeba6b1616ae000d25173093a5f9c7f66be6",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1286,7 +1286,7 @@
     {
       "group": "market",
       "filename": "Rugs.json",
-      "sha256": "3f6fa3836dd5be70f3e1bfd899260f1a2788a2ae5bef193b789fa9a3c217347b",
+      "sha256": "0373e3617d0923a131a17c164bf998a7ae5b3da2a2850e34dc87d3a0d9e3085a",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1580,7 +1580,7 @@
     {
       "group": "traders",
       "filename": "Hunting.json",
-      "sha256": "abc252a7720b1fef8796a6292d12234ef0e123a4e983f7f058301fc30d5ab0ee",
+      "sha256": "f2eec7d44d72a4ec11eda2082d66158df8ed6db3f509e4863af516744104ae19",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1734,7 +1734,7 @@
     {
       "group": "traderzones",
       "filename": "Hunting.json",
-      "sha256": "3ef49f1073e5dccdd11d897d7601e255bce0d2f7bcf567c13844ea23351f17b7",
+      "sha256": "53bab44a6b78d3eb2b49661f16ad103f97ae4ea9b94a596de5f0b6a81c0b6139",
       "topLevelType": "object",
       "entryCount": 7
     },
