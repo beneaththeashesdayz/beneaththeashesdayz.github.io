@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-08-18T23:58:18.450557+00:00",
+  "syncedAt": "2026-08-19T02:05:49.827142+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -173,7 +173,7 @@
     {
       "group": "market",
       "filename": "Cans.json",
-      "sha256": "ef4318fa6b86423db3e47041cc321b57122647de0d48aeea02e8d7bea7c8f3f0",
+      "sha256": "66d7765a8f4ca689cacf0969010ca42393cac8d20f433a861d9981b83009d243",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -383,7 +383,7 @@
     {
       "group": "market",
       "filename": "Drinks.json",
-      "sha256": "e10c4063c5b89c4cdb5152128ee3f838d61bbad9fb08e1c2728b0dba2f3d0fd8",
+      "sha256": "ac21a188083069f16f96e230c7c41019116a674b881e699d69375c2e341c458a",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -649,7 +649,7 @@
     {
       "group": "market",
       "filename": "Food.json",
-      "sha256": "e55570d1cfa7d734e65b1d71d55822a4f55bed04c5579aa8d3ce966ee81ac9d1",
+      "sha256": "55886ac21a5c56035d6bff9064a4ec47c6dcc837156707b692e70546d74fe70a",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -691,7 +691,7 @@
     {
       "group": "market",
       "filename": "Fruit_And_Vegetables.json",
-      "sha256": "b752ea958fbca745f9c6755a22904757d0ab73d62bf32599a6284a9500769755",
+      "sha256": "f3d9a126a26ecd7a4f52182b8c51eed76aba9a0fb33f4a269ad5113d8a410094",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -726,7 +726,7 @@
     {
       "group": "market",
       "filename": "Gardening.json",
-      "sha256": "1a56f4dc8d3da90c85b16977ce09d391a92245781b8ea7b4c1f39e5d1979ad72",
+      "sha256": "36f1efab2342d44388a0dcc25159d7a6a69f5fc5388b2b3cadab545de3067064",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1531,7 +1531,7 @@
     {
       "group": "traders",
       "filename": "Consumables.json",
-      "sha256": "c903181a26c98bc96c9b1b80fc94f63f72ba4112b391b48d379d82c977933c4f",
+      "sha256": "cf91aba2f808195da5fad8a0e9c235912aa4a80c6225d3f6b9c32bd060207de3",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1741,7 +1741,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "e7d6af843e65c5917cadd17ca67b5785dfad7a8cb71760227e6efccccf594ae8",
+      "sha256": "6630ba097ceb2f33677b33507d47b0ab2ff15345c7614680d2c2e1d008f941f2",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1762,7 +1762,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Consumables_Trader.json",
-      "sha256": "6576be71425ca576f36acf6bd6ea4b8fc3131f49419dea6a41e94a4d651f2c0e",
+      "sha256": "4f76c4de86aa156706a11ec0037e0953099c6eb0616e0f9cba4a3bcad266efe1",
       "topLevelType": "object",
       "entryCount": 7
     },

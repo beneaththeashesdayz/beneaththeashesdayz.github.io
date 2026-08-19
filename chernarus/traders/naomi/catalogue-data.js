@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyback:true,inheritedSellPercent:1,buybackExcludedCategories:['Gardening'],items:[
+window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyback:true,inheritedSellPercent:50,buybackExcludedCategories:['Gardening'],items:[
 {name:'Baked Beans',className:'bakedbeanscan',category:'Food',mode:'sell',price:9965},
 {name:'Brisket Spread',className:'brisketspread',category:'Food',mode:'sell',price:10055},
 {name:'Canned Peaches',className:'peachescan',category:'Food',mode:'sell',price:10080},
@@ -34,9 +34,26 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Water Bottle',className:'waterbottle',category:'Drinks',mode:'sell',price:10310},
 {name:'Empty Can',className:'loner_can_empty',category:'Cans',mode:'sell',price:300},
 {name:'Small Empty Can',className:'loner_can_small_empty',category:'Cans',mode:'sell',price:250},
-{name:'Gardenlime',className:'gardenlime',category:'Gardening',mode:'buy',price:35955,sellPrice:360},
-{name:'Pepperseedspack',className:'pepperseedspack',category:'Gardening',mode:'buy',price:35355,sellPrice:354},
-{name:'Pumpkinseedspack',className:'pumpkinseedspack',category:'Gardening',mode:'buy',price:34600,sellPrice:346},
-{name:'Tomatoseedspack',className:'tomatoseedspack',category:'Gardening',mode:'buy',price:34670,sellPrice:347},
-{name:'Zucchiniseedspack',className:'zucchiniseedspack',category:'Gardening',mode:'buy',price:34140,sellPrice:341}
+{name:'Agaricusmushroom',className:'agaricusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
+{name:'Apple',className:'apple',category:'Fruit And Vegetables',mode:'sell',price:150},
+{name:'Auriculariamushroom',className:'auriculariamushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
+{name:'Boletusmushroom',className:'boletusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
+{name:'Craterellusmushroom',className:'craterellusmushroom',category:'Fruit And Vegetables',mode:'sell',price:1200},
+{name:'Greenbellpepper',className:'greenbellpepper',category:'Fruit And Vegetables',mode:'sell',price:800},
+{name:'Lactariusmushroom',className:'lactariusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
+{name:'Macrolepiotamushroom',className:'macrolepiotamushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
+{name:'Pear',className:'pear',category:'Fruit And Vegetables',mode:'sell',price:150},
+{name:'Pleurotusmushroom',className:'pleurotusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
+{name:'Plum',className:'plum',category:'Fruit And Vegetables',mode:'sell',price:150},
+{name:'Potato',className:'potato',category:'Fruit And Vegetables',mode:'sell',price:600},
+{name:'Potatoseed',className:'potatoseed',category:'Fruit And Vegetables',mode:'sell',price:600},
+{name:'Pumpkin',className:'pumpkin',category:'Fruit And Vegetables',mode:'sell',price:500},
+{name:'Slicedpumpkin',className:'slicedpumpkin',category:'Fruit And Vegetables',mode:'sell',price:250},
+{name:'Tomato',className:'tomato',category:'Fruit And Vegetables',mode:'sell',price:200},
+{name:'Zucchini',className:'zucchini',category:'Fruit And Vegetables',mode:'sell',price:900},
+{name:'Gardenlime',className:'gardenlime',category:'Gardening',mode:'sell',price:35955},
+{name:'Pepperseedspack',className:'pepperseedspack',category:'Gardening',mode:'sell',price:35355},
+{name:'Pumpkinseedspack',className:'pumpkinseedspack',category:'Gardening',mode:'sell',price:34600},
+{name:'Tomatoseedspack',className:'tomatoseedspack',category:'Gardening',mode:'sell',price:34670},
+{name:'Zucchiniseedspack',className:'zucchiniseedspack',category:'Gardening',mode:'sell',price:34140}
 ]};

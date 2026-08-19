@@ -3,7 +3,7 @@
   "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_GARDENING",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75,
+  "InitStockPercent": 0,
   "IsExchange": 0,
   "Items": [
     {
@@ -11,8 +11,8 @@
       "MaxPriceThreshold": 35955,
       "MinPriceThreshold": 35955,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
@@ -22,8 +22,8 @@
       "MaxPriceThreshold": 35355,
       "MinPriceThreshold": 35355,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
@@ -33,8 +33,8 @@
       "MaxPriceThreshold": 34600,
       "MinPriceThreshold": 34600,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
@@ -44,8 +44,8 @@
       "MaxPriceThreshold": 34670,
       "MinPriceThreshold": 34670,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
@@ -55,63 +55,8 @@
       "MaxPriceThreshold": 34140,
       "MinPriceThreshold": 34140,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "GreenBellPepper",
-      "MaxPriceThreshold": 750,
-      "MinPriceThreshold": 750,
-      "SellPricePercent": 100,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "Pumpkin",
-      "MaxPriceThreshold": 1200,
-      "MinPriceThreshold": 1200,
-      "SellPricePercent": 100,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "Tomato",
-      "MaxPriceThreshold": 500,
-      "MinPriceThreshold": 500,
-      "SellPricePercent": 100,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "Zucchini",
-      "MaxPriceThreshold": 300,
-      "MinPriceThreshold": 300,
-      "SellPricePercent": 100,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "PotatoSeed",
-      "MaxPriceThreshold": 450,
-      "MinPriceThreshold": 450,
-      "SellPricePercent": 100,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
