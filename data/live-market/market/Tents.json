@@ -3,38 +3,38 @@
   "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_TENTS",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 0,
   "IsExchange": 0,
   "Items": [
     {
       "ClassName": "cartent",
-      "MaxPriceThreshold": 100000,
-      "MinPriceThreshold": 100000,
+      "MaxPriceThreshold": 15000,
+      "MinPriceThreshold": 15000,
       "SellPricePercent": -1.0,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
     {
       "ClassName": "largetent",
-      "MaxPriceThreshold": 75615,
-      "MinPriceThreshold": 75615,
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
       "SellPricePercent": -1.0,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
     {
       "ClassName": "mediumtent",
-      "MaxPriceThreshold": 25345,
-      "MinPriceThreshold": 25345,
+      "MaxPriceThreshold": 5000,
+      "MinPriceThreshold": 5000,
       "SellPricePercent": -1.0,
-      "MaxStockThreshold": 2,
-      "MinStockThreshold": 2,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -43,23 +43,12 @@
       ]
     },
     {
-      "ClassName": "mediumtent_green",
-      "MaxPriceThreshold": 25180,
-      "MinPriceThreshold": 25180,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 2,
-      "MinStockThreshold": 2,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
       "ClassName": "partytent",
-      "MaxPriceThreshold": 44330,
-      "MinPriceThreshold": 44330,
+      "MaxPriceThreshold": 3000,
+      "MinPriceThreshold": 3000,
       "SellPricePercent": -1.0,
-      "MaxStockThreshold": 2,
-      "MinStockThreshold": 2,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -67,17 +56,6 @@
         "partytent_brown",
         "partytent_lunapark"
       ]
-    },
-    {
-      "ClassName": "partytent_lunapark",
-      "MaxPriceThreshold": 45995,
-      "MinPriceThreshold": 45995,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 2,
-      "MinStockThreshold": 2,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
     }
   ]
 }
