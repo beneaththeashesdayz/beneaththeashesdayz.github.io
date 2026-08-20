@@ -7,61 +7,6 @@
   "IsExchange": 0,
   "Items": [
     {
-      "ClassName": "my_df_weapons_ammo_338_lapmag",
-      "MaxPriceThreshold": 1500,
-      "MinPriceThreshold": 1500,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_357magnum_fmj",
-      "MaxPriceThreshold": 1020,
-      "MinPriceThreshold": 1020,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_357magnum_hp",
-      "MaxPriceThreshold": 1020,
-      "MinPriceThreshold": 1020,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_357magnum_jhp",
-      "MaxPriceThreshold": 1020,
-      "MinPriceThreshold": 1020,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_357magnum_shot",
-      "MaxPriceThreshold": 1020,
-      "MinPriceThreshold": 1020,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
       "ClassName": "my_df_weapons_dmr_m14_10rndmag",
       "MaxPriceThreshold": 600,
       "MinPriceThreshold": 600,

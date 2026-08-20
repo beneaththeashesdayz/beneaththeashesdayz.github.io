@@ -3,7 +3,7 @@
   "DisplayName": "MYDF Ammo",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": [
     {
@@ -921,8 +921,8 @@
     },
     {
       "ClassName": "my_df_weapons_ammo_law_he",
-      "MaxPriceThreshold": 5000,
-      "MinPriceThreshold": 5000,
+      "MaxPriceThreshold": 250,
+      "MinPriceThreshold": 250,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
@@ -932,39 +932,6 @@
     },
     {
       "ClassName": "my_df_weapons_ammo_m203_grenade",
-      "MaxPriceThreshold": 1000,
-      "MinPriceThreshold": 1000,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_rpg7_ap",
-      "MaxPriceThreshold": 8000,
-      "MinPriceThreshold": 8000,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_rpg7_he",
-      "MaxPriceThreshold": 7000,
-      "MinPriceThreshold": 7000,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_shockpistol",
       "MaxPriceThreshold": 100,
       "MinPriceThreshold": 100,
       "SellPricePercent": -1,
@@ -975,7 +942,7 @@
       "Variants": []
     },
     {
-      "ClassName": "my_df_weapons_ammo_smoke_riflegrenade",
+      "ClassName": "my_df_weapons_ammo_rpg7_ap",
       "MaxPriceThreshold": 500,
       "MinPriceThreshold": 500,
       "SellPricePercent": -1,
@@ -986,12 +953,89 @@
       "Variants": []
     },
     {
-      "ClassName": "my_df_weapons_ammo_vog25_grenade",
-      "MaxPriceThreshold": 1000,
-      "MinPriceThreshold": 1000,
+      "ClassName": "my_df_weapons_ammo_rpg7_he",
+      "MaxPriceThreshold": 400,
+      "MinPriceThreshold": 400,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "my_df_weapons_ammo_smoke_riflegrenade",
+      "MaxPriceThreshold": 100,
+      "MinPriceThreshold": 100,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "my_df_weapons_ammo_vog25_grenade",
+      "MaxPriceThreshold": 100,
+      "MinPriceThreshold": 100,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "my_df_weapons_ammo_338_lapmag",
+      "MaxPriceThreshold": 130,
+      "MinPriceThreshold": 130,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "my_df_weapons_ammo_357magnum_fmj",
+      "MaxPriceThreshold": 60,
+      "MinPriceThreshold": 60,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "my_df_weapons_ammo_357magnum_hp",
+      "MaxPriceThreshold": 65,
+      "MinPriceThreshold": 65,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "my_df_weapons_ammo_357magnum_jhp",
+      "MaxPriceThreshold": 70,
+      "MinPriceThreshold": 70,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "my_df_weapons_ammo_357magnum_shot",
+      "MaxPriceThreshold": 50,
+      "MinPriceThreshold": 50,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
