@@ -43,6 +43,13 @@
     return Number.isFinite(price) && price >= 0 ? money(price) : disabledLabel;
   }
 
+  function purchaseSortPrice(group) {
+    const prices = group.variants
+      .map(vehicle => Number(vehicle.buyCost))
+      .filter(price => Number.isFinite(price) && price >= 0);
+    return prices.length ? Math.min(...prices) : Number.POSITIVE_INFINITY;
+  }
+
   function groupVehicles(vehicles) {
     const groups = new Map();
     vehicles.forEach(vehicle => {
@@ -63,7 +70,10 @@
         variants: group.variants.sort((a, b) =>
           String(a.color || '').localeCompare(String(b.color || '')))
       }))
-      .sort((a, b) => a.name.localeCompare(b.name));
+      .sort((a, b) =>
+        purchaseSortPrice(a) - purchaseSortPrice(b) ||
+        a.name.localeCompare(b.name)
+      );
   }
 
   function categoryRoots(pattern) {
