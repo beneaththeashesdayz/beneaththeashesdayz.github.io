@@ -49,7 +49,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Potatoseed',className:'potatoseed',category:'Fruit And Vegetables',mode:'sell',price:600,buyPrice:600,sellPrice:300,traderSells:true,traderBuys:true},
 {name:'Pumpkin',className:'pumpkin',category:'Fruit And Vegetables',mode:'sell',price:500,buyPrice:500,sellPrice:250,traderSells:true,traderBuys:true},
 {name:'Slicedpumpkin',className:'slicedpumpkin',category:'Fruit And Vegetables',mode:'sell',price:250,buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true},
-{name:'Tomato',className:'tomato',category:'Fruit And Vegetables',mode:'sell',price:200,buyPrice:200,sellPrice:100,traderSells:true,traderBuys:true},
+{name:'Tomato',className:'tomato',category:'Fruit And Vegetables',mode:'buy',price:200,buyPrice:200,sellPrice:100,traderSells:true,traderBuys:true},
 {name:'Zucchini',className:'zucchini',category:'Fruit And Vegetables',mode:'sell',price:900,buyPrice:900,sellPrice:450,traderSells:true,traderBuys:true},
 {name:'Gardenlime',className:'gardenlime',category:'Gardening',mode:'sell',price:8000,buyPrice:8000,sellPrice:4000,traderSells:true,traderBuys:true},
 {name:'Pepperseedspack',className:'pepperseedspack',category:'Gardening',mode:'sell',price:6000,buyPrice:6000,sellPrice:3000,traderSells:true,traderBuys:true},
