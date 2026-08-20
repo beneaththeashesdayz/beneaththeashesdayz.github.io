@@ -1,5 +1,5 @@
 window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
-{name:'Loner Can Empty',className:'loner_can_empty',category:'Cans',mode:'sell',price:300,buyPrice:300,sellPrice:150,traderSells:true,traderBuys:true},
+{name:'Loner Can Empty',className:'loner_can_empty',category:'Cans',mode:'buy',price:300,buyPrice:300,sellPrice:150,traderSells:true,traderBuys:true},
 {name:'Loner Can Small Empty',className:'loner_can_small_empty',category:'Cans',mode:'sell',price:250,buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true},
 {name:'Expansionmilkbottle',className:'expansionmilkbottle',category:'Drinks',mode:'sell',price:9845,buyPrice:9845,sellPrice:4922,traderSells:true,traderBuys:true},
 {name:'Sodacan Cola',className:'sodacan_cola',category:'Drinks',mode:'sell',price:9955,buyPrice:9955,sellPrice:4978,traderSells:true,traderBuys:true},
