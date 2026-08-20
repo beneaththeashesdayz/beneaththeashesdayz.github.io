@@ -197,6 +197,7 @@ window.traderCatalogue={traderName:'Manua',currency:'USD',items:[
 {name:'Medium Gas Canister',className:'MediumGasCanister',category:'Supplies',buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true},
 {name:'Nailbox',className:'nailbox',category:'Supplies',buyPrice:3500,sellPrice:1750,traderSells:true,traderBuys:true},
 {name:'Rag Baseitems Workbench Blueprint',className:'rag_baseitems_workbench_blueprint',category:'Supplies',buyPrice:5000,sellPrice:2500,traderSells:true,traderBuys:true},
+{name:'Rope',className:'rope',category:'Supplies',buyPrice:300,sellPrice:150,traderSells:true,traderBuys:true},
 {name:'Small Gas Canister',className:'SmallGasCanister',category:'Supplies',buyPrice:1500,sellPrice:750,traderSells:true,traderBuys:true},
 {name:'Tripod',className:'tripod',category:'Supplies',buyPrice:1000,sellPrice:500,traderSells:true,traderBuys:true},
 {name:'Cartent',className:'cartent',category:'Tents',buyPrice:15000,sellPrice:7500,traderSells:true,traderBuys:true},
