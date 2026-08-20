@@ -222,3 +222,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 /* Keep every Poké Ball tier card at the same grid width. */
 .pokemon-tier-card.master{grid-column:auto!important}
+
+/* Keep the Team Rocket notice readable at every width. */
+.pokemon-drop-notice{display:block!important}.pokemon-drop-notice>div+div{margin-top:18px;max-width:900px}.pokemon-drop-notice p+p{margin-top:10px}
