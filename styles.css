@@ -225,3 +225,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 /* Keep the Team Rocket notice readable at every width. */
 .pokemon-drop-notice{display:block!important}.pokemon-drop-notice>div+div{margin-top:18px;max-width:900px}.pokemon-drop-notice p+p{margin-top:10px}
+
+/* Final override for the Team Rocket supply-drop notice. */
+.events-page .pokemon-drop-notice{display:block!important;grid-template-columns:none!important}.events-page .pokemon-drop-notice>div{display:block!important;width:100%!important}.events-page .pokemon-drop-notice>div+div{margin-top:20px!important}
