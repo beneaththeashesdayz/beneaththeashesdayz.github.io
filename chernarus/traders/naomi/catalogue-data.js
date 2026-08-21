@@ -51,9 +51,9 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Slicedpumpkin',className:'slicedpumpkin',category:'Fruit And Vegetables',mode:'sell',price:250,buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true},
 {name:'Tomato',className:'tomato',category:'Fruit And Vegetables',mode:'buy',price:200,buyPrice:200,sellPrice:100,traderSells:true,traderBuys:true},
 {name:'Zucchini',className:'zucchini',category:'Fruit And Vegetables',mode:'sell',price:900,buyPrice:900,sellPrice:450,traderSells:true,traderBuys:true},
-{name:'Gardenlime',className:'gardenlime',category:'Gardening',mode:'sell',price:8000,buyPrice:8000,sellPrice:4000,traderSells:true,traderBuys:true},
-{name:'Pepperseedspack',className:'pepperseedspack',category:'Gardening',mode:'sell',price:6000,buyPrice:6000,sellPrice:3000,traderSells:true,traderBuys:true},
-{name:'Pumpkinseedspack',className:'pumpkinseedspack',category:'Gardening',mode:'sell',price:4000,buyPrice:4000,sellPrice:2000,traderSells:true,traderBuys:true},
-{name:'Tomatoseedspack',className:'tomatoseedspack',category:'Gardening',mode:'sell',price:6000,buyPrice:6000,sellPrice:3000,traderSells:true,traderBuys:true},
-{name:'Zucchiniseedspack',className:'zucchiniseedspack',category:'Gardening',mode:'sell',price:6000,buyPrice:6000,sellPrice:3000,traderSells:true,traderBuys:true}
+{name:'Gardenlime',className:'gardenlime',category:'Gardening',mode:'sell',price:4000,buyPrice:4000,sellPrice:2000,traderSells:true,traderBuys:true},
+{name:'Pepperseedspack',className:'pepperseedspack',category:'Gardening',mode:'sell',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true},
+{name:'Pumpkinseedspack',className:'pumpkinseedspack',category:'Gardening',mode:'sell',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true},
+{name:'Tomatoseedspack',className:'tomatoseedspack',category:'Gardening',mode:'sell',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true},
+{name:'Zucchiniseedspack',className:'zucchiniseedspack',category:'Gardening',mode:'sell',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true}
 ]};

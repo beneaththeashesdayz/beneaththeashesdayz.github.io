@@ -491,7 +491,7 @@ window.traderCatalogue={traderName:'Gabi',currency:'USD',groupCollectableVariant
 {name:'Fallout Nuka-Cola Cherry',className:'dlt_falloutz_nukacola_cherry',category:'Fallout Nuka-Cola',sellPrice:1210,traderSells:false,traderBuys:true},
 {name:'Fallout Nuka-Cola Classic',className:'dlt_falloutz_nukacola',category:'Fallout Nuka-Cola',sellPrice:1200,traderSells:false,traderBuys:true},
 {name:'Fallout Nuka-Cola Dark',className:'dlt_falloutz_nukacola_dark',category:'Fallout Nuka-Cola',sellPrice:1220,traderSells:false,traderBuys:true},
-{name:'Fallout Nuka-Cola Display Rack Kit',className:'dlt_falloutz_nukacolarackkit',category:'Fallout Nuka-Cola',sellPrice:1250,traderSells:false,traderBuys:true},
+{name:'Fallout Nuka-Cola Display Rack Kit',className:'DLT_FalloutZ_NukaColaRackKit',category:'Fallout Nuka-Cola',buyPrice:12500,traderSells:true,traderBuys:false},
 {name:'Fallout Nuka-Cola Grape',className:'dlt_falloutz_nukacola_grape',category:'Fallout Nuka-Cola',sellPrice:1230,traderSells:false,traderBuys:true},
 {name:'Fallout Nuka-Cola Orange',className:'dlt_falloutz_nukacola_orange',category:'Fallout Nuka-Cola',sellPrice:1240,traderSells:false,traderBuys:true},
 {name:'Fallout Nuka-Cola Quantum',className:'dlt_falloutz_nukacola_quantum',category:'Fallout Nuka-Cola',sellPrice:1300,traderSells:false,traderBuys:true},
