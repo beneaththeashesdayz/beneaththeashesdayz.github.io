@@ -2,10 +2,10 @@
   "source": "Beneath the Ashes Chernarus live P2P market",
   "status": "ok",
   "note": null,
-  "syncedAt": "2026-08-21T14:49:24.204543+00:00",
+  "syncedAt": "2026-08-21T17:03:32.278225+00:00",
   "maxListingTimeSeconds": 604800,
   "listingFeePercent": 10,
-  "listingCount": 5,
+  "listingCount": 4,
   "listings": [
     {
       "key": "3d9f4d4515e4886a",
@@ -20,22 +20,6 @@
       "healthLevel": 0,
       "quantity": 0.0,
       "quantityType": 0,
-      "includedItemCount": 0,
-      "includedItems": []
-    },
-    {
-      "key": "4b1d874da58714db",
-      "traderId": 1,
-      "name": "Attack2Bag Yeger",
-      "className": "Attack2Bag_Yeger",
-      "skinName": null,
-      "seller": "MrsWiseGuy17",
-      "price": 3000,
-      "listedAt": "2026-08-20T22:32:48+00:00",
-      "expiresAt": "2026-08-27T22:32:48+00:00",
-      "healthLevel": 0,
-      "quantity": 0.800000011920929,
-      "quantityType": 64,
       "includedItemCount": 0,
       "includedItems": []
     },

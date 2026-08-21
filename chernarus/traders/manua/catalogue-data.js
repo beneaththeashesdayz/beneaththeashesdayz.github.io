@@ -289,6 +289,7 @@ window.traderCatalogue={traderName:'Manua',currency:'USD',items:[
 {name:'Tlrlight',className:'tlrlight',category:'Lights',buyPrice:750,sellPrice:375,traderSells:true,traderBuys:true},
 {name:'Universallight',className:'universallight',category:'Lights',buyPrice:750,sellPrice:375,traderSells:true,traderBuys:true},
 {name:'Xmaslights',className:'xmaslights',category:'Lights',buyPrice:500,sellPrice:250,traderSells:true,traderBuys:true},
+{name:'Codelock',className:'codelock',category:'Locks',buyPrice:36555,sellPrice:18278,traderSells:true,traderBuys:true},
 {name:'Bbp Carpet 1',className:'bbp_carpet_1',category:'Rag Supplies',buyPrice:750,sellPrice:375,traderSells:true,traderBuys:true},
 {name:'Bbp Plaster 1',className:'bbp_plaster_1',category:'Rag Supplies',buyPrice:1000,sellPrice:500,traderSells:true,traderBuys:true},
 {name:'Bbp Tapemeasure',className:'bbp_tapemeasure',category:'Rag Supplies',buyPrice:500,sellPrice:250,traderSells:true,traderBuys:true},

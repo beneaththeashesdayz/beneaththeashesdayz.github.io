@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-08-21T14:49:24.017328+00:00",
+  "syncedAt": "2026-08-21T17:03:32.086215+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -1531,7 +1531,7 @@
     {
       "group": "traders",
       "filename": "BuildingSupplies.json",
-      "sha256": "116add9b527d133686ac537b90cb14a30a41c86131f6c28aa34ee58feb7a7778",
+      "sha256": "c4fc2c3f00c8cb556a864f82bcd5178d0a2b8762b9f374b09c859122bb795b84",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1734,21 +1734,21 @@
     {
       "group": "traderzones",
       "filename": "Blackmarket.json",
-      "sha256": "6c929c9f59b0399a3219c9b252bdafb2d75efa871b6f7a1c68287ee2eddce641",
+      "sha256": "033860675a40968c2b56f215f5d59f79ed0e6b97d2f1a7bd6f0a41f809d3d7e2",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Blackmarket_ZN.json",
-      "sha256": "e98c1877098192006e769ebda14e88c11b17a1fea331ad7ca32a8f96f2703fa6",
+      "sha256": "a4ee5bf14abe9a3a8dbdea1cdd69ad5f1f133c5e5305540e04763420e96c8828",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Collectables.json",
-      "sha256": "70810a8cb7ee0c378a4433819f04bb7626db7520d15df1e7c00d4624bf8053fc",
+      "sha256": "70075f479264cbd960e0278d20f0a646f008ea622526a4e55297663363ce8511",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1776,35 +1776,35 @@
     {
       "group": "traderzones",
       "filename": "Hunting.json",
-      "sha256": "93377645070aa2d29dd422b18bc7557058e6beeb58e544c261dc1965e51da16a",
+      "sha256": "4586dd7d36147e862c33730f4fe5f5dc5f9ac702483ccefb73f98659357e7960",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "f42935982e46c07a76f0bb54baea4619968848ea75405f6eb0996867f1c865d6",
+      "sha256": "2d74d0b3063bcebd4b01007d33927f3dda17e0e205196b0367f08ace179172ff",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_BuildingSupplies_Trader.json",
-      "sha256": "97774f2644044b0953be25f5ea9f2f90873bf142c50c8dbbf9e5ae315c5e7274",
+      "sha256": "753415362a501e8e39477f6d58ae51ba07dd3d2fde13ab1156350d2f94d2f2ad",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Clothing_Trader.json",
-      "sha256": "e1627a698e7cc839ec8f6f612766448147057463fcc7cd98707b8299d97396d5",
+      "sha256": "881611989c56c98e512c5cde13936dd9e3076555c6f1e14a57042fe5d5cb525d",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Consumables_Trader.json",
-      "sha256": "7c08a06a38a0b6836e0df196916d2998f42efc6010d62d32e9449c9e2a99f9a3",
+      "sha256": "8318fb8cce0c5114321033990b0d71e74958df28e6217ad8dae118542f02b1bc",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1818,14 +1818,14 @@
     {
       "group": "traderzones",
       "filename": "Main_VehicleParts_Trader.json",
-      "sha256": "20ad9a15511607d8782ee2af3e2b1a04fc2f2de6ebc45acca1d8a2c27ef38125",
+      "sha256": "b971f5d998b093e4e0aca2245647a0eb629fce74c37aabbbac83f5b21e0b1352",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "4cd3a7f752071de8983cdf95c70aec3e20f62871427fb2c17b40edd80e94172e",
+      "sha256": "5beb079dfb3f9b8bb74038fcda7e8603f4cda662e24ebe4565cc306a2a220a95",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1853,7 +1853,7 @@
     {
       "group": "traderzones",
       "filename": "Secret_Trader.json",
-      "sha256": "0552c8b10ae50070fac53ca10c586032cd7e3cf7b1edc2288b1dce276fdaa63c",
+      "sha256": "773bb10cac4ad9885517fe213d13287abab7bd0300e0acfaa07f93cbb45f9b03",
       "topLevelType": "object",
       "entryCount": 7
     },
