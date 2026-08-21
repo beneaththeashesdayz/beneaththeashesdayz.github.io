@@ -2,10 +2,10 @@
   "source": "Beneath the Ashes Chernarus live P2P market",
   "status": "ok",
   "note": null,
-  "syncedAt": "2026-08-21T22:00:29.548013+00:00",
+  "syncedAt": "2026-08-21T23:02:36.774729+00:00",
   "maxListingTimeSeconds": 604800,
   "listingFeePercent": 10,
-  "listingCount": 4,
+  "listingCount": 3,
   "listings": [
     {
       "key": "3d9f4d4515e4886a",
@@ -20,22 +20,6 @@
       "healthLevel": 0,
       "quantity": 0.0,
       "quantityType": 0,
-      "includedItemCount": 0,
-      "includedItems": []
-    },
-    {
-      "key": "4eac52c1007d612a",
-      "traderId": 1,
-      "name": "Loftd Assaultbackpack Black",
-      "className": "Loftd_Assaultbackpack_black",
-      "skinName": null,
-      "seller": "MrsWiseGuy17",
-      "price": 5000,
-      "listedAt": "2026-08-20T22:45:08+00:00",
-      "expiresAt": "2026-08-27T22:45:08+00:00",
-      "healthLevel": 0,
-      "quantity": 0.800000011920929,
-      "quantityType": 64,
       "includedItemCount": 0,
       "includedItems": []
     },

@@ -29,7 +29,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Powderedmilk',className:'powderedmilk',category:'Food',mode:'sell',price:9995,buyPrice:9995,sellPrice:4998,traderSells:true,traderBuys:true},
 {name:'Rice',className:'rice',category:'Food',mode:'sell',price:9860,buyPrice:9860,sellPrice:4930,traderSells:true,traderBuys:true},
 {name:'Saltysticks',className:'saltysticks',category:'Food',mode:'sell',price:9745,buyPrice:9745,sellPrice:4872,traderSells:true,traderBuys:true},
-{name:'Sardinescan',className:'sardinescan',category:'Food',mode:'sell',price:9915,buyPrice:9915,sellPrice:4958,traderSells:true,traderBuys:true},
+{name:'Sardinescan',className:'sardinescan',category:'Food',mode:'buy',price:9915,buyPrice:9915,sellPrice:4958,traderSells:true,traderBuys:true},
 {name:'Spaghettican',className:'spaghettican',category:'Food',mode:'sell',price:10110,buyPrice:10110,sellPrice:5055,traderSells:true,traderBuys:true},
 {name:'Tacticalbaconcan',className:'tacticalbaconcan',category:'Food',mode:'sell',price:10395,buyPrice:10395,sellPrice:5198,traderSells:true,traderBuys:true},
 {name:'Tunacan',className:'tunacan',category:'Food',mode:'sell',price:9935,buyPrice:9935,sellPrice:4968,traderSells:true,traderBuys:true},
