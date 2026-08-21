@@ -11,14 +11,14 @@
   "SellPricePercent": 50.0,
   "Stock": {
     "gasmask_filter": 1,
-    "bandagedressing": 0,
+    "bandagedressing": 1,
     "disinfectantalcohol": 1,
     "painkillertablets": 1,
     "tetracyclineantibiotics": 1,
     "charcoaltablets": 1,
-    "morphine": 0,
+    "morphine": 1,
     "firstaidkit": 0,
-    "thermometer": 0,
+    "thermometer": 1,
     "disinfectantspray": 0,
     "heatpack": 0,
     "purificationtablets": 1,
@@ -26,10 +26,10 @@
     "chelatingtablets": 1,
     "epinephrine": 1,
     "anticheminjector": 0,
-    "vitaminbottle": 0,
+    "vitaminbottle": 1,
     "salinebag": 1,
-    "bloodbagempty": 0,
+    "bloodbagempty": 1,
     "iodinetincture": 0,
-    "startkitiv": 0
+    "startkitiv": 1
   }
 }

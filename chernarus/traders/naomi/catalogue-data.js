@@ -46,7 +46,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Pleurotusmushroom',className:'pleurotusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
 {name:'Plum',className:'plum',category:'Fruit And Vegetables',mode:'sell',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
 {name:'Potato',className:'potato',category:'Fruit And Vegetables',mode:'sell',price:600,buyPrice:600,sellPrice:300,traderSells:true,traderBuys:true},
-{name:'Potatoseed',className:'potatoseed',category:'Fruit And Vegetables',mode:'sell',price:600,buyPrice:600,sellPrice:300,traderSells:true,traderBuys:true},
+{name:'Potatoseed',className:'potatoseed',category:'Fruit And Vegetables',mode:'buy',price:600,buyPrice:600,sellPrice:300,traderSells:true,traderBuys:true},
 {name:'Pumpkin',className:'pumpkin',category:'Fruit And Vegetables',mode:'sell',price:500,buyPrice:500,sellPrice:250,traderSells:true,traderBuys:true},
 {name:'Slicedpumpkin',className:'slicedpumpkin',category:'Fruit And Vegetables',mode:'sell',price:250,buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true},
 {name:'Tomato',className:'tomato',category:'Fruit And Vegetables',mode:'buy',price:200,buyPrice:200,sellPrice:100,traderSells:true,traderBuys:true},
