@@ -23,7 +23,9 @@
     "Meat:1",
     "Crossbows:1",
     "Heads:1",
-    "Rugs:1"
+    "Rugs:1",
+    "Animal_Byproducts:1",
+    "Headdresses:1"
   ],
   "Items": {
     "ammo_huntingbolt": 1,

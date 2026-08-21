@@ -150,6 +150,7 @@ window.traderCatalogue={traderName:'Black Market Zombie Note Trader',currency:'Z
 {name:"Tgk FSB Alpha Vest Mc",className:"tgk_fsb_alpha_vest_mc",category:"FSB Alpha Gear Set",traderSells:true,traderBuys:false,buyPrice:5000},
 {name:"Tgk FSB Alpha Vest Odgreen",className:"tgk_fsb_alpha_vest_odgreen",category:"FSB Alpha Gear Set",traderSells:true,traderBuys:false,buyPrice:5000},
 {name:"Tgk FSB Alpha Vest Tropic Mc",className:"tgk_fsb_alpha_vest_tropic_mc",category:"FSB Alpha Gear Set",traderSells:true,traderBuys:false,buyPrice:5000},
+{name:"Canistergasoline",className:"canistergasoline",category:"Fuel Canisters",traderSells:true,traderBuys:false,buyPrice:375},
 {name:"Canistergasoline Avation Extended",className:"canistergasoline_avation_extended",category:"Fuel Canisters",traderSells:true,traderBuys:false,buyPrice:875},
 {name:"Canistergasoline Cowprint Extended",className:"canistergasoline_cowprint_extended",category:"Fuel Canisters",traderSells:true,traderBuys:false,buyPrice:875},
 {name:"Canistergasoline Petrolhead Extended",className:"canistergasoline_petrolhead_extended",category:"Fuel Canisters",traderSells:true,traderBuys:false,buyPrice:875},

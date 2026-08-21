@@ -18,9 +18,42 @@
       "Variants": []
     },
     {
+      "ClassName": "GlassBottle",
+      "MaxPriceThreshold": 8500,
+      "MinPriceThreshold": 8500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
       "ClassName": "sodacan_cola",
       "MaxPriceThreshold": 9955,
       "MinPriceThreshold": 9955,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "canteen",
+      "MaxPriceThreshold": 12000,
+      "MinPriceThreshold": 12000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "FilteringBottle",
+      "MaxPriceThreshold": 15000,
+      "MinPriceThreshold": 15000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,

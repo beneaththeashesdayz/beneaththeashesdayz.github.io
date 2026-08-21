@@ -20,7 +20,9 @@
   "UseCategoryOrder": 0,
   "Categories": [
     "Bars:2",
-    "Gems:2"
+    "Gems:2",
+    "Raw_Gems:2",
+    "Raw_Ores:2"
   ],
   "Items": {}
 }

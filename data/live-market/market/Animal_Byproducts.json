@@ -1,0 +1,32 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Animal Byproducts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "IsExchange": 0,
+  "InitStockPercent": 0,
+  "Items": [
+    {
+      "ClassName": "Lard",
+      "MaxPriceThreshold": 75,
+      "MinPriceThreshold": 75,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Bone",
+      "MaxPriceThreshold": 50,
+      "MinPriceThreshold": 50,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

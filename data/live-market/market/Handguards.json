@@ -26,7 +26,10 @@
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "AK_RailHndgrd_Black",
+        "AK_RailHndgrd_Green"
+      ]
     },
     {
       "ClassName": "ak_woodhndgrd",
@@ -37,7 +40,10 @@
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "AK_WoodHndgrd_Black",
+        "AK_WoodHndgrd_Camo"
+      ]
     },
     {
       "ClassName": "ak74_hndgrd",
@@ -81,7 +87,10 @@
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "M4_RISHndgrd_Black",
+        "M4_RISHndgrd_Green"
+      ]
     },
     {
       "ClassName": "mp5_plastichndgrd",

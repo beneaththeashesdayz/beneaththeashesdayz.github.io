@@ -15,7 +15,10 @@
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "AK_FoldingBttstck_Black",
+        "AK_FoldingBttstck_Green"
+      ]
     },
     {
       "ClassName": "ak_plasticbttstck",
@@ -26,7 +29,10 @@
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "AK_PlasticBttstck_Black",
+        "AK_PlasticBttstck_Green"
+      ]
     },
     {
       "ClassName": "ak_woodbttstck",
@@ -38,7 +44,8 @@
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
-        "AK_WoodBttstck_Black"
+        "AK_WoodBttstck_Black",
+        "AK_WoodBttstck_Camo"
       ]
     },
     {
@@ -61,7 +68,9 @@
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "aks74u_bttstck_black"
+      ]
     },
     {
       "ClassName": "fal_foldingbttstck",
@@ -165,6 +174,32 @@
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
+    },
+    {
+      "ClassName": "SCAR_PrecisionBttstck",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "SCAR_PrecisionBttstck_Black"
+      ]
+    },
+    {
+      "ClassName": "SCAR_StockBttstck",
+      "MaxPriceThreshold": 1150,
+      "MinPriceThreshold": 1150,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "SCAR_StockBttstck_Black"
+      ]
     }
   ]
 }

@@ -18,7 +18,10 @@
         "aks74u_bttstck",
         "mag_ak74_30rnd"
       ],
-      "Variants": []
+      "Variants": [
+        "AKS74U_Black",
+        "AKS74U_Green"
+      ]
     },
     {
       "ClassName": "cz61",

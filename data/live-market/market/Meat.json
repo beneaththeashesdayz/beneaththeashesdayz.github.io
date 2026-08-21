@@ -18,6 +18,17 @@
       "Variants": []
     },
     {
+      "ClassName": "humansteakmeat",
+      "MaxPriceThreshold": 175,
+      "MinPriceThreshold": 175,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
       "ClassName": "boarsteakmeat",
       "MaxPriceThreshold": 269,
       "MinPriceThreshold": 269,

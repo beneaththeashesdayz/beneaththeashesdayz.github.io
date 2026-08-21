@@ -33,5 +33,19 @@ window.traderCatalogue={traderName:'Mining Trader',currency:'USD',items:[
 {name:'Freezegem Ruby Standard',className:'freezegem_ruby_standard',category:'Gems',sellPrice:5428,traderSells:false,traderBuys:true},
 {name:'Freezegem Turquoise Flawed',className:'freezegem_turquoise_flawed',category:'Gems',sellPrice:4500,traderSells:false,traderBuys:true},
 {name:'Freezegem Turquoise Perfect',className:'freezegem_turquoise_perfect',category:'Gems',sellPrice:5500,traderSells:false,traderBuys:true},
-{name:'Freezegem Turquoise Standard',className:'freezegem_turquoise_standard',category:'Gems',sellPrice:5000,traderSells:false,traderBuys:true}
+{name:'Freezegem Turquoise Standard',className:'freezegem_turquoise_standard',category:'Gems',sellPrice:5000,traderSells:false,traderBuys:true},
+{name:'Freeze Gem Amber',className:'FreezeGem_Amber',category:'Raw Gems',sellPrice:375,traderSells:false,traderBuys:true},
+{name:'Freeze Gem Amethyst',className:'FreezeGem_Amethyst',category:'Raw Gems',sellPrice:300,traderSells:false,traderBuys:true},
+{name:'Freeze Gem Aquamarine',className:'FreezeGem_Aquamarine',category:'Raw Gems',sellPrice:350,traderSells:false,traderBuys:true},
+{name:'Freeze Gem Fancy Colour Diamond',className:'FreezeGem_FancyColourDiamond',category:'Raw Gems',sellPrice:450,traderSells:false,traderBuys:true},
+{name:'Freeze Gem Iolite',className:'FreezeGem_Iolite',category:'Raw Gems',sellPrice:325,traderSells:false,traderBuys:true},
+{name:'Freeze Gem Jade',className:'FreezeGem_Jade',category:'Raw Gems',sellPrice:275,traderSells:false,traderBuys:true},
+{name:'Freeze Gem Ruby',className:'FreezeGem_Ruby',category:'Raw Gems',sellPrice:400,traderSells:false,traderBuys:true},
+{name:'Freeze Gem Turquoise',className:'FreezeGem_Turquoise',category:'Raw Gems',sellPrice:250,traderSells:false,traderBuys:true},
+{name:'Freezestone Copper',className:'Freezestone_copper',category:'Raw Ores',sellPrice:200,traderSells:false,traderBuys:true},
+{name:'Freezestone Gold',className:'Freezestone_gold',category:'Raw Ores',sellPrice:275,traderSells:false,traderBuys:true},
+{name:'Freezestone Iron',className:'Freezestone_iron',category:'Raw Ores',sellPrice:162,traderSells:false,traderBuys:true},
+{name:'Freezestone Silver',className:'Freezestone_silver',category:'Raw Ores',sellPrice:238,traderSells:false,traderBuys:true},
+{name:'Freezestone Tin',className:'Freezestone_tin',category:'Raw Ores',sellPrice:125,traderSells:false,traderBuys:true},
+{name:'Freezestone Uranium',className:'Freezestone_uranium',category:'Raw Ores',sellPrice:350,traderSells:false,traderBuys:true}
 ]};

@@ -18,6 +18,21 @@
       "Variants": []
     },
     {
+      "ClassName": "Pen_Black",
+      "MaxPriceThreshold": 100,
+      "MinPriceThreshold": 100,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Pen_Blue",
+        "Pen_Green",
+        "Pen_Red"
+      ]
+    },
+    {
       "ClassName": "canopener",
       "MaxPriceThreshold": 500,
       "MinPriceThreshold": 500,
@@ -59,12 +74,26 @@
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "FirefighterAxe_Black",
+        "FirefighterAxe_Green"
+      ]
     },
     {
       "ClassName": "fryingpan",
       "MaxPriceThreshold": 500,
       "MinPriceThreshold": 500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "pot",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -195,8 +224,8 @@
     },
     {
       "ClassName": "sledgehammer",
-      "MaxPriceThreshold": 2500,
-      "MinPriceThreshold": 2500,
+      "MaxPriceThreshold": 7500,
+      "MinPriceThreshold": 7500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -219,6 +248,83 @@
       "ClassName": "wrench",
       "MaxPriceThreshold": 1000,
       "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "BearTrap",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Blowtorch",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Crowbar",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "HandcuffKeys",
+      "MaxPriceThreshold": 500,
+      "MinPriceThreshold": 500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Handcuffs",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Lockpick",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Whetstone",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,

@@ -9,7 +9,7 @@
     {
       "ClassName": "ak101",
       "MaxPriceThreshold": 4225,
-      "MinPriceThreshold": 2815,
+      "MinPriceThreshold": 4225,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -27,7 +27,7 @@
     {
       "ClassName": "ak74",
       "MaxPriceThreshold": 9370,
-      "MinPriceThreshold": 6245,
+      "MinPriceThreshold": 9370,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -45,7 +45,7 @@
     {
       "ClassName": "akm",
       "MaxPriceThreshold": 10935,
-      "MinPriceThreshold": 7290,
+      "MinPriceThreshold": 10935,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -60,7 +60,7 @@
     {
       "ClassName": "aug",
       "MaxPriceThreshold": 2980,
-      "MinPriceThreshold": 1985,
+      "MinPriceThreshold": 2980,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -73,7 +73,7 @@
     {
       "ClassName": "augshort",
       "MaxPriceThreshold": 4580,
-      "MinPriceThreshold": 3055,
+      "MinPriceThreshold": 4580,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -86,7 +86,7 @@
     {
       "ClassName": "fal",
       "MaxPriceThreshold": 9980,
-      "MinPriceThreshold": 6655,
+      "MinPriceThreshold": 9980,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -100,7 +100,7 @@
     {
       "ClassName": "famas",
       "MaxPriceThreshold": 4465,
-      "MinPriceThreshold": 2975,
+      "MinPriceThreshold": 4465,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -111,6 +111,50 @@
       "Variants": [
         "sawedofffamas"
       ]
+    },
+    {
+      "ClassName": "SCARH",
+      "MaxPriceThreshold": 8000,
+      "MinPriceThreshold": 8000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "TTC_SCARHMag"
+      ],
+      "Variants": [
+        "SCARH_Black"
+      ]
+    },
+    {
+      "ClassName": "M4A1",
+      "MaxPriceThreshold": 7000,
+      "MinPriceThreshold": 7000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "mag_CMAG_20Rnd"
+      ],
+      "Variants": [
+        "M4A1_Black",
+        "M4A1_Green"
+      ]
+    },
+    {
+      "ClassName": "M16A2",
+      "MaxPriceThreshold": 3500,
+      "MinPriceThreshold": 3500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "mag_CMAG_20Rnd"
+      ],
+      "Variants": []
     }
   ]
 }

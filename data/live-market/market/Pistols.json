@@ -20,6 +20,17 @@
       "Variants": []
     },
     {
+      "ClassName": "Flaregun",
+      "MaxPriceThreshold": 2500,
+      "MinPriceThreshold": 2500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
       "ClassName": "cz75",
       "MaxPriceThreshold": 2920,
       "MinPriceThreshold": 2920,
