@@ -18,9 +18,9 @@
     "marmalade": 0,
     "powderedmilk": 1,
     "boletusmushroom": 0,
-    "pate": 0,
+    "pate": 1,
     "spaghettican": 1,
-    "tunacan": 1,
+    "tunacan": 2,
     "loner_can_empty": 1,
     "brisketspread": 0,
     "sodacan_fronta": 0,
@@ -35,7 +35,7 @@
     "catfoodcan": 0,
     "plum": 0,
     "zucchiniseedspack": 0,
-    "zucchini": 0,
+    "zucchini": 71,
     "sodacan_kvass": 0,
     "potato": 0,
     "zagorkypeanuts": 0,
@@ -65,10 +65,10 @@
     "expansionmilkbottle": 0,
     "sodacan_spite": 0,
     "sardinescan": 1,
-    "waterbottle": 4,
+    "waterbottle": 5,
     "filteringbottle": 0,
     "unknownfoodcan": 0,
     "pleurotusmushroom": 0,
-    "bakedbeanscan": 1
+    "bakedbeanscan": 3
   }
 }

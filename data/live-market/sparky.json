@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-08-22T21:02:01.759788+00:00",
+  "syncedAt": "2026-08-22T21:58:39.570393+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -34,7 +34,7 @@
       "singleAttachmentRepairCost": 8000.0,
       "canRepairVehicleAttachments": 1,
       "canRepairRuinedAttachments": 1,
-      "canRefuelVehicle": 0,
+      "canRefuelVehicle": 1,
       "fuelCostPerLiter": 10.0,
       "waterCoolantCostPerLiter": 5.0,
       "vehicleWhitelist": [
@@ -127,7 +127,7 @@
       "singleAttachmentRepairCost": 1000.0,
       "canRepairVehicleAttachments": 1,
       "canRepairRuinedAttachments": 1,
-      "canRefuelVehicle": 0,
+      "canRefuelVehicle": 1,
       "fuelCostPerLiter": 10.0,
       "waterCoolantCostPerLiter": 5.0,
       "vehicleWhitelist": [
@@ -281,7 +281,7 @@
       "singleAttachmentRepairCost": 1000.0,
       "canRepairVehicleAttachments": 1,
       "canRepairRuinedAttachments": 0,
-      "canRefuelVehicle": 0,
+      "canRefuelVehicle": 1,
       "fuelCostPerLiter": 10.0,
       "waterCoolantCostPerLiter": 5.0,
       "vehicleWhitelist": [
@@ -322,7 +322,7 @@
       "singleAttachmentRepairCost": 1000.0,
       "canRepairVehicleAttachments": 1,
       "canRepairRuinedAttachments": 0,
-      "canRefuelVehicle": 0,
+      "canRefuelVehicle": 1,
       "fuelCostPerLiter": 10.0,
       "waterCoolantCostPerLiter": 5.0,
       "vehicleWhitelist": [
@@ -359,7 +359,7 @@
       "singleAttachmentRepairCost": 1000.0,
       "canRepairVehicleAttachments": 1,
       "canRepairRuinedAttachments": 1,
-      "canRefuelVehicle": 0,
+      "canRefuelVehicle": 1,
       "fuelCostPerLiter": 10.0,
       "waterCoolantCostPerLiter": 5.0,
       "vehicleWhitelist": [
