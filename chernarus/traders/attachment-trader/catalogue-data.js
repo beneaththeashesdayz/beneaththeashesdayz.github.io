@@ -882,6 +882,7 @@ window.traderCatalogue={traderName:'Attachment Trader',currency:'USD',items:[
 {name:'Mag AKM Drum75rnd',className:'mag_akm_drum75rnd',category:'Vanilla Magazines',buyPrice:2950,sellPrice:1475,traderSells:true,traderBuys:true},
 {name:'Mag AKM Palm30rnd',className:'mag_akm_palm30rnd',category:'Vanilla Magazines',buyPrice:1100,sellPrice:550,traderSells:true,traderBuys:true},
 {name:'Mag Aug 30-Round',className:'mag_aug_30rnd',category:'Vanilla Magazines',buyPrice:925,sellPrice:462,traderSells:true,traderBuys:true},
+{name:'Mag Cmag 10-Round Black',className:'Mag_CMAG_10Rnd_Black',category:'Vanilla Magazines',buyPrice:1850,sellPrice:925,traderSells:true,traderBuys:true},
 {name:'Mag Cmag 10-Round',className:'mag_cmag_10rnd',category:'Vanilla Magazines',buyPrice:1665,sellPrice:832,traderSells:true,traderBuys:true},
 {name:'Mag Cmag 20-Round',className:'mag_cmag_20rnd',category:'Vanilla Magazines',buyPrice:1850,sellPrice:925,traderSells:true,traderBuys:true},
 {name:'Mag Cmag 30-Round',className:'mag_cmag_30rnd',category:'Vanilla Magazines',buyPrice:1850,sellPrice:925,traderSells:true,traderBuys:true},

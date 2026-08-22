@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-08-22T19:56:14.120472+00:00",
+  "syncedAt": "2026-08-22T21:02:01.759788+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -665,8 +665,8 @@
     }
   ],
   "impound": {
-    "defaultImpoundAfterTime": 259200,
-    "minPlayerDistanceForImpound": 5,
+    "defaultImpoundAfterTime": 21600,
+    "minPlayerDistanceForImpound": 5.0,
     "impoundVehiclesProtectedByFlagpole": 1,
     "impoundRuinedVehicles": 1,
     "ruinedVehiclesRequireVehicleInsurance": 1,
@@ -675,7 +675,7 @@
     "rebuyCostBuyFraction": 0.10000000149011612,
     "rebuyCostBase": 0,
     "impoundTimePenalty": 0,
-    "ruinedVehicleRebuyCostFraction": 0,
+    "ruinedVehicleRebuyCostFraction": 0.0,
     "ruinedRebuyCostBase": 0,
     "impoundTimePenaltyRuined": 0,
     "costForExceedingMaxSlots": 10000

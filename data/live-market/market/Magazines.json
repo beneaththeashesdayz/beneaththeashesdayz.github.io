@@ -114,7 +114,9 @@
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "Mag_CMAG_10Rnd_Black"
+      ]
     },
     {
       "ClassName": "mag_cmag_30rnd",
