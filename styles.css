@@ -237,3 +237,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 /* Separate additional Team Rocket transmissions clearly. */
 .transmission-followup{margin-top:30px;padding-top:26px;border-top:1px solid #4b4038}.transmission-followup .project-label{margin-bottom:14px}
+
+/* Team Rocket live PvP alert */
+.rocket-alert{border-color:#74352e!important;border-left-color:#e45d43!important;background:linear-gradient(110deg,#281615,#141719)!important}.rocket-alert h2{color:#ff8b71}.rocket-alert .project-label{color:#e45d43}
