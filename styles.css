@@ -246,3 +246,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 /* Center the operative event's completed badge at the top of its card. */
 .rocket-alert>.event-status-closed{display:flex!important;width:max-content;margin:0 auto 22px!important}
+
+/* Pokémon Chaos Part 3 finale panel */
+.pokemon-chaos-part3{border-color:#6a3d32!important;border-left-color:#e45d43!important;background:linear-gradient(110deg,#251615,#141719)!important}.pokemon-chaos-part3 h2{color:#ff8b71}.pokemon-chaos-part3 .project-label{color:#e45d43}.pokemon-chaos-part3 strong{color:#f6d3bd}
