@@ -59,7 +59,10 @@
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "Mag_AKM_Palm30Rnd_Black",
+        "Mag_AKM_Palm30Rnd_Green"
+      ]
     },
     {
       "ClassName": "mag_akm_drum75rnd",

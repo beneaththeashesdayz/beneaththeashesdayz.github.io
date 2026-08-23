@@ -318,6 +318,7 @@ window.traderCatalogue={traderName:'Manua',currency:'USD',items:[
 {name:'Bear Dark',className:'Bear_Dark',category:'Supplies',buyPrice:1500,sellPrice:750,traderSells:true,traderBuys:true},
 {name:'Bear Pink',className:'Bear_Pink',category:'Supplies',buyPrice:1500,sellPrice:750,traderSells:true,traderBuys:true},
 {name:'Bear White',className:'Bear_White',category:'Supplies',buyPrice:1500,sellPrice:750,traderSells:true,traderBuys:true},
+{name:'Binoculars',className:'Binoculars',category:'Supplies',buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true},
 {name:'Burlap Sack',className:'BurlapSack',category:'Supplies',buyPrice:400,sellPrice:200,traderSells:true,traderBuys:true},
 {name:'Camonet',className:'camonet',category:'Supplies',buyPrice:1500,sellPrice:750,traderSells:true,traderBuys:true},
 {name:'Duct Tape',className:'DuctTape',category:'Supplies',buyPrice:750,sellPrice:375,traderSells:true,traderBuys:true},

@@ -54,7 +54,9 @@
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "AK74_Hndgrd_Camo"
+      ]
     },
     {
       "ClassName": "m4_mphndgrd",
@@ -76,7 +78,9 @@
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "M4_PlasticHndgrd_Green"
+      ]
     },
     {
       "ClassName": "m4_rishndgrd",

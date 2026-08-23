@@ -57,7 +57,9 @@
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "AK74_WoodBttstck_Black"
+      ]
     },
     {
       "ClassName": "aks74u_bttstck",

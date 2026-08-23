@@ -260,6 +260,19 @@
         "zsh3pilothelmet_green",
         "zsh3pilothelmet_black"
       ]
+    },
+    {
+      "ClassName": "T56TankerHelmet_Olive",
+      "MaxPriceThreshold": 4500,
+      "MinPriceThreshold": 4500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "T56TankerHelmet_Tan"
+      ]
     }
   ]
 }

@@ -109,6 +109,20 @@
         "zmijovkacap_black",
         "zmijovkacap_green"
       ]
+    },
+    {
+      "ClassName": "MilitaryCap_BDU",
+      "MaxPriceThreshold": 300,
+      "MinPriceThreshold": 300,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "MilitaryCap_Woodland",
+        "MilitaryCap_Desert"
+      ]
     }
   ]
 }

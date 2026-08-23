@@ -29,6 +29,17 @@
       "Variants": []
     },
     {
+      "ClassName": "Binoculars",
+      "MaxPriceThreshold": 250,
+      "MinPriceThreshold": 250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
       "ClassName": "bbp_cement",
       "MaxPriceThreshold": 1500,
       "MinPriceThreshold": 1500,
