@@ -1,7 +1,7 @@
 window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Loner Can Empty',className:'loner_can_empty',category:'Cans',mode:'buy',price:300,buyPrice:300,sellPrice:150,traderSells:true,traderBuys:true},
 {name:'Loner Can Small Empty',className:'loner_can_small_empty',category:'Cans',mode:'sell',price:250,buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true},
-{name:'Canteen',className:'canteen',category:'Drinks',mode:'sell',price:12000,buyPrice:12000,sellPrice:6000,traderSells:true,traderBuys:true},
+{name:'Canteen',className:'canteen',category:'Drinks',mode:'buy',price:12000,buyPrice:12000,sellPrice:6000,traderSells:true,traderBuys:true},
 {name:'Expansionmilkbottle',className:'expansionmilkbottle',category:'Drinks',mode:'sell',price:9845,buyPrice:9845,sellPrice:4922,traderSells:true,traderBuys:true},
 {name:'Filteringbottle',className:'filteringbottle',category:'Drinks',mode:'sell',price:15000,buyPrice:15000,sellPrice:7500,traderSells:true,traderBuys:true},
 {name:'Glassbottle',className:'glassbottle',category:'Drinks',mode:'sell',price:8500,buyPrice:8500,sellPrice:4250,traderSells:true,traderBuys:true},
@@ -31,7 +31,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Saltysticks',className:'saltysticks',category:'Food',mode:'sell',price:9745,buyPrice:9745,sellPrice:4872,traderSells:true,traderBuys:true},
 {name:'Sardinescan',className:'sardinescan',category:'Food',mode:'buy',price:9915,buyPrice:9915,sellPrice:4958,traderSells:true,traderBuys:true},
 {name:'Spaghettican',className:'spaghettican',category:'Food',mode:'buy',price:10110,buyPrice:10110,sellPrice:5055,traderSells:true,traderBuys:true},
-{name:'Tacticalbaconcan',className:'tacticalbaconcan',category:'Food',mode:'buy',price:10395,buyPrice:10395,sellPrice:5198,traderSells:true,traderBuys:true},
+{name:'Tacticalbaconcan',className:'tacticalbaconcan',category:'Food',mode:'sell',price:10395,buyPrice:10395,sellPrice:5198,traderSells:true,traderBuys:true},
 {name:'Tunacan',className:'tunacan',category:'Food',mode:'sell',price:9935,buyPrice:9935,sellPrice:4968,traderSells:true,traderBuys:true},
 {name:'Unknownfoodcan',className:'unknownfoodcan',category:'Food',mode:'sell',price:9780,buyPrice:9780,sellPrice:4890,traderSells:true,traderBuys:true},
 {name:'Zagorky',className:'zagorky',category:'Food',mode:'sell',price:9755,buyPrice:9755,sellPrice:4878,traderSells:true,traderBuys:true},
