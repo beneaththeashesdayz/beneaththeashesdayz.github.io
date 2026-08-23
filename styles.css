@@ -243,3 +243,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 /* Make completed Team Rocket event status unmistakable. */
 .event-status-closed{padding:13px 18px!important;border:2px solid #b8cfaa!important;background:#243323!important;color:#d8edc9!important;font-size:1rem!important;font-weight:1000!important;letter-spacing:.16em!important;box-shadow:0 0 22px rgba(158,185,142,.38)}.event-status-closed i{width:10px!important;height:10px!important;background:#b8cfaa!important;box-shadow:0 0 12px #b8cfaa!important}
+
+/* Center the operative event's completed badge at the top of its card. */
+.rocket-alert>.event-status-closed{display:flex!important;width:max-content;margin:0 auto 22px!important}
