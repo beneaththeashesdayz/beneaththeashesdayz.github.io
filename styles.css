@@ -255,3 +255,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 /* Align the Air Intercept live badge with the card content. */
 .rocket-transmission>.event-status-live{margin:0 0 22px!important}
+
+/* Match the completed operative badge to the Great Rocket Chase layout. */
+.rocket-alert>.event-status-closed{margin:0 0 22px!important}
