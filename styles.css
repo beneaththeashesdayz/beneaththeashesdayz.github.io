@@ -252,3 +252,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 /* Prominent live badge for active flash events. */
 .event-status-live{display:flex!important;width:max-content;margin:0 auto 22px!important;padding:13px 18px!important;border:2px solid #e45d43!important;background:#321b17!important;color:#ffb29b!important;font-size:1rem!important;font-weight:1000!important;letter-spacing:.16em!important;box-shadow:0 0 22px rgba(228,93,67,.38)}.event-status-live i{width:10px!important;height:10px!important;background:#e45d43!important;box-shadow:0 0 12px #e45d43!important}
+
+/* Align the Air Intercept live badge with the card content. */
+.rocket-transmission>.event-status-live{margin:0 0 22px!important}
