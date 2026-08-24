@@ -14,7 +14,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Bakedbeanscan',className:'bakedbeanscan',category:'Food',mode:'sell',price:9965,buyPrice:9965,sellPrice:4982,traderSells:true,traderBuys:true},
 {name:'Boxcerealcrunchin',className:'boxcerealcrunchin',category:'Food',mode:'sell',price:10140,buyPrice:10140,sellPrice:5070,traderSells:true,traderBuys:true},
 {name:'Brisketspread',className:'brisketspread',category:'Food',mode:'sell',price:10055,buyPrice:10055,sellPrice:5028,traderSells:true,traderBuys:true},
-{name:'Catfoodcan',className:'catfoodcan',category:'Food',mode:'buy',price:9885,buyPrice:9885,sellPrice:4942,traderSells:true,traderBuys:true},
+{name:'Catfoodcan',className:'catfoodcan',category:'Food',mode:'sell',price:9885,buyPrice:9885,sellPrice:4942,traderSells:true,traderBuys:true},
 {name:'Chips',className:'chips',category:'Food',mode:'sell',price:9715,buyPrice:9715,sellPrice:4858,traderSells:true,traderBuys:true},
 {name:'Crabcan',className:'crabcan',category:'Food',mode:'sell',price:10285,buyPrice:10285,sellPrice:5142,traderSells:true,traderBuys:true},
 {name:'Crackers',className:'crackers',category:'Food',mode:'sell',price:9830,buyPrice:9830,sellPrice:4915,traderSells:true,traderBuys:true},
