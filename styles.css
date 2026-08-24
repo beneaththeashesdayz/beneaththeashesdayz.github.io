@@ -249,3 +249,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 /* Pokémon Chaos Part 3 finale panel */
 .pokemon-chaos-part3{border-color:#6a3d32!important;border-left-color:#e45d43!important;background:linear-gradient(110deg,#251615,#141719)!important}.pokemon-chaos-part3 h2{color:#ff8b71}.pokemon-chaos-part3 .project-label{color:#e45d43}.pokemon-chaos-part3 strong{color:#f6d3bd}
+
+/* Prominent live badge for active flash events. */
+.event-status-live{display:flex!important;width:max-content;margin:0 auto 22px!important;padding:13px 18px!important;border:2px solid #e45d43!important;background:#321b17!important;color:#ffb29b!important;font-size:1rem!important;font-weight:1000!important;letter-spacing:.16em!important;box-shadow:0 0 22px rgba(228,93,67,.38)}.event-status-live i{width:10px!important;height:10px!important;background:#e45d43!important;box-shadow:0 0 12px #e45d43!important}
