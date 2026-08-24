@@ -261,3 +261,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 /* Prevent the shared event-card layout from stretching the operative badge. */
 .events-page .rocket-alert>.event-status-closed{display:flex!important;width:max-content!important;margin:0 0 22px!important}
+
+/* Coming-soon Siege of Rocket Island lore card */
+.rocket-island-card{border-color:#4c5269!important;border-left-color:#8d79c7!important;background:linear-gradient(110deg,#1b1925,#141719)!important}.rocket-island-card .project-label{color:#b49bdb}.rocket-island-card h2{color:#d7c9f2}.rocket-island-card h3{margin:22px 0 9px;color:#c9b6e8;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase}.rocket-island-card blockquote{margin:0 0 18px;padding:14px 18px;border-left:3px solid #8d79c7;background:#181624;color:#e6dcf7;font-style:italic;line-height:1.8}.rocket-island-card ul{margin:12px 0 0;padding-left:20px;color:var(--muted);line-height:1.7}.rocket-island-card li+li{margin-top:10px}.rocket-island-card p{line-height:1.7}
