@@ -258,3 +258,6 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 
 /* Match the completed operative badge to the Great Rocket Chase layout. */
 .rocket-alert>.event-status-closed{margin:0 0 22px!important}
+
+/* Prevent the shared event-card layout from stretching the operative badge. */
+.events-page .rocket-alert>.event-status-closed{display:flex!important;width:max-content!important;margin:0 0 22px!important}
