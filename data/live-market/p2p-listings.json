@@ -2,10 +2,10 @@
   "source": "Beneath the Ashes Chernarus live P2P market",
   "status": "ok",
   "note": null,
-  "syncedAt": "2026-08-24T23:57:56.933964+00:00",
+  "syncedAt": "2026-08-25T03:27:59.252050+00:00",
   "maxListingTimeSeconds": 604800,
   "listingFeePercent": 10,
-  "listingCount": 13,
+  "listingCount": 16,
   "listings": [
     {
       "key": "a420e624be26c0ec",
@@ -221,6 +221,67 @@
       "quantityType": 8,
       "includedItemCount": 0,
       "includedItems": []
+    },
+    {
+      "key": "257b83ec271ae524",
+      "traderId": 1,
+      "name": "I M7s Bleach 01",
+      "className": "iM7s_Bleach_01",
+      "skinName": null,
+      "seller": "Zombie_Jim",
+      "price": 8000,
+      "listedAt": "2026-08-25T02:18:30+00:00",
+      "expiresAt": "2026-09-01T02:18:30+00:00",
+      "healthLevel": 0,
+      "quantity": 100.0,
+      "quantityType": 8,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "69e17daa847c4542",
+      "traderId": 1,
+      "name": "I M7s Bleach 02",
+      "className": "iM7s_Bleach_02",
+      "skinName": null,
+      "seller": "Zombie_Jim",
+      "price": 8000,
+      "listedAt": "2026-08-25T02:18:58+00:00",
+      "expiresAt": "2026-09-01T02:18:58+00:00",
+      "healthLevel": 0,
+      "quantity": 100.0,
+      "quantityType": 8,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "7e7119be3e248ee3",
+      "traderId": 1,
+      "name": "HA W Prodigy1911",
+      "className": "HA_W_Prodigy1911",
+      "skinName": null,
+      "seller": "Zombie_Jim",
+      "price": 500,
+      "listedAt": "2026-08-25T02:20:49+00:00",
+      "expiresAt": "2026-09-01T02:20:49+00:00",
+      "healthLevel": 0,
+      "quantity": 0.0,
+      "quantityType": 0,
+      "includedItemCount": 2,
+      "includedItems": [
+        {
+          "className": "Mag_1911_7Rnd",
+          "name": "Mag 1911 7Rnd",
+          "quantity": 7.0,
+          "attached": true
+        },
+        {
+          "className": "Ammo_45ACP",
+          "name": "Ammo 45ACP",
+          "quantity": 7.0,
+          "attached": false
+        }
+      ]
     }
   ]
 }
