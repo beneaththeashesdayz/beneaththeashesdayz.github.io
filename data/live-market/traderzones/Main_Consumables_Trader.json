@@ -34,7 +34,7 @@
     "zagorkychocolate": 1,
     "catfoodcan": 3,
     "plum": 0,
-    "zucchiniseedspack": 1,
+    "zucchiniseedspack": 2,
     "zucchini": 69,
     "sodacan_kvass": 0,
     "potato": 0,
@@ -42,12 +42,12 @@
     "crackers": 0,
     "canteen": 1,
     "loner_can_small_empty": 2,
-    "tomatoseedspack": 4,
-    "pepperseedspack": 1,
+    "tomatoseedspack": 7,
+    "pepperseedspack": 4,
     "auriculariamushroom": 0,
     "pumpkinseedspack": 6,
     "agaricusmushroom": 0,
-    "tacticalbaconcan": 0,
+    "tacticalbaconcan": 1,
     "apple": 0,
     "crabcan": 0,
     "porkcan": 2,
@@ -65,10 +65,10 @@
     "expansionmilkbottle": 0,
     "sodacan_spite": 0,
     "sardinescan": 2,
-    "waterbottle": 7,
+    "waterbottle": 8,
     "filteringbottle": 0,
     "unknownfoodcan": 2,
     "pleurotusmushroom": 0,
-    "bakedbeanscan": 4
+    "bakedbeanscan": 5
   }
 }

@@ -31,7 +31,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Saltysticks',className:'saltysticks',category:'Food',mode:'sell',price:9745,buyPrice:9745,sellPrice:4872,traderSells:true,traderBuys:true},
 {name:'Sardinescan',className:'sardinescan',category:'Food',mode:'sell',price:9915,buyPrice:9915,sellPrice:4958,traderSells:true,traderBuys:true},
 {name:'Spaghettican',className:'spaghettican',category:'Food',mode:'sell',price:10110,buyPrice:10110,sellPrice:5055,traderSells:true,traderBuys:true},
-{name:'Tacticalbaconcan',className:'tacticalbaconcan',category:'Food',mode:'sell',price:10395,buyPrice:10395,sellPrice:5198,traderSells:true,traderBuys:true},
+{name:'Tacticalbaconcan',className:'tacticalbaconcan',category:'Food',mode:'buy',price:10395,buyPrice:10395,sellPrice:5198,traderSells:true,traderBuys:true},
 {name:'Tunacan',className:'tunacan',category:'Food',mode:'sell',price:9935,buyPrice:9935,sellPrice:4968,traderSells:true,traderBuys:true},
 {name:'Unknownfoodcan',className:'unknownfoodcan',category:'Food',mode:'sell',price:9780,buyPrice:9780,sellPrice:4890,traderSells:true,traderBuys:true},
 {name:'Zagorky',className:'zagorky',category:'Food',mode:'sell',price:9755,buyPrice:9755,sellPrice:4878,traderSells:true,traderBuys:true},
@@ -55,8 +55,8 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Tomato',className:'tomato',category:'Fruit And Vegetables',mode:'sell',price:200,buyPrice:200,sellPrice:100,traderSells:true,traderBuys:true},
 {name:'Zucchini',className:'zucchini',category:'Fruit And Vegetables',mode:'sell',price:900,buyPrice:900,sellPrice:450,traderSells:true,traderBuys:true},
 {name:'Gardenlime',className:'gardenlime',category:'Gardening',mode:'sell',price:4000,buyPrice:4000,sellPrice:2000,traderSells:true,traderBuys:true},
-{name:'Pepperseedspack',className:'pepperseedspack',category:'Gardening',mode:'buy',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true},
+{name:'Pepperseedspack',className:'pepperseedspack',category:'Gardening',mode:'sell',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true},
 {name:'Pumpkinseedspack',className:'pumpkinseedspack',category:'Gardening',mode:'sell',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true},
 {name:'Tomatoseedspack',className:'tomatoseedspack',category:'Gardening',mode:'sell',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true},
-{name:'Zucchiniseedspack',className:'zucchiniseedspack',category:'Gardening',mode:'buy',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true}
+{name:'Zucchiniseedspack',className:'zucchiniseedspack',category:'Gardening',mode:'sell',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true}
 ]};
