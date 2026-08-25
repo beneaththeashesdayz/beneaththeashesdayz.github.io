@@ -11,7 +11,7 @@
   "SellPricePercent": 50.0,
   "Stock": {
     "craterellusmushroom": 0,
-    "sodacan_cola": 3,
+    "sodacan_cola": 4,
     "greenbellpepper": 294,
     "tomato": 139,
     "honey": 3,
@@ -65,10 +65,10 @@
     "expansionmilkbottle": 0,
     "sodacan_spite": 0,
     "sardinescan": 2,
-    "waterbottle": 8,
+    "waterbottle": 9,
     "filteringbottle": 0,
     "unknownfoodcan": 2,
     "pleurotusmushroom": 0,
-    "bakedbeanscan": 5
+    "bakedbeanscan": 6
   }
 }
