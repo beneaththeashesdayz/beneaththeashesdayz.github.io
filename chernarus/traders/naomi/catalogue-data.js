@@ -6,7 +6,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Filteringbottle',className:'filteringbottle',category:'Drinks',mode:'sell',price:15000,buyPrice:15000,sellPrice:7500,traderSells:true,traderBuys:true},
 {name:'Glassbottle',className:'glassbottle',category:'Drinks',mode:'sell',price:8500,buyPrice:8500,sellPrice:4250,traderSells:true,traderBuys:true},
 {name:'Sodacan Cola',className:'sodacan_cola',category:'Drinks',mode:'sell',price:9955,buyPrice:9955,sellPrice:4978,traderSells:true,traderBuys:true},
-{name:'Sodacan Fronta',className:'sodacan_fronta',category:'Drinks',mode:'buy',price:10040,buyPrice:10040,sellPrice:5020,traderSells:true,traderBuys:true},
+{name:'Sodacan Fronta',className:'sodacan_fronta',category:'Drinks',mode:'sell',price:10040,buyPrice:10040,sellPrice:5020,traderSells:true,traderBuys:true},
 {name:'Sodacan Kvass',className:'sodacan_kvass',category:'Drinks',mode:'sell',price:9860,buyPrice:9860,sellPrice:4930,traderSells:true,traderBuys:true},
 {name:'Sodacan Pipsi',className:'sodacan_pipsi',category:'Drinks',mode:'sell',price:10165,buyPrice:10165,sellPrice:5082,traderSells:true,traderBuys:true},
 {name:'Sodacan Spite',className:'sodacan_spite',category:'Drinks',mode:'sell',price:9780,buyPrice:9780,sellPrice:4890,traderSells:true,traderBuys:true},

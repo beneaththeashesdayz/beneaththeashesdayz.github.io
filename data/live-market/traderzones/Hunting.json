@@ -62,7 +62,7 @@
     "crossbow_black": 0,
     "sheepskinrug": 0,
     "rabbitlegmeat": 3,
-    "deerpelt": 0,
+    "deerpelt": 1,
     "cj_cowpelt_white": 0,
     "goatskinrug_black": 0,
     "chickenbreastmeat": 4,
@@ -75,7 +75,7 @@
     "head_bull_brown": 0,
     "foxskinrug": 0,
     "wolfpelt_grey": 3,
-    "wolfpelt_white": 0,
+    "wolfpelt_white": 1,
     "head_goat_brown": 0,
     "foxsteakmeat": 0,
     "wildboarpelt": 0,
@@ -107,6 +107,6 @@
     "cj_rabbitpelt_brown": 0,
     "cowpelt_spotted": 0,
     "head_goat_white": 0,
-    "sheeppelt": 0
+    "sheeppelt": 1
   }
 }
