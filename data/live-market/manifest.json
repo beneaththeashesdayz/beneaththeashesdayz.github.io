@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-08-29T13:26:09.737041+00:00",
+  "syncedAt": "2026-08-29T14:25:36.089091+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -1734,14 +1734,14 @@
     {
       "group": "traderzones",
       "filename": "Blackmarket.json",
-      "sha256": "6e199a6572bc9b21fb644f4e980d51c3860e72b52a266d15f8d3b97435cab806",
+      "sha256": "2a6b12e0513014849a4240f65c4c72edade123e007b67c210382a7809acf3a9f",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Blackmarket_ZN.json",
-      "sha256": "84e9388655d3bb435515ab9d3c755c3736b6e41f1e5f14cef724bd9a1156bd86",
+      "sha256": "d2a8f0af605f2fad05ebe4a2c5d975c8e08b1f9a18e4ad93588b9f6238a3b614",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1783,28 +1783,28 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "0bdf2d65145d723fee3ea129c41d866a7ad91483f88b2a7c6fba62ca469b68f8",
+      "sha256": "be02e0194c960f18fec2ea7e6c643d6b21464afbbd2457912ed7f58905d640c3",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_BuildingSupplies_Trader.json",
-      "sha256": "28e871da591969e76e3ecf53abcfbe26e0aa67cc77b0d13bea2fc6e8dc3c4200",
+      "sha256": "4d5d1ee4a06f16681f85107bd8c64385651842139c2fcdb6542a3fc7f596ca45",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Clothing_Trader.json",
-      "sha256": "477e46d932ee03a1a36a6addb16b2ab472a00d88c04558083c43261d88647136",
+      "sha256": "57851638ba09db4e963d76d7203b9d80fa59a85a85e90c3f9350053d6ad85b5e",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Consumables_Trader.json",
-      "sha256": "fc2129d7e0fe328391b7a0b92a6fb4f769d53bf77c3b2f2d11aa2d06c5819dbc",
+      "sha256": "f0718dc9802d577258c786f1ed31d209a3aed18cb05cff938221f21b6b235364",
       "topLevelType": "object",
       "entryCount": 7
     },
