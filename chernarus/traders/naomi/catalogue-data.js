@@ -1,7 +1,7 @@
 window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Loner Can Empty',className:'loner_can_empty',category:'Cans',mode:'buy',price:300,buyPrice:300,sellPrice:150,traderSells:true,traderBuys:true},
 {name:'Loner Can Small Empty',className:'loner_can_small_empty',category:'Cans',mode:'sell',price:250,buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true},
-{name:'Canteen',className:'canteen',category:'Drinks',mode:'sell',price:12000,buyPrice:12000,sellPrice:6000,traderSells:true,traderBuys:true},
+{name:'Canteen',className:'canteen',category:'Drinks',mode:'buy',price:12000,buyPrice:12000,sellPrice:6000,traderSells:true,traderBuys:true},
 {name:'Expansionmilkbottle',className:'expansionmilkbottle',category:'Drinks',mode:'sell',price:9845,buyPrice:9845,sellPrice:4922,traderSells:true,traderBuys:true},
 {name:'Filteringbottle',className:'filteringbottle',category:'Drinks',mode:'sell',price:15000,buyPrice:15000,sellPrice:7500,traderSells:true,traderBuys:true},
 {name:'Glassbottle',className:'glassbottle',category:'Drinks',mode:'sell',price:8500,buyPrice:8500,sellPrice:4250,traderSells:true,traderBuys:true},
