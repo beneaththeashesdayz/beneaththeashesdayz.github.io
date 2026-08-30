@@ -11,7 +11,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Sodacan Pipsi',className:'sodacan_pipsi',category:'Drinks',mode:'sell',price:10165,buyPrice:10165,sellPrice:5082,traderSells:true,traderBuys:true},
 {name:'Sodacan Spite',className:'sodacan_spite',category:'Drinks',mode:'sell',price:9780,buyPrice:9780,sellPrice:4890,traderSells:true,traderBuys:true},
 {name:'Waterbottle',className:'waterbottle',category:'Drinks',mode:'sell',price:10310,buyPrice:10310,sellPrice:5155,traderSells:true,traderBuys:true},
-{name:'Bakedbeanscan',className:'bakedbeanscan',category:'Food',mode:'sell',price:9965,buyPrice:9965,sellPrice:4982,traderSells:true,traderBuys:true},
+{name:'Bakedbeanscan',className:'bakedbeanscan',category:'Food',mode:'buy',price:9965,buyPrice:9965,sellPrice:4982,traderSells:true,traderBuys:true},
 {name:'Boxcerealcrunchin',className:'boxcerealcrunchin',category:'Food',mode:'sell',price:10140,buyPrice:10140,sellPrice:5070,traderSells:true,traderBuys:true},
 {name:'Brisketspread',className:'brisketspread',category:'Food',mode:'sell',price:10055,buyPrice:10055,sellPrice:5028,traderSells:true,traderBuys:true},
 {name:'Catfoodcan',className:'catfoodcan',category:'Food',mode:'sell',price:9885,buyPrice:9885,sellPrice:4942,traderSells:true,traderBuys:true},
