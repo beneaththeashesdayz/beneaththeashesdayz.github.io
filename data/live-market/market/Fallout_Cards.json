@@ -1,6 +1,6 @@
 {
   "m_Version": 12,
-  "DisplayName": "Fallout Cards",
+  "DisplayName": "Fallout Collectable Cards",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
   "InitStockPercent": 75,
@@ -8,8 +8,8 @@
   "Items": [
     {
       "ClassName": "pinup_001",
-      "MaxPriceThreshold": 25,
-      "MinPriceThreshold": 25,
+      "MaxPriceThreshold": 150,
+      "MinPriceThreshold": 150,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
@@ -119,8 +119,8 @@
     },
     {
       "ClassName": "scifi001",
-      "MaxPriceThreshold": 25,
-      "MinPriceThreshold": 25,
+      "MaxPriceThreshold": 175,
+      "MinPriceThreshold": 175,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
@@ -230,8 +230,8 @@
     },
     {
       "ClassName": "western001",
-      "MaxPriceThreshold": 25,
-      "MinPriceThreshold": 25,
+      "MaxPriceThreshold": 200,
+      "MinPriceThreshold": 200,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,

@@ -26,7 +26,10 @@
     "Fallout:2",
     "Fallout_Bobbleheads:2",
     "Fallout_Nuka_Cola:2",
-    "Leaflets:2"
+    "Leaflets:2",
+    "DayZ_Cards:2",
+    "Fallout_Cards:2",
+    "Collector_Cards:2"
   ],
   "Items": {
     "dlt_falloutz_bobbleheadstandkit": 0
