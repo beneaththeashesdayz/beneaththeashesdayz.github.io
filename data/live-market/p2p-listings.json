@@ -2,10 +2,10 @@
   "source": "Beneath the Ashes Chernarus live P2P market",
   "status": "ok",
   "note": null,
-  "syncedAt": "2026-08-31T03:26:13.461700+00:00",
+  "syncedAt": "2026-08-31T04:25:39.479641+00:00",
   "maxListingTimeSeconds": 604800,
   "listingFeePercent": 10,
-  "listingCount": 10,
+  "listingCount": 17,
   "listings": [
     {
       "key": "485f25ae850c7791",
@@ -164,6 +164,215 @@
       "healthLevel": 0,
       "quantity": 100.0,
       "quantityType": 8,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "cb38c1f267e07efe",
+      "traderId": 1,
+      "name": "KM Magazine Loader3 Camo Green",
+      "className": "KM_MagazineLoader3_CamoGreen",
+      "skinName": null,
+      "seller": "grot",
+      "price": 80000,
+      "listedAt": "2026-08-31T03:47:37+00:00",
+      "expiresAt": "2026-09-07T03:47:37+00:00",
+      "healthLevel": 0,
+      "quantity": 0.0,
+      "quantityType": 0,
+      "includedItemCount": 16,
+      "includedItems": [
+        {
+          "className": "MagLoaderCleaningKit",
+          "name": "Mag Loader Cleaning Kit",
+          "quantity": 100.0,
+          "attached": true
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        },
+        {
+          "className": "Money_Dollar100",
+          "name": "Money Dollar100",
+          "quantity": 500.0,
+          "attached": false
+        }
+      ]
+    },
+    {
+      "key": "0b5c9f52af6b0aa3",
+      "traderId": 1,
+      "name": "I M7s Battery Acid 01",
+      "className": "iM7s_Battery_Acid_01",
+      "skinName": null,
+      "seller": "grot",
+      "price": 5000,
+      "listedAt": "2026-08-31T03:47:59+00:00",
+      "expiresAt": "2026-09-07T03:47:59+00:00",
+      "healthLevel": 0,
+      "quantity": 100.0,
+      "quantityType": 8,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "8d0898e82849cb27",
+      "traderId": 1,
+      "name": "I M7s Baking Soda",
+      "className": "iM7s_BakingSoda",
+      "skinName": null,
+      "seller": "grot",
+      "price": 5000,
+      "listedAt": "2026-08-31T03:48:11+00:00",
+      "expiresAt": "2026-09-07T03:48:11+00:00",
+      "healthLevel": 0,
+      "quantity": 200.0,
+      "quantityType": 1,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "9538278eecfdca2d",
+      "traderId": 1,
+      "name": "Cinder Ticket",
+      "className": "Cinder_Ticket",
+      "skinName": null,
+      "seller": "grot",
+      "price": 50000,
+      "listedAt": "2026-08-31T03:48:33+00:00",
+      "expiresAt": "2026-09-07T03:48:33+00:00",
+      "healthLevel": 0,
+      "quantity": 0.0,
+      "quantityType": 0,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "b96d735a96bd404e",
+      "traderId": 1,
+      "name": "I M7s Bleach 02",
+      "className": "iM7s_Bleach_02",
+      "skinName": null,
+      "seller": "grot",
+      "price": 5000,
+      "listedAt": "2026-08-31T03:48:59+00:00",
+      "expiresAt": "2026-09-07T03:48:59+00:00",
+      "healthLevel": 0,
+      "quantity": 100.0,
+      "quantityType": 8,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "6047d08616e849d4",
+      "traderId": 1,
+      "name": "I M7s Gas Stove",
+      "className": "iM7s_Gas_Stove",
+      "skinName": null,
+      "seller": "grot",
+      "price": 5000,
+      "listedAt": "2026-08-31T03:49:22+00:00",
+      "expiresAt": "2026-09-07T03:49:22+00:00",
+      "healthLevel": 0,
+      "quantity": 0.0,
+      "quantityType": 0,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "190495e7a47f00b1",
+      "traderId": 1,
+      "name": "Freeze Hammer",
+      "className": "FreezeHammer",
+      "skinName": null,
+      "seller": "grot",
+      "price": 5000,
+      "listedAt": "2026-08-31T03:49:35+00:00",
+      "expiresAt": "2026-09-07T03:49:35+00:00",
+      "healthLevel": 0,
+      "quantity": 0.0,
+      "quantityType": 0,
       "includedItemCount": 0,
       "includedItems": []
     }
