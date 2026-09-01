@@ -36,7 +36,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Unknownfoodcan',className:'unknownfoodcan',category:'Food',mode:'sell',price:9780,buyPrice:9780,sellPrice:4890,traderSells:true,traderBuys:true},
 {name:'Zagorky',className:'zagorky',category:'Food',mode:'sell',price:9755,buyPrice:9755,sellPrice:4878,traderSells:true,traderBuys:true},
 {name:'Zagorkychocolate',className:'zagorkychocolate',category:'Food',mode:'buy',price:9815,buyPrice:9815,sellPrice:4908,traderSells:true,traderBuys:true},
-{name:'Zagorkypeanuts',className:'zagorkypeanuts',category:'Food',mode:'buy',price:9870,buyPrice:9870,sellPrice:4935,traderSells:true,traderBuys:true},
+{name:'Zagorkypeanuts',className:'zagorkypeanuts',category:'Food',mode:'sell',price:9870,buyPrice:9870,sellPrice:4935,traderSells:true,traderBuys:true},
 {name:'Agaricusmushroom',className:'agaricusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
 {name:'Apple',className:'apple',category:'Fruit And Vegetables',mode:'sell',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
 {name:'Auriculariamushroom',className:'auriculariamushroom',category:'Fruit And Vegetables',mode:'sell',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
