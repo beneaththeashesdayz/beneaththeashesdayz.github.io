@@ -2,10 +2,10 @@
   "source": "Beneath the Ashes Chernarus live P2P market",
   "status": "ok",
   "note": null,
-  "syncedAt": "2026-09-06T19:16:50.719834+00:00",
+  "syncedAt": "2026-09-06T21:28:04.881614+00:00",
   "maxListingTimeSeconds": 604800,
   "listingFeePercent": 10,
-  "listingCount": 15,
+  "listingCount": 14,
   "listings": [
     {
       "key": "6047d08616e849d4",
@@ -54,29 +54,6 @@
       "quantityType": 0,
       "includedItemCount": 0,
       "includedItems": []
-    },
-    {
-      "key": "0a490643d5685a0c",
-      "traderId": 1,
-      "name": "Mmg Gp Nvg Tan",
-      "className": "mmg_gp_nvg_tan",
-      "skinName": null,
-      "seller": "grot",
-      "price": 750000,
-      "listedAt": "2026-09-02T00:26:55+00:00",
-      "expiresAt": "2026-09-09T00:26:55+00:00",
-      "healthLevel": 0,
-      "quantity": 0.0,
-      "quantityType": 0,
-      "includedItemCount": 1,
-      "includedItems": [
-        {
-          "className": "Battery9V",
-          "name": "Battery9V",
-          "quantity": 74.0,
-          "attached": true
-        }
-      ]
     },
     {
       "key": "c25dc6427cb9e0d8",
