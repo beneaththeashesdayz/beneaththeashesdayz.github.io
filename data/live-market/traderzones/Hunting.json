@@ -14,7 +14,7 @@
     "cj_cowpelt_brown": 0,
     "goatpelt_brown": 0,
     "wolfsteakmeat": 7,
-    "lard": 0,
+    "lard": 1,
     "fangeknife": 0,
     "cj_goatpelt_brown": 0,
     "goatpelt_spooky": 0,
@@ -26,7 +26,7 @@
     "bearpelt": 2,
     "goatskinrug_white": 0,
     "head_wolf_white": 1,
-    "cowpelt_brown": 2,
+    "cowpelt_brown": 3,
     "headdress_bear": 0,
     "reddeerskinrug": 0,
     "foxpelt": 0,
@@ -62,7 +62,7 @@
     "crossbow_black": 0,
     "sheepskinrug": 0,
     "rabbitlegmeat": 3,
-    "deerpelt": 1,
+    "deerpelt": 2,
     "cj_cowpelt_white": 0,
     "goatskinrug_black": 0,
     "chickenbreastmeat": 4,
@@ -74,8 +74,8 @@
     "cj_foxpelt": 0,
     "head_bull_brown": 1,
     "foxskinrug": 0,
-    "wolfpelt_grey": 7,
-    "wolfpelt_white": 3,
+    "wolfpelt_grey": 8,
+    "wolfpelt_white": 5,
     "head_goat_brown": 0,
     "foxsteakmeat": 0,
     "wildboarpelt": 1,
@@ -107,6 +107,6 @@
     "cj_rabbitpelt_brown": 0,
     "cowpelt_spotted": 1,
     "head_goat_white": 0,
-    "sheeppelt": 1
+    "sheeppelt": 2
   }
 }
