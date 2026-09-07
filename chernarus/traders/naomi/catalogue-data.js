@@ -27,7 +27,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Peachescan',className:'peachescan',category:'Food',mode:'sell',price:10080,buyPrice:10080,sellPrice:5040,traderSells:true,traderBuys:true},
 {name:'Porkcan',className:'porkcan',category:'Food',mode:'sell',price:10165,buyPrice:10165,sellPrice:5082,traderSells:true,traderBuys:true},
 {name:'Powderedmilk',className:'powderedmilk',category:'Food',mode:'sell',price:9995,buyPrice:9995,sellPrice:4998,traderSells:true,traderBuys:true},
-{name:'Rice',className:'rice',category:'Food',mode:'buy',price:9860,buyPrice:9860,sellPrice:4930,traderSells:true,traderBuys:true},
+{name:'Rice',className:'rice',category:'Food',mode:'sell',price:9860,buyPrice:9860,sellPrice:4930,traderSells:true,traderBuys:true},
 {name:'Saltysticks',className:'saltysticks',category:'Food',mode:'buy',price:9745,buyPrice:9745,sellPrice:4872,traderSells:true,traderBuys:true},
 {name:'Sardinescan',className:'sardinescan',category:'Food',mode:'sell',price:9915,buyPrice:9915,sellPrice:4958,traderSells:true,traderBuys:true},
 {name:'Spaghettican',className:'spaghettican',category:'Food',mode:'sell',price:10110,buyPrice:10110,sellPrice:5055,traderSells:true,traderBuys:true},
