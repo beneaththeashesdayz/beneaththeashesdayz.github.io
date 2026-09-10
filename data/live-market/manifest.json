@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-09-10T01:10:22.375791+00:00",
+  "syncedAt": "2026-09-10T06:03:24.743400+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -1762,7 +1762,7 @@
     {
       "group": "traderzones",
       "filename": "Collectables.json",
-      "sha256": "f64bfebeef6d7883f0755a1ab815e76c31fb96fe397b85f93ef77099b8c0a8a6",
+      "sha256": "9792e781fd8b1bba6f0c66368ea8566f8924f61372cddfcb0f6ba58bbccb8f6e",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1783,7 +1783,7 @@
     {
       "group": "traderzones",
       "filename": "Fishing_Trader.json",
-      "sha256": "ce5c422b76ea14b96f8362b3c7db1b01365db47d5ec2abc68d985cc8a6275695",
+      "sha256": "2361e41a881ca3e9e5f1aad2d4280547e66b3c48c5195112bc771abf5ee09749",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1797,7 +1797,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "a90641f8c452acc60fb1380597786060708ab904f6aa49a3223af1fd459ed0ba",
+      "sha256": "e6d24dcf1c5f99df3e0557fca711bf8e3e2b961a66b3713c6d69b9bef34ef07c",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1811,7 +1811,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Clothing_Trader.json",
-      "sha256": "b2d4d7aa655cd76eaea31acfd78e29e9caf5797c5b448cec157563b2bffb2464",
+      "sha256": "12b6e20cf531e32fc5a7b66ed512dd63abb67b95aef65dd61878c2744820c1ca",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1839,7 +1839,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "ce5d2319c89d8a41f8b6d3e88a46240253eff802025527ebb6c68c081b040a2c",
+      "sha256": "8ef0845cd5551b79098ffffe74ba92bf267a3fe63eacedb3e556c6009aca23d9",
       "topLevelType": "object",
       "entryCount": 7
     },
