@@ -2,13 +2,13 @@
   "m_Version": 6,
   "m_DisplayName": "Fishing Trader",
   "Position": [
-    179.67599487304688,
-    386.9469909667969,
-    12521.7451171875
+    1098.131,
+    149.32,
+    6632.615
   ],
-  "Radius": 100.0,
-  "BuyPricePercent": 100.0,
-  "SellPricePercent": 50.0,
+  "Radius": 100,
+  "BuyPricePercent": 100,
+  "SellPricePercent": 100,
   "Stock": {
     "geb_brooktroutfilletmeat": 0,
     "geb_limetackle": 0,

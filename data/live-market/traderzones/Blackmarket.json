@@ -6,9 +6,9 @@
     13.45300006866455,
     9146.16796875
   ],
-  "Radius": 500.0,
-  "BuyPricePercent": 150.0,
-  "SellPricePercent": 125.0,
+  "Radius": 500,
+  "BuyPricePercent": 100,
+  "SellPricePercent": 150,
   "Stock": {
     "pokemoncard146fh": 0,
     "my_df_weapons_attachments_pisg_mk4_pisg": 0,
