@@ -13,8 +13,6 @@
   "DisplayCurrencyName": "Zombie Notes",
   "UseCategoryOrder": 0,
   "Categories": [
-    "Custom_Flags",
-    "BallerZ_Gear",
     "Workbenches",
     "Mag_Loader",
     "Gebs_Fishing_Gear:2",
@@ -38,8 +36,7 @@
     "Tracksuit_Gear_Set:0",
     "Umbrella_Gear_Set:0",
     "Ghost_Gear_Set:0",
-    "Fuel_Canisters:0",
-    "FOG_Gear_Higher_Tier:1"
+    "Fuel_Canisters:0"
   ],
   "Items": {
     "compass": 0,

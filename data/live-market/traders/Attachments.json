@@ -20,9 +20,7 @@
   "UseCategoryOrder": 0,
   "Categories": [
     "Batteries:3",
-    "MYDF_Attachments:1",
     "MYDF_Ammo:1",
-    "MYDF_Mags:1",
     "Haralds_Ammo:1",
     "Morty's_Ammo:1",
     "Ammo:1",
@@ -30,7 +28,19 @@
     "Buttstocks:1",
     "Handguards:1",
     "Magazines:1",
-    "Optics:1"
+    "Optics:1",
+    "DF_Weapons_Barrel:1",
+    "DF_Weapons_Bipod:1",
+    "DF_Weapons_Frog:1",
+    "DF_Weapons_Handguard:1",
+    "DF_Weapons_Laser:1",
+    "DF_Weapons_Light:1",
+    "DF_Weapons_Magazine:1",
+    "DF_Weapons_Muzzle:1",
+    "DF_Weapons_Optic:1",
+    "DF_Weapons_Other:1",
+    "DF_Weapons_Pisg:1",
+    "DF_Weapons_Stock:1"
   ],
   "Items": {
     "weaponcleaningkit": 0,

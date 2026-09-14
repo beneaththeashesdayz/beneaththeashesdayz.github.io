@@ -1,12 +1,12 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-09-14T19:27:40.850694+00:00",
+  "syncedAt": "2026-09-14T23:11:34.768630+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 215,
-  "traderFileCount": 33,
+  "marketFileCount": 230,
+  "traderFileCount": 24,
   "traderZoneFileCount": 18,
   "files": [
     {
@@ -349,6 +349,139 @@
       "group": "market",
       "filename": "DayZ_Cards.json",
       "sha256": "4c892fd6cc6b9ad6e5f8de03104c7fa1e4e35a794546693ac189474a85e2d4f2",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Barrel.json",
+      "sha256": "5f719128704e8de48104070f3b622fa09940e1bf1e97cd3d91b910bd57ad5ca1",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Bipod.json",
+      "sha256": "abeadd3422dfa78614b1ffaf1caea88d62b222bd869ef0e3e8693d3f758fdca7",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_DMR.json",
+      "sha256": "0f006bb99b4349ced5e3c79384a997608cf83e0b1e1bb9383649af38f0ee9222",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Frog.json",
+      "sha256": "f342e1f2fbe8af119597e595ea4199ef1688086d965582d7a1d8b34cdfebec1a",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Handguard.json",
+      "sha256": "3a8525154bc9588d5076d27bd8162166511c7449b6d17a4d2a0156f0fd3daead",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Laser.json",
+      "sha256": "715aed4120589d5b1a30d40535b3a1a7f91b983c807d319e3ffc758d9ca7fa3c",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Light.json",
+      "sha256": "e7c57a5a7b3aef94e7c954a390e63abfd71343231ea93992933d5f47d1998557",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_LMG.json",
+      "sha256": "37c5e8b1f71d5aa8dc19c664c602af5ffc55af16d8feb14d2abc59dcf8242318",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Magazine.json",
+      "sha256": "c90c2f5775ef677afa52a0206456be5b16b33184124818495385d5d028732165",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Muzzle.json",
+      "sha256": "8ec2399fb226bc5bc52a143624fab71da647adce42dfad15abeda6a818b8e460",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Optic.json",
+      "sha256": "523861c5586866eb46a8ed5aba1d64977f6a8e85b73a23f5befd24559fa1f073",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Other.json",
+      "sha256": "45a4c6fa3780869cb1aa4ae08c7c3c619eea48e309dec57dc6a94463e934358c",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Pisg.json",
+      "sha256": "287c035d68d1276b27907e2b8b9291219a0734230f10b3a81d8b55659e419311",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Pistol.json",
+      "sha256": "20ee9b2714cd0682345902b04aca41536582c24bcf645a718cec329d7e3d8ffd",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Rifle.json",
+      "sha256": "06dc28fa6b7358b21e9732e2244327d49510f658d04ab0b2e7b06d6c3ca6aade",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Shotgun.json",
+      "sha256": "2701c96b3d62c863cc6aee67ca369ab678e6cf11beb93235a1230bdc8963fcdb",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_SMG.json",
+      "sha256": "377478b4759856f1b98e313a6500592ba3b2c47e51c078542e9a0161bd69d122",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Sniper.json",
+      "sha256": "175f214b7cea4c8ffeb3c8c1d565c953127fbca53cff22d8020ee21eb5eb52eb",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Stock.json",
+      "sha256": "8e65c67b85ad209c015b83bb56e4e3c6ca13e538f7c397574c9319f2d3752a16",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1026,13 +1159,6 @@
     },
     {
       "group": "market",
-      "filename": "Mercedes_Benz_Yachting_Parts.json",
-      "sha256": "7edb54168ed3ec621bdaae6cda4776e0e3cfc0ed3056238e631c1397ad3fb55c",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
       "filename": "Mercenary_Gear_Set.json",
       "sha256": "8a354084b1a8962eece46e9a342b3a5fbc476ffa0ec751d356d8189faf62804f",
       "topLevelType": "object",
@@ -1042,6 +1168,13 @@
       "group": "market",
       "filename": "Military_Gear_Set.json",
       "sha256": "6f485aa1845b2db932c14201bd114553c41dca8c2d39d30efaa21ccb121022b4",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Missing_Attachments_1.json",
+      "sha256": "3d04abd99c700f74b049b65831f774accb2c1027b9ca67d30463456ba5255304",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1076,7 +1209,7 @@
     {
       "group": "market",
       "filename": "Morty's_Mags.json",
-      "sha256": "9e3be837df20a089c51d5f60bdac4f74fca3057228c0d82aa2d448a164aa3f94",
+      "sha256": "7bbfd3a3ed02ac7964c462dbf2581cc3ed4dac90a8c7428b2a571081a7eba249",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1131,29 +1264,8 @@
     },
     {
       "group": "market",
-      "filename": "MYDF_Attachments.json",
-      "sha256": "1ea79e83dbf98c091324c471b36fb3b05e2d7c64265d9029d0e0a8b9746c8173",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "MYDF_Mags.json",
-      "sha256": "4422094da6c9f97296d12fc180b49a8e2dd375726e7fb882d28a149986023578",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
       "filename": "MYDF_Melee.json",
       "sha256": "3698f158a3674f1858b8f8176c1d4e90e97b99da89bba2b01906dc81b5f8d674",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "MYDF_Weapons.json",
-      "sha256": "e4327aab349a1e8ca8c3fd0b45b2c5f94d529c69ea1614b40bd5d2fd312478dc",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1168,13 +1280,6 @@
       "group": "market",
       "filename": "NBC_Gear.json",
       "sha256": "e38bac8569fbcf4a6682e8c4d03ec72af8a42ad25a40e6add8cb5e802feddbfa",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "Nissan_180_SX_Parts.json",
-      "sha256": "9a18f4509bf42cb1e6be3aa789d8336a59c8042694143b4c66dee13109b7548d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1426,7 +1531,7 @@
     {
       "group": "market",
       "filename": "Supplies.json",
-      "sha256": "f4bf7df103746b010c41c01088090773ca84fe039a96178d0618d9515c9eebef",
+      "sha256": "d776bb3702ae81daf27687f49c34d651a27417be135b8ef4457f796c9f36a275",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1517,28 +1622,21 @@
     {
       "group": "traders",
       "filename": "Attachments.json",
-      "sha256": "963b048ef2b42ab86315213d57222691610cbb66dfad1859399abbfa22484e79",
+      "sha256": "c41ad20a2a697304bbdfb2ebaa1785abc44fd00803683f2b70df882c86717f6d",
       "topLevelType": "object",
       "entryCount": 13
     },
     {
       "group": "traders",
       "filename": "Blackmarket.json",
-      "sha256": "aac3f0b9d4537dcb453660388acab75e0d4a7fe9e9408cdf3ee28a3d32b6aba0",
+      "sha256": "29af4ba01d6fc359144f128a411760a9860869ed1c68f9cf2fdbb9496ec44f27",
       "topLevelType": "object",
       "entryCount": 13
     },
     {
       "group": "traders",
       "filename": "BM_Zombie_Note_Trader.json",
-      "sha256": "84a7eac5144745aac98255422ddc69a5236d9b9d53d8bf700052607f273b0d22",
-      "topLevelType": "object",
-      "entryCount": 13
-    },
-    {
-      "group": "traders",
-      "filename": "Boats.json",
-      "sha256": "f1ff23fc8a944f9dfa6a2b693b705cb2057aea8aef439da0c84e96ad5b3afa1c",
+      "sha256": "f31a32e71a2d1539ea6b42bda251352374257703c173223682b9e4110b411e28",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1600,13 +1698,6 @@
     },
     {
       "group": "traders",
-      "filename": "Event.json",
-      "sha256": "b22b420fe2a1bbbdac06b45e3d081ff9df183341cbbf84194d97682711d7ba25",
-      "topLevelType": "object",
-      "entryCount": 13
-    },
-    {
-      "group": "traders",
       "filename": "Exchange.json",
       "sha256": "f678908f18084b5b94c1ec6b0cbf1374ca81de8295741090a9fe580297088aca",
       "topLevelType": "object",
@@ -1656,36 +1747,8 @@
     },
     {
       "group": "traders",
-      "filename": "Moonshine.json",
-      "sha256": "01ec1adeb11bb7874f113ed3278be2f1f1870b7f488bb0e16b3cd6217941ef50",
-      "topLevelType": "object",
-      "entryCount": 13
-    },
-    {
-      "group": "traders",
-      "filename": "Paintball.json",
-      "sha256": "c52b578108d1eeef2fed3d2fdce4f0d3af8cd56f06336e50d7b2c6d2b09f3820",
-      "topLevelType": "object",
-      "entryCount": 13
-    },
-    {
-      "group": "traders",
-      "filename": "Pop-Up_Alcohol_Trader.json",
-      "sha256": "bb5af661e68f50e899ec71c1d64d25f771ed14043fdb868563e7da58b7476961",
-      "topLevelType": "object",
-      "entryCount": 13
-    },
-    {
-      "group": "traders",
       "filename": "Secret_Trader.json",
-      "sha256": "23bd7222f8ba3e1f2f8ae46746f180f3798cbda8fc4a1099e1787eb4e828e8be",
-      "topLevelType": "object",
-      "entryCount": 13
-    },
-    {
-      "group": "traders",
-      "filename": "Special.json",
-      "sha256": "afc7e7f980525762d428f2158b9c56b73bc89f71a3449546659b051f3c02c47b",
+      "sha256": "84357f310af529321d1fd54600258ad6b02308b6cce0c1d0665fe7a784aa080d",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1693,20 +1756,6 @@
       "group": "traders",
       "filename": "Special_Gear.json",
       "sha256": "d5a79c7a477a31c07c55cfd91b04ef44d7afb59e3dfc2256e34bb9b4ddd99612",
-      "topLevelType": "object",
-      "entryCount": 13
-    },
-    {
-      "group": "traders",
-      "filename": "Spraycans.json",
-      "sha256": "1124e5e7303433842d9494c12ae689173fb1bcd731501e475f13f4351efe14d6",
-      "topLevelType": "object",
-      "entryCount": 13
-    },
-    {
-      "group": "traders",
-      "filename": "The_Bone_Broker.json",
-      "sha256": "897a5afcf986a26b836b56e2c42601f6be1178cf3149c2b7e79925010798963f",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1727,28 +1776,21 @@
     {
       "group": "traders",
       "filename": "Vehicle_Parts.json",
-      "sha256": "4e3f36f87b29d6981692900ad02c9218094687a2f0458d1c3483f3f62b7a145a",
+      "sha256": "f43d828ab8690ad96b79b56e15da2c26d42ae7a789bba627e007c36384e8475a",
       "topLevelType": "object",
       "entryCount": 13
     },
     {
       "group": "traders",
       "filename": "Weapons.json",
-      "sha256": "7e208dc06ebc296b733bc69067a3c6ec0927d89a0d0d8b670e4a3a416f015662",
-      "topLevelType": "object",
-      "entryCount": 13
-    },
-    {
-      "group": "traders",
-      "filename": "YardSaleScripTrader.json",
-      "sha256": "8ec92765a6e515eb9b8d72a9785c32ad19097128f9cd9b9c86c27c5a6bb189c0",
+      "sha256": "b8589b7aa81e475725925f9dfa1c4709f670aff5925804ed9eb60562d0ffebc4",
       "topLevelType": "object",
       "entryCount": 13
     },
     {
       "group": "traderzones",
       "filename": "Blackmarket.json",
-      "sha256": "7f5a301c06fbfd3cb237f5627b410f657244435fa1d37dd0ee68f75a3e1b4254",
+      "sha256": "545c17da93a62cf4cc13845edac01988236f2508e08ad72b02f4607abafb7b59",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1797,14 +1839,14 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "e4802343a40e26f07c3e6f9214ef66dbd2d681a217c2b1da27207dde83bcaca0",
+      "sha256": "13b39adc23b2fc3b4ed50e714f3a223e49c3dd25aff1cd4dd632c9b405a91e10",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_BuildingSupplies_Trader.json",
-      "sha256": "30f93761f4133c1772f7ae623eda569a360417e83e3b43c985462ff1bf5be8a2",
+      "sha256": "772f920954d164fe1996142e2818b94ce3de69f7c1f7586d35a22c438f8a209c",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1839,7 +1881,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "33b9e83e4d1fba230f99237732cd4c0bb2a3565303218f536b6311c1198d70d0",
+      "sha256": "4fcfda0205c0349d16e501a34eb9343c1d7b15b861bebe1d0b377448d6058062",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1867,7 +1909,7 @@
     {
       "group": "traderzones",
       "filename": "Secret_Trader.json",
-      "sha256": "2aef096e7eabcdfcb583c4f5e745949e29777ba722a16bd052957fe2d8c1a412",
+      "sha256": "53c2b1dc703b251931bff849d015f51e9835fa425b805b21305457dc14575870",
       "topLevelType": "object",
       "entryCount": 7
     },

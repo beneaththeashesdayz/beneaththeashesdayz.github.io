@@ -1,0 +1,1500 @@
+{
+  "m_Version": 12,
+  "DisplayName": "MYDF Magazines",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "IsExchange": 0,
+  "InitStockPercent": 100.0,
+  "Items": [
+    {
+      "ClassName": "My_DF_Weapons_DMR_M14_10RndMag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_DMR_M14_20RndMag",
+        "My_DF_Weapons_DMR_M14_50RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_M14_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_M14_50RndMag",
+      "MaxPriceThreshold": 2200,
+      "MinPriceThreshold": 2200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_Mini14_10RndMag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_DMR_Mini14_20RndMag",
+        "My_DF_Weapons_DMR_Mini14_30RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_Mini14_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_Mini14_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_SR25_10RndMag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_DMR_SR25_20RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_SR25_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_SVD_10RndMag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_DMR_SVD_20RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_SVD_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_VSS_10RndMag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_DMR_VSS_30RndMag",
+        "My_DF_Weapons_DMR_VSS_45RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_VSS_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_VSS_45RndMag",
+      "MaxPriceThreshold": 1800,
+      "MinPriceThreshold": 1800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_LMG_M249_100RndMag",
+      "MaxPriceThreshold": 3800,
+      "MinPriceThreshold": 3800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_LMG_M250_125RndMag",
+      "MaxPriceThreshold": 4500,
+      "MinPriceThreshold": 4500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_LMG_M250_75RndMag",
+      "MaxPriceThreshold": 2800,
+      "MinPriceThreshold": 2800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_LMG_M250_125RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_LMG_PKM_125RndMag",
+      "MaxPriceThreshold": 4500,
+      "MinPriceThreshold": 4500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_LMG_PKM_75RndMag",
+      "MaxPriceThreshold": 2800,
+      "MinPriceThreshold": 2800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_LMG_PKM_125RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_LMG_QJB201_125RndMag",
+      "MaxPriceThreshold": 4500,
+      "MinPriceThreshold": 4500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_LMG_QJB201_45RndMag",
+      "MaxPriceThreshold": 1800,
+      "MinPriceThreshold": 1800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_LMG_QJB201_125RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Pistols_93R_12RndMag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Pistols_93R_18RndExtMag",
+        "My_DF_Weapons_Pistols_93R_24RndExtMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Pistols_93R_18RndExtMag",
+      "MaxPriceThreshold": 900,
+      "MinPriceThreshold": 900,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Pistols_93R_24RndExtMag",
+      "MaxPriceThreshold": 1200,
+      "MinPriceThreshold": 1200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Pistols_Deagle_13RndMag",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Pistols_Deagle_7RndMag",
+      "MaxPriceThreshold": 450,
+      "MinPriceThreshold": 450,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Pistols_Deagle_13RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Pistols_Glock18C_17RndMag",
+      "MaxPriceThreshold": 850,
+      "MinPriceThreshold": 850,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Pistols_Glock18C_25RndExtMag",
+        "My_DF_Weapons_Pistols_Glock18C_33RndExtMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Pistols_Glock18C_25RndExtMag",
+      "MaxPriceThreshold": 1200,
+      "MinPriceThreshold": 1200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Pistols_Glock18C_33RndExtMag",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Pistols_M1911_11RndExtMag",
+      "MaxPriceThreshold": 650,
+      "MinPriceThreshold": 650,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Pistols_M1911_7RndMag",
+      "MaxPriceThreshold": 450,
+      "MinPriceThreshold": 450,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Pistols_M1911_11RndExtMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Pistols_QSZ92G_15RndMag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AK12_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AK74_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Rifles_AK74_30RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AK74_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AKM_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Rifles_AKM_30RndMag2",
+        "My_DF_Weapons_Rifles_AKM_30RndMag3",
+        "My_DF_Weapons_Rifles_AKM_30RndMag",
+        "My_DF_Weapons_Rifles_AKM_40RndMag",
+        "My_DF_Weapons_Rifles_AKM_70RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AKM_30RndMag2",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AKM_30RndMag3",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AKM_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AKM_40RndMag",
+      "MaxPriceThreshold": 1700,
+      "MinPriceThreshold": 1700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AKM_70RndMag",
+      "MaxPriceThreshold": 2800,
+      "MinPriceThreshold": 2800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AKS74U_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Rifles_AKS74U_45RndExtMag",
+        "My_DF_Weapons_Rifles_AKS74U_75RndDrumMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AKS74U_45RndExtMag",
+      "MaxPriceThreshold": 1800,
+      "MinPriceThreshold": 1800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AKS74U_75RndDrumMag",
+      "MaxPriceThreshold": 2800,
+      "MinPriceThreshold": 2800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_Ash12_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Rifles_Ash12_30RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_Ash12_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AUG_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Rifles_AUG_30RndPMag",
+        "My_DF_Weapons_Rifles_AUG_60RndMag",
+        "My_DF_Weapons_Rifles_AUG_45RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AUG_30RndPMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AUG_60RndMag",
+      "MaxPriceThreshold": 2400,
+      "MinPriceThreshold": 2400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_G3_10RndMag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Rifles_G3_20RndMag",
+        "My_DF_Weapons_Rifles_G3_30RndMag",
+        "My_DF_Weapons_Rifles_G3_50RndDrumMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_G3_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_G3_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_G3_50RndDrumMag",
+      "MaxPriceThreshold": 3000,
+      "MinPriceThreshold": 3000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_K437_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Rifles_K437_45RndMag",
+        "My_DF_Weapons_Rifles_K437_60RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_K437_45RndMag",
+      "MaxPriceThreshold": 1800,
+      "MinPriceThreshold": 1800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_K437_60RndMag",
+      "MaxPriceThreshold": 2400,
+      "MinPriceThreshold": 2400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_KC17_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Rifles_KC17_45RndMag",
+        "My_DF_Weapons_Rifles_KC17_75RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_KC17_45RndMag",
+      "MaxPriceThreshold": 1800,
+      "MinPriceThreshold": 1800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_KC17_75RndMag",
+      "MaxPriceThreshold": 2800,
+      "MinPriceThreshold": 2800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_M4A1_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Rifles_M4A1_30RndMag2",
+        "My_DF_Weapons_Rifles_M4A1_30RndMag",
+        "My_DF_Weapons_Rifles_M4A1_30RndPMag",
+        "My_DF_Weapons_Rifles_M4A1_45RndMag",
+        "My_DF_Weapons_Rifles_M4A1_60RndDrumMag",
+        "My_DF_Weapons_Rifles_M4A1_60RndMag",
+        "My_DF_Weapons_Rifles_M4A1_100RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_M4A1_30RndMag2",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_M4A1_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_M4A1_30RndPMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_M4A1_45RndMag",
+      "MaxPriceThreshold": 1800,
+      "MinPriceThreshold": 1800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_M4A1_60RndDrumMag",
+      "MaxPriceThreshold": 3000,
+      "MinPriceThreshold": 3000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_M4A1_60RndMag",
+      "MaxPriceThreshold": 2400,
+      "MinPriceThreshold": 2400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_M7_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Rifles_M7_30RndMag",
+        "My_DF_Weapons_Rifles_M7_45RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_M7_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_M7_45RndMag",
+      "MaxPriceThreshold": 1800,
+      "MinPriceThreshold": 1800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_PTR32_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_QBZ191_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Rifles_QBZ191_60RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_QBZ191_60RndMag",
+      "MaxPriceThreshold": 2400,
+      "MinPriceThreshold": 2400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_QBZ95_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_SCARH_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Rifles_SCARH_30RndMag",
+        "My_DF_Weapons_Rifles_SCARH_50RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_SCARH_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_SCARH_50RndMag",
+      "MaxPriceThreshold": 2200,
+      "MinPriceThreshold": 2200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_SG553_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Rifles_SG553_30RndMag",
+        "My_DF_Weapons_Rifles_SG553_45RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_SG553_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_SG553_45RndMag",
+      "MaxPriceThreshold": 1800,
+      "MinPriceThreshold": 1800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Shotguns_Saiga12K_10RndMag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Shotguns_Saiga12K_24RndDrumMag",
+        "My_DF_Weapons_Shotguns_Saiga12K_5RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Shotguns_Saiga12K_24RndDrumMag",
+      "MaxPriceThreshold": 3000,
+      "MinPriceThreshold": 3000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Shotguns_Saiga12K_5RndMag",
+      "MaxPriceThreshold": 350,
+      "MinPriceThreshold": 350,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_Bison_32RndMag",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_SMG_Bison_64RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_Bison_64RndMag",
+      "MaxPriceThreshold": 2700,
+      "MinPriceThreshold": 2700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_MP5_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_SMG_MP5_30RndMag",
+        "My_DF_Weapons_SMG_MP5_50RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_MP5_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_MP5_50RndMag",
+      "MaxPriceThreshold": 2200,
+      "MinPriceThreshold": 2200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_MP7_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_SMG_MP7_30RndMag",
+        "My_DF_Weapons_SMG_MP7_40RndMag",
+        "My_DF_Weapons_SMG_MP7_60RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_MP7_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_MP7_40RndMag",
+      "MaxPriceThreshold": 1700,
+      "MinPriceThreshold": 1700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_MP7_60RndMag",
+      "MaxPriceThreshold": 2400,
+      "MinPriceThreshold": 2400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_P90_50RndMag",
+      "MaxPriceThreshold": 2200,
+      "MinPriceThreshold": 2200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_PP19_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_SMG_PP19_45RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_PP19_45RndMag",
+      "MaxPriceThreshold": 1800,
+      "MinPriceThreshold": 1800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_QCQ171_100RndMag",
+      "MaxPriceThreshold": 3800,
+      "MinPriceThreshold": 3800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_QCQ171_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_SMG_QCQ171_100RndMag",
+        "My_DF_Weapons_SMG_QCQ171_45RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_QCQ171_45RndMag",
+      "MaxPriceThreshold": 1800,
+      "MinPriceThreshold": 1800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_SMG45_25RndMag",
+      "MaxPriceThreshold": 1200,
+      "MinPriceThreshold": 1200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_SMG_SMG45_40RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_SMG45_40RndMag",
+      "MaxPriceThreshold": 1700,
+      "MinPriceThreshold": 1700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_Uzi_25RndMag",
+      "MaxPriceThreshold": 1200,
+      "MinPriceThreshold": 1200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_SMG_Uzi_35RndMag",
+        "My_DF_Weapons_SMG_Uzi_45RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_Uzi_35RndMag",
+      "MaxPriceThreshold": 350,
+      "MinPriceThreshold": 350,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_Uzi_45RndMag",
+      "MaxPriceThreshold": 1800,
+      "MinPriceThreshold": 1800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_Vector_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_SMG_Vector_30RndMag",
+        "My_DF_Weapons_SMG_Vector_40RndMag",
+        "My_DF_Weapons_SMG_Vector_70RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_Vector_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_Vector_40RndMag",
+      "MaxPriceThreshold": 1700,
+      "MinPriceThreshold": 1700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_Vector_70RndMag",
+      "MaxPriceThreshold": 2800,
+      "MinPriceThreshold": 2800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Snipers_AWM_5RndMag",
+      "MaxPriceThreshold": 350,
+      "MinPriceThreshold": 350,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Snipers_M700_10RndMag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Snipers_M700_5RndMag",
+      "MaxPriceThreshold": 350,
+      "MinPriceThreshold": 350,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Snipers_M700_10RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Snipers_R93_10RndMag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Snipers_R93_15RndExtMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Snipers_R93_15RndExtMag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Snipers_SV98_7RndMag",
+      "MaxPriceThreshold": 450,
+      "MinPriceThreshold": 450,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_MK4_24RndMag",
+      "MaxPriceThreshold": 1200,
+      "MinPriceThreshold": 1200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_SMG_MK4_48RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_SMG_MK4_48RndMag",
+      "MaxPriceThreshold": 2200,
+      "MinPriceThreshold": 2200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Shotguns_FPSS_6RndMag",
+      "MaxPriceThreshold": 400,
+      "MinPriceThreshold": 400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Shotguns_FPSS_12RndMag",
+        "My_DF_Weapons_Shotguns_FPSS_20RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Shotguns_FPSS_12RndMag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Shotguns_FPSS_20RndMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_MCXLT_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_AUG_45RndMag",
+      "MaxPriceThreshold": 1800,
+      "MinPriceThreshold": 1800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_M4A1_100RndMag",
+      "MaxPriceThreshold": 3800,
+      "MinPriceThreshold": 3800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Snipers_M82_12RndMag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Snipers_M82_5RndMag",
+      "MaxPriceThreshold": 350,
+      "MinPriceThreshold": 350,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Snipers_M82_12RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_SVCH_10RndMag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_DMR_SVCH_30RndMag",
+        "My_DF_Weapons_DMR_SVCH_40RndMag"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_SVCH_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_DMR_SVCH_40RndMag",
+      "MaxPriceThreshold": 1700,
+      "MinPriceThreshold": 1700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Rifles_RM277_30RndMag",
+      "MaxPriceThreshold": 1400,
+      "MinPriceThreshold": 1400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

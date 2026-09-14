@@ -28,8 +28,16 @@
     "Launchers_And_Ammo:2",
     "Melee_Weapons:1",
     "Knifes:1",
-    "MYDF_Weapons:2",
-    "MYDF_Melee:2"
+    "MYDF_Melee:2",
+    "DF_Weapons_DMR:2",
+    "DF_Weapons_Pistol:2",
+    "DF_Weapons_Rifle:2",
+    "DF_Weapons_Shotgun:2",
+    "DF_Weapons_SMG:2",
+    "DF_Weapons_Sniper:2",
+    "Buttstocks:3",
+    "Handguards:3",
+    "Magazines:3"
   ],
   "Items": {
     "aysa_antiairmissile": 1,
