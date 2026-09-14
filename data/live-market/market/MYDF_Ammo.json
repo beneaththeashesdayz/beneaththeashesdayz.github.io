@@ -3,11 +3,11 @@
   "DisplayName": "MYDF Ammo",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75,
   "IsExchange": 0,
+  "InitStockPercent": 100.0,
   "Items": [
     {
-      "ClassName": "my_df_weapons_ammo_127x55_bp",
+      "ClassName": "My_DF_Weapons_Ammo_127x55_BP",
       "MaxPriceThreshold": 112,
       "MinPriceThreshold": 112,
       "SellPricePercent": -1,
@@ -15,54 +15,15 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_127x55_PD12",
+        "My_DF_Weapons_Ammo_127x55_PS12",
+        "My_DF_Weapons_Ammo_127x55_PS12A",
+        "My_DF_Weapons_Ammo_127x55_PS12B"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_127x55_pd12",
-      "MaxPriceThreshold": 90,
-      "MinPriceThreshold": 90,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_127x55_ps12",
-      "MaxPriceThreshold": 90,
-      "MinPriceThreshold": 90,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_127x55_ps12a",
-      "MaxPriceThreshold": 90,
-      "MinPriceThreshold": 90,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_127x55_ps12b",
-      "MaxPriceThreshold": 112,
-      "MinPriceThreshold": 112,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_12gauge_7mmbuckshot",
+      "ClassName": "My_DF_Weapons_Ammo_12Gauge_7mmBuckshot",
       "MaxPriceThreshold": 47,
       "MinPriceThreshold": 47,
       "SellPricePercent": -1,
@@ -70,43 +31,19 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_12Gauge_8mmBuckshot",
+        "My_DF_Weapons_Ammo_12Gauge_AP20",
+        "My_DF_Weapons_Ammo_12Gauge_Arrow",
+        "My_DF_Weapons_Ammo_12Gauge_RIP",
+        "My_DF_Weapons_Ammo_12Gauge_Dragon",
+        "My_DF_Weapons_Ammo_12Gauge_FTX",
+        "My_DF_Weapons_Ammo_12Gauge_GT",
+        "My_DF_Weapons_Ammo_12Gauge_APX"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_12gauge_8mmbuckshot",
-      "MaxPriceThreshold": 47,
-      "MinPriceThreshold": 47,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_12gauge_ap20",
-      "MaxPriceThreshold": 59,
-      "MinPriceThreshold": 59,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_12gauge_apx",
-      "MaxPriceThreshold": 59,
-      "MinPriceThreshold": 59,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_12gauge_arrow",
+      "ClassName": "My_DF_Weapons_Ammo_300_Bpz",
       "MaxPriceThreshold": 56,
       "MinPriceThreshold": 56,
       "SellPricePercent": -1,
@@ -114,12 +51,17 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_300_Cbj",
+        "My_DF_Weapons_Ammo_300_Vmax",
+        "My_DF_Weapons_Ammo_300_V_SUB",
+        "My_DF_Weapons_Ammo_300_BCP_SUB"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_12gauge_dragon",
-      "MaxPriceThreshold": 56,
-      "MinPriceThreshold": 56,
+      "ClassName": "My_DF_Weapons_Ammo_338_LapMag",
+      "MaxPriceThreshold": 130,
+      "MinPriceThreshold": 130,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
@@ -128,194 +70,22 @@
       "Variants": []
     },
     {
-      "ClassName": "my_df_weapons_ammo_12gauge_ftx",
-      "MaxPriceThreshold": 49,
-      "MinPriceThreshold": 49,
+      "ClassName": "My_DF_Weapons_Ammo_357Magnum_FMJ",
+      "MaxPriceThreshold": 60,
+      "MinPriceThreshold": 60,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_357Magnum_JHP",
+        "My_DF_Weapons_Ammo_357Magnum_HP",
+        "My_DF_Weapons_Ammo_357Magnum_Shot"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_12gauge_gt",
-      "MaxPriceThreshold": 47,
-      "MinPriceThreshold": 47,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_12gauge_rip",
-      "MaxPriceThreshold": 56,
-      "MinPriceThreshold": 56,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_300_bcp_sub",
-      "MaxPriceThreshold": 56,
-      "MinPriceThreshold": 56,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_300_bpz",
-      "MaxPriceThreshold": 64,
-      "MinPriceThreshold": 64,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_300_cbj",
-      "MaxPriceThreshold": 59,
-      "MinPriceThreshold": 59,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_300_v_sub",
-      "MaxPriceThreshold": 56,
-      "MinPriceThreshold": 56,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_300_vmax",
-      "MaxPriceThreshold": 54,
-      "MinPriceThreshold": 54,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_45_70_fmj",
-      "MaxPriceThreshold": 75,
-      "MinPriceThreshold": 75,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_45_70_ftx",
-      "MaxPriceThreshold": 79,
-      "MinPriceThreshold": 79,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_45_70_rn",
-      "MaxPriceThreshold": 75,
-      "MinPriceThreshold": 75,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_45acp_ap",
-      "MaxPriceThreshold": 31,
-      "MinPriceThreshold": 31,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_45acp_fmj",
-      "MaxPriceThreshold": 25,
-      "MinPriceThreshold": 25,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_45acp_hs",
-      "MaxPriceThreshold": 26,
-      "MinPriceThreshold": 26,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_45acp_jhp",
-      "MaxPriceThreshold": 26,
-      "MinPriceThreshold": 26,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_45acp_rip",
-      "MaxPriceThreshold": 30,
-      "MinPriceThreshold": 30,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_45acp_super",
-      "MaxPriceThreshold": 25,
-      "MinPriceThreshold": 25,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_46x30_ap_sx",
+      "ClassName": "My_DF_Weapons_Ammo_45_70_FMJ",
       "MaxPriceThreshold": 44,
       "MinPriceThreshold": 44,
       "SellPricePercent": -1,
@@ -323,10 +93,30 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_45_70_FTX",
+        "My_DF_Weapons_Ammo_45_70_RN"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_46x30_fmj_sx",
+      "ClassName": "My_DF_Weapons_Ammo_45ACP_AP",
+      "MaxPriceThreshold": 75,
+      "MinPriceThreshold": 75,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Ammo_45ACP_FMJ",
+        "My_DF_Weapons_Ammo_45ACP_HS",
+        "My_DF_Weapons_Ammo_45ACP_JHP",
+        "My_DF_Weapons_Ammo_45ACP_RIP",
+        "My_DF_Weapons_Ammo_45ACP_Super"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Ammo_46x30_AP_SX",
       "MaxPriceThreshold": 35,
       "MinPriceThreshold": 35,
       "SellPricePercent": -1,
@@ -334,21 +124,13 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_46x30_FMJ_SX",
+        "My_DF_Weapons_Ammo_46x30_Subsonic_SX"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_46x30_subsonic_sx",
-      "MaxPriceThreshold": 38,
-      "MinPriceThreshold": 38,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_50ae_ap",
+      "ClassName": "My_DF_Weapons_Ammo_50AE_FMJ",
       "MaxPriceThreshold": 69,
       "MinPriceThreshold": 69,
       "SellPricePercent": -1,
@@ -356,43 +138,14 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_50AE_HP",
+        "My_DF_Weapons_Ammo_50AE_JHP",
+        "My_DF_Weapons_Ammo_50AE_AP"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_50ae_fmj",
-      "MaxPriceThreshold": 55,
-      "MinPriceThreshold": 55,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_50ae_hp",
-      "MaxPriceThreshold": 58,
-      "MinPriceThreshold": 58,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_50ae_jhp",
-      "MaxPriceThreshold": 58,
-      "MinPriceThreshold": 58,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_545x39_bs",
+      "ClassName": "My_DF_Weapons_Ammo_545x39_BS",
       "MaxPriceThreshold": 61,
       "MinPriceThreshold": 61,
       "SellPricePercent": -1,
@@ -400,65 +153,18 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_545x39_BT",
+        "My_DF_Weapons_Ammo_545x39_PRS",
+        "My_DF_Weapons_Ammo_545x39_PS",
+        "My_DF_Weapons_Ammo_545x39_T",
+        "My_DF_Weapons_Ammo_545x39_BT_P",
+        "My_DF_Weapons_Ammo_545x39_BT_ST",
+        "My_DF_Weapons_Ammo_545x39_BT_STP"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_545x39_bt",
-      "MaxPriceThreshold": 56,
-      "MinPriceThreshold": 56,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_545x39_bt_p",
-      "MaxPriceThreshold": 56,
-      "MinPriceThreshold": 56,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_545x39_prs",
-      "MaxPriceThreshold": 50,
-      "MinPriceThreshold": 50,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_545x39_ps",
-      "MaxPriceThreshold": 49,
-      "MinPriceThreshold": 49,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_545x39_t",
-      "MaxPriceThreshold": 50,
-      "MinPriceThreshold": 50,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_556x45_fmj",
+      "ClassName": "My_DF_Weapons_Ammo_556x45_FMJ",
       "MaxPriceThreshold": 51,
       "MinPriceThreshold": 51,
       "SellPricePercent": -1,
@@ -466,65 +172,17 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_556x45_M855",
+        "My_DF_Weapons_Ammo_556x45_M855A1",
+        "My_DF_Weapons_Ammo_556x45_M995",
+        "My_DF_Weapons_Ammo_556x45_RRLP",
+        "My_DF_Weapons_Ammo_556x45_M855_APC",
+        "My_DF_Weapons_Ammo_556x45_M855_APCP"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_556x45_m855",
-      "MaxPriceThreshold": 51,
-      "MinPriceThreshold": 51,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_556x45_m855a1",
-      "MaxPriceThreshold": 59,
-      "MinPriceThreshold": 59,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_556x45_m995",
-      "MaxPriceThreshold": 64,
-      "MinPriceThreshold": 64,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_556x45_rrlp",
-      "MaxPriceThreshold": 52,
-      "MinPriceThreshold": 52,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_57x28_l191",
-      "MaxPriceThreshold": 41,
-      "MinPriceThreshold": 41,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_57x28_r37f",
+      "ClassName": "My_DF_Weapons_Ammo_57x28_L191",
       "MaxPriceThreshold": 42,
       "MinPriceThreshold": 42,
       "SellPricePercent": -1,
@@ -532,54 +190,16 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_57x28_R37F",
+        "My_DF_Weapons_Ammo_57x28_SS190",
+        "My_DF_Weapons_Ammo_57x28_SS193",
+        "My_DF_Weapons_Ammo_57x28_SS197SR",
+        "My_DF_Weapons_Ammo_57x28_SS198LF"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_57x28_ss190",
-      "MaxPriceThreshold": 50,
-      "MinPriceThreshold": 50,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_57x28_ss193",
-      "MaxPriceThreshold": 44,
-      "MinPriceThreshold": 44,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_57x28_ss197sr",
-      "MaxPriceThreshold": 42,
-      "MinPriceThreshold": 42,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_57x28_ss198lf",
-      "MaxPriceThreshold": 42,
-      "MinPriceThreshold": 42,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_58x42_dbp10",
+      "ClassName": "My_DF_Weapons_Ammo_58X42_DBP10",
       "MaxPriceThreshold": 69,
       "MinPriceThreshold": 69,
       "SellPricePercent": -1,
@@ -587,43 +207,14 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_58X42_DBP87",
+        "My_DF_Weapons_Ammo_58X42_DVC12",
+        "My_DF_Weapons_Ammo_58X42_DVP88"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_58x42_dbp87",
-      "MaxPriceThreshold": 55,
-      "MinPriceThreshold": 55,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_58x42_dvc12",
-      "MaxPriceThreshold": 63,
-      "MinPriceThreshold": 63,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_58x42_dvp88",
-      "MaxPriceThreshold": 63,
-      "MinPriceThreshold": 63,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_68x51_ap",
+      "ClassName": "My_DF_Weapons_Ammo_68x51_AP",
       "MaxPriceThreshold": 88,
       "MinPriceThreshold": 88,
       "SellPricePercent": -1,
@@ -631,32 +222,13 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_68x51_FMJ",
+        "My_DF_Weapons_Ammo_68x51_Hybird"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_68x51_fmj",
-      "MaxPriceThreshold": 70,
-      "MinPriceThreshold": 70,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_68x51_hybird",
-      "MaxPriceThreshold": 80,
-      "MinPriceThreshold": 80,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_762x39_ap",
+      "ClassName": "My_DF_Weapons_Ammo_762x39_AP",
       "MaxPriceThreshold": 66,
       "MinPriceThreshold": 66,
       "SellPricePercent": -1,
@@ -664,76 +236,17 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_762x39_BP",
+        "My_DF_Weapons_Ammo_762x39_LP",
+        "My_DF_Weapons_Ammo_762x39_PS",
+        "My_DF_Weapons_Ammo_762x39_T45N",
+        "My_DF_Weapons_Ammo_762x39_BP_SUB",
+        "My_DF_Weapons_Ammo_762x39_AP_SUB"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_762x39_ap_sub",
-      "MaxPriceThreshold": 66,
-      "MinPriceThreshold": 66,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_762x39_bp",
-      "MaxPriceThreshold": 66,
-      "MinPriceThreshold": 66,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_762x39_bp_sub",
-      "MaxPriceThreshold": 66,
-      "MinPriceThreshold": 66,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_762x39_lp",
-      "MaxPriceThreshold": 53,
-      "MinPriceThreshold": 53,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_762x39_ps",
-      "MaxPriceThreshold": 53,
-      "MinPriceThreshold": 53,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_762x39_t45n",
-      "MaxPriceThreshold": 54,
-      "MinPriceThreshold": 54,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_762x51_bpz",
+      "ClassName": "My_DF_Weapons_Ammo_762x51_BPZ",
       "MaxPriceThreshold": 79,
       "MinPriceThreshold": 79,
       "SellPricePercent": -1,
@@ -741,65 +254,15 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_762x51_M61",
+        "My_DF_Weapons_Ammo_762x51_M62",
+        "My_DF_Weapons_Ammo_762x51_M80",
+        "My_DF_Weapons_Ammo_762x51_UltraNosler"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_762x51_m61",
-      "MaxPriceThreshold": 79,
-      "MinPriceThreshold": 79,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_762x51_m62",
-      "MaxPriceThreshold": 72,
-      "MinPriceThreshold": 72,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_762x51_m80",
-      "MaxPriceThreshold": 63,
-      "MinPriceThreshold": 63,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_762x51_ultranosler",
-      "MaxPriceThreshold": 63,
-      "MinPriceThreshold": 63,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_762x54r_bt",
-      "MaxPriceThreshold": 86,
-      "MinPriceThreshold": 86,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_762x54r_lps",
+      "ClassName": "My_DF_Weapons_Ammo_762x54R_BT",
       "MaxPriceThreshold": 75,
       "MinPriceThreshold": 75,
       "SellPricePercent": -1,
@@ -807,32 +270,14 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_762x54R_LPS",
+        "My_DF_Weapons_Ammo_762x54R_SNB",
+        "My_DF_Weapons_Ammo_762x54R_T46M"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_762x54r_snb",
-      "MaxPriceThreshold": 94,
-      "MinPriceThreshold": 94,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_762x54r_t46m",
-      "MaxPriceThreshold": 76,
-      "MinPriceThreshold": 76,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_9x19_ap63",
+      "ClassName": "My_DF_Weapons_Ammo_9x19_AP63",
       "MaxPriceThreshold": 30,
       "MinPriceThreshold": 30,
       "SellPricePercent": -1,
@@ -840,10 +285,15 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_9x19_PBP",
+        "My_DF_Weapons_Ammo_9x19_PSO",
+        "My_DF_Weapons_Ammo_9x19_Pst",
+        "My_DF_Weapons_Ammo_9x19_RIP"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_9x19_pbp",
+      "ClassName": "My_DF_Weapons_Ammo_9x39_BP",
       "MaxPriceThreshold": 30,
       "MinPriceThreshold": 30,
       "SellPricePercent": -1,
@@ -851,73 +301,38 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_9x39_SP5",
+        "My_DF_Weapons_Ammo_9x39_SP6"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_9x19_pso",
-      "MaxPriceThreshold": 24,
-      "MinPriceThreshold": 24,
+      "ClassName": "My_DF_Weapons_Ammo_Smoke_Riflegrenade",
+      "MaxPriceThreshold": 100,
+      "MinPriceThreshold": 100,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "my_df_weapons_ammo_vog25_grenade"
+      ]
     },
     {
-      "ClassName": "my_df_weapons_ammo_9x19_pst",
-      "MaxPriceThreshold": 24,
-      "MinPriceThreshold": 24,
+      "ClassName": "My_DF_Weapons_Ammo_127X99",
+      "MaxPriceThreshold": 112,
+      "MinPriceThreshold": 112,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_9x19_rip",
-      "MaxPriceThreshold": 29,
-      "MinPriceThreshold": 29,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_9x39_bp",
-      "MaxPriceThreshold": 56,
-      "MinPriceThreshold": 56,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_9x39_sp5",
-      "MaxPriceThreshold": 45,
-      "MinPriceThreshold": 45,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_9x39_sp6",
-      "MaxPriceThreshold": 52,
-      "MinPriceThreshold": 52,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "My_DF_Weapons_Ammo_127X99_M10",
+        "My_DF_Weapons_Ammo_127X99_M3",
+        "My_DF_Weapons_Ammo_127X99_M903"
+      ]
     },
     {
       "ClassName": "my_df_weapons_ammo_law_he",
@@ -950,95 +365,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_rpg7_he",
-      "MaxPriceThreshold": 400,
-      "MinPriceThreshold": 400,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_smoke_riflegrenade",
-      "MaxPriceThreshold": 100,
-      "MinPriceThreshold": 100,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_vog25_grenade",
-      "MaxPriceThreshold": 100,
-      "MinPriceThreshold": 100,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_338_lapmag",
-      "MaxPriceThreshold": 130,
-      "MinPriceThreshold": 130,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_357magnum_fmj",
-      "MaxPriceThreshold": 60,
-      "MinPriceThreshold": 60,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_357magnum_hp",
-      "MaxPriceThreshold": 65,
-      "MinPriceThreshold": 65,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_357magnum_jhp",
-      "MaxPriceThreshold": 70,
-      "MinPriceThreshold": 70,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "my_df_weapons_ammo_357magnum_shot",
-      "MaxPriceThreshold": 50,
-      "MinPriceThreshold": 50,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "my_df_weapons_ammo_rpg7_he"
+      ]
     }
   ]
 }
