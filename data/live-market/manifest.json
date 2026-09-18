@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-09-18T00:29:16.949472+00:00",
+  "syncedAt": "2026-09-18T06:00:23.453847+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -1804,7 +1804,7 @@
     {
       "group": "traderzones",
       "filename": "Collectables.json",
-      "sha256": "2baf0ee198d1b1ff339d4c3c31c6ea528075db58ca7caa4ebeedb8b0be8f760a",
+      "sha256": "34a8870a93026f4f00e217c336a0d3ce9e417f3b42f11f42f4d017a6479426d9",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1839,28 +1839,28 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "694237b8e0f8c499293376edca48027f20bf1c599e4b480b9a0eff48ed4c017c",
+      "sha256": "c9a8f514fb8fd5ce5d435b28a1ebcc5eafaa4727aed31797744548fd1eefee5f",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_BuildingSupplies_Trader.json",
-      "sha256": "7bc71a9c9fca88741059304bfa3ed975506851dc378ccb20c13b9cbe228f96c6",
+      "sha256": "dbbbadf4fd875114c45896f52922db6d8900d2bd5d65d544bc58f29d9edc9239",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Clothing_Trader.json",
-      "sha256": "bdb3f95ba5bcda5c25891e1cbebc55462b78f39ae076c39ef9bc50be7d5efd56",
+      "sha256": "9e283b27115f7c12e95e7bb6f35af8d59372660704df7b4ae3a1ffe8f0a723c0",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Consumables_Trader.json",
-      "sha256": "46ee5a0db4cfc2ca47f9bcf78b4ae9108b5edf22e8de0049d5bc285caad1334d",
+      "sha256": "478f3fd62db24e16c9c0b0655a4d0ee33693bcb3efbd81726ebfc42979f21383",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1874,14 +1874,14 @@
     {
       "group": "traderzones",
       "filename": "Main_VehicleParts_Trader.json",
-      "sha256": "9c07f17f866349a86a80c5d0fe5e5e0a378c9d671075fe65026f05f5d6e2220b",
+      "sha256": "6d24b82c4409ba59385e6a21549c1fe2c0d44dc302cefd01096bba453d5709e6",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "1e76f9691acda22aed695e8ba7cd7be36d1da9995d72eeb19013ece89afad52f",
+      "sha256": "bee3414be96058d07199579db599551385dad3a3d1be7971d57ee1349a95f73f",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1909,7 +1909,7 @@
     {
       "group": "traderzones",
       "filename": "Secret_Trader.json",
-      "sha256": "03aa7ba28e648c3174236fd71f0f0b60599d51740e04190ecf543a2edf9e649d",
+      "sha256": "5e84542f3426897916bd86341f109169b2b6f14043620ff3308ea62e666ffd1a",
       "topLevelType": "object",
       "entryCount": 7
     },
