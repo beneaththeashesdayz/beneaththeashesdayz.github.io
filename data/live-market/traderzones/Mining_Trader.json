@@ -10,7 +10,7 @@
   "BuyPricePercent": 100.0,
   "SellPricePercent": 50.0,
   "Stock": {
-    "freezegem_ruby_flawed": 0,
+    "freezegem_iolite_flawed": 0,
     "freezegem_amber_flawed": 0,
     "freezegem_turquoise_flawed": 0,
     "freezegem_turquoise_perfect": 0,
@@ -40,8 +40,8 @@
     "freezegem_iolite": 0,
     "freezegem_aquamarine_standard": 0,
     "freezestone_gold": 0,
-    "freezegem_aquamarine_flawed": 0,
-    "freezegem_iolite_flawed": 0,
+    "freezebar_gold": 0,
+    "freezegem_ruby_flawed": 0,
     "freezegem_ruby": 0,
     "freezestone_uranium": 0,
     "freezegem_amethyst_perfect": 0,
@@ -56,7 +56,7 @@
     "freezegem_ruby_perfect": 0,
     "freezegem_amber_perfect": 0,
     "freezebar_adamantite": 0,
-    "freezebar_gold": 0,
+    "freezegem_aquamarine_flawed": 0,
     "freezegem_ruby_standard": 0,
     "freezebar_silver": 0
   }
