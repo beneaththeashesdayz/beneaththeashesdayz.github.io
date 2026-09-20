@@ -22,6 +22,7 @@ window.traderCatalogue={traderName:'Rolf',currency:'ZOMBIE_NOTES',currencyLabel:
 {name:'Rick & Morty Sleeping Bag',className:'lbs_sleepingpacked_extended_rick_and_morty',category:'Sleeping Bags',mode:'sell',price:500},
 {name:'Stranger Things Sleeping Bag',className:'lbs_sleepingpacked_extended_stranger_things',category:'Sleeping Bags',mode:'sell',price:500},
 {name:'ZedKLR Sleeping Bag',className:'lbs_sleepingpacked_extended_zedklr',category:'Sleeping Bags',mode:'sell',price:500},
+{name:'Bz Bolt Quiver T1',className:'bz_bolt_quiver_t1',category:'BallerZ Ammo',mode:'sell',price:100},
 {name:'Blue Fish Hat',className:'geb_bluefishhat',category:'Geb\'s Fishing Gear',mode:'buy',price:125,sellPrice:125},
 {name:'Blue Fish Shirt',className:'geb_bluefishshirt',category:'Geb\'s Fishing Gear',mode:'buy',price:175,sellPrice:175},
 {name:'Blue Fishing Gloves',className:'geb_bluefishgloves',category:'Geb\'s Fishing Gear',mode:'buy',price:75,sellPrice:75},
