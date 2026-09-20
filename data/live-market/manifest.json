@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-09-20T16:52:57.904182+00:00",
+  "syncedAt": "2026-09-20T19:31:00.686985+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 230,
+  "marketFileCount": 231,
   "traderFileCount": 24,
   "traderZoneFileCount": 18,
   "files": [
@@ -62,6 +62,13 @@
       "group": "market",
       "filename": "Backpacks.json",
       "sha256": "02c227942353b5b948ef705b40cd2bd73cc8134e79e785d89a30774679573bca",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "BallerZ_Ammo.json",
+      "sha256": "eaf77c20522085b6d1e41ef8e678f9fb67cca5306fd4f0eca92c14f3ea3f8e1d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -537,7 +544,7 @@
     {
       "group": "market",
       "filename": "Drug_Supplies.json",
-      "sha256": "112b58c09e6b7c8bf8baa5c6287735b6b34aaf99893afc1536817e79d414cb6b",
+      "sha256": "4e238e87445019a6c2f5ffa1eed80d04b626488991be91be9ead85b4ee9cec95",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1636,7 +1643,7 @@
     {
       "group": "traders",
       "filename": "BM_Zombie_Note_Trader.json",
-      "sha256": "f31a32e71a2d1539ea6b42bda251352374257703c173223682b9e4110b411e28",
+      "sha256": "c82c5f7f24e73626b5a74a26191970677a8df69da5aa8e83eb8b54a8bd236c4f",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1755,7 +1762,7 @@
     {
       "group": "traders",
       "filename": "Special_Gear.json",
-      "sha256": "d5a79c7a477a31c07c55cfd91b04ef44d7afb59e3dfc2256e34bb9b4ddd99612",
+      "sha256": "ef219bc35232119c8f45a2bfb1d40c32c2b5703f4993ef6087ed11c664624ed2",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1853,7 +1860,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Clothing_Trader.json",
-      "sha256": "4194e96ba871fd7348f4b9b032e21ec67c74c35732c6b4a1225fa33c5f14c3bb",
+      "sha256": "82a6af572cee15f86b0fd83d2de616e2d33599b27505bd1c86391b8b0384e1ea",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1874,14 +1881,14 @@
     {
       "group": "traderzones",
       "filename": "Main_VehicleParts_Trader.json",
-      "sha256": "94cea0cb6a07e2a118bf02675a154143873d01ba171deac57357430d1787fcba",
+      "sha256": "a7c14745ef81e5d85510f7b14565ea5f5a7b24df3186a5284243961eef6b4200",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "121316615e14f722f95c089cf9cd9f531348307f9404c94c56dc459e9447a24a",
+      "sha256": "629aba036829b6b991ac51ef3e10dab340d5e8bfcdcc09ebdac6a704e667381f",
       "topLevelType": "object",
       "entryCount": 7
     },
