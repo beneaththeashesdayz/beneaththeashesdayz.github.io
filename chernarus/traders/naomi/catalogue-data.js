@@ -19,7 +19,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Crabcan',className:'crabcan',category:'Food',mode:'sell',price:10285,buyPrice:10285,sellPrice:5142,traderSells:true,traderBuys:true},
 {name:'Crackers',className:'crackers',category:'Food',mode:'sell',price:9830,buyPrice:9830,sellPrice:4915,traderSells:true,traderBuys:true},
 {name:'Dogfoodcan',className:'dogfoodcan',category:'Food',mode:'sell',price:9905,buyPrice:9905,sellPrice:4952,traderSells:true,traderBuys:true},
-{name:'Honey',className:'honey',category:'Food',mode:'sell',price:10310,buyPrice:10310,sellPrice:5155,traderSells:true,traderBuys:true},
+{name:'Honey',className:'honey',category:'Food',mode:'buy',price:10310,buyPrice:10310,sellPrice:5155,traderSells:true,traderBuys:true},
 {name:'Lunchmeat',className:'lunchmeat',category:'Food',mode:'sell',price:10020,buyPrice:10020,sellPrice:5010,traderSells:true,traderBuys:true},
 {name:'Marmalade',className:'marmalade',category:'Food',mode:'sell',price:9975,buyPrice:9975,sellPrice:4988,traderSells:true,traderBuys:true},
 {name:'Pajka',className:'pajka',category:'Food',mode:'sell',price:10345,buyPrice:10345,sellPrice:5172,traderSells:true,traderBuys:true},
