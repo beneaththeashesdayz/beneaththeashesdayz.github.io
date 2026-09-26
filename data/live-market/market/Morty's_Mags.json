@@ -3,7 +3,7 @@
   "DisplayName": "Morty's Mags",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": []
 }

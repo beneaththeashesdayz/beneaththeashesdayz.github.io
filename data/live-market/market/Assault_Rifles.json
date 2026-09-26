@@ -120,9 +120,7 @@
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "TTC_SCARHMag"
-      ],
+      "SpawnAttachments": [],
       "Variants": [
         "SCARH_Black"
       ]

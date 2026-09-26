@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-09-26T01:40:17.997454+00:00",
+  "syncedAt": "2026-09-26T07:49:57.584788+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 231,
+  "marketFileCount": 230,
   "traderFileCount": 24,
   "traderZoneFileCount": 18,
   "files": [
@@ -47,7 +47,7 @@
     {
       "group": "market",
       "filename": "Assault_Rifles.json",
-      "sha256": "ddee01942c2778ff9f8acf71db97de89d8083640c979f3df7a59ee766e7a6ed9",
+      "sha256": "3abf85b31da2b40f616358db1ce1ad66c105a54f575d5f293e132d0d7935fb4d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -104,13 +104,6 @@
       "group": "market",
       "filename": "Bayonets.json",
       "sha256": "226fce61bec820d3a051599e33e6553881d770d78ed83d8af3909988b26ecc82",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "BBP_Addons.json",
-      "sha256": "f70b4474b8ced64f2c5375c96e3c59c01aee3c2c7581af505a7b06233e384697",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -957,42 +950,42 @@
     {
       "group": "market",
       "filename": "Haralds_Ammo.json",
-      "sha256": "a0a872f6831722b7129711daf97283fd407d038b67b4593636ad6ef950b902b3",
+      "sha256": "6e3cdca600b1ec9024f77a73b7192ad0a5458b4ee103586bd0a9b7670ef2f6e4",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Haralds_Attachments.json",
-      "sha256": "63d92e702bc4ab6c79a53c6ef85d86e14981c87731e34bbaa40ebf4e6a023290",
+      "sha256": "0a579c52ad4386b23872e8656e03025c1435d9f514595e48ba494d854586f40f",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Haralds_Customizations_&_Misc.json",
-      "sha256": "26134ad3dba211d2f9e3e8297c40b807b5303a7085d63f4938e0180ab29b7ad2",
+      "sha256": "3c75a1f23bf075090cce7ac38ada4b17a4b30644f5b6a37ed93cb9e1b337d0e7",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Haralds_Magazines.json",
-      "sha256": "c1f7c4dada963f2df3493243f4741ac28cd773d7ec6825c6344837656df296bc",
+      "sha256": "4c2829fdec8fffce75e05c28622aaecd125baa7dfc34df2059a4c97574fcc370",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Haralds_Suppressors.json",
-      "sha256": "e8dd7cd70641db9c1851b0ae32bb38a8bfeb15b1ff1cb8d580bc45155110e864",
+      "sha256": "9563a1bdce26d1a1a6f155cddf38c10415b4ac8d02780495cda046a4dd67c9c6",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Haralds_Weapons.json",
-      "sha256": "bfce5b909cf18065dd864f9ff52ecb403775e4ac687002b8f2cf055c6c164d74",
+      "sha256": "434adecb072dcefea2c8035e2407adb318b9ccc3f319cf88552061e893cb950c",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1202,42 +1195,42 @@
     {
       "group": "market",
       "filename": "Morty's_Ammo.json",
-      "sha256": "fb3f6dff6cca1ff9aa98621e6ca3a2b2967a54173f72ef9be398e8117e03cc9a",
+      "sha256": "7b7eb3bae2c0a2f5d869e97f5f87f0c619b4b490c061608aacf4d011a425ef0e",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Morty's_Extras.json",
-      "sha256": "a18c7c12db197d139ef167ddb574409fa3b9f8f085c72f1da905ae1cbab37420",
+      "sha256": "94e01086786fc7bcd74af1ffd68a9a25f2455a2a03db45761b978e620427a2fa",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Morty's_Mags.json",
-      "sha256": "7bbfd3a3ed02ac7964c462dbf2581cc3ed4dac90a8c7428b2a571081a7eba249",
+      "sha256": "3c75a1f23bf075090cce7ac38ada4b17a4b30644f5b6a37ed93cb9e1b337d0e7",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Morty's_Optics.json",
-      "sha256": "ea5c9241812958e5409d0a1b79104fd1c7e5429e041661be7993755851f341b0",
+      "sha256": "a6161e9d41b2db67eb31edc7d15e344bca48d6db94bcc2342c6f7591d5fc5b1e",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Morty's_Suppressors.json",
-      "sha256": "0ce1566533a5d0b5dc035197b1493fc421b8f4248bb8c97254fb6574eef6432d",
+      "sha256": "e2afdbd77534acd7091115b67de89edaee95c5d1cefeaafe6044e0d918e46917",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Morty's_Weapons.json",
-      "sha256": "d1e38591c87712d743f0ebbab92f967282397ebee18e54036adb399456a2566e",
+      "sha256": "6c5b37ff9cac94e741f50d439e3e6b60bcd45ab794fc2cf0cf05decf562fe44d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1629,14 +1622,14 @@
     {
       "group": "traders",
       "filename": "Attachments.json",
-      "sha256": "c41ad20a2a697304bbdfb2ebaa1785abc44fd00803683f2b70df882c86717f6d",
+      "sha256": "f870e39e3bf38d435a966297c1466388c39df430c7400352b8c79567c0c081ec",
       "topLevelType": "object",
       "entryCount": 13
     },
     {
       "group": "traders",
       "filename": "Blackmarket.json",
-      "sha256": "29af4ba01d6fc359144f128a411760a9860869ed1c68f9cf2fdbb9496ec44f27",
+      "sha256": "54db1a678a131f5d25bdd7341d7c09d5c00cebac88e7ac7d28b2a8605f5ae0ea",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1650,7 +1643,7 @@
     {
       "group": "traders",
       "filename": "BuildingSupplies.json",
-      "sha256": "c4fc2c3f00c8cb556a864f82bcd5178d0a2b8762b9f374b09c859122bb795b84",
+      "sha256": "2ba1322438bf173b20309d95ea564286821e8f188cdcee1240ebc6fe77256eba",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1755,7 +1748,7 @@
     {
       "group": "traders",
       "filename": "Secret_Trader.json",
-      "sha256": "84357f310af529321d1fd54600258ad6b02308b6cce0c1d0665fe7a784aa080d",
+      "sha256": "e6bf9f7064750724d5049bd187b26a39261c902b55db3f51d27f19874d17b643",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1797,7 +1790,7 @@
     {
       "group": "traderzones",
       "filename": "Blackmarket.json",
-      "sha256": "667e1c8eeec8c97df5db648d3c1b8111641d501c50240aed68f5914208c39a80",
+      "sha256": "2c8b4cb3fbd5a50284ff462010af1b6a709c4da40e3250e17f36730ea05b1356",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1846,7 +1839,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "07b1d4d0d9620c310f057fb0301c1a0923adcd58431079f22b78ee990ff728c7",
+      "sha256": "c5a6596fe4e0de329661d8b2467fa8bcab0163eb7d667d926843ee9a4db12a86",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1888,7 +1881,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "88db456c05af92ebf10cf5cfdc518472e9b778b821c82ec416fb90a8566ca7f2",
+      "sha256": "3c9e650505650586d5741252e460786a7f8707bee1c6b2834df10500a06ad255",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1916,7 +1909,7 @@
     {
       "group": "traderzones",
       "filename": "Secret_Trader.json",
-      "sha256": "5e1c32c0a50105e5f93f7318ec9bd34993a06c1ba5202d5f76b06ace57909bce",
+      "sha256": "1f7ad4ed166c1090fc124b9b8786aa34baced0d577122e03412090cf958e1c02",
       "topLevelType": "object",
       "entryCount": 7
     },

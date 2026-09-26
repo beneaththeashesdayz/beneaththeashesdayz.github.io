@@ -6,9 +6,9 @@
     254.84100341796875,
     7052.46484375
   ],
-  "Radius": 5.0,
-  "BuyPricePercent": 100.0,
-  "SellPricePercent": 50.0,
+  "Radius": 5,
+  "BuyPricePercent": 100,
+  "SellPricePercent": 50,
   "Stock": {
     "my_df_weapons_dmr_svch": 1,
     "aug": 3,
@@ -36,7 +36,6 @@
     "m4_cqbbttstck": 1,
     "derringer_pink": 3,
     "my_df_weapons_rifles_m7": 1,
-    "ttc_scarhmag": 0,
     "ammo_308wintracer": 0,
     "my_df_weapons_smg_sr3m": 1,
     "ammo_556x45": 1,
