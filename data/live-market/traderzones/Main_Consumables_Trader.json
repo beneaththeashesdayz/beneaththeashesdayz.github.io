@@ -55,7 +55,7 @@
     "pajka": 7,
     "chips": 1,
     "peachescan": 4,
-    "dogfoodcan": 6,
+    "dogfoodcan": 7,
     "pumpkin": 0,
     "sodacan_pipsi": 11,
     "pear": 0,
@@ -69,6 +69,6 @@
     "filteringbottle": 0,
     "unknownfoodcan": 5,
     "pleurotusmushroom": 0,
-    "bakedbeanscan": 0
+    "bakedbeanscan": 1
   }
 }
