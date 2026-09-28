@@ -39,7 +39,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Zagorkypeanuts',className:'zagorkypeanuts',category:'Food',mode:'sell',price:9870,buyPrice:9870,sellPrice:4935,traderSells:true,traderBuys:true},
 {name:'Agaricusmushroom',className:'agaricusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
 {name:'Apple',className:'apple',category:'Fruit And Vegetables',mode:'sell',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
-{name:'Auriculariamushroom',className:'auriculariamushroom',category:'Fruit And Vegetables',mode:'buy',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
+{name:'Auriculariamushroom',className:'auriculariamushroom',category:'Fruit And Vegetables',mode:'sell',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
 {name:'Boletusmushroom',className:'boletusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
 {name:'Craterellusmushroom',className:'craterellusmushroom',category:'Fruit And Vegetables',mode:'sell',price:1200,buyPrice:1200,sellPrice:600,traderSells:true,traderBuys:true},
 {name:'Greenbellpepper',className:'greenbellpepper',category:'Fruit And Vegetables',mode:'sell',price:800,buyPrice:800,sellPrice:400,traderSells:true,traderBuys:true},
