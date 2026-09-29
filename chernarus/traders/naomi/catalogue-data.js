@@ -21,7 +21,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Dogfoodcan',className:'dogfoodcan',category:'Food',mode:'sell',price:9905,buyPrice:9905,sellPrice:4952,traderSells:true,traderBuys:true},
 {name:'Honey',className:'honey',category:'Food',mode:'buy',price:10310,buyPrice:10310,sellPrice:5155,traderSells:true,traderBuys:true},
 {name:'Lunchmeat',className:'lunchmeat',category:'Food',mode:'sell',price:10020,buyPrice:10020,sellPrice:5010,traderSells:true,traderBuys:true},
-{name:'Marmalade',className:'marmalade',category:'Food',mode:'sell',price:9975,buyPrice:9975,sellPrice:4988,traderSells:true,traderBuys:true},
+{name:'Marmalade',className:'marmalade',category:'Food',mode:'buy',price:9975,buyPrice:9975,sellPrice:4988,traderSells:true,traderBuys:true},
 {name:'Pajka',className:'pajka',category:'Food',mode:'sell',price:10345,buyPrice:10345,sellPrice:5172,traderSells:true,traderBuys:true},
 {name:'Pate',className:'pate',category:'Food',mode:'sell',price:9945,buyPrice:9945,sellPrice:4972,traderSells:true,traderBuys:true},
 {name:'Peachescan',className:'peachescan',category:'Food',mode:'sell',price:10080,buyPrice:10080,sellPrice:5040,traderSells:true,traderBuys:true},

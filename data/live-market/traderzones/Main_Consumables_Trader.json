@@ -15,7 +15,7 @@
     "greenbellpepper": 359,
     "tomato": 71,
     "honey": 1,
-    "marmalade": 0,
+    "gardenlime": 2,
     "powderedmilk": 16,
     "boletusmushroom": 0,
     "pate": 12,
@@ -24,8 +24,8 @@
     "loner_can_empty": 0,
     "brisketspread": 7,
     "sodacan_fronta": 6,
-    "chips": 1,
-    "gardenlime": 2,
+    "rice": 5,
+    "marmalade": 1,
     "lactariusmushroom": 1,
     "slicedpumpkin": 0,
     "saltysticks": 5,
@@ -53,7 +53,7 @@
     "porkcan": 1,
     "zagorky": 6,
     "pajka": 7,
-    "rice": 5,
+    "chips": 1,
     "peachescan": 4,
     "dogfoodcan": 7,
     "pumpkin": 0,
@@ -69,6 +69,6 @@
     "filteringbottle": 0,
     "unknownfoodcan": 5,
     "pleurotusmushroom": 0,
-    "bakedbeanscan": 2
+    "bakedbeanscan": 3
   }
 }
