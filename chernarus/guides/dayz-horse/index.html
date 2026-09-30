@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DayZ Horse Guide | Beneath the Ashes</title>
+  <link rel="stylesheet" href="../../../styles.css?v=connection-hover-2">
+  <style>
+    .guide-page{padding:48px 0 76px}
+    .guide-hero{border:1px solid #4c6263;background:radial-gradient(circle at 78% 12%,rgba(110,156,145,.22),transparent 30%),linear-gradient(145deg,#1b2929,#131719 64%);padding:42px 44px;margin:28px 0 34px;min-height:280px;display:flex;flex-direction:column;justify-content:end}
+    .guide-hero h1{font-size:clamp(3.2rem,8vw,7rem);line-height:.86;letter-spacing:-.06em;text-transform:uppercase;margin:12px 0}
+    .guide-hero p{max-width:760px;color:#d8c4ad;line-height:1.7}
+    .guide-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr);gap:22px}
+    .guide-panel{border:1px solid var(--line);background:#141719;padding:26px}
+    .guide-panel h2{margin:0 0 18px;text-transform:uppercase;font-size:1.35rem}
+    .guide-panel h3{margin:20px 0 10px;color:#d8c4ad;text-transform:uppercase;font-size:1rem;letter-spacing:.08em}
+    .guide-panel p,.guide-panel li{color:var(--muted);line-height:1.6}
+    .guide-panel ul,.guide-panel ol{padding-left:20px;margin:0;display:grid;gap:10px}
+    .guide-panel strong{color:#f1e7dc}
+    .guide-step{border-left:3px solid #719b91;background:#17201f;padding:16px 18px;margin-top:12px}
+    .guide-step strong{display:block;color:#e0eee8;text-transform:uppercase;letter-spacing:.06em;margin-bottom:5px}
+    .guide-note{margin-top:22px;border-left:3px solid var(--ember);padding:16px 18px;background:#1c1714;color:#d8c4ad;line-height:1.6}
+    .horse-guide .guide-hero .kicker{color:#8ec0b3}
+    .horse-guide .guide-panel h2{color:#dce9e4}
+    .horse-warning{border-left-color:#d99b5d;background:linear-gradient(110deg,#281d17,#181716);color:#f0d1b5;font-weight:800}
+    .horse-warning strong{color:#ffd9b8}
+    .horse-total{border:1px solid #5d8278;border-left:4px solid #8ec0b3;background:linear-gradient(110deg,#192725,#141719);color:#dce9e4;font-size:1.04rem;font-weight:800}
+    .horse-total strong{color:#b8e0d4}
+    .horse-slots{margin-top:18px;padding:14px 16px;border:1px solid #4b5e5c;background:#171e1e;color:#c4d5d0;line-height:1.6}
+    .horse-stages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}
+    .horse-stage{padding:16px;border:1px solid #394846;background:#151c1c}
+    .horse-stage strong{display:block;margin-bottom:7px;color:#b8e0d4;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase}
+    .horse-stage span{display:block;color:var(--muted);font-size:.9rem;line-height:1.55}
+    .horse-guide .guide-steps{display:grid;gap:12px}
+    @media(max-width:760px){
+      .guide-hero{padding:28px 24px}
+      .guide-layout{grid-template-columns:1fr}
+      .horse-stages{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+<header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
+<main class="wrap guide-page horse-guide">
+  <div class="page-context"><a class="back" href="../">← Chernarus Guides</a><div class="world-tag">Guide // Horses</div></div>
+
+  <section class="guide-hero">
+    <div class="kicker">BTA Player Guide</div>
+    <h1>DayZ<br>Horse</h1>
+    <p>🐴 BTA Player Guide — DayZ Horse. Learn how to claim, ride, stable and retrieve your horse across Chernarus.</p>
+  </section>
+
+  <div class="guide-layout">
+    <section class="guide-panel">
+      <h2>Getting Your Horse</h2>
+      <p>Find a horse and gather a <strong>saddle and bridle</strong>. Hold the saddle in your hands, approach the horse, and use the attach action to claim it. Attach the bridle, then use the horse’s interaction prompt to mount.</p>
+      <div class="guide-note"><strong>🍎 Apple lure:</strong> An apple can lure a horse before you have a saddle. You can also use an apple to call your owned horse.</div>
+    </section>
+
+    <section class="guide-panel">
+      <h2>Riding Controls</h2>
+      <ul>
+        <li><strong>WASD:</strong> Move and steer, including moving backward.</li>
+        <li><strong>Mouse wheel:</strong> Change riding speed.</li>
+        <li><strong>Space:</strong> Jump.</li>
+        <li>Use the on-screen interaction prompt to dismount.</li>
+      </ul>
+      <p style="margin-top:18px">Horses have their own stamina. Faster riding drains it, so slow down or stop to let your horse recover.</p>
+      <div class="guide-note horse-warning"><strong>⚠️ Watch the route:</strong> Be careful around trees, fences, and other obstacles. Collisions can throw you off!</div>
+    </section>
+  </div>
+
+  <section class="guide-panel" style="margin-top:22px">
+    <h2>Equipment and Storage</h2>
+    <ul>
+      <li><strong>Saddle + bridle:</strong> Required for riding.</li>
+      <li><strong>Horse bags:</strong> Provide additional storage.</li>
+    </ul>
+  </section>
+
+  <section class="guide-panel" style="margin-top:22px">
+    <h2>Building a Stable</h2>
+    <p>Combine <strong>1 rope + 2 short sticks</strong>, select <strong>Craft Stable Kit</strong>, and place the kit in a suitable location.</p>
+    <div class="guide-steps">
+      <div class="guide-step"><strong>Stage 1</strong><p><strong>15 wooden logs, 2 planks, 20 nails.</strong></p></div>
+      <div class="guide-step"><strong>Stage 2</strong><p><strong>20 planks, 80 nails.</strong></p></div>
+      <div class="guide-step"><strong>Stage 3</strong><p><strong>20 planks, 60 nails.</strong></p></div>
+    </div>
+    <div class="guide-note horse-total"><strong>📦 Materials total:</strong> 15 logs, 42 planks, and 160 nails, plus the rope and sticks for the kit.</div>
+    <p style="margin-top:18px">Use the appropriate construction tool and follow the build prompts.</p>
+  </section>
+
+  <div class="guide-layout" style="margin-top:22px">
+    <section class="guide-panel">
+      <h2>Putting Your Horse in the Stable</h2>
+      <ol>
+        <li>Fully finish the stable.</li>
+        <li>Bring your claimed horse nearby and dismount.</li>
+        <li>Approach an empty horse bay.</li>
+        <li>Aim at the bay’s horse-slot area and select the <strong>put horse into stable</strong> action.</li>
+      </ol>
+      <div class="horse-slots"><strong>Three horse slots:</strong> A stable has three available horse slots.</div>
+      <div class="guide-note horse-warning"><strong>Important:</strong> Simply parking your horse inside does not complete the storage action.</div>
+      <p style="margin-top:18px">If the prompt doesn’t appear, adjust your position and aim around the empty bay.</p>
+    </section>
+
+    <section class="guide-panel">
+      <h2>Taking Your Horse Out</h2>
+      <p>Aim at the occupied horse slot and select the <strong>take horse from stable</strong> action.</p>
+      <div class="guide-note horse-warning"><strong>Active horse limit:</strong> You cannot retrieve another horse while you already have an active horse assigned to you.</div>
+    </section>
+  </div>
+
+  <section class="guide-panel" style="margin-top:22px">
+    <h2>If Something Isn’t Working</h2>
+    <ul>
+      <li><strong>No riding prompt?</strong> Check the saddle and bridle.</li>
+      <li><strong>Horse slowing down?</strong> Check its stamina.</li>
+      <li><strong>No stable-storage prompt?</strong> Confirm construction is complete, you’re dismounted, and the bay is empty.</li>
+      <li><strong>Can’t retrieve a horse?</strong> Check whether you already have an active horse.</li>
+    </ul>
+    <div class="guide-note" style="margin-top:24px"><strong>Please report problems to staff with a screenshot and a brief description of what happened.</strong></div>
+  </section>
+</main>
+<footer><div class="wrap">Beneath the Ashes • Chernarus Guides</div></footer>
+<script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
+</body>
+</html>
