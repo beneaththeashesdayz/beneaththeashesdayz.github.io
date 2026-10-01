@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-10-01T06:05:55.775015+00:00",
+  "syncedAt": "2026-10-01T13:29:38.408077+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -220,7 +220,13 @@
         "tundra",
         "x5mcompetition",
         "MBM_RamRebel_Base",
-        "Star_Chevrolet_Z71_Lifted"
+        "Star_Chevrolet_Z71_Lifted",
+        "CivilianSedan",
+        "Sedan_02",
+        "Hatchback_02",
+        "OffroadHatchback",
+        "Truck_01_Base",
+        "Offroad_02"
       ],
       "levels": [
         {
