@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-10-01T13:29:00.868917+00:00",
+  "syncedAt": "2026-10-01T19:36:37.924753+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 230,
+  "marketFileCount": 227,
   "traderFileCount": 24,
   "traderZoneFileCount": 18,
   "files": [
@@ -76,13 +76,6 @@
       "group": "market",
       "filename": "Bandanas.json",
       "sha256": "fe5c31dd4a1383b65996a2672cd5d4006f0363907116fbb0c5b60e0042a25e63",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "Bars.json",
-      "sha256": "2be133818edfb03a8f4ca7442a641a06a1ba5a91cbf99ed35130e4d9764e25cc",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -858,13 +851,6 @@
     },
     {
       "group": "market",
-      "filename": "Fusion_Bars.json",
-      "sha256": "5ffd75607de2772eba7d3f8e6d743071840c619d0c4e8622d7e69f8a37f2788a",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
       "filename": "Gardening.json",
       "sha256": "35d1371d8418243096b7611a76e2ef9b395918d474f2a3da22d6b1ebd7311b7e",
       "topLevelType": "object",
@@ -901,7 +887,7 @@
     {
       "group": "market",
       "filename": "Gems.json",
-      "sha256": "b7c5bd04f83c6fa8247585eda9edddc82c1163c37c061501706f58bb97248eda",
+      "sha256": "6db1ca020b910100f990dbe2413729375bf6983cf2119342852f3d06d9d8add9",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1334,6 +1320,13 @@
     },
     {
       "group": "market",
+      "filename": "Ores.json",
+      "sha256": "65ee5a584e0ddc1101695eaa289db6e7877ac73bac6b0cc9e5cd7663ceffc83c",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
       "filename": "Pants_And_Shorts.json",
       "sha256": "7ef321bf08f70290d162836842505b401320e1c0149b263b49e56d239ed42185",
       "topLevelType": "object",
@@ -1406,20 +1399,6 @@
       "group": "market",
       "filename": "RaG_Supplies.json",
       "sha256": "269e3f3a2d3c3c6b59a2d8a89b9ab41a080774c5b709e95869a2409fc9ea40ec",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "Raw_Gems.json",
-      "sha256": "8388dae47be9046898c5551963ce94eb043c67ff756e90cf10b6cbd9fc518a68",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "Raw_Ores.json",
-      "sha256": "4a294882ed059ec289da62fad875acfd722be91f4c69457db51e57bfb1b3a9dc",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1741,7 +1720,7 @@
     {
       "group": "traders",
       "filename": "Mining.json",
-      "sha256": "5e5e78b2a77c67056b97f640404c29ae6aeb5214f78c778329f85b9484091847",
+      "sha256": "b7e826f9d3565e49abbb8ec95b2e9907b043cbb5f9ee255efe4a8c563834894d",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1790,7 +1769,7 @@
     {
       "group": "traderzones",
       "filename": "Blackmarket.json",
-      "sha256": "3ac7181a06e97875d3e38c75926e715364c70fa6575c4a8c573aad635b9539f9",
+      "sha256": "ebb4b26cb425be0c60a2fca47c86e547879ca2a27a35a7b2ae3a418a40f4f9c4",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1839,28 +1818,28 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "3d5a773516d52f4d10e92ae3c16662d3539d565da0c0e5fb8d3fcf04ad712e11",
+      "sha256": "1d995f246b45784b6620daab42f6a2f880d88a44956d80def440ae49159fd5c9",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_BuildingSupplies_Trader.json",
-      "sha256": "e64a7b23b94dbf00e36f08717de2442528696eae55fe2b6e7b77303ecb74a807",
+      "sha256": "f3b9c179c2559a56af8fa8799845a827bbfe332ea7ef5cd544579ba469780bda",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Clothing_Trader.json",
-      "sha256": "14c305139a0b19d6b77761cdac3e6b7385f68c533de1aae2bb68adebf37bd1bb",
+      "sha256": "5cf7c68a31862cb18afc16469c37a0571c4799e8f06727bd0f07e657322c54e4",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Consumables_Trader.json",
-      "sha256": "543b9820672e108dc32acb170249b40f54053f794ecff37c00068517ae212727",
+      "sha256": "4d8446c7f29d97eea8be27e323e350e7ef44b76013ab3b16ec97ca62ef673d79",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1874,14 +1853,14 @@
     {
       "group": "traderzones",
       "filename": "Main_VehicleParts_Trader.json",
-      "sha256": "8b1e9d618533a0f55b981b97bb4984c97a1b0baa2c793dcd90216014f6290bf2",
+      "sha256": "ac198d3d52a5e5044b0d1741d30a250c5f1edf9978f93353b3f6867fec046db2",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "99ea2b41cccf0f89aff002a8c04b11ff8c003d50c31decbca9aed87026ef990d",
+      "sha256": "5f523714efb016ba3bf1884d5ef936e764c9fee0d22fea5fa8bab332217b1751",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1895,7 +1874,7 @@
     {
       "group": "traderzones",
       "filename": "Mining_Trader.json",
-      "sha256": "703cf1aa56de79f5278c414418001c0530b4e52928c60280271ef26b5b987daf",
+      "sha256": "28109768c1c00f511785eb2972488c722e363d8267c32e9745813d2cd5fe0928",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1909,7 +1888,7 @@
     {
       "group": "traderzones",
       "filename": "Secret_Trader.json",
-      "sha256": "1f7ad4ed166c1090fc124b9b8786aa34baced0d577122e03412090cf958e1c02",
+      "sha256": "a1826d4d834cbca666c57ead3224dfc61e724cfa35f7f586d6c932b407abe61f",
       "topLevelType": "object",
       "entryCount": 7
     },
