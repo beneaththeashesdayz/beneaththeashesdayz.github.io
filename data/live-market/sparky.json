@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-10-01T19:36:57.600420+00:00",
+  "syncedAt": "2026-10-01T23:58:43.890175+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -609,93 +609,93 @@
       "blackboxPreview": 0
     },
     {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
       "traderItemClassname": "Garage_Sign_2",
       "personalTraderGroupname": "Personal Vehicles",
       "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
       "blackboxPreview": 0
     }
   ],
