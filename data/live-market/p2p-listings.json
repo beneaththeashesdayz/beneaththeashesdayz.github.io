@@ -2,10 +2,10 @@
   "source": "Beneath the Ashes Chernarus live P2P market",
   "status": "ok",
   "note": null,
-  "syncedAt": "2026-10-02T18:29:48.270816+00:00",
+  "syncedAt": "2026-10-02T23:02:48.492719+00:00",
   "maxListingTimeSeconds": 604800,
   "listingFeePercent": 10,
-  "listingCount": 16,
+  "listingCount": 18,
   "listings": [
     {
       "key": "d246c6e176c6555d",
@@ -269,6 +269,45 @@
       "quantityType": 0,
       "includedItemCount": 0,
       "includedItems": []
+    },
+    {
+      "key": "b844906377cb8596",
+      "traderId": 1,
+      "name": "DMT Starter Shed Kit",
+      "className": "DMT_Starter_Shed_Kit",
+      "skinName": null,
+      "seller": "Ashtonamo",
+      "price": 5000,
+      "listedAt": "2026-10-02T20:08:28+00:00",
+      "expiresAt": "2026-10-09T20:08:28+00:00",
+      "healthLevel": 0,
+      "quantity": 0.0,
+      "quantityType": 0,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "eed5066d79a10e9c",
+      "traderId": 1,
+      "name": "GPSReceiver",
+      "className": "GPSReceiver",
+      "skinName": null,
+      "seller": "Ashtonamo",
+      "price": 1000,
+      "listedAt": "2026-10-02T20:12:19+00:00",
+      "expiresAt": "2026-10-09T20:12:19+00:00",
+      "healthLevel": 1,
+      "quantity": 0.0,
+      "quantityType": 0,
+      "includedItemCount": 1,
+      "includedItems": [
+        {
+          "className": "Battery9V",
+          "name": "Battery9V",
+          "quantity": 78.0,
+          "attached": true
+        }
+      ]
     }
   ]
 }
