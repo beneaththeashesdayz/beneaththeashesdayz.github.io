@@ -11,8 +11,8 @@
   "SellPricePercent": 50.0,
   "Stock": {
     "craterellusmushroom": 0,
-    "sodacan_cola": 10,
-    "greenbellpepper": 342,
+    "sodacan_cola": 12,
+    "greenbellpepper": 341,
     "tomato": 67,
     "honey": 1,
     "marmalade": 1,
@@ -34,13 +34,13 @@
     "zagorkychocolate": 0,
     "catfoodcan": 9,
     "plum": 0,
-    "zucchiniseedspack": 30,
+    "zucchiniseedspack": 31,
     "zucchini": 269,
     "sodacan_kvass": 15,
     "potato": 0,
     "zagorkypeanuts": 2,
     "crackers": 1,
-    "canteen": 2,
+    "canteen": 1,
     "loner_can_small_empty": 5,
     "tomatoseedspack": 44,
     "pepperseedspack": 45,
@@ -48,7 +48,7 @@
     "pumpkinseedspack": 39,
     "agaricusmushroom": 0,
     "tacticalbaconcan": 5,
-    "apple": 1,
+    "apple": 0,
     "crabcan": 0,
     "porkcan": 1,
     "zagorky": 6,
@@ -69,6 +69,6 @@
     "filteringbottle": 0,
     "unknownfoodcan": 5,
     "pleurotusmushroom": 0,
-    "bakedbeanscan": 4
+    "bakedbeanscan": 5
   }
 }

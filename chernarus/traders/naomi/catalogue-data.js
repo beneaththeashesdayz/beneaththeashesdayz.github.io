@@ -1,7 +1,7 @@
 window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Loner Can Empty',className:'loner_can_empty',category:'Cans',mode:'sell',price:300,buyPrice:300,sellPrice:150,traderSells:true,traderBuys:true},
 {name:'Loner Can Small Empty',className:'loner_can_small_empty',category:'Cans',mode:'sell',price:250,buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true},
-{name:'Canteen',className:'canteen',category:'Drinks',mode:'sell',price:12000,buyPrice:12000,sellPrice:6000,traderSells:true,traderBuys:true},
+{name:'Canteen',className:'canteen',category:'Drinks',mode:'buy',price:12000,buyPrice:12000,sellPrice:6000,traderSells:true,traderBuys:true},
 {name:'Expansionmilkbottle',className:'expansionmilkbottle',category:'Drinks',mode:'sell',price:9845,buyPrice:9845,sellPrice:4922,traderSells:true,traderBuys:true},
 {name:'Filteringbottle',className:'filteringbottle',category:'Drinks',mode:'sell',price:15000,buyPrice:15000,sellPrice:7500,traderSells:true,traderBuys:true},
 {name:'Glassbottle',className:'glassbottle',category:'Drinks',mode:'sell',price:8500,buyPrice:8500,sellPrice:4250,traderSells:true,traderBuys:true},
@@ -38,7 +38,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Zagorkychocolate',className:'zagorkychocolate',category:'Food',mode:'sell',price:9815,buyPrice:9815,sellPrice:4908,traderSells:true,traderBuys:true},
 {name:'Zagorkypeanuts',className:'zagorkypeanuts',category:'Food',mode:'sell',price:9870,buyPrice:9870,sellPrice:4935,traderSells:true,traderBuys:true},
 {name:'Agaricusmushroom',className:'agaricusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
-{name:'Apple',className:'apple',category:'Fruit And Vegetables',mode:'buy',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
+{name:'Apple',className:'apple',category:'Fruit And Vegetables',mode:'sell',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
 {name:'Auriculariamushroom',className:'auriculariamushroom',category:'Fruit And Vegetables',mode:'sell',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
 {name:'Boletusmushroom',className:'boletusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150,buyPrice:150,sellPrice:75,traderSells:true,traderBuys:true},
 {name:'Craterellusmushroom',className:'craterellusmushroom',category:'Fruit And Vegetables',mode:'sell',price:1200,buyPrice:1200,sellPrice:600,traderSells:true,traderBuys:true},
