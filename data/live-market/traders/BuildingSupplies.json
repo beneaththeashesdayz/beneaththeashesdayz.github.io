@@ -1,19 +1,20 @@
 {
   "m_Version": 13,
-  "DisplayName": "#STR_EXPANSION_MARKET_TRADER_BUILDING_SUPPLIES",
+  "DisplayName": "BUILDING SUPPLIES TRADER",
   "MinRequiredReputation": 0,
   "MaxRequiredReputation": 2147483647,
   "RequiredFaction": "",
   "RequiredCompletedQuestID": -1,
   "TraderIcon": "Nails",
   "Currencies": [
-    "Money_Dollar1",
-    "Money_Dollar2",
-    "Money_Dollar5",
-    "Money_Dollar10",
-    "Money_Dollar20",
-    "Money_Dollar50",
-    "Money_Dollar100"
+    "money_dollar1",
+    "money_dollar10",
+    "money_dollar100",
+    "money_dollar2",
+    "money_dollar20",
+    "money_dollar5",
+    "money_dollar50",
+    "zombie_note"
   ],
   "DisplayCurrencyValue": 1,
   "DisplayCurrencyName": "USD",

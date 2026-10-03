@@ -1,16 +1,16 @@
 {
   "m_Version": 12,
-  "DisplayName": "EXCHANGE",
+  "DisplayName": "Raw Gems",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "IsExchange": 1,
-  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "InitStockPercent": 75,
   "Items": [
     {
-      "ClassName": "money_dollar1",
-      "MaxPriceThreshold": 1,
-      "MinPriceThreshold": 1,
-      "SellPricePercent": -1.0,
+      "ClassName": "FreezeGem_Amber",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -18,10 +18,10 @@
       "Variants": []
     },
     {
-      "ClassName": "money_dollar10",
-      "MaxPriceThreshold": 10,
-      "MinPriceThreshold": 10,
-      "SellPricePercent": -1.0,
+      "ClassName": "FreezeGem_Amethyst",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -29,10 +29,10 @@
       "Variants": []
     },
     {
-      "ClassName": "money_dollar100",
-      "MaxPriceThreshold": 100,
-      "MinPriceThreshold": 100,
-      "SellPricePercent": -1.0,
+      "ClassName": "FreezeGem_Aquamarine",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -40,10 +40,10 @@
       "Variants": []
     },
     {
-      "ClassName": "money_dollar2",
-      "MaxPriceThreshold": 2,
-      "MinPriceThreshold": 2,
-      "SellPricePercent": -1.0,
+      "ClassName": "FreezeGem_FancyColourDiamond",
+      "MaxPriceThreshold": 900,
+      "MinPriceThreshold": 900,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -51,10 +51,10 @@
       "Variants": []
     },
     {
-      "ClassName": "money_dollar20",
-      "MaxPriceThreshold": 20,
-      "MinPriceThreshold": 20,
-      "SellPricePercent": -1.0,
+      "ClassName": "FreezeGem_Iolite",
+      "MaxPriceThreshold": 650,
+      "MinPriceThreshold": 650,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -62,10 +62,10 @@
       "Variants": []
     },
     {
-      "ClassName": "money_dollar5",
-      "MaxPriceThreshold": 5,
-      "MinPriceThreshold": 5,
-      "SellPricePercent": -1.0,
+      "ClassName": "FreezeGem_Jade",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -73,10 +73,10 @@
       "Variants": []
     },
     {
-      "ClassName": "money_dollar50",
-      "MaxPriceThreshold": 50,
-      "MinPriceThreshold": 50,
-      "SellPricePercent": -1.0,
+      "ClassName": "FreezeGem_Ruby",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -84,10 +84,10 @@
       "Variants": []
     },
     {
-      "ClassName": "zombie_note",
-      "MaxPriceThreshold": 1,
-      "MinPriceThreshold": 1,
-      "SellPricePercent": -1.0,
+      "ClassName": "FreezeGem_Turquoise",
+      "MaxPriceThreshold": 500,
+      "MinPriceThreshold": 500,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,

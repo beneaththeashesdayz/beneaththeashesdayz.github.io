@@ -1,5 +1,5 @@
 window.traderCatalogue={traderName:'Manua',currency:'USD',items:[
-{name:'Battery9v',className:'battery9v',category:'Batteries',buyPrice:0,sellPrice:0,traderSells:true,traderBuys:true},
+{name:'Battery9v',className:'battery9v',category:'Batteries',buyPrice:10,sellPrice:5,traderSells:true,traderBuys:true},
 {name:'Bbp Bedding',className:'bbp_bedding',category:'Bbp Items',buyPrice:500,sellPrice:250,traderSells:true,traderBuys:true},
 {name:'Bbp Bedkit',className:'bbp_bedkit',category:'Bbp Items',buyPrice:3500,sellPrice:1750,traderSells:true,traderBuys:true},
 {name:'Bbp Bucket',className:'bbp_bucket',category:'Bbp Items',buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true},
