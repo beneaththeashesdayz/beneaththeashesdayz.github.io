@@ -14,6 +14,60 @@
     .replace(/([a-z])([A-Z])/g, '$1 $2');
   const displayColor = value => clean(value || 'Default finish')
     .replace(/\b\w/g, letter => letter.toUpperCase());
+
+  const colorTokens = value => String(value || '')
+    .replace(/[-\\s]+/g, '_')
+    .split('_')
+    .filter(Boolean);
+
+  const commonPrefixLength = variants => {
+    const rows = variants.map(vehicle => colorTokens(vehicle.itemname));
+    if (!rows.length) return 0;
+    const shortest = Math.min(...rows.map(row => row.length));
+    let length = 0;
+    while (length < shortest) {
+      const token = rows[0][length].toLowerCase();
+      if (!rows.every(row => String(row[length]).toLowerCase() === token)) break;
+      length += 1;
+    }
+    return length;
+  };
+
+  const vehicleColor = (vehicle, variants) => {
+    const raw = String(vehicle.color || '').trim();
+    if (!variants || variants.length < 2) return raw || 'Default finish';
+
+    const rawValues = variants
+      .map(item => String(item.color || '').trim().toLowerCase())
+      .filter(Boolean);
+    const counts = rawValues.reduce((map, value) => {
+      map[value] = (map[value] || 0) + 1;
+      return map;
+    }, {});
+    const dominant = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+    const needsInference = dominant &&
+      (Object.keys(counts).length === 1 || dominant[1] / variants.length >= 0.75);
+    if (!needsInference) return raw || 'Default finish';
+
+    const prefixLength = commonPrefixLength(variants);
+    let remainder = colorTokens(vehicle.itemname).slice(prefixLength);
+    const groupTokens = colorTokens(vehicle.groupName);
+    const removable = new Set([
+      ...groupTokens.slice(-2).map(value => value.toLowerCase()),
+      dominant[0],
+      'listed',
+      'base',
+      'low',
+      'lifted',
+      'monster'
+    ]);
+    while (remainder.length > 1 &&
+      removable.has(String(remainder[remainder.length - 1]).toLowerCase())) {
+      remainder = remainder.slice(0, -1);
+    }
+
+    return remainder.join(' ') || raw || 'Default finish';
+  };
   const categoryOrder = ['ground', 'water', 'air'];
   const categoryLabels = {
     ground: 'Ground Vehicles',
@@ -137,7 +191,7 @@
     list.replaceChildren(...variants.map(vehicle => {
       const color = document.createElement('span');
       color.className = 'sparky-color-chip';
-      color.textContent = displayColor(vehicle.color);
+      color.textContent = displayColor(vehicleColor(vehicle, variants));
       return color;
     }));
     return list;
@@ -224,7 +278,7 @@
     if (group.variants.length === 1) {
       const color = document.createElement('div');
       color.className = 'sparky-single-color';
-      color.textContent = displayColor(group.variants[0].color);
+      color.textContent = displayColor(vehicleColor(group.variants[0], group.variants));
       card.append(color);
     } else {
       card.append(colorVariantDetails(group.variants));
