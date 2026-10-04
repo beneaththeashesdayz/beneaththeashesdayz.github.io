@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-10-04T17:42:12.345927+00:00",
+  "syncedAt": "2026-10-04T21:37:54.500624+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -226,7 +226,10 @@
         "Hatchback_02",
         "OffroadHatchback",
         "Truck_01_Base",
-        "Offroad_02"
+        "Offroad_02",
+        "SVJ",
+        "m3e46gtr",
+        "GT2RS_MR"
       ],
       "levels": [
         {
@@ -697,10 +700,22 @@
       "personalTraderGroupname": "Personal_Boats",
       "groupTraderGroupname": "Personal_Boats",
       "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
     }
   ],
   "impound": {
-    "defaultImpoundAfterTime": 21600,
+    "defaultImpoundAfterTime": -1,
     "minPlayerDistanceForImpound": 5.0,
     "impoundVehiclesProtectedByFlagpole": 1,
     "impoundRuinedVehicles": 1,
