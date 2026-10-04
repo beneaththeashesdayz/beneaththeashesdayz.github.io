@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Dragon Hunting Season | Halloween | Beneath the Ashes</title>
+  <meta name="description" content="Dragon Hunting Season is live across Chernarus from October 4 through October 11, 2026. Hunt dragons, display their trophies, and compete for Halloween rewards.">
+  <link rel="stylesheet" href="../../../styles.css?v=events-39">
+  <style>
+    .dragon-event-page{padding-bottom:18px}
+    .dragon-hero{margin:28px 0 34px;padding:36px 38px;border:1px solid #76513e;border-left:3px solid #e45d43;background:radial-gradient(circle at 88% 5%,rgba(157,70,48,.28),transparent 34%),linear-gradient(135deg,#251817,#141719 68%);box-shadow:0 14px 45px rgba(0,0,0,.16)}
+    .dragon-hero-top{display:flex;justify-content:space-between;align-items:start;gap:18px}
+    .dragon-hero h1{margin:16px 0 12px;font-size:clamp(3rem,7vw,6.2rem);line-height:.86;letter-spacing:-.06em;text-transform:uppercase}
+    .dragon-hero h1 span{color:#f07b46}
+    .dragon-hero-lead{max-width:800px;margin:0 0 12px;color:#f1e7dc;font-size:1.1rem;line-height:1.7}
+    .dragon-hero p:not(.dragon-hero-lead){max-width:780px;margin:0;color:var(--muted);line-height:1.7}
+    .dragon-date{display:inline-flex;flex-direction:column;gap:5px;margin-top:22px;padding:12px 15px;border:1px solid #9b5b3b;background:#221614}
+    .dragon-date span{color:#e8a071;font-size:.67rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
+    .dragon-date strong{color:#f7dfcc;font-size:.96rem;letter-spacing:.05em}
+    .dragon-section{margin:0 0 28px;padding:28px;border:1px solid var(--line);background:linear-gradient(145deg,#171a1c,#111315)}
+    .dragon-section-heading{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:20px;padding-bottom:15px;border-bottom:1px solid var(--line)}
+    .dragon-section-heading h2{margin:6px 0 0;font-size:clamp(1.8rem,4vw,3rem);line-height:.95}
+    .dragon-section-heading p{max-width:420px;margin:0;color:var(--muted);line-height:1.55;text-align:right}
+    .dragon-section>p{color:var(--muted);line-height:1.7}
+    .dragon-section strong{color:#f1e7dc}
+    .dragon-hunt-copy{display:grid;grid-template-columns:1fr 1.35fr;gap:20px;align-items:start}
+    .dragon-hunt-copy p{margin:0;color:var(--muted);line-height:1.75}
+    .dragon-hunt-copy p+p{padding:20px;border-left:3px solid #e45d43;background:#211716}
+    .dragon-hall{border-left:3px solid #b084d1;background:linear-gradient(125deg,#1d1821,#141719)}
+    .dragon-hall p{max-width:900px}
+    .dragon-hall-message{margin:20px 0 0;padding:19px 21px;border:1px solid #564268;background:#211b28;color:#ded4e6;line-height:1.75}
+    .dragon-hall-message strong{color:#f4eafb}
+    .dragon-hall .clue-link{margin-top:20px}
+    .dragon-rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px 26px;margin:0;padding:0;list-style:none}
+    .dragon-rules li{position:relative;padding:13px 14px 13px 30px;border-left:2px solid #79503c;color:var(--muted);line-height:1.55;background:#151719}
+    .dragon-rules li:before{content:"";position:absolute;left:10px;top:21px;width:6px;height:6px;border-radius:50%;background:#e45d43;box-shadow:0 0 10px rgba(228,93,67,.7)}
+    .dragon-prize-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .dragon-prize-card{padding:24px;border:1px solid #60483e;background:linear-gradient(145deg,#211918,#141719);position:relative}
+    .dragon-prize-card--first{grid-column:1/-1;border-color:#bb713f;background:radial-gradient(circle at 92% 0%,rgba(219,119,56,.22),transparent 36%),linear-gradient(145deg,#2b1b17,#141719);box-shadow:0 8px 28px rgba(0,0,0,.2)}
+    .dragon-prize-card--second{border-left:3px solid #b7bdc3}
+    .dragon-prize-card--third{border-left:3px solid #a77854}
+    .dragon-place{display:block;color:#efa16f;font-size:.72rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase}
+    .dragon-prize-card h3{margin:8px 0 5px;font-size:1.55rem;text-transform:uppercase}
+    .dragon-prize-card--first h3{color:#ffd6b4;font-size:2rem}
+    .dragon-prize-card>strong{display:block;color:#d7bdab;font-size:.88rem;letter-spacing:.07em;text-transform:uppercase}
+    .dragon-prize-label{margin:22px 0 7px;color:#e8a071;font-size:.68rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
+    .dragon-prize-card ul{margin:0;padding-left:20px;color:var(--muted);line-height:1.65}
+    .dragon-prize-card li+li{margin-top:5px}
+    .dragon-flavor{margin:17px 0 0;padding-top:14px;border-top:1px solid #60483e;color:#f1c6a9!important;font-style:italic}
+    .dragon-closing{margin:0 0 34px;padding:38px;border:1px solid #81533e;border-left:3px solid #e45d43;background:radial-gradient(circle at 86% 15%,rgba(228,93,67,.2),transparent 35%),linear-gradient(135deg,#251817,#141719);text-align:center}
+    .dragon-closing h2{margin:11px 0 18px;color:#f4d7c4;font-size:clamp(2rem,5vw,4rem);text-transform:uppercase}
+    .dragon-closing p{max-width:760px;margin:0 auto 20px;color:var(--muted);line-height:1.75}
+    .dragon-closing .clue-link{margin-top:2px}
+    @media(max-width:760px){
+      .dragon-hero{padding:28px 23px}
+      .dragon-hero-top{display:block}
+      .dragon-hero .event-status{margin-top:16px}
+      .dragon-section{padding:21px 18px}
+      .dragon-section-heading{display:block}
+      .dragon-section-heading p{margin-top:10px;text-align:left}
+      .dragon-hunt-copy,.dragon-rules,.dragon-prize-grid{grid-template-columns:1fr}
+      .dragon-prize-card--first{grid-column:auto}
+      .dragon-closing{padding:28px 20px}
+    }
+  </style>
+</head>
+<body class="events-page dragon-event-page">
+  <header>
+    <div class="wrap">
+      <div class="brand">
+        <div class="mark"><span>🔥</span></div>
+        <div>Beneath the Ashes</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-context">
+      <a class="back" href="../">← All Events</a>
+      <div class="world-tag">World // Chernarus</div>
+    </div>
+
+    <section class="dragon-hero">
+      <div class="dragon-hero-top">
+        <div class="project-label">Live Event // Halloween</div>
+        <div class="event-status event-status-live"><i></i> LIVE EVENT</div>
+      </div>
+      <h1>Dragon Hunting<br><span>Season</span></h1>
+      <p class="dragon-hero-lead">The skies over Chernarus are no longer safe.</p>
+      <p>Dragons have claimed the castles, survivors have begun finding their nests, and the time has come to find out who among you is brave enough to become a true Dragon Slayer.</p>
+      <p>We’re putting a bounty on their heads. Quite literally.</p>
+      <div class="dragon-date">
+        <span>Event dates</span>
+        <strong>October 4 – October 11, 2026</strong>
+      </div>
+    </section>
+
+    <section class="dragon-section">
+      <div class="dragon-section-heading">
+        <div>
+          <div class="project-label">The hunt</div>
+          <h2>Bring their heads home.</h2>
+        </div>
+        <p>The objective is simple: hunt dragons, claim their trophies, and make your mark.</p>
+      </div>
+      <div class="dragon-hunt-copy">
+        <p>Every <strong>Dragon Head Trophy</strong> collected should be physically displayed at the player’s base. Hang them on walls, build a trophy room, or create whatever kind of dragon trophy display you want.</p>
+        <p>At the end of the event, the players with the most qualifying Dragon Head Trophies will claim <strong>1st, 2nd, and 3rd place.</strong></p>
+      </div>
+    </section>
+
+    <section class="dragon-section dragon-hall">
+      <div class="dragon-section-heading">
+        <div>
+          <div class="project-label">Community showcase</div>
+          <h2>Hall of Dragon Slayers.</h2>
+        </div>
+        <p>Show the whole community how the hunt is going.</p>
+      </div>
+      <p>Post pictures of your Dragon Head Trophy displays throughout the event in the <strong>Hall of Dragon Slayers</strong> thread in the Events section of our Discord.</p>
+      <div class="dragon-hall-message"><strong>Everyone is encouraged to participate, even if you do not think you have enough trophies to win.</strong><br><br>Got one dragon head? Show us.<br>Built a trophy wall? Show us.<br>Turned your base into an alarming museum of dragon anatomy? Definitely show us.<br><br>The Hall of Dragon Slayers is meant to showcase the entire community’s progress throughout the event, not only the eventual winners. Post updated pictures as your collection grows.</div>
+      <a class="clue-link" href="https://discord.com/channels/1278830251383721984/1486740680662454483" target="_blank" rel="noopener noreferrer">VIEW THE HALL OF DRAGON SLAYERS →</a>
+    </section>
+
+    <section class="dragon-section">
+      <div class="dragon-section-heading">
+        <div>
+          <div class="project-label">Event rules</div>
+          <h2>Make the trophies count.</h2>
+        </div>
+        <p>Staff may verify leading displays before prizes are awarded.</p>
+      </div>
+      <ul class="dragon-rules">
+        <li>Hunt dragons throughout Chernarus and collect Dragon Head Trophies.</li>
+        <li>Dragon Head Trophies must be physically displayed at your base to count toward your final total.</li>
+        <li>Post pictures of your trophy display in the Hall of Dragon Slayers Discord thread.</li>
+        <li>Post updated pictures throughout the event as your collection grows.</li>
+        <li>Final placement is determined by the number of qualifying Dragon Head Trophies displayed when the event ends.</li>
+        <li>Inventory screenshots or trophies simply dropped in piles on the ground do not count. Trophies must be properly displayed.</li>
+        <li>Staff may verify the trophy displays of leading hunters before prizes are awarded.</li>
+        <li>You do not need to compete for the top three positions to participate. Everyone is encouraged to share their displays.</li>
+      </ul>
+    </section>
+
+    <section class="dragon-section">
+      <div class="dragon-section-heading">
+        <div>
+          <div class="project-label">Halloween rewards</div>
+          <h2>Claim your place.</h2>
+        </div>
+        <p>The hunters with the most qualifying displayed trophies will take the top three prizes.</p>
+      </div>
+      <div class="dragon-prize-grid">
+        <article class="dragon-prize-card dragon-prize-card--first">
+          <span class="dragon-place">🥇 1st Place</span>
+          <h3>Dragon Slayer’s Hoard</h3>
+          <strong>The ultimate Halloween hunter’s package</strong>
+          <div class="dragon-prize-label">Prize package</div>
+          <ul>
+            <li>Full Military Halloween Gear Set</li>
+            <li>2 Halloween Barrels</li>
+            <li>3 Halloween Teddies</li>
+            <li>1 Fully Kitted High-Caliber Gun + Ammo</li>
+            <li>1 Secret Trader Keycard</li>
+            <li>1 BallerZ Katana</li>
+            <li>1 Fully Kitted Horse</li>
+            <li>$100,000</li>
+            <li>25,000 Zombie Notes</li>
+          </ul>
+          <p class="dragon-flavor">“Your very own Dragon Hunter’s Mount.”</p>
+        </article>
+
+        <article class="dragon-prize-card dragon-prize-card--second">
+          <span class="dragon-place">🥈 2nd Place</span>
+          <h3>Dragon Hunter’s Cache</h3>
+          <strong>A serious haul for a proven hunter</strong>
+          <div class="dragon-prize-label">Prize package</div>
+          <ul>
+            <li>Military Halloween Gear</li>
+            <li>1 Halloween Barrel</li>
+            <li>2 Halloween Teddies</li>
+            <li>1 Fully Kitted High-Caliber Gun + Ammo</li>
+            <li>1 Secret Trader Keycard</li>
+            <li>1 BallerZ Katana</li>
+            <li>$50,000</li>
+            <li>12,500 Zombie Notes</li>
+          </ul>
+        </article>
+
+        <article class="dragon-prize-card dragon-prize-card--third">
+          <span class="dragon-place">🥉 3rd Place</span>
+          <h3>Wyrm Hunter’s Stash</h3>
+          <strong>Proof that every trophy matters</strong>
+          <div class="dragon-prize-label">Prize package</div>
+          <ul>
+            <li>Military Halloween Gear</li>
+            <li>1 Halloween Barrel</li>
+            <li>1 Halloween Teddy</li>
+            <li>1 Fully Kitted High-Caliber Gun + Ammo</li>
+            <li>1 Secret Trader Keycard</li>
+            <li>$35,000</li>
+            <li>8,500 Zombie Notes</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="dragon-closing">
+      <div class="project-label">Dragon Hunting Season // Halloween</div>
+      <h2>The Hunt Is On.</h2>
+      <p>Dragons are out there.<br>Their heads belong on your walls.<br>Their treasure belongs in your pockets.</p>
+      <p>By <strong>October 11, 2026</strong>, we’re going to find out who has earned the right to stand at the top of the Hall of Dragon Slayers.</p>
+      <p>Whether you collect one trophy or fifty, get involved. Post your hunts. Show us your trophy displays. Fill the Hall of Dragon Slayers. Make the dragons regret spawning.</p>
+      <p>Happy hunting, survivors.</p>
+      <a class="clue-link" href="https://discord.com/channels/1278830251383721984/1486740680662454483" target="_blank" rel="noopener noreferrer">ENTER THE HALL OF DRAGON SLAYERS →</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Beneath the Ashes • Chernarus</div>
+  </footer>
+
+  <script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
+</body>
+</html>
