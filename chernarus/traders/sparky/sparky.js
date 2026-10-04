@@ -16,7 +16,7 @@
     .replace(/\b\w/g, letter => letter.toUpperCase());
 
   const colorTokens = value => String(value || '')
-    .replace(/[-\\s]+/g, '_')
+    .replace(/[-\s]+/g, '_')
     .split('_')
     .filter(Boolean);
 
