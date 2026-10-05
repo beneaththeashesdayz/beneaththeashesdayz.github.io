@@ -2,7 +2,7 @@
   "source": "Beneath the Ashes Chernarus live P2P market",
   "status": "ok",
   "note": null,
-  "syncedAt": "2026-10-05T16:09:37.844986+00:00",
+  "syncedAt": "2026-10-05T22:44:36.808645+00:00",
   "maxListingTimeSeconds": 604800,
   "listingFeePercent": 10,
   "listingCount": 9,
@@ -104,22 +104,6 @@
       "includedItems": []
     },
     {
-      "key": "76d0e5e9ce4d7ff7",
-      "traderId": 1,
-      "name": "Rag Baseitems Workbench Kit",
-      "className": "rag_baseitems_workbench_kit",
-      "skinName": null,
-      "seller": "WarRelic",
-      "price": 10000,
-      "listedAt": "2026-10-04T16:38:28+00:00",
-      "expiresAt": "2026-10-11T16:38:28+00:00",
-      "healthLevel": 0,
-      "quantity": 0.0,
-      "quantityType": 0,
-      "includedItemCount": 0,
-      "includedItems": []
-    },
-    {
       "key": "0fd8b65eb64ca8a7",
       "traderId": 1,
       "name": "DMT Starter Shed Kit",
@@ -148,6 +132,22 @@
       "healthLevel": 0,
       "quantity": 0.0,
       "quantityType": 0,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "27b58c4ad0271c9e",
+      "traderId": 1,
+      "name": "I M7s Bleach 02",
+      "className": "iM7s_Bleach_02",
+      "skinName": null,
+      "seller": "Big_Un1t",
+      "price": 1000,
+      "listedAt": "2026-10-05T18:38:45+00:00",
+      "expiresAt": "2026-10-12T18:38:45+00:00",
+      "healthLevel": 0,
+      "quantity": 55.0,
+      "quantityType": 8,
       "includedItemCount": 0,
       "includedItems": []
     }
