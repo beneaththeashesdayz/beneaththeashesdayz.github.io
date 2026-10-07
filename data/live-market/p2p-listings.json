@@ -2,10 +2,10 @@
   "source": "Beneath the Ashes Chernarus live P2P market",
   "status": "ok",
   "note": null,
-  "syncedAt": "2026-10-06T21:45:08.236443+00:00",
+  "syncedAt": "2026-10-07T01:39:05.027745+00:00",
   "maxListingTimeSeconds": 604800,
   "listingFeePercent": 10,
-  "listingCount": 13,
+  "listingCount": 12,
   "listings": [
     {
       "key": "8e702624b002752e",
@@ -68,22 +68,6 @@
       "healthLevel": 0,
       "quantity": 0.0,
       "quantityType": 0,
-      "includedItemCount": 0,
-      "includedItems": []
-    },
-    {
-      "key": "27b58c4ad0271c9e",
-      "traderId": 1,
-      "name": "I M7s Bleach 02",
-      "className": "iM7s_Bleach_02",
-      "skinName": null,
-      "seller": "Big_Un1t",
-      "price": 1000,
-      "listedAt": "2026-10-05T18:38:45+00:00",
-      "expiresAt": "2026-10-12T18:38:45+00:00",
-      "healthLevel": 0,
-      "quantity": 55.0,
-      "quantityType": 8,
       "includedItemCount": 0,
       "includedItems": []
     },
