@@ -17,7 +17,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Catfoodcan',className:'catfoodcan',category:'Food',mode:'sell',price:9885,buyPrice:9885,sellPrice:4942,traderSells:true,traderBuys:true},
 {name:'Chips',className:'chips',category:'Food',mode:'sell',price:9715,buyPrice:9715,sellPrice:4858,traderSells:true,traderBuys:true},
 {name:'Crabcan',className:'crabcan',category:'Food',mode:'sell',price:10285,buyPrice:10285,sellPrice:5142,traderSells:true,traderBuys:true},
-{name:'Crackers',className:'crackers',category:'Food',mode:'sell',price:9830,buyPrice:9830,sellPrice:4915,traderSells:true,traderBuys:true},
+{name:'Crackers',className:'crackers',category:'Food',mode:'buy',price:9830,buyPrice:9830,sellPrice:4915,traderSells:true,traderBuys:true},
 {name:'Dogfoodcan',className:'dogfoodcan',category:'Food',mode:'sell',price:9905,buyPrice:9905,sellPrice:4952,traderSells:true,traderBuys:true},
 {name:'Honey',className:'honey',category:'Food',mode:'sell',price:10310,buyPrice:10310,sellPrice:5155,traderSells:true,traderBuys:true},
 {name:'Lunchmeat',className:'lunchmeat',category:'Food',mode:'sell',price:10020,buyPrice:10020,sellPrice:5010,traderSells:true,traderBuys:true},
