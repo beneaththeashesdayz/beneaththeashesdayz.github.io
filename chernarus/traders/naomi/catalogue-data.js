@@ -1,7 +1,7 @@
 window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Loner Can Empty',className:'loner_can_empty',category:'Cans',mode:'sell',price:300,buyPrice:300,sellPrice:150,traderSells:true,traderBuys:true},
 {name:'Loner Can Small Empty',className:'loner_can_small_empty',category:'Cans',mode:'sell',price:250,buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true},
-{name:'Canteen',className:'canteen',category:'Drinks',mode:'buy',price:12000,buyPrice:12000,sellPrice:6000,traderSells:true,traderBuys:true},
+{name:'Canteen',className:'canteen',category:'Drinks',mode:'sell',price:12000,buyPrice:12000,sellPrice:6000,traderSells:true,traderBuys:true},
 {name:'Expansionmilkbottle',className:'expansionmilkbottle',category:'Drinks',mode:'sell',price:9845,buyPrice:9845,sellPrice:4922,traderSells:true,traderBuys:true},
 {name:'Filteringbottle',className:'filteringbottle',category:'Drinks',mode:'sell',price:15000,buyPrice:15000,sellPrice:7500,traderSells:true,traderBuys:true},
 {name:'Glassbottle',className:'glassbottle',category:'Drinks',mode:'sell',price:8500,buyPrice:8500,sellPrice:4250,traderSells:true,traderBuys:true},
@@ -17,7 +17,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Catfoodcan',className:'catfoodcan',category:'Food',mode:'sell',price:9885,buyPrice:9885,sellPrice:4942,traderSells:true,traderBuys:true},
 {name:'Chips',className:'chips',category:'Food',mode:'sell',price:9715,buyPrice:9715,sellPrice:4858,traderSells:true,traderBuys:true},
 {name:'Crabcan',className:'crabcan',category:'Food',mode:'sell',price:10285,buyPrice:10285,sellPrice:5142,traderSells:true,traderBuys:true},
-{name:'Crackers',className:'crackers',category:'Food',mode:'buy',price:9830,buyPrice:9830,sellPrice:4915,traderSells:true,traderBuys:true},
+{name:'Crackers',className:'crackers',category:'Food',mode:'sell',price:9830,buyPrice:9830,sellPrice:4915,traderSells:true,traderBuys:true},
 {name:'Dogfoodcan',className:'dogfoodcan',category:'Food',mode:'sell',price:9905,buyPrice:9905,sellPrice:4952,traderSells:true,traderBuys:true},
 {name:'Honey',className:'honey',category:'Food',mode:'sell',price:10310,buyPrice:10310,sellPrice:5155,traderSells:true,traderBuys:true},
 {name:'Lunchmeat',className:'lunchmeat',category:'Food',mode:'sell',price:10020,buyPrice:10020,sellPrice:5010,traderSells:true,traderBuys:true},
