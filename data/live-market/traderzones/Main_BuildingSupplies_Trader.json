@@ -135,7 +135,7 @@
     "rag_baseitems_roomdivider_japan_kit": 1,
     "flag_uec": 1,
     "rag_baseitems_globe_kit": 2,
-    "crowbar": 2,
+    "crowbar": 0,
     "rag_baseitems_cleaning_patches": 0,
     "flag_rex": 0,
     "rag_baseitems_mask_head_kit": 2,
@@ -179,7 +179,7 @@
     "rag_baseitems_triple_locker_yellow_kit": 0,
     "bbp_photoframe_portrait": 0,
     "lfpg_generator": 0,
-    "nailbox": 3,
+    "nailbox": 0,
     "largetent": 0,
     "flag_cannibals": 1,
     "alarmclock_red": 0,
@@ -198,7 +198,7 @@
     "rag_baseitems_crateshelf_kit": 0,
     "ducttape": 57,
     "rag_baseitems_coffee_mug_purple_break": 0,
-    "whetstone": 2,
+    "whetstone": 0,
     "rag_baseitems_beach_chair_kit": 1,
     "rag_baseitems_grammophone_disk": 0,
     "screwdriver": 50,
@@ -238,7 +238,7 @@
     "lfpg_searchlight_kit": 0,
     "rag_baseitems_planterbox_high_kit": 0,
     "universallight": 10,
-    "rangefinder": 88,
+    "rangefinder": 89,
     "rag_baseitems_plank_holder_kit": 0,
     "lfpg_or_gate_kit": 0,
     "rag_baseitems_single_locker_black_kit": 0,
@@ -345,7 +345,7 @@
     "bear_beige": 1,
     "pen_blue": 0,
     "rag_baseitems_firstaid_cabinet_kit": 0,
-    "rag_baseitems_teddyshelf_kit": 0,
+    "rag_baseitems_teddyshelf_kit": 1,
     "flag_crook": 0,
     "rag_baseitems_roomdivider_sunset_kit": 0,
     "rag_baseitems_medieval_fireplace_kit": 0,
@@ -406,6 +406,6 @@
     "bear_dark": 6,
     "flag_tec": 1,
     "lfpg_cablereel": 1,
-    "pitchfork": 0
+    "pitchfork": 1
   }
 }
