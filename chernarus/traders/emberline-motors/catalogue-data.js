@@ -98,5 +98,13 @@ window.traderCatalogue={traderName:'Emberline Motors',currency:'ZOMBIE_NOTES',cu
 {name:'Chevrolet Z71 Pink',className:'star_chevrolet_z71_pink',category:'SUV',buyPrice:13000,traderSells:true,traderBuys:false},
 {name:'Chevrolet Z71 Red',className:'star_chevrolet_z71_red',category:'SUV',buyPrice:13000,traderSells:true,traderBuys:false},
 {name:'Chevrolet Z71 White',className:'star_chevrolet_z71_white',category:'SUV',buyPrice:13000,traderSells:true,traderBuys:false},
-{name:'Chevrolet Z71 Yellow',className:'star_chevrolet_z71_yellow',category:'SUV',buyPrice:13000,traderSells:true,traderBuys:false}
+{name:'Chevrolet Z71 Yellow',className:'star_chevrolet_z71_yellow',category:'SUV',buyPrice:13000,traderSells:true,traderBuys:false},
+{name:'Jeep Rubicon',className:'star_jeep_rubi_extra',category:'SUV',buyPrice:14000,traderSells:true,traderBuys:false},
+{name:'Jeep Rubicon Blue',className:'star_jeep_rubi_extra_blue',category:'SUV',buyPrice:14000,traderSells:true,traderBuys:false},
+{name:'Jeep Rubicon Carbon',className:'star_jeep_rubi_extra_carbon',category:'SUV',buyPrice:14000,traderSells:true,traderBuys:false},
+{name:'Jeep Rubicon Orange',className:'star_jeep_rubi_extra_orange',category:'SUV',buyPrice:14000,traderSells:true,traderBuys:false},
+{name:'Jeep Rubicon Pink',className:'star_jeep_rubi_extra_pink',category:'SUV',buyPrice:14000,traderSells:true,traderBuys:false},
+{name:'Jeep Rubicon Red',className:'star_jeep_rubi_extra_red',category:'SUV',buyPrice:14000,traderSells:true,traderBuys:false},
+{name:'Jeep Rubicon White',className:'star_jeep_rubi_extra_white',category:'SUV',buyPrice:14000,traderSells:true,traderBuys:false},
+{name:'Jeep Rubicon Yellow',className:'star_jeep_rubi_extra_yellow',category:'SUV',buyPrice:14000,traderSells:true,traderBuys:false}
 ]};
