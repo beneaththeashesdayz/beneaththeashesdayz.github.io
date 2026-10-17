@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-10-17T17:20:25.314875+00:00",
+  "syncedAt": "2026-10-17T20:43:37.560269+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -730,7 +730,7 @@
     "impoundTimePenaltyRuined": 0,
     "costForExceedingMaxSlots": 10000
   },
-  "vehicleCount": 1118,
+  "vehicleCount": 1163,
   "vehicles": [
     {
       "name": "Harleyfatboy",
@@ -76171,6 +76171,2502 @@
         {
           "itemname": "SparkPlug",
           "colorGroup": "sparkplug"
+        }
+      ]
+    },
+    {
+      "name": "Armada Exc20",
+      "itemname": "ARMADA_EXC2020",
+      "groupName": "ARMADA_EXC20",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "EXC2020",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "ARMADA_EXC20_Wheel_2",
+          "colorGroup": "ARMADA_EXC20_Wheel_2"
+        },
+        {
+          "itemname": "ARMADA_EXC20_Wheel_1",
+          "colorGroup": "ARMADA_EXC20_Wheel_1"
+        }
+      ]
+    },
+    {
+      "name": "Civilian Sedan",
+      "itemname": "CivilianSedan_BlackRust",
+      "groupName": "CivilianSedan",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "BlackRust",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        },
+        {
+          "itemname": "CivSedanDoors_Driver_BlackRust",
+          "colorGroup": "sedanDoors_Driver"
+        },
+        {
+          "itemname": "CivSedanDoors_CoDriver_BlackRust",
+          "colorGroup": "sedanDoors_coDriver"
+        },
+        {
+          "itemname": "CivSedanDoors_BackLeft_BlackRust",
+          "colorGroup": "sedanDoors_cargo1"
+        },
+        {
+          "itemname": "CivSedanDoors_BackRight_BlackRust",
+          "colorGroup": "sedanDoors_cargo2"
+        },
+        {
+          "itemname": "CivSedanHood_BlackRust",
+          "colorGroup": "sedanhood"
+        },
+        {
+          "itemname": "CivSedanTrunk_BlackRust",
+          "colorGroup": "sedanTrunk"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        }
+      ]
+    },
+    {
+      "name": "Civilian Sedan",
+      "itemname": "CivilianSedan_WhiteRust",
+      "groupName": "CivilianSedan",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "WhiteRust",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        },
+        {
+          "itemname": "CivSedanDoors_Driver_WhiteRust",
+          "colorGroup": "sedanDoors_Driver"
+        },
+        {
+          "itemname": "CivSedanDoors_CoDriver_WhiteRust",
+          "colorGroup": "sedanDoors_coDriver"
+        },
+        {
+          "itemname": "CivSedanDoors_BackLeft_WhiteRust",
+          "colorGroup": "sedanDoors_cargo1"
+        },
+        {
+          "itemname": "CivSedanDoors_BackRight_WhiteRust",
+          "colorGroup": "sedanDoors_cargo2"
+        },
+        {
+          "itemname": "CivSedanHood_WhiteRust",
+          "colorGroup": "sedanhood"
+        },
+        {
+          "itemname": "CivSedanTrunk_WhiteRust",
+          "colorGroup": "sedanTrunk"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        }
+      ]
+    },
+    {
+      "name": "Civilian Sedan",
+      "itemname": "CivilianSedan_WineRust",
+      "groupName": "CivilianSedan",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "WineRust",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        },
+        {
+          "itemname": "CivSedanDoors_Driver_WineRust",
+          "colorGroup": "sedanDoors_Driver"
+        },
+        {
+          "itemname": "CivSedanDoors_CoDriver_WineRust",
+          "colorGroup": "sedanDoors_coDriver"
+        },
+        {
+          "itemname": "CivSedanDoors_BackLeft_WineRust",
+          "colorGroup": "sedanDoors_cargo1"
+        },
+        {
+          "itemname": "CivSedanDoors_BackRight_WineRust",
+          "colorGroup": "sedanDoors_cargo2"
+        },
+        {
+          "itemname": "CivSedanHood_WineRust",
+          "colorGroup": "sedanhood"
+        },
+        {
+          "itemname": "CivSedanTrunk_WineRust",
+          "colorGroup": "sedanTrunk"
+        },
+        {
+          "itemname": "CivSedanWheel",
+          "colorGroup": "sedanwheel"
+        }
+      ]
+    },
+    {
+      "name": "Dodgecharger Police Slicktop",
+      "itemname": "DodgeCharger_18_black",
+      "groupName": "dodgecharger_police_slicktop",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "black",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_driverdoor_black",
+          "colorGroup": "dodgecharger_18_driverdoor"
+        },
+        {
+          "itemname": "dodgecharger_18_codriver_black",
+          "colorGroup": "dodgecharger_18_codriver"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo1_black",
+          "colorGroup": "dodgecharger_18_cargo1"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo2_black",
+          "colorGroup": "dodgecharger_18_cargo2"
+        },
+        {
+          "itemname": "dodgecharger_18_hood_black",
+          "colorGroup": "dodgecharger_18_hood"
+        },
+        {
+          "itemname": "dodgecharger_18_trunk_black",
+          "colorGroup": "dodgecharger_18_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Dodgecharger Police Slicktop",
+      "itemname": "DodgeCharger_18_darkblue",
+      "groupName": "dodgecharger_police_slicktop",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "darkblue",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_driverdoor_darkblue",
+          "colorGroup": "dodgecharger_18_driverdoor"
+        },
+        {
+          "itemname": "dodgecharger_18_codriver_darkblue",
+          "colorGroup": "dodgecharger_18_codriver"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo1_darkblue",
+          "colorGroup": "dodgecharger_18_cargo1"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo2_darkblue",
+          "colorGroup": "dodgecharger_18_cargo2"
+        },
+        {
+          "itemname": "dodgecharger_18_hood_darkblue",
+          "colorGroup": "dodgecharger_18_hood"
+        },
+        {
+          "itemname": "dodgecharger_18_trunk_darkblue",
+          "colorGroup": "dodgecharger_18_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Dodgecharger Police Slicktop",
+      "itemname": "DodgeCharger_18_gray",
+      "groupName": "dodgecharger_police_slicktop",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "gray",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_driverdoor_gray",
+          "colorGroup": "dodgecharger_18_driverdoor"
+        },
+        {
+          "itemname": "dodgecharger_18_codriver_gray",
+          "colorGroup": "dodgecharger_18_codriver"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo1_gray",
+          "colorGroup": "dodgecharger_18_cargo1"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo2_gray",
+          "colorGroup": "dodgecharger_18_cargo2"
+        },
+        {
+          "itemname": "dodgecharger_18_hood_gray",
+          "colorGroup": "dodgecharger_18_hood"
+        },
+        {
+          "itemname": "dodgecharger_18_trunk_gray",
+          "colorGroup": "dodgecharger_18_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Dodgecharger Police Slicktop",
+      "itemname": "DodgeCharger_18_gsp",
+      "groupName": "dodgecharger_police_slicktop",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "gsp",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_driverdoor_gsp",
+          "colorGroup": "dodgecharger_18_driverdoor"
+        },
+        {
+          "itemname": "dodgecharger_18_codriver_gsp",
+          "colorGroup": "dodgecharger_18_codriver"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo1_gsp",
+          "colorGroup": "dodgecharger_18_cargo1"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo2_gsp",
+          "colorGroup": "dodgecharger_18_cargo2"
+        },
+        {
+          "itemname": "dodgecharger_18_hood_gsp",
+          "colorGroup": "dodgecharger_18_hood"
+        },
+        {
+          "itemname": "dodgecharger_18_trunk_gsp",
+          "colorGroup": "dodgecharger_18_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Dodgecharger Police",
+      "itemname": "DodgeCharger_18_gspmarked",
+      "groupName": "dodgecharger_police",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "gspmarked",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_driverdoor_gsp",
+          "colorGroup": "dodgecharger_18_driverdoor"
+        },
+        {
+          "itemname": "dodgecharger_18_codriver_gsp",
+          "colorGroup": "dodgecharger_18_codriver"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo1_gsp",
+          "colorGroup": "dodgecharger_18_cargo1"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo2_gsp",
+          "colorGroup": "dodgecharger_18_cargo2"
+        },
+        {
+          "itemname": "dodgecharger_18_hood_gsp",
+          "colorGroup": "dodgecharger_18_hood"
+        },
+        {
+          "itemname": "dodgecharger_18_trunk_gsp",
+          "colorGroup": "dodgecharger_18_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Dodgecharger Police Slicktop",
+      "itemname": "DodgeCharger_18_lightblue",
+      "groupName": "dodgecharger_police_slicktop",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "lightblue",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_driverdoor_lightblue",
+          "colorGroup": "dodgecharger_18_driverdoor"
+        },
+        {
+          "itemname": "dodgecharger_18_codriver_lightblue",
+          "colorGroup": "dodgecharger_18_codriver"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo1_lightblue",
+          "colorGroup": "dodgecharger_18_cargo1"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo2_lightblue",
+          "colorGroup": "dodgecharger_18_cargo2"
+        },
+        {
+          "itemname": "dodgecharger_18_hood_lightblue",
+          "colorGroup": "dodgecharger_18_hood"
+        },
+        {
+          "itemname": "dodgecharger_18_trunk_lightblue",
+          "colorGroup": "dodgecharger_18_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Dodgecharger Police",
+      "itemname": "DodgeCharger_18_police",
+      "groupName": "dodgecharger_police",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "police",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_driverdoor",
+          "colorGroup": "dodgecharger_18_driverdoor"
+        },
+        {
+          "itemname": "dodgecharger_18_codriver",
+          "colorGroup": "dodgecharger_18_codriver"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo1",
+          "colorGroup": "dodgecharger_18_cargo1"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo2",
+          "colorGroup": "dodgecharger_18_cargo2"
+        },
+        {
+          "itemname": "dodgecharger_18_hood",
+          "colorGroup": "dodgecharger_18_hood"
+        },
+        {
+          "itemname": "dodgecharger_18_trunk",
+          "colorGroup": "dodgecharger_18_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Dodgecharger Police",
+      "itemname": "DodgeCharger_18_sheriff",
+      "groupName": "dodgecharger_police",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "sheriff",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_driverdoor_sheriff",
+          "colorGroup": "dodgecharger_18_driverdoor"
+        },
+        {
+          "itemname": "dodgecharger_18_codriver_sheriff",
+          "colorGroup": "dodgecharger_18_codriver"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo1_sheriff",
+          "colorGroup": "dodgecharger_18_cargo1"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo2_sheriff",
+          "colorGroup": "dodgecharger_18_cargo2"
+        },
+        {
+          "itemname": "dodgecharger_18_hood_sheriff",
+          "colorGroup": "dodgecharger_18_hood"
+        },
+        {
+          "itemname": "dodgecharger_18_trunk_sheriff",
+          "colorGroup": "dodgecharger_18_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Dodgecharger Police",
+      "itemname": "DodgeCharger_18_sheriff2",
+      "groupName": "dodgecharger_police",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "sheriff2",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_driverdoor_sheriff2",
+          "colorGroup": "dodgecharger_18_driverdoor"
+        },
+        {
+          "itemname": "dodgecharger_18_codriver_sheriff2",
+          "colorGroup": "dodgecharger_18_codriver"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo1_sheriff2",
+          "colorGroup": "dodgecharger_18_cargo1"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo2_sheriff2",
+          "colorGroup": "dodgecharger_18_cargo2"
+        },
+        {
+          "itemname": "dodgecharger_18_hood_sheriff2",
+          "colorGroup": "dodgecharger_18_hood"
+        },
+        {
+          "itemname": "dodgecharger_18_trunk_sheriff2",
+          "colorGroup": "dodgecharger_18_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Dodgecharger Police",
+      "itemname": "DodgeCharger_18_sheriff3",
+      "groupName": "dodgecharger_police",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "sheriff3",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_driverdoor_sheriff3",
+          "colorGroup": "dodgecharger_18_driverdoor"
+        },
+        {
+          "itemname": "dodgecharger_18_codriver_sheriff3",
+          "colorGroup": "dodgecharger_18_codriver"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo1_sheriff3",
+          "colorGroup": "dodgecharger_18_cargo1"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo2_sheriff3",
+          "colorGroup": "dodgecharger_18_cargo2"
+        },
+        {
+          "itemname": "dodgecharger_18_hood_sheriff3",
+          "colorGroup": "dodgecharger_18_hood"
+        },
+        {
+          "itemname": "dodgecharger_18_trunk_sheriff3",
+          "colorGroup": "dodgecharger_18_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Dodgecharger Police",
+      "itemname": "DodgeCharger_18_statepolice",
+      "groupName": "dodgecharger_police",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "statepolice",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_driverdoor_statepolice",
+          "colorGroup": "dodgecharger_18_driverdoor"
+        },
+        {
+          "itemname": "dodgecharger_18_codriver_statepolice",
+          "colorGroup": "dodgecharger_18_codriver"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo1_statepolice",
+          "colorGroup": "dodgecharger_18_cargo1"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo2_statepolice",
+          "colorGroup": "dodgecharger_18_cargo2"
+        },
+        {
+          "itemname": "dodgecharger_18_hood_statepolice",
+          "colorGroup": "dodgecharger_18_hood"
+        },
+        {
+          "itemname": "dodgecharger_18_trunk_statepolice",
+          "colorGroup": "dodgecharger_18_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Dodgecharger Police",
+      "itemname": "DodgeCharger_18_statepolice2",
+      "groupName": "dodgecharger_police",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "statepolice2",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_driverdoor_statepolice2",
+          "colorGroup": "dodgecharger_18_driverdoor"
+        },
+        {
+          "itemname": "dodgecharger_18_codriver_statepolice2",
+          "colorGroup": "dodgecharger_18_codriver"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo1_statepolice2",
+          "colorGroup": "dodgecharger_18_cargo1"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo2_statepolice2",
+          "colorGroup": "dodgecharger_18_cargo2"
+        },
+        {
+          "itemname": "dodgecharger_18_hood_statepolice2",
+          "colorGroup": "dodgecharger_18_hood"
+        },
+        {
+          "itemname": "dodgecharger_18_trunk_statepolice2",
+          "colorGroup": "dodgecharger_18_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Dodgecharger Police Slicktop",
+      "itemname": "DodgeCharger_18_white",
+      "groupName": "dodgecharger_police_slicktop",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "white",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_wheel",
+          "colorGroup": "dodgecharger_18_wheel"
+        },
+        {
+          "itemname": "dodgecharger_18_driverdoor_white",
+          "colorGroup": "dodgecharger_18_driverdoor"
+        },
+        {
+          "itemname": "dodgecharger_18_codriver_white",
+          "colorGroup": "dodgecharger_18_codriver"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo1_white",
+          "colorGroup": "dodgecharger_18_cargo1"
+        },
+        {
+          "itemname": "dodgecharger_18_cargo2_white",
+          "colorGroup": "dodgecharger_18_cargo2"
+        },
+        {
+          "itemname": "dodgecharger_18_hood_white",
+          "colorGroup": "dodgecharger_18_hood"
+        },
+        {
+          "itemname": "dodgecharger_18_trunk_white",
+          "colorGroup": "dodgecharger_18_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Motorbike 01",
+      "itemname": "Motorbike_01_Blue",
+      "groupName": "Motorbike_01",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Blue",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "Motorbike_01_Wheel_1",
+          "colorGroup": "Motorbike_01_wheel_1"
+        },
+        {
+          "itemname": "Motorbike_01_Wheel_2",
+          "colorGroup": "Motorbike_01_wheel_2"
+        }
+      ]
+    },
+    {
+      "name": "Motorbike 01",
+      "itemname": "Motorbike_01_Red",
+      "groupName": "Motorbike_01",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Red",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "Motorbike_01_Wheel_1",
+          "colorGroup": "Motorbike_01_wheel_1"
+        },
+        {
+          "itemname": "Motorbike_01_Wheel_2",
+          "colorGroup": "Motorbike_01_wheel_2"
+        }
+      ]
+    },
+    {
+      "name": "Motorbike 01",
+      "itemname": "Motorbike_01_Yellow",
+      "groupName": "Motorbike_01",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Yellow",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "Motorbike_01_Wheel_1",
+          "colorGroup": "Motorbike_01_wheel_1"
+        },
+        {
+          "itemname": "Motorbike_01_Wheel_2",
+          "colorGroup": "Motorbike_01_wheel_2"
+        }
+      ]
+    },
+    {
+      "name": "Motorbike 02",
+      "itemname": "Motorbike_02_Blue",
+      "groupName": "Motorbike_02",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Blue",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "Motorbike_02_Wheel_1",
+          "colorGroup": "Motorbike_02_wheel_1"
+        },
+        {
+          "itemname": "Motorbike_02_Wheel_2",
+          "colorGroup": "Motorbike_02_wheel_2"
+        },
+        {
+          "itemname": "Motorbike_02_ShieldFront_Red",
+          "colorGroup": "Motorbike_02_windshield"
+        },
+        {
+          "itemname": "Motorbike_02_ShieldLeft_Red",
+          "colorGroup": "Motorbike_02_shieldleft"
+        },
+        {
+          "itemname": "Motorbike_02_ShieldRight_Red",
+          "colorGroup": "Motorbike_02_shieldright"
+        }
+      ]
+    },
+    {
+      "name": "Motorbike 02",
+      "itemname": "Motorbike_02_Green",
+      "groupName": "Motorbike_02",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Green",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "Motorbike_02_Wheel_1",
+          "colorGroup": "Motorbike_02_wheel_1"
+        },
+        {
+          "itemname": "Motorbike_02_Wheel_2",
+          "colorGroup": "Motorbike_02_wheel_2"
+        },
+        {
+          "itemname": "Motorbike_02_ShieldFront_Red",
+          "colorGroup": "Motorbike_02_windshield"
+        },
+        {
+          "itemname": "Motorbike_02_ShieldLeft_Red",
+          "colorGroup": "Motorbike_02_shieldleft"
+        },
+        {
+          "itemname": "Motorbike_02_ShieldRight_Red",
+          "colorGroup": "Motorbike_02_shieldright"
+        }
+      ]
+    },
+    {
+      "name": "Motorbike 02",
+      "itemname": "Motorbike_02_Red",
+      "groupName": "Motorbike_02",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Red",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "Motorbike_02_Wheel_1",
+          "colorGroup": "Motorbike_02_wheel_1"
+        },
+        {
+          "itemname": "Motorbike_02_Wheel_2",
+          "colorGroup": "Motorbike_02_wheel_2"
+        },
+        {
+          "itemname": "Motorbike_02_ShieldFront_Red",
+          "colorGroup": "Motorbike_02_windshield"
+        },
+        {
+          "itemname": "Motorbike_02_ShieldLeft_Red",
+          "colorGroup": "Motorbike_02_shieldleft"
+        },
+        {
+          "itemname": "Motorbike_02_ShieldRight_Red",
+          "colorGroup": "Motorbike_02_shieldright"
+        }
+      ]
+    },
+    {
+      "name": "Motorbike 02",
+      "itemname": "Motorbike_02_Yellow",
+      "groupName": "Motorbike_02",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Yellow",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "Motorbike_02_Wheel_1",
+          "colorGroup": "Motorbike_02_wheel_1"
+        },
+        {
+          "itemname": "Motorbike_02_Wheel_2",
+          "colorGroup": "Motorbike_02_wheel_2"
+        },
+        {
+          "itemname": "Motorbike_02_ShieldFront_Red",
+          "colorGroup": "Motorbike_02_windshield"
+        },
+        {
+          "itemname": "Motorbike_02_ShieldLeft_Red",
+          "colorGroup": "Motorbike_02_shieldleft"
+        },
+        {
+          "itemname": "Motorbike_02_ShieldRight_Red",
+          "colorGroup": "Motorbike_02_shieldright"
+        }
+      ]
+    },
+    {
+      "name": "Offroad 02",
+      "itemname": "Offroad_02_Beige",
+      "groupName": "Offroad_02",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Beige",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "GlowPlug",
+          "colorGroup": "GlowPlug"
+        },
+        {
+          "itemname": "Offroad_02_Wheel",
+          "colorGroup": "Offroad_02_Wheel"
+        },
+        {
+          "itemname": "Offroad_02_Wheel",
+          "colorGroup": "Offroad_02_Wheel"
+        },
+        {
+          "itemname": "Offroad_02_Wheel",
+          "colorGroup": "Offroad_02_Wheel"
+        },
+        {
+          "itemname": "Offroad_02_Wheel",
+          "colorGroup": "Offroad_02_Wheel"
+        },
+        {
+          "itemname": "Offroad_02_Door_1_1_Beige",
+          "colorGroup": "Offroad_02_Door_1_1"
+        },
+        {
+          "itemname": "Offroad_02_Door_1_2_Beige",
+          "colorGroup": "Offroad_02_Door_1_2"
+        },
+        {
+          "itemname": "Offroad_02_Door_2_1_Beige",
+          "colorGroup": "Offroad_02_Door_2_1"
+        },
+        {
+          "itemname": "Offroad_02_Door_2_2_Beige",
+          "colorGroup": "Offroad_02_Door_2_2"
+        },
+        {
+          "itemname": "Offroad_02_Trunk_Beige",
+          "colorGroup": "Offroad_02_Trunk"
+        },
+        {
+          "itemname": "Offroad_02_Hood_Beige",
+          "colorGroup": "Offroad_02_Hood"
+        },
+        {
+          "itemname": "Offroad_02_Wheel",
+          "colorGroup": "Offroad_02_Wheel"
+        }
+      ]
+    },
+    {
+      "name": "Supra",
+      "itemname": "Supra_Falken",
+      "groupName": "Supra",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Falken",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "Supra_Wheel",
+          "colorGroup": "Supra_Wheel"
+        },
+        {
+          "itemname": "Supra_Wheel",
+          "colorGroup": "Supra_Wheel"
+        },
+        {
+          "itemname": "Supra_Wheel",
+          "colorGroup": "Supra_Wheel"
+        },
+        {
+          "itemname": "Supra_Wheel",
+          "colorGroup": "Supra_Wheel"
+        },
+        {
+          "itemname": "Supra_DriverDoor_Falken",
+          "colorGroup": "Supra_DriverDoor"
+        },
+        {
+          "itemname": "Supra_CoDriverDoor_Falken",
+          "colorGroup": "Supra_CoDriverDoor"
+        },
+        {
+          "itemname": "Supra_Hood_Falken",
+          "colorGroup": "Supra_Hood"
+        },
+        {
+          "itemname": "Supra_Trunk_Falken",
+          "colorGroup": "Supra_Trunk"
+        }
+      ]
+    },
+    {
+      "name": "Supra",
+      "itemname": "Supra_RustBlack",
+      "groupName": "Supra",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "RustBlack",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "Supra_DriverDoor_RustBlack",
+          "colorGroup": "Supra_DriverDoor"
+        },
+        {
+          "itemname": "Supra_CoDriverDoor_RustBlack",
+          "colorGroup": "Supra_CoDriverDoor"
+        },
+        {
+          "itemname": "Supra_Hood_RustBlack",
+          "colorGroup": "Supra_Hood"
+        },
+        {
+          "itemname": "Supra_Trunk_RustBlack",
+          "colorGroup": "Supra_Trunk"
+        }
+      ]
+    },
+    {
+      "name": "C7",
+      "itemname": "c7_Black",
+      "groupName": "c7",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Black",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "c7_codriver",
+          "colorGroup": "c7_codriver"
+        },
+        {
+          "itemname": "c7_driver",
+          "colorGroup": "c7_driver"
+        },
+        {
+          "itemname": "c7_hood",
+          "colorGroup": "c7_hood"
+        },
+        {
+          "itemname": "c7_trunk",
+          "colorGroup": "c7_trunk"
+        },
+        {
+          "itemname": "c7Wheel_offroad",
+          "colorGroup": "c7Wheel_offroad"
+        },
+        {
+          "itemname": "c7Wheel_offroad",
+          "colorGroup": "c7Wheel_offroad"
+        },
+        {
+          "itemname": "c7Wheel_offroad",
+          "colorGroup": "c7Wheel_offroad"
+        },
+        {
+          "itemname": "c7Wheel_offroad",
+          "colorGroup": "c7Wheel_offroad"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Boattrailer",
+      "itemname": "geb_BoatTrailer",
+      "groupName": "boattrailer",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "BoatTrailer",
+      "additionalCargoItems": [],
+      "attachmentItems": []
+    },
+    {
+      "name": "Geb Jonboat",
+      "itemname": "geb_jonboat_camo_desert",
+      "groupName": "geb_jonboat",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "desert",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        }
+      ]
+    },
+    {
+      "name": "Geb Jonboat",
+      "itemname": "geb_jonboat_camo_forest",
+      "groupName": "geb_jonboat",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "forest",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        }
+      ]
+    },
+    {
+      "name": "Geb Jonboat",
+      "itemname": "geb_jonboat_camo_pink",
+      "groupName": "geb_jonboat",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "pink",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        }
+      ]
+    },
+    {
+      "name": "Geb Jonboat",
+      "itemname": "geb_jonboat_camo_snow",
+      "groupName": "geb_jonboat",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "snow",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        }
+      ]
+    },
+    {
+      "name": "Geb Jonboat",
+      "itemname": "geb_jonboat_grayaluminum",
+      "groupName": "geb_jonboat",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "grayaluminum",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        }
+      ]
+    },
+    {
+      "name": "Geb Jonboat",
+      "itemname": "geb_jonboat_greenaluminum",
+      "groupName": "geb_jonboat",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "greenaluminum",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        }
+      ]
+    },
+    {
+      "name": "Minicooper",
+      "itemname": "minicooper",
+      "groupName": "minicooper",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Default",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_driver",
+          "colorGroup": "minicooper_driver"
+        },
+        {
+          "itemname": "minicooper_codriver",
+          "colorGroup": "minicooper_codriver"
+        },
+        {
+          "itemname": "minicooper_hood",
+          "colorGroup": "minicooper_hood"
+        },
+        {
+          "itemname": "minicooper_trunk",
+          "colorGroup": "minicooper_trunk"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Minicooper",
+      "itemname": "minicooper_black",
+      "groupName": "minicooper",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "black",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_driver_black",
+          "colorGroup": "minicooper_driver"
+        },
+        {
+          "itemname": "minicooper_codriver_black",
+          "colorGroup": "minicooper_codriver"
+        },
+        {
+          "itemname": "minicooper_hood_black",
+          "colorGroup": "minicooper_hood"
+        },
+        {
+          "itemname": "minicooper_trunk_black",
+          "colorGroup": "minicooper_trunk"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Minicooper",
+      "itemname": "minicooper_skin2",
+      "groupName": "minicooper",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "skin2",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_driver_skin2",
+          "colorGroup": "minicooper_driver"
+        },
+        {
+          "itemname": "minicooper_codriver_skin2",
+          "colorGroup": "minicooper_codriver"
+        },
+        {
+          "itemname": "minicooper_hood_skin2",
+          "colorGroup": "minicooper_hood"
+        },
+        {
+          "itemname": "minicooper_trunk_skin2",
+          "colorGroup": "minicooper_trunk"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Minicooper",
+      "itemname": "minicooper_skin3",
+      "groupName": "minicooper",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "skin3",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_driver_skin3",
+          "colorGroup": "minicooper_driver"
+        },
+        {
+          "itemname": "minicooper_codriver_skin3",
+          "colorGroup": "minicooper_codriver"
+        },
+        {
+          "itemname": "minicooper_hood_skin3",
+          "colorGroup": "minicooper_hood"
+        },
+        {
+          "itemname": "minicooper_trunk_skin3",
+          "colorGroup": "minicooper_trunk"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Minicooper",
+      "itemname": "minicooper_yellow",
+      "groupName": "minicooper",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "yellow",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_wheel",
+          "colorGroup": "minicooper_wheel"
+        },
+        {
+          "itemname": "minicooper_driver_yellow",
+          "colorGroup": "minicooper_driver"
+        },
+        {
+          "itemname": "minicooper_codriver_yellow",
+          "colorGroup": "minicooper_codriver"
+        },
+        {
+          "itemname": "minicooper_hood_yellow",
+          "colorGroup": "minicooper_hood"
+        },
+        {
+          "itemname": "minicooper_trunk_yellow",
+          "colorGroup": "minicooper_trunk"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Saab 900 Turbo",
+      "itemname": "saab_900_turbo_black",
+      "groupName": "saab_900_turbo",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "black",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_driverdoor_black",
+          "colorGroup": "saab_900_turbo_driverdoor"
+        },
+        {
+          "itemname": "saab_900_turbo_codriver_black",
+          "colorGroup": "saab_900_turbo_codriver"
+        },
+        {
+          "itemname": "saab_900_turbo_hood_black",
+          "colorGroup": "saab_900_turbo_hood"
+        },
+        {
+          "itemname": "saab_900_turbo_trunk_black",
+          "colorGroup": "saab_900_turbo_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Saab 900 Turbo",
+      "itemname": "saab_900_turbo_blue",
+      "groupName": "saab_900_turbo",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "blue",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_driverdoor_blue",
+          "colorGroup": "saab_900_turbo_driverdoor"
+        },
+        {
+          "itemname": "saab_900_turbo_codriver_blue",
+          "colorGroup": "saab_900_turbo_codriver"
+        },
+        {
+          "itemname": "saab_900_turbo_hood_blue",
+          "colorGroup": "saab_900_turbo_hood"
+        },
+        {
+          "itemname": "saab_900_turbo_trunk_blue",
+          "colorGroup": "saab_900_turbo_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Saab 900 Turbo",
+      "itemname": "saab_900_turbo_red",
+      "groupName": "saab_900_turbo",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "red",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_driverdoor_red",
+          "colorGroup": "saab_900_turbo_driverdoor"
+        },
+        {
+          "itemname": "saab_900_turbo_codriver_red",
+          "colorGroup": "saab_900_turbo_codriver"
+        },
+        {
+          "itemname": "saab_900_turbo_hood_red",
+          "colorGroup": "saab_900_turbo_hood"
+        },
+        {
+          "itemname": "saab_900_turbo_trunk_red",
+          "colorGroup": "saab_900_turbo_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Saab 900 Turbo",
+      "itemname": "saab_900_turbo_white",
+      "groupName": "saab_900_turbo",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "white",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_driverdoor_white",
+          "colorGroup": "saab_900_turbo_driverdoor"
+        },
+        {
+          "itemname": "saab_900_turbo_codriver_white",
+          "colorGroup": "saab_900_turbo_codriver"
+        },
+        {
+          "itemname": "saab_900_turbo_hood_white",
+          "colorGroup": "saab_900_turbo_hood"
+        },
+        {
+          "itemname": "saab_900_turbo_trunk_white",
+          "colorGroup": "saab_900_turbo_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Saab 900 Turbo",
+      "itemname": "saab_900_turbo_yellow",
+      "groupName": "saab_900_turbo",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "yellow",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_wheel2",
+          "colorGroup": "saab_900_turbo_wheel2"
+        },
+        {
+          "itemname": "saab_900_turbo_driverdoor",
+          "colorGroup": "saab_900_turbo_driverdoor"
+        },
+        {
+          "itemname": "saab_900_turbo_codriver",
+          "colorGroup": "saab_900_turbo_codriver"
+        },
+        {
+          "itemname": "saab_900_turbo_hood",
+          "colorGroup": "saab_900_turbo_hood"
+        },
+        {
+          "itemname": "saab_900_turbo_trunk",
+          "colorGroup": "saab_900_turbo_trunk"
         }
       ]
     }
