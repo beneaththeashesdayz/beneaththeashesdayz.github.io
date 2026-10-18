@@ -2,7 +2,7 @@
 
 Railway runs this short task hourly at minute 17 UTC (also minute 17 Eastern). It requests the existing `Sync GTX Market` GitHub workflow on `main`, then exits. It does not connect to GTX, change game data, or store GTX credentials.
 
-Deploy this directory as a separate Railway cron service. Set Root Directory to `/ops/market-scheduler` and the Railway config file to `/ops/market-scheduler/railway.json`. No public domain or volume is needed.
+Deploy this directory as a separate Railway cron service. Set Root Directory to `/ops/market-scheduler` with Dockerfile builder, cron schedule `17 * * * *`, restart policy Never, and watch path `/ops/market-scheduler/**`. Configure these in the Railway dashboard; new services cannot opt into the deprecated Config as Code system. No public domain or volume is needed.
 
 Set private `MARKET_ACTIONS_TOKEN` to a fine-grained GitHub token restricted to `beneaththeashesdayz.github.io`, with Actions read/write and default Metadata read. Do not grant Contents write or access to other repositories. Set an expiry and renew it before expiration. Never commit the token.
 
