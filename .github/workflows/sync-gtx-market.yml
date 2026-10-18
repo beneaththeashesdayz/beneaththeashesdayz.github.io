@@ -17,8 +17,8 @@ on:
       - "polish_quinn_acronyms.py"
       - "polish_attachment_names.py"
       - ".github/workflows/sync-gtx-market.yml"
-  schedule:
-    - cron: "17 * * * *"
+  # Hourly trigger: Railway chernarus-trader-refresh at minute 17.
+  # Keep workflow_dispatch for the scheduler and manual refreshes.
 
 permissions:
   contents: write
