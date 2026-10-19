@@ -41,7 +41,8 @@
     "Car_Crates",
     "Car_SUV",
     "Car_Sports",
-    "Car_Station_Wagon"
+    "Car_Station_Wagon",
+    "Maharlika_Vehicles"
   ],
   "Items": {
     "truckbattery": 3,

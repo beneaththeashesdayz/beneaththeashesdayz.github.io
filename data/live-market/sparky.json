@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-10-19T19:21:51.780063+00:00",
+  "syncedAt": "2026-10-19T20:20:55.844998+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -97,7 +97,23 @@
         "CivilianSedan",
         "Hatchback_02",
         "Sedan_02",
-        "Truck_01_Base"
+        "Truck_01_Base",
+        "Van_DodgePhoenix",
+        "Van_DodgePhoenix_blue",
+        "Van_DodgePhoenix_green",
+        "Van_DodgePhoenix_grey",
+        "Van_DodgePhoenix_orange",
+        "Van_DodgePhoenix_red",
+        "Van_Motorhome",
+        "Van_Motorhome_Tan",
+        "Van_Motorhome_Teal",
+        "Van_Motorhome_Purple",
+        "Van_Motorhome_Black",
+        "Van_Motorhome_Camo",
+        "Van_ModernMotorhome",
+        "Van_Cybertruck",
+        "Van_CamperRV",
+        "Van_HiluxCamper"
       ],
       "levels": [
         {
@@ -210,7 +226,18 @@
         "m3e46gtr",
         "GT2RS_MR",
         "Motorbike_01_ColorBase",
-        "Motorbike_02_ColorBase"
+        "Motorbike_02_ColorBase",
+        "Van_DodgePhoenix",
+        "Van_DodgePhoenix_blue",
+        "Van_DodgePhoenix_green",
+        "Van_DodgePhoenix_grey",
+        "Van_DodgePhoenix_orange",
+        "Van_DodgePhoenix_red",
+        "Van_Motorhome_Tan",
+        "Van_Motorhome_Teal",
+        "Van_Motorhome_Purple",
+        "Van_Motorhome_Black",
+        "Van_Motorhome_Camo"
       ],
       "levels": [
         {
@@ -711,7 +738,7 @@
     "impoundTimePenaltyRuined": 0,
     "costForExceedingMaxSlots": 10000
   },
-  "vehicleCount": 891,
+  "vehicleCount": 912,
   "vehicles": [
     {
       "name": "Civic",
@@ -62460,6 +62487,1683 @@
         {
           "itemname": "saab_900_turbo_trunk",
           "colorGroup": "saab_900_turbo_trunk"
+        }
+      ]
+    },
+    {
+      "name": "Van Camper Rv",
+      "itemname": "Van_CamperRV",
+      "groupName": "Van_CamperRV",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "CamperRV",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_CamperRV_Wheel",
+          "colorGroup": "Van_CamperRV_Wheel"
+        },
+        {
+          "itemname": "Van_CamperRV_Wheel",
+          "colorGroup": "Van_CamperRV_Wheel"
+        },
+        {
+          "itemname": "Van_CamperRV_Wheel",
+          "colorGroup": "Van_CamperRV_Wheel"
+        },
+        {
+          "itemname": "Van_CamperRV_Wheel",
+          "colorGroup": "Van_CamperRV_Wheel"
+        },
+        {
+          "itemname": "Van_CamperRV_Doors_Driver",
+          "colorGroup": "Van_CamperRV_Doors_Driver"
+        },
+        {
+          "itemname": "Van_CamperRV_Doors_CoDriver",
+          "colorGroup": "Van_CamperRV_Doors_coDriver"
+        },
+        {
+          "itemname": "Van_CamperRV_Doors_Cabin",
+          "colorGroup": "Van_CamperRV_Doors_Cabin"
+        },
+        {
+          "itemname": "Van_CamperRV_Doors_Bathroom",
+          "colorGroup": "Van_CamperRV_Doors_Bathroom"
+        },
+        {
+          "itemname": "Van_CamperRV_Doors_Fridge",
+          "colorGroup": "Van_CamperRV_Doors_Fridge"
+        },
+        {
+          "itemname": "Van_CamperRV_Fridge",
+          "colorGroup": "Fridge_Item"
+        },
+        {
+          "itemname": "TruckBattery",
+          "colorGroup": "battery_truck"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "FryingPan",
+          "colorGroup": "FryingPan"
+        },
+        {
+          "itemname": "LargeGasCanister",
+          "colorGroup": "GasCannisterLarge"
+        },
+        {
+          "itemname": "Van_WaterContainer",
+          "colorGroup": "Van_WaterContainer"
+        }
+      ]
+    },
+    {
+      "name": "Van Cybertruck",
+      "itemname": "Van_Cybertruck",
+      "groupName": "Van_Cybertruck",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Cybertruck",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_Cybertruck_Wheel",
+          "colorGroup": "Van_Cybertruck_Wheel"
+        },
+        {
+          "itemname": "Van_Cybertruck_Wheel",
+          "colorGroup": "Van_Cybertruck_Wheel"
+        },
+        {
+          "itemname": "Van_Cybertruck_Wheel",
+          "colorGroup": "Van_Cybertruck_Wheel"
+        },
+        {
+          "itemname": "Van_Cybertruck_Wheel",
+          "colorGroup": "Van_Cybertruck_Wheel"
+        },
+        {
+          "itemname": "Van_Cybertruck_Doors_Driver",
+          "colorGroup": "Van_Cybertruck_Doors_Driver"
+        },
+        {
+          "itemname": "Van_Cybertruck_Doors_CoDriver",
+          "colorGroup": "Van_Cybertruck_Doors_coDriver"
+        },
+        {
+          "itemname": "Van_Cybertruck_Doors_Cargo1",
+          "colorGroup": "Van_Cybertruck_Doors_Cargo1"
+        },
+        {
+          "itemname": "Van_Cybertruck_Doors_Cargo2",
+          "colorGroup": "Van_Cybertruck_Doors_Cargo2"
+        },
+        {
+          "itemname": "Van_Cybertruck_Doors_Trunk",
+          "colorGroup": "Van_Cybertruck_Doors_Trunk"
+        },
+        {
+          "itemname": "Van_CybertruckBattery",
+          "colorGroup": "van_teslabatterypack"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Van Cybertruck",
+      "itemname": "Van_Cybertruck_Black_Blue",
+      "groupName": "Van_Cybertruck",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Blue",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_Cybertruck_Wheel",
+          "colorGroup": "Van_Cybertruck_Wheel"
+        },
+        {
+          "itemname": "Van_Cybertruck_Wheel",
+          "colorGroup": "Van_Cybertruck_Wheel"
+        },
+        {
+          "itemname": "Van_Cybertruck_Wheel",
+          "colorGroup": "Van_Cybertruck_Wheel"
+        },
+        {
+          "itemname": "Van_Cybertruck_Wheel",
+          "colorGroup": "Van_Cybertruck_Wheel"
+        },
+        {
+          "itemname": "Van_Cybertruck_Doors_Driver_Black_Blue",
+          "colorGroup": "Van_Cybertruck_Doors_Driver"
+        },
+        {
+          "itemname": "Van_Cybertruck_Doors_CoDriver_Black_Blue",
+          "colorGroup": "Van_Cybertruck_Doors_coDriver"
+        },
+        {
+          "itemname": "Van_Cybertruck_Doors_Cargo1_Black_Blue",
+          "colorGroup": "Van_Cybertruck_Doors_Cargo1"
+        },
+        {
+          "itemname": "Van_Cybertruck_Doors_Cargo2_Black_Blue",
+          "colorGroup": "Van_Cybertruck_Doors_Cargo2"
+        },
+        {
+          "itemname": "Van_Cybertruck_Doors_Trunk_Black_Blue",
+          "colorGroup": "Van_Cybertruck_Doors_Trunk"
+        },
+        {
+          "itemname": "Van_CybertruckBattery",
+          "colorGroup": "van_teslabatterypack"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Van Dodge Phoenix",
+      "itemname": "Van_DodgePhoenix",
+      "groupName": "Van_DodgePhoenix",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "DodgePhoenix",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Driver",
+          "colorGroup": "Van_DodgePhoenix_Doors_Driver"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_CoDriver",
+          "colorGroup": "Van_DodgePhoenix_Doors_coDriver"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Hood",
+          "colorGroup": "Van_DodgePhoenix_Doors_Hood"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Trunk",
+          "colorGroup": "Van_DodgePhoenix_Doors_Trunk"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Van Dodge Phoenix Blue",
+      "itemname": "Van_DodgePhoenix_blue",
+      "groupName": "Van_DodgePhoenix_blue",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "blue",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Driver_blue",
+          "colorGroup": "Van_DodgePhoenix_Doors_Driver_blue"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_CoDriver_blue",
+          "colorGroup": "Van_DodgePhoenix_Doors_coDriver_blue"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Hood_blue",
+          "colorGroup": "Van_DodgePhoenix_Doors_Hood_blue"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Trunk_blue",
+          "colorGroup": "Van_DodgePhoenix_Doors_Trunk_blue"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Van Dodge Phoenix Green",
+      "itemname": "Van_DodgePhoenix_green",
+      "groupName": "Van_DodgePhoenix_green",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "green",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Driver_green",
+          "colorGroup": "Van_DodgePhoenix_Doors_Driver_green"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_CoDriver_green",
+          "colorGroup": "Van_DodgePhoenix_Doors_coDriver_green"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Hood_green",
+          "colorGroup": "Van_DodgePhoenix_Doors_Hood_green"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Trunk_green",
+          "colorGroup": "Van_DodgePhoenix_Doors_Trunk_green"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Van Dodge Phoenix Grey",
+      "itemname": "Van_DodgePhoenix_grey",
+      "groupName": "Van_DodgePhoenix_grey",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "grey",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Driver_grey",
+          "colorGroup": "Van_DodgePhoenix_Doors_Driver_grey"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_CoDriver_grey",
+          "colorGroup": "Van_DodgePhoenix_Doors_coDriver_grey"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Hood_grey",
+          "colorGroup": "Van_DodgePhoenix_Doors_Hood_grey"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Trunk_grey",
+          "colorGroup": "Van_DodgePhoenix_Doors_Trunk_grey"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Van Dodge Phoenix Orange",
+      "itemname": "Van_DodgePhoenix_orange",
+      "groupName": "Van_DodgePhoenix_orange",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "orange",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Driver_orange",
+          "colorGroup": "Van_DodgePhoenix_Doors_Driver_orange"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_CoDriver_orange",
+          "colorGroup": "Van_DodgePhoenix_Doors_coDriver_orange"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Hood_orange",
+          "colorGroup": "Van_DodgePhoenix_Doors_Hood_orange"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Trunk_orange",
+          "colorGroup": "Van_DodgePhoenix_Doors_Trunk_orange"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Van Dodge Phoenix Red",
+      "itemname": "Van_DodgePhoenix_red",
+      "groupName": "Van_DodgePhoenix_red",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "red",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Wheel",
+          "colorGroup": "Van_DodgePhoenix_Wheel"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Driver_red",
+          "colorGroup": "Van_DodgePhoenix_Doors_Driver_red"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_CoDriver_red",
+          "colorGroup": "Van_DodgePhoenix_Doors_coDriver_red"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Hood_red",
+          "colorGroup": "Van_DodgePhoenix_Doors_Hood_red"
+        },
+        {
+          "itemname": "Van_DodgePhoenix_Doors_Trunk_red",
+          "colorGroup": "Van_DodgePhoenix_Doors_Trunk_red"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Van Hilux Camper",
+      "itemname": "Van_HiluxCamper",
+      "groupName": "Van_HiluxCamper",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "HiluxCamper",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_HiluxCamper_Cabin",
+          "colorGroup": "Van_HiluxCamper_Body_Exterior"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Front",
+          "colorGroup": "Van_HiluxCamper_Wheel_Front"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Front",
+          "colorGroup": "Van_HiluxCamper_Wheel_Front"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Front",
+          "colorGroup": "Van_HiluxCamper_Wheel_Front"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Rear",
+          "colorGroup": "Van_HiluxCamper_Wheel_Rear"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Rear",
+          "colorGroup": "Van_HiluxCamper_Wheel_Rear"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Driver",
+          "colorGroup": "Van_HiluxCamper_Doors_Driver"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_CoDriver",
+          "colorGroup": "Van_HiluxCamper_Doors_coDriver"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Hood",
+          "colorGroup": "Van_HiluxCamper_Doors_Hood"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Camper",
+          "colorGroup": "Van_HiluxCamper_Doors_Camper"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Bathroom",
+          "colorGroup": "Van_HiluxCamper_Doors_Bathroom"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Fridge",
+          "colorGroup": "Van_HiluxCamper_Doors_Fridge"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "FryingPan",
+          "colorGroup": "FryingPan"
+        },
+        {
+          "itemname": "LargeGasCanister",
+          "colorGroup": "GasCannisterLarge"
+        },
+        {
+          "itemname": "Van_WaterContainer",
+          "colorGroup": "Van_WaterContainer"
+        }
+      ]
+    },
+    {
+      "name": "Van Hilux Camper",
+      "itemname": "Van_HiluxCamper_Black",
+      "groupName": "Van_HiluxCamper",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Black",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_HiluxCamper_Cabin_Black",
+          "colorGroup": "Van_HiluxCamper_Body_Exterior"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Front",
+          "colorGroup": "Van_HiluxCamper_Wheel_Front"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Front",
+          "colorGroup": "Van_HiluxCamper_Wheel_Front"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Front",
+          "colorGroup": "Van_HiluxCamper_Wheel_Front"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Rear",
+          "colorGroup": "Van_HiluxCamper_Wheel_Rear"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Rear",
+          "colorGroup": "Van_HiluxCamper_Wheel_Rear"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Driver_Black",
+          "colorGroup": "Van_HiluxCamper_Doors_Driver"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_CoDriver_Black",
+          "colorGroup": "Van_HiluxCamper_Doors_coDriver"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Hood_Black",
+          "colorGroup": "Van_HiluxCamper_Doors_Hood"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Camper_Black",
+          "colorGroup": "Van_HiluxCamper_Doors_Camper"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Bathroom",
+          "colorGroup": "Van_HiluxCamper_Doors_Bathroom"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Fridge",
+          "colorGroup": "Van_HiluxCamper_Doors_Fridge"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "FryingPan",
+          "colorGroup": "FryingPan"
+        },
+        {
+          "itemname": "LargeGasCanister",
+          "colorGroup": "GasCannisterLarge"
+        },
+        {
+          "itemname": "Van_WaterContainer",
+          "colorGroup": "Van_WaterContainer"
+        }
+      ]
+    },
+    {
+      "name": "Van Hilux Camper",
+      "itemname": "Van_HiluxCamper_Cream",
+      "groupName": "Van_HiluxCamper",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Cream",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_HiluxCamper_Cabin_Cream",
+          "colorGroup": "Van_HiluxCamper_Body_Exterior"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Front",
+          "colorGroup": "Van_HiluxCamper_Wheel_Front"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Front",
+          "colorGroup": "Van_HiluxCamper_Wheel_Front"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Front",
+          "colorGroup": "Van_HiluxCamper_Wheel_Front"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Rear",
+          "colorGroup": "Van_HiluxCamper_Wheel_Rear"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Rear",
+          "colorGroup": "Van_HiluxCamper_Wheel_Rear"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Driver_Cream",
+          "colorGroup": "Van_HiluxCamper_Doors_Driver"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_CoDriver_Cream",
+          "colorGroup": "Van_HiluxCamper_Doors_coDriver"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Hood_Cream",
+          "colorGroup": "Van_HiluxCamper_Doors_Hood"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Camper_Cream",
+          "colorGroup": "Van_HiluxCamper_Doors_Camper"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Bathroom",
+          "colorGroup": "Van_HiluxCamper_Doors_Bathroom"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Fridge",
+          "colorGroup": "Van_HiluxCamper_Doors_Fridge"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "FryingPan",
+          "colorGroup": "FryingPan"
+        },
+        {
+          "itemname": "LargeGasCanister",
+          "colorGroup": "GasCannisterLarge"
+        },
+        {
+          "itemname": "Van_WaterContainer",
+          "colorGroup": "Van_WaterContainer"
+        }
+      ]
+    },
+    {
+      "name": "Van Hilux Camper",
+      "itemname": "Van_HiluxCamper_Teal",
+      "groupName": "Van_HiluxCamper",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Teal",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_HiluxCamper_Cabin_Teal",
+          "colorGroup": "Van_HiluxCamper_Body_Exterior"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Front",
+          "colorGroup": "Van_HiluxCamper_Wheel_Front"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Front",
+          "colorGroup": "Van_HiluxCamper_Wheel_Front"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Front",
+          "colorGroup": "Van_HiluxCamper_Wheel_Front"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Rear",
+          "colorGroup": "Van_HiluxCamper_Wheel_Rear"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Wheel_Rear",
+          "colorGroup": "Van_HiluxCamper_Wheel_Rear"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Driver_Teal",
+          "colorGroup": "Van_HiluxCamper_Doors_Driver"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_CoDriver_Teal",
+          "colorGroup": "Van_HiluxCamper_Doors_coDriver"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Hood_Teal",
+          "colorGroup": "Van_HiluxCamper_Doors_Hood"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Camper_Teal",
+          "colorGroup": "Van_HiluxCamper_Doors_Camper"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Bathroom",
+          "colorGroup": "Van_HiluxCamper_Doors_Bathroom"
+        },
+        {
+          "itemname": "Van_HiluxCamper_Doors_Fridge",
+          "colorGroup": "Van_HiluxCamper_Doors_Fridge"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "FryingPan",
+          "colorGroup": "FryingPan"
+        },
+        {
+          "itemname": "LargeGasCanister",
+          "colorGroup": "GasCannisterLarge"
+        },
+        {
+          "itemname": "Van_WaterContainer",
+          "colorGroup": "Van_WaterContainer"
+        }
+      ]
+    },
+    {
+      "name": "Van Modern Motorhome",
+      "itemname": "Van_ModernMotorhome",
+      "groupName": "Van_ModernMotorhome",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "ModernMotorhome",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_ModernMotorhome_Wheel",
+          "colorGroup": "Van_ModernMotorhome_Wheel"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Wheel",
+          "colorGroup": "Van_ModernMotorhome_Wheel"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Wheel",
+          "colorGroup": "Van_ModernMotorhome_Wheel"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Wheel",
+          "colorGroup": "Van_ModernMotorhome_Wheel"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Wheel",
+          "colorGroup": "Van_ModernMotorhome_Wheel"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Wheel",
+          "colorGroup": "Van_ModernMotorhome_Wheel"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_Driver",
+          "colorGroup": "Van_ModernMotorhome_Doors_Driver"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_coDriver",
+          "colorGroup": "Van_ModernMotorhome_Doors_coDriver"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_Trunk",
+          "colorGroup": "Van_ModernMotorhome_Doors_Trunk"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_Cargo1",
+          "colorGroup": "Van_ModernMotorhome_Doors_Cargo1"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_WardrobeL",
+          "colorGroup": "Van_ModernMotorhome_Doors_WardrobeL"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_WardrobeR",
+          "colorGroup": "Van_ModernMotorhome_Doors_WardrobeR"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_Washing",
+          "colorGroup": "Van_ModernMotorhome_Doors_Washing"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Fridge",
+          "colorGroup": "Van_ModernMotorhome_Fridge2"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Cabinet",
+          "colorGroup": "Van_ModernMotorhome_Cabinet"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Washing",
+          "colorGroup": "Washing_Machine"
+        },
+        {
+          "itemname": "TruckBattery",
+          "colorGroup": "battery_truck"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "FryingPan",
+          "colorGroup": "FryingPan"
+        },
+        {
+          "itemname": "Van_WaterContainer",
+          "colorGroup": "Van_WaterContainer"
+        }
+      ]
+    },
+    {
+      "name": "Van Modern Motorhome",
+      "itemname": "Van_ModernMotorhome_White",
+      "groupName": "Van_ModernMotorhome",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "White",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_ModernMotorhome_Wheel",
+          "colorGroup": "Van_ModernMotorhome_Wheel"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Wheel",
+          "colorGroup": "Van_ModernMotorhome_Wheel"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Wheel",
+          "colorGroup": "Van_ModernMotorhome_Wheel"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Wheel",
+          "colorGroup": "Van_ModernMotorhome_Wheel"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Wheel",
+          "colorGroup": "Van_ModernMotorhome_Wheel"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Wheel",
+          "colorGroup": "Van_ModernMotorhome_Wheel"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_Driver_White",
+          "colorGroup": "Van_ModernMotorhome_Doors_Driver"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_coDriver",
+          "colorGroup": "Van_ModernMotorhome_Doors_coDriver"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_Trunk_White",
+          "colorGroup": "Van_ModernMotorhome_Doors_Trunk"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_Cargo1",
+          "colorGroup": "Van_ModernMotorhome_Doors_Cargo1"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_WardrobeL",
+          "colorGroup": "Van_ModernMotorhome_Doors_WardrobeL"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_WardrobeR",
+          "colorGroup": "Van_ModernMotorhome_Doors_WardrobeR"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Doors_Washing",
+          "colorGroup": "Van_ModernMotorhome_Doors_Washing"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Fridge",
+          "colorGroup": "Van_ModernMotorhome_Fridge2"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Cabinet",
+          "colorGroup": "Van_ModernMotorhome_Cabinet"
+        },
+        {
+          "itemname": "Van_ModernMotorhome_Washing",
+          "colorGroup": "Washing_Machine"
+        },
+        {
+          "itemname": "TruckBattery",
+          "colorGroup": "battery_truck"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "FryingPan",
+          "colorGroup": "FryingPan"
+        },
+        {
+          "itemname": "Van_WaterContainer",
+          "colorGroup": "Van_WaterContainer"
+        }
+      ]
+    },
+    {
+      "name": "Van Motorhome",
+      "itemname": "Van_Motorhome",
+      "groupName": "Van_Motorhome",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Motorhome",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Driver",
+          "colorGroup": "Van_Motorhome_Doors_Driver"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Hood_1",
+          "colorGroup": "Van_Motorhome_Doors_Hood_1"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Hood_2",
+          "colorGroup": "Van_Motorhome_Doors_Hood_2"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Fridge",
+          "colorGroup": "Van_Motorhome_Doors_Fridge"
+        },
+        {
+          "itemname": "Van_Motorhome_Fridge",
+          "colorGroup": "Van_Motorhome_Fridge"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "FryingPan",
+          "colorGroup": "FryingPan"
+        },
+        {
+          "itemname": "Van_WaterContainer",
+          "colorGroup": "Van_WaterContainer"
+        }
+      ]
+    },
+    {
+      "name": "Van Motorhome",
+      "itemname": "Van_Motorhome_Black",
+      "groupName": "Van_Motorhome",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Black",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Driver_Black",
+          "colorGroup": "Van_Motorhome_Doors_Driver"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Hood_1_Black",
+          "colorGroup": "Van_Motorhome_Doors_Hood_1"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Hood_2_Black",
+          "colorGroup": "Van_Motorhome_Doors_Hood_2"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Fridge",
+          "colorGroup": "Van_Motorhome_Doors_Fridge"
+        },
+        {
+          "itemname": "Van_Motorhome_Fridge",
+          "colorGroup": "Van_Motorhome_Fridge"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "FryingPan",
+          "colorGroup": "FryingPan"
+        },
+        {
+          "itemname": "Van_WaterContainer",
+          "colorGroup": "Van_WaterContainer"
+        }
+      ]
+    },
+    {
+      "name": "Van Motorhome",
+      "itemname": "Van_Motorhome_Camo",
+      "groupName": "Van_Motorhome",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Camo",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Driver_Camo",
+          "colorGroup": "Van_Motorhome_Doors_Driver"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Hood_1_Camo",
+          "colorGroup": "Van_Motorhome_Doors_Hood_1"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Hood_2_Camo",
+          "colorGroup": "Van_Motorhome_Doors_Hood_2"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Fridge",
+          "colorGroup": "Van_Motorhome_Doors_Fridge"
+        },
+        {
+          "itemname": "Van_Motorhome_Fridge",
+          "colorGroup": "Van_Motorhome_Fridge"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "FryingPan",
+          "colorGroup": "FryingPan"
+        },
+        {
+          "itemname": "Van_WaterContainer",
+          "colorGroup": "Van_WaterContainer"
+        }
+      ]
+    },
+    {
+      "name": "Van Motorhome",
+      "itemname": "Van_Motorhome_Purple",
+      "groupName": "Van_Motorhome",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Purple",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Driver_Purple",
+          "colorGroup": "Van_Motorhome_Doors_Driver"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Hood_1_Purple",
+          "colorGroup": "Van_Motorhome_Doors_Hood_1"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Hood_2_Purple",
+          "colorGroup": "Van_Motorhome_Doors_Hood_2"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Fridge",
+          "colorGroup": "Van_Motorhome_Doors_Fridge"
+        },
+        {
+          "itemname": "Van_Motorhome_Fridge",
+          "colorGroup": "Van_Motorhome_Fridge"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "FryingPan",
+          "colorGroup": "FryingPan"
+        },
+        {
+          "itemname": "Van_WaterContainer",
+          "colorGroup": "Van_WaterContainer"
+        }
+      ]
+    },
+    {
+      "name": "Van Motorhome",
+      "itemname": "Van_Motorhome_Tan",
+      "groupName": "Van_Motorhome",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Tan",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Driver_Tan",
+          "colorGroup": "Van_Motorhome_Doors_Driver"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Hood_1_Tan",
+          "colorGroup": "Van_Motorhome_Doors_Hood_1"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Hood_2_Tan",
+          "colorGroup": "Van_Motorhome_Doors_Hood_2"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Fridge",
+          "colorGroup": "Van_Motorhome_Doors_Fridge"
+        },
+        {
+          "itemname": "Van_Motorhome_Fridge",
+          "colorGroup": "Van_Motorhome_Fridge"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "FryingPan",
+          "colorGroup": "FryingPan"
+        },
+        {
+          "itemname": "Van_WaterContainer",
+          "colorGroup": "Van_WaterContainer"
+        }
+      ]
+    },
+    {
+      "name": "Van Motorhome",
+      "itemname": "Van_Motorhome_Teal",
+      "groupName": "Van_Motorhome",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Teal",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Wheel",
+          "colorGroup": "Van_Motorhome_Wheel"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Driver_Teal",
+          "colorGroup": "Van_Motorhome_Doors_Driver"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Hood_1_Teal",
+          "colorGroup": "Van_Motorhome_Doors_Hood_1"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Hood_2_Teal",
+          "colorGroup": "Van_Motorhome_Doors_Hood_2"
+        },
+        {
+          "itemname": "Van_Motorhome_Doors_Fridge",
+          "colorGroup": "Van_Motorhome_Doors_Fridge"
+        },
+        {
+          "itemname": "Van_Motorhome_Fridge",
+          "colorGroup": "Van_Motorhome_Fridge"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "FryingPan",
+          "colorGroup": "FryingPan"
+        },
+        {
+          "itemname": "Van_WaterContainer",
+          "colorGroup": "Van_WaterContainer"
         }
       ]
     }

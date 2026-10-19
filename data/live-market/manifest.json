@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-10-19T19:21:40.649775+00:00",
+  "syncedAt": "2026-10-19T20:20:17.575784+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 255,
+  "marketFileCount": 256,
   "traderFileCount": 24,
   "traderZoneFileCount": 18,
   "files": [
@@ -1306,6 +1306,13 @@
     },
     {
       "group": "market",
+      "filename": "Maharlika_Vehicles.json",
+      "sha256": "1b76edee2b6fc414287bbb327188742c13f41fe6de4d446bb99c222ad0bcb2fd",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
       "filename": "Masks.json",
       "sha256": "295f7e8a0ba6d13c998d5c1f348b5dcf3527abfe39892656da43b374afcfd7b6",
       "topLevelType": "object",
@@ -1881,7 +1888,7 @@
     {
       "group": "traders",
       "filename": "Exotic_Vehicle_Trader.json",
-      "sha256": "6dfb08ef75a7cebb966f9a8a2b15992e4d992395ae429ba952f6b89ebcebdccb",
+      "sha256": "c0a6c888feb76fe48b74b3d97ed2978a1d9232cba5115aaf64c049a06324258a",
       "topLevelType": "object",
       "entryCount": 13
     },
