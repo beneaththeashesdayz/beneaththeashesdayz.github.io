@@ -1,0 +1,63 @@
+{
+  "m_Version": 12,
+  "DisplayName": "AJ's Endgame Weapons",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "AJW_AWM_FDE",
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_AWM_AOR2",
+        "AJW_AWM_Green",
+        "AJW_AWM_Gold"
+      ]
+    },
+    {
+      "ClassName": "AJW_GOL_Magnum_Green",
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "AJW_AK50",
+      "MaxPriceThreshold": 12000,
+      "MinPriceThreshold": 12000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_AK50_MCB"
+      ]
+    },
+    {
+      "ClassName": "AJW_M82A1CQ_Black",
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_M82A1CQ_FDE",
+        "AJW_M82A1CQ_OD"
+      ]
+    }
+  ]
+}

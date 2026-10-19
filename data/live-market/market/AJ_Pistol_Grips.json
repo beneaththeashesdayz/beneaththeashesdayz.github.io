@@ -1,0 +1,236 @@
+{
+  "m_Version": 12,
+  "DisplayName": "AJ's Pistol Grips",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "AJW_AK_PG_AK12_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_AK_PG_AK12_Camo",
+        "AJW_AK_PG_AK12_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_AK_PG_MG47_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_AK_PG_MG47_Anared",
+        "AJW_AK_PG_MG47_Brass",
+        "AJW_AK_PG_MG47_FDE",
+        "AJW_AK_PG_MG47_Red"
+      ]
+    },
+    {
+      "ClassName": "AJW_AK_PG_MOE_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_AK_PG_MOE_FDE",
+        "AJW_AK_PG_MOE_Grey",
+        "AJW_AK_PG_MOE_OD"
+      ]
+    },
+    {
+      "ClassName": "AJW_AK_PG_RK3_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_AK_PG_RK3_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_AK_PG_Scorpius_Grey",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "AJW_AK_PG_SI_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_AK_PG_SI_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_AK_PG_TD_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_AK_PG_TD_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_M4_PG_BCM_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_M4_PG_BCM_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_M4_PG_DD_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_M4_PG_DD_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_M4_PG_F1_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_M4_PG_F1_Cyan",
+        "AJW_M4_PG_F1_OD",
+        "AJW_M4_PG_F1_Pink",
+        "AJW_M4_PG_F1_Red",
+        "AJW_M4_PG_F1_Yellow"
+      ]
+    },
+    {
+      "ClassName": "AJW_M4_PG_HK_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_M4_PG_HK_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_M4_PG_HKERGO",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "AJW_M4_PG_Hogue_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_M4_PG_Hogue_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_M4_PG_MOE_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_M4_PG_MOE_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_M4_PG_MOEK2_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_M4_PG_MOEK2_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_M4_PG_TD_Black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_M4_PG_TD_FDE",
+        "AJW_M4_PG_TD_Red"
+      ]
+    },
+    {
+      "ClassName": "AJW_M4_Skele_PGrip",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

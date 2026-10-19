@@ -1,0 +1,21 @@
+{
+  "m_Version": 12,
+  "DisplayName": "AJ's Ammo Boxes",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "AJW_AmmoBox_338mm_10Rnd",
+      "MaxPriceThreshold": 1300,
+      "MinPriceThreshold": 1300,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

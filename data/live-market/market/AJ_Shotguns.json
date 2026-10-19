@@ -1,0 +1,21 @@
+{
+  "m_Version": 12,
+  "DisplayName": "AJ's Shotguns",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "AJW_M1897Trench",
+      "MaxPriceThreshold": 3750,
+      "MinPriceThreshold": 3750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "m_Version": 12,
+  "DisplayName": "AJ's Black Market Weapons",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "AJW_SA58",
+      "MaxPriceThreshold": 7500,
+      "MinPriceThreshold": 7500,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "AJW_Car15_BD",
+      "MaxPriceThreshold": 6000,
+      "MinPriceThreshold": 6000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "AJW_SVD",
+      "MaxPriceThreshold": 9250,
+      "MinPriceThreshold": 9250,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_SVD_Rattle"
+      ]
+    },
+    {
+      "ClassName": "AJW_AK101_Black",
+      "MaxPriceThreshold": 7000,
+      "MinPriceThreshold": 7000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "AJW_AK105_Black",
+      "MaxPriceThreshold": 7000,
+      "MinPriceThreshold": 7000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "AJW_Deagle_AOR2",
+      "MaxPriceThreshold": 2750,
+      "MinPriceThreshold": 2750,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_Deagle_MARPAT"
+      ]
+    },
+    {
+      "ClassName": "AJW_AK5C_Green",
+      "MaxPriceThreshold": 7000,
+      "MinPriceThreshold": 7000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_AK5C_KHK",
+        "AJW_AK5C_Black"
+      ]
+    },
+    {
+      "ClassName": "AJW_MK14_EBR_SASS_Black",
+      "MaxPriceThreshold": 8750,
+      "MinPriceThreshold": 8750,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_MK14_EBR_SASS_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_SR25_Black",
+      "MaxPriceThreshold": 9500,
+      "MinPriceThreshold": 9500,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_SR25_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_HKG28_FDE",
+      "MaxPriceThreshold": 9500,
+      "MinPriceThreshold": 9500,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "AJW_SCARH_Black",
+      "MaxPriceThreshold": 8000,
+      "MinPriceThreshold": 8000,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "AJW_SCARH_MCT",
+        "AJW_SCARH_White",
+        "AJW_SCARH_TAN"
+      ]
+    }
+  ]
+}
