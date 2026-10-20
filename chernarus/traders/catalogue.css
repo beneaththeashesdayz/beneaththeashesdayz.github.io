@@ -27,3 +27,4 @@
 .profile-top>div:first-child>.world-tag{display:none!important}
 .profile-top>div:first-child>.kicker{display:block!important;margin:0 0 8px!important}
 @media(max-width:760px){.profile-header{gap:8px;margin-bottom:14px}.profile-header .back,.profile-header .world-tag{font-size:.68rem}}
+.catalogue-stock{padding:4px 7px;border:1px solid rgba(159,209,170,.42);background:rgba(159,209,170,.08);color:#9fd1aa;font-size:.62rem;font-weight:900;letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}.catalogue-stock.empty{border-color:rgba(241,145,119,.45);background:rgba(241,145,119,.08);color:#f1a08b}.catalogue-inventory-status{color:var(--muted);font-size:.68rem}

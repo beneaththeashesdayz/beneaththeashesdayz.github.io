@@ -11,6 +11,28 @@ document.addEventListener('DOMContentLoaded', function () {
   var count = root.querySelector('[data-catalogue-count]');
   var filters = Array.prototype.slice.call(root.querySelectorAll('[data-catalogue-filter]'));
   var active = 'all';
+  var inventoryStock = null;
+  var inventorySyncedAt = null;
+  var inventoryStatus = null;
+  var inventoryZoneBySlug = {
+    'attachment-trader':'Main_Attachments_Trader.json',
+    'black-market-zombie-note':'Blackmarket_ZN.json',
+    'emberline-motors':'ExoticVehicleTrader.json',
+    'emberline-parts':'ExoticVehicleTrader.json',
+    'gabi':'Collectables.json',
+    'hassan':'Blackmarket.json',
+    'indar':'Main_Weapons_Trader.json',
+    'kaito':'Blackmarket.json',
+    'keiko':'Fishing_Trader.json',
+    'linda':'Main_Medicals_Trader.json',
+    'manua':'Main_BuildingSupplies_Trader.json',
+    'mining-trader':'Mining_Trader.json',
+    'naomi':'Main_Consumables_Trader.json',
+    'niki':'Main_VehicleParts_Trader.json',
+    'peter':'Hunting.json',
+    'quinn':'Main_Clothing_Trader.json',
+    'rolf':'Main_ZombieNote_Trader.json'
+  };
 
   // Keep the catalogue focused on the inventory itself. Transaction direction
   // and the appropriate buy/sell price are shown on each individual item.
@@ -19,6 +41,96 @@ document.addEventListener('DOMContentLoaded', function () {
   if (note) note.style.display = 'none';
   var existingSummary = root.querySelector('.catalogue-transaction-summary');
   if (existingSummary) existingSummary.remove();
+
+
+  function currentTraderSlug() {
+    var parts = window.location.pathname.split('/').filter(Boolean);
+    var traderIndex = parts.indexOf('traders');
+    return traderIndex >= 0 ? parts[traderIndex + 1] || '' : '';
+  }
+
+  function inventorySource() {
+    var zone = inventoryZoneBySlug[currentTraderSlug()];
+    if (!zone) return null;
+    return {
+      zone: '../../../data/live-market/traderzones/' + encodeURIComponent(zone),
+      manifest: '../../../data/live-market/manifest.json'
+    };
+  }
+
+  function ensureInventoryStatus() {
+    if (inventoryStatus) return;
+    var summary = root.querySelector('.catalogue-summary');
+    if (!summary) return;
+    inventoryStatus = document.createElement('span');
+    inventoryStatus.className = 'catalogue-inventory-status';
+    summary.appendChild(inventoryStatus);
+  }
+
+  function setInventoryStatus(message) {
+    ensureInventoryStatus();
+    if (inventoryStatus) inventoryStatus.textContent = message;
+  }
+
+  function formatSyncTime(value) {
+    if (!value) return '';
+    var parsed = new Date(value);
+    if (isNaN(parsed.getTime())) return '';
+    return parsed.toLocaleString([], {dateStyle:'medium', timeStyle:'short'});
+  }
+
+  function stockValue(className) {
+    if (!inventoryStock || !className) return null;
+    var key = String(className).toLowerCase();
+    if (!Object.prototype.hasOwnProperty.call(inventoryStock, key)) return null;
+    var value = Number(inventoryStock[key]);
+    return isFinite(value) ? Math.max(0, Math.round(value)) : null;
+  }
+
+  function stockMarkup(item) {
+    var state = permissions(item);
+    if (!state.sells || !inventoryStock) return '';
+    var value = stockValue(item.className);
+    if (value == null) return '';
+    var emptyClass = value === 0 ? ' empty' : ' available';
+    var label = value === 0 ? 'Out of stock' : value + ' in stock';
+    return '<span class="catalogue-stock' + emptyClass + '">' + escapeHtml(label) + '</span>';
+  }
+
+  function loadInventory() {
+    var source = inventorySource();
+    if (!source) {
+      setInventoryStatus('Live stock is not tracked for this catalogue.');
+      return;
+    }
+
+    setInventoryStatus('Checking live stock…');
+    fetch(source.zone + '?v=1', {cache:'no-store'})
+      .then(function (response) {
+        if (!response.ok) throw new Error('Inventory feed unavailable');
+        return response.json();
+      })
+      .then(function (zone) {
+        inventoryStock = zone && zone.Stock ? zone.Stock : {};
+        setInventoryStatus('Live stock loaded');
+        render();
+        return fetch(source.manifest + '?v=1', {cache:'no-store'});
+      })
+      .then(function (response) {
+        if (!response || !response.ok) return null;
+        return response.json();
+      })
+      .then(function (manifest) {
+        inventorySyncedAt = manifest && manifest.syncedAt;
+        var formatted = formatSyncTime(inventorySyncedAt);
+        setInventoryStatus(formatted ? 'Stock synced ' + formatted : 'Live stock loaded');
+      })
+      .catch(function () {
+        inventoryStock = {};
+        setInventoryStatus('Live stock temporarily unavailable.');
+        render();
+      });
+  }
 
   function money(value) {
     if (cfg.currencyLabel) {
@@ -363,14 +475,14 @@ document.addEventListener('DOMContentLoaded', function () {
     var uniform = signatures.every(function (signature) { return signature === signatures[0]; });
     var rows = item.variants.map(function (variant) {
       if (uniform) {
-        return '<div class="catalogue-variant-row"><span>' + escapeHtml(variant.variantName) + '</span></div>';
+        return '<div class="catalogue-variant-row"><span>' + escapeHtml(variant.variantName) + '</span>' + stockMarkup(variant) + '</div>';
       }
       var state = permissions(variant);
       var prices = [];
       if (state.sells) prices.push('Buy ' + money(purchasePrice(variant)));
       if (state.buys) prices.push('Sell ' + money(resalePrice(variant)));
       return '<div class="catalogue-variant-row"><span>' + escapeHtml(variant.variantName) + '</span><strong>' +
-        escapeHtml(prices.join(' • ')) + '</strong></div>';
+        escapeHtml(prices.join(' • ')) + '</strong>' + stockMarkup(variant) + '</div>';
     }).join('');
     return '<details class="catalogue-variants"><summary>View ' + item.variants.length +
       ' ' + escapeHtml(item.variantLabel || 'variants') + (uniform ? '' : ' and exact prices') +
@@ -400,7 +512,7 @@ document.addEventListener('DOMContentLoaded', function () {
     return '<article class="catalogue-item">' +
       '<div><div class="catalogue-name">' + escapeHtml(item.name) + '</div>' +
       '<div class="catalogue-class">' + escapeHtml(item.className) + '</div></div>' +
-      '<div class="catalogue-meta"><span class="catalogue-direction ' + directionClass + '">' + escapeHtml(direction) + '</span>' + prices + '</div>' + variantMarkup(item) +
+      '<div class="catalogue-meta"><span class="catalogue-direction ' + directionClass + '">' + escapeHtml(direction) + '</span>' + stockMarkup(item) + prices + '</div>' + variantMarkup(item) +
     '</article>';
   }
 
@@ -445,6 +557,8 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   if (search) search.addEventListener('input', render);
+  ensureInventoryStatus();
   render();
+  loadInventory();
 });
 
