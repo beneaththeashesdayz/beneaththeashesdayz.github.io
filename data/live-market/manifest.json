@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-10-20T18:19:00.052767+00:00",
+  "syncedAt": "2026-10-20T19:19:37.962834+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 264,
+  "marketFileCount": 265,
   "traderFileCount": 24,
   "traderZoneFileCount": 18,
   "files": [
@@ -1264,6 +1264,13 @@
     },
     {
       "group": "market",
+      "filename": "IAT_Raw_Ores.json",
+      "sha256": "510f6eca6da7bb58d1516a1d178d5813368a27a400364417d1a0b7d3004aad6a",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
       "filename": "Jeep_Gladiator_F9_Parts.json",
       "sha256": "ab454d518f821466bd025c1dd7757d2894fd39f90aa559619e02549362c68cdd",
       "topLevelType": "object",
@@ -1979,7 +1986,7 @@
     {
       "group": "traders",
       "filename": "Mining.json",
-      "sha256": "b7e826f9d3565e49abbb8ec95b2e9907b043cbb5f9ee255efe4a8c563834894d",
+      "sha256": "1675edb7c2898db962c50d4f4083af65c14a66138f79fab30202de214c79b971",
       "topLevelType": "object",
       "entryCount": 13
     },

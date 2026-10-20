@@ -19,8 +19,7 @@
   "DisplayCurrencyName": "USD",
   "UseCategoryOrder": 0,
   "Categories": [
-    "Ores:2",
-    "Gems:2"
+    "IAT_Raw_Ores:2"
   ],
   "Items": {}
 }
