@@ -91,9 +91,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var state = permissions(item);
     if (!state.sells || !inventoryStock) return '';
     var value = stockValue(item.className);
-    if (value == null) return '';
-    var emptyClass = value === 0 ? ' empty' : ' available';
-    var label = value === 0 ? 'Out of stock' : value + ' in stock';
+    var emptyClass = value === 0 ? ' empty' : (value == null ? ' unlimited' : ' available');
+    var label = value === 0 ? 'Out of stock' : (value == null ? '∞ in stock' : value + ' in stock');
     return '<span class="catalogue-stock' + emptyClass + '" style="display:inline-flex!important;align-items:center">' + escapeHtml(label) + '</span>';
   }
 
