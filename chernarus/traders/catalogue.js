@@ -79,21 +79,66 @@ document.addEventListener('DOMContentLoaded', function () {
     return parsed.toLocaleString([], {dateStyle:'medium', timeStyle:'short'});
   }
 
-  function stockValue(className) {
-    if (!inventoryStock || !className) return null;
-    var key = String(className).toLowerCase();
-    if (!Object.prototype.hasOwnProperty.call(inventoryStock, key)) return null;
+  function stockState(item) {
+    if (!inventoryStock || !item) return {kind:'unknown'};
+    if (item.stockMode === 'infinite') return {kind:'infinite'};
+    if (!item.className) return {kind:'unknown'};
+
+    var key = String(item.className).toLowerCase();
+    if (!Object.prototype.hasOwnProperty.call(inventoryStock, key)) return {kind:'unknown'};
+
     var value = Number(inventoryStock[key]);
-    return isFinite(value) ? Math.max(0, Math.round(value)) : null;
+    if (!isFinite(value)) return {kind:'unknown'};
+    value = Math.max(0, Math.round(value));
+    return value === 0 ? {kind:'empty',value:value} : {kind:'available',value:value};
+  }
+
+  function groupedStockState(item) {
+    if (!item.variants || !item.variants.length) return stockState(item);
+
+    var states = item.variants.map(stockState);
+    var total = states.length;
+    var unknown = states.some(function (state) { return state.kind === 'unknown'; });
+    var available = states.filter(function (state) {
+      return state.kind === 'infinite' || state.kind === 'available';
+    }).length;
+
+    if (unknown && available === 0) return {kind:'unknown'};
+    if (unknown) return {kind:'mixed-unknown',available:available,total:total};
+    if (available === 0) return {kind:'empty'};
+    if (states.every(function (state) { return state.kind === 'infinite'; })) return {kind:'infinite'};
+    return {kind:'mixed',available:available,total:total};
   }
 
   function stockMarkup(item) {
     var state = permissions(item);
     if (!state.sells || !inventoryStock) return '';
-    var value = stockValue(item.className);
-    var emptyClass = value === 0 ? ' empty' : (value == null ? ' unlimited' : ' available');
-    var label = value === 0 ? 'Out of stock' : (value == null ? '∞ in stock' : value + ' in stock');
-    return '<span class="catalogue-stock' + emptyClass + '" style="display:inline-flex!important;align-items:center">' + escapeHtml(label) + '</span>';
+
+    var stock = item.variants ? groupedStockState(item) : stockState(item);
+    var label;
+    var badgeClass;
+
+    if (stock.kind === 'infinite') {
+      label = '∞ in stock';
+      badgeClass = ' unlimited';
+    } else if (stock.kind === 'empty') {
+      label = 'Out of stock';
+      badgeClass = ' empty';
+    } else if (stock.kind === 'available') {
+      label = stock.value + ' in stock';
+      badgeClass = ' available';
+    } else if (stock.kind === 'mixed') {
+      label = stock.available + '/' + stock.total + ' variants available';
+      badgeClass = ' available';
+    } else if (stock.kind === 'mixed-unknown') {
+      label = stock.available + '/' + stock.total + ' variants verified available';
+      badgeClass = ' unknown';
+    } else {
+      label = 'Stock unavailable';
+      badgeClass = ' unknown';
+    }
+
+    return '<span class="catalogue-stock' + badgeClass + '" style="display:inline-flex!important;align-items:center">' + escapeHtml(label) + '</span>';
   }
 
   function loadInventory() {
