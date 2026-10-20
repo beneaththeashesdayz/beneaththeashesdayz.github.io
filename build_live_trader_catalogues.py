@@ -375,7 +375,7 @@ VEHICLE_EXACT_DISPLAY_NAMES = {
     "hb_flipvehicle_bollard": "Flip Vehicle Bollard",
 }
 
-# Expansion Market JSON identifies items by classname. These prefixes mirror the
+# Expansion Market JSON identifies items by classname and explicit stock thresholds. These prefixes mirror the
 # model names shown by the in-game trader and are shared by the showroom and its
 # replacement-parts counter. Longest/specific prefixes must come first.
 VEHICLE_DISPLAY_PREFIXES = (
