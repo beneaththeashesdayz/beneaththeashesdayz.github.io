@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (value == null) return '';
     var emptyClass = value === 0 ? ' empty' : ' available';
     var label = value === 0 ? 'Out of stock' : value + ' in stock';
-    return '<span class="catalogue-stock' + emptyClass + '">' + escapeHtml(label) + '</span>';
+    return '<span class="catalogue-stock' + emptyClass + '" style="display:inline-flex!important;align-items:center">' + escapeHtml(label) + '</span>';
   }
 
   function loadInventory() {
