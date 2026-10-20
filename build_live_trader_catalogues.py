@@ -168,6 +168,35 @@ def js_escape(value: str) -> str:
     return value.replace("\\", "\\\\").replace("'", "\\'")
 
 
+def stock_mode(item: dict, variant: dict | None = None) -> str:
+    source = variant if isinstance(variant, dict) else {}
+    minimum = source.get("MinStockThreshold", item.get("MinStockThreshold"))
+    maximum = source.get("MaxStockThreshold", item.get("MaxStockThreshold"))
+    try:
+        minimum = float(minimum)
+        maximum = float(maximum)
+    except (TypeError, ValueError):
+        return "unknown"
+    if minimum == 1 and maximum == 1:
+        return "infinite"
+    return "finite"
+
+
+def market_item_classes(item: dict):
+    parent = item.get("ClassName")
+    if parent:
+        yield parent, item
+    for variant in item.get("Variants", []) or []:
+        if isinstance(variant, dict):
+            class_name = variant.get("ClassName") or variant.get("className")
+            source = variant
+        else:
+            class_name = variant
+            source = {}
+        if class_name:
+            yield class_name, source
+
+
 def title_words(value: str) -> str:
     words = value.replace("-", "_").split("_")
     special = {
@@ -489,13 +518,21 @@ def build_market_index() -> dict[str, list[dict]]:
                 "price": item.get("MaxPriceThreshold", item.get("MinPriceThreshold", 0)),
                 "sellPricePercent": item.get("SellPricePercent", -1),
                 "source": path.name,
+                "stockMode": stock_mode(item),
             }
             add_market_entry(index, class_name, entry)
             for variant in item.get("Variants", []) or []:
-                if variant:
+                if isinstance(variant, dict):
+                    variant_class = variant.get("ClassName") or variant.get("className")
+                    variant_meta = variant
+                else:
+                    variant_class = variant
+                    variant_meta = {}
+                if variant_class:
                     variant_entry = dict(entry)
-                    variant_entry["className"] = variant
-                    add_market_entry(index, variant, variant_entry)
+                    variant_entry["className"] = variant_class
+                    variant_entry["stockMode"] = stock_mode(item, variant_meta)
+                    add_market_entry(index, variant_class, variant_entry)
     return index
 
 
@@ -561,6 +598,8 @@ def format_js_catalogue(slug: str, cfg: dict, rows: list[dict]) -> None:
             fields.append("traderSells:%s" % ("true" if item["traderSells"] else "false"))
         if "traderBuys" in item:
             fields.append("traderBuys:%s" % ("true" if item["traderBuys"] else "false"))
+        if "stockMode" in item:
+            fields.append("stockMode:'%s'" % item["stockMode"])
         lines.append("{" + ",".join(fields) + "}")
 
     output = header + ",\n".join(lines) + "\n]};\n"
@@ -600,6 +639,7 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
             "category": category,
             "mode": mode,
             "price": market["price"],
+            "stockMode": market.get("stockMode", "unknown"),
         }
 
         if force_bidirectional:
@@ -662,6 +702,8 @@ def build_trader(slug: str, cfg: dict, market_index: dict[str, list[dict]]) -> N
             fields += ",traderSells:true"
         if "traderBuys" in item:
             fields += ",traderBuys:true"
+        if "stockMode" in item:
+            fields += ",stockMode:'%s'" % item["stockMode"]
         fields += "}"
         lines.append(fields)
 
@@ -724,20 +766,21 @@ def build_from_trader_config(slug: str, cfg: dict, market_index: dict[str, list[
             parent = market_item.get("ClassName")
             if not parent:
                 continue
-            class_names = [parent] + list(market_item.get("Variants", []) or [])
+            class_names = list(market_item_classes(market_item))
             base_price = float(market_item.get("MaxPriceThreshold", market_item.get("MinPriceThreshold", 0)))
             market_meta = {
                 "sellPricePercent": market_item.get("SellPricePercent", -1),
             }
             sell_percent = effective_sell_percent(market_meta, zone, global_sell_percent)
 
-            for class_name in class_names:
+            for class_name, threshold_source in class_names:
                 row = {
                     "name": trader_friendly_name(class_name, cfg),
                     "className": class_name,
                     "category": label,
                     "traderSells": trader_sells,
                     "traderBuys": trader_buys,
+                    "stockMode": stock_mode(market_item, threshold_source),
                 }
                 if trader_sells:
                     row["buyPrice"] = round(base_price * (buy_percent / 100.0))
@@ -767,6 +810,7 @@ def build_from_trader_config(slug: str, cfg: dict, market_index: dict[str, list[
             "category": category_label(source_stem),
             "traderSells": trader_sells,
             "traderBuys": trader_buys,
+            "stockMode": market.get("stockMode", "unknown"),
         }
         if trader_sells:
             row["buyPrice"] = round(base_price * (buy_percent / 100.0))
