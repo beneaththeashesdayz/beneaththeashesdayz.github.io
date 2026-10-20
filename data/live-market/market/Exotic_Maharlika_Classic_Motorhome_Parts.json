@@ -1,0 +1,83 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Classic Motorhome Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "van_motorhome_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "van_motorhome_doors_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "van_motorhome_doors_driver_tan",
+        "van_motorhome_doors_driver_teal",
+        "van_motorhome_doors_driver_purple",
+        "van_motorhome_doors_driver_black",
+        "van_motorhome_doors_driver_camo"
+      ]
+    },
+    {
+      "ClassName": "van_motorhome_doors_hood_1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "van_motorhome_doors_hood_1_tan",
+        "van_motorhome_doors_hood_1_teal",
+        "van_motorhome_doors_hood_1_purple",
+        "van_motorhome_doors_hood_1_black",
+        "van_motorhome_doors_hood_1_camo"
+      ]
+    },
+    {
+      "ClassName": "van_motorhome_doors_hood_2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "van_motorhome_doors_hood_2_tan",
+        "van_motorhome_doors_hood_2_teal",
+        "van_motorhome_doors_hood_2_purple",
+        "van_motorhome_doors_hood_2_black",
+        "van_motorhome_doors_hood_2_camo"
+      ]
+    },
+    {
+      "ClassName": "van_motorhome_doors_fridge",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Hilux Galaxy Camper Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "van_hiluxcamper_wheel_front",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "van_hiluxcamper_wheel_rear",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "van_hiluxcamper_doors_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "van_hiluxcamper_doors_driver_black",
+        "van_hiluxcamper_doors_driver_cream",
+        "van_hiluxcamper_doors_driver_teal"
+      ]
+    },
+    {
+      "ClassName": "van_hiluxcamper_doors_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "van_hiluxcamper_doors_codriver_black",
+        "van_hiluxcamper_doors_codriver_cream",
+        "van_hiluxcamper_doors_codriver_teal"
+      ]
+    },
+    {
+      "ClassName": "van_hiluxcamper_doors_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "van_hiluxcamper_doors_hood_black",
+        "van_hiluxcamper_doors_hood_cream",
+        "van_hiluxcamper_doors_hood_teal"
+      ]
+    },
+    {
+      "ClassName": "van_hiluxcamper_doors_camper",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "van_hiluxcamper_doors_camper_black",
+        "van_hiluxcamper_doors_camper_cream",
+        "van_hiluxcamper_doors_camper_teal"
+      ]
+    },
+    {
+      "ClassName": "van_hiluxcamper_doors_bathroom",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "van_hiluxcamper_doors_fridge",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

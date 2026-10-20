@@ -196,7 +196,11 @@
         "Van_HiluxCamper_Doors_Fridge",
         "Van_HiluxCamper_Fridge"
       ],
-      "Variants": []
+      "Variants": [
+        "Van_HiluxCamper_Black",
+        "Van_HiluxCamper_Cream",
+        "Van_HiluxCamper_Teal"
+      ]
     },
     {
       "ClassName": "Van_CamperRV",
@@ -422,7 +426,9 @@
         "Van_ModernMotorhome_Cabinet",
         "Van_ModernMotorhome_Washing"
       ],
-      "Variants": []
+      "Variants": [
+        "Van_ModernMotorhome_White"
+      ]
     },
     {
       "ClassName": "Van_Cybertruck",
@@ -445,6 +451,154 @@
         "Van_Cybertruck_Doors_Cargo1",
         "Van_Cybertruck_Doors_Cargo2",
         "Van_Cybertruck_Doors_Trunk"
+      ],
+      "Variants": [
+        "Van_Cybertruck_Black_Blue"
+      ]
+    },
+    {
+      "ClassName": "Van_Cybertruck_Black_Blue",
+      "MaxPriceThreshold": 23000,
+      "MinPriceThreshold": 23000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Van_CybertruckBattery",
+        "HeadlightH7",
+        "HeadlightH7",
+        "Van_Cybertruck_Wheel",
+        "Van_Cybertruck_Wheel",
+        "Van_Cybertruck_Wheel",
+        "Van_Cybertruck_Wheel",
+        "Van_Cybertruck_Doors_Driver_Black_Blue",
+        "Van_Cybertruck_Doors_CoDriver_Black_Blue",
+        "Van_Cybertruck_Doors_Cargo1_Black_Blue",
+        "Van_Cybertruck_Doors_Cargo2_Black_Blue",
+        "Van_Cybertruck_Doors_Trunk_Black_Blue"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Van_HiluxCamper_Black",
+      "MaxPriceThreshold": 14000,
+      "MinPriceThreshold": 14000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Van_HiluxCamper_Cabin_Black",
+        "CarBattery",
+        "CarRadiator",
+        "SparkPlug",
+        "HeadlightH7",
+        "HeadlightH7",
+        "Van_HiluxCamper_Wheel_Front",
+        "Van_HiluxCamper_Wheel_Rear",
+        "Van_HiluxCamper_Wheel_Front",
+        "Van_HiluxCamper_Wheel_Rear",
+        "Van_HiluxCamper_Wheel_Front",
+        "Van_HiluxCamper_Doors_Driver_Black",
+        "Van_HiluxCamper_Doors_CoDriver_Black",
+        "Van_HiluxCamper_Doors_Hood_Black",
+        "Van_HiluxCamper_Doors_Camper_Black",
+        "Van_HiluxCamper_Doors_Bathroom",
+        "Van_HiluxCamper_Doors_Fridge",
+        "Van_HiluxCamper_Fridge"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Van_HiluxCamper_Cream",
+      "MaxPriceThreshold": 14000,
+      "MinPriceThreshold": 14000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Van_HiluxCamper_Cabin_Cream",
+        "CarBattery",
+        "CarRadiator",
+        "SparkPlug",
+        "HeadlightH7",
+        "HeadlightH7",
+        "Van_HiluxCamper_Wheel_Front",
+        "Van_HiluxCamper_Wheel_Rear",
+        "Van_HiluxCamper_Wheel_Front",
+        "Van_HiluxCamper_Wheel_Rear",
+        "Van_HiluxCamper_Wheel_Front",
+        "Van_HiluxCamper_Doors_Driver_Cream",
+        "Van_HiluxCamper_Doors_CoDriver_Cream",
+        "Van_HiluxCamper_Doors_Hood_Cream",
+        "Van_HiluxCamper_Doors_Camper_Cream",
+        "Van_HiluxCamper_Doors_Bathroom",
+        "Van_HiluxCamper_Doors_Fridge",
+        "Van_HiluxCamper_Fridge"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Van_HiluxCamper_Teal",
+      "MaxPriceThreshold": 14000,
+      "MinPriceThreshold": 14000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Van_HiluxCamper_Cabin_Teal",
+        "CarBattery",
+        "CarRadiator",
+        "SparkPlug",
+        "HeadlightH7",
+        "HeadlightH7",
+        "Van_HiluxCamper_Wheel_Front",
+        "Van_HiluxCamper_Wheel_Rear",
+        "Van_HiluxCamper_Wheel_Front",
+        "Van_HiluxCamper_Wheel_Rear",
+        "Van_HiluxCamper_Wheel_Front",
+        "Van_HiluxCamper_Doors_Driver_Teal",
+        "Van_HiluxCamper_Doors_CoDriver_Teal",
+        "Van_HiluxCamper_Doors_Hood_Teal",
+        "Van_HiluxCamper_Doors_Camper_Teal",
+        "Van_HiluxCamper_Doors_Bathroom",
+        "Van_HiluxCamper_Doors_Fridge",
+        "Van_HiluxCamper_Fridge"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Van_ModernMotorhome_White",
+      "MaxPriceThreshold": 22000,
+      "MinPriceThreshold": 22000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "TruckBattery",
+        "HeadlightH7",
+        "HeadlightH7",
+        "SparkPlug",
+        "Van_ModernMotorhome_Wheel",
+        "Van_ModernMotorhome_Wheel",
+        "Van_ModernMotorhome_Wheel",
+        "Van_ModernMotorhome_Wheel",
+        "Van_ModernMotorhome_Wheel",
+        "Van_ModernMotorhome_Wheel",
+        "Van_ModernMotorhome_Doors_Driver_White",
+        "Van_ModernMotorhome_Doors_coDriver",
+        "Van_ModernMotorhome_Doors_Trunk_White",
+        "Van_ModernMotorhome_Doors_Cargo1",
+        "Van_ModernMotorhome_Doors_WardrobeL",
+        "Van_ModernMotorhome_Doors_WardrobeR",
+        "Van_ModernMotorhome_Doors_Washing",
+        "Van_ModernMotorhome_Fridge",
+        "Van_ModernMotorhome_Cabinet",
+        "Van_ModernMotorhome_Washing"
       ],
       "Variants": []
     }

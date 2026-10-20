@@ -42,7 +42,15 @@
     "Car_SUV",
     "Car_Sports",
     "Car_Station_Wagon",
-    "Maharlika_Vehicles"
+    "Maharlika_Vehicles",
+    "Maharlika_Purchase_Parts:3",
+    "Maharlika_Accessories:3",
+    "Exotic_Maharlika_Dodge_Phoenix_Parts:3",
+    "Exotic_Maharlika_Hilux_Camper_Parts:3",
+    "Exotic_Maharlika_Camper_RV_Parts:3",
+    "Exotic_Maharlika_Classic_Motorhome_Parts:3",
+    "Exotic_Maharlika_Modern_Motorhome_Parts:3",
+    "Exotic_Maharlika_Cybertruck_Parts:3"
   ],
   "Items": {
     "truckbattery": 3,
