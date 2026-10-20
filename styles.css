@@ -375,3 +375,10 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
   .cinder-fang-event .hunt-closing-copy{grid-template-columns:1fr;gap:15px}
   .cinder-fang-event .hunt-closing-line{font-size:.9rem;letter-spacing:.13em}
 }
+
+/* Balance staff cards across the team grid */
+.team-page .project-grid{align-items:stretch}
+.team-page .project-card{display:flex;flex-direction:column;align-self:stretch}
+.team-page .project-card h2{font-size:clamp(1.95rem,4.35vw,3.35rem);line-height:.96;margin:12px 0 10px}
+.team-page .project-card p{margin:0;line-height:1.65}
+.team-page .project-card .chips{margin-top:auto;padding-top:24px;align-items:center;justify-content:center;gap:8px}
