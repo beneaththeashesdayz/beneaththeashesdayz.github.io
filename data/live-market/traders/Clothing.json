@@ -40,7 +40,10 @@
     "Gloves:1",
     "Skirts_And_Dresses:1",
     "MMG:2",
-    "LOFTD_Gear:1"
+    "MMG_HalfMega:2",
+    "MMG_Mega:2",
+    "LOFTD_Gear:1",
+    "ATF_Gear:2"
   ],
   "Items": {
     "LeatherSewingKit": 1,
