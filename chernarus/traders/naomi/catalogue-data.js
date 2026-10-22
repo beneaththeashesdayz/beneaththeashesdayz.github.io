@@ -13,7 +13,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Waterbottle',className:'waterbottle',category:'Drinks',mode:'sell',price:10310,buyPrice:10310,sellPrice:5155,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Bakedbeanscan',className:'bakedbeanscan',category:'Food',mode:'sell',price:9965,buyPrice:9965,sellPrice:4982,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Boxcerealcrunchin',className:'boxcerealcrunchin',category:'Food',mode:'sell',price:10140,buyPrice:10140,sellPrice:5070,traderSells:true,traderBuys:true,stockMode:'finite'},
-{name:'Brisketspread',className:'brisketspread',category:'Food',mode:'sell',price:10055,buyPrice:10055,sellPrice:5028,traderSells:true,traderBuys:true,stockMode:'finite'},
+{name:'Brisketspread',className:'brisketspread',category:'Food',mode:'buy',price:10055,buyPrice:10055,sellPrice:5028,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Catfoodcan',className:'catfoodcan',category:'Food',mode:'sell',price:9885,buyPrice:9885,sellPrice:4942,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Chips',className:'chips',category:'Food',mode:'sell',price:9715,buyPrice:9715,sellPrice:4858,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Crabcan',className:'crabcan',category:'Food',mode:'sell',price:10285,buyPrice:10285,sellPrice:5142,traderSells:true,traderBuys:true,stockMode:'finite'},
