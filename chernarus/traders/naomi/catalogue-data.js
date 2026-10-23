@@ -1,6 +1,6 @@
 window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
 {name:'Szeffood Canempty',className:'szeffood_canempty',category:'Canning Supplies',mode:'sell',price:300,buyPrice:300,sellPrice:150,traderSells:true,traderBuys:true,stockMode:'finite'},
-{name:'Szeffood Emty Jar',className:'szeffood_emty_jar',category:'Canning Supplies',mode:'sell',price:250,buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true,stockMode:'finite'},
+{name:'Szeffood Emty Jar',className:'szeffood_emty_jar',category:'Canning Supplies',mode:'buy',price:250,buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Szeffood Ocet',className:'szeffood_ocet',category:'Canning Supplies',mode:'sell',price:2500,buyPrice:2500,sellPrice:1250,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Szeffood Salt',className:'szeffood_salt',category:'Canning Supplies',mode:'sell',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Szeffood Sugar',className:'szeffood_sugar',category:'Canning Supplies',mode:'sell',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true,stockMode:'finite'},
