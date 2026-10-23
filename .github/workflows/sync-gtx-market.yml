@@ -1,0 +1,121 @@
+# Refresh trigger after approved attachment trader config update
+name: Sync GTX Market
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "sync_gtx_market.py"
+      - "sync_gtx_p2p.py"
+      - "sync_gtx_sparky.py"
+      - "build_live_trader_catalogues.py"
+      - "build_linda_catalogue.py"
+      - "build_quinn_catalogue.py"
+      - "build_indar_catalogue.py"
+      - "build_market_variant_groups.py"
+      - "polish_quinn_names.py"
+      - "polish_quinn_acronyms.py"
+      - "polish_attachment_names.py"
+      - ".github/workflows/sync-gtx-market.yml"
+  # Hourly trigger: Railway chernarus-trader-refresh at minute 17.
+  # Keep workflow_dispatch for the scheduler and manual refreshes.
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-gtx-market
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install SFTP dependency
+        run: python -m pip install --disable-pip-version-check paramiko
+
+      - name: Download live GTX market data
+        env:
+          GTX_HOST: ${{ secrets.GTX_HOST }}
+          GTX_PORT: ${{ secrets.GTX_PORT }}
+          GTX_USERNAME: ${{ secrets.GTX_USERNAME }}
+          GTX_PASSWORD: ${{ secrets.GTX_PASSWORD }}
+          GTX_MARKET_PATH: profiles/ExpansionMod/Market
+          GTX_TRADERS_PATH: profiles/ExpansionMod/Traders
+          GTX_TRADERZONES_PATH: mpmissions/dayzOffline.chernarusplus/expansion/traderzones
+          GTX_MARKET_SETTINGS_PATH: mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json
+        run: python sync_gtx_market.py
+
+      - name: Download live GTX P2P listings
+        env:
+          GTX_HOST: ${{ secrets.GTX_HOST }}
+          GTX_PORT: ${{ secrets.GTX_PORT }}
+          GTX_USERNAME: ${{ secrets.GTX_USERNAME }}
+          GTX_PASSWORD: ${{ secrets.GTX_PASSWORD }}
+          GTX_MISSION_PATH: mpmissions/dayzOffline.chernarusplus
+          GTX_P2P_SETTINGS_PATH: mpmissions/dayzOffline.chernarusplus/expansion/settings/P2PMarketSettings.json
+        run: python sync_gtx_p2p.py
+
+      - name: Download live GTX Sparky data
+        env:
+          GTX_HOST: ${{ secrets.GTX_HOST }}
+          GTX_PORT: ${{ secrets.GTX_PORT }}
+          GTX_USERNAME: ${{ secrets.GTX_USERNAME }}
+          GTX_PASSWORD: ${{ secrets.GTX_PASSWORD }}
+          GTX_LBMASTER_PATH: profiles/LBmaster
+        run: python sync_gtx_sparky.py
+
+      - name: Build live trader catalogues
+        run: python build_live_trader_catalogues.py
+
+      - name: Build shared market variant groups
+        run: python build_market_variant_groups.py
+
+      - name: Build Linda medical catalogue
+        run: python build_linda_catalogue.py
+
+      - name: Build Quinn clothing catalogue
+        run: python build_quinn_catalogue.py
+
+      - name: Build Indar weapons catalogue
+        run: python build_indar_catalogue.py
+
+      - name: Polish Quinn clothing display names
+        run: python polish_quinn_names.py
+
+      - name: Polish Quinn acronyms and compact names
+        run: python polish_quinn_acronyms.py
+
+      - name: Polish attachment trader display names
+        run: python polish_attachment_names.py
+
+      - name: Commit market and catalogue changes
+        shell: bash
+        run: |
+          git add data/live-market \
+            chernarus/traders/index.html
+          git add -f chernarus/traders/*/catalogue-data.js
+
+          if git diff --cached --quiet; then
+            echo "No market or catalogue changes detected."
+            exit 0
+          fi
+
+          git config user.name "Beneath the Ashes Market Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync live GTX market and trader catalogues"
+
+          git fetch origin main
+          git rebase -X theirs origin/main
+          git push origin HEAD:main
+

@@ -1,0 +1,117 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Cadillac Escalade Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "esc_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "esc_cargo1_blue",
+        "esc_cargo1_red",
+        "esc_cargo1_white",
+        "esc_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "esc_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "esc_cargo2_blue",
+        "esc_cargo2_red",
+        "esc_cargo2_white",
+        "esc_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "esc_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "esc_codriver_blue",
+        "esc_codriver_red",
+        "esc_codriver_white",
+        "esc_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "esc_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "esc_driver_blue",
+        "esc_driver_red",
+        "esc_driver_white",
+        "esc_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "esc_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "esc_hood_blue",
+        "esc_hood_red",
+        "esc_hood_white",
+        "esc_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "esc_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "esc_trunk_blue",
+        "esc_trunk_red",
+        "esc_trunk_white",
+        "esc_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "escwheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

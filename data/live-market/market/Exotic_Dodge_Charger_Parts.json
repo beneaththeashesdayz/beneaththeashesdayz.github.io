@@ -1,0 +1,46 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Dodge Charger Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "dodgecharger_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodgecharger_codriver_blue",
+        "dodgecharger_codriver_green",
+        "dodgecharger_codriver_lightblue",
+        "dodgecharger_codriver_pink",
+        "dodgecharger_codriver_red",
+        "dodgecharger_codriver_white"
+      ]
+    },
+    {
+      "ClassName": "dodgecharger_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodgecharger_driverdoor_blue",
+        "dodgecharger_driverdoor_green",
+        "dodgecharger_driverdoor_lightblue",
+        "dodgecharger_driverdoor_pink",
+        "dodgecharger_driverdoor_red",
+        "dodgecharger_driverdoor_white"
+      ]
+    }
+  ]
+}

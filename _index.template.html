@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Know Your Traders | Beneath the Ashes</title>
+  <meta name="description" content="Explore Beneath the Ashes traders, locations, specialties, buying lists and stock information.">
+  <meta property="og:title" content="Know Your Traders | Beneath the Ashes">
+  <meta property="og:description" content="Find the right trader before you make the trip.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
+<main class="wrap">
+<section class="hero">
+  <div class="kicker">Survivor Field Guide</div>
+  <h1>Know Your<br>Traders</h1>
+  <p>Find out who buys what, where they operate, what they stock, and whether the trip is worth making before you load the truck.</p>
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Search trader, location, specialty..." aria-label="Search traders">
+    <select id="location" aria-label="Filter by location"><option value="">All locations</option></select>
+  </div>
+</section>
+<section class="grid" id="traderGrid"></section>
+<div class="empty" id="empty">No traders match that search.</div>
+</main>
+<footer><div class="wrap">Beneath the Ashes • Trader information may change as the economy evolves.</div></footer>
+<script>
+const traders = __TRADERS__;
+const grid = document.getElementById('traderGrid');
+const search = document.getElementById('search');
+const locationFilter = document.getElementById('location');
+const empty = document.getElementById('empty');
+
+[...new Set(traders.map(t=>t.location))].sort().forEach(loc=>{
+  const o=document.createElement('option');o.value=loc;o.textContent=loc;locationFilter.appendChild(o);
+});
+
+function render(){
+  const q=search.value.trim().toLowerCase(), loc=locationFilter.value;
+  const filtered=traders.filter(t=>{
+    const hay=[t.name,t.title,t.location,t.region,t.specialty,t.summary,...t.buys,...t.sells].join(' ').toLowerCase();
+    return (!q||hay.includes(q))&&(!loc||t.location===loc);
+  });
+  grid.innerHTML=filtered.map(t=>`
+    <a class="card" href="./${t.slug}/">
+      <img src="../${t.image}" alt="${t.name}, ${t.title}" onerror="this.style.display='none'">
+      <div class="card-body">
+        <div class="kicker">${t.title}</div>
+        <h2>${t.name}</h2>
+        <div class="meta">${t.location} • ${t.region}</div>
+        <div class="chips">${t.specialty.split('•').map(x=>`<span class="chip">${x.trim()}</span>`).join('')}</div>
+        <span class="cta">Open trader profile →</span>
+      </div>
+    </a>`).join('');
+  empty.style.display=filtered.length?'none':'block';
+}
+search.addEventListener('input',render); locationFilter.addEventListener('change',render); render();
+</script>
+</body>
+</html>

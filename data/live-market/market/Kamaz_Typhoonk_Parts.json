@@ -1,0 +1,249 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Kamaz Typhoonk Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "kamaz_typhoonk_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "kamaz_typhoonk_cargo1_black",
+        "kamaz_typhoonk_cargo1_camogreen",
+        "kamaz_typhoonk_cargo1_camogreen2",
+        "kamaz_typhoonk_cargo1_camogreen3",
+        "kamaz_typhoonk_cargo1_redcamo",
+        "kamaz_typhoonk_cargo1_rusty",
+        "kamaz_typhoonk_cargo1_white"
+      ]
+    },
+    {
+      "ClassName": "kamaz_typhoonk_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "kamaz_typhoonk_cargo2_black",
+        "kamaz_typhoonk_cargo2_camogreen",
+        "kamaz_typhoonk_cargo2_camogreen2",
+        "kamaz_typhoonk_cargo2_camogreen3",
+        "kamaz_typhoonk_cargo2_redcamo",
+        "kamaz_typhoonk_cargo2_rusty",
+        "kamaz_typhoonk_cargo2_white"
+      ]
+    },
+    {
+      "ClassName": "kamaz_typhoonk_cargo3",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "kamaz_typhoonk_cargo3_black",
+        "kamaz_typhoonk_cargo3_camogreen",
+        "kamaz_typhoonk_cargo3_camogreen2",
+        "kamaz_typhoonk_cargo3_camogreen3",
+        "kamaz_typhoonk_cargo3_redcamo",
+        "kamaz_typhoonk_cargo3_rusty",
+        "kamaz_typhoonk_cargo3_white"
+      ]
+    },
+    {
+      "ClassName": "kamaz_typhoonk_cargo4",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "kamaz_typhoonk_cargo4_black",
+        "kamaz_typhoonk_cargo4_camogreen",
+        "kamaz_typhoonk_cargo4_camogreen2",
+        "kamaz_typhoonk_cargo4_camogreen3",
+        "kamaz_typhoonk_cargo4_redcamo",
+        "kamaz_typhoonk_cargo4_rusty",
+        "kamaz_typhoonk_cargo4_white"
+      ]
+    },
+    {
+      "ClassName": "kamaz_typhoonk_cargo5",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "kamaz_typhoonk_cargo5_black",
+        "kamaz_typhoonk_cargo5_camogreen",
+        "kamaz_typhoonk_cargo5_camogreen2",
+        "kamaz_typhoonk_cargo5_camogreen3",
+        "kamaz_typhoonk_cargo5_redcamo",
+        "kamaz_typhoonk_cargo5_rusty",
+        "kamaz_typhoonk_cargo5_white"
+      ]
+    },
+    {
+      "ClassName": "kamaz_typhoonk_cargo6",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "kamaz_typhoonk_cargo6_black",
+        "kamaz_typhoonk_cargo6_camogreen",
+        "kamaz_typhoonk_cargo6_camogreen2",
+        "kamaz_typhoonk_cargo6_camogreen3",
+        "kamaz_typhoonk_cargo6_redcamo",
+        "kamaz_typhoonk_cargo6_rusty",
+        "kamaz_typhoonk_cargo6_white"
+      ]
+    },
+    {
+      "ClassName": "kamaz_typhoonk_cargo7",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "kamaz_typhoonk_cargo7_black",
+        "kamaz_typhoonk_cargo7_camogreen",
+        "kamaz_typhoonk_cargo7_camogreen2",
+        "kamaz_typhoonk_cargo7_camogreen3",
+        "kamaz_typhoonk_cargo7_redcamo",
+        "kamaz_typhoonk_cargo7_rusty",
+        "kamaz_typhoonk_cargo7_white"
+      ]
+    },
+    {
+      "ClassName": "kamaz_typhoonk_cargo8",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "kamaz_typhoonk_cargo8_black",
+        "kamaz_typhoonk_cargo8_camogreen",
+        "kamaz_typhoonk_cargo8_camogreen2",
+        "kamaz_typhoonk_cargo8_camogreen3",
+        "kamaz_typhoonk_cargo8_redcamo",
+        "kamaz_typhoonk_cargo8_rusty",
+        "kamaz_typhoonk_cargo8_white"
+      ]
+    },
+    {
+      "ClassName": "kamaz_typhoonk_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "kamaz_typhoonk_codriver_black",
+        "kamaz_typhoonk_codriver_camogreen",
+        "kamaz_typhoonk_codriver_camogreen2",
+        "kamaz_typhoonk_codriver_camogreen3",
+        "kamaz_typhoonk_codriver_redcamo",
+        "kamaz_typhoonk_codriver_rusty",
+        "kamaz_typhoonk_codriver_white"
+      ]
+    },
+    {
+      "ClassName": "kamaz_typhoonk_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "kamaz_typhoonk_driver_black",
+        "kamaz_typhoonk_driver_camogreen",
+        "kamaz_typhoonk_driver_camogreen2",
+        "kamaz_typhoonk_driver_camogreen3",
+        "kamaz_typhoonk_driver_redcamo",
+        "kamaz_typhoonk_driver_rusty",
+        "kamaz_typhoonk_driver_white"
+      ]
+    },
+    {
+      "ClassName": "kamaz_typhoonk_enginedoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "kamaz_typhoonk_enginedoor_black",
+        "kamaz_typhoonk_enginedoor_camogreen",
+        "kamaz_typhoonk_enginedoor_camogreen2",
+        "kamaz_typhoonk_enginedoor_camogreen3",
+        "kamaz_typhoonk_enginedoor_redcamo",
+        "kamaz_typhoonk_enginedoor_rusty",
+        "kamaz_typhoonk_enginedoor_white"
+      ]
+    },
+    {
+      "ClassName": "kamaz_typhoonk_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "kamaz_typhoonk_trunk_black",
+        "kamaz_typhoonk_trunk_camogreen",
+        "kamaz_typhoonk_trunk_camogreen2",
+        "kamaz_typhoonk_trunk_camogreen3",
+        "kamaz_typhoonk_trunk_redcamo",
+        "kamaz_typhoonk_trunk_rusty",
+        "kamaz_typhoonk_trunk_white"
+      ]
+    },
+    {
+      "ClassName": "kamaz_typhoonk_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

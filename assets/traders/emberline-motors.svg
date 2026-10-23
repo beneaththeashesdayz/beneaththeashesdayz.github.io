@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title desc">
+<title id="title">Emberline Motors — LUXURY VEHICLES</title>
+<desc id="desc">A dark ember-toned Emberline Motors luxury vehicle showroom graphic.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#181b1d"/><stop offset=".58" stop-color="#0b0d0e"/><stop offset="1" stop-color="#24120d"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#c9672d" stop-opacity=".42"/><stop offset="1" stop-color="#c9672d" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse"><path d="M54 0H0V54" fill="none" stroke="#fff" stroke-opacity=".035"/></pattern>
+</defs>
+<rect width="900" height="1200" fill="url(#bg)"/>
+<rect width="900" height="1200" fill="url(#grid)"/>
+<circle cx="450" cy="480" r="390" fill="url(#glow)"/>
+<path d="M70 82h760M70 1118h760" stroke="#c9672d" stroke-width="4"/>
+<text x="450" y="150" text-anchor="middle" fill="#c9672d" font-family="Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="10">EMBERLINE</text>
+<text x="450" y="205" text-anchor="middle" fill="#f2eee5" font-family="Georgia,serif" font-size="68" font-weight="700" letter-spacing="4">MOTORS</text>
+<g fill="none" stroke="#f0d4b5" stroke-width="18" stroke-linejoin="round"><path d="M176 535l60-126c18-38 50-64 92-71l122-19 122 19c42 7 74 33 92 71l60 126"/><path d="M191 535h518c31 0 56 25 56 56v75H135v-75c0-31 25-56 56-56z"/><path d="M278 514h344"/><circle cx="259" cy="660" r="58"/><circle cx="641" cy="660" r="58"/><path d="M332 407h236"/></g>
+<text x="450" y="870" text-anchor="middle" fill="#f2eee5" font-family="Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="5">LUXURY VEHICLES</text>
+<text x="450" y="930" text-anchor="middle" fill="#c9b9a9" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">PREMIUM SALES  •  MAINLAND</text>
+<path d="M220 992h460" stroke="#c9672d" stroke-width="3"/>
+<text x="450" y="1050" text-anchor="middle" fill="#8e8b85" font-family="Arial,sans-serif" font-size="18" letter-spacing="6">CHERNARUS</text>
+</svg>

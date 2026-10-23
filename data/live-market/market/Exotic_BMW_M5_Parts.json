@@ -1,0 +1,117 @@
+{
+  "m_Version": 12,
+  "DisplayName": "BMW M5 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "m5_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m5_cargo1_blue",
+        "m5_cargo1_red",
+        "m5_cargo1_white",
+        "m5_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "m5_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m5_cargo2_blue",
+        "m5_cargo2_red",
+        "m5_cargo2_white",
+        "m5_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "m5_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m5_codriver_blue",
+        "m5_codriver_red",
+        "m5_codriver_white",
+        "m5_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "m5_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m5_driver_blue",
+        "m5_driver_red",
+        "m5_driver_white",
+        "m5_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "m5_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m5_hood_blue",
+        "m5_hood_red",
+        "m5_hood_white",
+        "m5_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "m5_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m5_trunk_blue",
+        "m5_trunk_red",
+        "m5_trunk_white",
+        "m5_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "m5wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

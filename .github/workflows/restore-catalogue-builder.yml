@@ -1,0 +1,22 @@
+name: Restore Catalogue Builder
+on:
+  push:
+    paths:
+      - '.github/workflows/restore-catalogue-builder.yml'
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Restore builder from known-good commit
+        run: |
+          git checkout f965793776f4cb7d59616cc841815b5a0e57bdb0 -- build_live_trader_catalogues.py
+          git config user.name "Beneath the Ashes Site Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add build_live_trader_catalogues.py
+          git commit -m "Restore live trader catalogue builder"
+          git push origin HEAD:main

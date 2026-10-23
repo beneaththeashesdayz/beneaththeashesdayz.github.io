@@ -1,0 +1,153 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Ford Crown Victoria Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "fordcrown_victoria_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordcrown_victoria_cargo1_police",
+        "fordcrown_victoria_cargo1_sheriff2",
+        "fordcrown_victoria_cargo1_sheriff2rust",
+        "fordcrown_victoria_cargo1_unmarked_black",
+        "fordcrown_victoria_cargo1_unmarked_blue",
+        "fordcrown_victoria_cargo1_unmarked_darkblue",
+        "fordcrown_victoria_cargo1_unmarked_red",
+        "fordcrown_victoria_cargo1_unmarked_tan",
+        "fordcrown_victoria_cargo1_unmarked_teal",
+        "fordcrown_victoria_cargo1_unmarked_white"
+      ]
+    },
+    {
+      "ClassName": "fordcrown_victoria_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordcrown_victoria_cargo2_police",
+        "fordcrown_victoria_cargo2_sheriff2",
+        "fordcrown_victoria_cargo2_sheriff2rust",
+        "fordcrown_victoria_cargo2_unmarked_black",
+        "fordcrown_victoria_cargo2_unmarked_blue",
+        "fordcrown_victoria_cargo2_unmarked_darkblue",
+        "fordcrown_victoria_cargo2_unmarked_red",
+        "fordcrown_victoria_cargo2_unmarked_tan",
+        "fordcrown_victoria_cargo2_unmarked_teal",
+        "fordcrown_victoria_cargo2_unmarked_white"
+      ]
+    },
+    {
+      "ClassName": "fordcrown_victoria_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordcrown_victoria_codriver_police",
+        "fordcrown_victoria_codriver_sheriff2",
+        "fordcrown_victoria_codriver_sheriff2rust",
+        "fordcrown_victoria_codriver_unmarked_black",
+        "fordcrown_victoria_codriver_unmarked_blue",
+        "fordcrown_victoria_codriver_unmarked_darkblue",
+        "fordcrown_victoria_codriver_unmarked_red",
+        "fordcrown_victoria_codriver_unmarked_tan",
+        "fordcrown_victoria_codriver_unmarked_teal",
+        "fordcrown_victoria_codriver_unmarked_white"
+      ]
+    },
+    {
+      "ClassName": "fordcrown_victoria_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordcrown_victoria_driverdoor_police",
+        "fordcrown_victoria_driverdoor_sheriff2",
+        "fordcrown_victoria_driverdoor_sheriff2rust",
+        "fordcrown_victoria_driverdoor_unmarked_black",
+        "fordcrown_victoria_driverdoor_unmarked_blue",
+        "fordcrown_victoria_driverdoor_unmarked_darkblue",
+        "fordcrown_victoria_driverdoor_unmarked_red",
+        "fordcrown_victoria_driverdoor_unmarked_tan",
+        "fordcrown_victoria_driverdoor_unmarked_teal",
+        "fordcrown_victoria_driverdoor_unmarked_white"
+      ]
+    },
+    {
+      "ClassName": "fordcrown_victoria_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordcrown_victoria_hood_police",
+        "fordcrown_victoria_hood_sheriff2",
+        "fordcrown_victoria_hood_sheriff2rust",
+        "fordcrown_victoria_hood_unmarked_black",
+        "fordcrown_victoria_hood_unmarked_blue",
+        "fordcrown_victoria_hood_unmarked_darkblue",
+        "fordcrown_victoria_hood_unmarked_red",
+        "fordcrown_victoria_hood_unmarked_tan",
+        "fordcrown_victoria_hood_unmarked_teal",
+        "fordcrown_victoria_hood_unmarked_white"
+      ]
+    },
+    {
+      "ClassName": "fordcrown_victoria_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordcrown_victoria_trunk_police",
+        "fordcrown_victoria_trunk_sheriff2",
+        "fordcrown_victoria_trunk_sheriff2rust",
+        "fordcrown_victoria_trunk_unmarked_black",
+        "fordcrown_victoria_trunk_unmarked_blue",
+        "fordcrown_victoria_trunk_unmarked_darkblue",
+        "fordcrown_victoria_trunk_unmarked_red",
+        "fordcrown_victoria_trunk_unmarked_tan",
+        "fordcrown_victoria_trunk_unmarked_teal",
+        "fordcrown_victoria_trunk_unmarked_white"
+      ]
+    },
+    {
+      "ClassName": "fordcrown_victoria_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

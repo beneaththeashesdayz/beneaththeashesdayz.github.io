@@ -1,0 +1,97 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Toyota Supra Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "supra_codriverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "supra_codriverdoor_black",
+        "supra_codriverdoor_blue",
+        "supra_codriverdoor_green",
+        "supra_codriverdoor_lighting",
+        "supra_codriverdoor_red",
+        "supra_codriverdoor_sponge",
+        "supra_codriverdoor_white"
+      ]
+    },
+    {
+      "ClassName": "supra_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "supra_driverdoor_black",
+        "supra_driverdoor_blue",
+        "supra_driverdoor_green",
+        "supra_driverdoor_lighting",
+        "supra_driverdoor_red",
+        "supra_driverdoor_sponge",
+        "supra_driverdoor_white"
+      ]
+    },
+    {
+      "ClassName": "supra_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "supra_hood_black",
+        "supra_hood_blue",
+        "supra_hood_green",
+        "supra_hood_lighting",
+        "supra_hood_red",
+        "supra_hood_sponge",
+        "supra_hood_white"
+      ]
+    },
+    {
+      "ClassName": "supra_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "supra_trunk_black",
+        "supra_trunk_blue",
+        "supra_trunk_green",
+        "supra_trunk_lighting",
+        "supra_trunk_red",
+        "supra_trunk_sponge",
+        "supra_trunk_white"
+      ]
+    },
+    {
+      "ClassName": "supra_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

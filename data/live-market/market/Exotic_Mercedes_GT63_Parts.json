@@ -1,0 +1,117 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Mercedes GT63 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "gt63_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "gt63_cargo1_blue",
+        "gt63_cargo1_red",
+        "gt63_cargo1_white",
+        "gt63_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "gt63_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "gt63_cargo2_blue",
+        "gt63_cargo2_red",
+        "gt63_cargo2_white",
+        "gt63_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "gt63_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "gt63_codriver_blue",
+        "gt63_codriver_red",
+        "gt63_codriver_white",
+        "gt63_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "gt63_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "gt63_driver_blue",
+        "gt63_driver_red",
+        "gt63_driver_white",
+        "gt63_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "gt63_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "gt63_hood_blue",
+        "gt63_hood_red",
+        "gt63_hood_white",
+        "gt63_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "gt63_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "gt63_trunk_blue",
+        "gt63_trunk_red",
+        "gt63_trunk_white",
+        "gt63_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "gt63wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

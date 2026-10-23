@@ -1,0 +1,87 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Nugs",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 10.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "im7s_smallnug_babybatter",
+      "MaxPriceThreshold": 385,
+      "MinPriceThreshold": 385,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_smallnug_barney",
+      "MaxPriceThreshold": 405,
+      "MinPriceThreshold": 405,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_smallnug_bluecookies",
+      "MaxPriceThreshold": 420,
+      "MinPriceThreshold": 420,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_smallnug_champagne",
+      "MaxPriceThreshold": 440,
+      "MinPriceThreshold": 440,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_smallnug_cheetahpiss",
+      "MaxPriceThreshold": 395,
+      "MinPriceThreshold": 395,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_smallnug_gelato",
+      "MaxPriceThreshold": 455,
+      "MinPriceThreshold": 455,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "im7s_smallnug_paragon",
+      "MaxPriceThreshold": 430,
+      "MinPriceThreshold": 430,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

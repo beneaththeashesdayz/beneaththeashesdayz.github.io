@@ -1,0 +1,162 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Hummer H1 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "star_hummer_h1_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_cargo1_blue",
+        "star_hummer_h1_cargo1_carbon",
+        "star_hummer_h1_cargo1_orange",
+        "star_hummer_h1_cargo1_pink",
+        "star_hummer_h1_cargo1_red",
+        "star_hummer_h1_cargo1_white",
+        "star_hummer_h1_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_cargo2_blue",
+        "star_hummer_h1_cargo2_carbon",
+        "star_hummer_h1_cargo2_orange",
+        "star_hummer_h1_cargo2_pink",
+        "star_hummer_h1_cargo2_red",
+        "star_hummer_h1_cargo2_white",
+        "star_hummer_h1_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_cargo3",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_cargo3_blue",
+        "star_hummer_h1_cargo3_carbon",
+        "star_hummer_h1_cargo3_orange",
+        "star_hummer_h1_cargo3_pink",
+        "star_hummer_h1_cargo3_red",
+        "star_hummer_h1_cargo3_white",
+        "star_hummer_h1_cargo3_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_codriver_blue",
+        "star_hummer_h1_codriver_carbon",
+        "star_hummer_h1_codriver_orange",
+        "star_hummer_h1_codriver_pink",
+        "star_hummer_h1_codriver_red",
+        "star_hummer_h1_codriver_white",
+        "star_hummer_h1_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_driver_blue",
+        "star_hummer_h1_driver_carbon",
+        "star_hummer_h1_driver_orange",
+        "star_hummer_h1_driver_pink",
+        "star_hummer_h1_driver_red",
+        "star_hummer_h1_driver_white",
+        "star_hummer_h1_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_hood_blue",
+        "star_hummer_h1_hood_carbon",
+        "star_hummer_h1_hood_orange",
+        "star_hummer_h1_hood_pink",
+        "star_hummer_h1_hood_red",
+        "star_hummer_h1_hood_white",
+        "star_hummer_h1_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_trunk_blue",
+        "star_hummer_h1_trunk_carbon",
+        "star_hummer_h1_trunk_orange",
+        "star_hummer_h1_trunk_pink",
+        "star_hummer_h1_trunk_red",
+        "star_hummer_h1_trunk_white",
+        "star_hummer_h1_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_hummer_h1_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_hummer_h1_wheel_blue",
+        "star_hummer_h1_wheel_carbon",
+        "star_hummer_h1_wheel_orange",
+        "star_hummer_h1_wheel_pink",
+        "star_hummer_h1_wheel_red",
+        "star_hummer_h1_wheel_white",
+        "star_hummer_h1_wheel_yellow"
+      ]
+    }
+  ]
+}

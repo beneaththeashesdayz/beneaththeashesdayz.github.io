@@ -1,0 +1,230 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Underglow",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "mbm_motorcycle_underglow_aqua",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_motorcycle_underglow_blue",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_motorcycle_underglow_green",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_motorcycle_underglow_orange",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_motorcycle_underglow_pink",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_motorcycle_underglow_purple",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_motorcycle_underglow_red",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_motorcycle_underglow_rgb",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_motorcycle_underglow_white",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_motorcycle_underglow_yellow",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_underglow_aqua",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_underglow_blue",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_underglow_green",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_underglow_orange",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_underglow_pink",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_underglow_purple",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_underglow_red",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_underglow_rgb",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_underglow_white",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mbm_underglow_yellow",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

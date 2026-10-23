@@ -1,0 +1,687 @@
+{
+  "m_Version": 12,
+  "DisplayName": "MYDF Handguards",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "IsExchange": 0,
+  "InitStockPercent": 100.0,
+  "Items": [
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_AK100polymer",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_AK12_mlok",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_AK12_mlok_extend"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_AK_AYA_lance_S12K",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_AK_AYA_lance_nobarrel",
+        "My_DF_Weapons_Attachments_handguard_AK_CAA_RS47_S12K",
+        "My_DF_Weapons_Attachments_handguard_AK_competition_S12K",
+        "My_DF_Weapons_Attachments_handguard_AK_romania",
+        "My_DF_Weapons_Attachments_handguard_AK_slr_S12K",
+        "My_DF_Weapons_Attachments_handguard_AK_slr_PP19",
+        "My_DF_Weapons_Attachments_handguard_AK_slr_extend"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_AKS74U_handguard",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_AKS74U_handguard_up"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_AR_competition",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_AR_KAC_RIS",
+        "My_DF_Weapons_Attachments_handguard_AR_KAC_URX",
+        "My_DF_Weapons_Attachments_handguard_AR_lvoa",
+        "My_DF_Weapons_Attachments_handguard_AR_mk18",
+        "My_DF_Weapons_Attachments_handguard_AR_std"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_AUG_competition",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_AUG_quadrail",
+        "My_DF_Weapons_Attachments_handguard_AUG_Suppressed"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_AWMExtendedhandguard",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_Bison_competition",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_Citori725_Short",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_Citori725_Tac"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_G3_mlok",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_G3_mlok_extend",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_G3_Rail",
+        "My_DF_Weapons_Attachments_handguard_G3_shortRail"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_K416_A8",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_K416_A8_extend",
+        "My_DF_Weapons_Attachments_handguard_K416_long",
+        "My_DF_Weapons_Attachments_handguard_K416_Short"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_K437_Short",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_K437_Silencer",
+        "My_DF_Weapons_Attachments_handguard_K437_long"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_KC17_long",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_KC17_Short",
+        "My_DF_Weapons_Attachments_handguard_KC17_Silencer"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_M1014_TriRaid",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_M14_comp",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_M14_ebr",
+        "My_DF_Weapons_Attachments_handguard_M14_rail"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_M249_Bipod",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_M249_TriRaid",
+        "My_DF_Weapons_Attachments_handguard_M249_TriRaidShort",
+        "My_DF_Weapons_Attachments_handguard_M249ChainSaw_Long"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_M700_A3",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_M700_A6",
+        "My_DF_Weapons_Attachments_handguard_M700_handguard",
+        "My_DF_Weapons_Attachments_handguard_M700_nylon"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_M7_dmr",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_M7_long",
+        "My_DF_Weapons_Attachments_handguard_M7_short"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_M870_Rail",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_Marlin_long",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_Marlin_Short"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_Mini14_ebr",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_Mini14_ergo",
+        "My_DF_Weapons_Attachments_handguard_Mini14_Std"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_MK47_long",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_MK47_Short"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_MP5_PTR",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_MP5_PTR_Short"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_MP5K",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_MP7_long",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_MP7_Advanced",
+        "My_DF_Weapons_Attachments_handguard_MP7SpecialForwardGrip"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_P90_FourTri",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_P90_Advanced"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_QBZ191_long",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_QBZ95_mlok",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_QCQ171_ForeGrip",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_QCQ171_Tactical",
+        "My_DF_Weapons_Attachments_handguard_QCQ171_Tactical2"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_QJB201_Short",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_QJB201_Tac"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_R93handguard",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_SCARH_long",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_SCARH_short"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_SG553_long",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_SG553_Advanced"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_SKS_adv",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_SKS_comp"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_SMG45_Tactical",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_SR25_cqb",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_SR25_Carbon"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_SR3M_Silencer",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_SVD_rail",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_SVD_std"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_Uzi_foregrip",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_Uzi_military"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_Vector_4PicHan",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_Vector_ExtraExtented",
+        "My_DF_Weapons_Attachments_handguard_Vector_Striker"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_PKMZenitKit",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_MP5SD",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_AUG_Optic",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_MP5_striker",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_MK4_Short",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_MK4_long"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_Ash12_Advanced",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_Ash12_Dual"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_MCXLT_Long",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_MCXLT_Silencer"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_FPSS_Advanced",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_AR57Silencer",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_AR57long"
+      ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_M82_Short",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_SVCH_Short",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_RM277_Long",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "My_DF_Weapons_Attachments_handguard_RM277_Long2"
+      ]
+    }
+  ]
+}

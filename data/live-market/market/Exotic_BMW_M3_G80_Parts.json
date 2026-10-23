@@ -1,0 +1,129 @@
+{
+  "m_Version": 12,
+  "DisplayName": "BMW M3 G80 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "m3_g80_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m3_g80_cargo1_blue",
+        "m3_g80_cargo1_police",
+        "m3_g80_cargo1_police2",
+        "m3_g80_cargo1_red",
+        "m3_g80_cargo1_white",
+        "m3_g80_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "m3_g80_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m3_g80_cargo2_blue",
+        "m3_g80_cargo2_police",
+        "m3_g80_cargo2_police2",
+        "m3_g80_cargo2_red",
+        "m3_g80_cargo2_white",
+        "m3_g80_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "m3_g80_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m3_g80_codriver_blue",
+        "m3_g80_codriver_police",
+        "m3_g80_codriver_police2",
+        "m3_g80_codriver_red",
+        "m3_g80_codriver_white",
+        "m3_g80_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "m3_g80_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m3_g80_driver_blue",
+        "m3_g80_driver_police",
+        "m3_g80_driver_police2",
+        "m3_g80_driver_red",
+        "m3_g80_driver_white",
+        "m3_g80_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "m3_g80_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m3_g80_hood_blue",
+        "m3_g80_hood_police",
+        "m3_g80_hood_police2",
+        "m3_g80_hood_red",
+        "m3_g80_hood_white",
+        "m3_g80_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "m3_g80_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "m3_g80_trunk_blue",
+        "m3_g80_trunk_police",
+        "m3_g80_trunk_police2",
+        "m3_g80_trunk_red",
+        "m3_g80_trunk_white",
+        "m3_g80_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "m3_g80wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

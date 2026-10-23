@@ -1,0 +1,119 @@
+[
+  {
+    "slug": "gabi",
+    "name": "Gabi",
+    "title": "Collectables Trader",
+    "location": "The Curator's Refuge",
+    "region": "Mainland Chernarus",
+    "currency": "USD",
+    "specialty": "Collectables • Pokémon • Storage",
+    "summary": "A mainland collectables trader who buys rare finds and sealed Pokémon collection boxes, while supplying storage solutions for collectors.",
+    "buys": [
+      "Drippy sneakers",
+      "Fallout bobbleheads",
+      "Fallout Nuka Cola collectables",
+      "Paragon collectables",
+      "Vyse collectables",
+      "Sealed Pokémon collection boxes"
+    ],
+    "sells": [
+      "Collectable storage solutions",
+      "Card albums and collection storage supplies",
+      "Bobblehead display stands"
+    ],
+    "notes": [
+      "Gabi pays less than Cinder Market, but offers a convenient mainland option.",
+      "Cinder Market is the better choice when chasing maximum profit.",
+      "She does not buy individual trading cards."
+    ],
+    "image": "assets/traders/gabi.jpg"
+  },
+  {
+    "slug": "hassan",
+    "name": "Hassan",
+    "title": "Drug Production Trader",
+    "location": "Cinder Market",
+    "region": "Eastern Sea",
+    "currency": "USD",
+    "specialty": "Finished Goods • Production Kits",
+    "summary": "Cinder Market trader for finished drug products and drug production equipment.",
+    "buys": [
+      "Finished drug bricks of all types",
+      "Select drug bundles"
+    ],
+    "sells": [
+      "Zip-lock baggies for bricking production",
+      "Drug production kits and stations"
+    ],
+    "notes": [
+      "Finished bricks are your best bet when selling.",
+      "Travel to Cinder Market requires appropriate transportation."
+    ],
+    "image": "assets/traders/hassan.jpg"
+  },
+  {
+    "slug": "kaito",
+    "name": "Kaito",
+    "title": "Premium Collectables Trader",
+    "location": "Cinder Market",
+    "region": "Eastern Sea",
+    "currency": "USD",
+    "specialty": "Rare • Epic • Premium Collectables",
+    "summary": "Cinder Market's premium collectables buyer, offering stronger payouts for valuable finds.",
+    "buys": [
+      "Rare and high-tier collectables",
+      "Fallout collectables",
+      "Vyse and other premium collectables"
+    ],
+    "sells": [
+      "Select collectable-related items",
+      "Bobblehead display stands"
+    ],
+    "notes": [
+      "Cinder Market is generally the best payout for premium collectables.",
+      "Some collection systems have special turn-in rules."
+    ],
+    "image": "assets/traders/kaito.jpg"
+  },
+  {
+    "slug": "peter",
+    "name": "Peter",
+    "title": "Hunting Trader",
+    "location": "Cinder & Fang",
+    "region": "Chernarus",
+    "currency": "USD",
+    "specialty": "Hunting • Pelts • Game",
+    "summary": "Hunting-focused trader for survivors making their living from the wild.",
+    "buys": [
+      "Hunting-related goods",
+      "Animal products and select game"
+    ],
+    "sells": [
+      "Hunting supplies and equipment"
+    ],
+    "notes": [
+      "Exact stock and accepted items may change with economy balancing."
+    ],
+    "image": "assets/traders/peter.jpg"
+  },
+  {
+    "slug": "keiko",
+    "name": "Keiko",
+    "title": "Fishing Trader",
+    "location": "The Grey Current",
+    "region": "Chernarus",
+    "currency": "USD",
+    "specialty": "Fishing • Seafood • Supplies",
+    "summary": "Fishing specialist and one of the strongest routes for survival-focused income.",
+    "buys": [
+      "Fish and select fishing catches"
+    ],
+    "sells": [
+      "Fishing supplies and related equipment"
+    ],
+    "notes": [
+      "Fishing is designed as a major money-making path in the server economy."
+    ],
+    "image": "assets/traders/keiko.jpg"
+  }
+]

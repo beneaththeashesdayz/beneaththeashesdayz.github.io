@@ -1,0 +1,70 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Nissan GTR Custom Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "nissangtrcustom_codriverdoor_black",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "nissangtrcustom_codriverdoor_blood",
+        "nissangtrcustom_codriverdoor_lb",
+        "nissangtrcustom_codriverdoor_pink"
+      ]
+    },
+    {
+      "ClassName": "nissangtrcustom_driverdoor_black",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "nissangtrcustom_driverdoor_blood",
+        "nissangtrcustom_driverdoor_lb",
+        "nissangtrcustom_driverdoor_pink"
+      ]
+    },
+    {
+      "ClassName": "nissangtrcustom_hood_black",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "nissangtrcustom_hood_blood",
+        "nissangtrcustom_hood_lb",
+        "nissangtrcustom_hood_pink"
+      ]
+    },
+    {
+      "ClassName": "nissangtrcustom_trunk_black",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "nissangtrcustom_trunk_blood",
+        "nissangtrcustom_trunk_lb",
+        "nissangtrcustom_trunk_pink"
+      ]
+    }
+  ]
+}

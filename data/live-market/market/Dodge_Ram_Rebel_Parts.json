@@ -1,0 +1,174 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Dodge Ram Rebel Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "mbm_ramrebel_doors_cargo1_beige",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mbm_ramrebel_doors_cargo1_black",
+        "mbm_ramrebel_doors_cargo1_grey",
+        "mbm_ramrebel_doors_cargo1_lime",
+        "mbm_ramrebel_doors_cargo1_orange",
+        "mbm_ramrebel_doors_cargo1_red",
+        "mbm_ramrebel_doors_cargo1_teal",
+        "mbm_ramrebel_doors_cargo1_white",
+        "mbm_ramrebel_doors_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "mbm_ramrebel_doors_cargo2_beige",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mbm_ramrebel_doors_cargo2_black",
+        "mbm_ramrebel_doors_cargo2_grey",
+        "mbm_ramrebel_doors_cargo2_lime",
+        "mbm_ramrebel_doors_cargo2_orange",
+        "mbm_ramrebel_doors_cargo2_red",
+        "mbm_ramrebel_doors_cargo2_teal",
+        "mbm_ramrebel_doors_cargo2_white",
+        "mbm_ramrebel_doors_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "mbm_ramrebel_doors_codriver_beige",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mbm_ramrebel_doors_codriver_black",
+        "mbm_ramrebel_doors_codriver_grey",
+        "mbm_ramrebel_doors_codriver_lime",
+        "mbm_ramrebel_doors_codriver_orange",
+        "mbm_ramrebel_doors_codriver_red",
+        "mbm_ramrebel_doors_codriver_teal",
+        "mbm_ramrebel_doors_codriver_white",
+        "mbm_ramrebel_doors_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "mbm_ramrebel_doors_driver_beige",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mbm_ramrebel_doors_driver_black",
+        "mbm_ramrebel_doors_driver_grey",
+        "mbm_ramrebel_doors_driver_lime",
+        "mbm_ramrebel_doors_driver_orange",
+        "mbm_ramrebel_doors_driver_red",
+        "mbm_ramrebel_doors_driver_teal",
+        "mbm_ramrebel_doors_driver_white",
+        "mbm_ramrebel_doors_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "mbm_ramrebel_doors_hood_beige",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mbm_ramrebel_doors_hood_black",
+        "mbm_ramrebel_doors_hood_grey",
+        "mbm_ramrebel_doors_hood_lime",
+        "mbm_ramrebel_doors_hood_orange",
+        "mbm_ramrebel_doors_hood_red",
+        "mbm_ramrebel_doors_hood_teal",
+        "mbm_ramrebel_doors_hood_white",
+        "mbm_ramrebel_doors_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "mbm_ramrebel_doors_trunk_beige",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mbm_ramrebel_doors_trunk_black",
+        "mbm_ramrebel_doors_trunk_grey",
+        "mbm_ramrebel_doors_trunk_lime",
+        "mbm_ramrebel_doors_trunk_orange",
+        "mbm_ramrebel_doors_trunk_red",
+        "mbm_ramrebel_doors_trunk_teal",
+        "mbm_ramrebel_doors_trunk_white",
+        "mbm_ramrebel_doors_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "mbm_ramrebel_mudder_left_orange",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mbm_ramrebel_mudder_left_red",
+        "mbm_ramrebel_mudder_left_yellow"
+      ]
+    },
+    {
+      "ClassName": "mbm_ramrebel_mudder_right_orange",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mbm_ramrebel_mudder_right_red",
+        "mbm_ramrebel_mudder_right_yellow"
+      ]
+    },
+    {
+      "ClassName": "mbm_ramrebel_wheel_black",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mbm_ramrebel_wheel_blacklime",
+        "mbm_ramrebel_wheel_blackorange",
+        "mbm_ramrebel_wheel_blackred",
+        "mbm_ramrebel_wheel_blackyellow"
+      ]
+    }
+  ]
+}

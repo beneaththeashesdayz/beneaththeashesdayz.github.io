@@ -1,0 +1,608 @@
+document.addEventListener('DOMContentLoaded', function () {
+  var cfg = window.traderCatalogue;
+  if (!cfg) return;
+
+  var root = document.getElementById('traderCatalogue');
+  if (!root) return;
+
+  var search = root.querySelector('[data-catalogue-search]');
+  var list = root.querySelector('[data-catalogue-list]');
+  var empty = root.querySelector('[data-catalogue-empty]');
+  var count = root.querySelector('[data-catalogue-count]');
+  var filters = Array.prototype.slice.call(root.querySelectorAll('[data-catalogue-filter]'));
+  var active = 'all';
+  var inventoryStock = null;
+  var inventorySyncedAt = null;
+  var inventoryStatus = null;
+  var inventoryZoneBySlug = {
+    'attachment-trader':'Main_Attachments_Trader.json',
+    'black-market-zombie-note':'Blackmarket_ZN.json',
+    'emberline-motors':'ExoticVehicleTrader.json',
+    'emberline-parts':'ExoticVehicleTrader.json',
+    'gabi':'Collectables.json',
+    'hassan':'Blackmarket.json',
+    'indar':'Main_Weapons_Trader.json',
+    'kaito':'Blackmarket.json',
+    'keiko':'Fishing_Trader.json',
+    'linda':'Main_Medicals_Trader.json',
+    'manua':'Main_BuildingSupplies_Trader.json',
+    'mining-trader':'Mining_Trader.json',
+    'naomi':'Main_Consumables_Trader.json',
+    'niki':'Main_VehicleParts_Trader.json',
+    'peter':'Hunting.json',
+    'quinn':'Main_Clothing_Trader.json',
+    'rolf':'Main_ZombieNote_Trader.json'
+  };
+
+  // Keep the catalogue focused on the inventory itself. Transaction direction
+  // and the appropriate buy/sell price are shown on each individual item.
+  filters.forEach(function (button) { button.style.display = 'none'; });
+  var note = root.querySelector('.catalogue-note');
+  if (note) note.style.display = 'none';
+  var existingSummary = root.querySelector('.catalogue-transaction-summary');
+  if (existingSummary) existingSummary.remove();
+
+
+  function currentTraderSlug() {
+    var parts = window.location.pathname.split('/').filter(Boolean);
+    var traderIndex = parts.indexOf('traders');
+    return traderIndex >= 0 ? parts[traderIndex + 1] || '' : '';
+  }
+
+  function inventorySource() {
+    var zone = inventoryZoneBySlug[currentTraderSlug()];
+    if (!zone) return null;
+    return {
+      zone: '../../../data/live-market/traderzones/' + encodeURIComponent(zone),
+      manifest: '../../../data/live-market/manifest.json'
+    };
+  }
+
+  function ensureInventoryStatus() {
+    if (inventoryStatus) return;
+    var summary = root.querySelector('.catalogue-summary');
+    if (!summary) return;
+    inventoryStatus = document.createElement('span');
+    inventoryStatus.className = 'catalogue-inventory-status';
+    summary.appendChild(inventoryStatus);
+  }
+
+  function setInventoryStatus(message) {
+    ensureInventoryStatus();
+    if (inventoryStatus) inventoryStatus.textContent = message;
+  }
+
+  function formatSyncTime(value) {
+    if (!value) return '';
+    var parsed = new Date(value);
+    if (isNaN(parsed.getTime())) return '';
+    return parsed.toLocaleString([], {dateStyle:'medium', timeStyle:'short'});
+  }
+
+  function stockState(item) {
+    if (!inventoryStock || !item) return {kind:'unknown'};
+    if (item.stockMode === 'infinite') return {kind:'infinite'};
+    if (!item.className) return {kind:'unknown'};
+
+    var key = String(item.className).toLowerCase();
+    if (!Object.prototype.hasOwnProperty.call(inventoryStock, key)) return {kind:'unknown'};
+
+    var value = Number(inventoryStock[key]);
+    if (!isFinite(value)) return {kind:'unknown'};
+    value = Math.max(0, Math.round(value));
+    return value === 0 ? {kind:'empty',value:value} : {kind:'available',value:value};
+  }
+
+  function groupedStockState(item) {
+    if (!item.variants || !item.variants.length) return stockState(item);
+
+    var states = item.variants.map(stockState);
+    var total = states.length;
+    var unknown = states.some(function (state) { return state.kind === 'unknown'; });
+    var available = states.filter(function (state) {
+      return state.kind === 'infinite' || state.kind === 'available';
+    }).length;
+
+    if (unknown && available === 0) return {kind:'unknown'};
+    if (unknown) return {kind:'mixed-unknown',available:available,total:total};
+    if (available === 0) return {kind:'empty'};
+    if (states.every(function (state) { return state.kind === 'infinite'; })) return {kind:'infinite'};
+    return {kind:'mixed',available:available,total:total};
+  }
+
+  function stockMarkup(item) {
+    var state = permissions(item);
+    if (!state.sells || !inventoryStock) return '';
+
+    var stock = item.variants ? groupedStockState(item) : stockState(item);
+    var label;
+    var badgeClass;
+
+    if (stock.kind === 'infinite') {
+      label = '∞ in stock';
+      badgeClass = ' unlimited';
+    } else if (stock.kind === 'empty') {
+      label = 'Out of stock';
+      badgeClass = ' empty';
+    } else if (stock.kind === 'available') {
+      label = stock.value + ' in stock';
+      badgeClass = ' available';
+    } else if (stock.kind === 'mixed') {
+      label = stock.available + '/' + stock.total + ' variants available';
+      badgeClass = ' available';
+    } else if (stock.kind === 'mixed-unknown') {
+      label = stock.available + '/' + stock.total + ' variants verified available';
+      badgeClass = ' unknown';
+    } else {
+      label = 'Stock unavailable';
+      badgeClass = ' unknown';
+    }
+
+    return '<span class="catalogue-stock' + badgeClass + '" style="display:inline-flex!important;align-items:center">' + escapeHtml(label) + '</span>';
+  }
+
+  function loadInventory() {
+    var source = inventorySource();
+    if (!source) {
+      setInventoryStatus('Live stock is not tracked for this catalogue.');
+      return;
+    }
+
+    setInventoryStatus('Checking live stock…');
+    fetch(source.zone + '?v=1', {cache:'no-store'})
+      .then(function (response) {
+        if (!response.ok) throw new Error('Inventory feed unavailable');
+        return response.json();
+      })
+      .then(function (zone) {
+        inventoryStock = zone && zone.Stock ? zone.Stock : {};
+        setInventoryStatus('Live stock loaded');
+        render();
+        return fetch(source.manifest + '?v=1', {cache:'no-store'});
+      })
+      .then(function (response) {
+        if (!response || !response.ok) return null;
+        return response.json();
+      })
+      .then(function (manifest) {
+        inventorySyncedAt = manifest && manifest.syncedAt;
+        var formatted = formatSyncTime(inventorySyncedAt);
+        setInventoryStatus(formatted ? 'Stock synced ' + formatted : 'Live stock loaded');
+      })
+      .catch(function () {
+        inventoryStock = {};
+        setInventoryStatus('Live stock temporarily unavailable.');
+        render();
+      });
+  }
+
+  function money(value) {
+    if (cfg.currencyLabel) {
+      return new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 }).format(value) + ' ' + cfg.currencyLabel;
+    }
+    return new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: cfg.currency || 'USD',
+      maximumFractionDigits: 0
+    }).format(value);
+  }
+
+  function escapeHtml(value) {
+    return String(value).replace(/[&<>'\"]/g, function (character) {
+      return {'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[character];
+    });
+  }
+
+  function compareText(a, b) {
+    return String(a).localeCompare(String(b), 'en', {sensitivity:'base', numeric:true});
+  }
+
+  function usesInheritedBuyback(item) {
+    if (!cfg.inheritedCategoryBuyback || item.mode !== 'sell') return false;
+    var excluded = cfg.buybackExcludedCategories || [];
+    return excluded.indexOf(item.category) === -1;
+  }
+
+  function permissions(item) {
+    if (typeof item.traderSells === 'boolean' || typeof item.traderBuys === 'boolean') {
+      return {sells:Boolean(item.traderSells), buys:Boolean(item.traderBuys)};
+    }
+    if (usesInheritedBuyback(item)) return {sells:true, buys:true};
+    return {sells:item.mode === 'sell', buys:item.mode === 'buy'};
+  }
+
+  function purchasePrice(item) {
+    return item.buyPrice != null ? item.buyPrice : (item.mode === 'sell' ? item.price : null);
+  }
+
+  function resalePrice(item) {
+    if (item.sellPrice != null) return item.sellPrice;
+    if (item.mode === 'buy') return item.price;
+    if (usesInheritedBuyback(item)) {
+      var percent = cfg.inheritedSellPercent != null ? cfg.inheritedSellPercent : 75;
+      return Math.round((purchasePrice(item) || 0) * (percent / 100));
+    }
+    return null;
+  }
+
+  function transactionValue(item, type) {
+    return type === 'purchase' ? purchasePrice(item) : resalePrice(item);
+  }
+
+  function transactionPrice(item, type) {
+    var variants = item.variants || [item];
+    var values = variants.map(function (variant) { return transactionValue(variant, type); })
+      .filter(function (value) { return value != null; })
+      .sort(function (a, b) { return a - b; });
+    if (!values.length) return '';
+    if (values[0] === values[values.length - 1]) return money(values[0]);
+    return money(values[0]) + ' – ' + money(values[values.length - 1]);
+  }
+
+  function titleWords(value) {
+    return String(value || 'Default')
+      .replace(/[_-]+/g, ' ')
+      .replace(/\b\w/g, function (letter) { return letter.toUpperCase(); });
+  }
+
+  function collectableFamily(item) {
+    var className = String(item.className || '').toLowerCase();
+    var styles = [
+      ['drip_adidascasual_', 'Adidas Casual'],
+      ['drip_adidasyeezy350_', 'Adidas Yeezy 350'],
+      ['drip_adidasyeezy750_', 'Adidas Yeezy 750'],
+      ['drip_adidasyeezyslides_', 'Adidas Yeezy Slides'],
+      ['drip_crocsocks_relaxed_', 'Crocs with Socks — Relaxed'],
+      ['drip_crocsocks_sport_', 'Crocs with Socks — Sport'],
+      ['drip_crocs_relaxed_', 'Crocs — Relaxed'],
+      ['drip_crocs_sport_', 'Crocs — Sport'],
+      ['drip_drippypoo_', 'Drippy Poo'],
+      ['drip_hobbitfeet_', 'Hobbit Feet'],
+      ['drip_mschfboots_', 'MSCHF Boots'],
+      ['drip_nikeairforce_1_', 'Nike Air Force 1'],
+      ['drip_nikeairjordan_1_', 'Nike Air Jordan 1'],
+      ['drip_nikeairjordan_4_', 'Nike Air Jordan 4'],
+      ['drip_nikeairyeezy_', 'Nike Air Yeezy'],
+      ['drip_nikeairzoom_', 'Nike Air Zoom'],
+      ['drip_nikemag_', 'Nike MAG'],
+      ['drip_pampaboots_', 'Pampa Boots'],
+      ['drip_piggyslippers_', 'Piggy Slippers'],
+      ['drip_ragezrlegend_', 'Rage ZR Legend'],
+      ['drip_sandals_', 'Sandals'],
+      ['drip_socksandals_', 'Socks & Sandals'],
+      ['drip_socks_', 'Socks'],
+      ['drip_timberlandboots_', 'Timberland Boots'],
+      ['drip_vansslipon_', 'Vans Slip-On']
+    ];
+    var style = styles.find(function (entry) { return className.indexOf(entry[0]) === 0; });
+    if (style) {
+      return {key:style[0], name:style[1], variantName:titleWords(className.slice(style[0].length)), variantLabel:'styles'};
+    }
+
+    var match;
+    match = className.match(/^im7s_brick_crystal_(.+)$/);
+    if (match) return {key:'drug_bricks_crystal', name:'Crystal Bricks', variantName:String(item.name).replace(/^Crystal /, '').replace(/ Brick$/, ''), variantLabel:'types'};
+    match = className.match(/^im7s_brick_thizz_(.+)$/);
+    if (match) return {key:'drug_bricks_thizz', name:'Thizz Bricks', variantName:String(item.name).replace(/^Thizz /, '').replace(/ Brick$/, ''), variantLabel:'colors'};
+    match = className.match(/^im7s_bundle_crystal_(.+)$/);
+    if (match) return {key:'drug_bundles_crystal', name:'Crystal Bundles', variantName:String(item.name).replace(/^Crystal /, '').replace(/ Bundle$/, ''), variantLabel:'types'};
+    match = className.match(/^im7s_bundle_thizz_(.+)$/);
+    if (match) return {key:'drug_bundles_thizz', name:'Thizz Bundles', variantName:String(item.name).replace(/^Thizz /, '').replace(/ Bundle$/, ''), variantLabel:'colors'};
+    match = className.match(/^im7s_lsd_(.+)$/);
+    if (match) return {key:'drug_lsd', name:'LSD', variantName:String(item.name).replace(/^LSD\s*[–—-]\s*/, ''), variantLabel:'designs'};
+    match = className.match(/^im7s_smallnug_(.+)$/);
+    if (match) return {key:'drug_nugs', name:'Cannabis Nuggets', variantName:String(item.name).replace(/ Nug$/, ''), variantLabel:'strains'};
+    match = className.match(/^im7s_psilocybin_(.+)$/);
+    if (match) return {key:'drug_shrooms', name:'Psilocybin Mushrooms', variantName:String(item.name).replace(/ Mushrooms$/, ''), variantLabel:'strains'};
+
+    var paragonNames = {
+      axe:'Axes', canister:'Canisters', crystal:'Crystals', cube:'Cubes',
+      diamond:'Diamonds', gameboy:'Game Boys', glowrock:'Glow Rocks',
+      kaws:'KAWS Figures', skull:'Skulls', sword:'Swords',
+      triangle:'Triangles', trophy:'Trophies'
+    };
+    match = className.match(/^paragon_(axe|canister|crystal|cube|diamond|gameboy|glowrock|kaws|skull|sword|triangle|trophy)_(.+)$/);
+    if (match) {
+      return {key:'paragon_' + match[1], name:paragonNames[match[1]], variantName:titleWords(match[2]), variantLabel:'variants'};
+    }
+    if (className === 'paragon_goldbar' || className === 'paragon_goldbar_stack') {
+      return {key:'paragon_gold_bars', name:'Gold Bars', variantName:className.endsWith('_stack') ? 'Stack' : 'Single Bar', variantLabel:'sizes'};
+    }
+    if (className === 'paragon_silverbar' || className === 'paragon_silver_stack') {
+      return {key:'paragon_silver_bars', name:'Silver Bars', variantName:className.endsWith('_stack') ? 'Stack' : 'Single Bar', variantLabel:'sizes'};
+    }
+
+    match = className.match(/^pokemoncard_sealedbox(\d+)$/);
+    if (match) return {key:'pokemon_sealed_boxes', name:'Sealed Pokémon Collection Boxes', variantName:'Box ' + Number(match[1]), variantLabel:'boxes'};
+
+    match = className.match(/^vyse_labubu_(.+)$/);
+    if (match) return {key:'vyse_labubu', name:'Labubu Figures', variantName:titleWords(match[1]), variantLabel:'figures'};
+    if (className === 'vyse_monster_labubu') return {key:'vyse_labubu', name:'Labubu Figures', variantName:'Monster', variantLabel:'figures'};
+    match = className.match(/^vyse_lego_(.+)$/);
+    if (match) return {key:'vyse_lego', name:'LEGO Figures', variantName:titleWords(match[1]), variantLabel:'figures'};
+    match = className.match(/^vyse_pokemon_(.+)$/);
+    if (match) return {key:'vyse_pokemon_balls', name:'Pokémon Balls', variantName:titleWords(match[1]), variantLabel:'designs'};
+    match = className.match(/^vyse_ps4_(.+)$/);
+    if (match) {
+      var ps4Names = {
+        godofwar:'God of War', grandtheftautov:'Grand Theft Auto V',
+        horizonzerodawn:'Horizon Zero Dawn', madmax:'Mad Max', rdr2:'Red Dead Redemption 2',
+        shadowofthecolossus:'Shadow of the Colossus', spiderman:'Spider-Man',
+        thelastofus:'The Last of Us', uncharted4:'Uncharted 4', untildawn:'Until Dawn'
+      };
+      return {key:'vyse_ps4_games', name:'PlayStation 4 Games', variantName:ps4Names[match[1]] || titleWords(match[1]), variantLabel:'games'};
+    }
+    match = className.match(/^vyse_yugioh_card_(\d+)$/);
+    if (match) return {key:'vyse_yugioh_cards', name:'Yu-Gi-Oh! Cards', variantName:'Card ' + Number(match[1]), variantLabel:'cards'};
+
+    if (item.category === 'Fallout Bobbleheads' && className !== 'dlt_falloutz_bobbleheadstandkit') {
+      return {
+        key:'fallout_bobbleheads',
+        name:'Fallout Bobbleheads',
+        variantName:String(item.name).replace(/^Fallout /, '').replace(/ Bobblehead$/, ''),
+        variantLabel:'bobbleheads'
+      };
+    }
+    if (item.category === 'Fallout Nuka-Cola' && className !== 'dlt_falloutz_nukacolarackkit') {
+      return {
+        key:'fallout_nuka_cola',
+        name:'Fallout Nuka-Cola',
+        variantName:String(item.name).replace(/^Fallout Nuka-Cola /, ''),
+        variantLabel:'flavors'
+      };
+    }
+
+    match = className.match(/^arrakis_condom_(.+)$/);
+    if (match) {
+      var condomNames = {donkeydick:'Donkey', extralarge:'Extra Large', extrasmall:'Extra Small', large:'Large', medium:'Medium', micro:'Micro', small:'Small'};
+      return {key:'adult_condoms', name:'Condoms', variantName:condomNames[match[1]] || titleWords(match[1]), variantLabel:'sizes'};
+    }
+    match = className.match(/^arrakisbuttplug(.+)$/);
+    if (match) return {key:'adult_butt_plugs', name:'Butt Plugs', variantName:titleWords(match[1]), variantLabel:'colors'};
+    match = className.match(/^arrakis(.+)fleshlight$/);
+    if (match) {
+      var fleshlightNames = {black:'Black', brown:'Brown', pink:'Pink', bluewaffle:'Blue Waffle', cold:'Cold'};
+      return {key:'adult_fleshlights', name:'Fleshlights', variantName:fleshlightNames[match[1]] || titleWords(match[1]), variantLabel:'styles'};
+    }
+    match = className.match(/^arrakisxmasdildo([12])half$/);
+    if (match) return {key:'adult_dildos_half', name:'Half-Size Dildos', variantName:'Christmas ' + match[1], variantLabel:'styles'};
+    match = className.match(/^arrakisxmasdildo([12])mega$/);
+    if (match) return {key:'adult_dildos_mega', name:'Mega Dildos', variantName:'Christmas ' + match[1], variantLabel:'styles'};
+    match = className.match(/^arrakisxmasdildo([12])$/);
+    if (match) return {key:'adult_dildos', name:'Dildos', variantName:'Christmas ' + match[1], variantLabel:'styles'};
+    match = className.match(/^arrakis(.+)dildohalf$/);
+    if (match) return {key:'adult_dildos_half', name:'Half-Size Dildos', variantName:titleWords(match[1]), variantLabel:'styles'};
+    match = className.match(/^arrakis(.+)dildomega$/);
+    if (match) return {key:'adult_dildos_mega', name:'Mega Dildos', variantName:titleWords(match[1]), variantLabel:'styles'};
+    match = className.match(/^arrakisdildopresent(.+)$/);
+    if (match) return {key:'adult_dildo_presents', name:'Gift-Wrapped Dildos', variantName:titleWords(match[1]), variantLabel:'styles'};
+    match = className.match(/^arrakis(.+)dildo$/);
+    if (match) return {key:'adult_dildos', name:'Dildos', variantName:titleWords(match[1]), variantLabel:'styles'};
+    match = className.match(/^arrakisprisonwallet(.+)$/);
+    if (match) {
+      var walletSizes = {dd:'Double D', el:'Extra Large', l:'Large', m:'Medium', mp:'Medium Plus', s:'Small', xs:'Extra Small'};
+      return {key:'adult_prison_wallets', name:'Prison Wallets', variantName:walletSizes[match[1]] || match[1].toUpperCase(), variantLabel:'sizes'};
+    }
+    if (className === 'arrakissoap' || className === 'arrakissoappresent') {
+      return {key:'adult_soap', name:'Soap', variantName:className.endsWith('present') ? 'Gift-Wrapped' : 'Standard', variantLabel:'versions'};
+    }
+
+    match = className.match(/^pokemoncard_box(\d+)$/);
+    if (match) return {key:'storage_pokemon_boxes', name:'Pokémon Card Storage Boxes', variantName:'Box ' + Number(match[1]), variantLabel:'boxes'};
+    match = className.match(/^fallout_lunchbox_(.+)$/);
+    if (match) return {key:'storage_fallout_lunchboxes', name:'Fallout Lunchboxes', variantName:titleWords(match[1]), variantLabel:'designs'};
+
+    return null;
+  }
+
+  function marketFamily(item) {
+    var catalogue = window.marketVariantGroups;
+    var className = String(item.className || '').toLowerCase();
+    if (!catalogue || !catalogue.items || !className) return null;
+    var familyKey = catalogue.items[className];
+    if (!familyKey) return null;
+    var family = catalogue.families && catalogue.families[familyKey] || {};
+    return {
+      key: 'market:' + familyKey,
+      parentClassName: String(family.parent || '').toLowerCase(),
+      variantLabel: 'variants',
+      generic: true
+    };
+  }
+
+  function commonWords(names, fromEnd) {
+    var rows = names.map(function (name) { return String(name || '').trim().split(/\s+/); });
+    if (!rows.length) return '';
+    var shortest = Math.min.apply(null, rows.map(function (row) { return row.length; }));
+    var matched = [];
+    for (var index = 0; index < shortest; index += 1) {
+      var firstIndex = fromEnd ? rows[0].length - 1 - index : index;
+      var word = rows[0][firstIndex];
+      var same = rows.every(function (row) {
+        var rowIndex = fromEnd ? row.length - 1 - index : index;
+        return row[rowIndex].toLowerCase() === word.toLowerCase();
+      });
+      if (!same) break;
+      if (fromEnd) matched.unshift(word); else matched.push(word);
+    }
+    return matched.join(' ');
+  }
+
+  function cleanVariantName(name, groupName, isParent) {
+    var value = String(name || '').trim();
+    var group = String(groupName || '').trim();
+    var lower = value.toLowerCase();
+    var groupLower = group.toLowerCase();
+    if (group && lower.indexOf(groupLower) === 0) value = value.slice(group.length);
+    else if (group && lower.lastIndexOf(groupLower) === lower.length - groupLower.length) value = value.slice(0, value.length - group.length);
+    value = value.replace(/^[\s\-–—:|/]+|[\s\-–—:|/]+$/g, '').trim();
+    return value || (isParent ? 'Default' : 'Standard');
+  }
+
+  function prepareGenericGroup(group) {
+    var names = group.variants.map(function (variant) { return variant.name; });
+    var prefix = commonWords(names, false);
+    var suffix = commonWords(names, true);
+    var groupName = prefix.length >= suffix.length ? prefix : suffix;
+    var parent = group.variants.find(function (variant) {
+      return String(variant.className || '').toLowerCase() === group.parentClassName;
+    });
+    if (groupName.length < 3) groupName = parent ? parent.name : names.slice().sort(function (a, b) { return a.length - b.length; })[0];
+    groupName = String(groupName).replace(/^[\s\-–—:|/]+|[\s\-–—:|/]+$/g, '').trim();
+    group.name = groupName;
+    group.variants.forEach(function (variant) {
+      variant.variantName = cleanVariantName(
+        variant.name,
+        groupName,
+        String(variant.className || '').toLowerCase() === group.parentClassName
+      );
+    });
+  }
+
+  function groupCollectableItems(items) {
+    var hasMarketFamilies = Boolean(window.marketVariantGroups && window.marketVariantGroups.items);
+    if (!cfg.groupCollectableVariants && !cfg.groupDrippyVariants && !hasMarketFamilies) return items;
+    var grouped = {};
+    var standalone = [];
+    items.forEach(function (item) {
+      var family = (cfg.groupCollectableVariants || cfg.groupDrippyVariants ? collectableFamily(item) : null) || marketFamily(item);
+      if (!family) {
+        standalone.push(item);
+        return;
+      }
+      var key = item.category + '|' + family.key;
+      if (!grouped[key]) grouped[key] = {
+        name:family.name,
+        parentClassName:family.parentClassName,
+        variantLabel:family.variantLabel,
+        generic:family.generic,
+        variants:[]
+      };
+      var variant = Object.assign({}, item);
+      variant.variantName = family.variantName;
+      grouped[key].variants.push(variant);
+    });
+    Object.keys(grouped).forEach(function (key) {
+      var group = grouped[key];
+      if (group.variants.length > 1 && group.generic) prepareGenericGroup(group);
+      group.variants.sort(function (a, b) { return compareText(a.variantName, b.variantName); });
+      if (group.variants.length === 1) {
+        standalone.push(group.variants[0]);
+        return;
+      }
+      var first = group.variants[0];
+      standalone.push({
+        name: group.name,
+        className: group.variants.length + ' listed ' + group.variantLabel,
+        category: first.category,
+        mode: first.mode,
+        traderSells: first.traderSells,
+        traderBuys: first.traderBuys,
+        variantLabel: group.variantLabel,
+        variants: group.variants
+      });
+    });
+    return standalone;
+  }
+
+  function variantMarkup(item) {
+    if (!item.variants) return '';
+    var signatures = item.variants.map(function (variant) {
+      var state = permissions(variant);
+      return [
+        state.sells,
+        state.buys,
+        state.sells ? purchasePrice(variant) : null,
+        state.buys ? resalePrice(variant) : null
+      ].join('|');
+    });
+    var uniform = signatures.every(function (signature) { return signature === signatures[0]; });
+    var rows = item.variants.map(function (variant) {
+      if (uniform) {
+        return '<div class="catalogue-variant-row"><span>' + escapeHtml(variant.variantName) + '</span>' + stockMarkup(variant) + '</div>';
+      }
+      var state = permissions(variant);
+      var prices = [];
+      if (state.sells) prices.push('Buy ' + money(purchasePrice(variant)));
+      if (state.buys) prices.push('Sell ' + money(resalePrice(variant)));
+      return '<div class="catalogue-variant-row"><span>' + escapeHtml(variant.variantName) + '</span><strong>' +
+        escapeHtml(prices.join(' • ')) + '</strong>' + stockMarkup(variant) + '</div>';
+    }).join('');
+    return '<details class="catalogue-variants"><summary>View ' + item.variants.length +
+      ' ' + escapeHtml(item.variantLabel || 'variants') + (uniform ? '' : ' and exact prices') +
+      '</summary><div class="catalogue-variant-list">' + rows + '</div></details>';
+  }
+
+  function itemMarkup(item) {
+    var state = permissions(item);
+    var both = state.sells && state.buys;
+    var direction = both ? 'Buys & Sells' : (state.buys ? cfg.traderName + ' buys' : cfg.traderName + ' sells');
+    var directionClass = both ? 'both' : (state.buys ? 'buys' : 'sells');
+    var prices = '';
+
+    if (both) {
+      prices = '<div class="catalogue-price-pair">' +
+        '<span><small>Buy from trader</small><strong>' + transactionPrice(item, 'purchase') + '</strong></span>' +
+        '<span><small>Sell to trader</small><strong>' + transactionPrice(item, 'resale') + '</strong></span>' +
+      '</div>';
+    } else {
+      var type = state.sells ? 'purchase' : 'resale';
+      var label = state.sells ? 'Buy from trader' : 'Sell to trader';
+      prices = '<div class="catalogue-price-pair catalogue-price-single">' +
+        '<span><small>' + label + '</small><strong>' + transactionPrice(item, type) + '</strong></span>' +
+      '</div>';
+    }
+
+    return '<article class="catalogue-item">' +
+      '<div><div class="catalogue-name">' + escapeHtml(item.name) + '</div>' +
+      '<div class="catalogue-class">' + escapeHtml(item.className) + '</div></div>' +
+      '<div class="catalogue-meta"><span class="catalogue-direction ' + directionClass + '">' + escapeHtml(direction) + '</span>' + stockMarkup(item) + prices + '</div>' + variantMarkup(item) +
+    '</article>';
+  }
+
+  function render() {
+    var query = search ? search.value.trim().toLowerCase() : '';
+    var allRows = groupCollectableItems(cfg.items);
+    var rows = allRows.filter(function (item) {
+      var variantText = (item.variants || []).map(function (variant) {
+        return [variant.name, variant.className, variant.variantName].join(' ');
+      }).join(' ');
+      var haystack = [item.name, item.className, item.category, variantText].join(' ').toLowerCase();
+      return !query || haystack.indexOf(query) !== -1;
+    });
+
+    if (count) {
+      var groupedCatalogue = cfg.groupCollectableVariants || cfg.groupDrippyVariants || Boolean(window.marketVariantGroups);
+      var hasGroupedRows = allRows.some(function (item) { return Boolean(item.variants); });
+      var noun = groupedCatalogue ? 'product' : 'item';
+      count.textContent = rows.length + ' ' + noun + (rows.length === 1 ? '' : 's');
+      if (hasGroupedRows && !query) count.textContent += ' • ' + cfg.items.length + ' live item variants';
+    }
+    empty.style.display = rows.length ? 'none' : 'block';
+
+    var grouped = {};
+    rows.forEach(function (item) {
+      if (!grouped[item.category]) grouped[item.category] = [];
+      grouped[item.category].push(item);
+    });
+    Object.keys(grouped).forEach(function (category) {
+      grouped[category].sort(function (a, b) { return compareText(a.name, b.name) || compareText(a.className, b.className); });
+    });
+
+    var visibleCategories = Object.keys(grouped).sort(compareText);
+    list.innerHTML = visibleCategories.map(function (category) {
+      var items = grouped[category];
+      var shouldOpen = Boolean(query) || visibleCategories.length === 1;
+      return '<details class="catalogue-group"' + (shouldOpen ? ' open' : '') + '>' +
+        '<summary class="catalogue-group-summary"><span class="catalogue-group-title">' + escapeHtml(category) + '</span>' +
+        '<span class="catalogue-group-count">' + items.length + ' ' + (cfg.groupCollectableVariants || cfg.groupDrippyVariants || window.marketVariantGroups ? 'product' : 'item') + (items.length === 1 ? '' : 's') + '</span></summary>' +
+        '<div class="catalogue-group-items">' + items.map(itemMarkup).join('') + '</div></details>';
+    }).join('');
+  }
+
+  if (search) search.addEventListener('input', render);
+  ensureInventoryStatus();
+  render();
+  loadInventory();
+});
+

@@ -1,0 +1,123 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Ghost Gear Set",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "yoj_ghost_boots",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "yoj_ghost_boots_blackedition",
+        "yoj_ghost_boots_goldghost"
+      ]
+    },
+    {
+      "ClassName": "yoj_ghost_gloves",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "yoj_ghost_gloves_blackedition",
+        "yoj_ghost_gloves_goldghost"
+      ]
+    },
+    {
+      "ClassName": "yoj_ghost_mask",
+      "MaxPriceThreshold": 8000,
+      "MinPriceThreshold": 8000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "yoj_ghost_mask_black",
+        "yoj_ghost_mask_blackedition",
+        "yoj_ghost_mask_goldghost"
+      ]
+    },
+    {
+      "ClassName": "yoj_ghost_pants",
+      "MaxPriceThreshold": 12000,
+      "MinPriceThreshold": 12000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "yoj_ghost_pants_blackedition",
+        "yoj_ghost_pants_goldghost"
+      ]
+    },
+    {
+      "ClassName": "yoj_ghost_poncho",
+      "MaxPriceThreshold": 12000,
+      "MinPriceThreshold": 12000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "yoj_ghost_poncho_blackedition",
+        "yoj_ghost_poncho_goldghost"
+      ]
+    },
+    {
+      "ClassName": "yoj_ghost_top",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "yoj_ghost_top_blackedition",
+        "yoj_ghost_top_goldghost"
+      ]
+    },
+    {
+      "ClassName": "yoj_ghost_vest",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "yoj_ghost_vest_blackedition",
+        "yoj_ghost_vest_goldghost"
+      ]
+    },
+    {
+      "ClassName": "yoj_ghostset_weaponsling",
+      "MaxPriceThreshold": 4000,
+      "MinPriceThreshold": 4000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "yoj_ghostset_weaponsling_blackedition",
+        "yoj_ghostset_weaponsling_goldghost"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Dodge Challenger Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "dodge_challenger_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodge_challenger_codriver_black",
+        "dodge_challenger_codriver_blue",
+        "dodge_challenger_codriver_darkblue",
+        "dodge_challenger_codriver_green",
+        "dodge_challenger_codriver_orange",
+        "dodge_challenger_codriver_red"
+      ]
+    },
+    {
+      "ClassName": "dodge_challenger_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodge_challenger_driver_black",
+        "dodge_challenger_driver_darkblue"
+      ]
+    },
+    {
+      "ClassName": "dodge_challenger_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodge_challenger_hood_black",
+        "dodge_challenger_hood_blue",
+        "dodge_challenger_hood_darkblue",
+        "dodge_challenger_hood_green",
+        "dodge_challenger_hood_orange",
+        "dodge_challenger_hood_red"
+      ]
+    },
+    {
+      "ClassName": "dodge_challenger_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodge_challenger_trunk_black",
+        "dodge_challenger_trunk_blue",
+        "dodge_challenger_trunk_darkblue",
+        "dodge_challenger_trunk_green",
+        "dodge_challenger_trunk_orange",
+        "dodge_challenger_trunk_red"
+      ]
+    },
+    {
+      "ClassName": "dodge_challenger_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Rabbit Gear Set",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "sm_rabbit_boots_white",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "sm_rabbit_head_blue",
+      "MaxPriceThreshold": 8000,
+      "MinPriceThreshold": 8000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "sm_rabbit_jacket_blue",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "sm_rabbit_jacket_blue_gray",
+        "sm_rabbit_jacket_blue_purple",
+        "sm_rabbit_jacket_gold_blue",
+        "sm_rabbit_jacket_gray",
+        "sm_rabbit_jacket_green",
+        "sm_rabbit_jacket_pink",
+        "sm_rabbit_jacket_pink_pony",
+        "sm_rabbit_jacket_purple_blue",
+        "sm_rabbit_jacket_purple_pony",
+        "sm_rabbit_jacket_red",
+        "sm_rabbit_jacket_sakura"
+      ]
+    },
+    {
+      "ClassName": "sm_rabbit_pants_blue",
+      "MaxPriceThreshold": 12000,
+      "MinPriceThreshold": 12000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "sm_rabbit_pants_blue_gray",
+        "sm_rabbit_pants_blue_purple",
+        "sm_rabbit_pants_gold_blue",
+        "sm_rabbit_pants_gray",
+        "sm_rabbit_pants_green",
+        "sm_rabbit_pants_pink",
+        "sm_rabbit_pants_pink_pony",
+        "sm_rabbit_pants_purple_blue",
+        "sm_rabbit_pants_purple_pony",
+        "sm_rabbit_pants_red",
+        "sm_rabbit_pants_sakura"
+      ]
+    },
+    {
+      "ClassName": "sm_rabbit_vest",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

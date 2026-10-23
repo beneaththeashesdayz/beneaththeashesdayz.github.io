@@ -1,0 +1,294 @@
+{
+  "m_Version": 12,
+  "DisplayName": "FSB Alpha Gear Set",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "tgk_fsb_alpha_abdominalprotection_black",
+      "MaxPriceThreshold": 3000,
+      "MinPriceThreshold": 3000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_abdominalprotection_alpine",
+        "tgk_fsb_alpha_abdominalprotection_black_mc",
+        "tgk_fsb_alpha_abdominalprotection_mc",
+        "tgk_fsb_alpha_abdominalprotection_odgreen",
+        "tgk_fsb_alpha_abdominalprotection_tropic_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_armband_orange",
+      "MaxPriceThreshold": 400,
+      "MinPriceThreshold": 400,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_armband_yellow"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_backpanel_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_backpanel_alpine",
+        "tgk_fsb_alpha_backpanel_black_mc",
+        "tgk_fsb_alpha_backpanel_mc",
+        "tgk_fsb_alpha_backpanel_odgreen",
+        "tgk_fsb_alpha_backpanel_tropic_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_backpouch_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_backpouch_alpine",
+        "tgk_fsb_alpha_backpouch_black_mc",
+        "tgk_fsb_alpha_backpouch_mc",
+        "tgk_fsb_alpha_backpouch_odgreen",
+        "tgk_fsb_alpha_backpouch_tropic_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_balaclava_black",
+      "MaxPriceThreshold": 4000,
+      "MinPriceThreshold": 4000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_balaclava_alpine",
+        "tgk_fsb_alpha_balaclava_black_mc",
+        "tgk_fsb_alpha_balaclava_mc",
+        "tgk_fsb_alpha_balaclava_odgreen",
+        "tgk_fsb_alpha_balaclava_tropic_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_belt_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_belt_alpine",
+        "tgk_fsb_alpha_belt_black_mc",
+        "tgk_fsb_alpha_belt_mc",
+        "tgk_fsb_alpha_belt_odgreen",
+        "tgk_fsb_alpha_belt_tropic_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_boots_black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_dumppouch_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_dumppouch_alpine",
+        "tgk_fsb_alpha_dumppouch_black_mc",
+        "tgk_fsb_alpha_dumppouch_mc",
+        "tgk_fsb_alpha_dumppouch_odgreen",
+        "tgk_fsb_alpha_dumppouch_tropic_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_gloves_black",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_gloves_alpine",
+        "tgk_fsb_alpha_gloves_black_mc",
+        "tgk_fsb_alpha_gloves_mc",
+        "tgk_fsb_alpha_gloves_odgreen",
+        "tgk_fsb_alpha_gloves_tropic_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_headphones_black",
+      "MaxPriceThreshold": 3000,
+      "MinPriceThreshold": 3000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_helmet_black",
+      "MaxPriceThreshold": 4000,
+      "MinPriceThreshold": 4000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_helmet_cover_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_helmet_cover_alpine",
+        "tgk_fsb_alpha_helmet_cover_black_mc",
+        "tgk_fsb_alpha_helmet_cover_mc",
+        "tgk_fsb_alpha_helmet_cover_odgreen",
+        "tgk_fsb_alpha_helmet_cover_tropic_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_ifak_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_ifak_alpine",
+        "tgk_fsb_alpha_ifak_black_mc",
+        "tgk_fsb_alpha_ifak_mc",
+        "tgk_fsb_alpha_ifak_odgreen",
+        "tgk_fsb_alpha_ifak_tropic_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_magpouch_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_magpouch_alpine",
+        "tgk_fsb_alpha_magpouch_black_mc",
+        "tgk_fsb_alpha_magpouch_mc",
+        "tgk_fsb_alpha_magpouch_odgreen",
+        "tgk_fsb_alpha_magpouch_tropic_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_medpouch_black",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_medpouch_alpine",
+        "tgk_fsb_alpha_medpouch_black_mc",
+        "tgk_fsb_alpha_medpouch_mc",
+        "tgk_fsb_alpha_medpouch_odgreen",
+        "tgk_fsb_alpha_medpouch_tropic_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_pants_black",
+      "MaxPriceThreshold": 6000,
+      "MinPriceThreshold": 6000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_pants_alpine",
+        "tgk_fsb_alpha_pants_black_mc",
+        "tgk_fsb_alpha_pants_mc",
+        "tgk_fsb_alpha_pants_odgreen",
+        "tgk_fsb_alpha_pants_tropic_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_top_black",
+      "MaxPriceThreshold": 8000,
+      "MinPriceThreshold": 8000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_top_alpine",
+        "tgk_fsb_alpha_top_black_mc",
+        "tgk_fsb_alpha_top_mc",
+        "tgk_fsb_alpha_top_odgreen",
+        "tgk_fsb_alpha_top_tropic_mc"
+      ]
+    },
+    {
+      "ClassName": "tgk_fsb_alpha_vest_black",
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_fsb_alpha_vest_alpine",
+        "tgk_fsb_alpha_vest_black_mc",
+        "tgk_fsb_alpha_vest_mc",
+        "tgk_fsb_alpha_vest_odgreen",
+        "tgk_fsb_alpha_vest_tropic_mc"
+      ]
+    }
+  ]
+}

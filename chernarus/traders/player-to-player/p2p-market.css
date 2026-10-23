@@ -1,0 +1,26 @@
+.p2p-live-market{margin-top:30px;border-top:1px solid var(--line);padding-top:28px}
+.p2p-market-head{display:flex;justify-content:space-between;gap:24px;align-items:flex-end;margin-bottom:18px}
+.p2p-market-head h2{margin:5px 0 0;text-transform:uppercase;font-size:clamp(1.7rem,4vw,2.6rem);letter-spacing:-.025em}
+.p2p-market-head p{margin:0;max-width:440px;color:var(--muted);line-height:1.55;text-align:right}
+.p2p-live-badge{display:inline-flex;align-items:center;gap:8px;color:#c9ddb9;font-size:.73rem;font-weight:900;text-transform:uppercase;letter-spacing:.11em}
+.p2p-live-badge:before{content:"";width:8px;height:8px;border-radius:50%;background:#9eb98e;box-shadow:0 0 0 4px rgba(158,185,142,.1)}
+.p2p-live-badge.warning{color:#e2ba98}.p2p-live-badge.warning:before{background:var(--ember)}
+.p2p-market-tools{display:grid;grid-template-columns:minmax(0,1fr) minmax(190px,260px);gap:12px;margin:18px 0 10px}
+.p2p-market-tools input,.p2p-market-tools select{width:100%;margin:0}
+.p2p-market-summary{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:#8f8a82;font-size:.78rem;letter-spacing:.04em;margin-bottom:16px}
+.p2p-listings{display:grid;gap:12px}
+.p2p-listing-card{border:1px solid var(--line);background:linear-gradient(180deg,#171a1c,#111315);padding:18px 20px;transition:.16s ease}
+.p2p-listing-card:hover{border-color:#70513f;transform:translateY(-1px)}
+.p2p-listing-top{display:flex;align-items:flex-start;justify-content:space-between;gap:20px;padding-bottom:14px;border-bottom:1px solid #303331}
+.p2p-listing-name{font-size:1.08rem;font-weight:900;color:#f1e7dc;letter-spacing:.01em}
+.p2p-listing-class{margin-top:4px;color:#777b78;font-size:.72rem;word-break:break-word}
+.p2p-listing-price{flex:0 0 auto;color:#c9ddb9;font-size:1.25rem;font-weight:950;letter-spacing:-.02em}
+.p2p-listing-details{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:14px}
+.p2p-detail{min-width:0}
+.p2p-detail-label{color:#77736d;font-size:.62rem;font-weight:900;text-transform:uppercase;letter-spacing:.13em}
+.p2p-detail-value{margin-top:4px;color:#d7d1c8;font-size:.87rem;overflow-wrap:anywhere}
+.p2p-cargo{margin-top:14px;padding-top:12px;border-top:1px solid #2d302e;color:#aaa69d;font-size:.82rem}
+.p2p-cargo summary{cursor:pointer;color:#d8c4ad;font-weight:800}
+.p2p-cargo ul{margin:10px 0 0;padding-left:19px;line-height:1.6}
+.p2p-market-empty{border:1px dashed #444743;background:#111416;padding:22px;color:var(--muted);line-height:1.6}
+@media(max-width:760px){.p2p-market-head{display:block}.p2p-market-head p{margin-top:10px;text-align:left}.p2p-market-tools{grid-template-columns:1fr}.p2p-listing-details{grid-template-columns:repeat(2,minmax(0,1fr))}.p2p-listing-price{font-size:1.08rem}}

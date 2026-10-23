@@ -1,0 +1,9 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Car Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": []
+}

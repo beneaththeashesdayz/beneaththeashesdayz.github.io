@@ -1,0 +1,40 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Tracksuit Gear Set",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "tgk_tracksuit_pants_blue",
+      "MaxPriceThreshold": 12000,
+      "MinPriceThreshold": 12000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_tracksuit_pants_green",
+        "tgk_tracksuit_pants_purple",
+        "tgk_tracksuit_pants_red"
+      ]
+    },
+    {
+      "ClassName": "tgk_tracksuit_top_blue",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 100,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tgk_tracksuit_top_green",
+        "tgk_tracksuit_top_purple",
+        "tgk_tracksuit_top_red"
+      ]
+    }
+  ]
+}

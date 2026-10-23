@@ -1,0 +1,117 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Hennessey F150D Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "hennesseyf150d_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hennesseyf150d_cargo1_blue",
+        "hennesseyf150d_cargo1_red",
+        "hennesseyf150d_cargo1_white",
+        "hennesseyf150d_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "hennesseyf150d_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hennesseyf150d_cargo2_blue",
+        "hennesseyf150d_cargo2_red",
+        "hennesseyf150d_cargo2_white",
+        "hennesseyf150d_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "hennesseyf150d_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hennesseyf150d_codriver_blue",
+        "hennesseyf150d_codriver_red",
+        "hennesseyf150d_codriver_white",
+        "hennesseyf150d_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "hennesseyf150d_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hennesseyf150d_driver_blue",
+        "hennesseyf150d_driver_red",
+        "hennesseyf150d_driver_white",
+        "hennesseyf150d_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "hennesseyf150d_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hennesseyf150d_hood_blue",
+        "hennesseyf150d_hood_red",
+        "hennesseyf150d_hood_white",
+        "hennesseyf150d_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "hennesseyf150d_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hennesseyf150d_trunk_blue",
+        "hennesseyf150d_trunk_red",
+        "hennesseyf150d_trunk_white",
+        "hennesseyf150d_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "hennesseyf150dwheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

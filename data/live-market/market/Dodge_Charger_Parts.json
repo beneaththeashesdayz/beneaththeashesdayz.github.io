@@ -1,0 +1,93 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Dodge Charger Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "dodgecharger_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodgecharger_cargo1_blue",
+        "dodgecharger_cargo1_green",
+        "dodgecharger_cargo1_lightblue",
+        "dodgecharger_cargo1_pink",
+        "dodgecharger_cargo1_red",
+        "dodgecharger_cargo1_white"
+      ]
+    },
+    {
+      "ClassName": "dodgecharger_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodgecharger_cargo2_blue",
+        "dodgecharger_cargo2_green",
+        "dodgecharger_cargo2_lightblue",
+        "dodgecharger_cargo2_pink",
+        "dodgecharger_cargo2_red",
+        "dodgecharger_cargo2_white"
+      ]
+    },
+    {
+      "ClassName": "dodgecharger_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodgecharger_hood_blue",
+        "dodgecharger_hood_green",
+        "dodgecharger_hood_lightblue",
+        "dodgecharger_hood_pink",
+        "dodgecharger_hood_red",
+        "dodgecharger_hood_white"
+      ]
+    },
+    {
+      "ClassName": "dodgecharger_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "dodgecharger_trunk_blue",
+        "dodgecharger_trunk_green",
+        "dodgecharger_trunk_lightblue",
+        "dodgecharger_trunk_pink",
+        "dodgecharger_trunk_red",
+        "dodgecharger_trunk_white"
+      ]
+    },
+    {
+      "ClassName": "dodgecharger_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

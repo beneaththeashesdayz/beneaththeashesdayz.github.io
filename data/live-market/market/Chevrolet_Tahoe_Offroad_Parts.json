@@ -1,0 +1,141 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Chevrolet Tahoe Offroad Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "tahoe_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tahoe_cargo1_black",
+        "tahoe_cargo1_blue",
+        "tahoe_cargo1_brown",
+        "tahoe_cargo1_darkblue",
+        "tahoe_cargo1_green",
+        "tahoe_cargo1_lightblue",
+        "tahoe_cargo1_pink",
+        "tahoe_cargo1_red"
+      ]
+    },
+    {
+      "ClassName": "tahoe_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tahoe_cargo2_black",
+        "tahoe_cargo2_blue",
+        "tahoe_cargo2_brown",
+        "tahoe_cargo2_darkblue",
+        "tahoe_cargo2_green",
+        "tahoe_cargo2_lightblue",
+        "tahoe_cargo2_pink",
+        "tahoe_cargo2_red"
+      ]
+    },
+    {
+      "ClassName": "tahoe_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tahoe_codriver_black",
+        "tahoe_codriver_blue",
+        "tahoe_codriver_brown",
+        "tahoe_codriver_darkblue",
+        "tahoe_codriver_green",
+        "tahoe_codriver_lightblue",
+        "tahoe_codriver_pink",
+        "tahoe_codriver_red"
+      ]
+    },
+    {
+      "ClassName": "tahoe_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tahoe_driverdoor_black",
+        "tahoe_driverdoor_blue",
+        "tahoe_driverdoor_brown",
+        "tahoe_driverdoor_darkblue",
+        "tahoe_driverdoor_green",
+        "tahoe_driverdoor_lightblue",
+        "tahoe_driverdoor_pink",
+        "tahoe_driverdoor_red"
+      ]
+    },
+    {
+      "ClassName": "tahoe_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tahoe_hood_black",
+        "tahoe_hood_blue",
+        "tahoe_hood_brown",
+        "tahoe_hood_darkblue",
+        "tahoe_hood_green",
+        "tahoe_hood_lightblue",
+        "tahoe_hood_pink",
+        "tahoe_hood_red"
+      ]
+    },
+    {
+      "ClassName": "tahoe_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "tahoe_trunk_black",
+        "tahoe_trunk_blue",
+        "tahoe_trunk_brown",
+        "tahoe_trunk_darkblue",
+        "tahoe_trunk_green",
+        "tahoe_trunk_lightblue",
+        "tahoe_trunk_pink",
+        "tahoe_trunk_red"
+      ]
+    },
+    {
+      "ClassName": "tahoe_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

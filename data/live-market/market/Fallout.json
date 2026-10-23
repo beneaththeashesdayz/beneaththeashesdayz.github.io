@@ -1,0 +1,43 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Fallout",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "fallout_eyebottoy",
+      "MaxPriceThreshold": 1000000,
+      "MinPriceThreshold": 1000000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "fallout_rockettoy",
+      "MaxPriceThreshold": 1000000,
+      "MinPriceThreshold": 1000000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "fallout_sheriffbadge",
+      "MaxPriceThreshold": 1000000,
+      "MinPriceThreshold": 1000000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Dodge Widebody Hellcat Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "widebody_hellcat_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "widebody_hellcat_codriver_blue",
+        "widebody_hellcat_codriver_red",
+        "widebody_hellcat_codriver_white",
+        "widebody_hellcat_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "widebody_hellcat_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "widebody_hellcat_driver_blue",
+        "widebody_hellcat_driver_red",
+        "widebody_hellcat_driver_white",
+        "widebody_hellcat_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "widebody_hellcat_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "widebody_hellcat_hood_blue",
+        "widebody_hellcat_hood_red",
+        "widebody_hellcat_hood_white",
+        "widebody_hellcat_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "widebody_hellcat_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "widebody_hellcat_trunk_blue",
+        "widebody_hellcat_trunk_red",
+        "widebody_hellcat_trunk_white",
+        "widebody_hellcat_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "widebody_hellcatwheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

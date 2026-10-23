@@ -1,0 +1,84 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Porsche 911 GT3 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "porsche_911_gt3_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "porsche_911_gt3_codriver_black",
+        "porsche_911_gt3_codriver_blue",
+        "porsche_911_gt3_codriver_darkblue",
+        "porsche_911_gt3_codriver_lightblue",
+        "porsche_911_gt3_codriver_orange",
+        "porsche_911_gt3_codriver_pink",
+        "porsche_911_gt3_codriver_red",
+        "porsche_911_gt3_codriver_white",
+        "porsche_911_gt3_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "porsche_911_gt3_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "porsche_911_gt3_driverdoor_black",
+        "porsche_911_gt3_driverdoor_blue",
+        "porsche_911_gt3_driverdoor_darkblue",
+        "porsche_911_gt3_driverdoor_lightblue",
+        "porsche_911_gt3_driverdoor_orange",
+        "porsche_911_gt3_driverdoor_pink",
+        "porsche_911_gt3_driverdoor_red",
+        "porsche_911_gt3_driverdoor_white",
+        "porsche_911_gt3_driverdoor_yellow"
+      ]
+    },
+    {
+      "ClassName": "porsche_911_gt3_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "porsche_911_gt3_trunk_black",
+        "porsche_911_gt3_trunk_blue",
+        "porsche_911_gt3_trunk_darkblue",
+        "porsche_911_gt3_trunk_lightblue",
+        "porsche_911_gt3_trunk_orange",
+        "porsche_911_gt3_trunk_pink",
+        "porsche_911_gt3_trunk_red",
+        "porsche_911_gt3_trunk_white",
+        "porsche_911_gt3_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "porsche_911_gt3_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

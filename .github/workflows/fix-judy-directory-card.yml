@@ -1,0 +1,40 @@
+name: Fix Judy Directory Card
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-judy-directory-card.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Update Judy card
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('chernarus/traders/index.html')
+          s = p.read_text()
+          old = '{"slug":"attachment-trader","name":"Attachment Trader","title":"Weapon Attachments Trader"'
+          new = '{"slug":"attachment-trader","name":"Judy","title":"Weapon Attachments Trader"'
+          if old not in s:
+              raise SystemExit('Judy trader card name pattern not found')
+          s = s.replace(old, new, 1)
+          old_img = '"image":"assets/traders/attachment-trader.svg","group":"Scorched Isle Market","order":45}'
+          new_img = '"image":"assets/traders/judy.jpg","group":"Scorched Isle Market","order":45}'
+          if old_img not in s:
+              raise SystemExit('Judy trader card image pattern not found')
+          s = s.replace(old_img, new_img, 1)
+          p.write_text(s)
+          PY
+      - name: Commit change
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add chernarus/traders/index.html
+          git commit -m "Use Judy portrait on trader directory"
+          git push

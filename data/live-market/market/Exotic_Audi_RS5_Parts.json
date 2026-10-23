@@ -1,0 +1,110 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Audi RS5 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "star_audi_rs5_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_audi_rs5_codriver_blue",
+        "star_audi_rs5_codriver_carbon",
+        "star_audi_rs5_codriver_orange",
+        "star_audi_rs5_codriver_pink",
+        "star_audi_rs5_codriver_red",
+        "star_audi_rs5_codriver_silver",
+        "star_audi_rs5_codriver_white",
+        "star_audi_rs5_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_audi_rs5_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_audi_rs5_driver_blue",
+        "star_audi_rs5_driver_carbon",
+        "star_audi_rs5_driver_orange",
+        "star_audi_rs5_driver_pink",
+        "star_audi_rs5_driver_red",
+        "star_audi_rs5_driver_silver",
+        "star_audi_rs5_driver_white",
+        "star_audi_rs5_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_audi_rs5_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_audi_rs5_hood_blue",
+        "star_audi_rs5_hood_carbon",
+        "star_audi_rs5_hood_orange",
+        "star_audi_rs5_hood_pink",
+        "star_audi_rs5_hood_red",
+        "star_audi_rs5_hood_silver",
+        "star_audi_rs5_hood_white",
+        "star_audi_rs5_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_audi_rs5_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_audi_rs5_trunk_blue",
+        "star_audi_rs5_trunk_carbon",
+        "star_audi_rs5_trunk_orange",
+        "star_audi_rs5_trunk_pink",
+        "star_audi_rs5_trunk_red",
+        "star_audi_rs5_trunk_silver",
+        "star_audi_rs5_trunk_white",
+        "star_audi_rs5_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "star_audi_rs5_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1.0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "star_audi_rs5_wheel_blue",
+        "star_audi_rs5_wheel_carbon",
+        "star_audi_rs5_wheel_orange",
+        "star_audi_rs5_wheel_pink",
+        "star_audi_rs5_wheel_red",
+        "star_audi_rs5_wheel_silver",
+        "star_audi_rs5_wheel_white",
+        "star_audi_rs5_wheel_yellow"
+      ]
+    }
+  ]
+}

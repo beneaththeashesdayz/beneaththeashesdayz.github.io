@@ -1,0 +1,89 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Nissan Skyline Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75.0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "skyline_codriver_door",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "skyline_codriver_door_black",
+        "skyline_codriver_door_blue",
+        "skyline_codriver_door_orange",
+        "skyline_codriver_door_pink",
+        "skyline_codriver_door_red"
+      ]
+    },
+    {
+      "ClassName": "skyline_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "skyline_driverdoor_black",
+        "skyline_driverdoor_blue",
+        "skyline_driverdoor_orange",
+        "skyline_driverdoor_pink",
+        "skyline_driverdoor_red"
+      ]
+    },
+    {
+      "ClassName": "skyline_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "skyline_hood_black",
+        "skyline_hood_blue",
+        "skyline_hood_orange",
+        "skyline_hood_pink",
+        "skyline_hood_red"
+      ]
+    },
+    {
+      "ClassName": "skyline_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "skyline_trunk_black",
+        "skyline_trunk_blue",
+        "skyline_trunk_orange",
+        "skyline_trunk_pink",
+        "skyline_trunk_red"
+      ]
+    },
+    {
+      "ClassName": "skyline_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}
