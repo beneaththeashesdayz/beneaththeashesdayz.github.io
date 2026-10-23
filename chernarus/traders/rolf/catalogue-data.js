@@ -1,15 +1,5 @@
 window.traderCatalogue={traderName:'Rolf',currency:'ZOMBIE_NOTES',currencyLabel:'Zombie Notes',items:[
 {name:'Bz Bolt Quiver T1',className:'bz_bolt_quiver_t1',category:'BallerZ Ammo',mode:'sell',price:100},
-{name:'Blue Fish Hat',className:'geb_bluefishhat',category:'Geb\'s Fishing Gear',mode:'buy',price:125,sellPrice:125},
-{name:'Blue Fish Shirt',className:'geb_bluefishshirt',category:'Geb\'s Fishing Gear',mode:'buy',price:175,sellPrice:175},
-{name:'Blue Fishing Gloves',className:'geb_bluefishgloves',category:'Geb\'s Fishing Gear',mode:'buy',price:75,sellPrice:75},
-{name:'Green Fish Hat',className:'geb_greenfishhat',category:'Geb\'s Fishing Gear',mode:'buy',price:125,sellPrice:125},
-{name:'Green Fish Shirt',className:'geb_greenfishshirt',category:'Geb\'s Fishing Gear',mode:'buy',price:175,sellPrice:175},
-{name:'Orange Fishing Gloves',className:'geb_orangefishgloves',category:'Geb\'s Fishing Gear',mode:'buy',price:75,sellPrice:75},
-{name:'Purple Fish Hat',className:'geb_purplefishhat',category:'Geb\'s Fishing Gear',mode:'buy',price:125,sellPrice:125},
-{name:'Purple Fish Shirt',className:'geb_purplefishshirt',category:'Geb\'s Fishing Gear',mode:'buy',price:175,sellPrice:175},
-{name:'Red Fish Hat',className:'geb_redfishhat',category:'Geb\'s Fishing Gear',mode:'buy',price:125,sellPrice:125},
-{name:'Red Fish Shirt',className:'geb_redfishshirt',category:'Geb\'s Fishing Gear',mode:'buy',price:175,sellPrice:175},
 {name:'Km Magazineloader2',className:'km_magazineloader2',category:'Mag Loader',mode:'sell',price:750},
 {name:'Magloadercleaningkit',className:'magloadercleaningkit',category:'Mag Loader',mode:'sell',price:100},
 {name:'Compass',className:'compass',category:'Navigation',mode:'sell',price:50},
@@ -32,5 +22,15 @@ window.traderCatalogue={traderName:'Rolf',currency:'ZOMBIE_NOTES',currencyLabel:
 {name:'Stranger Things Sleeping Bag',className:'lbs_sleepingpacked_extended_stranger_things',category:'Sleeping Bags',mode:'sell',price:500},
 {name:'ZedKLR Sleeping Bag',className:'lbs_sleepingpacked_extended_zedklr',category:'Sleeping Bags',mode:'sell',price:500},
 {name:'Ammo Workbench Box',className:'ammo_workbench_box',category:'Workbenches',mode:'sell',price:5000},
-{name:'Repair Workbench Box',className:'repair_workbench_box',category:'Workbenches',mode:'sell',price:5000}
+{name:'Repair Workbench Box',className:'repair_workbench_box',category:'Workbenches',mode:'sell',price:5000},
+{name:'Blue Fish Hat',className:'geb_bluefishhat',category:'Geb\'s Fishing Gear',mode:'buy',price:125,sellPrice:125},
+{name:'Blue Fish Shirt',className:'geb_bluefishshirt',category:'Geb\'s Fishing Gear',mode:'buy',price:175,sellPrice:175},
+{name:'Blue Fishing Gloves',className:'geb_bluefishgloves',category:'Geb\'s Fishing Gear',mode:'buy',price:75,sellPrice:75},
+{name:'Green Fish Hat',className:'geb_greenfishhat',category:'Geb\'s Fishing Gear',mode:'buy',price:125,sellPrice:125},
+{name:'Green Fish Shirt',className:'geb_greenfishshirt',category:'Geb\'s Fishing Gear',mode:'buy',price:175,sellPrice:175},
+{name:'Orange Fishing Gloves',className:'geb_orangefishgloves',category:'Geb\'s Fishing Gear',mode:'buy',price:75,sellPrice:75},
+{name:'Purple Fish Hat',className:'geb_purplefishhat',category:'Geb\'s Fishing Gear',mode:'buy',price:125,sellPrice:125},
+{name:'Purple Fish Shirt',className:'geb_purplefishshirt',category:'Geb\'s Fishing Gear',mode:'buy',price:175,sellPrice:175},
+{name:'Red Fish Hat',className:'geb_redfishhat',category:'Geb\'s Fishing Gear',mode:'buy',price:125,sellPrice:125},
+{name:'Red Fish Shirt',className:'geb_redfishshirt',category:'Geb\'s Fishing Gear',mode:'buy',price:175,sellPrice:175}
 ]};
