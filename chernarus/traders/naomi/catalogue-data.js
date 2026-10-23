@@ -1,4 +1,10 @@
 window.traderCatalogue={traderName:'Naomi',currency:'USD',items:[
+{name:'Szeffood Canempty',className:'szeffood_canempty',category:'Canning Supplies',mode:'sell',price:300,buyPrice:300,sellPrice:150,traderSells:true,traderBuys:true,stockMode:'finite'},
+{name:'Szeffood Emty Jar',className:'szeffood_emty_jar',category:'Canning Supplies',mode:'sell',price:250,buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true,stockMode:'finite'},
+{name:'Szeffood Ocet',className:'szeffood_ocet',category:'Canning Supplies',mode:'sell',price:2500,buyPrice:2500,sellPrice:1250,traderSells:true,traderBuys:true,stockMode:'finite'},
+{name:'Szeffood Salt',className:'szeffood_salt',category:'Canning Supplies',mode:'sell',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true,stockMode:'finite'},
+{name:'Szeffood Sugar',className:'szeffood_sugar',category:'Canning Supplies',mode:'sell',price:2000,buyPrice:2000,sellPrice:1000,traderSells:true,traderBuys:true,stockMode:'finite'},
+{name:'Szefkuchni Table Kit',className:'szefkuchni_table_kit',category:'Canning Supplies',mode:'sell',price:7500,buyPrice:7500,sellPrice:3750,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Loner Can Empty',className:'loner_can_empty',category:'Cans',mode:'sell',price:300,buyPrice:300,sellPrice:150,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Loner Can Small Empty',className:'loner_can_small_empty',category:'Cans',mode:'sell',price:250,buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Canteen',className:'canteen',category:'Drinks',mode:'sell',price:12000,buyPrice:12000,sellPrice:6000,traderSells:true,traderBuys:true,stockMode:'finite'},
