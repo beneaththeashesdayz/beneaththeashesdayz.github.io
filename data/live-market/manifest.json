@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-10-24T16:23:30.937309+00:00",
+  "syncedAt": "2026-10-24T17:22:51.865572+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 270,
+  "marketFileCount": 271,
   "traderFileCount": 25,
   "traderZoneFileCount": 19,
   "files": [
@@ -1684,6 +1684,13 @@
     },
     {
       "group": "market",
+      "filename": "RaG_Hunting_Cabin.json",
+      "sha256": "df7b51da9d9aad39db7cd8215ef6d1808234a9dfbec7a6099b7d9d4104a03d1d",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
       "filename": "RaG_Supplies.json",
       "sha256": "269e3f3a2d3c3c6b59a2d8a89b9ab41a080774c5b709e95869a2409fc9ea40ec",
       "topLevelType": "object",
@@ -1923,7 +1930,7 @@
     {
       "group": "traders",
       "filename": "BuildingSupplies.json",
-      "sha256": "b30a66d1a21c258934c870f66f4b558db8bfb30ab61638db74be3eb054a308ca",
+      "sha256": "0837ea6cb4394e5d183c5397cb9e82dc547dead55cc674cced13a26bf927af6d",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2091,7 +2098,7 @@
     {
       "group": "traderzones",
       "filename": "BTA_EggCollector.json",
-      "sha256": "16709011d72360bf0ec0a1d2bf5e7d544d2b94f29fb67af1dbc71e0e96e23fd7",
+      "sha256": "81e11740c8dd0e0ee2a5d9cc3d28947670a8d00e8a8ff1569e125239fc9088e7",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2140,7 +2147,7 @@
     {
       "group": "traderzones",
       "filename": "Main_BuildingSupplies_Trader.json",
-      "sha256": "e1da931350ea11c484f786b7266ddbf8ee7c9b93754b6a077aeb14c9a4bdebfb",
+      "sha256": "dfcf1955e15d5287989dfb7f88f6964fb39143693eb152b8403aa76de5296f9b",
       "topLevelType": "object",
       "entryCount": 7
     },

@@ -31,7 +31,8 @@
     "Tents:1",
     "RaG_Supplies:1",
     "Furnishings:1",
-    "Locks:1"
+    "Locks:1",
+    "RaG_Hunting_Cabin:0"
   ],
   "Items": {
     "CanisterGasoline": 1
