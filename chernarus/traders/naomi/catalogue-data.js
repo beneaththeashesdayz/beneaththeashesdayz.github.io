@@ -55,7 +55,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Pleurotusmushroom',className:'pleurotusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
 {name:'Plum',className:'plum',category:'Fruit And Vegetables',mode:'sell',price:150},
 {name:'Potato',className:'potato',category:'Fruit And Vegetables',mode:'sell',price:600},
-{name:'Potatoseed',className:'potatoseed',category:'Fruit And Vegetables',mode:'buy',price:600,sellPrice:300},
+{name:'Potatoseed',className:'potatoseed',category:'Fruit And Vegetables',mode:'sell',price:600},
 {name:'Pumpkin',className:'pumpkin',category:'Fruit And Vegetables',mode:'sell',price:500},
 {name:'Slicedpumpkin',className:'slicedpumpkin',category:'Fruit And Vegetables',mode:'sell',price:250},
 {name:'Tomato',className:'tomato',category:'Fruit And Vegetables',mode:'sell',price:200},
