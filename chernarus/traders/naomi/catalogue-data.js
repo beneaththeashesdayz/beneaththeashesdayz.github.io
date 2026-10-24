@@ -27,7 +27,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Dogfoodcan',className:'dogfoodcan',category:'Food',mode:'sell',price:9905},
 {name:'Honey',className:'honey',category:'Food',mode:'sell',price:10310},
 {name:'Lunchmeat',className:'lunchmeat',category:'Food',mode:'sell',price:10020},
-{name:'Marmalade',className:'marmalade',category:'Food',mode:'sell',price:9975},
+{name:'Marmalade',className:'marmalade',category:'Food',mode:'buy',price:9975,sellPrice:4988},
 {name:'Pajka',className:'pajka',category:'Food',mode:'sell',price:10345},
 {name:'Pate',className:'pate',category:'Food',mode:'sell',price:9945},
 {name:'Peachescan',className:'peachescan',category:'Food',mode:'sell',price:10080},
