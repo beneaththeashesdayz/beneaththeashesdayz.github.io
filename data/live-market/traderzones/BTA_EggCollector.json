@@ -1,0 +1,15 @@
+{
+  "m_Version": 6,
+  "m_DisplayName": "BTA Egg Collector",
+  "Position": [
+    6912.69,
+    427.55,
+    11430.2
+  ],
+  "Radius": 3,
+  "BuyPricePercent": 100,
+  "SellPricePercent": 0,
+  "Stock": {
+    "rag_dragon_egg": 0
+  }
+}
