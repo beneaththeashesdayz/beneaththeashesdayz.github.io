@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Dragon Egg Hunt | Flash Event | Beneath the Ashes</title>
-  <meta name="description" content="Collect dragon eggs across Chernarus before Sunday, October 25, 2026, at 5:00 PM EST. The player with the biggest collection wins a juicy BallerZ loadout.">
+  <meta name="description" content="Collect Dragon Eggs across Chernarus, sell them to Sir Scrambles inside Devil’s Castle, and compete for the highest successful turn-in total before Sunday, October 25, 2026 at 5:00 PM Eastern.">
   <link rel="stylesheet" href="../../../styles.css?v=events-39">
   <style>
     .dragon-event-page{padding-bottom:18px}
@@ -40,6 +40,7 @@
     .dragon-closing p{max-width:760px;margin:0 auto 20px;color:var(--muted);line-height:1.75}
 
     .dragon-date small{color:#b9a79b;font-size:.78rem;letter-spacing:.04em;line-height:1.4}
+    .egg-countdown{margin-top:8px;color:#e8a071;font-size:.76rem;font-weight:900;letter-spacing:.05em;line-height:1.4}
     .egg-board{position:relative;overflow:hidden;border-color:#8b6b3f;background:radial-gradient(circle at 92% 0,rgba(214,166,75,.2),transparent 34%),linear-gradient(145deg,#211b16,#111315)}
     .egg-board::after{content:"🥚";position:absolute;right:22px;bottom:14px;font-size:clamp(3rem,8vw,5.5rem);opacity:.07;pointer-events:none;transform:rotate(-12deg)}
     .egg-board-heading{align-items:flex-start;position:relative;z-index:1}
@@ -127,10 +128,11 @@
       </div>
       <h1>Dragon Egg<br><span>Hunt</span></h1>
       <p class="dragon-hero-lead">🐉 The skies are busy. The ground is hiding secrets. 🥚</p>
-      <p>Dragon eggs are spawning across Chernarus, and this flash event is a race to build the biggest collection before the deadline. Explore widely, keep your eyes open, and see how many you can gather.</p>
+      <p>Dragon Eggs are spawning across Chernarus. Bring them to Sir Scrambles, Keeper of Eggs, inside Devil’s Castle at <strong>X 6912.69 / Z 11430.20</strong>, then <strong>SELL</strong> them through his trader menu to turn them in. A <strong>$0 sale is intentional</strong>; one successfully turned-in egg equals one point.</p>
       <div class="dragon-date">
         <span>Deadline</span>
-        <strong>Sunday, October 25, 2026, at 5:00 PM EST</strong><small>21:00 UTC · America/New_York</small>
+        <strong>Sunday, October 25, 2026 at 5:00 PM Eastern.</strong><small>UTC cutoff · 2026-10-25 21:00 · America/New_York</small>
+        <div class="egg-countdown" data-egg-countdown data-cutoff="2026-10-25T21:00:00Z">Turn-ins close at the cutoff shown above.</div>
       </div>
     </section>
 
@@ -144,14 +146,14 @@
         <p>One egg. One point. The biggest clutch takes the prize.</p>
       </div>
       <div class="egg-board-status" data-board-status="unavailable"><i></i> <span>Tracker connection pending</span></div>
-      <p class="egg-board-intro">This public board shows only event standings. No private account details, receipts, or staff data appear here.</p>
+      <p class="egg-board-intro">Only successfully turned-in Dragon Eggs appear here. Collecting or holding an egg does not add points.</p>
       <div class="egg-board-meta">
         <div class="egg-board-stat"><span>Eggs turned in</span><strong data-board-eggs>—</strong></div>
         <div class="egg-board-stat"><span>Egg hunters</span><strong data-board-participants>—</strong></div>
-        <div class="egg-board-stat"><span>Eastern cutoff</span><strong>Oct 25 · 5:00 PM EST</strong></div>
+        <div class="egg-board-stat"><span>Eastern cutoff</span><strong>Oct 25 · 5:00 PM Eastern</strong></div>
       </div>
       <div class="egg-board-list" data-board-list hidden></div>
-      <p class="egg-board-state" data-board-state="unavailable">Live standings are waiting for the public tracker connection.</p>
+      <p class="egg-board-state" data-board-state="unavailable">Standings are temporarily unavailable. Please check back shortly.</p>
       <p class="egg-board-updated" data-board-updated></p>
       <div class="egg-board-actions"><a class="back" href="https://discord.com/channels/1278830251383721984/1486740680662454483">Open the Discord Events channel →</a></div>
     </section>
@@ -165,10 +167,10 @@
         <p>One survivor will finish with the biggest clutch in Chernarus.</p>
       </div>
       <div class="dragon-hunt-copy">
-        <p>Collect dragon eggs spawning across Chernarus. Every egg you find adds to your collection and brings you closer to the top.</p>
-        <p><strong>The winner is the individual player who collects the most dragon eggs.</strong></p>
+        <p>Only successful turn-ins count. Collecting or holding a Dragon Egg does not add points.</p>
+        <p><strong>Bring the eggs to Sir Scrambles and SELL them through his trader menu. The $0 sale is intentional; one successfully turned-in egg equals one point.</strong></p>
       </div>
-      <p>This is a separate egg-collection competition from the completed Dragon Hunting Season trophy competition. The trophy hunt is over; this flash event is all about the eggs.</p>
+      <p>This is a separate egg-collection competition from the completed Dragon Hunting Season trophy competition. The highest successful turn-in total wins. Ties go to whoever reached the tied total first.</p>
     </section>
 
 
@@ -181,14 +183,14 @@
         <p>Keeper of Eggs. Knight of questionable breakfast decisions.</p>
       </div>
       <div class="dragon-hunt-copy">
-        <p>Find <strong>Sir Scrambles, Keeper of Eggs</strong>, inside <strong>Devil’s Castle</strong> in Chernarus at <strong>X 6912.69 / Z 11430.20</strong>. He is a male knight in chainmail, carrying a sword and guarding the fastest route to the leaderboard.</p>
+        <p><strong>Sir Scrambles, Keeper of Eggs</strong>, waits inside <strong>Devil’s Castle</strong> in Chernarus at <strong>X 6912.69 / Z 11430.20</strong>. He cuts a ridiculous figure: sword in hand, chainmail clattering, and every egg counted toward his breakfast empire.</p>
         <p><strong>Turn-in:</strong> Sell Dragon Eggs through his trader menu. The <strong>$0 sale is intentional</strong>. Every successfully turned-in egg equals <strong>one point</strong>.</p>
       </div>
       <div class="egg-rules">
         <div class="egg-rule"><strong>Ties</strong><p>If totals are tied, the player who reached that total first takes the higher position.</p></div>
-        <div class="egg-rule"><strong>Steam linking</strong><p>Turn-ins count before Steam linking. Link later and your existing points stay with you.</p></div>
+        <div class="egg-rule"><strong>Steam linking</strong><p>Turn-ins count before Steam linking under your in-game name. Linking later preserves the points already recorded.</p></div>
         <div class="egg-rule"><strong>Prize delivery</strong><p>Use <strong>/giveaway-account link</strong> in Discord. Linking is required for automatic prize delivery.</p></div>
-        <div class="egg-rule"><strong>Final delivery</strong><p>The winner’s promo code will be delivered through Discord once the prize is ready.</p></div>
+        <div class="egg-rule"><strong>Final delivery</strong><p>The winner’s custom promo code is delivered through Discord DM once the prize is ready.</p></div>
       </div>
       <p style="margin:20px 0 0;color:var(--muted);line-height:1.7">Sir Scrambles once attempted a dragon omelette with a sword and no fire insurance. He was banned from every kitchen in Chernarus. Now he collects egg tribute to rebuild his breakfast empire. The dragons declined to comment; his accountant fled.</p>
     </section>
@@ -199,16 +201,14 @@
           <div class="project-label">Featured reward</div>
           <h2>One juicy prize.</h2>
         </div>
-        <p>The biggest collection earns the featured winner’s reward.</p>
+        <p>The highest successful turn-in total wins. Ties go to whoever reached the tied total first.</p>
       </div>
       <div class="dragon-prize-grid">
         <article class="dragon-prize-card dragon-prize-card--first">
           <span class="dragon-place">🏆 Winner’s reward</span>
-          <h3>BallerZ Loadout</h3>
-          <strong>A juicy BallerZ loadout</strong>
-          <div class="dragon-prize-label">Featured prize</div>
-          <p>For the individual survivor who collects the most dragon eggs before the deadline.</p>
-          <p>Advertised prize: a juicy BallerZ loadout. Its contents will be shared separately. The winner’s promo code will be delivered through Discord once the prize is ready.</p>
+          <h3>Juicy BallerZ loadout</h3>
+          <div class="dragon-prize-label">Advertised prize</div>
+          <p>For the player with the highest successful Dragon Egg turn-in total. The prize contents will be announced separately.</p>
         </article>
       </div>
     </section>
@@ -216,9 +216,9 @@
     <section class="dragon-closing">
       <div class="project-label">Dragon Egg Hunt // Flash Event</div>
       <h2>The Hunt Is On.</h2>
-      <p>Search the roads. Check the forests. Explore the places you usually rush past.</p>
-      <p>Every egg could be the one that puts you ahead.</p>
-      <p>Can you build the biggest clutch before <strong>Sunday, October 25, 2026, at 5:00 PM EST</strong>?</p>
+      <p>Collect Dragon Eggs across Chernarus, then bring them to Sir Scrambles inside Devil’s Castle and <strong>SELL</strong> them through his trader menu. The <strong>$0 sale is intentional</strong>, and only successful turn-ins count.</p>
+      <p>One successfully turned-in egg equals one point. The highest turn-in total wins; ties go to whoever reached the tied total first.</p>
+      <p>Can you build the biggest clutch before <strong>Sunday, October 25, 2026 at 5:00 PM Eastern.</strong>?</p>
       <p>Happy hunting, survivors. 🐉🔥🥚</p>
     </section>
   </main>
@@ -241,6 +241,24 @@
     const eggs = root.querySelector('[data-board-eggs]');
     const participants = root.querySelector('[data-board-participants]');
     let lastGood = null;
+
+    const countdown = document.querySelector('[data-egg-countdown]');
+    const cutoff = Date.parse(countdown?.dataset.cutoff || '');
+    const pad = value => String(value).padStart(2, '0');
+    const updateCountdown = () => {
+      if (!countdown || !Number.isFinite(cutoff)) return;
+      const remaining = cutoff - Date.now();
+      if (remaining <= 0) {
+        countdown.textContent = 'Turn-ins closed. Final standings are locked once the tracker settles.';
+        return;
+      }
+      const seconds = Math.floor(remaining / 1000);
+      const days = Math.floor(seconds / 86400);
+      const hours = Math.floor((seconds % 86400) / 3600);
+      const minutes = Math.floor((seconds % 3600) / 60);
+      const secs = seconds % 60;
+      countdown.textContent = (days ? days + 'd ' : '') + pad(hours) + 'h ' + pad(minutes) + 'm ' + pad(secs) + 's until turn-ins close';
+    };
 
     const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({
       '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
@@ -281,7 +299,7 @@
     };
     const load = async () => {
       if (!endpoint) {
-        if (!lastGood) setState('Live standings are waiting for the public tracker connection.', 'unavailable');
+        if (!lastGood) setState('Standings are temporarily unavailable. Please check back shortly.', 'unavailable');
         return;
       }
       try {
@@ -296,6 +314,8 @@
         else setState('Standings are temporarily unavailable. Please check back shortly.', 'unavailable');
       }
     };
+    updateCountdown();
+    window.setInterval(updateCountdown, 1000);
     load();
     window.setInterval(load, 30000);
   })();
