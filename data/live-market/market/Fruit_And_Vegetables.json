@@ -73,17 +73,6 @@
       "Variants": []
     },
     {
-      "ClassName": "potato",
-      "MaxPriceThreshold": 600,
-      "MinPriceThreshold": 600,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
       "ClassName": "tomato",
       "MaxPriceThreshold": 200,
       "MinPriceThreshold": 200,
