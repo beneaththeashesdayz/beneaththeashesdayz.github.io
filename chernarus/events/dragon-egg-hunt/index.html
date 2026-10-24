@@ -38,6 +38,60 @@
     .dragon-closing{margin:0 0 34px;padding:38px;border:1px solid #81533e;border-left:3px solid #e45d43;background:radial-gradient(circle at 86% 15%,rgba(228,93,67,.2),transparent 35%),linear-gradient(135deg,#251817,#141719);text-align:center}
     .dragon-closing h2{margin:11px 0 18px;color:#f4d7c4;font-size:clamp(2rem,5vw,4rem);text-transform:uppercase}
     .dragon-closing p{max-width:760px;margin:0 auto 20px;color:var(--muted);line-height:1.75}
+
+    .dragon-date small{color:#b9a79b;font-size:.78rem;letter-spacing:.04em;line-height:1.4}
+    .egg-board{position:relative;overflow:hidden;border-color:#8b6b3f;background:radial-gradient(circle at 92% 0,rgba(214,166,75,.2),transparent 34%),linear-gradient(145deg,#211b16,#111315)}
+    .egg-board::after{content:"🥚";position:absolute;right:22px;bottom:14px;font-size:clamp(3rem,8vw,5.5rem);opacity:.07;pointer-events:none;transform:rotate(-12deg)}
+    .egg-board-heading{align-items:flex-start;position:relative;z-index:1}
+    .egg-board-heading h2{color:#f4d7a2}
+    .egg-board-heading>p{max-width:420px}
+    .egg-board-status{display:inline-flex;align-items:center;gap:8px;margin:0 0 18px;padding:8px 11px;border:1px solid #765b39;background:#201a14;color:#e4c98d;font-size:.72rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+    .egg-board-status i{width:8px;height:8px;border-radius:50%;background:#d6a64b;box-shadow:0 0 12px rgba(214,166,75,.7)}
+    .egg-board-status[data-board-state="unavailable"]{color:#c6b8ad;border-color:#554941;background:#1a1817}
+    .egg-board-status[data-board-state="unavailable"] i{background:#9a8578;box-shadow:none}
+    .egg-board-status[data-board-state="stale"]{color:#f0bd72;border-color:#806037}
+    .egg-board-intro{position:relative;z-index:1;margin:0 0 18px;color:#d7c5b6;line-height:1.7}
+    .egg-board-meta{position:relative;z-index:1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:18px 0}
+    .egg-board-stat{min-width:0;padding:13px 14px;border:1px solid #574938;background:rgba(21,20,18,.78)}
+    .egg-board-stat span{display:block;color:#b7a08a;font-size:.66rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+    .egg-board-stat strong{display:block;margin-top:7px;color:#f3e0c1;font-size:1.1rem;line-height:1.3}
+    .egg-board-list{position:relative;z-index:1;border:1px solid #504235;background:rgba(15,16,17,.72)}
+    .egg-board-row{display:grid;grid-template-columns:58px minmax(0,1fr) 100px;align-items:center;gap:16px;padding:15px 16px;border-top:1px solid rgba(117,91,57,.34)}
+    .egg-board-row:first-child{border-top:0}
+    .egg-board-row:nth-child(1){background:linear-gradient(90deg,rgba(213,166,75,.18),transparent)}
+    .egg-board-row:nth-child(2){background:linear-gradient(90deg,rgba(176,169,157,.1),transparent)}
+    .egg-board-row:nth-child(3){background:linear-gradient(90deg,rgba(164,106,62,.11),transparent)}
+    .egg-board-rank{color:#d6a64b;font-size:1.3rem;font-weight:900;text-align:center}
+    .egg-board-name{min-width:0;color:#f1e7dc;font-size:1rem;font-weight:800;overflow-wrap:anywhere}
+    .egg-board-eggs{color:#e4c98d;font-size:.9rem;font-weight:900;text-align:right;white-space:nowrap}
+    .egg-board-state,.egg-board-updated{position:relative;z-index:1;color:#b9a79b;line-height:1.6}
+    .egg-board-state{margin:15px 0 0}
+    .egg-board-state[data-board-state="empty"]{color:#e4c98d}
+    .egg-board-updated{margin:6px 0 0;font-size:.78rem}
+    .egg-board-actions{position:relative;z-index:1;margin-top:18px}
+    .egg-board-actions .back{color:#f1c687}
+    .egg-empty{padding:18px;color:#c9b9aa;text-align:center}
+    .egg-collector{border-color:#76513e;background:linear-gradient(145deg,#1d1917,#111315)}
+    .egg-collector .dragon-hunt-copy{margin-bottom:20px}
+    .egg-rules{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+    .egg-rule{padding:15px;border:1px solid #51443a;background:#1a1817}
+    .egg-rule strong{display:block;margin-bottom:5px;color:#efc887}
+    .egg-rule p{margin:0;color:#c9b9aa;line-height:1.6}
+    .dragon-prize-card p+p{margin-top:12px}
+    @media(max-width:760px){
+      .dragon-date small{font-size:.74rem}
+      .egg-board{padding:21px 18px}
+      .egg-board::after{right:9px;bottom:10px}
+      .egg-board-heading{display:block}
+      .egg-board-status{margin-top:14px}
+      .egg-board-meta{grid-template-columns:1fr 1fr}
+      .egg-board-stat:last-child{grid-column:1/-1}
+      .egg-board-row{grid-template-columns:44px minmax(0,1fr);gap:12px;padding:14px 12px}
+      .egg-board-eggs{grid-column:2;text-align:left}
+      .egg-rules{grid-template-columns:1fr}
+      .egg-collector .dragon-hunt-copy{margin-bottom:16px}
+    }
+
     @media(max-width:760px){
       .dragon-hero{padding:28px 23px}
       .dragon-hero-top{display:block}
@@ -76,8 +130,30 @@
       <p>Dragon eggs are spawning across Chernarus, and this flash event is a race to build the biggest collection before the deadline. Explore widely, keep your eyes open, and see how many you can gather.</p>
       <div class="dragon-date">
         <span>Deadline</span>
-        <strong>Sunday, October 25, 2026, at 5:00 PM EST</strong>
+        <strong>Sunday, October 25, 2026, at 5:00 PM EST</strong><small>21:00 UTC · America/New_York</small>
       </div>
+    </section>
+
+
+    <section class="dragon-section egg-board" id="standings" data-egg-standings data-standings-endpoint="">
+      <div class="dragon-section-heading egg-board-heading">
+        <div>
+          <div class="project-label">CHERNARUS ONLY</div>
+          <h2>Live standings.</h2>
+        </div>
+        <p>One egg. One point. The biggest clutch takes the prize.</p>
+      </div>
+      <div class="egg-board-status" data-board-status="unavailable"><i></i> <span>Tracker connection pending</span></div>
+      <p class="egg-board-intro">This public board shows only event standings. No private account details, receipts, or staff data appear here.</p>
+      <div class="egg-board-meta">
+        <div class="egg-board-stat"><span>Eggs turned in</span><strong data-board-eggs>—</strong></div>
+        <div class="egg-board-stat"><span>Egg hunters</span><strong data-board-participants>—</strong></div>
+        <div class="egg-board-stat"><span>Eastern cutoff</span><strong>Oct 25 · 5:00 PM EST</strong></div>
+      </div>
+      <div class="egg-board-list" data-board-list hidden></div>
+      <p class="egg-board-state" data-board-state="unavailable">Live standings are waiting for the public tracker connection.</p>
+      <p class="egg-board-updated" data-board-updated></p>
+      <div class="egg-board-actions"><a class="back" href="https://discord.com/channels/1278830251383721984/1486740680662454483">Open the Discord Events channel →</a></div>
     </section>
 
     <section class="dragon-section">
@@ -95,6 +171,28 @@
       <p>This is a separate egg-collection competition from the completed Dragon Hunting Season trophy competition. The trophy hunt is over; this flash event is all about the eggs.</p>
     </section>
 
+
+    <section class="dragon-section egg-collector">
+      <div class="dragon-section-heading">
+        <div>
+          <div class="project-label">Meet the collector</div>
+          <h2>Sir Scrambles.</h2>
+        </div>
+        <p>Keeper of Eggs. Knight of questionable breakfast decisions.</p>
+      </div>
+      <div class="dragon-hunt-copy">
+        <p>Find <strong>Sir Scrambles, Keeper of Eggs</strong>, inside <strong>Devil’s Castle</strong> in Chernarus at <strong>X 6912.69 / Z 11430.20</strong>. He is a male knight in chainmail, carrying a sword and guarding the fastest route to the leaderboard.</p>
+        <p><strong>Turn-in:</strong> Sell Dragon Eggs through his trader menu. The <strong>$0 sale is intentional</strong>. Every successfully turned-in egg equals <strong>one point</strong>.</p>
+      </div>
+      <div class="egg-rules">
+        <div class="egg-rule"><strong>Ties</strong><p>If totals are tied, the player who reached that total first takes the higher position.</p></div>
+        <div class="egg-rule"><strong>Steam linking</strong><p>Turn-ins count before Steam linking. Link later and your existing points stay with you.</p></div>
+        <div class="egg-rule"><strong>Prize delivery</strong><p>Use <strong>/giveaway-account link</strong> in Discord. Linking is required for automatic prize delivery.</p></div>
+        <div class="egg-rule"><strong>Final delivery</strong><p>The winner’s promo code will be delivered through Discord once the prize is ready.</p></div>
+      </div>
+      <p style="margin:20px 0 0;color:var(--muted);line-height:1.7">Sir Scrambles once attempted a dragon omelette with a sword and no fire insurance. He was banned from every kitchen in Chernarus. Now he collects egg tribute to rebuild his breakfast empire. The dragons declined to comment; his accountant fled.</p>
+    </section>
+
     <section class="dragon-section">
       <div class="dragon-section-heading">
         <div>
@@ -110,6 +208,7 @@
           <strong>A juicy BallerZ loadout</strong>
           <div class="dragon-prize-label">Featured prize</div>
           <p>For the individual survivor who collects the most dragon eggs before the deadline.</p>
+          <p>Advertised prize: a juicy BallerZ loadout. Its contents will be shared separately. The winner’s promo code will be delivered through Discord once the prize is ready.</p>
         </article>
       </div>
     </section>
@@ -129,5 +228,78 @@
   </footer>
 
   <script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
+
+  <script>
+  (() => {
+    const root = document.querySelector('[data-egg-standings]');
+    if (!root) return;
+    const endpoint = (root.dataset.standingsEndpoint || '').trim();
+    const list = root.querySelector('[data-board-list]');
+    const state = root.querySelector('[data-board-state]');
+    const status = root.querySelector('[data-board-status]');
+    const updated = root.querySelector('[data-board-updated]');
+    const eggs = root.querySelector('[data-board-eggs]');
+    const participants = root.querySelector('[data-board-participants]');
+    let lastGood = null;
+
+    const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, character => ({
+      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+    }[character]));
+    const formatNumber = value => Number(value || 0).toLocaleString('en-US');
+    const formatUpdated = value => {
+      const time = Number(value);
+      if (!Number.isFinite(time)) return '';
+      return new Intl.DateTimeFormat('en-US', {
+        timeZone:'America/New_York', dateStyle:'medium', timeStyle:'short'
+      }).format(new Date(time)) + ' ET';
+    };
+    const setState = (message, kind='unavailable') => {
+      state.textContent = message;
+      state.dataset.boardState = kind;
+      status.dataset.boardState = kind;
+      status.querySelector('span').textContent = kind === 'stale' ? 'Showing last update' : kind === 'empty' ? 'No turn-ins yet' : 'Unavailable';
+    };
+    const render = (payload, stale=false) => {
+      const rows = Array.isArray(payload.standings) ? payload.standings.filter(row => row && typeof row.name === 'string' && Number.isFinite(Number(row.eggs))) : [];
+      eggs.textContent = formatNumber(payload.totalEggs);
+      participants.textContent = formatNumber(payload.participantCount);
+      if (rows.length) {
+        list.innerHTML = rows.map((row, index) => {
+          const rank = Number(row.rank) || index + 1;
+          const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : '#' + rank;
+          const count = Number(row.eggs);
+          return '<div class="egg-board-row"><div class="egg-board-rank" aria-label="Rank ' + rank + '">' + medal + '</div><div class="egg-board-name">' + escapeHtml(row.name) + '</div><div class="egg-board-eggs">' + formatNumber(count) + ' egg' + (count === 1 ? '' : 's') + '</div></div>';
+        }).join('');
+        list.hidden = false;
+        setState(stale ? 'The tracker is temporarily unavailable. Showing the last successful standings.' : (payload.status === 'final' ? 'Final standings are frozen.' : 'Standings update automatically about every 30 seconds.'), stale ? 'stale' : 'live');
+      } else {
+        list.innerHTML = '<div class="egg-empty">No eligible egg turn-ins have been recorded yet.</div>';
+        list.hidden = false;
+        setState('The leaderboard is ready for its first eligible turn-in.', 'empty');
+      }
+      updated.textContent = formatUpdated(payload.lastUpdated) ? 'Last updated ' + formatUpdated(payload.lastUpdated) + (stale ? ' · tracker temporarily unavailable' : '') : '';
+    };
+    const load = async () => {
+      if (!endpoint) {
+        if (!lastGood) setState('Live standings are waiting for the public tracker connection.', 'unavailable');
+        return;
+      }
+      try {
+        const response = await fetch(endpoint, {cache:'no-store', headers:{Accept:'application/json'}});
+        if (!response.ok) throw new Error('standings ' + response.status);
+        const payload = await response.json();
+        if (payload.event !== 'dragon-egg-hunt' || payload.server !== 'chernarus' || !Array.isArray(payload.standings)) throw new Error('unexpected standings payload');
+        lastGood = payload;
+        render(payload);
+      } catch (error) {
+        if (lastGood) render(lastGood, true);
+        else setState('Standings are temporarily unavailable. Please check back shortly.', 'unavailable');
+      }
+    };
+    load();
+    window.setInterval(load, 30000);
+  })();
+  </script>
+
 </body>
 </html>
