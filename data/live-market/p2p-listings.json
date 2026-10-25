@@ -2,9 +2,26 @@
   "source": "Beneath the Ashes Chernarus live P2P market",
   "status": "ok",
   "note": null,
-  "syncedAt": "2026-10-25T13:22:43.529171+00:00",
+  "syncedAt": "2026-10-25T14:21:44.494170+00:00",
   "maxListingTimeSeconds": 604800,
   "listingFeePercent": 10,
-  "listingCount": 0,
-  "listings": []
+  "listingCount": 1,
+  "listings": [
+    {
+      "key": "8448807644aa6733",
+      "traderId": 1,
+      "name": "Ish Halloween Jungle Boots 13",
+      "className": "IshHalloween_JungleBoots_13",
+      "skinName": null,
+      "seller": "Butt_Muncher_74",
+      "price": 2500,
+      "listedAt": "2026-10-25T14:03:07+00:00",
+      "expiresAt": "2026-11-01T14:03:07+00:00",
+      "healthLevel": 0,
+      "quantity": 0.4000000059604645,
+      "quantityType": 64,
+      "includedItemCount": 0,
+      "includedItems": []
+    }
+  ]
 }
