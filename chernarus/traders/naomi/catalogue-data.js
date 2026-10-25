@@ -1,6 +1,6 @@
 window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyback:true,inheritedSellPercent:50,buybackExcludedCategories:['Gardening'],items:[
-{name:'Szeffood Canempty',className:'szeffood_canempty',category:'Canning Supplies',mode:'buy',price:300,sellPrice:150},
-{name:'Szeffood Emty Jar',className:'szeffood_emty_jar',category:'Canning Supplies',mode:'buy',price:250,sellPrice:125},
+{name:'Szeffood Canempty',className:'szeffood_canempty',category:'Canning Supplies',mode:'sell',price:300},
+{name:'Szeffood Emty Jar',className:'szeffood_emty_jar',category:'Canning Supplies',mode:'sell',price:250},
 {name:'Szeffood Ocet',className:'szeffood_ocet',category:'Canning Supplies',mode:'buy',price:2500,sellPrice:1250},
 {name:'Szeffood Salt',className:'szeffood_salt',category:'Canning Supplies',mode:'sell',price:2000},
 {name:'Szeffood Sugar',className:'szeffood_sugar',category:'Canning Supplies',mode:'sell',price:2000},
