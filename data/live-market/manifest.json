@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-10-26T21:20:24.654936+00:00",
+  "syncedAt": "2026-10-26T22:20:33.180911+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 272,
+  "marketFileCount": 273,
   "traderFileCount": 25,
   "traderZoneFileCount": 19,
   "files": [
@@ -964,7 +964,7 @@
     {
       "group": "market",
       "filename": "Eyewear.json",
-      "sha256": "f2f62b6a45ac52d3cd283d0ac5c4c913923e06896a42cdd46a4b0c0e35dd780c",
+      "sha256": "665b50bede2209dccbb9daedf657ca7cbfc15084ae4aed2a6b6640ddbad71598",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1419,7 +1419,7 @@
     {
       "group": "market",
       "filename": "Melee_Weapons.json",
-      "sha256": "7f26d040c96e7c3a2fb23fcaa250d87e5577d964454e9bc1068951c5693dc6ab",
+      "sha256": "c571cfd006386ebe84e6f8a82e2d2e0d803a196c63ba6f6c38736f7bd43e520b",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1887,6 +1887,13 @@
     },
     {
       "group": "market",
+      "filename": "Vanilla_Halloween_Items.json",
+      "sha256": "7648ffe55bc0b7722ec1d5d0dc628e4624f45017ea6fe2ad4397664eadd94570",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
       "filename": "Vests.json",
       "sha256": "858072d52732bbd565b9e80fe96800d38157dab4f73e568b78b3ad58275a9271",
       "topLevelType": "object",
@@ -1944,7 +1951,7 @@
     {
       "group": "traders",
       "filename": "Clothing.json",
-      "sha256": "807eeb38ae1480787aa1a1d6f7bd96708b501ffb8e02b57347b779d0c48ff80c",
+      "sha256": "09410d838905a9167479be10e9b497d776c82e271732614f80824dd59e6e057e",
       "topLevelType": "object",
       "entryCount": 13
     },

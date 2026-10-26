@@ -43,9 +43,7 @@
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": [
-        "broom_birch"
-      ]
+      "Variants": []
     },
     {
       "ClassName": "iceaxe",

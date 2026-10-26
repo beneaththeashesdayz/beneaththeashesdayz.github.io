@@ -43,7 +43,8 @@
     "MMG_HalfMega:2",
     "MMG_Mega:2",
     "LOFTD_Gear:1",
-    "ATF_Gear:2"
+    "ATF_Gear:2",
+    "Vanilla_Halloween_Items:2"
   ],
   "Items": {
     "LeatherSewingKit": 1,

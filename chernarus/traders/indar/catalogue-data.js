@@ -336,7 +336,6 @@ window.traderCatalogue={traderName:'Indar',currency:'USD',items:[
 {name:'Brassknuckles Dull',className:'brassknuckles_dull',category:'Vanilla Melee Weapons',traderSells:true,traderBuys:true,buyPrice:428,sellPrice:214},
 {name:'Brassknuckles Shiny',className:'brassknuckles_shiny',category:'Vanilla Melee Weapons',traderSells:true,traderBuys:true,buyPrice:428,sellPrice:214},
 {name:'Broom',className:'broom',category:'Vanilla Melee Weapons',traderSells:true,traderBuys:true,buyPrice:293,sellPrice:146},
-{name:'Broom Birch',className:'broom_birch',category:'Vanilla Melee Weapons',traderSells:true,traderBuys:true,buyPrice:293,sellPrice:146},
 {name:'Iceaxe',className:'iceaxe',category:'Vanilla Melee Weapons',traderSells:true,traderBuys:true,buyPrice:1313,sellPrice:656},
 {name:'Lugwrench',className:'lugwrench',category:'Vanilla Melee Weapons',traderSells:true,traderBuys:true,buyPrice:728,sellPrice:364},
 {name:'Mace',className:'mace',category:'Vanilla Melee Weapons',traderSells:true,traderBuys:true,buyPrice:713,sellPrice:356},

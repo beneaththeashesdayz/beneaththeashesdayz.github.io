@@ -29,7 +29,7 @@
       "Variants": []
     },
     {
-      "ClassName": "eyemask_black",
+      "ClassName": "eyemask_christmas",
       "MaxPriceThreshold": 250,
       "MinPriceThreshold": 250,
       "SellPricePercent": -1,
@@ -38,13 +38,8 @@
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
-        "eyemask_blue",
-        "eyemask_christmas",
-        "eyemask_dead",
         "eyemask_newyears",
-        "eyemask_red",
-        "eyemask_valentines",
-        "eyemask_yellow"
+        "eyemask_valentines"
       ]
     },
     {
