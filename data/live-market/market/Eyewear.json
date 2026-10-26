@@ -119,6 +119,28 @@
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
+    },
+    {
+      "ClassName": "dustgoggles_black",
+      "MaxPriceThreshold": 500,
+      "MinPriceThreshold": 500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "dustgoggles_transparent",
+      "MaxPriceThreshold": 500,
+      "MinPriceThreshold": 500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
     }
   ]
 }

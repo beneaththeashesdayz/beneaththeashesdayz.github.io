@@ -42,7 +42,8 @@
     "AJ_Pistols:1",
     "AJ_Submachine_Guns:1",
     "AJ_Rifles:1",
-    "AJ_Shotguns:1"
+    "AJ_Shotguns:1",
+    "DF_Weapons_LMG:2"
   ],
   "Items": {
     "aysa_antiairmissile": 1,

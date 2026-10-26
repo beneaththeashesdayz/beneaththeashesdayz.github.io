@@ -60,6 +60,17 @@
         "platecarrierpouches_camo",
         "platecarrierpouches_winter"
       ]
+    },
+    {
+      "ClassName": "platecarrierpouches_desert",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
     }
   ]
 }

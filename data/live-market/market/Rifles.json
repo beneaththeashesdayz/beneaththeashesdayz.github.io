@@ -147,6 +147,39 @@
         "winchester70_black",
         "winchester70_green"
       ]
+    },
+    {
+      "ClassName": "cz527_desert",
+      "MaxPriceThreshold": 2920,
+      "MinPriceThreshold": 2920,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "leeenfield",
+      "MaxPriceThreshold": 3075,
+      "MinPriceThreshold": 3075,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "sks_desert",
+      "MaxPriceThreshold": 2995,
+      "MinPriceThreshold": 2995,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
     }
   ]
 }

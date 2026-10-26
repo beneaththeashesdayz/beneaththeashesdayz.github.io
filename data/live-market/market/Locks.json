@@ -3,11 +3,44 @@
   "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_LOCKS",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": [
     {
       "ClassName": "codelock",
+      "MaxPriceThreshold": 36555,
+      "MinPriceThreshold": 36555,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "combinationlock",
+      "MaxPriceThreshold": 36555,
+      "MinPriceThreshold": 36555,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "combinationlock4",
+      "MaxPriceThreshold": 36555,
+      "MinPriceThreshold": 36555,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "digitalcodelock",
       "MaxPriceThreshold": 36555,
       "MinPriceThreshold": 36555,
       "SellPricePercent": -1,

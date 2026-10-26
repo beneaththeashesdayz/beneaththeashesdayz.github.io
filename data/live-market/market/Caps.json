@@ -114,7 +114,7 @@
       "ClassName": "MilitaryCap_BDU",
       "MaxPriceThreshold": 300,
       "MinPriceThreshold": 300,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
       "QuantityPercent": -1,
@@ -123,6 +123,28 @@
         "MilitaryCap_Woodland",
         "MilitaryCap_Desert"
       ]
+    },
+    {
+      "ClassName": "obrcap_beige",
+      "MaxPriceThreshold": 300,
+      "MinPriceThreshold": 300,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "obrcap_olive",
+      "MaxPriceThreshold": 300,
+      "MinPriceThreshold": 300,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
     }
   ]
 }

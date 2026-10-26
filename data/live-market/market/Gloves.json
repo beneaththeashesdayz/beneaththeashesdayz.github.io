@@ -139,6 +139,28 @@
         "tacticalgloves_black",
         "tacticalgloves_green"
       ]
+    },
+    {
+      "ClassName": "nbcglovesgray",
+      "MaxPriceThreshold": 100,
+      "MinPriceThreshold": 100,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "nbcglovesyellow",
+      "MaxPriceThreshold": 100,
+      "MinPriceThreshold": 100,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
     }
   ]
 }

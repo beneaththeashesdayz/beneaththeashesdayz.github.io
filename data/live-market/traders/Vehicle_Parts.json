@@ -53,7 +53,8 @@
     "Toyota_Supra_Parts:1",
     "Virtual_Garages:1",
     "Underglow:1",
-    "Car_Keys:1"
+    "Car_Keys:1",
+    "Car_Parts:1"
   ],
   "Items": {
     "batterycharger": 1,

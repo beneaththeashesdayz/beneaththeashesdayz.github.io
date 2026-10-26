@@ -43,7 +43,8 @@
     "DF_Weapons_SMG:2",
     "DF_Weapons_Sniper:2",
     "AJ_BlackMarket_Weapons:2",
-    "AJ_BlackMarket_Endgame:2"
+    "AJ_BlackMarket_Endgame:2",
+    "DF_Weapons_LMG:2"
   ],
   "Items": {
     "AYSA_blackBox": 2,

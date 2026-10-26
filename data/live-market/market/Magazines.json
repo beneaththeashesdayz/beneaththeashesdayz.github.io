@@ -540,6 +540,50 @@
       "Variants": [
         "Mag_SCARH_20Rnd_Black"
       ]
+    },
+    {
+      "ClassName": "mag_akm_30rnd_gold",
+      "MaxPriceThreshold": 1050,
+      "MinPriceThreshold": 1050,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mag_leeenfield_10rnd",
+      "MaxPriceThreshold": 650,
+      "MinPriceThreshold": 650,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mag_luger_8rnd",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "mag_mp18_drum32rnd",
+      "MaxPriceThreshold": 780,
+      "MinPriceThreshold": 780,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
     }
   ]
 }

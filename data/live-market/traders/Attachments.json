@@ -56,7 +56,9 @@
     "AJ_Pistol_Grips:1",
     "AJ_Stocks:1",
     "AJ_Suppressors:1",
-    "AJ_Triggers:1"
+    "AJ_Triggers:1",
+    "Ammo_Boxes:1",
+    "MYDF_Ammo_Boxes:1"
   ],
   "Items": {
     "weaponcleaningkit": 0,

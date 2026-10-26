@@ -4,7 +4,7 @@
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
   "IsExchange": 0,
-  "InitStockPercent": 100.0,
+  "InitStockPercent": 100,
   "Items": [
     {
       "ClassName": "My_DF_Weapons_Attachments_handguard_AK100polymer",
@@ -682,6 +682,17 @@
       "Variants": [
         "My_DF_Weapons_Attachments_handguard_RM277_Long2"
       ]
+    },
+    {
+      "ClassName": "My_DF_Weapons_Attachments_handguard_AK_CAA_RS47_PP19",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
     }
   ]
 }

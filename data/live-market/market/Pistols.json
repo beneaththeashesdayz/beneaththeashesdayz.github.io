@@ -173,6 +173,39 @@
         "mag_p1_8rnd"
       ],
       "Variants": []
+    },
+    {
+      "ClassName": "magnum_gold",
+      "MaxPriceThreshold": 2895,
+      "MinPriceThreshold": 2895,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "glock19_tan",
+      "MaxPriceThreshold": 3090,
+      "MinPriceThreshold": 3090,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "luger",
+      "MaxPriceThreshold": 2995,
+      "MinPriceThreshold": 2995,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1000,
+      "MinStockThreshold": 0,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
     }
   ]
 }
