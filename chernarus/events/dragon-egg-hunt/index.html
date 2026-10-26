@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Dragon Egg Hunt | Flash Event | Beneath the Ashes</title>
-  <meta name="description" content="Collect Dragon Eggs across Chernarus, sell them to Sir Scrambles inside Devil’s Castle, and compete for the highest successful turn-in total before Sunday, October 25, 2026 at 5:00 PM Eastern.">
+  <meta name="description" content="Collect Dragon Eggs across Chernarus, sell them to Sir Scrambles inside Devil’s Castle, and compete for the highest successful turn-in total through Sunday, October 25, 2026 at 5:00 PM Eastern. The event is now closed.">
   <link rel="stylesheet" href="../../../styles.css?v=events-39">
   <style>
     .dragon-event-page{padding-bottom:18px}
@@ -124,15 +124,15 @@
     <section class="dragon-hero">
       <div class="dragon-hero-top">
         <div class="project-label">Flash Event // Chernarus</div>
-        <div class="event-status event-status-live"><i></i> LIVE EVENT</div>
+        <div class="event-status event-status-closed"><i></i> CLOSED EVENT</div>
       </div>
       <h1>Dragon Egg<br><span>Hunt</span></h1>
       <p class="dragon-hero-lead">🐉 The skies are busy. The ground is hiding secrets. 🥚</p>
-      <p>Dragon Eggs are spawning across Chernarus. Bring them to Sir Scrambles, Keeper of Eggs, inside Devil’s Castle at <strong>X 6912.69 / Z 11430.20</strong>, then <strong>SELL</strong> them through his trader menu to turn them in. A <strong>$0 sale is intentional</strong>; one successfully turned-in egg equals one point.</p>
+      <p>The Dragon Egg Hunt has ended. During the event, Dragon Eggs spawned across Chernarus. Bring them to Sir Scrambles, Keeper of Eggs, inside Devil’s Castle at <strong>X 6912.69 / Z 11430.20</strong>, then <strong>SELL</strong> them through his trader menu to turn them in. A <strong>$0 sale is intentional</strong>; one successfully turned-in egg equals one point.</p>
       <div class="dragon-date">
-        <span>Deadline</span>
+        <span>Final cutoff</span>
         <strong>Sunday, October 25, 2026 at 5:00 PM Eastern.</strong><small>UTC cutoff · 2026-10-25 21:00 · America/New_York</small>
-        <div class="egg-countdown" data-egg-countdown data-cutoff="2026-10-25T21:00:00Z">Turn-ins close at the cutoff shown above.</div>
+        <div class="egg-countdown" data-egg-countdown data-cutoff="2026-10-25T21:00:00Z">Turn-ins are closed. Final standings are shown below.</div>
       </div>
     </section>
 
@@ -141,11 +141,11 @@
       <div class="dragon-section-heading egg-board-heading">
         <div>
           <div class="project-label">CHERNARUS ONLY</div>
-          <h2>Live standings.</h2>
+          <h2>Final standings.</h2>
         </div>
-        <p>One egg. One point. The biggest clutch takes the prize.</p>
+        <p>One egg. One point. The final clutch decides the prize.</p>
       </div>
-      <div class="egg-board-status" data-board-status="unavailable"><i></i> <span>Tracker connection pending</span></div>
+      <div class="egg-board-status" data-board-status="final"><i></i> <span>Final standings</span></div>
       <p class="egg-board-intro">Only successfully turned-in Dragon Eggs appear here. Collecting or holding an egg does not add points.</p>
       <div class="egg-board-meta">
         <div class="egg-board-stat"><span>Eggs turned in</span><strong data-board-eggs>—</strong></div>
@@ -153,7 +153,7 @@
         <div class="egg-board-stat"><span>Eastern cutoff</span><strong>Oct 25 · 5:00 PM Eastern</strong></div>
       </div>
       <div class="egg-board-list" data-board-list hidden></div>
-      <p class="egg-board-state" data-board-state="unavailable">Standings are temporarily unavailable. Please check back shortly.</p>
+      <p class="egg-board-state" data-board-state="final">Final standings are loading.</p>
       <p class="egg-board-updated" data-board-updated></p>
       <div class="egg-board-actions"><a class="back" href="https://discord.com/channels/1278830251383721984/1486740680662454483">Open the Discord Events channel →</a></div>
     </section>
@@ -215,10 +215,10 @@
 
     <section class="dragon-closing">
       <div class="project-label">Dragon Egg Hunt // Flash Event</div>
-      <h2>The Hunt Is On.</h2>
+      <h2>The Hunt Is Over.</h2>
       <p>Collect Dragon Eggs across Chernarus, then bring them to Sir Scrambles inside Devil’s Castle and <strong>SELL</strong> them through his trader menu. The <strong>$0 sale is intentional</strong>, and only successful turn-ins count.</p>
       <p>One successfully turned-in egg equals one point. The highest turn-in total wins; ties go to whoever reached the tied total first.</p>
-      <p>Can you build the biggest clutch before <strong>Sunday, October 25, 2026 at 5:00 PM Eastern.</strong>?</p>
+      <p>The cutoff has passed. The final standings decide who takes the prize.</p>
       <p>Happy hunting, survivors. 🐉🔥🥚</p>
     </section>
   </main>
@@ -275,12 +275,13 @@
       state.textContent = message;
       state.dataset.boardState = kind;
       status.dataset.boardState = kind;
-      status.querySelector('span').textContent = kind === 'stale' ? 'Showing last update' : kind === 'empty' ? 'No turn-ins yet' : 'Unavailable';
+      status.querySelector('span').textContent = kind === 'stale' ? 'Showing last update' : kind === 'empty' ? 'No turn-ins yet' : kind === 'final' ? 'Final standings' : 'Unavailable';
     };
     const render = (payload, stale=false) => {
       const rows = Array.isArray(payload.standings) ? payload.standings.filter(row => row && typeof row.name === 'string' && Number.isFinite(Number(row.eggs))) : [];
       eggs.textContent = formatNumber(payload.totalEggs);
       participants.textContent = formatNumber(payload.participantCount);
+      const final = Date.now() >= cutoff || payload.status === 'final' || payload.status === 'closed';
       if (rows.length) {
         list.innerHTML = rows.map((row, index) => {
           const rank = Number(row.rank) || index + 1;
@@ -289,11 +290,11 @@
           return '<div class="egg-board-row"><div class="egg-board-rank" aria-label="Rank ' + rank + '">' + medal + '</div><div class="egg-board-name">' + escapeHtml(row.name) + '</div><div class="egg-board-eggs">' + formatNumber(count) + ' egg' + (count === 1 ? '' : 's') + '</div></div>';
         }).join('');
         list.hidden = false;
-        setState(stale ? 'The tracker is temporarily unavailable. Showing the last successful standings.' : (payload.status === 'final' ? 'Final standings are frozen.' : 'Standings update automatically about every 30 seconds.'), stale ? 'stale' : 'live');
+        setState(stale ? 'The tracker is temporarily unavailable. Showing the last successful standings.' : (final ? 'Final standings are frozen.' : 'Standings update automatically about every 30 seconds.'), stale ? 'stale' : final ? 'final' : 'live');
       } else {
         list.innerHTML = '<div class="egg-empty">No eligible egg turn-ins have been recorded yet.</div>';
         list.hidden = false;
-        setState('The leaderboard is ready for its first eligible turn-in.', 'empty');
+        setState(final ? 'Final standings are frozen.' : 'The leaderboard is ready for its first eligible turn-in.', final ? 'final' : 'empty');
       }
       updated.textContent = formatUpdated(payload.lastUpdated) ? 'Last updated ' + formatUpdated(payload.lastUpdated) + (stale ? ' · tracker temporarily unavailable' : '') : '';
     };
