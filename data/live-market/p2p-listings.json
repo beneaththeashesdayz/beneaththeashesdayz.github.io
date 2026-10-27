@@ -2,10 +2,10 @@
   "source": "Beneath the Ashes Chernarus live P2P market",
   "status": "ok",
   "note": null,
-  "syncedAt": "2026-10-27T14:19:06.935822+00:00",
+  "syncedAt": "2026-10-27T15:20:34.811098+00:00",
   "maxListingTimeSeconds": 604800,
   "listingFeePercent": 10,
-  "listingCount": 1,
+  "listingCount": 2,
   "listings": [
     {
       "key": "8448807644aa6733",
@@ -20,6 +20,22 @@
       "healthLevel": 0,
       "quantity": 0.4000000059604645,
       "quantityType": 64,
+      "includedItemCount": 0,
+      "includedItems": []
+    },
+    {
+      "key": "7807b9b0eb987640",
+      "traderId": 1,
+      "name": "I M7s Production Table Kit",
+      "className": "iM7s_ProductionTable_Kit",
+      "skinName": null,
+      "seller": "Alumi",
+      "price": 35000,
+      "listedAt": "2026-10-27T14:43:52+00:00",
+      "expiresAt": "2026-11-03T14:43:52+00:00",
+      "healthLevel": 0,
+      "quantity": 0.0,
+      "quantityType": 0,
       "includedItemCount": 0,
       "includedItems": []
     }
