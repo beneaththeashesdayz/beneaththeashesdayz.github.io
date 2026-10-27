@@ -8,8 +8,8 @@
   "Items": [
     {
       "ClassName": "AJW_R700",
-      "MaxPriceThreshold": 8500,
-      "MinPriceThreshold": 8500,
+      "MaxPriceThreshold": 16500,
+      "MinPriceThreshold": 16500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -21,8 +21,8 @@
     },
     {
       "ClassName": "AJW_Gewehr43_Wood",
-      "MaxPriceThreshold": 4000,
-      "MinPriceThreshold": 4000,
+      "MaxPriceThreshold": 7000,
+      "MinPriceThreshold": 7000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -32,8 +32,8 @@
     },
     {
       "ClassName": "AJW_SV98",
-      "MaxPriceThreshold": 9000,
-      "MinPriceThreshold": 9000,
+      "MaxPriceThreshold": 17500,
+      "MinPriceThreshold": 17500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -56,8 +56,8 @@
     },
     {
       "ClassName": "AJW_K98_Standard",
-      "MaxPriceThreshold": 4500,
-      "MinPriceThreshold": 4500,
+      "MaxPriceThreshold": 6500,
+      "MinPriceThreshold": 6500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -69,8 +69,8 @@
     },
     {
       "ClassName": "AJW_K98_Tac_Wood",
-      "MaxPriceThreshold": 5500,
-      "MinPriceThreshold": 5500,
+      "MaxPriceThreshold": 7000,
+      "MinPriceThreshold": 7000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -82,8 +82,8 @@
     },
     {
       "ClassName": "AJW_M40A3_Green",
-      "MaxPriceThreshold": 9000,
-      "MinPriceThreshold": 9000,
+      "MaxPriceThreshold": 18000,
+      "MinPriceThreshold": 18000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,

@@ -8,8 +8,8 @@
   "Items": [
     {
       "ClassName": "AJW_AKS74U_Black",
-      "MaxPriceThreshold": 6000,
-      "MinPriceThreshold": 6000,
+      "MaxPriceThreshold": 6500,
+      "MinPriceThreshold": 6500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -21,8 +21,8 @@
     },
     {
       "ClassName": "AJW_Vityaz_Black",
-      "MaxPriceThreshold": 4250,
-      "MinPriceThreshold": 4250,
+      "MaxPriceThreshold": 5000,
+      "MinPriceThreshold": 5000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -34,8 +34,8 @@
     },
     {
       "ClassName": "AJW_EVO3_Black",
-      "MaxPriceThreshold": 4000,
-      "MinPriceThreshold": 4000,
+      "MaxPriceThreshold": 5500,
+      "MinPriceThreshold": 5500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -50,8 +50,8 @@
     },
     {
       "ClassName": "AJW_PPSH_Classic",
-      "MaxPriceThreshold": 3750,
-      "MinPriceThreshold": 3750,
+      "MaxPriceThreshold": 5000,
+      "MinPriceThreshold": 5000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,

@@ -8,8 +8,8 @@
   "Items": [
     {
       "ClassName": "asval",
-      "MaxPriceThreshold": 7005,
-      "MinPriceThreshold": 7005,
+      "MaxPriceThreshold": 11000,
+      "MinPriceThreshold": 11000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -21,8 +21,8 @@
     },
     {
       "ClassName": "b95",
-      "MaxPriceThreshold": 4380,
-      "MinPriceThreshold": 4380,
+      "MaxPriceThreshold": 7500,
+      "MinPriceThreshold": 7500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -34,8 +34,8 @@
     },
     {
       "ClassName": "scout_chernarus",
-      "MaxPriceThreshold": 4040,
-      "MinPriceThreshold": 4040,
+      "MaxPriceThreshold": 15000,
+      "MinPriceThreshold": 15000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -50,8 +50,8 @@
     },
     {
       "ClassName": "sv98",
-      "MaxPriceThreshold": 4845,
-      "MinPriceThreshold": 4845,
+      "MaxPriceThreshold": 17500,
+      "MinPriceThreshold": 17500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -63,8 +63,8 @@
     },
     {
       "ClassName": "svd",
-      "MaxPriceThreshold": 5000,
-      "MinPriceThreshold": 5000,
+      "MaxPriceThreshold": 12500,
+      "MinPriceThreshold": 12500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -78,8 +78,8 @@
     },
     {
       "ClassName": "vikhr",
-      "MaxPriceThreshold": 6530,
-      "MinPriceThreshold": 6530,
+      "MaxPriceThreshold": 11000,
+      "MinPriceThreshold": 11000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -91,8 +91,8 @@
     },
     {
       "ClassName": "vss",
-      "MaxPriceThreshold": 6400,
-      "MinPriceThreshold": 6400,
+      "MaxPriceThreshold": 11000,
+      "MinPriceThreshold": 11000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,

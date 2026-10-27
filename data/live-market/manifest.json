@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-10-27T02:18:59.168922+00:00",
+  "syncedAt": "2026-10-27T03:22:01.267059+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -33,7 +33,7 @@
     {
       "group": "market",
       "filename": "AJ_Assault_Rifles.json",
-      "sha256": "72c6b05769d793322f3c66a228a1357e86e3707dfc9ebfe24f18b84868e289c8",
+      "sha256": "1c0c772eefbe0ba45ce34ecd2d571eeb30ac16e670dcdb18d3cddbd14b8e68de",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -61,14 +61,14 @@
     {
       "group": "market",
       "filename": "AJ_BlackMarket_Endgame.json",
-      "sha256": "5fb0cc9e083563ada8d311b7ff05b2e52477003a884ef1b2ded0a3e404480a91",
+      "sha256": "e25f40e6ce0e30561e8bb2dddb31b4ddfbc0d6146dff6af4bf4ba08f24a792b6",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_BlackMarket_Weapons.json",
-      "sha256": "91d6cb148f9c3d6d78201df7c0704adb41cd1d1d495a23a100660a744b689a92",
+      "sha256": "4821e74e0fa4425389a3116d4196d603f68d6d7ecaea1b67dba442da26e009d6",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -145,21 +145,21 @@
     {
       "group": "market",
       "filename": "AJ_Pistols.json",
-      "sha256": "2e67a5330e7b293a176080ba2d9ef2c8583ad11dced2fb78df6d495fd7115a52",
+      "sha256": "40bab0af018bda6f182f573745ee7ccbc7c6c016c477f91fe8952edf32f81ff6",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Rifles.json",
-      "sha256": "cae18da01a7d67219dcd8dd25143dd5dff343fbbce2ffe902a7352cbcc9f5c11",
+      "sha256": "b7027e4bdcf65164be9440acf75eb54ebba0634763accef4419a7cde8fe1f1da",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Shotguns.json",
-      "sha256": "03a600afc92bfc67da322fc310427699eaa558caf865a70162a8ad3e2aeaee52",
+      "sha256": "063562f14c81d8dddfd22b540ff83e4fe8b435c1ad22a44b479b18e3155dee47",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -173,7 +173,7 @@
     {
       "group": "market",
       "filename": "AJ_Submachine_Guns.json",
-      "sha256": "b4149c6f0b981605445916907edbd450d4d4393f6c646585f459ded24dd3b9d2",
+      "sha256": "e140e5981330d3965cd2df1f8d1837bd7e7fe518d509776e3bc893a66d89d10f",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -222,7 +222,7 @@
     {
       "group": "market",
       "filename": "Assault_Rifles.json",
-      "sha256": "7c36cb1ff2db1a0903992bd3d64bc16ead45cc87ce13cf3861502edea4a22b6e",
+      "sha256": "24e556b9ca0c783cb43950a46a4bee94972b16f68c1ad61a313753cd9ffa3179",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -530,7 +530,7 @@
     {
       "group": "market",
       "filename": "Crossbows.json",
-      "sha256": "f8ad6f98e5debe6fe2914821595b448f86545b95cdfb7bae2c2e35436a42038d",
+      "sha256": "4bccb4a2580a7d9a918c6c68ff0483c5978ddd6d3249959cc448c33cca974d36",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -565,7 +565,7 @@
     {
       "group": "market",
       "filename": "DF_Weapons_DMR.json",
-      "sha256": "0f006bb99b4349ced5e3c79384a997608cf83e0b1e1bb9383649af38f0ee9222",
+      "sha256": "5f9ff4e23ca4696532b05a9ed766804e92d3d64a08325c6508240f7a27d49897",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -600,7 +600,7 @@
     {
       "group": "market",
       "filename": "DF_Weapons_LMG.json",
-      "sha256": "37c5e8b1f71d5aa8dc19c664c602af5ffc55af16d8feb14d2abc59dcf8242318",
+      "sha256": "badbd3d8608adf37ba7cddf65d57def353fadce0246cbbd64a85b77598787c97",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -642,35 +642,35 @@
     {
       "group": "market",
       "filename": "DF_Weapons_Pistol.json",
-      "sha256": "20ee9b2714cd0682345902b04aca41536582c24bcf645a718cec329d7e3d8ffd",
+      "sha256": "89bbd37df6509762f50c98d392a9b3aa28f9d85d257e8041ac9c9959eed1c5fc",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "DF_Weapons_Rifle.json",
-      "sha256": "06dc28fa6b7358b21e9732e2244327d49510f658d04ab0b2e7b06d6c3ca6aade",
+      "sha256": "afd489b34562b58595643b573c62075022d51b8793d859f66dd95345a67e295b",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "DF_Weapons_Shotgun.json",
-      "sha256": "2701c96b3d62c863cc6aee67ca369ab678e6cf11beb93235a1230bdc8963fcdb",
+      "sha256": "e6f68f78aece4e0b1e184a0925a142520fdf25eebd86cec24d710317405d0346",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "DF_Weapons_SMG.json",
-      "sha256": "377478b4759856f1b98e313a6500592ba3b2c47e51c078542e9a0161bd69d122",
+      "sha256": "0f22d724b84b02009a6eca1d7ec8197375b11d6b74587d2ff7b43d803d245b69",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "DF_Weapons_Sniper.json",
-      "sha256": "175f214b7cea4c8ffeb3c8c1d565c953127fbca53cff22d8020ee21eb5eb52eb",
+      "sha256": "d977a4417601d231d201edbb08dd929fe0e96337bd2ff80ab3b297cbe8a4130d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -957,7 +957,7 @@
     {
       "group": "market",
       "filename": "Explosives_And_Grenades.json",
-      "sha256": "47536844b9a4d9e3c37703d44a32769789d869b46d336847c03e4b1193e0eaff",
+      "sha256": "929ffe7faa5b856439885d5174cc20284214a8d776cb7dcebaeb8e477fa332c7",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1314,14 +1314,14 @@
     {
       "group": "market",
       "filename": "Knifes.json",
-      "sha256": "c02723aa52acbc6206458bd22287900c4e449224dc5167f201afe0dd567889b6",
+      "sha256": "94a5256b41bacd7bdd933a6fe5c59e1086858a43ee59c11b78ea530985794c00",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Launchers_And_Ammo.json",
-      "sha256": "553b4df4b8d22f4f575c19ec01e5bb853d9fb1522306c15dc25fde699adfd990",
+      "sha256": "838ce377adc0e16bc1c0597082765945b4d5308e3f3572836c17f025c84cfc54",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1419,7 +1419,7 @@
     {
       "group": "market",
       "filename": "Melee_Weapons.json",
-      "sha256": "c571cfd006386ebe84e6f8a82e2d2e0d803a196c63ba6f6c38736f7bd43e520b",
+      "sha256": "022d970f4dbc4dfca0f71432ffdc4d6602b7165c20f421b6ebc69f30b97c73d7",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1552,7 +1552,7 @@
     {
       "group": "market",
       "filename": "MYDF_Melee.json",
-      "sha256": "3698f158a3674f1858b8f8176c1d4e90e97b99da89bba2b01906dc81b5f8d674",
+      "sha256": "1e475eacdafdd4b41925b843f54c4e98ca2add67270e22faa7b9a8059a6a2582",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1643,7 +1643,7 @@
     {
       "group": "market",
       "filename": "Pistols.json",
-      "sha256": "9c7d706cd7333d34b6dc8785324bf4047cd9f2b03a295b914067f75e90d0b5f5",
+      "sha256": "a441b23b83bdf6257a889a0e3ef1215d8dfcff5db3ed42edcfff7664014a407f",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1734,7 +1734,7 @@
     {
       "group": "market",
       "filename": "Rifles.json",
-      "sha256": "f931a08917a925c6b59c8dc1ce5d6d3517973012ca1e3b3c8de467b9706da0ce",
+      "sha256": "4f12297ee4394301072dd5573d62b88953c133a0791a71b34bc6ebaa016b2e68",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1783,7 +1783,7 @@
     {
       "group": "market",
       "filename": "Shotguns.json",
-      "sha256": "d94e12f1b48723c6de454b465c90c9830193c06bc3f369f25b96cd7dc185d378",
+      "sha256": "ec0e6ea57293f62568ed9507b6bf1e17609b3394e751476d778bc508b9821b56",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1804,7 +1804,7 @@
     {
       "group": "market",
       "filename": "Sniper_Rifles.json",
-      "sha256": "0eb7af7cd5edfc1db7e397b6d64a987df8c7df5e19b527d127d97c559e621f07",
+      "sha256": "f17209f56806339618062724dff1a13273b32d47ba99be707e6f57db30239181",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1818,7 +1818,7 @@
     {
       "group": "market",
       "filename": "Submachine_Guns.json",
-      "sha256": "ad640561c71fd0ffc07eb9a0ebc9bc74a99fbc63251200f602d49398ed0350a2",
+      "sha256": "263c2fecce3935474c62bfd2cbea94dedb62c660b1e99deb57ee694614172e9f",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1923,14 +1923,14 @@
     {
       "group": "traders",
       "filename": "Attachments.json",
-      "sha256": "2af61b659fbc75f3e00a6458280876edb00ce2334379c149fa5a6e6c872b4e60",
+      "sha256": "a2c1d6044da7a830d825b5499051000ae53d68234ed940f5efacea9f98e3c0be",
       "topLevelType": "object",
       "entryCount": 13
     },
     {
       "group": "traders",
       "filename": "Blackmarket.json",
-      "sha256": "6e34ff4a528734fee5b29cd32728e997c3081041a4582e2bfed98ca6b1622d96",
+      "sha256": "8f834ae4ec01b06a67acda7c926f37708c32c88fe00662f42c51188ec5adbfcc",
       "topLevelType": "object",
       "entryCount": 13
     },

@@ -8,8 +8,8 @@
   "Items": [
     {
       "ClassName": "aysa_antiairmissile",
-      "MaxPriceThreshold": 8750,
-      "MinPriceThreshold": 8750,
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
     },
     {
       "ClassName": "aysa_antiairquadlauncher",
-      "MaxPriceThreshold": 22500,
-      "MinPriceThreshold": 22500,
+      "MaxPriceThreshold": 40000,
+      "MinPriceThreshold": 40000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -30,8 +30,8 @@
     },
     {
       "ClassName": "aysa_blackbox",
-      "MaxPriceThreshold": 12500,
-      "MinPriceThreshold": 12500,
+      "MaxPriceThreshold": 15000,
+      "MinPriceThreshold": 15000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -41,8 +41,8 @@
     },
     {
       "ClassName": "aysa_missilemag",
-      "MaxPriceThreshold": 6250,
-      "MinPriceThreshold": 6250,
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -52,8 +52,8 @@
     },
     {
       "ClassName": "aysa_seekerscope",
-      "MaxPriceThreshold": 4250,
-      "MinPriceThreshold": 4250,
+      "MaxPriceThreshold": 7500,
+      "MinPriceThreshold": 7500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,

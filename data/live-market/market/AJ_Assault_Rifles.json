@@ -8,8 +8,8 @@
   "Items": [
     {
       "ClassName": "AJW_AK74M_Black",
-      "MaxPriceThreshold": 7000,
-      "MinPriceThreshold": 7000,
+      "MaxPriceThreshold": 7750,
+      "MinPriceThreshold": 7750,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -21,8 +21,8 @@
     },
     {
       "ClassName": "AJW_AK102_Black",
-      "MaxPriceThreshold": 7000,
-      "MinPriceThreshold": 7000,
+      "MaxPriceThreshold": 7750,
+      "MinPriceThreshold": 7750,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -34,8 +34,8 @@
     },
     {
       "ClassName": "AJW_AK103_Black",
-      "MaxPriceThreshold": 7000,
-      "MinPriceThreshold": 7000,
+      "MaxPriceThreshold": 8000,
+      "MinPriceThreshold": 8000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -47,8 +47,8 @@
     },
     {
       "ClassName": "AJW_AK104_Black",
-      "MaxPriceThreshold": 7000,
-      "MinPriceThreshold": 7000,
+      "MaxPriceThreshold": 7750,
+      "MinPriceThreshold": 7750,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -60,8 +60,8 @@
     },
     {
       "ClassName": "AJW_ACR_Black",
-      "MaxPriceThreshold": 6500,
-      "MinPriceThreshold": 6500,
+      "MaxPriceThreshold": 8500,
+      "MinPriceThreshold": 8500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -76,8 +76,8 @@
     },
     {
       "ClassName": "AJW_MK12_Black",
-      "MaxPriceThreshold": 8250,
-      "MinPriceThreshold": 8250,
+      "MaxPriceThreshold": 11000,
+      "MinPriceThreshold": 11000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,

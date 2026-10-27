@@ -8,8 +8,8 @@
   "Items": [
     {
       "ClassName": "aks74u",
-      "MaxPriceThreshold": 8745,
-      "MinPriceThreshold": 5830,
+      "MaxPriceThreshold": 6500,
+      "MinPriceThreshold": 6500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -25,8 +25,8 @@
     },
     {
       "ClassName": "cz61",
-      "MaxPriceThreshold": 4795,
-      "MinPriceThreshold": 3195,
+      "MaxPriceThreshold": 4500,
+      "MinPriceThreshold": 4500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -38,8 +38,8 @@
     },
     {
       "ClassName": "mp5k",
-      "MaxPriceThreshold": 5395,
-      "MinPriceThreshold": 3595,
+      "MaxPriceThreshold": 5000,
+      "MinPriceThreshold": 5000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -53,8 +53,8 @@
     },
     {
       "ClassName": "pp19",
-      "MaxPriceThreshold": 6910,
-      "MinPriceThreshold": 4605,
+      "MaxPriceThreshold": 5000,
+      "MinPriceThreshold": 5000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -67,8 +67,8 @@
     },
     {
       "ClassName": "ump45",
-      "MaxPriceThreshold": 6410,
-      "MinPriceThreshold": 4275,
+      "MaxPriceThreshold": 5250,
+      "MinPriceThreshold": 5250,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -80,8 +80,8 @@
     },
     {
       "ClassName": "pm73rak",
-      "MaxPriceThreshold": 6530,
-      "MinPriceThreshold": 4355,
+      "MaxPriceThreshold": 4500,
+      "MinPriceThreshold": 4500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
@@ -91,8 +91,8 @@
     },
     {
       "ClassName": "mp18",
-      "MaxPriceThreshold": 5395,
-      "MinPriceThreshold": 3595,
+      "MaxPriceThreshold": 4500,
+      "MinPriceThreshold": 4500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,

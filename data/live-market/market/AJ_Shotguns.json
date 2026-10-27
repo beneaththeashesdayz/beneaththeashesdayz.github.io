@@ -8,8 +8,8 @@
   "Items": [
     {
       "ClassName": "AJW_M1897Trench",
-      "MaxPriceThreshold": 3750,
-      "MinPriceThreshold": 3750,
+      "MaxPriceThreshold": 3500,
+      "MinPriceThreshold": 3500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1000,
       "MinStockThreshold": 0,
