@@ -1,10 +1,4 @@
 window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyback:true,inheritedSellPercent:50,buybackExcludedCategories:['Gardening'],items:[
-{name:'Szeffood Canempty',className:'szeffood_canempty',category:'Canning Supplies',mode:'sell',price:300},
-{name:'Szeffood Emty Jar',className:'szeffood_emty_jar',category:'Canning Supplies',mode:'sell',price:250},
-{name:'Szeffood Ocet',className:'szeffood_ocet',category:'Canning Supplies',mode:'buy',price:2500,sellPrice:1250},
-{name:'Szeffood Salt',className:'szeffood_salt',category:'Canning Supplies',mode:'sell',price:2000},
-{name:'Szeffood Sugar',className:'szeffood_sugar',category:'Canning Supplies',mode:'sell',price:2000},
-{name:'Szefkuchni Table Kit',className:'szefkuchni_table_kit',category:'Canning Supplies',mode:'sell',price:7500},
 {name:'Loner Can Empty',className:'loner_can_empty',category:'Cans',mode:'sell',price:300},
 {name:'Loner Can Small Empty',className:'loner_can_small_empty',category:'Cans',mode:'sell',price:250},
 {name:'Ayranbottle',className:'ayranbottle',category:'Drinks',mode:'sell',price:9845},
