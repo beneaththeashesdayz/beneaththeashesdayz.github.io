@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-10-28T21:21:01.590491+00:00",
+  "syncedAt": "2026-10-28T22:21:51.196725+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 277,
+  "marketFileCount": 278,
   "traderFileCount": 26,
   "traderZoneFileCount": 19,
   "files": [
@@ -348,7 +348,7 @@
     {
       "group": "market",
       "filename": "Bundles.json",
-      "sha256": "9ca0530aafa4b4db4bfec630f9f527bb061055b500a7560841717ea24b5a8f79",
+      "sha256": "4dea3600ebc6f72979abed1fa1c03f9bf1bd9bb59ea8f061ad2b322bf30a7583",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -718,8 +718,15 @@
     },
     {
       "group": "market",
+      "filename": "Drug_Ingredients.json",
+      "sha256": "73e2e37638388d937bbc42a2eaf615c982743d8b6c522f43ec2d6e10f125b70b",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
       "filename": "Drug_Supplies.json",
-      "sha256": "4e238e87445019a6c2f5ffa1eed80d04b626488991be91be9ead85b4ee9cec95",
+      "sha256": "374d48deb3fc028aba93daaadc99a518cae07ce1d1e81d76f8078087dde09d0e",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1629,7 +1636,7 @@
     {
       "group": "market",
       "filename": "Nugs.json",
-      "sha256": "886eddfa293b743bff3d3599dc87c081d4d9f39aeb95811da098dcd9534516e4",
+      "sha256": "b1c5e4bf925aba55dcf6cd0e7d9e323b5f4ddb0acb356a51ec0c3589ad79f3d0",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2021,7 +2028,7 @@
     {
       "group": "traders",
       "filename": "Drugs.json",
-      "sha256": "e96772c2097a7ab7bdb4d3abb592245ace7cb8d68a517c7376364e7dec95ddc8",
+      "sha256": "5fd69402d51fea36205ca345e0071825b2318b36aa37976e67576be22f7e2dfb",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2133,7 +2140,7 @@
     {
       "group": "traderzones",
       "filename": "Blackmarket.json",
-      "sha256": "7609a3a1e43f14b43cc90b86c3058c1b34bf08d9412dd7fa4d934b80c9296c54",
+      "sha256": "c1f9a887faa3fbbacba40a4a8131ce2afc5ec33eb9360ffccca1c99b075eebe4",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2154,7 +2161,7 @@
     {
       "group": "traderzones",
       "filename": "Collectables.json",
-      "sha256": "9c38ee94ba08f73026ad54a42035f999065152a0cfab63f6e92933277783e4b4",
+      "sha256": "500beb708081aa1211504f59d23686180870def2a3a6dd412ceb26edd3e1162c",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2189,21 +2196,21 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "84758ee8131f43b9e7897036acdd4046593d80083e1714b00afaf01177ebadb7",
+      "sha256": "824978d0171385c6a92471c5e4a3f5388a67ca862796cddee557fe54933fd526",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_BuildingSupplies_Trader.json",
-      "sha256": "df964945d16074ec1026c07488633a1db760b9587ee2c308c6510b098113007e",
+      "sha256": "d1064d51efe6ce8696816c1c2db003ee60dcfcb1e80e72dd1014ff9f9fff41b7",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Clothing_Trader.json",
-      "sha256": "9df7d010820423c352a5598dbae357080335861d15eed821b7dff4450083a4e5",
+      "sha256": "a1e5400640e593b61c861bb893a810f2f341d933a9df922b09073c35a819f59c",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2231,7 +2238,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "ccc40c357f7de4349215bd5f9cd19ce09ef6f76aee66fa82282d21c60548599e",
+      "sha256": "94eb7c97e2130e12b8532c509fa3d9846eb770310a6a08d129915cf980af83aa",
       "topLevelType": "object",
       "entryCount": 7
     },

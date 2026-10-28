@@ -19,8 +19,8 @@
     },
     {
       "ClassName": "im7s_ziplock",
-      "MaxPriceThreshold": 8750,
-      "MinPriceThreshold": 8750,
+      "MaxPriceThreshold": 250,
+      "MinPriceThreshold": 250,
       "SellPricePercent": 25,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,

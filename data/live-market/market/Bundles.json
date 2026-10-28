@@ -19,8 +19,8 @@
     },
     {
       "ClassName": "im7s_bundle_crystal_blue",
-      "MaxPriceThreshold": 3975,
-      "MinPriceThreshold": 3975,
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
     },
     {
       "ClassName": "im7s_bundle_crystal_pb",
-      "MaxPriceThreshold": 4640,
-      "MinPriceThreshold": 4640,
+      "MaxPriceThreshold": 650,
+      "MinPriceThreshold": 650,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
@@ -41,8 +41,8 @@
     },
     {
       "ClassName": "im7s_bundle_crystal_pink",
-      "MaxPriceThreshold": 4265,
-      "MinPriceThreshold": 4265,
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,

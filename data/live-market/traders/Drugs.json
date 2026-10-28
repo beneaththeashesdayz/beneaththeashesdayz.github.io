@@ -19,6 +19,7 @@
   "DisplayCurrencyName": "USD",
   "UseCategoryOrder": 0,
   "Categories": [
+    "Drug_Ingredients:1",
     "Bricks:2",
     "Bundles:2",
     "Drug_Supplies:1",
