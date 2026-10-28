@@ -6,6 +6,9 @@
   <title>Chernarus | Beneath the Ashes</title>
   <meta name="description" content="Beneath the Ashes Chernarus survivor hub: traders, economy, systems, guides and lore.">
   <link rel="stylesheet" href="../styles.css?v=embers-20260815-1">
+<style>
+.embers-song{margin:28px 0;padding:clamp(22px,4vw,40px);border:1px solid #8b4b2a;border-radius:16px;background:linear-gradient(120deg,#271b16,#151719);display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:32px}.embers-song h2{font-size:clamp(28px,4vw,42px);line-height:1.1;margin:12px 0}.embers-song p{line-height:1.6}.embers-song .embers-detail{font-size:.85rem;color:#bfb8ae}.embers-song label{display:block;margin-bottom:12px}.embers-presets{display:flex;gap:8px;margin-bottom:12px}.embers-presets button{flex:1;padding:10px;border:1px solid #786353;border-radius:8px;background:#201f1e;color:#fff;cursor:pointer;font:inherit}.embers-presets button[aria-pressed="true"]{border-color:#ffb37b;background:#59301e}.embers-input{display:flex;align-items:center;gap:8px;padding:10px 14px;background:#101213;border:1px solid #786353;border-radius:8px}.embers-input input{min-width:0;width:100%;font:inherit;color:#fff;background:transparent;border:0}.embers-song .button{width:100%;white-space:normal;cursor:pointer}.embers-song button:focus-visible,.embers-song input:focus-visible{outline:3px solid #ffc58b;outline-offset:4px}@media(max-width:640px){.embers-song{grid-template-columns:minmax(0,1fr);gap:18px}}
+</style>
 </head>
 <body>
 <header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
@@ -24,6 +27,25 @@
     <div><div class="project-label">Connection Information</div><h2>Join Chernarus</h2><p>Use the DayZ Launcher to install the required mods before joining this server.</p></div>
     <div class="server-endpoint"><span>69.10.59.28:2302</span><button class="button copy-server" type="button">Copy Connection Info</button></div>
     <select class="launcher-select" aria-label="Launcher Suggestions"><option value="" selected disabled>Launcher Suggestions</option><option value="steam">Steam Launcher</option><option value="dzsa">DZSA Launcher</option><option value="beans">DayZ Beans Launcher</option><option value="titan">DayZ Titan Launcher</option></select>
+  </section>
+  <section class="embers-song" aria-labelledby="embers-title">
+    <div><div class="project-label">The sound of Beneath the Ashes</div>
+      <h2 id="embers-title">We Are the Embers</h2>
+      <p>Carry a little of Chernarus with you. Download the song and support Beneath the Ashes.</p>
+      <p class="embers-detail">MP3 download · $0.99 USD minimum · Give more if you’d like</p>
+    </div>
+    <form id="embers-form" action="https://bta-song-downloads.beneaththeashesdayz.workers.dev/" method="get">
+      <label for="embers-amount">Choose your support amount (USD)</label>
+      <div class="embers-presets" role="group" aria-label="Suggested amounts">
+        <button type="button" data-embers-amount="0.99" aria-pressed="true">$0.99</button>
+        <button type="button" data-embers-amount="3.00" aria-pressed="false">$3</button>
+        <button type="button" data-embers-amount="5.00" aria-pressed="false">$5</button>
+      </div>
+      <div class="embers-input"><span aria-hidden="true">$</span><input id="embers-amount" name="amount" type="number" inputmode="decimal" min="0.99" max="10000" step="0.01" value="0.99" required aria-describedby="embers-help"></div>
+      <p id="embers-help" class="embers-detail">Continue to secure PayPal checkout. Your MP3 is available after confirmed payment.</p>
+      <button class="button" type="submit">Support BTA &amp; Download</button>
+      <p class="embers-detail">Download access lasts 24 hours in the same browser, with up to five downloads.</p>
+    </form>
   </section>
   <section class="project-grid">
     <div class="project-card">
@@ -66,5 +88,15 @@
 </main>
 <footer><div class="wrap">Beneath the Ashes • Chernarus</div></footer>
 <script src="https://beneaththeashesdayz.github.io/site.js?v=embers-js-1"></script>
+<script>
+(() => {
+  const form = document.getElementById('embers-form');
+  const amount = document.getElementById('embers-amount');
+  const presets = Array.from(form.querySelectorAll('[data-embers-amount]'));
+  function sync() { presets.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.embersAmount === Number(amount.value).toFixed(2)))); }
+  presets.forEach(button => button.addEventListener('click', () => { amount.value = button.dataset.embersAmount; sync(); }));
+  amount.addEventListener('input', sync);
+})();
+</script>
 </body>
 </html>
