@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-10-28T22:21:51.196725+00:00",
+  "syncedAt": "2026-10-28T23:19:54.259146+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -19,42 +19,42 @@
     {
       "group": "market",
       "filename": "AJ_Ammo.json",
-      "sha256": "3821e4de119785e2e02d780b9816db4ce682a78c7e78e8805c40c6ce1ba8dda9",
+      "sha256": "9427342b56419daf76739ba3c3bfa44055a44d3e434fe75512f6ad6bdf4cb3c8",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Ammo_Boxes.json",
-      "sha256": "eae316aa05257f509a57bd8aefe5a9ce13c11dcf65a97420553a942b8b06497c",
+      "sha256": "3fb52bec696bd06e4a5d6eadab2c239eeb8001449ca256bd38d81cd66a28b9ea",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Assault_Rifles.json",
-      "sha256": "1c0c772eefbe0ba45ce34ecd2d571eeb30ac16e670dcdb18d3cddbd14b8e68de",
+      "sha256": "b69916b0563e057918ae15be7b9845a1a53f59381f2fe0d8f3462eda4dcd7b04",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Barrels.json",
-      "sha256": "42d6bb5e91099a393bd644ad5613477c723640992d297bf0c092ee4566babbf2",
+      "sha256": "fa839037ea54b106a1be5ea303a46774ead5b37c3992777ba540dad39444ccb9",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Bayonets.json",
-      "sha256": "cd46f68c1af9aefd2a6d83f567b971d994455fa68fe48179e918fa62d91203cd",
+      "sha256": "8e286e0731b74d3cbf74e23aa88ccffdba5793f3c974bf59f20624dc7c519235",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Bipods.json",
-      "sha256": "596467eb793fe1918738cb2739e1c1c903d298332d845b580fbf94b4a8a1470e",
+      "sha256": "83a9a7fb04e4d634849f72676eaa93a5dcfe2208560451711c445636d2f1e9c4",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -75,119 +75,119 @@
     {
       "group": "market",
       "filename": "AJ_Chassis_And_Mounts.json",
-      "sha256": "923688bc660b57567ca0731fd1a86614f64e4493d1ddb2809eb2086f5791004a",
+      "sha256": "a2dc69ab1f0b46a5008f9d2ea78d9138a2bed9bbfcb8f2ce16e53ac9e89305ff",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Foregrips.json",
-      "sha256": "8de962a6201cfd37767cb7f46e1c2bd94a4bb25fc3b034bad30ee75bf7921d72",
+      "sha256": "2e6622bd980a206b659a6c59dbc7e447445636a7fc8993508233baa04d4aeb77",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Handguards.json",
-      "sha256": "ffd888a4ac6615a3253b15ca1459d8d78949afc5c0049d0313f5fc0321c10807",
+      "sha256": "a77a3d0aad543a93f83cc9d0d05f792e9bb6e400838c1e00a1f74d3f13da7e58",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Lasers.json",
-      "sha256": "d571b9a51920d06344f2b9d1e9d39415bc73eeeec2ed540d1e071daf3052cbd8",
+      "sha256": "5a821e630b7b9dcfb3804a90bd00fb9a56f2352969e240d79c0bec6eae1092fc",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Lights.json",
-      "sha256": "2215055d33491bf2c7f9c7d35f5eb05c084651dc872830cd768ff1531d194cca",
+      "sha256": "e006f36e034825fca6a08c1227d0a14c4eb0a9f1cb7debb88feb9885d7c504ff",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Magazines.json",
-      "sha256": "87485e7a9274e6010383c74ef73a80b564de16966ca5b69a2f6d350a7e023757",
+      "sha256": "f6a848642f9e9b1a44db0ff9a021a63176a2098632662dfaa30f64c8c38c7325",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Magnifiers.json",
-      "sha256": "c7799be0148a598056880279574888fce599abc521adf040b1fd54b8f0ae509d",
+      "sha256": "e3ca7da3fc19c5ac77044e76ff9ebe6ebcf8ff37c06b0cc089d4fb8d1e8ea527",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Muzzle_Devices.json",
-      "sha256": "6ce664dbce633e1a1d24ac58c809faa7c50846394412d1c2318402ceb12d31b8",
+      "sha256": "cdedcd570b55bc0134c79a93888389c6a9bd23619887b2c58e209950156fccfc",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Optics.json",
-      "sha256": "b043496b2d5ccb7989c6622c91f6977282b78307ec4e62534389a6f3708021e4",
+      "sha256": "15636fc569a96f4362c9153a9592d47a78bd0808a722949f60a131f39e78abd3",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Pistol_Grips.json",
-      "sha256": "aa63d5636612eddc7b0911c735987359c4afca3ad28b88496258994b07d872c8",
+      "sha256": "d95868af296bc553f3457accfda0e0bfee867c5ccae4e941929d3b5bded18eab",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Pistols.json",
-      "sha256": "40bab0af018bda6f182f573745ee7ccbc7c6c016c477f91fe8952edf32f81ff6",
+      "sha256": "28666cabd17a4abb4d4480fd846ca8c1e14297d641ecc47f86207172bbd81676",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Rifles.json",
-      "sha256": "b7027e4bdcf65164be9440acf75eb54ebba0634763accef4419a7cde8fe1f1da",
+      "sha256": "f235a5d5fa8a84769342b5c946f6bb5be18cb8818d9234942b6127ad679d099b",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Shotguns.json",
-      "sha256": "063562f14c81d8dddfd22b540ff83e4fe8b435c1ad22a44b479b18e3155dee47",
+      "sha256": "d0a8ae3bb3e842eb8e4e6080c74ec21e41d57be5b8b606acc9f2caf48f9c6bcc",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Stocks.json",
-      "sha256": "83318cceab536744c9330a1a86f3f95f95dec38a956cccea28cfe0073569e6a2",
+      "sha256": "d4b85daa5501370fccda91e5e10050d866d3fc84b9b46f1cd3228e93750ebe64",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Submachine_Guns.json",
-      "sha256": "e140e5981330d3965cd2df1f8d1837bd7e7fe518d509776e3bc893a66d89d10f",
+      "sha256": "3144d5a026e3eb17da9e425821e4f76dbe59325b52bb5f883d2dade63d2b8cbe",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Suppressors.json",
-      "sha256": "25d3f5fc370ed2e8071d3b12d2696d5408dba3d746c42b5987f1a9035ed2c0b9",
+      "sha256": "db051b1cb77939bf14fc34107f97497e2a4dd58d9b889e152895a52e71c9013c",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "AJ_Triggers.json",
-      "sha256": "e7278b87c5be384f4f95489d2ae2e57b8fd70c9fe9bace1efc1cff5953c22f69",
+      "sha256": "281a050461ff3db6424fc1a945c1f08c4d0fd7679a40d757522d911fe27aa26e",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -222,7 +222,7 @@
     {
       "group": "market",
       "filename": "Assault_Rifles.json",
-      "sha256": "24e556b9ca0c783cb43950a46a4bee94972b16f68c1ad61a313753cd9ffa3179",
+      "sha256": "30da04b41e904aa89417a21b67891eb161e1d372c077c256a8a94e366dfbec24",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -285,7 +285,7 @@
     {
       "group": "market",
       "filename": "Bayonets.json",
-      "sha256": "41a397412239f38d5db1184fbb20e7d961b779ac494875037a14cf7ecc6dc6d6",
+      "sha256": "4e4e244c8f88744d97e9c2386b365bf05497d063b2658522b271135e12b4869a",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -355,7 +355,7 @@
     {
       "group": "market",
       "filename": "Buttstocks.json",
-      "sha256": "49fb37910085e69ae85a98bc35855fd42a0744b001d92c37e3819d0e508e17ee",
+      "sha256": "e47f4c2ae19b4cbdfe593e1daa352fa4c971c0d8cea312ad3313b32441e81fdd",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1146,7 +1146,7 @@
     {
       "group": "market",
       "filename": "Handguards.json",
-      "sha256": "ac9a50faa5683bd7c0e4b293936d8136147e33186efd88d258d64ee3e7734f59",
+      "sha256": "b2841889cdd5edb58fe8974b556cc8991479ef6c7aaba5291028af714b035cc2",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1279,14 +1279,14 @@
     {
       "group": "market",
       "filename": "Knifes.json",
-      "sha256": "94a5256b41bacd7bdd933a6fe5c59e1086858a43ee59c11b78ea530985794c00",
+      "sha256": "2c31df864f5a24fcbfd9e61d986084664190cd833191eb801fb7df295e487edc",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Launchers_And_Ammo.json",
-      "sha256": "838ce377adc0e16bc1c0597082765945b4d5308e3f3572836c17f025c84cfc54",
+      "sha256": "9f2cb98f04607100f4b756ac9a3e34a4bfc1aec1ea970fb905678008e151dba0",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1328,7 +1328,7 @@
     {
       "group": "market",
       "filename": "Magazines.json",
-      "sha256": "6f7cf4f855867f8765d53b404cd68b4416b71edac6abc0ddd59bd1cbb2012db3",
+      "sha256": "6c093f3749a0df488b77df16a4aa83bfb8b3b316709ddcf4a6460435da30c507",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1377,7 +1377,7 @@
     {
       "group": "market",
       "filename": "Melee_Weapons.json",
-      "sha256": "022d970f4dbc4dfca0f71432ffdc4d6602b7165c20f421b6ebc69f30b97c73d7",
+      "sha256": "168692d0223093f2355b9a51e3f0dd42277238eaafb85d9c4457614915c9e997",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1510,7 +1510,7 @@
     {
       "group": "market",
       "filename": "Music_FoXy_Cassettes.json",
-      "sha256": "3dfbc9cd20b168b9870d03fc2cc953a26815f2989e432e2ea40ab6862a3bb60d",
+      "sha256": "13f61cefd12b40b40249b8a94f847c15f18010fa9c8b0e29a6ad75c2318f1cce",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1531,14 +1531,14 @@
     {
       "group": "market",
       "filename": "Music_Parts_And_Power.json",
-      "sha256": "b6b26d3c5fac526926f54e9427aefc184722d89bbbf0bf025ef49aaa89e86dba",
+      "sha256": "b46d62aa4c859cb6079be704887ddafcb0b10cb2590e16222de86056987d3bf5",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Music_Portable_Players.json",
-      "sha256": "e0d0da9dbdf4f9869d73b46998e6cb4551f28046276fd58f5159864991f40740",
+      "sha256": "4cabbca7621d8d374b272452e3d961ad8975332460de0762773322dc2f4f4c63",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1552,14 +1552,14 @@
     {
       "group": "market",
       "filename": "Music_Speakers.json",
-      "sha256": "30b3f1f42ca68651ba945df29d8c2e5419bcd8dcbf2151de2d994a08a5438629",
+      "sha256": "5ba2b3648aa4ec55ec74ec18031fb69954a7a5d34cc65f6ae914aba597aab4b0",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Music_Storage_And_Displays.json",
-      "sha256": "5bbb4df8a37dd83ef16036eb13c674df9dd3019bcc3262255f4eeab80adc6dfb",
+      "sha256": "95141a049debb8cacccd1735dff133c436fb2d343df41af44e53b6310e4d91b9",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1650,7 +1650,7 @@
     {
       "group": "market",
       "filename": "Optics.json",
-      "sha256": "50e4f46f23b3d5e674744277e67728fc9d679e196b22a61cc6d621ded05df68a",
+      "sha256": "3f0dc37443540c0d1bd405bb30e1ac2866c39d688951731b5ab5ddc85db0da65",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1678,7 +1678,7 @@
     {
       "group": "market",
       "filename": "Pistols.json",
-      "sha256": "a441b23b83bdf6257a889a0e3ef1215d8dfcff5db3ed42edcfff7664014a407f",
+      "sha256": "c943c9145835d647cbccbe5bd5dc646324e81fee4cc09a20afac6543954fe005",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1769,7 +1769,7 @@
     {
       "group": "market",
       "filename": "Rifles.json",
-      "sha256": "4f12297ee4394301072dd5573d62b88953c133a0791a71b34bc6ebaa016b2e68",
+      "sha256": "f6e95d0e205c0809addd71b93eeaa1a3568a8991cc497dfb74d41e371f0ac33c",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1818,7 +1818,7 @@
     {
       "group": "market",
       "filename": "Shotguns.json",
-      "sha256": "ec0e6ea57293f62568ed9507b6bf1e17609b3394e751476d778bc508b9821b56",
+      "sha256": "4b1370a158f27ea7d413809afac0dd72529d41e4a804b9bfcc0f5aefd3d51a32",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1839,7 +1839,7 @@
     {
       "group": "market",
       "filename": "Sniper_Rifles.json",
-      "sha256": "f17209f56806339618062724dff1a13273b32d47ba99be707e6f57db30239181",
+      "sha256": "87074aff2fb49eb2ed029d643dd84d417fbb71a8cc7eb57410a3d2f1179a0eda",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1853,7 +1853,7 @@
     {
       "group": "market",
       "filename": "Submachine_Guns.json",
-      "sha256": "263c2fecce3935474c62bfd2cbea94dedb62c660b1e99deb57ee694614172e9f",
+      "sha256": "a45400ed4fe2c9c20fd0464f73c781a5b1959458c1efa3ae6ee61a5232d66d9d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2196,21 +2196,21 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "824978d0171385c6a92471c5e4a3f5388a67ca862796cddee557fe54933fd526",
+      "sha256": "31a71fb118c19db0357a505e3587e54526cbf099b39aa1dbeb62ee6e1ee7bba7",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_BuildingSupplies_Trader.json",
-      "sha256": "d1064d51efe6ce8696816c1c2db003ee60dcfcb1e80e72dd1014ff9f9fff41b7",
+      "sha256": "61b309933985f022dd37e08b471c7a210e5034f007e077fba4ff5a937fcd18df",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Clothing_Trader.json",
-      "sha256": "a1e5400640e593b61c861bb893a810f2f341d933a9df922b09073c35a819f59c",
+      "sha256": "f56bdd07ce399b7bf2f216a59ab48adaba260f6b18fbc7971256205c1f058aba",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2238,7 +2238,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "94eb7c97e2130e12b8532c509fa3d9846eb770310a6a08d129915cf980af83aa",
+      "sha256": "d8a322d19cb4478ed3193526ddbe8c683e36ad24a04b0476b4ea15072baf464a",
       "topLevelType": "object",
       "entryCount": 7
     },

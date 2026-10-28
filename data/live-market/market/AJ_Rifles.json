@@ -11,8 +11,8 @@
       "MaxPriceThreshold": 16500,
       "MinPriceThreshold": 16500,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "AJW_Mag_R700_10Rnd"
@@ -24,8 +24,8 @@
       "MaxPriceThreshold": 7000,
       "MinPriceThreshold": 7000,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
@@ -35,8 +35,8 @@
       "MaxPriceThreshold": 17500,
       "MinPriceThreshold": 17500,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "AJW_Mag_SV98_10Rnd"
@@ -48,8 +48,8 @@
       "MaxPriceThreshold": 8000,
       "MinPriceThreshold": 8000,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
@@ -59,8 +59,8 @@
       "MaxPriceThreshold": 6500,
       "MinPriceThreshold": 6500,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -72,8 +72,8 @@
       "MaxPriceThreshold": 7000,
       "MinPriceThreshold": 7000,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
@@ -85,8 +85,8 @@
       "MaxPriceThreshold": 18000,
       "MinPriceThreshold": 18000,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [

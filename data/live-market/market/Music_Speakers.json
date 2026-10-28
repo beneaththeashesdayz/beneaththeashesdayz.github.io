@@ -16,17 +16,6 @@
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
-    },
-    {
-      "ClassName": "foxyradio_vehiclespeaker",
-      "MaxPriceThreshold": 1250,
-      "MinPriceThreshold": 1250,
-      "SellPricePercent": 50,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
     }
   ]
 }

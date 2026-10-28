@@ -11,8 +11,8 @@
       "MaxPriceThreshold": 7750,
       "MinPriceThreshold": 7750,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_ak74_30rnd"
@@ -24,8 +24,8 @@
       "MaxPriceThreshold": 7750,
       "MinPriceThreshold": 7750,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_ak101_30rnd"
@@ -37,8 +37,8 @@
       "MaxPriceThreshold": 8000,
       "MinPriceThreshold": 8000,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_akm_30rnd"
@@ -50,8 +50,8 @@
       "MaxPriceThreshold": 7750,
       "MinPriceThreshold": 7750,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_akm_30rnd"
@@ -63,8 +63,8 @@
       "MaxPriceThreshold": 8500,
       "MinPriceThreshold": 8500,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_stanag_30rnd"
@@ -79,8 +79,8 @@
       "MaxPriceThreshold": 11000,
       "MinPriceThreshold": 11000,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_cmag_20rnd"

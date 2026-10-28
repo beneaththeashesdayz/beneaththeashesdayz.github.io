@@ -11,8 +11,8 @@
       "MaxPriceThreshold": 1750,
       "MinPriceThreshold": 1750,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "AJW_Mag_DWX_20Rnd"
@@ -24,8 +24,8 @@
       "MaxPriceThreshold": 1250,
       "MinPriceThreshold": 1250,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "AJW_Mag_CZP09_20Rnd"
@@ -37,8 +37,8 @@
       "MaxPriceThreshold": 2000,
       "MinPriceThreshold": 2000,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "mag_deagle_9rnd"
@@ -52,8 +52,8 @@
       "MaxPriceThreshold": 1250,
       "MinPriceThreshold": 1250,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "AJW_Mag_Kimber1911_9Rnd"
@@ -65,8 +65,8 @@
       "MaxPriceThreshold": 1250,
       "MinPriceThreshold": 1250,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "AJW_Mag_Beretta92FS_15Rnd"
@@ -78,8 +78,8 @@
       "MaxPriceThreshold": 1500,
       "MinPriceThreshold": 1500,
       "SellPricePercent": -1,
-      "MaxStockThreshold": 1000,
-      "MinStockThreshold": 0,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [
         "AJW_Mag_TaranTactical_9Rnd"
