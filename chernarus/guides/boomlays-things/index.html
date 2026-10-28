@@ -272,5 +272,16 @@
 </main>
 <footer><div class="wrap">Beneath the Ashes • Chernarus Guides</div></footer>
 <script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
+<script>
+(function () {
+  const menu = document.querySelector('.boomlay-mobile-support');
+  const toggle = menu && menu.querySelector('.boomlay-mobile-support__toggle');
+  if (!menu || !toggle) return;
+  toggle.addEventListener('click', function () {
+    const isOpen = menu.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(isOpen));
+  });
+})();
+</script>
 </body>
 </html>
