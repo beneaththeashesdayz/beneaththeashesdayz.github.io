@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BoomLay’s Things — Crafting Guide | Beneath the Ashes</title>
+  <link rel="stylesheet" href="../../../styles.css?v=connection-hover-2">
+  <style>
+    .guide-page{padding:48px 0 76px}
+    .guide-hero{border:1px solid #5b4638;background:linear-gradient(145deg,#211d2a,#131719 62%);padding:42px 44px;margin:28px 0 34px;min-height:300px;display:flex;flex-direction:column;justify-content:end}
+    .guide-hero h1{font-size:clamp(3.2rem,8vw,7rem);line-height:.86;letter-spacing:-.06em;text-transform:uppercase;margin:12px 0}
+    .guide-hero p{max-width:780px;color:#d8c4ad;line-height:1.7}
+    .guide-jump-links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 34px}
+    .guide-jump-links a{display:inline-flex;align-items:center;min-height:44px;padding:10px 13px;border:1px solid var(--line);background:#141719;color:#d8c4ad;font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+    .guide-jump-links a:hover{border-color:#70513f;color:#f1e7dc}
+    .boomlay-article .guide-section{border:1px solid var(--line);background:#141719;padding:24px;margin-top:20px;scroll-margin-top:24px}
+    .boomlay-article .guide-section:first-child{margin-top:0}
+    .boomlay-article .guide-section h2{margin:0 0 16px;text-transform:uppercase;font-size:1.35rem}
+    .boomlay-article .guide-section h3{margin:0 0 10px;color:#d8c4ad;text-transform:uppercase;font-size:1rem;letter-spacing:.08em}
+    .boomlay-article .subheading{margin:24px 0 12px;color:#d8c4ad;text-transform:uppercase;font-size:1rem;letter-spacing:.08em}
+    .boomlay-article p,.boomlay-article li{color:var(--muted);line-height:1.62}
+    .boomlay-article .guide-section>p{margin:0 0 14px}
+    .boomlay-article .guide-section>p:last-child{margin-bottom:0}
+    .boomlay-article ul,.boomlay-article ol{padding-left:22px;margin:0;display:grid;gap:10px}
+    .boomlay-article strong{color:#f1e7dc}
+    .boomlay-article em{color:#d8c4ad}
+    .boomlay-article .recipe-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px;align-items:start}
+    .boomlay-article .recipe-card{border:1px solid #4a3e50;background:#1b1720;padding:20px;min-width:0;align-self:start}
+    .boomlay-article .recipe-card h3{color:#ead5f0;margin:0 0 12px}
+    .boomlay-article .recipe-card p{margin:0 0 10px}
+    .boomlay-article .recipe-card p:last-child{margin-bottom:0}
+    .boomlay-article .recipe-card ul,.boomlay-article .recipe-card ol{margin:10px 0 0}
+    .boomlay-article .recipe-card li{line-height:1.55}
+    .boomlay-article .guide-note{margin-top:18px;border-left:3px solid var(--ember);padding:16px 18px;background:#1c1714;color:#d8c4ad;line-height:1.62}
+    .boomlay-article .guide-note strong{color:#ffd9b8}
+    .boomlay-article .disabled-note{border-left-color:#a873c7;background:linear-gradient(110deg,#211926,#181619)}
+    .boomlay-article .disabled-note strong{color:#e6c9f4}
+    .boomlay-article .materials-note{border-left-color:#8a9f72;background:linear-gradient(110deg,#1b241b,#151918)}
+    .boomlay-article .materials-note strong{color:#d4e4b8}
+    .boomlay-article .tool-line{border-top:1px solid var(--line);margin-top:18px;padding-top:16px}
+    .boomlay-article .reference-list{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+    .boomlay-article .reference-list a{color:#e4b08a;overflow-wrap:anywhere}
+    .boomlay-article .article-footer{border:0;background:transparent;padding:24px 0 0;margin-top:0}
+    .boomlay-article .article-footer p{margin:0 0 12px}
+    .boomlay-guide h1,.boomlay-guide h2,.boomlay-guide h3,.boomlay-guide strong{overflow-wrap:anywhere}
+    @media(max-width:760px){
+      .guide-hero{padding:28px 20px;min-height:0}
+      .guide-hero h1{font-size:clamp(2rem,9vw,3.25rem);line-height:.95;letter-spacing:-.025em}
+      .guide-jump-links{margin-bottom:24px}
+      .guide-jump-links a{flex:1 1 auto;justify-content:center;text-align:center;line-height:1.25}
+      .boomlay-article .guide-section{padding:18px 16px;scroll-margin-top:24px}
+      .boomlay-article p,.boomlay-article li{font-size:1rem;line-height:1.62}
+      .boomlay-article .recipe-grid{grid-template-columns:1fr;gap:12px}
+      .boomlay-article .recipe-card{padding:18px 16px}
+    }
+  </style>
+</head>
+<body>
+<header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
+<main class="wrap guide-page boomlay-guide">
+  <div class="page-context"><a class="back" href="../">← Chernarus Guides</a><div class="world-tag">Building &amp; Production</div></div>
+
+  <section class="guide-hero">
+    <div class="kicker">Building &amp; Production</div>
+    <h1>BoomLay’s Things<br>Crafting Guide</h1>
+    <p>Build furniture, storage, lighting and a workshop for your base. These recipes follow the Beneath the Ashes Chernarus settings checked on October 27, 2026.</p>
+  </section>
+
+  <nav class="guide-jump-links" aria-label="Guide sections">
+    <a href="#start">Start here</a>
+    <a href="#pallets">Pallets &amp; crates</a>
+    <a href="#furniture">Furniture</a>
+    <a href="#special-kit">Special kit</a>
+    <a href="#utility">Stove &amp; collector</a>
+    <a href="#workbench-rules">Workbench rules</a>
+    <a href="#workbench-recipes">Workbench recipes</a>
+    <a href="#troubleshooting">Troubleshooting</a>
+    <a href="#references">References</a>
+  </nav>
+
+  <article class="boomlay-article">
+    <section class="guide-section" id="start">
+      <h2>Start here</h2>
+      <p>These recipes are tailored to Beneath the Ashes Chernarus settings. Begin by crafting a pallet, then combine it with the listed materials to make a kit. Attach the extra materials needed for the finished object before placing it.</p>
+      <aside class="guide-note materials-note"><strong>Important pallet rule.</strong> The pallet used to craft a kit is consumed. It does not count toward the pallets you attach afterward.</aside>
+      <div class="recipe-grid">
+        <section class="recipe-card"><h3>Enabled on Chernarus</h3><p>Pallets, tables, cabinets, beds, boxes, special kits, barrel stoves, rain collectors, old wooden crates and most workbench recipes.</p></section>
+        <section class="recipe-card"><h3>Kit types</h3><p>Crafted kits need their building materials attached before placement. Ready-made boxed kits are already set up for their specific item.</p></section>
+      </div>
+      <aside class="guide-note disabled-note"><strong>Disabled crafting.</strong> Sofa kits, coffee machines, paper labels and BoomLay personal depots are disabled on Chernarus. Do not spend materials following those online recipes.</aside>
+    </section>
+
+    <section class="guide-section" id="pallets">
+      <h2>Pallets, frames and crates</h2>
+      <div class="recipe-grid">
+        <section class="recipe-card"><h3>Wooden Pallet</h3><p>Combine <strong>10 Wooden Planks + 30 Nails</strong>. Produces 1 pallet. No additional tool is required.</p></section>
+        <section class="recipe-card"><h3>Pallet Frame</h3><p>Combine <strong>4 Wooden Planks + 24 Nails</strong>. Produces 1 frame for the Box Kit. A frame is separate from a full pallet.</p></section>
+        <section class="recipe-card"><h3>Old Wooden Crate</h3><p>Combine <strong>10 Wooden Planks + 24 Nails</strong>. Produces the BoomLay old crate, used with compatible furniture storage slots.</p></section>
+        <section class="recipe-card"><h3>Dismantling a pallet</h3><p>Hold a <strong>Hatchet, Splitting Axe/Wood Axe, Firefighter Axe, Pickaxe or Crowbar</strong> and use the dismantle action on the pallet.</p><p>Returns <strong>6 Wooden Planks + 20 Nails</strong> on Chernarus. Crafting and dismantling loses materials, so dismantling is useful for salvaging a found pallet, not recovering its full crafting cost.</p></section>
+      </div>
+    </section>
+
+    <section class="guide-section" id="furniture">
+      <h2>Tables, cabinets, beds and boxes</h2>
+      <h3 class="subheading">Tables and cabinets</h3>
+      <div class="recipe-grid">
+        <section class="recipe-card"><h3>Table Kit</h3><p>Combine <strong>1 Pallet + 5 Wooden Planks</strong> and choose the Table Kit recipe.</p><ul><li><strong>1 pallet attached:</strong> Small Table</li><li><strong>2 pallets attached:</strong> Medium Table</li><li><strong>3 pallets attached:</strong> Large Table</li></ul></section>
+        <section class="recipe-card"><h3>Cabinet Kit</h3><p>Combine <strong>1 Pallet + 5 Wooden Planks</strong> and choose the Cabinet Kit recipe.</p><ul><li><strong>1 pallet attached:</strong> Pallet Shelf</li><li><strong>2 pallets attached:</strong> Gun Cabinet</li><li><strong>3 pallets attached:</strong> Medium Cabinet</li><li><strong>4 pallets attached:</strong> Large Cabinet</li></ul></section>
+      </div>
+      <aside class="guide-note"><strong>Attached-pallet counts are extra.</strong> They are in addition to the pallet spent making the kit. A Small Table therefore requires <strong>2 pallets total + 5 planks</strong>. Once the correct materials are attached, hold the kit, choose its placement action, position the preview and complete placement.</aside>
+      <p class="tool-line">The shelf is designed for crate storage. Old Wooden Crates can be crafted separately for compatible cabinet slots.</p>
+
+      <h3 class="subheading">Beds and storage boxes</h3>
+      <div class="recipe-grid">
+        <section class="recipe-card"><h3>Bed Kit</h3><p>Combine <strong>1 Pallet + 5 Wooden Planks</strong> and choose the Bed Kit recipe.</p><ul><li>Attach <strong>3 additional pallets</strong> for the Small Bed: <strong>4 pallets total + 5 planks</strong>.</li><li>Attach <strong>4 additional pallets</strong> for the Large Bed: <strong>5 pallets total + 5 planks</strong>.</li></ul></section>
+        <section class="recipe-card"><h3>Box Kit</h3><p>Combine <strong>1 Pallet + 4 Wooden Planks</strong> and choose the Box Kit recipe. Attach <strong>1, 2, 3 or 4 Pallet Frames</strong> to select box sizes 1 through 4.</p><p>Use frames, not additional full pallets, in the Box Kit frame slots. Each frame costs <strong>4 planks + 24 nails</strong>; the smallest box needs 1 pallet, 4 planks for the kit and 1 separately crafted frame.</p></section>
+      </div>
+      <aside class="guide-note disabled-note"><strong>Labels and sofas.</strong> Pallet-box labeling is enabled, but crafting new paper labels is disabled. Existing suitable labels can still be used. Crafting the Sofa Kit is disabled on Chernarus.</aside>
+    </section>
+
+    <section class="guide-section" id="special-kit">
+      <h2>Special Kit</h2>
+      <p>Combine <strong>1 Pallet + 5 Wooden Planks</strong> and choose <strong>Special Item Kit</strong>. Then attach the materials for the object you want.</p>
+      <div class="recipe-grid">
+        <section class="recipe-card"><h3>Trash Can</h3><p>Attach <strong>2 additional pallets</strong> with <strong>no fabric</strong> attached. Total: <strong>3 pallets + 5 planks</strong>. If every pallet is crafted from raw materials: <strong>35 planks + 90 nails</strong>.</p></section>
+        <section class="recipe-card"><h3>Workbench</h3><p>Attach <strong>3 additional pallets</strong> with <strong>no fabric</strong> attached. Total: <strong>4 pallets + 5 planks</strong>.</p></section>
+        <section class="recipe-card"><h3>Greenhouse</h3><p>Attach <strong>5 additional pallets</strong> with <strong>no fabric</strong> attached. Total: <strong>6 pallets + 5 planks</strong>.</p></section>
+        <section class="recipe-card"><h3>Log Storage Place</h3><p>Attach <strong>4 Tarp/Fabric units</strong> with <strong>no pallets</strong> attached. Total: <strong>1 pallet + 5 planks + 4 Tarp/Fabric units</strong>.</p></section>
+      </div>
+      <aside class="guide-note materials-note"><strong>Use one exact material combination.</strong> Mixing fabric and pallets in a Special Kit will not select these recipes. Trash cans are for disposal: their contents are configured to be cleared when the server loads after a restart. Keep valuables in proper storage.</aside>
+    </section>
+
+    <section class="guide-section" id="utility">
+      <h2>Barrel stove and rain collector</h2>
+      <div class="recipe-grid">
+        <section class="recipe-card"><h3>Barrel Stove</h3><ol><li>Empty a barrel completely.</li><li>Combine the empty barrel with a <strong>Hacksaw</strong> to make the Stove Kit.</li><li>Attach <strong>10 Metal Sheets</strong> to the kit’s metal-sheet slot.</li><li>Place the kit to build the stove.</li></ol><p>The barrel is consumed by the recipe; the hacksaw is retained. The 10 sheets are additional building materials required for placement.</p></section>
+        <section class="recipe-card"><h3>Rain Collector</h3><ol><li>Combine <strong>1 Pallet + 4 Metal Sheets</strong> to make the Rain Collector Kit.</li><li>Attach <strong>4 Tarp/Fabric units</strong> to its material slot.</li><li>Place the collector outside where it can collect precipitation.</li></ol><p>Fabric means the game’s <strong>Tarp/Fabric item</strong>, not rags. The installed updated mod supports rain and snow collection; keep the collector outdoors with clear exposure to precipitation.</p></section>
+      </div>
+    </section>
+
+    <section class="guide-section" id="workbench-rules">
+      <h2>Workbench — how to use it</h2>
+      <p>Build a Workbench with the Special Kit recipe, then attach ingredients to the bench’s matching material slots. Hold the required tool and aim at the bench to choose a crafting action.</p>
+      <aside class="guide-note materials-note"><strong>Attachments matter.</strong> Materials must be attached to the workbench, not merely carried in your backpack or placed in its general cargo.</aside>
+      <div class="recipe-grid">
+        <section class="recipe-card"><h3>Screwdriver recipes</h3><p>Old Fridge, Repairbench, Small Spotlight, Desk Lamp and Floor Lamp.</p></section>
+        <section class="recipe-card"><h3>Blowtorch recipes</h3><p>Solar Panel and Firewood Storage. The blowtorch needs an attached gas canister with enough fuel.</p></section>
+      </div>
+      <p class="tool-line">Recipes using an Electronics Repair Kit consume <strong>25 percentage points</strong> of its supply. Bring a kit with at least 25% remaining. The recipe scripts consume a quarter-kit even where an older online guide mentions a whole kit.</p>
+      <p>Some recipes require more material to be loaded than they consume. The recipe cards below list both amounts so the crafting option will appear reliably.</p>
+      <aside class="guide-note disabled-note"><strong>Coffee-machine crafting is disabled on Chernarus.</strong> The online recipe will not become available at the workbench.</aside>
+    </section>
+
+    <section class="guide-section" id="workbench-recipes">
+      <h2>Workbench recipes</h2>
+      <h3 class="subheading">Fridge, repairbench and spotlight</h3>
+      <div class="recipe-grid">
+        <section class="recipe-card"><h3>Old Fridge — hold a Screwdriver</h3><p>Load <strong>10 Metal Sheets + 1 Metal Wire + an Electronics Repair Kit</strong>. Consumes 10 sheets, 1 wire and 25% of the repair kit. Produces an Old Fridge Kit.</p></section>
+        <section class="recipe-card"><h3>Repairbench — hold a Screwdriver</h3><p>Load <strong>10 Metal Sheets + 10 Wooden Planks + 30 Nails</strong>. Consumes those materials and produces a Repairbench Kit.</p></section>
+        <section class="recipe-card"><h3>Small Spotlight — hold a Screwdriver</h3><p>Load <strong>at least 2 Metal Sheets + 1 Metal Wire + an Electronics Repair Kit</strong>. Consumes 1 sheet, 1 wire and 25% of the repair kit. The spare sheet remains afterward.</p></section>
+      </div>
+      <h3 class="subheading">Using the finished equipment</h3>
+      <div class="recipe-grid">
+        <section class="recipe-card"><h3>Old Fridge</h3><p>Configured to work <strong>without electricity</strong> and has a food-preservation factor of <strong>3</strong>.</p></section>
+        <section class="recipe-card"><h3>Repairbench</h3><p>Attach suitable repair kits to the repairbench, hold the damaged item and use its repair action. Repairing to pristine is enabled for supported items; normal item and repair-kit compatibility still applies.</p></section>
+        <section class="recipe-card"><h3>Small Spotlight</h3><p>Uses a <strong>9V battery</strong> for operation.</p></section>
+      </div>
+
+      <h3 class="subheading">Lamps, solar panel and firewood storage</h3>
+      <div class="recipe-grid">
+        <section class="recipe-card"><h3>Desk Lamp — hold a Screwdriver</h3><p>Load <strong>at least 2 Metal Sheets + 4 Wooden Planks + an Electronics Repair Kit</strong>. Consumes 1 sheet, 3 planks and 25% of the repair kit. The extra sheet and plank remain afterward.</p></section>
+        <section class="recipe-card"><h3>Floor Lamp — hold a Screwdriver</h3><p>Load <strong>1 Metal Pipe + 1 Metal Wire + at least 3 Wooden Planks + an Electronics Repair Kit</strong>. Consumes 1 pipe, 1 wire, 2 planks and 25% of the repair kit. The extra plank remains afterward.</p></section>
+        <section class="recipe-card"><h3>Solar Panel — hold a fueled Blowtorch</h3><p>Load <strong>10 Metal Sheets + 1 Metal Wire + an Electronics Repair Kit</strong>. Consumes 10 sheets, 1 wire and 25% of the repair kit. Produces a Solar Panel Kit.</p></section>
+        <section class="recipe-card"><h3>Firewood Storage — hold a fueled Blowtorch</h3><p>Load <strong>4 Metal Sheets</strong>. Consumes all 4 sheets and produces a Firewood Storage Kit.</p></section>
+      </div>
+      <p class="tool-line">For operation, the solar panel charges a <strong>truck battery during daylight</strong> and must be placed outside, away from a roof. The Floor Lamp needs external power and its dusk sensor limits it to nighttime operation.</p>
+    </section>
+
+    <section class="guide-section" id="troubleshooting">
+      <h2>Moving furniture and avoiding crafting problems</h2>
+      <p>Hold a <strong>Screwdriver or Pliers</strong> and use the dismantle action on supported BoomLay furniture. Chernarus is configured to return building resources with the appropriate kit where that item supports it. This is not a refund of every material originally used to craft the kit.</p>
+      <p>For a greenhouse, stand inside and aim toward its middle to find the dismantle action. Empty furniture and remove stored valuables before dismantling it.</p>
+      <h3 class="subheading">If a recipe or placement option is missing</h3>
+      <ol>
+        <li>Check that the recipe is enabled in this guide.</li>
+        <li>Make sure ingredients and tools are not ruined.</li>
+        <li>Use loose nails and the correct item: full Pallet versus Pallet Frame, or Tarp/Fabric versus rags.</li>
+        <li>Put ingredients into the named attachment slots.</li>
+        <li>Check exact pallet counts and remove fabric from Special Kits intended for pallet furniture.</li>
+        <li>Load the extra sheets or planks listed for the spotlight and lamp recipes.</li>
+        <li>Hold the correct tool and check blowtorch fuel.</li>
+        <li>Reposition a red placement preview to a valid area.</li>
+      </ol>
+      <aside class="guide-note materials-note"><strong>Server behavior.</strong> Doors close on server restart. Automatic timed closing is disabled. Sitting and sleeping interactions are enabled; this does not by itself establish any custom fatigue or healing benefit.</aside>
+    </section>
+
+    <section class="guide-section" id="references">
+      <h2>Availability and references</h2>
+      <aside class="guide-note disabled-note"><strong>Not craftable through the enabled recipes:</strong> sofas, coffee machines, paper labels, indoor plants, paintings and carpets. Crafting being disabled does not establish whether a ready-made item is available through loot or traders.</aside>
+      <p>BoomLay personal depots are disabled. This refers to this mod’s depot feature, not other storage systems on the server.</p>
+      <p>These recipes are tailored to Chernarus’s saved settings and installed scripts as checked on <strong>October 27, 2026</strong>. Older online instructions can differ, particularly for Box Kits, Old Wooden Crates and workbench ingredient thresholds.</p>
+      <p>Original mod and crafting instructions by <strong>BoomLay</strong>; the installed DayZ 1.30 update is maintained by <strong>Vitryol</strong>.</p>
+      <ul class="reference-list">
+        <li><strong>Author’s crafting guide:</strong> <a href="https://steamcommunity.com/workshop/filedetails/discussion/2860643107/6682809959401948513/" target="_blank" rel="noopener noreferrer">Steam Workshop discussion</a></li>
+        <li><strong>Author’s configuration guide:</strong> <a href="https://steamcommunity.com/workshop/filedetails/discussion/2860643107/3735205021140241792/" target="_blank" rel="noopener noreferrer">Steam Workshop discussion</a></li>
+        <li><strong>Installed updated mod:</strong> <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3817443909" target="_blank" rel="noopener noreferrer">Steam Workshop item</a></li>
+      </ul>
+    </section>
+
+    <section class="guide-section article-footer">
+      <p><strong>Quick reminder:</strong> use loose nails, usable materials and tools that are not ruined. When a recipe asks for attached materials, load the named attachment slots rather than relying on general cargo.</p>
+    </section>
+  </article>
+</main>
+<footer><div class="wrap">Beneath the Ashes • Chernarus Guides</div></footer>
+<script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
+</body>
+</html>
