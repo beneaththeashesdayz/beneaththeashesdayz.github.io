@@ -1,12 +1,12 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-10-28T20:22:10.174004+00:00",
+  "syncedAt": "2026-10-28T21:21:01.590491+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 272,
-  "traderFileCount": 25,
+  "marketFileCount": 277,
+  "traderFileCount": 26,
   "traderZoneFileCount": 19,
   "files": [
     {
@@ -536,13 +536,6 @@
     },
     {
       "group": "market",
-      "filename": "DayZ_Cards.json",
-      "sha256": "4c892fd6cc6b9ad6e5f8de03104c7fa1e4e35a794546693ac189474a85e2d4f2",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
       "filename": "DF_Weapons_Barrel.json",
       "sha256": "5f719128704e8de48104070f3b622fa09940e1bf1e97cd3d91b910bd57ad5ca1",
       "topLevelType": "object",
@@ -950,7 +943,7 @@
     {
       "group": "market",
       "filename": "Explosives_And_Grenades.json",
-      "sha256": "929ffe7faa5b856439885d5174cc20284214a8d776cb7dcebaeb8e477fa332c7",
+      "sha256": "7d569bb3905df64492b1998b92e6579a9b6b183c503ddcc74ba28bc696f6992f",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -958,34 +951,6 @@
       "group": "market",
       "filename": "Eyewear.json",
       "sha256": "665b50bede2209dccbb9daedf657ca7cbfc15084ae4aed2a6b6640ddbad71598",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "Fallout.json",
-      "sha256": "288bb5849b068a1f337ed161b7c2dd06dc5e94530d501605d9ae512e214b636b",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "Fallout_Bobbleheads.json",
-      "sha256": "e7552133969a78cfb1bbf41ad779ab1f486b4edaac00eb94906fd6481c65bb2a",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "Fallout_Cards.json",
-      "sha256": "6b04ab344c8e2902bcbebf32d040e99fb68e74fe4fbcd4ebdf3e170bb7ba9827",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "Fallout_Nuka_Cola.json",
-      "sha256": "76c400272d527756db283d68dc3f0f2a90d0e8b60fc11b27673eee7598f96c53",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1320,13 +1285,6 @@
     },
     {
       "group": "market",
-      "filename": "Leaflets.json",
-      "sha256": "39ff5bee82b587bce19720f09d2b329826c94e15ba343a08e095b83db700033d",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
       "filename": "Lights.json",
       "sha256": "e54c0b3580387b8d83b90702a9de6bf2d366a4f876e7573f115fd3e2bdc1fa7e",
       "topLevelType": "object",
@@ -1518,6 +1476,83 @@
       "group": "market",
       "filename": "Multi_Gear_Set.json",
       "sha256": "3b9d1b64cb90d198a713cec3b2c459090426b68104e6f77e685c859b21194955",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Music_Digital_And_Discs.json",
+      "sha256": "5c3bf3436507b9d445e77fa757bbef17ae8c9b853b5affff0136cdb2526f099a",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Music_DiZaster_Albums.json",
+      "sha256": "8617a9e03cdedacbc1d39a838c9adb5bdc5be0c08eb0539e4908fe3a07de3b38",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Music_DiZaster_Singles.json",
+      "sha256": "4cb64f7fbe206ecebb67cd1c3cde075aec8ba1730cd09d6d5a8ecb994adced2b",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Music_FoXy_Cassettes.json",
+      "sha256": "3dfbc9cd20b168b9870d03fc2cc953a26815f2989e432e2ea40ab6862a3bb60d",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Music_Headphones.json",
+      "sha256": "de5f6ef49f12f79754e4d3f95f361a670997474174e51d33f1c4260e0e086d70",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Music_Microphones_And_Novelties.json",
+      "sha256": "25123a5ceb527690de90dfd2d617c0c5819aae97c384388a5b638bdf08a2dfc3",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Music_Parts_And_Power.json",
+      "sha256": "b6b26d3c5fac526926f54e9427aefc184722d89bbbf0bf025ef49aaa89e86dba",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Music_Portable_Players.json",
+      "sha256": "e0d0da9dbdf4f9869d73b46998e6cb4551f28046276fd58f5159864991f40740",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Music_Radios_And_Systems.json",
+      "sha256": "c0a2b846ff33dcc4d6d87bae8815b06b34a5e4433893224c8cdb2730ca6ed8fb",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Music_Speakers.json",
+      "sha256": "30b3f1f42ca68651ba945df29d8c2e5419bcd8dcbf2151de2d994a08a5438629",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Music_Storage_And_Displays.json",
+      "sha256": "5bbb4df8a37dd83ef16036eb13c674df9dd3019bcc3262255f4eeab80adc6dfb",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1923,14 +1958,14 @@
     {
       "group": "traders",
       "filename": "Blackmarket.json",
-      "sha256": "8f834ae4ec01b06a67acda7c926f37708c32c88fe00662f42c51188ec5adbfcc",
+      "sha256": "96570d4d650d08dd047e34f05a8cc1f6d0a9244ebead45f2bb62d15906fd2792",
       "topLevelType": "object",
       "entryCount": 13
     },
     {
       "group": "traders",
       "filename": "BM_Zombie_Note_Trader.json",
-      "sha256": "c82c5f7f24e73626b5a74a26191970677a8df69da5aa8e83eb8b54a8bd236c4f",
+      "sha256": "0be3761ab625e05afe1d4295a23db0a9b05a2d49dbee3a62969b3eadb49cc79f",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -1958,14 +1993,14 @@
     {
       "group": "traders",
       "filename": "Collectables_Trader_BM.json",
-      "sha256": "31e6863991539e19303c1b8c829a008047d2f3977ac1a45704a31ef435c1d559",
+      "sha256": "15a0cb33aa36337ea49592c4be27434d1dd1254ec860c648fd71a87b53ece9a9",
       "topLevelType": "object",
       "entryCount": 13
     },
     {
       "group": "traders",
       "filename": "Collectables_Trader_Main.json",
-      "sha256": "8a783a1d899b9fe157d7900cb3f526c4f349e9dc8b3060681cb0d673d6682933",
+      "sha256": "084ad64b1ffccaa22fb23df684cf2e1b2c9d070c1c22ec6d0e08b428229bf744",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2048,8 +2083,15 @@
     },
     {
       "group": "traders",
+      "filename": "Music_Vending.json",
+      "sha256": "99d6313071d7acbe3b485eb3063ced07899abd48c286220a22fd93edc43889d3",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
       "filename": "Secret_Trader.json",
-      "sha256": "59c260e1d8b8f6e3fb3eb6824f7d3684b026c0d0b72f50626ba8708b656cfa93",
+      "sha256": "11eadb22c02c4b7ae1e110234a96ac982b00dee776f915209d937f4358c52d7f",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2091,14 +2133,14 @@
     {
       "group": "traderzones",
       "filename": "Blackmarket.json",
-      "sha256": "5bf44700ef9ad8d8529d565a1b1f5246a73f43b1244491109f6405e946f96626",
+      "sha256": "7609a3a1e43f14b43cc90b86c3058c1b34bf08d9412dd7fa4d934b80c9296c54",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Blackmarket_ZN.json",
-      "sha256": "7d67192206ce35dc126b10f5ca5f2c1ecb8b2ad4284d9efa6303f47ef0451e76",
+      "sha256": "c13962fcb50261c5f434f7d93a04fbc37731911ffe2a36ce44815e9814fa9871",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2168,7 +2210,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Consumables_Trader.json",
-      "sha256": "46108f8b58f263d8b59c2f9e5bb4c64ffe6c969711550f6e76206b7544b1501a",
+      "sha256": "009bd82b2f122e7c14ea7344e4f90509da130327810467f59715e920a85ace07",
       "topLevelType": "object",
       "entryCount": 7
     },

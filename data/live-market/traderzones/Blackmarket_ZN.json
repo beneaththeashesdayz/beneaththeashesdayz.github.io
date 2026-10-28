@@ -6,9 +6,9 @@
     11.677000045776367,
     9222.8369140625
   ],
-  "Radius": 10.0,
-  "BuyPricePercent": 50.0,
-  "SellPricePercent": 150.0,
+  "Radius": 10,
+  "BuyPricePercent": 50,
+  "SellPricePercent": 25,
   "Stock": {
     "bz_shirt_swars": 0,
     "renegade_bluegrungeathleticshoes": 0,

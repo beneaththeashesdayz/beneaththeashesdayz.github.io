@@ -19,10 +19,8 @@
   "DisplayCurrencyName": "USD",
   "UseCategoryOrder": 0,
   "Categories": [
-    "Launchers_And_Ammo:2",
     "Batteries:3",
     "Explosives_And_Grenades:2",
-    "Fusion_Bars:2",
     "MYDF_Melee:2",
     "DF_Weapons_Barrel:2",
     "DF_Weapons_Bipod:2",
@@ -47,11 +45,6 @@
     "DF_Weapons_LMG:2"
   ],
   "Items": {
-    "AYSA_blackBox": 2,
-    "aysa_antiairquadlauncher": 2,
-    "aysa_antiairmissile": 1,
-    "aysa_missilemag": 1,
-    "aysa_seekerscope": 1,
     "AJW_AK101_Black": 2,
     "AJW_AK105_Black": 2,
     "AJW_AK50": 2,

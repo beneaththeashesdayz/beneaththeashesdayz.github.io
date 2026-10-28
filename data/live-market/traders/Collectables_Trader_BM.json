@@ -23,16 +23,8 @@
     "Paragon_Collectables:2",
     "Pokemon:2",
     "Vyse_Collectables:2",
-    "Fallout:2",
-    "Fallout_Bobbleheads:2",
-    "Fallout_Nuka_Cola:2",
-    "Leaflets:2",
-    "DayZ_Cards:2",
-    "Fallout_Cards:2",
     "Collector_Cards:2",
     "Pokemon_Teddies:2"
   ],
-  "Items": {
-    "dlt_falloutz_bobbleheadstandkit": 0
-  }
+  "Items": {}
 }

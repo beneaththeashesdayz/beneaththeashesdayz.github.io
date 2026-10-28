@@ -1,0 +1,29 @@
+{
+  "m_Version": 13,
+  "DisplayName": "FoXyRadio & DiZaster Music",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Trader",
+  "Currencies": [
+    "zombie_note"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "Zombie Notes",
+  "UseCategoryOrder": 1,
+  "Categories": [
+    "Music_Portable_Players:1",
+    "Music_Radios_And_Systems:1",
+    "Music_Headphones:1",
+    "Music_Speakers:1",
+    "Music_Parts_And_Power:1",
+    "Music_FoXy_Cassettes:1",
+    "Music_DiZaster_Singles:1",
+    "Music_DiZaster_Albums:1",
+    "Music_Digital_And_Discs:1",
+    "Music_Storage_And_Displays:1",
+    "Music_Microphones_And_Novelties:1"
+  ],
+  "Items": {}
+}
