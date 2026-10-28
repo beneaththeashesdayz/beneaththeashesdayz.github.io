@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FoXyRadio &amp; DiZaster&rsquo;s Cassettes | Beneath the Ashes</title>
+  <link rel="stylesheet" href="../../../styles.css?v=connection-hover-2">
+  <style>
+    .guide-page{padding:48px 0 76px}
+    .guide-hero{border:1px solid #5b4638;background:linear-gradient(145deg,#211d2a,#131719 62%);padding:42px 44px;margin:28px 0 34px;min-height:300px;display:flex;flex-direction:column;justify-content:end}
+    .guide-hero h1{font-size:clamp(3.2rem,8vw,7rem);line-height:.86;letter-spacing:-.06em;text-transform:uppercase;margin:12px 0}
+    .guide-hero p{max-width:800px;color:#d8c4ad;line-height:1.7;margin:7px 0 0}
+    .guide-jump-links{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 34px}
+    .guide-jump-links a{display:inline-flex;align-items:center;min-height:44px;padding:10px 13px;border:1px solid var(--line);background:#141719;color:#d8c4ad;font-size:.72rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+    .guide-jump-links a:hover{border-color:#70513f;color:#f1e7dc}
+    .foxy-section-menu{display:none}
+    .foxy-article{display:grid;gap:20px}
+    .foxy-article .guide-section{border:1px solid var(--line);background:#141719;padding:24px;margin:0;scroll-margin-top:24px;min-width:0}
+    .foxy-article .guide-section h2{margin:0 0 16px;text-transform:uppercase;font-size:1.35rem}
+    .foxy-article .guide-section h3{margin:22px 0 10px;color:#d8c4ad;text-transform:uppercase;font-size:1rem;letter-spacing:.08em}
+    .foxy-article p,.foxy-article li{color:var(--muted);line-height:1.62}
+    .foxy-article p{margin:0 0 14px}
+    .foxy-article p:last-of-type{margin-bottom:0}
+    .foxy-article ul,.foxy-article ol{padding-left:22px;margin:0 0 14px;display:grid;gap:10px}
+    .foxy-article strong{color:#f1e7dc}
+    .foxy-article em{color:#d8c4ad}
+    .foxy-article .guide-note{margin:0 0 18px;border-left:3px solid var(--ember);padding:16px 18px;background:#1c1714;color:#d8c4ad;line-height:1.62}
+    .foxy-article .guide-note strong{color:#ffd9b8}
+    .foxy-article .status-note{border-left-color:#8a9f72;background:linear-gradient(110deg,#1b241b,#151918)}
+    .foxy-article .table-wrap{max-width:100%;overflow-x:auto;margin:18px 0 20px;border:1px solid rgba(216,196,173,.18)}
+    .foxy-article .table-scroll-note{padding:8px 12px;color:#d8c4ad;background:#1b1720;font-size:.75rem;letter-spacing:.05em}
+    .foxy-article table{width:100%;min-width:620px;border-collapse:collapse;color:var(--muted);font-size:.92rem}
+    .foxy-article th,.foxy-article td{padding:11px 12px;border-top:1px solid rgba(216,196,173,.18);vertical-align:top;text-align:left;line-height:1.5}
+    .foxy-article thead th{border-top:0;background:#292f27;color:#f1e7dc;font-weight:900}
+    .foxy-article td:first-child{color:#f1e7dc}
+    .foxy-article .foxy-back-to-top{display:inline-flex;margin-top:8px;color:#d8c4ad;font-size:.76rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+    .foxy-article .foxy-back-to-top:hover{color:#fff}
+    .foxy-bottom-links{display:flex;flex-wrap:wrap;gap:18px;margin-top:28px;padding-top:20px;border-top:1px solid var(--line)}
+    .foxy-bottom-links a{color:#d8c4ad;font-weight:900;letter-spacing:.07em;text-transform:uppercase}
+    .foxy-mobile-support{display:none}
+    .foxy-guide h1,.foxy-guide h2,.foxy-guide h3,.foxy-guide strong{overflow-wrap:anywhere}
+    @media(max-width:760px){
+      body.foxy-guide-page header .wrap{flex-wrap:wrap}
+      body.foxy-guide-page .site-support-link,body.foxy-guide-page .site-store-link,body.foxy-guide-page .site-discord-link{display:none!important}
+      .foxy-mobile-support{display:block;flex:1 0 100%;width:100%;margin-top:12px}
+      .foxy-mobile-support__toggle{display:block;width:100%;min-height:44px;border:1px solid var(--line);background:#141719;color:#fff;padding:10px 14px;font:inherit;font-size:.72rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;cursor:pointer}
+      .foxy-mobile-support__links{display:none;grid-template-columns:1fr;gap:8px;margin-top:8px}
+      .foxy-mobile-support__links a{display:flex;align-items:center;justify-content:center;min-height:44px;border:1px solid var(--line);background:#141719;color:#fff;padding:10px 14px;font-size:.72rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase;text-decoration:none}
+      .foxy-mobile-support__links a:nth-child(1){background:rgb(111,84,45);border-color:rgb(143,108,60)}
+      .foxy-mobile-support__links a:nth-child(2){background:rgb(201,103,45);border-color:rgb(225,122,58)}
+      .foxy-mobile-support__links a:nth-child(3){background:rgb(88,101,242);border-color:rgb(123,131,255)}
+      .foxy-mobile-support.is-open .foxy-mobile-support__links{display:grid}
+      .foxy-section-menu{display:block;margin:0 0 24px;border:1px solid var(--line);background:#141719}
+      .foxy-section-menu summary{cursor:pointer;color:#d8c4ad;padding:13px 14px;font-size:.78rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+      .foxy-section-menu__links{display:grid;gap:8px;padding:0 10px 10px}
+      .foxy-section-menu__links a{display:block;border:1px solid var(--line);background:#1b1720;color:#f1e7dc;padding:10px 12px;font-size:.76rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;text-decoration:none}
+      .foxy-section-menu__links a:focus-visible,.foxy-mobile-support__toggle:focus-visible,.foxy-mobile-support__links a:focus-visible{outline:2px solid var(--ember);outline-offset:2px}
+      .guide-jump-links{display:none}
+      .guide-hero{padding:20px 18px 22px;min-height:0}
+      .guide-hero h1{font-size:clamp(1.85rem,8.5vw,2.8rem);line-height:.98;letter-spacing:-.025em}
+      .foxy-article .guide-section{padding:18px 16px}
+      .foxy-article p,.foxy-article li{font-size:1rem;line-height:1.62}
+      .foxy-article table{font-size:.86rem}
+    }
+
+  </style>
+</head>
+<body class="foxy-guide-page">
+<header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div><nav class="foxy-mobile-support" aria-label="Site links"><button class="foxy-mobile-support__toggle" type="button" aria-expanded="false" aria-controls="foxy-mobile-support-links">Site links</button><div class="foxy-mobile-support__links" id="foxy-mobile-support-links"><a href="https://discord.com/channels/1278830251383721984/1402637759990202368" target="_blank" rel="noopener noreferrer">Support</a><a href="https://beneaththeashedayz.tip4serv.com/" target="_blank" rel="noopener noreferrer">Store Front</a><a href="https://discord.gg/NpwumFFzFy" target="_blank" rel="noopener noreferrer">Join Discord</a></div></nav></div></header>
+<main class="wrap guide-page foxy-guide" id="top">
+  <div class="page-context"><a class="back" href="../">← Chernarus Guides</a><div class="world-tag">Music &amp; Collecting</div></div>
+  <section class="guide-hero">
+    <div class="kicker">BTA Player Guide</div>
+    <h1>FoXyRadio &amp; DiZaster&rsquo;s<br>Cassettes</h1>
+    <p>Music for the road. A soundtrack for your base.</p>
+    <p>Pick a player, fit the right battery and parts, then bring your favourite cassette, CD or SD card along for the ride. This guide covers Beneath the Ashes Chernarus: the music vending machine, every player family sold there, DiZaster tapes, vehicle playback, headphones, storage and troubleshooting.</p>
+  </section>
+  <details class="foxy-section-menu"><summary>Jump to a section</summary><div class="foxy-section-menu__links"><a href="#start-here">Start here</a><a href="#where-to-buy">Where to buy</a><a href="#choose-player">Choose a player</a><a href="#recordings">Recordings & tapes</a><a href="#controls">Controls</a><a href="#vehicle-playback">Vehicle playback</a><a href="#headphones">Headphones</a><a href="#batteries-parts">Batteries & parts</a><a href="#kits-storage">Kits & storage</a><a href="#troubleshooting">Troubleshooting</a></div></details>
+  <nav class="guide-jump-links" aria-label="Guide sections"><a href="#start-here">Start here</a><a href="#where-to-buy">Where to buy</a><a href="#choose-player">Choose a player</a><a href="#recordings">Recordings & tapes</a><a href="#controls">Controls</a><a href="#vehicle-playback">Vehicle playback</a><a href="#headphones">Headphones</a><a href="#batteries-parts">Batteries & parts</a><a href="#kits-storage">Kits & storage</a><a href="#troubleshooting">Troubleshooting</a></nav>
+  <article class="foxy-article"><section class="guide-section" id="start-here"><h2>Start here</h2><aside class="guide-note status-note"><strong>Configuration edition: 28 October 2026.</strong> This guide describes the approved Chernarus setup. The new vehicle and market settings take effect after the planned server restart. Clearer item names are coming in a separate mod update. If your menu differs, check with staff before replacing your gear.</aside>
+<ol>
+<li>Visit <strong>FoXyRadio &amp; DiZaster Music</strong>, beside the mainland Collectables Trader. Bring <strong>Zombie Notes</strong>.</li>
+<li>For cassette music, choose a <strong>Walkman</strong>. For a full Walkman, buy <strong>Radio Wires + Radio Belt</strong> as well. Simple Walkmans do not have those part slots.</li>
+<li>Check the player’s battery slots before buying batteries. AA and 9V versions are different models; a different colour does not change the model’s requirements.</li>
+<li>Drag the batteries, required parts and recorded cassette into the player’s attachment slots. Items loose in your backpack do not count.</li>
+<li>Hold the portable player and use its <strong>Turn On</strong> action. Use the item’s action list for volume, Radio Mode and playlist controls.</li>
+</ol>
+<p>For the easiest cassette setup, choose a <strong>Simple Walkman</strong>, match its battery slots and add a recorded tape. “Simple” removes extra-part checks; it does not mean free power. The device still uses its energy system.</p>
+<a class="foxy-back-to-top" href="#top">↑ Back to top</a></section>
+<section class="guide-section" id="where-to-buy"><h2>Where to buy and sell</h2>
+<p>The music machine is at the <strong>mainland Collectables Trader</strong>, map coordinates approximately <strong>X 11483 / Z 11340</strong>. It uses <strong>Zombie Notes</strong>, with the same face value as USD for this shop’s pricing.</p>
+<p>Everything in this machine is configured for <strong>buying and selling with unlimited stock</strong>. The configured pristine resale is <strong>50% of the purchase price</strong>. The actual offer can be lower for condition or quantity; check the offer in the trader window before confirming.</p>
+<p>Cosmetic variants are grouped under a parent item. Select the parent and use its variant selector to choose the colour or skin before purchasing. Different battery models, full/Simple players and different recordings stay separate. Search and sellable filters can show matching variants individually.</p>
+<div class="table-wrap"><div class="table-scroll-note">Scroll within the table on narrow screens.</div><table>
+<thead>
+<tr>
+<th>Category</th>
+<th align="right">Available item classes, including variants</th>
+<th align="right">Buy price in Zombie Notes</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Portable Players</td>
+<td align="right">142</td>
+<td align="right">2,500–4,000</td>
+</tr>
+<tr>
+<td>Radios &amp; Music Systems</td>
+<td align="right">9</td>
+<td align="right">6,000–8,500</td>
+</tr>
+<tr>
+<td>Headphones &amp; Earphones</td>
+<td align="right">1</td>
+<td align="right">2,000</td>
+</tr>
+<tr>
+<td>Speakers &amp; Vehicle Audio</td>
+<td align="right">1</td>
+<td align="right">1,250</td>
+</tr>
+<tr>
+<td>Parts &amp; Power</td>
+<td align="right">43</td>
+<td align="right">250–750</td>
+</tr>
+<tr>
+<td>FoXy Cassettes</td>
+<td align="right">7</td>
+<td align="right">1,000</td>
+</tr>
+<tr>
+<td>DiZaster — Singles</td>
+<td align="right">101</td>
+<td align="right">750</td>
+</tr>
+<tr>
+<td>DiZaster — Albums &amp; Compilations</td>
+<td align="right">38</td>
+<td align="right">2,500</td>
+</tr>
+<tr>
+<td>CDs &amp; Digital Media</td>
+<td align="right">25</td>
+<td align="right">500–2,500</td>
+</tr>
+<tr>
+<td>Music Storage &amp; Displays</td>
+<td align="right">20</td>
+<td align="right">1,500–5,000</td>
+</tr>
+<tr>
+<td>Microphones &amp; Novelties</td>
+<td align="right">36</td>
+<td align="right">1,000–3,500</td>
+</tr>
+</tbody></table></div>
+<a class="foxy-back-to-top" href="#top">↑ Back to top</a></section>
+<section class="guide-section" id="choose-player"><h2>Choose the right player</h2>
+<p><strong>The attachment slots on your exact model decide what fits.</strong> A family’s settings may allow several formats, but that does not create a missing slot. For example, the radio models in this shop have cassette, SD-card and USB slots; they do not gain a CD slot just because another radio-type device can read CDs.</p>
+<div class="table-wrap"><div class="table-scroll-note">Scroll within the table on narrow screens.</div><table>
+<thead>
+<tr>
+<th>Device / model</th>
+<th>Music format</th>
+<th>Battery slots</th>
+<th>Extra parts</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Walkman</td>
+<td>Cassette</td>
+<td>2 × FoXy AA</td>
+<td>Radio Wires, Radio Belt</td>
+</tr>
+<tr>
+<td>Walkman 9V</td>
+<td>Cassette</td>
+<td>1 × compatible 9V</td>
+<td>Radio Wires, Radio Belt</td>
+</tr>
+<tr>
+<td>Walkman AA</td>
+<td>Cassette</td>
+<td>1 × FoXy AA</td>
+<td>No extra parts</td>
+</tr>
+<tr>
+<td>Walkman AAx2</td>
+<td>Cassette</td>
+<td>2 × FoXy AA</td>
+<td>No extra parts</td>
+</tr>
+<tr>
+<td>Walkman AAx4</td>
+<td>Cassette</td>
+<td>4 × FoXy AA</td>
+<td>No extra parts</td>
+</tr>
+<tr>
+<td>Simple Walkman 9V</td>
+<td>Cassette</td>
+<td>1 × compatible 9V</td>
+<td>No extra parts</td>
+</tr>
+<tr>
+<td>Discman</td>
+<td>CD</td>
+<td>2 × FoXy AA</td>
+<td>Radio Wires</td>
+</tr>
+<tr>
+<td>Discman AA</td>
+<td>CD</td>
+<td>4 × FoXy AA</td>
+<td>Radio Wires</td>
+</tr>
+<tr>
+<td>Discman 9V</td>
+<td>CD</td>
+<td>1 × compatible 9V</td>
+<td>Radio Wires</td>
+</tr>
+<tr>
+<td>MP3 Player</td>
+<td>SD card</td>
+<td>2 × FoXy AA</td>
+<td>No extra parts</td>
+</tr>
+<tr>
+<td>Simple MP3 Player</td>
+<td>SD card</td>
+<td>1 × compatible 9V</td>
+<td>No extra parts</td>
+</tr>
+<tr>
+<td>FoXyRadio Kit</td>
+<td>Cassette, SD card, USB</td>
+<td>2 × FoXy AA</td>
+<td>Radio Belt, Radio Wires, Radio Speaker</td>
+</tr>
+<tr>
+<td>Portable FoXyRadio</td>
+<td>Cassette, SD card, USB</td>
+<td>2 × FoXy AA</td>
+<td>Radio Belt, Radio Wires, Radio Speaker</td>
+</tr>
+<tr>
+<td>Simple FoXyRadio Kit</td>
+<td>Cassette, SD card, USB</td>
+<td>1 × compatible 9V</td>
+<td>No extra parts</td>
+</tr>
+<tr>
+<td>Portable Simple FoXyRadio</td>
+<td>Cassette, SD card, USB</td>
+<td>1 × compatible 9V</td>
+<td>No extra parts</td>
+</tr>
+<tr>
+<td>Laptop Kit - Asus</td>
+<td>CD, HDD, USB</td>
+<td>8 × FoXy AA</td>
+<td>CPU, RAM</td>
+</tr>
+<tr>
+<td>Laptop Kit - DigDig</td>
+<td>CD, HDD, USB</td>
+<td>8 × FoXy AA</td>
+<td>CPU, RAM</td>
+</tr>
+<tr>
+<td>MediaStation Kit</td>
+<td>CD</td>
+<td>4 × FoXy AA</td>
+<td>CPU, RAM</td>
+</tr>
+<tr>
+<td>Simple MediaStation Kit</td>
+<td>CD</td>
+<td>1 × compatible 9V</td>
+<td>No extra parts</td>
+</tr>
+<tr>
+<td>Launchpad</td>
+<td>SD card</td>
+<td>8 × FoXy AA</td>
+<td>No extra parts</td>
+</tr>
+</tbody></table></div>
+<p>Colours and skins inherit the requirements of their model. The table lists physical battery slots; fill every battery slot on full models. Simple models bypass the full model’s extra-part/battery-presence check, but their energy manager still needs a working power source. Filling the available slots is the reliable setup for both types. Battery-life estimates are not provided because they depend on the device, battery and runtime behaviour.</p>
+<h3>Walkmans: cassette players</h3>
+<p>Full AA and 9V Walkmans need <strong>Radio Wires + Radio Belt</strong>. Their battery models and slots differ. Simple AA, AA×2, AA×4 and 9V Walkmans have no wire or belt slots. All of them use a cassette, including FoXy recordings and DiZaster tapes.</p>
+<p>Hold the Walkman when starting or controlling it. FoXyRadio permits in-hand playback for this family; dropping it on the ground is not a supported way to start a base radio.</p>
+<h3>Discmans: CD players</h3>
+<p>Discmans play <strong>CDs</strong>, not cassettes. Fit Radio Wires and the batteries for your model: two AA, four AA or one compatible 9V. Add a recorded CD and use the player’s actions while holding it.</p>
+<h3>MP3 players and Launchpad</h3>
+<p>MP3 players use <strong>SD cards</strong>. The full model has two AA slots; the Simple model has a compatible 9V slot. Neither needs a belt, wires, CPU or RAM. A USB stick does not fit an SD-card slot.</p>
+<p>The Launchpad also reads an <strong>SD card</strong> and has eight AA battery slots. It has no extra-part requirement. Its family permits in-hand and on-ground operation. It is not a cassette player or a way to import your own audio files.</p>
+<h3>Radios and base systems</h3>
+<p>Full radios and their portable equivalents need <strong>Radio Belt + Radio Wires + Radio Speaker</strong> and have two AA slots. The Radio Speaker is the regular radio part; it is different from the Vehicle Speaker. Simple radios have a compatible 9V slot and no extra-part requirement. These models accept cassette, SD-card and USB media where their slots are present.</p>
+<p>Laptop kits deploy into a CD/HDD/USB system with <strong>CPU + RAM</strong> and eight AA battery slots. The ASUS and DigDig skins use the same slot layout. The shop does not currently sell a separate HDD, so use a compatible recorded CD or USB from the music machine.</p>
+<p>The full Media Station uses <strong>CD + CPU + RAM</strong>, with four AA slots. The Simple Media Station uses a CD and a compatible 9V battery, with no CPU or RAM slots. Laptops and Media Stations are configured for <strong>on-ground</strong> operation: deploy or place them before starting playback.</p>
+<a class="foxy-back-to-top" href="#top">↑ Back to top</a></section>
+<section class="guide-section" id="recordings"><h2>FoXyRadio recordings and DiZaster tapes</h2>
+<p>FoXyRadio supplies the players and playback system. <strong>DiZaster’s Cassettes adds recorded tapes that use FoXyRadio’s cassette format.</strong> You do not need a separate DiZaster player, battery or radio part.</p>
+<h3>Singles, albums and mixes</h3>
+<ul>
+<li><strong>Single:</strong> one recording. A missing Next Track action on a single-track tape is normal.</li>
+<li><strong>Album / compilation / mix:</strong> several configured tracks on one tape. Start playback before looking for Next Track or Previous Track.</li>
+<li><strong>Cassette compatibility:</strong> Walkmans, cassette-capable radios and supported vehicle cassette slots. A DiZaster tape cannot be inserted into a Discman or an SD-card-only MP3 player.</li>
+</ul>
+<p>DiZaster singles cost <strong>750 Zombie Notes</strong> and albums/mixes cost <strong>2,500</strong> at this shop, with configured pristine resale of <strong>375</strong> and <strong>1,250</strong> respectively. Check the tape’s in-game description to distinguish singles from albums and mixes.</p>
+<p>FoXy’s five original tracks are <strong>Intro, Deep, Dub Da Da, Up to the Sky</strong> and <strong>Incapable End</strong>. They exist on several physical formats. Choose the format that matches your player. The <strong>DayZ recording</strong> and <strong>FoXyRadio mixtape/album media</strong> are separate items.</p>
+<h3>Blank media and recording</h3>
+<p>The eight blank cassette variants are not sold here. Blank CDs, SD cards and USBs are still sold in the machine, but they do not provide a recorded song. Buy recorded media if you want music.</p>
+<p>The inspected mod has a cassette-erasing recipe, but no implemented player recording/import workflow was found. Do not buy blank media expecting to record voice or upload songs. Erasing a supported recorded tape with duct tape produces a blank cassette; it does not copy music. The recipe supports only specific tape classes, not every DiZaster cassette.</p>
+<p>Two DiZaster entries were held out of this market because their configured audio references were incomplete: <strong>Bob Marley — Turn Your Lights Down Low</strong> and the <strong>Bob Marley compilation</strong>. They are not missing because you need to unlock a trader tier.</p>
+<a class="foxy-back-to-top" href="#top">↑ Back to top</a></section>
+<section class="guide-section" id="controls"><h2>Controls</h2>
+<h3>Portable and placed devices</h3>
+<p>Use the device’s normal context/action list for <strong>Turn On / Turn Off</strong>, <strong>Increase Volume / Decrease Volume</strong>, <strong>Radio Mode</strong>, and <strong>Next / Previous Track</strong> where offered. Hold portable devices; look at placed systems. Some actions appear only during playback. Track skipping requires playlist media.</p>
+<h3>Inside a compatible vehicle</h3>
+<p>These are FoXyRadio’s <strong>default bindings</strong>. Your saved bindings may differ; check <strong>Options → Controls → FoXyRadio</strong>. A conflicting key assignment can prevent the expected action.</p>
+<div class="table-wrap"><div class="table-scroll-note">Scroll within the table on narrow screens.</div><table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Default key</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Toggle Radio Player</td>
+<td>J</td>
+</tr>
+<tr>
+<td>Increase volume</td>
+<td>Up Arrow</td>
+</tr>
+<tr>
+<td>Decrease volume</td>
+<td>Down Arrow</td>
+</tr>
+<tr>
+<td>Previous track</td>
+<td>Left Arrow</td>
+</tr>
+<tr>
+<td>Next track</td>
+<td>Right Arrow</td>
+</tr>
+<tr>
+<td>Radio Mode: public / private</td>
+<td>P</td>
+</tr>
+</tbody></table></div>
+<p>The current settings allow track skipping, volume control and passenger control. Use the controls while seated in the vehicle. A single-track tape will not gain additional tracks when you press a skip key.</p>
+<a class="foxy-back-to-top" href="#top">↑ Back to top</a></section>
+<section class="guide-section" id="vehicle-playback"><h2>Vehicle cassette playback on Chernarus</h2>
+<p><strong>No extra radio belt, wires or Vehicle Speaker are required in the approved server configuration.</strong> The Vehicle Speaker has been removed from the music market. Radio parts sold for Walkmans and home radios are still useful for those devices.</p>
+<ol>
+<li>Open your vehicle’s inventory and find its <strong>cassette attachment slot</strong>. A cassette stored in cargo does not count.</li>
+<li>Insert a recorded FoXyRadio or DiZaster cassette.</li>
+<li>Keep a supported, non-ruined vehicle battery installed. The vehicle-radio check looks for a supported battery attachment; it does not require you to fit AA or 9V player batteries.</li>
+<li>Get into the vehicle and press your <strong>Toggle Radio Player</strong> key, default <strong>J</strong>.</li>
+<li>Adjust volume or skip playlist tracks using your FoXyRadio controls. Use public mode for shared listening, or the compatible private-listening setup below.</li>
+</ol>
+<p>Inserting a cassette does <strong>not</strong> automatically start playback. Removing the extra-part requirement does not add attachment slots to a vehicle that lacks them. Some modded vehicles need compatibility support. The inspected playback actions operate on CarScript vehicles; do not assume every aircraft or boat works just because its battery type appears in the allowed list.</p>
+<p>CD, SD-card and USB playback are also allowed by the vehicle-radio settings, but only a vehicle with the corresponding physical media slot can use that format. The cassette slot is the intended route for this server’s current vehicles.</p>
+<a class="foxy-back-to-top" href="#top">↑ Back to top</a></section>
+<section class="guide-section" id="headphones"><h2>Headphones, private listening and volume</h2>
+<p>FoXyRadio Earphones use a <strong>compatible 9V battery</strong>. Put the earphones in your hands, fit their battery and switch them on. Their powered actions also let you cycle visual effects and randomise colours.</p>
+<p>There are two different private-listening arrangements:</p>
+<ul>
+<li><strong>Earphones attached to a player:</strong> use its headphones slot. Powered attached earphones automatically make that player private to its owner while the player is carried. You do not have to enable Radio Mode separately. Leaving an earphone-equipped device on the ground can result in nobody hearing it because it has no player owner.</li>
+<li><strong>Earphones worn as headgear:</strong> switch the device to private Radio Mode and wear compatible, powered earphones. The device’s configured private reception limit is <strong>50 metres</strong>. These are different from attaching earphones directly to the player.</li>
+</ul>
+<p>Attached earphones that are switched off or out of power can mute the player rather than falling back to its speaker. Check the headset battery and power switch if the player looks active but is silent. Removing the earphones restores the normal speaker/private-mode decision.</p>
+<p>For vehicles, private mode checks the listener’s compatible powered headset; simply sitting in the passenger seat is not the same as wearing one. Use public mode if the group wants shared playback without headsets.</p>
+<p>Volume is configured from <strong>0 to 3</strong>, in <strong>0.5</strong> steps, with a default of <strong>1.5</strong>. Public device audio has a configured <strong>150-metre</strong> listening limit; actual audibility depends on the sound and volume. This is a range setting, not a promise that music is equally loud throughout that area.</p>
+<a class="foxy-back-to-top" href="#top">↑ Back to top</a></section>
+<section class="guide-section" id="batteries-parts"><h2>Batteries and replacement parts</h2>
+<p><strong>Buy for the slot, not just the picture.</strong> FoXy AA batteries and compatible 9V batteries are different formats. Coloured 9V skins are grouped together in the machine. The longer-life ×2, ×3, ×4 and ×5 batteries remain separate choices; they are not just colour variants. The infinite-power battery was held out of the market.</p>
+<div class="table-wrap"><div class="table-scroll-note">Scroll within the table on narrow screens.</div><table>
+<thead>
+<tr>
+<th>Part</th>
+<th>Used for</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Radio Belt</td>
+<td>Full Walkmans and full radios</td>
+</tr>
+<tr>
+<td>Radio Wires</td>
+<td>Full Walkmans, Discmans and full radios</td>
+</tr>
+<tr>
+<td>Radio Speaker</td>
+<td>Full radios</td>
+</tr>
+<tr>
+<td>CPU + RAM</td>
+<td>Full laptops and full Media Stations</td>
+</tr>
+<tr>
+<td>FoXy AA / compatible 9V</td>
+<td>Match the exact device’s slots</td>
+</tr>
+<tr>
+<td>Vehicle battery</td>
+<td>Vehicle playback; use the vehicle’s supported battery</td>
+</tr>
+</tbody></table></div>
+<p>Open the item’s inventory and drag each part into its matching attachment slot. Belt and wires are their own FoXyRadio parts, not a generic clothing belt or an arbitrary roll of wire. The shop does not automatically pre-fit the player’s parts or batteries.</p>
+<a class="foxy-back-to-top" href="#top">↑ Back to top</a></section>
+<section class="guide-section" id="kits-storage"><h2>Kits, furniture and collection storage</h2>
+<p>The machine sells <strong>kits</strong> for the placeable radio, laptop, Media Station, CD racks, desk and neon sign. Portable radios are separate carryable choices. Buying a kit does not give you a fully powered, assembled music system.</p>
+<ol>
+<li>Put the kit in your hands and use its placement action to position it.</li>
+<li>After deployment, open the placed item’s inventory. Add the supported batteries, electronic parts and media for a playback system, or use a storage item’s supported slots/cargo for your collection.</li>
+</ol>
+<p>Cassette cases, CD cases and other collection containers organise physical media. Storage does not turn a container into a music player, and a music disc stored as cargo is not installed in a device’s media slot. Check the container’s own layout rather than assuming every case holds every format.</p>
+<p>To pack a supported placed item, first remove its batteries, media, parts and stored contents. Use the offered packing/dismantling action with an appropriate tool. The inspected packing recipes for radios, laptops, Media Stations, CD racks, the desk and neon sign accept <strong>a screwdriver or pliers</strong> and cause tool wear. Do not expect to pack a system with attachments still installed. A target’s in-game action determines whether that specific item supports dismantling.</p>
+<a class="foxy-back-to-top" href="#top">↑ Back to top</a></section>
+<section class="guide-section" id="microphones"><h2>Microphones, sound grenades and decorative items</h2>
+<p>Microphones, their gold/AA variants, the FoXy novelty item, sound grenades and displays are sold in the music machine. They are not additional parts required to play a cassette.</p>
+<p>Sound grenades are throwable novelty sound items with variant-specific fuses/audio. Follow server rules when using them around other players; their effect is separate from the cassette player’s playlist controls. Do not treat a sound grenade as a reusable music player or assume all variants have identical effects.</p>
+<p>Microphones are offered as novelty items here. The inspected dedicated microphone script is commented out, so this guide does not promise working voice amplification, radio broadcasting or recording. A microphone is not a way to create a recorded cassette. Neon signs and display furniture are for the supported decorative/storage interactions, not extra music formats.</p>
+<a class="foxy-back-to-top" href="#top">↑ Back to top</a></section>
+<section class="guide-section" id="troubleshooting"><h2>Troubleshooting</h2>
+<div class="table-wrap"><div class="table-scroll-note">Scroll within the table on narrow screens.</div><table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>What to check</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Nothing happens when I insert a cassette</td>
+<td>Insertion is not Play. Turn the player on or use the vehicle toggle.</td>
+</tr>
+<tr>
+<td>The player immediately switches off</td>
+<td>Check its exact battery model, charge, condition, every required battery slot and full-model parts.</td>
+</tr>
+<tr>
+<td>My Simple player asks for a part</td>
+<td>Confirm the exact item name/model. Colours do not turn a full model into a Simple model. Report the classname if the layout and label disagree.</td>
+</tr>
+<tr>
+<td>A tape will not attach</td>
+<td>A Discman reads CDs and an MP3 player reads SD cards. Use a device with a Cassette slot.</td>
+</tr>
+<tr>
+<td>My vehicle has no cassette slot</td>
+<td>Cargo storage will not work. That vehicle needs a compatible slot/configuration. Report the exact model.</td>
+</tr>
+<tr>
+<td>The vehicle says it needs a belt, wires or speaker</td>
+<td>The saved no-extra-parts configuration may not have been loaded yet. Ask staff; do not buy parts for nonexistent slots.</td>
+</tr>
+<tr>
+<td>Vehicle J / arrow keys do nothing</td>
+<td>Sit in the vehicle; check FoXyRadio bindings, conflicts, cassette attachment and supported non-ruined vehicle battery.</td>
+</tr>
+<tr>
+<td>Music plays for one person but not another</td>
+<td>Check public/private mode, worn or attached earphones, headset power, ownership and range.</td>
+</tr>
+<tr>
+<td>Playback looks active but is silent</td>
+<td>Raise volume above zero; check earphone power; confirm the media is recorded. Compare with a known working tape.</td>
+</tr>
+<tr>
+<td>No Next Track option</td>
+<td>The media may be a single. Start a playlist tape before looking for skip actions.</td>
+</tr>
+<tr>
+<td>A placed player will not start</td>
+<td>Check whether the family supports ground playback. Laptops and Media Stations must be placed; handheld-only families must be held.</td>
+</tr>
+<tr>
+<td>Item names show STR_Name… or several things just say Cassette</td>
+<td>Some original name references are broken/generic. The local BTA naming patch supplies readable names and track labels, but needs publication and matching client/server updates.</td>
+</tr>
+<tr>
+<td>I cannot see all colour cards</td>
+<td>Select the parent item and use its variant selector. Search can surface individual matches.</td>
+</tr>
+<tr>
+<td>The shop has no Buy or Sell button</td>
+<td>Check selected variant, currency, ownership/condition and the current trader offer. Send staff the item name/class and a screenshot if it still looks wrong.</td>
+</tr>
+</tbody></table></div>
+<p>When reporting a problem, include the <strong>exact device or vehicle model</strong>, media name, installed batteries/parts, whether you are holding or placing it, whether headphones are attached/worn, and any notification shown. A short clip or screenshot of the attachment slots helps staff reproduce it.</p>
+
+<a class="foxy-back-to-top" href="#top">↑ Back to top</a></section>
+</article>
+  <div class="foxy-bottom-links"><a href="#top">↑ Back to top</a><a href="../">← Back to Chernarus Guides</a></div>
+</main>
+<footer><div class="wrap">Beneath the Ashes • Chernarus Guides</div></footer>
+<script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
+<script>
+(function () {
+  const menu = document.querySelector('.foxy-mobile-support');
+  const toggle = menu && menu.querySelector('.foxy-mobile-support__toggle');
+  if (!menu || !toggle) return;
+  toggle.addEventListener('click', function () {
+    const isOpen = menu.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', String(isOpen));
+  });
+})();
+</script>
+</body>
+</html>
