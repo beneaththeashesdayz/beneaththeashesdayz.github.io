@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-10-29T23:23:35.200075+00:00",
+  "syncedAt": "2026-10-30T00:20:41.537722+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -729,7 +729,7 @@
     }
   ],
   "impound": {
-    "defaultImpoundAfterTime": -1,
+    "defaultImpoundAfterTime": 14400,
     "minPlayerDistanceForImpound": 5.0,
     "impoundVehiclesProtectedByFlagpole": 1,
     "impoundRuinedVehicles": 1,
