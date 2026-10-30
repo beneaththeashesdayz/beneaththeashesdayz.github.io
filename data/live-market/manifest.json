@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-10-30T19:21:31.167740+00:00",
+  "syncedAt": "2026-10-30T20:20:44.673754+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -2210,23 +2210,23 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "e7fd8cee37159da1e7742de0e1f441c09cbb6a1bcd60e4e6b1999f0cdc8e03de",
+      "sha256": "4d25eb3632dc54421d9ccb6dd853b7f24be8afcca4a23cc85d1ab6b442090550",
       "topLevelType": "object",
-      "entryCount": 7
+      "entryCount": 8
     },
     {
       "group": "traderzones",
       "filename": "Main_BuildingSupplies_Trader.json",
-      "sha256": "0c7da9b923c889b6ebfae78678cf6133b65abd6f7de6554b0a58692d6d560c3d",
+      "sha256": "8ce2a8086ba29b12592c3914b20eb2e1124a97710950861316edfe4a3d29bb6c",
       "topLevelType": "object",
-      "entryCount": 7
+      "entryCount": 8
     },
     {
       "group": "traderzones",
       "filename": "Main_Clothing_Trader.json",
-      "sha256": "9febfb2f8906f158a105b4b72db251ecddd359221024df38ce97e59ec06b58eb",
+      "sha256": "5d088f2c0fce3d794281fdb47a33ae54e6c61dbb4df901ea31cb803c58d6a2ae",
       "topLevelType": "object",
-      "entryCount": 7
+      "entryCount": 8
     },
     {
       "group": "traderzones",
@@ -2238,9 +2238,9 @@
     {
       "group": "traderzones",
       "filename": "Main_Medicals_Trader.json",
-      "sha256": "c84be8047f73e11c7f7ac4ec0380d86938cfbaa8de559cfcdb9111cb80554a61",
+      "sha256": "1bf8e7be22a3a7b5796a63efaf8a5aa0e212d200a89bbaf6329effed4c02c8cc",
       "topLevelType": "object",
-      "entryCount": 7
+      "entryCount": 8
     },
     {
       "group": "traderzones",
@@ -2252,9 +2252,9 @@
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "9bda0cff3fa1cb468c23f69df489d48860d18bf3babe24782bb51f7f7f395861",
+      "sha256": "950af4ef83734aa179304c5240bb5332b784cf04f749a8205b4cac1af2445850",
       "topLevelType": "object",
-      "entryCount": 7
+      "entryCount": 8
     },
     {
       "group": "traderzones",
