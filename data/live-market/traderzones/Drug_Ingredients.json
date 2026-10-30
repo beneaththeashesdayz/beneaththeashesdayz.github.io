@@ -1,0 +1,41 @@
+{
+  "m_Version": 6,
+  "m_DisplayName": "Drug Ingredients",
+  "Position": [
+    3837.96,
+    188.698,
+    13071.5
+  ],
+  "Radius": 20,
+  "BuyPricePercent": 100,
+  "SellPricePercent": 100,
+  "Stock": {
+    "im7s_ammonia": 20,
+    "im7s_acetone": 20,
+    "im7s_sodium_hydroxide": 20,
+    "im7s_pseudoephedrine": 20,
+    "im7s_hydrofluoric_acid": 20,
+    "im7s_bleach_01": 20,
+    "im7s_bleach_02": 20,
+    "im7s_brake_fluid": 20,
+    "im7s_battery_acid_01": 20,
+    "im7s_battery_acid_02": 20,
+    "im7s_ammonium_nitrate": 20,
+    "im7s_isopropyl_alcohol": 20,
+    "im7s_sulfuric_acid": 20,
+    "im7s_acetic_anhydride": 20,
+    "im7s_bakingsoda": 20,
+    "im7s_precursor_209": 8,
+    "im7s_precursor_510": 8,
+    "im7s_precursor_707": 8,
+    "im7s_precursor_916": 8,
+    "im7s_mdma_pack": 5,
+    "im7s_bindingagent_plain": 20,
+    "im7s_colorpouch_purple": 20,
+    "im7s_colorpouch_green": 20,
+    "im7s_colorpouch_blue": 20,
+    "im7s_colorpouch_yellow": 20,
+    "im7s_lsd_blotter_sheets": 8,
+    "im7s_beaker_a": 4
+  }
+}
