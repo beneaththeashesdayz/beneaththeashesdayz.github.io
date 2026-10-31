@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-10-31T19:21:06.760395+00:00",
+  "syncedAt": "2026-10-31T20:22:28.169303+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -2217,7 +2217,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "95cab29e09d6b792a744e37509cd27385a5a1480b46901f504e2a0c8ba882f53",
+      "sha256": "99acbd151e290d10e26c9883ff578fe0f4ce9bd53c858bdb2b8555bee47f5e69",
       "topLevelType": "object",
       "entryCount": 8
     },
@@ -2231,7 +2231,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Clothing_Trader.json",
-      "sha256": "bc1df906488afd81a164f643c7cda41c3589f88ecad8835ffeff644065fc8218",
+      "sha256": "da4980b729109124f05e4962e9ed5c1194745b94411f79f5f215b2f0e511cf53",
       "topLevelType": "object",
       "entryCount": 8
     },
@@ -2259,7 +2259,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "b8b8a443a60857aec19c6cd8b4b38f267a4ff78c54abd6825c095ab09ce49173",
+      "sha256": "ac86f5a4652e4751f2987c2b160b76b81c65f0a557694312d155467a54fb3a35",
       "topLevelType": "object",
       "entryCount": 8
     },
