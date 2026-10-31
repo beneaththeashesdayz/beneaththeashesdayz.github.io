@@ -23,7 +23,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Achar',className:'achar',category:'Food',mode:'sell',price:10345},
 {name:'Bakedbeanscan',className:'bakedbeanscan',category:'Food',mode:'sell',price:9965},
 {name:'Boxcerealcrunchin',className:'boxcerealcrunchin',category:'Food',mode:'sell',price:10140},
-{name:'Brisketspread',className:'brisketspread',category:'Food',mode:'buy',price:10055,sellPrice:5028},
+{name:'Brisketspread',className:'brisketspread',category:'Food',mode:'sell',price:10055},
 {name:'Catfoodcan',className:'catfoodcan',category:'Food',mode:'sell',price:9885},
 {name:'Chips',className:'chips',category:'Food',mode:'sell',price:9715},
 {name:'Crabcan',className:'crabcan',category:'Food',mode:'sell',price:10285},
