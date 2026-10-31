@@ -1,0 +1,153 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Halloween Collectables",
+  "Icon": "Deliver",
+  "Color": "FF7030A0",
+  "InitStockPercent": 0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "RZ_DemonSkull",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RZ_DemonSkull_Red",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RZ_DemonSkull_Blue",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RZ_DemonSkull_Purple",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Paragon_Skull_Gold",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Paragon_Skull_Silver",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RZ_Ancient_Coffin",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RZ_Ancient_CoffinRed",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RZ_Ancient_CoffinPurple",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RZ_Ancient_CoffinBlue",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RZ_Oija_Board",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Vyse_Labubu_Horror",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Vyse_Yugioh_Card_45",
+      "MaxPriceThreshold": 16000,
+      "MinPriceThreshold": 16000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

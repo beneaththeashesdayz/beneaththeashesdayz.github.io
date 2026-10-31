@@ -2,7 +2,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Loner Can Empty',className:'loner_can_empty',category:'Cans',mode:'sell',price:300},
 {name:'Loner Can Small Empty',className:'loner_can_small_empty',category:'Cans',mode:'sell',price:250},
 {name:'Ayranbottle',className:'ayranbottle',category:'Drinks',mode:'sell',price:9845},
-{name:'Canteen',className:'canteen',category:'Drinks',mode:'buy',price:12000,sellPrice:6000},
+{name:'Canteen',className:'canteen',category:'Drinks',mode:'sell',price:12000},
 {name:'Expansionmilkbottle',className:'expansionmilkbottle',category:'Drinks',mode:'sell',price:9845},
 {name:'Filteringbottle',className:'filteringbottle',category:'Drinks',mode:'sell',price:15000},
 {name:'Glassbottle',className:'glassbottle',category:'Drinks',mode:'sell',price:8500},
