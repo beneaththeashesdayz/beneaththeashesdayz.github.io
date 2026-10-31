@@ -33,7 +33,7 @@
       </div>
     </section>
 
-    <section class="reward-section">
+    <section id="current-events" class="reward-section">
       <div class="section-heading">
         <div>
           <div class="project-label">Current events</div>
@@ -42,8 +42,17 @@
         <p>Open an event for its complete rules, clues, rewards, and destinations.</p>
       </div>
 
-      <div class="reward-ladder">
+      <div id="current-event-list" class="reward-ladder">
         
+        <a id="halloween-haul-card" class="reward-card master halloween-haul-card" href="halloween-haul/" data-event-end="2026-11-02T04:59:00Z">
+          <div class="reward-tier">
+            <span>Limited-Time Halloween Event</span>
+            <h3>Halloween Haul</h3>
+          </div>
+          <p><strong>The skies over Chernarus are glowing purple!</strong> Hunt mysterious Halloween airdrops, battle terrifying infected, collect exclusive gear, discover rare spooky treasures, and walk away with a fortune.</p>
+          <p class="reward-name">Hourly Halloween Airdrops · 284 Halloween Gear Items · 13 Halloween Collectables · Violet Keys · Zombie Notes · Ends November 1, 2026 at 11:59 PM Eastern</p>
+          <span class="event-status event-status-live"><i></i> Live event</span>
+        </a>
         <a class="reward-card master" href="halloween-chaos/">
           <div class="reward-tier">
             <span>Live Event // Halloween</span>
@@ -56,7 +65,7 @@
       </div>
     </section>
 
-    <section class="reward-section past-events">
+    <section id="past-events" class="reward-section past-events">
       <div class="section-heading">
         <div>
           <div class="project-label">Past events</div>
@@ -65,7 +74,7 @@
         <p>Review completed events and their details.</p>
       </div>
 
-      <div class="reward-ladder"><a class="reward-card master" href="dragon-egg-hunt/">
+      <div id="past-event-list" class="reward-ladder"><a class="reward-card master" href="dragon-egg-hunt/">
           <div class="reward-tier">
             <span>Completed Event · Ended October 25, 2026</span>
             <h3>Dragon Egg Hunt</h3>
@@ -128,5 +137,28 @@
   </footer>
 
   <script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
+
+  <script>
+    (function(){
+      var card = document.getElementById('halloween-haul-card');
+      if(!card){ return; }
+      var endMs = Date.parse(card.getAttribute('data-event-end'));
+      if(Date.now() < endMs){ return; }
+      var tier = card.querySelector('.reward-tier span');
+      var summary = card.querySelector('p strong');
+      var reward = card.querySelector('.reward-name');
+      var status = card.querySelector('.event-status');
+      if(tier){ tier.textContent = 'Completed Event · Ended November 1, 2026'; }
+      if(summary){ summary.textContent = 'Halloween Haul has ended.'; }
+      if(reward){ reward.textContent = 'Event completed November 1, 2026 · Special hourly Halloween airdrops ended'; }
+      if(status){
+        status.classList.remove('event-status-live');
+        status.classList.add('event-status-closed');
+        status.innerHTML = '<i></i> Closed event';
+      }
+      var pastList = document.getElementById('past-event-list');
+      if(pastList){ pastList.prepend(card); }
+    })();
+  </script>
 </body>
 </html>
