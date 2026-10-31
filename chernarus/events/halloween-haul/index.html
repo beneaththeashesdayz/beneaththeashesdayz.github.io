@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Halloween Haul | Beneath the Ashes</title>
+  <meta name="description" content="Halloween Haul is a limited-time Beneath the Ashes Chernarus event featuring hourly purple Halloween airdrops, infected guardians, Violet Keys, 13 collectables and a massive seasonal haul.">
+  <link rel="stylesheet" href="../../../styles.css?v=events-3">
+  <style>
+    .halloween-haul-page{padding-bottom:24px}
+    .haul-hero{position:relative;overflow:hidden;margin:28px 0 30px;padding:40px 42px;border:1px solid #745b91;border-left:3px solid #9d67e8;background:radial-gradient(circle at 86% 6%,rgba(143,76,214,.4),transparent 31%),radial-gradient(circle at 20% 100%,rgba(93,35,123,.25),transparent 35%),linear-gradient(135deg,#211827,#121417 70%);box-shadow:0 18px 55px rgba(68,27,101,.18)}
+    .haul-hero:after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 72% 35%,rgba(164,111,255,.11),transparent 11%),radial-gradient(circle at 80% 70%,rgba(247,128,66,.1),transparent 13%)}
+    .haul-hero-inner{position:relative;z-index:1;max-width:950px}
+    .haul-kicker{color:#d69cff;font-size:.72rem;font-weight:900;letter-spacing:.2em;text-transform:uppercase}
+    .haul-hero h1{margin:16px 0 10px;color:#f4ecff;font-size:clamp(3.2rem,8vw,7rem);line-height:.84;letter-spacing:-.07em;text-transform:uppercase}
+    .haul-hero h1 span{color:#b57cff}
+    .haul-subtitle{margin:0 0 14px;color:#f3c08f;font-size:1.25rem;font-weight:800;letter-spacing:.04em}
+    .haul-lead{max-width:820px;margin:0;color:#dfd4e7;line-height:1.75}
+    .haul-status-row{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:22px}
+    .haul-deadline{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:20px;padding:14px 16px;border:1px solid #6d4c84;background:rgba(20,15,27,.72);color:#eadcf6;line-height:1.5}
+    .haul-deadline strong{color:#f4bc83}
+    .haul-countdown{font-variant-numeric:tabular-nums}
+    .haul-section{margin-top:30px;scroll-margin-top:28px}
+    .haul-section-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;padding-bottom:14px;border-bottom:1px solid #44354e;margin-bottom:18px}
+    .haul-section-heading h2{margin:4px 0 0;color:#f1e8f7;font-size:clamp(1.75rem,4vw,3rem);line-height:.95;letter-spacing:-.045em;text-transform:uppercase}
+    .haul-section-heading p{max-width:620px;margin:0;color:var(--muted);line-height:1.65}
+    .haul-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .haul-panel{border:1px solid #45374d;background:linear-gradient(135deg,#1c1920,#141719);padding:22px}
+    .haul-panel h3{margin:0 0 10px;color:#e5b6ff;font-size:1rem;letter-spacing:.1em;text-transform:uppercase}
+    .haul-panel p,.haul-panel li{color:var(--muted);line-height:1.7}
+    .haul-panel p{margin:0}
+    .haul-panel ul{margin:0;padding-left:20px}
+    .haul-panel li+li{margin-top:8px}
+    .haul-panel strong{color:#f5ede5}
+    .haul-panel--smoke{border-left:3px solid #ad73ee;background:linear-gradient(135deg,#271c32,#141719)}
+    .haul-panel--danger{border-left:3px solid #ef7948;background:linear-gradient(135deg,#2a1b20,#141719)}
+    .haul-panel--key{border-left:3px solid #d8a35f;background:linear-gradient(135deg,#292019,#141719)}
+    .haul-panel--wide{grid-column:1/-1}
+    .haul-callout{margin-top:18px;border:1px solid #7955a0;border-left:4px solid #b677f2;background:linear-gradient(135deg,rgba(70,38,91,.72),rgba(27,21,32,.96));padding:18px 20px;color:#eadcf6;line-height:1.7}
+    .haul-callout strong{color:#ffd09b}
+    .loot-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+    .loot-card{min-height:118px;border:1px solid #44364e;background:#1b1820;padding:17px}
+    .loot-card h3{margin:0 0 8px;color:#f3d4ff;font-size:.92rem;letter-spacing:.08em;text-transform:uppercase}
+    .loot-card p{margin:0;color:var(--muted);font-size:.94rem;line-height:1.55}
+    .collectable-shell{border:1px solid #5d4372;background:radial-gradient(circle at 90% 0,rgba(130,73,190,.24),transparent 35%),#17151b;padding:22px}
+    .collectable-intro{margin:0 0 18px;color:#d9cce2;line-height:1.7}
+    .collectable-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .collectable-group{border:1px solid #44364e;background:#1d1922;padding:18px}
+    .collectable-group h3{margin:0 0 12px;color:#f0a36c;font-size:.9rem;letter-spacing:.13em;text-transform:uppercase}
+    .collectable-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+    .collectable-item{border:1px solid #51405d;background:#151419;padding:11px 12px;color:#eee2f2;font-weight:800}
+    .collectable-item span{display:block;margin-top:3px;color:#a995b7;font-size:.72rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase}
+    .payout-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .payout-card{border:1px solid #765183;background:linear-gradient(135deg,#261a2d,#15161a);padding:22px}
+    .payout-card--black{border-color:#b7774a;background:linear-gradient(135deg,#2b1b18,#171719)}
+    .payout-card h3{margin:0 0 8px;color:#dca8f5;font-size:.92rem;letter-spacing:.12em;text-transform:uppercase}
+    .payout-card--black h3{color:#ffc18c}
+    .payout-amount{margin:0;color:#fff1ff;font-size:2rem;font-weight:900;letter-spacing:-.04em}
+    .payout-card p:last-child{margin:8px 0 0;color:var(--muted);line-height:1.6}
+    .haul-deadline-panel{border:1px solid #9a5a48;border-left:4px solid #ef7948;background:linear-gradient(135deg,#2a1b1b,#171719);padding:24px}
+    .haul-deadline-panel h2{margin:0 0 10px;color:#ffd0a1;font-size:clamp(1.8rem,4vw,3rem);line-height:1;text-transform:uppercase}
+    .haul-deadline-panel p{margin:0;color:#e5d8d0;line-height:1.7}
+    .haul-cta{margin-top:16px;color:#ffd0a1;font-weight:900;letter-spacing:.05em}
+    .haul-back{display:inline-block;margin-top:18px;color:#dfc4eb;font-size:.75rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}
+    .haul-back:hover,.haul-back:focus-visible{color:#fff}
+    @media(max-width:900px){.loot-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.haul-section-heading{display:block}.haul-section-heading p{margin-top:12px}}
+    @media(max-width:760px){.haul-hero{padding:30px 24px}.haul-grid,.payout-grid,.collectable-groups{grid-template-columns:1fr}.haul-panel--wide{grid-column:auto}.collectable-items{grid-template-columns:repeat(2,minmax(0,1fr))}.haul-section{scroll-margin-top:18px}}
+    @media(max-width:430px){.haul-hero{padding:26px 19px}.haul-panel,.collectable-shell,.haul-deadline-panel{padding:18px}.loot-grid{grid-template-columns:1fr}.collectable-items{grid-template-columns:1fr}.haul-status-row{align-items:flex-start;flex-direction:column}.haul-deadline{display:block}.haul-countdown{display:block;margin-top:7px}}
+  </style>
+</head>
+<body class="events-page halloween-haul-page">
+  <header>
+    <div class="wrap">
+      <div class="brand">
+        <div class="mark"><span>🔥</span></div>
+        <div>Beneath the Ashes</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="page-context">
+      <a class="back" href="../">← All Events</a>
+      <div class="world-tag">World // Chernarus</div>
+    </div>
+
+    <section class="haul-hero">
+      <div class="haul-hero-inner">
+        <div class="haul-kicker">Limited-Time Halloween Event // Chernarus</div>
+        <h1>Halloween <span>Haul</span></h1>
+        <p class="haul-subtitle">The Dead Have Brought Treats.</p>
+        <p class="haul-lead">Something wicked has awakened in Chernarus. The skies are turning purple, the dead are crawling from their graves, and mysterious Halloween supply crates are falling across the wasteland!</p>
+        <div class="haul-status-row">
+          <div class="event-status event-status-live" id="haul-status"><i></i> LIVE EVENT</div>
+          <span class="world-tag">Chernarus Only</span>
+        </div>
+        <div class="haul-deadline">
+          <span id="haul-deadline-label"><strong>Event Ends:</strong> Sunday, November 1, 2026 — 11:59 PM Eastern</span>
+          <strong class="haul-countdown" id="haul-countdown" aria-live="polite">Loading countdown…</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="haul-section" id="purple-smoke">
+      <div class="haul-section-heading">
+        <div><div class="project-label">01 // Follow the signs</div><h2>Purple Smoke Means Trouble</h2></div>
+        <p>The next haul does not arrive quietly. Watch the sky, listen for the warning and move when the purple starts rolling in.</p>
+      </div>
+      <div class="haul-grid">
+        <div class="haul-panel haul-panel--smoke">
+          <h3>Hourly Halloween Airdrops</h3>
+          <ul>
+            <li>Special Halloween airdrops arrive every hour, separate from regular airdrops.</li>
+            <li>Survivors receive advance warnings before a drop arrives.</li>
+            <li>Look for the distinctive <strong>purple smoke</strong> and purple map markers.</li>
+            <li>Each Halloween crate remains available for a limited time.</li>
+          </ul>
+        </div>
+        <div class="haul-panel">
+          <h3>Search the Purple Circle</h3>
+          <p>The purple search circle marks the area where players should search for the Halloween crate. It is a search clue, not a promise that the crate is sitting in the exact center waiting politely.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="haul-section" id="infected">
+      <div class="haul-section-heading">
+        <div><div class="project-label">02 // Trick or treat</div><h2>Or Die Trying!</h2></div>
+        <p>The treats have guardians, and the guardians are having a terrible night.</p>
+      </div>
+      <div class="haul-grid">
+        <div class="haul-panel haul-panel--danger">
+          <h3>Halloween Infected</h3>
+          <ul>
+            <li>Pumpkin-headed infected</li>
+            <li>Ancient mummies</li>
+            <li>Four different witch variants</li>
+          </ul>
+        </div>
+        <div class="haul-panel">
+          <h3>Bring a Crew</h3>
+          <p>Dangerous infected guard the Halloween crates, and opening a crate can bring another wave of horrors. Bring weapons, ammunition, medical supplies and friends who run slightly slower than you do.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="haul-section" id="violet-key">
+      <div class="haul-section-heading">
+        <div><div class="project-label">03 // The key to the haul</div><h2>The Mystery of the Violet Key</h2></div>
+        <p>Every good Halloween mystery needs a key. This one is purple, useful and absolutely not something to leave in a corpse.</p>
+      </div>
+      <div class="haul-grid">
+        <div class="haul-panel haul-panel--key">
+          <h3>Unlock the Crates</h3>
+          <ul>
+            <li>Halloween crates require a <strong>Violet Key</strong>.</li>
+            <li>A key can be obtained from infected guarding each Halloween airdrop.</li>
+            <li>Violet Keys can also occasionally be found while hunting ordinary infected across Chernarus.</li>
+            <li>The key is consumed when a crate is successfully opened.</li>
+          </ul>
+        </div>
+        <div class="haul-callout"><strong>Prepare for the next drop:</strong> Hunt infected between airdrops, keep your Violet Keys safe and be ready when the purple smoke appears.</div>
+      </div>
+    </section>
+
+    <section class="haul-section" id="loot">
+      <div class="haul-section-heading">
+        <div><div class="project-label">04 // The seasonal haul</div><h2>284 Spooktacular Halloween Goodies</h2></div>
+        <p>There is a lot more in these crates than one suspicious pumpkin and a bad decision.</p>
+      </div>
+      <div class="loot-grid">
+        <article class="loot-card"><h3>Backpacks</h3><p>Halloween backpacks for carrying the evidence.</p></article>
+        <article class="loot-card"><h3>Clothing</h3><p>Spooky clothing, outfits, pants, skirts, tops and dresses.</p></article>
+        <article class="loot-card"><h3>Storage</h3><p>Halloween barrels and seasonal jerrycans.</p></article>
+        <article class="loot-card"><h3>Teddies &amp; Treats</h3><p>Creepy teddy bears and Halloween cookies.</p></article>
+        <article class="loot-card"><h3>Facewear</h3><p>Facewear, masks, helmets and headwear.</p></article>
+        <article class="loot-card"><h3>Hands &amp; Feet</h3><p>Gloves, footwear, belts and accessories.</p></article>
+        <article class="loot-card"><h3>Protection</h3><p>Vests and armour for the more heavily dressed survivor.</p></article>
+        <article class="loot-card"><h3>Classic Halloween</h3><p>Witch hats and hoods, pumpkin helmets, creepy eye masks, witch's brooms, cauldrons and autumn leaf crowns.</p></article>
+      </div>
+    </section>
+
+    <section class="haul-section" id="collectables">
+      <div class="haul-section-heading">
+        <div><div class="project-label">05 // Build the collection</div><h2>The Halloween Collectable Hunt</h2></div>
+        <p>Thirteen special collectables. One guaranteed collectable in every Halloween Haul crate. The rest is between you, the purple smoke and your storage problem.</p>
+      </div>
+      <div class="collectable-shell">
+        <p class="collectable-intro">Every Halloween airdrop contains exactly <strong>one guaranteed Halloween collectable</strong>. These belong to the special <strong>Purple Halloween Event</strong> rarity category. Collect them all, decorate your base or trade with other survivors.</p>
+        <div class="collectable-groups">
+          <section class="collectable-group">
+            <h3>💀 Demon Skulls</h3>
+            <div class="collectable-items">
+              <div class="collectable-item">Original<span>Demon Skull</span></div>
+              <div class="collectable-item">Red<span>Demon Skull</span></div>
+              <div class="collectable-item">Blue<span>Demon Skull</span></div>
+              <div class="collectable-item">Purple<span>Demon Skull</span></div>
+            </div>
+          </section>
+          <section class="collectable-group">
+            <h3>☠ Paragon Skulls</h3>
+            <div class="collectable-items">
+              <div class="collectable-item">Gold<span>Paragon Skull</span></div>
+              <div class="collectable-item">Silver<span>Paragon Skull</span></div>
+            </div>
+          </section>
+          <section class="collectable-group">
+            <h3>⚰ Ancient Coffins</h3>
+            <div class="collectable-items">
+              <div class="collectable-item">Original<span>Ancient Coffin</span></div>
+              <div class="collectable-item">Red<span>Ancient Coffin</span></div>
+              <div class="collectable-item">Purple<span>Ancient Coffin</span></div>
+              <div class="collectable-item">Blue<span>Ancient Coffin</span></div>
+            </div>
+          </section>
+          <section class="collectable-group">
+            <h3>🎴 Special Collectables</h3>
+            <div class="collectable-items">
+              <div class="collectable-item">Ouija Board<span>Special Collectable</span></div>
+              <div class="collectable-item">Horror Labubu<span>Special Collectable</span></div>
+              <div class="collectable-item">Yu-Gi-Oh! Summoned Skull Card<span>Special Collectable</span></div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="haul-section" id="cash-out">
+      <div class="haul-section-heading">
+        <div><div class="project-label">06 // Keep it or cash it in</div><h2>Build the Fortune</h2></div>
+        <p>Keep the rare finds, decorate the base, trade with survivors or turn unwanted collectables into a very respectable pile of money.</p>
+      </div>
+      <div class="payout-grid">
+        <article class="payout-card"><h3>The Scorched Isle Market</h3><p class="payout-amount">$16,000</p><p>Per Halloween collectable.</p></article>
+        <article class="payout-card payout-card--black"><h3>The Cinder Market — Black Market</h3><p class="payout-amount">$24,000</p><p>Per Halloween collectable. The Black Market pays more, because apparently everything is more dramatic there.</p></article>
+      </div>
+      <div class="haul-callout"><strong>Every Halloween Haul crate contains 2,500–5,000 Zombie Notes.</strong> Keep your rare collectables, decorate your base, trade with other survivors, sell the ones you do not want and build your Zombie Note fortune.</div>
+    </section>
+
+    <section class="haul-section" id="deadline">
+      <div class="haul-deadline-panel">
+        <h2>The Clock Is Ticking!</h2>
+        <p>Halloween Haul is available for one weekend only.</p>
+        <p class="haul-cta">ENDS SUNDAY, NOVEMBER 1, 2026, AT 11:59 PM EASTERN.</p>
+        <p>After the deadline, the special hourly Halloween Haul airdrops will no longer spawn. This deadline applies specifically to those event airdrops.</p>
+        <p class="haul-cta">Grab your weapons. Gather your crew. Follow the purple smoke. The dead are waiting, and the treasures won't last forever.</p>
+        <p class="haul-cta">WELCOME TO HALLOWEEN HAUL!<br><em>Only on Beneath the Ashes.</em></p>
+      </div>
+      <a class="haul-back" href="#top">↑ Back to top</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Beneath the Ashes • Chernarus</div>
+  </footer>
+
+  <script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
+  <script>
+    (function(){
+      var endMs = Date.parse('2026-11-02T04:59:00Z');
+      var status = document.getElementById('haul-status');
+      var label = document.getElementById('haul-deadline-label');
+      var countdown = document.getElementById('haul-countdown');
+      function closeEvent(){
+        if(status){
+          status.classList.remove('event-status-live');
+          status.classList.add('event-status-closed');
+          status.innerHTML = '<i></i> COMPLETED EVENT';
+        }
+        if(label){ label.innerHTML = '<strong>Event completed:</strong> Sunday, November 1, 2026 at 11:59 PM Eastern'; }
+        if(countdown){ countdown.textContent = 'Halloween Haul has ended.'; }
+      }
+      function tick(){
+        var remaining = endMs - Date.now();
+        if(remaining <= 0){ closeEvent(); return; }
+        var totalSeconds = Math.floor(remaining / 1000);
+        var days = Math.floor(totalSeconds / 86400);
+        var hours = Math.floor((totalSeconds % 86400) / 3600);
+        var minutes = Math.floor((totalSeconds % 3600) / 60);
+        var seconds = totalSeconds % 60;
+        if(countdown){ countdown.textContent = days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's remaining'; }
+      }
+      tick();
+      window.setInterval(tick,1000);
+    })();
+  </script>
+</body>
+</html>
