@@ -6,6 +6,20 @@
   <title>Events | Chernarus | Beneath the Ashes</title>
   <meta name="description" content="Current and past Beneath the Ashes Chernarus events.">
   <link rel="stylesheet" href="../../styles.css?v=events-3">
+  <style>
+    .hollow-steed-card{position:relative;isolation:isolate;border-color:#4f5967;background:linear-gradient(100deg,#121820,#101214)}
+    .hollow-steed-card:after{content:"";position:absolute;z-index:-1;right:0;top:0;bottom:0;width:38%;background:linear-gradient(90deg,rgba(18,24,32,1),rgba(18,24,32,.35)),url("../../assets/events/hollow-steed.jpg") center/cover no-repeat;opacity:.7;pointer-events:none}
+    .hollow-steed-card .reward-tier,.hollow-steed-card p{position:relative;z-index:1}
+    .hollow-steed-card .reward-tier span{color:#b9c9d8}
+    .hollow-steed-card .reward-tier h3{color:#f0ece5}
+    .hollow-steed-card .reward-name{color:#d6c5b6!important}
+    .hollow-steed-card .event-status{position:relative;z-index:1;white-space:nowrap}
+    @media(max-width:760px){
+      .hollow-steed-card{padding-top:190px}
+      .hollow-steed-card:after{left:0;right:0;bottom:auto;width:100%;height:180px;background:linear-gradient(180deg,rgba(18,24,32,.16),rgba(18,24,32,1)),url("../../assets/events/hollow-steed.jpg") center 43%/cover no-repeat;opacity:.8}
+    }
+    @media(max-width:430px){.hollow-steed-card{padding-top:165px}.hollow-steed-card:after{height:155px}}
+  </style>
 </head>
 <body class="events-page">
   <header>
@@ -43,7 +57,16 @@
       </div>
 
       <div id="current-event-list" class="reward-ladder">
-        
+        <a id="hollow-steed-card" class="reward-card master hollow-steed-card" href="hollow-steed/" data-event-end="2026-11-08T05:00:00Z">
+          <div class="reward-tier">
+            <span>Limited-Time Wilderness Hunt</span>
+            <h3>The Hollow Steed</h3>
+          </div>
+          <p><strong>You thought spooky season was over? We were just getting started.</strong> A mysterious skeletal stallion has been spotted roaming the wilds of Chernarus. Venture out, track down this exclusive Beneath the Ashes horse, and claim it before it disappears.</p>
+          <p class="reward-name">November 1–7, 2026 · Active Event · One week. One haunting discovery.</p>
+          <span class="event-status event-status-live"><i></i> Active event</span>
+        </a>
+
         <a id="halloween-haul-card" class="reward-card master halloween-haul-card" href="halloween-haul/" data-event-end="2026-11-02T04:59:00Z">
           <div class="reward-tier">
             <span>Limited-Time Halloween Event</span>
@@ -139,6 +162,27 @@
   <script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
 
   <script>
+    (function(){
+      var card = document.getElementById('hollow-steed-card');
+      if(!card){ return; }
+      var endMs = Date.parse(card.getAttribute('data-event-end'));
+      if(Date.now() < endMs){ return; }
+      var tier = card.querySelector('.reward-tier span');
+      var summary = card.querySelector('p strong');
+      var reward = card.querySelector('.reward-name');
+      var status = card.querySelector('.event-status');
+      if(tier){ tier.textContent = 'Completed Event · Ended November 7, 2026'; }
+      if(summary){ summary.textContent = 'The Hollow Steed event has ended.'; }
+      if(reward){ reward.textContent = 'Event completed November 7, 2026 · Limited-time wilderness hunt closed'; }
+      if(status){
+        status.classList.remove('event-status-live');
+        status.classList.add('event-status-closed');
+        status.innerHTML = '<i></i> Closed event';
+      }
+      var pastList = document.getElementById('past-event-list');
+      if(pastList){ pastList.prepend(card); }
+    })();
+
     (function(){
       var card = document.getElementById('halloween-haul-card');
       if(!card){ return; }
