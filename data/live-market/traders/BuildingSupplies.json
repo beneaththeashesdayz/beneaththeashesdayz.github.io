@@ -13,8 +13,7 @@
     "money_dollar2",
     "money_dollar20",
     "money_dollar5",
-    "money_dollar50",
-    "zombie_note"
+    "money_dollar50"
   ],
   "DisplayCurrencyValue": 1,
   "DisplayCurrencyName": "USD",
