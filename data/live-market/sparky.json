@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-11-01T15:22:29.544028+00:00",
+  "syncedAt": "2026-11-01T16:24:12.743334+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -5314,7 +5314,7 @@
       "buyCost": 470000,
       "sellPrice": 352500,
       "repaintCost": 47000,
-      "insuranceCost": 11382,
+      "insuranceCost": 23500,
       "color": "Black",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -5387,7 +5387,7 @@
       "buyCost": 470000,
       "sellPrice": 352500,
       "repaintCost": 47000,
-      "insuranceCost": 11382,
+      "insuranceCost": 23500,
       "color": "Blue",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -5464,7 +5464,7 @@
       "buyCost": 470000,
       "sellPrice": 352500,
       "repaintCost": 47000,
-      "insuranceCost": 11382,
+      "insuranceCost": 23500,
       "color": "Green",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -5541,7 +5541,7 @@
       "buyCost": 470000,
       "sellPrice": 352500,
       "repaintCost": 47000,
-      "insuranceCost": 11382,
+      "insuranceCost": 23500,
       "color": "MidNightBlue",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -5618,7 +5618,7 @@
       "buyCost": 470000,
       "sellPrice": 352500,
       "repaintCost": 47000,
-      "insuranceCost": 11382,
+      "insuranceCost": 23500,
       "color": "Pink",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -5695,7 +5695,7 @@
       "buyCost": 470000,
       "sellPrice": 352500,
       "repaintCost": 47000,
-      "insuranceCost": 11382,
+      "insuranceCost": 23500,
       "color": "Red",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -5772,7 +5772,7 @@
       "buyCost": 470000,
       "sellPrice": 352500,
       "repaintCost": 47000,
-      "insuranceCost": 11382,
+      "insuranceCost": 23500,
       "color": "Teal",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -5849,7 +5849,7 @@
       "buyCost": 470000,
       "sellPrice": 352500,
       "repaintCost": 47000,
-      "insuranceCost": 11382,
+      "insuranceCost": 23500,
       "color": "White",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -5926,7 +5926,7 @@
       "buyCost": 470000,
       "sellPrice": 352500,
       "repaintCost": 47000,
-      "insuranceCost": 11382,
+      "insuranceCost": 23500,
       "color": "Yellow",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -9615,7 +9615,7 @@
       "buyCost": 1230000,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 150000,
+      "insuranceCost": 61500,
       "color": "Default",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -9684,7 +9684,7 @@
       "buyCost": 1230000,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 150000,
+      "insuranceCost": 61500,
       "color": "Blue",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -9753,7 +9753,7 @@
       "buyCost": 1230000,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 150000,
+      "insuranceCost": 61500,
       "color": "Red",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -9822,7 +9822,7 @@
       "buyCost": 1230000,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 150000,
+      "insuranceCost": 61500,
       "color": "white",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -9891,7 +9891,7 @@
       "buyCost": 1230000,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 150000,
+      "insuranceCost": 61500,
       "color": "yellow",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -53355,75 +53355,6 @@
     },
     {
       "name": "Dodge Challenger",
-      "itemname": "Dodge_ChallengerSRT_Darkblue",
-      "groupName": "Dodge_Challenger",
-      "buyCost": -1,
-      "sellPrice": -1,
-      "repaintCost": -1,
-      "insuranceCost": 5000,
-      "color": "Darkblue",
-      "additionalCargoItems": [],
-      "attachmentItems": [
-        {
-          "itemname": "HeadlightH7",
-          "colorGroup": "Replacement_Headlight"
-        },
-        {
-          "itemname": "HeadlightH7",
-          "colorGroup": "Replacement_Headlight"
-        },
-        {
-          "itemname": "CarBattery",
-          "colorGroup": "battery_car"
-        },
-        {
-          "itemname": "CarRadiator",
-          "colorGroup": "radiator_car"
-        },
-        {
-          "itemname": "SparkPlug",
-          "colorGroup": "sparkplug"
-        },
-        {
-          "itemname": "Dodge_Challenger_Wheel",
-          "colorGroup": "Dodge_Challenger_Wheel"
-        },
-        {
-          "itemname": "Dodge_Challenger_Wheel",
-          "colorGroup": "Dodge_Challenger_Wheel"
-        },
-        {
-          "itemname": "Dodge_Challenger_Wheel",
-          "colorGroup": "Dodge_Challenger_Wheel"
-        },
-        {
-          "itemname": "Dodge_Challenger_Wheel",
-          "colorGroup": "Dodge_Challenger_Wheel"
-        },
-        {
-          "itemname": "Dodge_Challenger_Driver_Darkblue",
-          "colorGroup": "Dodge_Challenger_Driver"
-        },
-        {
-          "itemname": "Dodge_Challenger_CoDriver_Darkblue",
-          "colorGroup": "Dodge_Challenger_CoDriver"
-        },
-        {
-          "itemname": "Dodge_Challenger_Hood_Darkblue",
-          "colorGroup": "Dodge_Challenger_Hood"
-        },
-        {
-          "itemname": "Dodge_Challenger_Trunk_Darkblue",
-          "colorGroup": "Dodge_Challenger_Trunk"
-        },
-        {
-          "itemname": "4K_Plate_Server",
-          "colorGroup": "plate"
-        }
-      ]
-    },
-    {
-      "name": "Dodge Challenger",
       "itemname": "Dodge_ChallengerSRT_Gray",
       "groupName": "Dodge_Challenger",
       "buyCost": -1,
@@ -59859,7 +59790,7 @@
       "buyCost": 950000,
       "sellPrice": 712500,
       "repaintCost": 71250,
-      "insuranceCost": 5000,
+      "insuranceCost": 47500,
       "color": "CarpBoat",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -59880,7 +59811,7 @@
       "buyCost": 950000,
       "sellPrice": 712500,
       "repaintCost": 71250,
-      "insuranceCost": 5000,
+      "insuranceCost": 47500,
       "color": "Rusty",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -61644,7 +61575,7 @@
       "buyCost": 330000,
       "sellPrice": 247500,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 16500,
       "color": "Falken",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -61709,7 +61640,7 @@
       "buyCost": 330000,
       "sellPrice": 247500,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 16500,
       "color": "RustBlack",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -64481,6 +64412,71 @@
         {
           "itemname": "HeadlightH7",
           "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Dodge Challenger",
+      "itemname": "Dodge_ChallengerSRT_Darkblue",
+      "groupName": "Dodge_Challenger",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Darkblue",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "Dodge_Challenger_Wheel",
+          "colorGroup": "Dodge_Challenger_Wheel"
+        },
+        {
+          "itemname": "Dodge_Challenger_Wheel",
+          "colorGroup": "Dodge_Challenger_Wheel"
+        },
+        {
+          "itemname": "Dodge_Challenger_Wheel",
+          "colorGroup": "Dodge_Challenger_Wheel"
+        },
+        {
+          "itemname": "Dodge_Challenger_Wheel",
+          "colorGroup": "Dodge_Challenger_Wheel"
+        },
+        {
+          "itemname": "Dodge_Challenger_Driver_Darkblue",
+          "colorGroup": "Dodge_Challenger_Driver"
+        },
+        {
+          "itemname": "Dodge_Challenger_CoDriver_Darkblue",
+          "colorGroup": "Dodge_Challenger_CoDriver"
+        },
+        {
+          "itemname": "Dodge_Challenger_Hood_Darkblue",
+          "colorGroup": "Dodge_Challenger_Hood"
+        },
+        {
+          "itemname": "Dodge_Challenger_Trunk_Darkblue",
+          "colorGroup": "Dodge_Challenger_Trunk"
         }
       ]
     }
