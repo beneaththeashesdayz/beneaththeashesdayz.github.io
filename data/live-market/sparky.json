@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-11-01T02:20:27.130194+00:00",
+  "syncedAt": "2026-11-01T03:23:46.431359+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -744,7 +744,7 @@
     "impoundTimePenaltyRuined": 0,
     "costForExceedingMaxSlots": 10000
   },
-  "vehicleCount": 912,
+  "vehicleCount": 915,
   "vehicles": [
     {
       "name": "Civic",
@@ -64170,6 +64170,213 @@
         {
           "itemname": "Van_WaterContainer",
           "colorGroup": "Van_WaterContainer"
+        }
+      ]
+    },
+    {
+      "name": "R8 Body",
+      "itemname": "BTA_Audi_R8_HauntedEmber",
+      "groupName": "r8_body",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "HauntedEmber",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "BTA_Audi_R8_Wheel_HauntedEmber",
+          "colorGroup": "r8_wheel"
+        },
+        {
+          "itemname": "BTA_Audi_R8_Wheel_HauntedEmber",
+          "colorGroup": "r8_wheel"
+        },
+        {
+          "itemname": "BTA_Audi_R8_Wheel_HauntedEmber",
+          "colorGroup": "r8_wheel"
+        },
+        {
+          "itemname": "BTA_Audi_R8_Wheel_HauntedEmber",
+          "colorGroup": "r8_wheel"
+        },
+        {
+          "itemname": "BTA_Audi_R8_Driverdoor_HauntedEmber",
+          "colorGroup": "r8_driver"
+        },
+        {
+          "itemname": "BTA_Audi_R8_Codriver_HauntedEmber",
+          "colorGroup": "r8_passenger"
+        },
+        {
+          "itemname": "BTA_Audi_R8_Trunk_HauntedEmber",
+          "colorGroup": "r8_bonnet"
+        },
+        {
+          "itemname": "BTA_Audi_R8_Hood_HauntedEmber",
+          "colorGroup": "r8_engine_cover"
+        }
+      ]
+    },
+    {
+      "name": "Belair Body",
+      "itemname": "BTA_BelAir_GreyPatchwork",
+      "groupName": "belair_body",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "GreyPatchwork",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "BTA_BelAir_driver_GreyPatchwork",
+          "colorGroup": "belair_driver"
+        },
+        {
+          "itemname": "BTA_BelAir_codriver_GreyPatchwork",
+          "colorGroup": "belair_codriver"
+        },
+        {
+          "itemname": "BTA_BelAir_hood_GreyPatchwork",
+          "colorGroup": "belair_hood"
+        },
+        {
+          "itemname": "BTA_BelAir_trunk_GreyPatchwork",
+          "colorGroup": "belair_trunk"
+        },
+        {
+          "itemname": "BelAirChevy_Wheel",
+          "colorGroup": "BelAirChevy_Wheel"
+        },
+        {
+          "itemname": "BelAirChevy_Wheel",
+          "colorGroup": "BelAirChevy_Wheel"
+        },
+        {
+          "itemname": "BelAirChevy_Wheel",
+          "colorGroup": "BelAirChevy_Wheel"
+        },
+        {
+          "itemname": "BelAirChevy_Wheel",
+          "colorGroup": "BelAirChevy_Wheel"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Rubicon Body",
+      "itemname": "BTA_Jeep_Rubicon_RustPatchwork",
+      "groupName": "rubicon_body",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "RustPatchwork",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "BTA_Jeep_Rubicon_driver_RustPatchwork",
+          "colorGroup": "rubicon_driver"
+        },
+        {
+          "itemname": "BTA_Jeep_Rubicon_codriver_RustPatchwork",
+          "colorGroup": "rubicon_codriver"
+        },
+        {
+          "itemname": "BTA_Jeep_Rubicon_cargo1_RustPatchwork",
+          "colorGroup": "rubicon_cargo1"
+        },
+        {
+          "itemname": "BTA_Jeep_Rubicon_cargo2_RustPatchwork",
+          "colorGroup": "rubicon_cargo2"
+        },
+        {
+          "itemname": "BTA_Jeep_Rubicon_hood_RustPatchwork",
+          "colorGroup": "rubicon_hood"
+        },
+        {
+          "itemname": "BTA_Jeep_Rubicon_trunk_RustPatchwork",
+          "colorGroup": "rubicon_trunk"
+        },
+        {
+          "itemname": "BTA_Jeep_Rubicon_Wheel_RustPatchwork",
+          "colorGroup": "rubicon_wheel"
+        },
+        {
+          "itemname": "BTA_Jeep_Rubicon_Wheel_RustPatchwork",
+          "colorGroup": "rubicon_wheel"
+        },
+        {
+          "itemname": "BTA_Jeep_Rubicon_Wheel_RustPatchwork",
+          "colorGroup": "rubicon_wheel"
+        },
+        {
+          "itemname": "BTA_Jeep_Rubicon_Wheel_RustPatchwork",
+          "colorGroup": "rubicon_wheel"
+        },
+        {
+          "itemname": "BTA_Jeep_Rubicon_Wheel_RustPatchwork",
+          "colorGroup": "rubicon_wheel"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
         }
       ]
     }
