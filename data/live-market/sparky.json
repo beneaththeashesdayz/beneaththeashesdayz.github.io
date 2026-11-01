@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-11-01T14:22:27.594604+00:00",
+  "syncedAt": "2026-11-01T15:22:29.544028+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -9615,7 +9615,7 @@
       "buyCost": 1230000,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 61500,
+      "insuranceCost": 150000,
       "color": "Default",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -9684,7 +9684,7 @@
       "buyCost": 1230000,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 61500,
+      "insuranceCost": 150000,
       "color": "Blue",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -9753,7 +9753,7 @@
       "buyCost": 1230000,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 61500,
+      "insuranceCost": 150000,
       "color": "Red",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -9822,7 +9822,7 @@
       "buyCost": 1230000,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 61500,
+      "insuranceCost": 150000,
       "color": "white",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -9891,7 +9891,7 @@
       "buyCost": 1230000,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 61500,
+      "insuranceCost": 150000,
       "color": "yellow",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -62607,7 +62607,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "CamperRV",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -62688,7 +62688,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "Cybertruck",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -62749,7 +62749,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "Blue",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -62810,7 +62810,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "DodgePhoenix",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -62879,7 +62879,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "blue",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -62948,7 +62948,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "green",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -63017,7 +63017,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "grey",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -63086,7 +63086,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "orange",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -63155,7 +63155,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "red",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -63224,7 +63224,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "HiluxCamper",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -63317,7 +63317,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "Black",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -63410,7 +63410,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "Cream",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -63503,7 +63503,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "Teal",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -63596,7 +63596,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "ModernMotorhome",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -63697,7 +63697,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "White",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -63798,7 +63798,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "Motorhome",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -63879,7 +63879,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "Black",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -63960,7 +63960,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "Camo",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -64041,7 +64041,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "Purple",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -64122,7 +64122,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "Tan",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -64203,7 +64203,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "Teal",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -64284,7 +64284,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "HauntedEmber",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -64349,7 +64349,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "GreyPatchwork",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -64414,7 +64414,7 @@
       "buyCost": -1,
       "sellPrice": -1,
       "repaintCost": -1,
-      "insuranceCost": 5000,
+      "insuranceCost": 150000,
       "color": "RustPatchwork",
       "additionalCargoItems": [],
       "attachmentItems": [
