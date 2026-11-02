@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Geb's Plants Guide | Beneath the Ashes</title>
+<link rel="stylesheet" href="../../../styles.css?v=weather-guide-1">
+<style>
+.gebs-guide{padding:48px 0 76px}
+.gebs-hero{border:1px solid #766a58;background:radial-gradient(circle at 80% 10%,rgba(193,102,48,.12),transparent 34%),linear-gradient(145deg,#1b1917,#111315);padding:42px 44px;margin:28px 0 30px;min-height:320px;display:flex;flex-direction:column;justify-content:end}
+.gebs-hero h1{font-size:clamp(3rem,7vw,6.5rem);line-height:.86;letter-spacing:-.06em;text-transform:uppercase;margin:12px 0 18px}
+.gebs-hero p{max-width:840px;color:#d8c4ad;line-height:1.7;margin:7px 0}
+.gebs-toc{border:1px solid var(--line);background:#141719;padding:22px 24px;margin:0 0 34px}
+.gebs-toc-label{color:var(--ember);font-size:.82rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin:0 0 14px}
+.gebs-toc nav{display:flex;flex-wrap:wrap;gap:8px}
+.gebs-toc a{display:inline-flex;align-items:center;border:1px solid #4c4438;background:#1c1a16;color:#f1e7dc;text-decoration:none;padding:10px 12px;line-height:1.25;font-size:.86rem;font-weight:800}
+.gebs-toc a:hover{border-color:#a56642;color:#fff}
+.gebs-section{scroll-margin-top:82px;margin:0 0 40px}
+.gebs-section-heading{display:flex;align-items:baseline;gap:14px;border-bottom:1px solid var(--line);padding:0 0 13px;margin:0 0 18px}
+.gebs-section-heading .gebs-index{color:var(--ember);font-size:.78rem;font-weight:800;letter-spacing:.1em;white-space:nowrap}
+.gebs-section-heading h2{margin:0;color:#f2eee6;font-size:clamp(1.6rem,3vw,2.5rem);line-height:1.05;text-transform:uppercase;letter-spacing:-.02em}
+.gebs-layout{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.gebs-panel{border:1px solid var(--line);background:linear-gradient(145deg,#171a1c,#111315);padding:26px;min-width:0}
+.gebs-panel h3{margin:0 0 12px;color:#f2eee6;font-size:1.05rem;line-height:1.2;text-transform:uppercase;letter-spacing:.08em}
+.gebs-panel h4{margin:22px 0 8px;color:#d8c4ad;font-size:.95rem;line-height:1.25;text-transform:uppercase;letter-spacing:.08em}
+.gebs-panel p,.gebs-panel li{color:var(--muted);line-height:1.65}
+.gebs-panel p{margin:8px 0}
+.gebs-panel ul,.gebs-panel ol{margin:10px 0 0;padding-left:21px;display:grid;gap:9px}
+.gebs-panel strong,.gebs-step strong{color:#f2eee6}
+.gebs-note{margin-top:18px;border-left:3px solid var(--ember);padding:15px 17px;background:#1c1714;color:#d8c4ad;line-height:1.6}
+.gebs-note strong{color:#f2eee6}
+.gebs-steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.gebs-step{border:1px solid #4c4438;background:#1c1a16;padding:19px;min-width:0}
+.gebs-step .gebs-step-number{color:var(--ember);font-size:.76rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:9px}
+.gebs-step h3{margin:0 0 8px;color:#f2eee6;font-size:1.02rem;line-height:1.2;text-transform:uppercase}
+.gebs-step p{margin:0;color:var(--muted);line-height:1.6}
+.gebs-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.gebs-table{width:100%;border-collapse:collapse;table-layout:fixed}
+.gebs-table th,.gebs-table td{border:1px solid #4c4438;padding:12px 13px;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+.gebs-table th{background:#2b332a;color:#f2d59c;font-size:.9rem;text-transform:uppercase;letter-spacing:.04em}
+.gebs-table td{background:#171a1c;color:var(--muted);line-height:1.5}
+.gebs-table tr:nth-child(even) td{background:#1c201e}
+.gebs-table strong{color:#f2eee6}
+.gebs-table-caption{color:var(--muted);line-height:1.6;margin:0 0 14px}
+.gebs-resource-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0;padding:0;list-style:none}
+.gebs-resource-list li{border:1px solid #4c4438;background:#1c1a16;padding:12px 14px}
+.gebs-resource-list a{color:#f1d6bb}
+.gebs-checklist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0;padding:0;list-style:none;counter-reset:gebs-check}
+.gebs-checklist li{counter-increment:gebs-check;position:relative;border:1px solid #4c4438;background:#1c1a16;padding:14px 15px 14px 48px;color:var(--muted);line-height:1.5}
+.gebs-checklist li::before{content:counter(gebs-check,decimal-leading-zero);position:absolute;left:15px;top:14px;color:var(--ember);font-size:.78rem;font-weight:800;letter-spacing:.08em}
+.gebs-closing{border:1px solid #766a58;background:radial-gradient(circle at 12% 15%,rgba(193,102,48,.12),transparent 32%),linear-gradient(145deg,#1b1917,#111315);padding:30px}
+.gebs-closing h2{margin:0 0 14px;color:#f2eee6;font-size:clamp(1.6rem,3vw,2.4rem);text-transform:uppercase}
+.gebs-closing p{max-width:780px;color:#d8c4ad;line-height:1.7;margin:8px 0}
+.gebs-back-top{display:inline-block;margin-top:15px;color:#d8c4ad;font-size:.82rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;text-decoration:none}
+.gebs-back-top:hover{color:#fff}
+.gebs-button-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+@media(max-width:760px){
+  .gebs-guide{padding:30px 0 58px}
+  .gebs-hero{padding:28px 22px;min-height:0;margin-top:20px}
+  .gebs-hero h1{font-size:clamp(2.8rem,15vw,5rem);line-height:.9}
+  .gebs-toc{padding:18px 16px;margin-bottom:28px}
+  .gebs-toc nav{display:grid;grid-template-columns:1fr;gap:7px}
+  .gebs-toc a{width:100%}
+  .gebs-section{scroll-margin-top:24px;margin-bottom:32px}
+  .gebs-section-heading{display:block}
+  .gebs-section-heading .gebs-index{display:block;margin-bottom:7px}
+  .gebs-layout,.gebs-steps,.gebs-resource-list,.gebs-checklist{grid-template-columns:1fr}
+  .gebs-panel{padding:20px 18px}
+  .gebs-table-wrap{overflow:visible}
+  .gebs-table,.gebs-table tbody,.gebs-table tr,.gebs-table td{display:block;width:100%}
+  .gebs-table thead{display:none}
+  .gebs-table tr{border:1px solid #4c4438;margin:0 0 11px;background:#171a1c}
+  .gebs-table td{border:0;border-bottom:1px solid #332f2b;background:transparent!important;padding:10px 12px 5px}
+  .gebs-table td:last-child{border-bottom:0;padding-bottom:11px}
+  .gebs-table td::before{content:attr(data-label);display:block;color:var(--ember);font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:3px}
+  .gebs-closing{padding:24px 19px}
+}
+@media(max-width:430px){
+  .gebs-hero h1{font-size:clamp(2.5rem,16vw,4.4rem)}
+  .gebs-section-heading h2{font-size:1.55rem}
+  .gebs-panel{padding:18px 16px}
+  .gebs-step{padding:16px}
+}
+</style>
+</head>
+<body>
+<header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
+<main class="wrap gebs-guide" id="top">
+<section class="gebs-hero">
+  <div class="page-context"><a class="back" href="../">← Chernarus Guides</a><div class="world-tag">Survival &amp; Resources</div></div>
+  <div class="kicker">Survivor Field Guide // Chernarus</div>
+  <h1>Geb's<br>Plants</h1>
+  <p>There&rsquo;s more to surviving the apocalypse than finding a can of beans and hoping it has not developed opinions.</p>
+  <p>Geb&rsquo;s Plants brings 26 different crops to Chernarus, giving you more ways to grow food, recover seeds, and build a reliable garden.</p>
+  <p>Whether you&rsquo;re planting your first radish, saving seeds for the next season, or setting up a full production garden, this guide covers what you need to know.</p>
+</section>
+
+<section class="gebs-toc" aria-labelledby="gebs-toc-title">
+  <div class="gebs-toc-label" id="gebs-toc-title">In This Guide</div>
+  <nav aria-label="Geb's Plants guide sections">
+    <a href="#getting-started">Getting Started</a>
+    <a href="#what-you-need">What You&rsquo;ll Need</a>
+    <a href="#planting">Planting Your First Crop</a>
+    <a href="#crops">Available Crops &amp; Growth Times</a>
+    <a href="#harvesting">Harvesting &amp; Preparing Produce</a>
+    <a href="#saving-seeds">Saving Seeds</a>
+    <a href="#wild-ginseng">Finding Wild Ginseng</a>
+    <a href="#trader">Buying &amp; Selling at the Trader</a>
+    <a href="#garden-guide">Geb&rsquo;s Garden Guide</a>
+    <a href="#terje-farming">Gardening &amp; Terje Farming Skills</a>
+    <a href="#tips">Important Tips &amp; Reminders</a>
+    <a href="#quick-start">Quick Start Checklist</a>
+  </nav>
+</section>
+
+<section class="gebs-section" id="getting-started" aria-labelledby="getting-started-title">
+  <div class="gebs-section-heading"><span class="gebs-index">01 //</span><h2 id="getting-started-title">Getting Started</h2></div>
+  <div class="gebs-layout">
+    <article class="gebs-panel">
+      <h3>Find Seeds and Supplies</h3>
+      <p>Seed packs can be found as farm loot or purchased from the Consumables Trader at Scorched Isle Market.</p>
+      <p>Start small, pick a sensible location, and give your first plot room to grow. A little preparation saves a surprising amount of running around later.</p>
+      <div class="gebs-note"><strong>Survivor Tip:</strong> Carry a few extra seeds and basic supplies. Gardens are much less forgiving when you arrive with exactly one of everything.</div>
+    </article>
+    <article class="gebs-panel" id="what-you-need">
+      <h3>What You&rsquo;ll Need</h3>
+      <ul>
+        <li>Seeds or seed packs.</li>
+        <li>Gardening tools for preparing and maintaining a plot.</li>
+        <li>Water for keeping the crop healthy.</li>
+        <li>A knife or suitable blade for harvest and seed recovery.</li>
+        <li>Enough inventory space to carry the harvest.</li>
+      </ul>
+    </article>
+  </div>
+  <a class="gebs-back-top" href="#top">Back to top</a>
+</section>
+
+<section class="gebs-section" id="planting" aria-labelledby="planting-title">
+  <div class="gebs-section-heading"><span class="gebs-index">02 //</span><h2 id="planting-title">Planting Your First Crop</h2></div>
+  <div class="gebs-steps">
+    <article class="gebs-step"><div class="gebs-step-number">Step 01</div><h3>Prepare Your Garden</h3><p>Choose a suitable location and use normal DayZ gardening tools to prepare a plot. Convenient access makes watering and harvesting much easier.</p></article>
+    <article class="gebs-step"><div class="gebs-step-number">Step 02</div><h3>Get Your Seeds Ready</h3><p>Open the seed pack to receive the planting material. Depending on the crop, that may be seeds, cloves, rhizomes, or seed pieces.</p></article>
+    <article class="gebs-step"><div class="gebs-step-number">Step 03</div><h3>Plant Your Crop</h3><p>Place the correct planting material into an open plot slot and confirm the planting action.</p></article>
+    <article class="gebs-step"><div class="gebs-step-number">Step 04</div><h3>Water and Maintain</h3><p>Water the crop and check its condition while it grows. Growth takes real time, so keep the plot supplied and healthy.</p></article>
+    <article class="gebs-step"><div class="gebs-step-number">Step 05</div><h3>Harvest Your Produce</h3><p>Harvest when the plant reaches its harvest stage. Leaving a mature crop unattended can cost you the work you put into it.</p></article>
+  </div>
+  <div class="gebs-note"><strong>What You Get:</strong> Fresh produce for eating, cooking, selling, and selected seed-recovery actions. Plant multiple crops when you have room so one harvest is not carrying your entire food plan.</div>
+  <a class="gebs-back-top" href="#top">Back to top</a>
+</section>
+
+<section class="gebs-section" id="crops" aria-labelledby="crops-title">
+  <div class="gebs-section-heading"><span class="gebs-index">03 //</span><h2 id="crops-title">Available Crops &amp; Growth Times</h2></div>
+  <article class="gebs-panel">
+    <p class="gebs-table-caption">BTA currently has 26 enabled crops. These are configured base maturity estimates, not guaranteed timers. Plant condition, normal DayZ gardening behavior, and applicable farming bonuses can affect the experience, and harvest amounts differ by crop.</p>
+    <div class="gebs-table-wrap">
+      <table class="gebs-table gebs-stack-table">
+        <thead><tr><th>Growth Estimate</th><th>Crops</th></tr></thead>
+        <tbody>
+          <tr><td data-label="Growth Estimate"><strong>About 18 minutes</strong></td><td data-label="Crops">Radishes</td></tr>
+          <tr><td data-label="Growth Estimate"><strong>About 28 minutes</strong></td><td data-label="Crops">Beets, Green Beans, Collards, Cucumbers, Peas, Turnips, Yellow Squash</td></tr>
+          <tr><td data-label="Growth Estimate"><strong>About 38 minutes</strong></td><td data-label="Crops">Barley, Cabbage, Carrots, Okra, Onions, Pole Beans, Strawberries</td></tr>
+          <tr><td data-label="Growth Estimate"><strong>About 48 minutes</strong></td><td data-label="Crops">Cantaloupe, Corn, Garlic, Hops, Leeks, Peanuts, Sorghum, Sunflowers, Sweet Potatoes, Watermelon</td></tr>
+          <tr><td data-label="Growth Estimate"><strong>About 60 minutes</strong></td><td data-label="Crops">Ginseng</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="gebs-note"><strong>Important:</strong> Treat the times as planning guidance rather than a promise that every plant will mature on the same second.</div>
+  </article>
+  <a class="gebs-back-top" href="#top">Back to top</a>
+</section>
+
+<section class="gebs-section" id="harvesting" aria-labelledby="harvesting-title">
+  <div class="gebs-section-heading"><span class="gebs-index">04 //</span><h2 id="harvesting-title">Harvesting &amp; Preparing Your Produce</h2></div>
+  <div class="gebs-layout">
+    <article class="gebs-panel"><h3>Watermelon and Cantaloupe</h3><p>Use a blade to process these harvests into slices and recover their seeds where the applicable action is available.</p></article>
+    <article class="gebs-panel"><h3>Sweet Potatoes</h3><p>Peel sweet potatoes when you want them ready for food preparation. Keep some unpeeled if you plan to cut them into planting pieces.</p></article>
+    <article class="gebs-panel"><h3>Cooking Your Harvest</h3><p>Cooking options vary by item. Check the actions on the produce before committing the whole harvest to a recipe.</p><div class="gebs-note"><strong>Do not cook everything first:</strong> Some crops need to stay raw for seed recovery.</div></article>
+  </div>
+  <a class="gebs-back-top" href="#top">Back to top</a>
+</section>
+
+<section class="gebs-section" id="saving-seeds" aria-labelledby="saving-seeds-title">
+  <div class="gebs-section-heading"><span class="gebs-index">05 //</span><h2 id="saving-seeds-title">Saving Seeds for Your Next Garden</h2></div>
+  <div class="gebs-layout">
+    <article class="gebs-panel">
+      <h3>How Seed Saving Works</h3>
+      <ol>
+        <li>Harvest the crop and set aside the raw produce.</li>
+        <li>Use a knife or suitable blade and look for the relevant action.</li>
+        <li>Recover the seeds or planting material.</li>
+        <li>Store the result for your next plot or replant it when ready.</li>
+      </ol>
+      <div class="gebs-note"><strong>Survivor Tip:</strong> Keep raw harvest separate from food you plan to cook. A full stomach is useful, but so is having something left to plant.</div>
+    </article>
+    <article class="gebs-panel">
+      <h3>Supported Recovery Methods</h3>
+      <div class="gebs-table-wrap">
+        <table class="gebs-table gebs-stack-table">
+          <thead><tr><th>Crop</th><th>Recovery Action</th></tr></thead>
+          <tbody>
+            <tr><td data-label="Crop"><strong>Barley</strong></td><td data-label="Recovery Action">Thresh to recover planting material.</td></tr>
+            <tr><td data-label="Crop"><strong>Sorghum</strong></td><td data-label="Recovery Action">Thresh to recover planting material.</td></tr>
+            <tr><td data-label="Crop"><strong>Peas</strong></td><td data-label="Recovery Action">Shell to recover planting material.</td></tr>
+            <tr><td data-label="Crop"><strong>Peanuts</strong></td><td data-label="Recovery Action">Shell to recover planting material.</td></tr>
+            <tr><td data-label="Crop"><strong>Garlic</strong></td><td data-label="Recovery Action">Split into cloves.</td></tr>
+            <tr><td data-label="Crop"><strong>Sweet Potatoes</strong></td><td data-label="Recovery Action">Cut into seed pieces.</td></tr>
+            <tr><td data-label="Crop"><strong>Sunflowers</strong></td><td data-label="Recovery Action">Recover seeds from the heads.</td></tr>
+            <tr><td data-label="Crop"><strong>Ginseng</strong></td><td data-label="Recovery Action">Use the berry-to-seed recipe.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+  </div>
+  <article class="gebs-panel" style="margin-top:18px">
+    <h3>Other Crops and Important Rules</h3>
+    <p>Other supported crops may have their own recovery actions, so inspect the raw harvest before cooking or selling it.</p>
+    <h4>Crops Without Harvest-to-Seed Recipes</h4>
+    <p>Beets, Cabbage, Carrots, Collards, Hops, Leeks, Onions, Radishes, and Turnips do not have harvest-to-seed recipes listed here.</p>
+    <ul>
+      <li>Seed recovery consumes the harvest used in the action.</li>
+      <li>Cooked produce cannot be used for seed recovery.</li>
+      <li>Different crops use different actions, and not every crop supports recovery.</li>
+      <li>Keep raw harvest separate from anything intended for the stove.</li>
+    </ul>
+  </article>
+  <a class="gebs-back-top" href="#top">Back to top</a>
+</section>
+
+<section class="gebs-section" id="wild-ginseng" aria-labelledby="wild-ginseng-title">
+  <div class="gebs-section-heading"><span class="gebs-index">06 //</span><h2 id="wild-ginseng-title">Finding Wild Ginseng</h2></div>
+  <div class="gebs-layout">
+    <article class="gebs-panel">
+      <h3>Where to Look</h3>
+      <p>Wild ginseng can appear in broadleaf woodland and shares the existing mushroom-spawn event. It may be found fresh, dried, or rotten.</p>
+      <p>Garden-grown ginseng starts fresh. Finding one plant does not guarantee that another will appear immediately afterward.</p>
+    </article>
+    <article class="gebs-panel">
+      <h3>Wild Ginseng Conditions</h3>
+      <div class="gebs-table-wrap">
+        <table class="gebs-table gebs-stack-table">
+          <thead><tr><th>Condition</th><th>What It Means</th></tr></thead>
+          <tbody>
+            <tr><td data-label="Condition"><strong>Fresh</strong></td><td data-label="What It Means">Suitable for normal use and the applicable seed recipe.</td></tr>
+            <tr><td data-label="Condition"><strong>Dried</strong></td><td data-label="What It Means">Still usable, but in a different condition from a fresh find.</td></tr>
+            <tr><td data-label="Condition"><strong>Rotten</strong></td><td data-label="What It Means">Aged past the fresh state and not something to mistake for a new spawn.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+  </div>
+  <div class="gebs-note"><strong>Survivor Tip:</strong> Check the woodland as you travel, but do not plan an entire food supply around finding one particular plant in one particular patch.</div>
+  <a class="gebs-back-top" href="#top">Back to top</a>
+</section>
+
+<section class="gebs-section" id="trader" aria-labelledby="trader-title">
+  <div class="gebs-section-heading"><span class="gebs-index">07 //</span><h2 id="trader-title">Buying &amp; Selling at the Consumables Trader</h2></div>
+  <article class="gebs-panel">
+    <p>The Consumables Trader is at Scorched Isle Market. The gardening categories currently available are:</p>
+    <ul>
+      <li><strong>Geb's Plants - Seed Packs</strong></li>
+      <li><strong>Geb's Plants - Seeds</strong></li>
+      <li><strong>Geb's Plants - Produce</strong></li>
+      <li><strong>Geb's Plants - Garden Guide</strong></li>
+    </ul>
+    <p>These categories support buying and selling with unlimited configured stock.</p>
+    <div class="gebs-table-wrap">
+      <table class="gebs-table gebs-stack-table">
+        <thead><tr><th>Item Group</th><th>Buying Notes</th><th>Selling Notes</th></tr></thead>
+        <tbody>
+          <tr><td data-label="Item Group"><strong>Seed Packs</strong></td><td data-label="Buying Notes">Two thousand dollars each.</td><td data-label="Selling Notes">Sell at the normal zone sell rate.</td></tr>
+          <tr><td data-label="Item Group"><strong>Garden Guide</strong></td><td data-label="Buying Notes">Two thousand dollars.</td><td data-label="Selling Notes">Sell at the normal zone sell rate.</td></tr>
+          <tr><td data-label="Item Group"><strong>Loose Seeds</strong></td><td data-label="Buying Notes">Price varies with the full-stack quantity.</td><td data-label="Selling Notes">Sell at the normal zone sell rate.</td></tr>
+          <tr><td data-label="Item Group"><strong>Produce</strong></td><td data-label="Buying Notes">Price varies by item.</td><td data-label="Selling Notes">Sell at the normal zone sell rate.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="gebs-note"><strong>Stock note:</strong> Unlimited configured stock does not mean every item is the best purchase for every stage of your garden. Compare your time, supplies, and storage before spending.</div>
+  </article>
+  <a class="gebs-back-top" href="#top">Back to top</a>
+</section>
+
+<section class="gebs-section" id="garden-guide" aria-labelledby="garden-guide-title">
+  <div class="gebs-section-heading"><span class="gebs-index">08 //</span><h2 id="garden-guide-title">Geb&rsquo;s Garden Guide</h2></div>
+  <article class="gebs-panel">
+    <p>Garden Guides can be found on shelves in farm, village, and town buildings, or purchased from the Consumables Trader.</p>
+    <p>Hold the guide, unfold it, and read it for the broader planting information it contains. The original mod guide covers a wider crop selection; BTA Chernarus currently supports the 26 crops listed above.</p>
+    <div class="gebs-note"><strong>BTA-specific information:</strong> Cannabis, Coca, Poppy, Tobacco, and their related Geb chains are not part of the BTA plant system described here. The separate BTA drug-production system has its own <a href="../drug-running/">Drug Running guide</a>.</div>
+  </article>
+  <a class="gebs-back-top" href="#top">Back to top</a>
+</section>
+
+<section class="gebs-section" id="terje-farming" aria-labelledby="terje-farming-title">
+  <div class="gebs-section-heading"><span class="gebs-index">09 //</span><h2 id="terje-farming-title">Gardening &amp; Terje Farming Skills</h2></div>
+  <article class="gebs-panel">
+    <p>Gardening actions can contribute to the Terje Farming skill. Preparing plots, planting, watering, fertilizing, and harvesting are all part of working a garden.</p>
+    <p>As the skill develops, it can improve yields, freshness, growth speed, and efficiency. Skill levels do not automatically purchase perks, so check the Terje system and choose the benefits that suit your survivor.</p>
+    <div class="gebs-button-row"><a class="button" href="../terje-skills/">Read the Terje Skills guide</a></div>
+  </article>
+  <a class="gebs-back-top" href="#top">Back to top</a>
+</section>
+
+<section class="gebs-section" id="tips" aria-labelledby="tips-title">
+  <div class="gebs-section-heading"><span class="gebs-index">10 //</span><h2 id="tips-title">Important Gardening Tips &amp; Reminders</h2></div>
+  <div class="gebs-layout">
+    <article class="gebs-panel">
+      <h3>Keep the Garden Healthy</h3>
+      <ul>
+        <li>Do not assume a mature plant will remain harvestable indefinitely.</li>
+        <li>Save eligible seed material before cooking the full harvest.</li>
+        <li>Store harvest and supplies somewhere sensible. Ground items are subject to cleanup.</li>
+        <li>The presence of an ingredient does not guarantee that every brewing or crafting system uses it.</li>
+      </ul>
+    </article>
+    <article class="gebs-panel">
+      <h3>Cleanup Timers</h3>
+      <p>These are configured cleanup times, not a promise that an item will remain fresh, harvestable, or stored for its entire lifetime.</p>
+      <div class="gebs-table-wrap">
+        <table class="gebs-table gebs-stack-table">
+          <thead><tr><th>Item</th><th>Configured Cleanup</th></tr></thead>
+          <tbody>
+            <tr><td data-label="Item"><strong>Seed Packs</strong></td><td data-label="Configured Cleanup">4 hours</td></tr>
+            <tr><td data-label="Item"><strong>Loose Seeds</strong></td><td data-label="Configured Cleanup">4 hours</td></tr>
+            <tr><td data-label="Item"><strong>Harvested Produce</strong></td><td data-label="Configured Cleanup">4 hours</td></tr>
+            <tr><td data-label="Item"><strong>Garden Guide</strong></td><td data-label="Configured Cleanup">4 hours</td></tr>
+            <tr><td data-label="Item"><strong>Ginseng</strong></td><td data-label="Configured Cleanup">1 hour</td></tr>
+            <tr><td data-label="Item"><strong>Growing Plants</strong></td><td data-label="Configured Cleanup">8 hours</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </article>
+  </div>
+  <a class="gebs-back-top" href="#top">Back to top</a>
+</section>
+
+<section class="gebs-section" id="quick-start" aria-labelledby="quick-start-title">
+  <div class="gebs-section-heading"><span class="gebs-index">11 //</span><h2 id="quick-start-title">Quick Start Checklist</h2></div>
+  <ol class="gebs-checklist">
+    <li>Find or buy seeds.</li>
+    <li>Gather gardening supplies and prepare a plot.</li>
+    <li>Open the pack and plant the right material.</li>
+    <li>Water the crop and give it time to grow.</li>
+    <li>Harvest at the right stage.</li>
+    <li>Save eligible planting material before cooking.</li>
+    <li>Prepare, cook, sell, or store the harvest.</li>
+    <li>Replant and expand when your first garden is working.</li>
+  </ol>
+  <a class="gebs-back-top" href="#top">Back to top</a>
+</section>
+
+<section class="gebs-section" id="closing" aria-labelledby="closing-title">
+  <div class="gebs-closing">
+    <h2 id="closing-title">One Seed at a Time</h2>
+    <p>The world may be covered in ashes, but a good garden still gives people something to build around.</p>
+    <p>Grow food, save seeds, share the surplus, and keep one more season in mind than the people who came before you. That is how a patch of soil becomes a home.</p>
+    <p>Get planting. The next harvest is closer than it looks.</p>
+  </div>
+</section>
+
+<section class="gebs-section" id="resources" aria-labelledby="resources-title">
+  <div class="gebs-section-heading"><span class="gebs-index">12 //</span><h2 id="resources-title">Additional Resources</h2></div>
+  <article class="gebs-panel">
+    <ul class="gebs-resource-list">
+      <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3823623344" target="_blank" rel="noopener">Geb's Plants on Steam Workshop</a></li>
+      <li><a href="../terje-skills/">Terje Skills guide</a></li>
+      <li><a href="../drug-running/">Drug Running guide</a></li>
+      <li><a href="../">Back to Chernarus Guides</a></li>
+    </ul>
+  </article>
+  <a class="gebs-back-top" href="#top">Back to top</a>
+</section>
+</main>
+<footer><div class="wrap">Beneath the Ashes • Chernarus Guides</div></footer>
+<script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
+</body>
+</html>
