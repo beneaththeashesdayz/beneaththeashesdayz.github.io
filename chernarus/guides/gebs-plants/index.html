@@ -45,6 +45,8 @@
 .gebs-resource-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0;padding:0;list-style:none}
 .gebs-resource-list li{border:1px solid #4c4438;background:#1c1a16;padding:12px 14px}
 .gebs-resource-list a{color:#f1d6bb}
+.gebs-exception-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:14px 0 0!important;padding:0!important;list-style:none!important}
+.gebs-exception-list li{border:1px solid #4c4438;background:#1c1a16;padding:10px 12px;color:#d8c4ad;line-height:1.35}
 .gebs-checklist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0;padding:0;list-style:none;counter-reset:gebs-check}
 .gebs-checklist li{counter-increment:gebs-check;position:relative;border:1px solid #4c4438;background:#1c1a16;padding:14px 15px 14px 48px;color:var(--muted);line-height:1.5}
 .gebs-checklist li::before{content:counter(gebs-check,decimal-leading-zero);position:absolute;left:15px;top:14px;color:var(--ember);font-size:.78rem;font-weight:800;letter-spacing:.08em}
@@ -54,6 +56,7 @@
 .gebs-back-top{display:inline-block;margin-top:15px;color:#d8c4ad;font-size:.82rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;text-decoration:none}
 .gebs-back-top:hover{color:#fff}
 .gebs-button-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+@media(max-width:820px){.gebs-layout{grid-template-columns:1fr}}
 @media(max-width:760px){
   .gebs-guide{padding:30px 0 58px}
   .gebs-hero{padding:28px 22px;min-height:0;margin-top:20px}
@@ -65,6 +68,7 @@
   .gebs-section-heading{display:block}
   .gebs-section-heading .gebs-index{display:block;margin-bottom:7px}
   .gebs-layout,.gebs-steps,.gebs-resource-list,.gebs-checklist{grid-template-columns:1fr}
+  .gebs-exception-list{grid-template-columns:repeat(2,minmax(0,1fr))}
   .gebs-panel{padding:20px 18px}
   .gebs-table-wrap{overflow:visible}
   .gebs-table,.gebs-table tbody,.gebs-table tr,.gebs-table td{display:block;width:100%}
@@ -80,6 +84,7 @@
   .gebs-section-heading h2{font-size:1.55rem}
   .gebs-panel{padding:18px 16px}
   .gebs-step{padding:16px}
+  .gebs-exception-list{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -216,7 +221,18 @@
     <h3>Other Crops and Important Rules</h3>
     <p>Other supported crops may have their own recovery actions, so inspect the raw harvest before cooking or selling it.</p>
     <h4>Crops Without Harvest-to-Seed Recipes</h4>
-    <p>Beets, Cabbage, Carrots, Collards, Hops, Leeks, Onions, Radishes, and Turnips do not have harvest-to-seed recipes listed here.</p>
+    <p>The following crops do not have harvest-to-seed recipes in BTA's installed version. Their planting material must be obtained from seed packs or the Consumables Trader.</p>
+    <ul class="gebs-exception-list">
+      <li>Beets</li>
+      <li>Cabbage</li>
+      <li>Carrots</li>
+      <li>Collards</li>
+      <li>Hops</li>
+      <li>Leeks</li>
+      <li>Onions</li>
+      <li>Radishes</li>
+      <li>Turnips</li>
+    </ul>
     <ul>
       <li>Seed recovery consumes the harvest used in the action.</li>
       <li>Cooked produce cannot be used for seed recovery.</li>
@@ -241,9 +257,9 @@
         <table class="gebs-table gebs-stack-table">
           <thead><tr><th>Condition</th><th>What It Means</th></tr></thead>
           <tbody>
-            <tr><td data-label="Condition"><strong>Fresh</strong></td><td data-label="What It Means">Suitable for normal use and the applicable seed recipe.</td></tr>
-            <tr><td data-label="Condition"><strong>Dried</strong></td><td data-label="What It Means">Still usable, but in a different condition from a fresh find.</td></tr>
-            <tr><td data-label="Condition"><strong>Rotten</strong></td><td data-label="What It Means">Aged past the fresh state and not something to mistake for a new spawn.</td></tr>
+            <tr><td data-label="Condition"><strong>Fresh</strong></td><td data-label="What It Means">Freshly generated wild ginseng.</td></tr>
+            <tr><td data-label="Condition"><strong>Dried</strong></td><td data-label="What It Means">Wild ginseng generated in a dried condition.</td></tr>
+            <tr><td data-label="Condition"><strong>Rotten</strong></td><td data-label="What It Means">Spoiled ginseng; check its condition before use.</td></tr>
           </tbody>
         </table>
       </div>
@@ -268,8 +284,8 @@
       <table class="gebs-table gebs-stack-table">
         <thead><tr><th>Item Group</th><th>Buying Notes</th><th>Selling Notes</th></tr></thead>
         <tbody>
-          <tr><td data-label="Item Group"><strong>Seed Packs</strong></td><td data-label="Buying Notes">Two thousand dollars each.</td><td data-label="Selling Notes">Sell at the normal zone sell rate.</td></tr>
-          <tr><td data-label="Item Group"><strong>Garden Guide</strong></td><td data-label="Buying Notes">Two thousand dollars.</td><td data-label="Selling Notes">Sell at the normal zone sell rate.</td></tr>
+          <tr><td data-label="Item Group"><strong>Seed Packs</strong></td><td data-label="Buying Notes">$2,000 each</td><td data-label="Selling Notes">Sell at the normal zone sell rate.</td></tr>
+          <tr><td data-label="Item Group"><strong>Garden Guide</strong></td><td data-label="Buying Notes">$2,000</td><td data-label="Selling Notes">Sell at the normal zone sell rate.</td></tr>
           <tr><td data-label="Item Group"><strong>Loose Seeds</strong></td><td data-label="Buying Notes">Price varies with the full-stack quantity.</td><td data-label="Selling Notes">Sell at the normal zone sell rate.</td></tr>
           <tr><td data-label="Item Group"><strong>Produce</strong></td><td data-label="Buying Notes">Price varies by item.</td><td data-label="Selling Notes">Sell at the normal zone sell rate.</td></tr>
         </tbody>
