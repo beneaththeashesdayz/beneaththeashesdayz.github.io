@@ -15,6 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var inventorySyncedAt = null;
   var inventoryStatus = null;
   var inventoryZoneBySlug = {
+    'boris':'Drug_Ingredients.json',
     'attachment-trader':'Main_Attachments_Trader.json',
     'black-market-zombie-note':'Blackmarket_ZN.json',
     'emberline-motors':'ExoticVehicleTrader.json',

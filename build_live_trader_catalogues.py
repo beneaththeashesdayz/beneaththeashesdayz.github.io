@@ -31,6 +31,13 @@ TRADERS = {
 }
 
 TRADER_CONFIG_CATALOGUES = {
+    "boris": {
+        "name": "Boris",
+        "trader": "Drug_Ingredients.json",
+        "zone": "Drug_Ingredients.json",
+        "currency": "USD",
+        "currency_label": None,
+    },
     "attachment-trader": {
         "name": "Attachment Trader",
         "trader": "Attachments.json",

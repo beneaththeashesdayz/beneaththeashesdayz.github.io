@@ -28,17 +28,27 @@
 <h1>Boris</h1>
 <div class="location">Mainland Chernarus</div>
 <div class="currency-line"><span class="currency-label">Currency</span><span class="currency-badge currency-usd">USD</span></div>
-<p class="summary">Boris is the mainland's drug ingredient supplier, providing the raw materials and production supplies survivors need to keep their labs moving.</p>
+<p class="summary">Boris is the mainland's drug ingredient supplier, providing the raw materials and production supplies survivors need to keep their labs moving. He sells to survivors and does not buy these supplies back.</p>
 <div class="chips"><span class="chip">Drug Ingredients</span><span class="chip">Production Supplies</span><span class="chip">Mainland Trader</span></div>
 <section class="catalogue-section" id="traderCatalogue">
-<div class="catalogue-head"><div><div class="catalogue-kicker">Mainland Supplier Profile</div><h2>Boris's Inventory</h2></div><p>Boris's live inventory and trade terms are being prepared for the mainland supplier.</p></div>
-<div class="boris-pending"><strong>Inventory details coming soon.</strong><br>Check back once Boris's current stock and pricing have been published.</div>
+<div class="catalogue-head"><div><div class="catalogue-kicker">Live Expansion Market Feed</div><h2>Boris's Inventory</h2></div><p>Search Boris's live catalogue for drug ingredients and production supplies. Stock is checked against the latest successful Chernarus market upload.</p></div>
+<div class="catalogue-tools">
+<input class="catalogue-search" data-catalogue-search type="search" placeholder="Search ingredients or supplies..." aria-label="Search Boris's catalogue">
+<div class="catalogue-filters" aria-label="Catalogue filters"><button class="catalogue-filter active" data-catalogue-filter="all" type="button">All</button></div>
+</div>
+<div class="catalogue-summary"><span data-catalogue-count></span><span>•</span><span>USD</span></div>
+<div class="catalogue-list" data-catalogue-list></div>
+<div class="catalogue-empty" data-catalogue-empty>No items match that search.</div>
+<p class="catalogue-note">Boris sells these supplies to players and does not buy them back. Inventory and stock status follow the latest successful market refresh.</p>
 </section>
 </div>
 <div class="portrait-frame"><img class="portrait" src="/assets/traders/boris.jpg?v=2" alt="Boris, the mainland drug ingredient supplier"></div>
 </section>
 </main>
 <footer><div class="wrap">Beneath the Ashes • Chernarus Trader Network</div></footer>
+<script src="../../../data/live-market/variant-groups.js?v=1"></script>
+<script src="./catalogue-data.js?v=1"></script>
+<script src="../catalogue.js?v=20"></script>
 <script src="https://beneaththeashesdayz.github.io/site.js"></script>
 </body>
 </html>
