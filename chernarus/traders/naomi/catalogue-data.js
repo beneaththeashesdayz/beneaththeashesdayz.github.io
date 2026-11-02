@@ -45,7 +45,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Sarmacan',className:'sarmacan',category:'Food',mode:'sell',price:10395},
 {name:'Spaghettican',className:'spaghettican',category:'Food',mode:'sell',price:10110},
 {name:'Spicycrackers',className:'spicycrackers',category:'Food',mode:'sell',price:9830},
-{name:'Tacticalbaconcan',className:'tacticalbaconcan',category:'Food',mode:'sell',price:10395},
+{name:'Tacticalbaconcan',className:'tacticalbaconcan',category:'Food',mode:'buy',price:10395,sellPrice:5198},
 {name:'Tunacan',className:'tunacan',category:'Food',mode:'sell',price:9935},
 {name:'Unknownfoodcan',className:'unknownfoodcan',category:'Food',mode:'sell',price:9780},
 {name:'Zagorky',className:'zagorky',category:'Food',mode:'sell',price:9755},
