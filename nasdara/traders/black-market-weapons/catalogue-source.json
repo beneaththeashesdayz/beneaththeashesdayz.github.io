@@ -1,0 +1,24 @@
+{
+  "server": "Nasdara",
+  "trader": "Black Market Weapons",
+  "currency": "USD",
+  "snapshot": "outputs/nasdara-economy-2026-11-02",
+  "sourceFiles": [
+    "BM Weapons"
+  ],
+  "itemCount": 325,
+  "hiddenCategoryCount": 1,
+  "location": "Black Market",
+  "mapBinding": "ExpansionTraderFrancis.BM_Weapons",
+  "zonePosition": {
+    "x": 14836.974609375,
+    "y": 208.08770751953125,
+    "z": 7847.22412109375
+  },
+  "zoneRadius": 150,
+  "zoneSellPricePercent": 100,
+  "runtimeVerified": false,
+  "separateUploadedConfig": "BM_Attachments.json is not merged into this sample until its placed-trader binding is confirmed.",
+  "conflicts": [],
+  "missingCategories": []
+}

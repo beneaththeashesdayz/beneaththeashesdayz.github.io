@@ -129,11 +129,11 @@ footer{border-top:1px solid var(--line);padding:28px 0 40px;color:#77736d;font-s
 .project-card:hover{transform:none!important;border-color:var(--line)!important;box-shadow:none!important}.project-card:not(.frozen):hover{border-color:var(--line)!important;box-shadow:none!important}.card:hover{transform:none!important;border-color:var(--line)!important;box-shadow:none!important}
 .trader-groups .card:hover,.search-grid .card:hover{transform:translateY(-3px)!important;border-color:#c9672d!important;box-shadow:0 4px 18px rgba(201,103,45,.22)!important}
 
-.project-card.nasdara-card{border-color:#33454c;background:linear-gradient(150deg,#171c1f,#101416)}
-.project-card.nasdara-card:after{background:radial-gradient(circle,rgba(122,168,190,.14),transparent 65%)}
-.project-card.nasdara-card .project-label{color:#9bc2d2}
-.project-card.nasdara-card .button{border-color:#40545f;background:#131a1d;color:#a9cad8}
-.project-card.nasdara-card .button:hover{border-color:#a9cad8!important;background:#1b2930!important;color:#a9cad8!important;box-shadow:0 4px 14px rgba(169,202,216,.18)}
+.project-card.nasdara-card{border-color:#87633d;background:linear-gradient(150deg,#1b1815,#101112)}
+.project-card.nasdara-card:after{background:radial-gradient(circle,rgba(198,154,82,.14),transparent 65%)}
+.project-card.nasdara-card .project-label{color:#c69a52}
+.project-card.nasdara-card .button{border-color:#87633d;background:#1d1812;color:#e1bc78}
+.project-card.nasdara-card .button:hover{border-color:#e1bc78!important;background:#2a2117!important;color:#e1bc78!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
 
 
 /* Center team profile buttons within their cards */

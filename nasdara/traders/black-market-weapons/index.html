@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Francis | Nasdara | Beneath the Ashes</title>
+<meta name="description" content="Francis, Black Market weapons trader on Nasdara. Browse the saved Nasdara configuration snapshot.">
+<link rel="stylesheet" href="../../../styles.css"><link rel="stylesheet" href="../../../chernarus/traders/catalogue.css?v=12"><link rel="stylesheet" href="../../../chernarus/traders/catalogue-variants.css?v=1">
+<style>
+.nasdara-profile{--nas-accent:#C69A52;--nas-hover:#E1BC78;--nas-bronze:#87633D;--nas-deep:#1d1812}.nasdara-profile .back{color:var(--nas-hover)}.nasdara-profile .world-tag{border-color:var(--nas-bronze);background:var(--nas-deep);color:var(--nas-hover)}.nasdara-profile .profile-top{border-color:var(--nas-bronze)}.nasdara-profile .profile-top .kicker{color:var(--nas-accent)}.nasdara-profile .profile-top .location{color:#d8c4ad}.nasdara-profile .profile-top .summary{max-width:760px}.nasdara-profile .profile-note{margin:22px 0 0;padding:16px 18px;border-left:3px solid var(--nas-accent);background:rgba(135,99,61,.18);color:#d8c4ad;line-height:1.6}.nasdara-profile .profile-note strong{color:#f0ece5}.nasdara-profile .portrait-frame{display:flex;align-items:center;justify-content:center;min-height:320px;border-color:var(--nas-bronze);background:linear-gradient(145deg,rgba(198,154,82,.12),rgba(255,255,255,.01))}.nasdara-profile .portrait-placeholder{padding:18px;color:var(--nas-hover);font-size:.72rem;font-weight:800;letter-spacing:.14em;text-align:center;text-transform:uppercase}.nasdara-profile .catalogue-filter{display:flex!important;border-color:rgba(135,99,61,.78);color:var(--muted)}.nasdara-profile .catalogue-filter:hover{border-color:var(--nas-hover);color:#f0ece5;background:rgba(198,154,82,.08)}.nasdara-profile .catalogue-filter.active{border-color:var(--nas-accent)!important;color:#f0ece5;background:rgba(198,154,82,.16);box-shadow:inset 0 0 0 1px rgba(198,154,82,.2)}.nasdara-profile .catalogue-filter.active strong{background:var(--nas-accent);color:#17120d}.nasdara-profile .catalogue-note{display:block!important;margin:0 0 2px}.nasdara-profile .catalogue-section{border-color:var(--nas-bronze)}.nasdara-profile .catalogue-kicker{color:var(--nas-accent)}.nasdara-profile .catalogue-group{border-color:rgba(135,99,61,.7)}.nasdara-profile .catalogue-group-summary::after{color:var(--nas-hover)}.nasdara-profile .catalogue-item{border-color:rgba(135,99,61,.48)}.nasdara-profile .catalogue-direction.buys{color:#d7c39d;border-color:rgba(198,154,82,.55)}.nasdara-profile .catalogue-direction.sells{color:var(--nas-hover);border-color:rgba(225,188,120,.55)}.nasdara-profile .catalogue-source-note{margin:18px 0 0;color:var(--muted);font-size:.74rem;line-height:1.6}.nasdara-profile .catalogue-source-note strong{color:#f0ece5}
+@media(max-width:760px){.nasdara-profile .portrait-frame{min-height:220px}.nasdara-profile .profile-note{padding:14px 15px}}
+</style>
+</head>
+<body class="world-nasdara nasdara-profile">
+<header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
+<main class="wrap profile">
+<div class="profile-header"><a class="back" href="../">← Nasdara Traders</a><div class="world-tag">World // Nasdara</div></div>
+<section class="profile-top">
+<div><div class="kicker">Black Market Weapons Trader</div><h1>Francis</h1><div class="location">Black Market • Nasdara • X 14836.97 / Z 7847.22</div><div class="currency-line"><span class="currency-label">Currency</span><span class="currency-badge currency-usd">USD</span></div>
+<p class="summary">A map-bound sample profile for the Nasdara Black Market weapons counter. This page uses the saved <strong>BM_Weapons</strong> configuration and keeps buy-from-trader and sell-to-trader permissions visible instead of blending them together.</p>
+<div class="chips"><span class="chip">Black Market</span><span class="chip">AJ Weapons</span><span class="chip">USD</span><span class="chip">Configuration Snapshot</span></div>
+<p class="profile-note"><strong>Review status:</strong> Nasdara’s uploaded market changes are saved and read back, but the server has not been restarted and these permissions have not yet been verified in-game. In this sample, AJ weapons are <strong>Sell To Trader</strong> only; each other catalogue group keeps its own configured direction. The separately uploaded <strong>BM_Attachments</strong> file is intentionally not merged into this sample until its placed-trader binding is confirmed.</p>
+<section class="catalogue-section" id="traderCatalogue">
+<div class="catalogue-head"><div><div class="catalogue-kicker">Nasdara Market Catalogue</div><h2>Francis’s Inventory</h2></div><p>Search the saved Nasdara configuration snapshot by item, class name, or category. This is not a live stock feed.</p></div>
+<div class="catalogue-tools"><input class="catalogue-search" data-catalogue-search type="search" placeholder="Search Black Market weapons..." aria-label="Search Francis's Nasdara catalogue"><p class="catalogue-note">Use the transaction filters to distinguish items you can buy from Francis from items you can sell to him.</p><div class="catalogue-filters" aria-label="Catalogue transaction filters"><button class="catalogue-filter active" data-catalogue-filter="all" type="button">All</button><button class="catalogue-filter" data-catalogue-filter="purchase" type="button">Buy From Trader</button><button class="catalogue-filter" data-catalogue-filter="sale" type="button">Sell To Trader</button><button class="catalogue-filter" data-catalogue-filter="both" type="button">Buys &amp; Sells</button></div></div>
+<div class="catalogue-summary"><span data-catalogue-count></span><span>•</span><span>USD</span><span>•</span><span>Saved snapshot</span></div>
+<div class="catalogue-list" data-catalogue-list></div><div class="catalogue-empty" data-catalogue-empty>No items match that search.</div>
+<p class="catalogue-source-note"><strong>Source:</strong> Nasdara’s prepared BM_Weapons market/trader configuration dated November 2, 2026. Prices are configuration values with the Nasdara Black Market payout context; server runtime verification remains pending.</p>
+</section>
+</div><div class="portrait-frame"><div class="portrait-placeholder">Portrait pending<br>upload when approved</div></div></section>
+</main>
+<footer><div class="wrap">Beneath the Ashes • Nasdara Trader Network</div></footer>
+<script src="../../../data/live-market/variant-groups.js?v=1"></script><script src="./catalogue-data.js?v=1"></script><script src="../../../chernarus/traders/catalogue.js?v=20"></script><script src="https://beneaththeashesdayz.github.io/site.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.catalogue-summary').forEach((summary) => {
+    const walker = document.createTreeWalker(summary, NodeFilter.SHOW_TEXT);
+    let node;
+    while ((node = walker.nextNode())) {
+      if (node.nodeValue.includes('live item variants')) {
+        node.nodeValue = node.nodeValue.replace('live item variants', 'configured item variants');
+        break;
+      }
+    }
+  });
+});
+</script>
+<script src="../../dust.js"></script>
+</body></html>
