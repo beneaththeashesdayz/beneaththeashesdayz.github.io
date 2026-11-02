@@ -22,7 +22,11 @@
     "Food:1",
     "Drinks:1",
     "Gardening:1",
-    "Fruit_And_Vegetables:1"
+    "Fruit_And_Vegetables:1",
+    "Gebs_Plants_Seed_Packs:1",
+    "Gebs_Plants_Seeds:1",
+    "Gebs_Plants_Produce:1",
+    "Gebs_Plants_Guide:1"
   ],
   "Items": {}
 }

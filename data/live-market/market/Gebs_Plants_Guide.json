@@ -1,0 +1,21 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Geb's Plants - Garden Guide",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "IsExchange": 0,
+  "InitStockPercent": 100,
+  "Items": [
+    {
+      "ClassName": "geb_gardenguide",
+      "MaxPriceThreshold": 2000,
+      "MinPriceThreshold": 2000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

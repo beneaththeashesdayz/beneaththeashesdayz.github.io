@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-02T13:51:08.968118+00:00",
+  "syncedAt": "2026-11-02T14:21:27.579517+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 279,
+  "marketFileCount": 283,
   "traderFileCount": 27,
   "traderZoneFileCount": 20,
   "files": [
@@ -1103,6 +1103,34 @@
     },
     {
       "group": "market",
+      "filename": "Gebs_Plants_Guide.json",
+      "sha256": "b11403dbbca7c1f6dfe421afa61b659af17d779e59726740255bc3822113d213",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Gebs_Plants_Produce.json",
+      "sha256": "3242cbaebcd8052746a62645f397f72a964aa03281d8c40b33a28c36929e16f7",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Gebs_Plants_Seed_Packs.json",
+      "sha256": "325becc02b7d7afb5e4310ec27ab843697d690e6eb2f281637d32b1a5fc758a1",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Gebs_Plants_Seeds.json",
+      "sha256": "7a878a018a0b9649e57a6c8ba6155c2c5bab8a20e5aab16a3b2e911aa6142bed",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
       "filename": "Gems.json",
       "sha256": "b7c5bd04f83c6fa8247585eda9edddc82c1163c37c061501706f58bb97248eda",
       "topLevelType": "object",
@@ -2028,7 +2056,7 @@
     {
       "group": "traders",
       "filename": "Consumables.json",
-      "sha256": "1be9005618c77eb8669cccd5734f2ee7abbb9cd24c239324496f7b3f0b6a4b60",
+      "sha256": "99f86b068e4a6454cc2aa698a891048ebf74e3aeee6d2cd824ea519db411a42a",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2238,7 +2266,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Consumables_Trader.json",
-      "sha256": "c94508777b2b501cedb8429f012d3467b14f5dede8f070df8afefb36a42c0581",
+      "sha256": "eaf4a088a447347844bf97aa5bdca13af50cbbf4844a7105475781f74051c6e9",
       "topLevelType": "object",
       "entryCount": 7
     },
