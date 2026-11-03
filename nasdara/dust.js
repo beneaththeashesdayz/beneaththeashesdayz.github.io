@@ -11,7 +11,7 @@
         .nasdara-dust {
           position: fixed;
           inset: 0;
-          z-index: 2;
+          z-index: 4;
           overflow: hidden;
           pointer-events: none;
           contain: layout paint style;
@@ -20,10 +20,12 @@
         .world-nasdara > main,
         .world-nasdara > footer {
           position: relative;
-          z-index: 3;
+          z-index: 5;
         }
-        .world-nasdara > main::before,
-        .world-nasdara > main::after {
+        body.world-nasdara > main::before,
+        body.world-nasdara > main::after,
+        body.world-nasdara:has(.world-tag:not(.frozen)) > main::before,
+        body.world-nasdara:has(.world-tag:not(.frozen)) > main::after {
           display: none !important;
         }
         .nasdara-dust__grain {
