@@ -58,11 +58,11 @@
     "mouflonpelt": 0,
     "head_reindeer": 0,
     "crossbow_autumn": 0,
-    "head_reddeer": 0,
+    "head_reddeer": 1,
     "crossbow_black": 0,
     "sheepskinrug": 0,
     "rabbitlegmeat": 5,
-    "deerpelt": 10,
+    "deerpelt": 11,
     "cj_cowpelt_white": 0,
     "goatskinrug_black": 0,
     "chickenbreastmeat": 4,
@@ -85,7 +85,7 @@
     "head_goat_black": 0,
     "cowpelt_white": 3,
     "deersteakmeat": 21,
-    "head_deer": 2,
+    "head_deer": 3,
     "wolfskinrug_white": 0,
     "rabbitpelt": 3,
     "sheepsteakmeat": 8,
@@ -108,6 +108,5 @@
     "cowpelt_spotted": 3,
     "head_goat_white": 0,
     "sheeppelt": 4
-  },
-  "m_BTA_InfiniteIngredients": {}
+  }
 }
