@@ -1,27 +1,115 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Chernarus Server Rules | Beneath the Ashes</title>
-<meta name="description" content="Current server rules for the Beneath the Ashes Chernarus DayZ server.">
-<link rel="stylesheet" href="../../styles.css?v=header-3">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Laws of Chernarus | Beneath the Ashes</title>
+  <meta name="description" content="Official Beneath the Ashes Chernarus rules: PvE protections, designated PvP zones, vehicle ownership, building, support, and enforcement.">
+  <link rel="stylesheet" href="../../styles.css?v=header-3">
+  <style>
+    .chernarus-page{--chernarus-accent:#c9672d;--chernarus-hover:#f0c7aa;--chernarus-bronze:#674f3d;--chernarus-deep:#1c1714}
+    .chernarus-page .back{color:var(--chernarus-hover)}
+    .chernarus-page .kicker,.chernarus-page .project-label{color:var(--chernarus-accent)}
+    .chernarus-page .world-tag{border-color:var(--chernarus-bronze);background:var(--chernarus-deep);color:var(--chernarus-hover)}
+    .chernarus-page .project-hero h1{font-size:clamp(3rem,8vw,6.5rem)}
+    .rules-subtitle{font-size:clamp(1.05rem,2vw,1.35rem);color:var(--chernarus-hover);font-weight:700;line-height:1.5;margin:0 0 18px}
+    .rules-policy,.rules-toc,.rules-section{border:1px solid var(--chernarus-bronze);background:linear-gradient(145deg,#1b1715,#101112);padding:28px;margin:0 0 24px;line-height:1.75}
+    .rules-policy{border-left:4px solid var(--chernarus-accent);background:linear-gradient(110deg,rgba(103,79,61,.25),#141515)}
+    .rules-policy h2{font-size:clamp(1.4rem,3vw,2rem);line-height:1.25;text-transform:uppercase;margin:8px 0 14px;color:var(--chernarus-hover)}
+    .rules-policy p{max-width:900px;margin:0}
+    .rules-policy .rules-policy-note{font-size:.9rem;color:var(--muted);margin-top:12px}
+    .rules-toc h2{font-size:1.1rem;text-transform:uppercase;letter-spacing:.1em;margin:0 0 16px;color:var(--chernarus-hover)}
+    .rules-toc ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 28px;padding-left:24px;margin:0}
+    .rules-toc li{padding-left:4px;min-width:0}
+    .rules-toc a{display:block;padding:6px 0;color:#f0ece5;text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+    .rules-section,#rules-contents{scroll-margin-top:86px}
+    .rules-section h2{display:flex;align-items:baseline;gap:12px;margin:0 0 20px;font-size:clamp(1.3rem,2.5vw,1.8rem);line-height:1.3;color:var(--chernarus-hover)}
+    .rule-number{color:var(--chernarus-accent);font-size:.8em;flex:none;font-weight:800}
+    .rules-section li+li{margin-top:9px}
+    .rules-section p{color:var(--muted);margin:0 0 16px}
+    .rules-section .rule-warning{border-left:3px solid #c9672d;background:rgba(103,79,61,.13);padding:18px 20px;color:#f0ece5;margin:22px 0 0}
+    .support-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px;margin-bottom:24px}
+    .support-columns h3,.replacement-policy h3{color:var(--chernarus-hover);line-height:1.5}
+    .replacement-policy{border-top:1px solid var(--chernarus-bronze);padding-top:24px}
+    .replacement-policy p{color:#f0ece5}
+    .penalty-steps{list-style:none;counter-reset:penalty;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:0!important;margin:0}
+    .penalty-steps li{border:1px solid var(--chernarus-bronze);padding:18px;background:var(--chernarus-deep);margin:0!important}
+    .penalty-steps span{display:block;color:var(--muted);font-size:.85rem}
+    .penalty-steps strong{color:#f0ece5;font-size:1.1rem}
+    .rules-page a:focus-visible{outline:2px solid var(--chernarus-hover);outline-offset:4px}
+    .chernarus-page .section-nav{margin:0 0 52px}
+    .chernarus-page .section-nav a:hover,.rules-toc a:hover{border-color:var(--chernarus-hover)!important;color:var(--chernarus-hover)!important;background:#2a2117!important;box-shadow:0 4px 14px rgba(201,103,45,.2)}
+    @media(max-width:760px){.rules-policy,.rules-toc,.rules-section{padding:22px 18px}.rules-toc ol,.support-columns,.penalty-steps{grid-template-columns:1fr}.rules-section h2{gap:10px}.rules-section .rule-warning{padding:16px}.rules-toc ol{gap:4px}.support-columns{gap:22px}}
+
+    .zone-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:22px 0}
+    .zone-panel{padding:22px;border:1px solid #674f3d;background:#151719;line-height:1.75}
+    .zone-panel h3{font-size:1rem;line-height:1.5;letter-spacing:.06em;text-transform:uppercase;margin:0 0 14px}
+    .zone-panel ul{padding-left:20px;margin:0}
+    .zone-panel li+li{margin-top:8px}
+    .zone-panel.pve{border-color:#586148;border-top:3px solid #9eb98e;background:linear-gradient(135deg,rgba(158,185,142,.09),#141719)}
+    .zone-panel.pve h3{color:#b8cfaa}
+    .zone-panel.pvp{border-color:#8f4931;border-top:3px solid #c9672d;background:linear-gradient(135deg,rgba(201,103,45,.12),#141719)}
+    .zone-panel.pvp h3{color:#f0c7aa}
+    .rules-policy .rule-warning{border-left:3px solid #c9672d;padding:16px 20px;background:rgba(201,103,45,.1);margin-top:20px;color:#f2eee5}
+    .chernarus-page .rule-block{margin-top:24px;padding-top:22px;border-top:1px solid var(--chernarus-bronze)}
+    .chernarus-page .rule-block:first-of-type{margin-top:0;padding-top:0;border-top:0}
+    .chernarus-page .rule-block h3{color:var(--chernarus-hover);font-size:.88rem;line-height:1.5;letter-spacing:.1em}
+    .chernarus-page .rule-block p{max-width:none}
+    .chernarus-page .rule-block ul{line-height:1.8}
+    .rules-section .rule-warning p{color:#f2eee5}
+    @media(max-width:760px){.zone-grid{grid-template-columns:1fr}.zone-panel{padding:20px 18px}}
+  </style>
 </head>
-<body>
+<body class="chernarus-page rules-page">
 <header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
-<main class="wrap profile">
-<div class="page-context">
-<a class="back" href="../">← Chernarus Hub</a>
-<div class="world-tag">World // Chernarus</div>
-</div>
-<section class="project-hero">
-<div class="kicker">Player Handbook</div>
-<h1>Server<br>Rules</h1>
-<p>Even in the ashes, order remains. These rules protect the survival experience for everyone on Chernarus. Read them before you play, build, trade or enter a PvP zone.</p>
-<div class="coming-soon"><strong>Important update:</strong><br>PvP zones are no longer raid zones. Vehicle theft is permitted only inside designated PvP zones.</div>
-</section>
-<section class="panel">
-<h2>General Conduct</h2>
+<main class="wrap">
+  <section class="project-hero">
+    <div class="page-context"><a class="back" href="../">← Chernarus Hub</a><div class="world-tag">World // Chernarus</div></div>
+    <div class="kicker">Player Handbook</div>
+    <h1>The Laws<br>of Chernarus</h1>
+    <div class="rules-subtitle">Official Server Rules &amp; Community Guidelines</div>
+    <p>Even in the ashes, order remains. Across the ruins of Chernarus, survivors have rebuilt something worth protecting. Whether you're establishing a home, trading supplies, exploring dangerous territory, or entering a contested zone, these regulations ensure that every survivor understands the boundaries between cooperation, conflict, and survival.</p>
+  </section>
+  <section class="rules-policy" aria-labelledby="primary-policy">
+    <div class="project-label">Know the boundaries</div>
+    <h2 id="primary-policy">Chernarus is a PvE server with designated PvP zones.</h2>
+    <div class="zone-grid">
+      <section class="zone-panel pve" aria-labelledby="outside-pvp">
+        <h3 id="outside-pvp">Outside designated PvP zones</h3>
+        <ul>
+          <li>PvE protections apply. Player killing is prohibited.</li>
+          <li>Player bases and property are protected.</li>
+          <li>Unauthorized theft and vehicle lockpicking are prohibited.</li>
+        </ul>
+      </section>
+      <section class="zone-panel pvp" aria-labelledby="inside-pvp">
+        <h3 id="inside-pvp">Inside designated PvP zones</h3>
+        <ul>
+          <li>Kill on sight is permitted.</li>
+          <li>PvP-related equipment losses are at the player's risk.</li>
+          <li>Vehicle lockpicking and theft are permitted only under the existing vehicle rules in <a href="#vehicles-theft-ownership" style="text-decoration:underline">Section 5</a>.</li>
+          <li>Combat logging remains prohibited.</li>
+          <li><strong>PvP zones are NOT raid zones.</strong> Base raiding is not permitted simply because a base is located within a PvP zone.</li>
+        </ul>
+      </section>
+    </div>
+    <p class="rule-warning"><strong>Important update:</strong><br>PvP zones are no longer raid zones. Vehicle theft is permitted only inside designated PvP zones.</p>
+  </section>
+  <nav class="rules-toc" aria-labelledby="rules-contents">
+    <h2 id="rules-contents">Rules at a glance</h2>
+    <ol>
+      <li><a href="#general-conduct">General Conduct</a></li>
+      <li><a href="#pve-player-protection">PvE &amp; Player Protection</a></li>
+      <li><a href="#pvp-zones-combat">PvP Zones &amp; Combat</a></li>
+      <li><a href="#building-territories">Building &amp; Territories</a></li>
+      <li><a href="#vehicles-theft-ownership">Vehicles, Theft &amp; Ownership</a></li>
+      <li><a href="#traders-safe-zones">Traders &amp; Safe Zones</a></li>
+      <li><a href="#admin-support">Admin Support &amp; Reimbursements</a></li>
+      <li><a href="#enforcement">Enforcement &amp; Penalties</a></li>
+    </ol>
+  </nav>
+  <section class="panel rules-section" id="general-conduct" aria-labelledby="general-conduct-heading">
+    <h2 id="general-conduct-heading"><span class="rule-number">01</span> General Conduct</h2>
 <ul>
 <li>Respect all players and admins.</li>
 <li>Racism, harassment, hate speech and excessive toxicity are not allowed.</li>
@@ -31,18 +119,18 @@
 <li>Admin decisions are final.</li>
 <li>Report exploits to staff. Abusing an exploit instead of reporting it may result in punishment.</li>
 </ul>
-</section>
-<section class="panel">
-<h2>PvE Rules</h2>
+  </section>
+  <section class="panel rules-section" id="pve-player-protection" aria-labelledby="pve-player-protection-heading">
+    <h2 id="pve-player-protection-heading"><span class="rule-number">02</span> PvE &amp; Player Protection</h2>
 <ul>
 <li>Base raiding is not allowed in PvE areas.</li>
 <li>Do not steal from player bases, vehicles or tents in PvE areas.</li>
 <li>Do not grief players by following, blocking or intentionally baiting zombies into bases.</li>
 <li>Grave crosses may be looted in PvE areas unless they are inside a Safe Zone or a player Territory Radius.</li>
 </ul>
-</section>
-<section class="panel">
-<h2>PvP Zones</h2>
+  </section>
+  <section class="panel rules-section" id="pvp-zones-combat" aria-labelledby="pvp-zones-combat-heading">
+    <h2 id="pvp-zones-combat-heading"><span class="rule-number">03</span> PvP Zones &amp; Combat</h2>
 <ul>
 <li>Kill on sight is allowed inside designated PvP zones.</li>
 <li>Stealing and destruction are allowed inside PvP zones.</li>
@@ -51,9 +139,10 @@
 <li>Entering a PvP zone is at your own risk. Staff will not assist with deaths, lost gear or disputes that occur there.</li>
 <li>Combat logging is prohibited.</li>
 </ul>
-</section>
-<section class="panel">
-<h2>Building Rules</h2>
+    <p class="rule-warning"><strong>PvP zones are not raid zones.</strong> The theft and destruction permissions above do not grant permission to raid a base.</p>
+  </section>
+  <section class="panel rules-section" id="building-territories" aria-labelledby="building-territories-heading">
+    <h2 id="building-territories-heading"><span class="rule-number">04</span> Building &amp; Territories</h2>
 <ul>
 <li>Do not build inside hospitals, medical buildings or police stations.</li>
 <li>Do not build inside the Mine.</li>
@@ -66,9 +155,10 @@
 <li>If your base causes lag, you may be required to fix it. Failure to comply may result in administrative action.</li>
 <li>Structures that violate these restrictions may be removed without reimbursement.</li>
 </ul>
-</section>
-<section class="panel vehicle-rules">
-<h2>Vehicles &amp; Loot</h2>
+  </section>
+  <section class="panel rules-section vehicle-rules" id="vehicles-theft-ownership" aria-labelledby="vehicles-theft-ownership-heading">
+    <h2 id="vehicles-theft-ownership-heading"><span class="rule-number">05</span> Vehicles, Theft &amp; Ownership</h2>
+    <div class="rule-warning" style="margin:0 0 24px"><strong>A looted key does not override vehicle protection.</strong> A vehicle outside a designated PvP zone remains protected, even when someone holds a key obtained through PvP. The protected-vehicle rules below continue to apply.</div>
 <div class="rule-block"><h3>Everyday Vehicle Rules</h3><ul>
 <li>Do not block roads with vehicles.</li>
 <li><strong>Do not leave vehicles at Scorched Isle Market under any circumstances.</strong> Vehicles left there may be deleted by Safe Zone cleanup after 30 minutes and will not be reimbursed by admins.</li>
@@ -90,17 +180,18 @@
 <li>Lost keys are the owner’s responsibility.</li>
 <li>Staff will not unlock vehicles or replace vehicle keys due to player error.</li>
 </ul></div>
-</section>
-<section class="panel">
-<h2>Traders &amp; Safe Zones</h2>
+  </section>
+  <section class="panel rules-section" id="traders-safe-zones" aria-labelledby="traders-safe-zones-heading">
+    <h2 id="traders-safe-zones-heading"><span class="rule-number">06</span> Traders &amp; Safe Zones</h2>
 <ul>
 <li>No stealing or trolling.</li>
 <li>Do not pick up items on the ground that do not belong to you.</li>
 <li>Items inside trash cans are considered abandoned and may be taken.</li>
 </ul>
-</section>
-<section class="panel admin-support">
-<h2>Admin Support</h2>
+    <div class="rule-block"><h3>Trader Access</h3><p>Do not block roaming traders or prevent players from interacting with them.</p></div>
+  </section>
+  <section class="panel rules-section admin-support" id="admin-support" aria-labelledby="admin-support-heading">
+    <h2 id="admin-support-heading"><span class="rule-number">07</span> Admin Support &amp; Reimbursements</h2>
 <div class="rule-block"><h3>Staff Can Help With</h3><ul>
 <li>Server bugs.</li>
 <li>Players stuck inside mapped objects or base-built walls and structures.</li>
@@ -113,11 +204,14 @@
 <li>Flipped vehicles when in-game recovery tools are available.</li>
 <li>Items lost while interacting with placeable objects such as tables, stations or tents.</li>
 </ul></div>
-</section>
-<section class="panel">
-<h2>Enforcement</h2>
-<ul><li>First offense: Warning</li><li>Second offense: Temporary ban</li><li>Third offense: Permanent ban</li><li>Severe violations may skip steps at admin discretion.</li></ul>
-</section>
+<div class="rule-block"><h3>Vehicle Replacement</h3><p>Vehicles are replaced, repaired or restored only for confirmed server crashes, confirmed mod issues or verified server-side bugs.</p><p>Lost keys, player mistakes and PvP losses do not qualify.</p></div>
+  </section>
+  <section class="panel rules-section" id="enforcement" aria-labelledby="enforcement-heading">
+    <h2 id="enforcement-heading"><span class="rule-number">08</span> Enforcement &amp; Penalties</h2>
+<ol class="penalty-steps"><li><span>First offense:</span> <strong>Warning</strong></li><li><span>Second offense:</span> <strong>Temporary ban</strong></li><li><span>Third offense:</span> <strong>Permanent ban</strong></li></ol>
+    <p class="rule-warning">Severe violations may skip steps at admin discretion. <strong>Severe violations may result in immediate permanent bans at staff discretion.</strong></p>
+  </section>
+  <nav class="section-nav" aria-label="Rules navigation"><a href="../">← Return to Chernarus</a><a href="#rules-contents">Back to contents ↑</a><a href="https://discord.gg/NpwumFFzFy" target="_blank" rel="noopener noreferrer">Community Discord →</a></nav>
 </main>
 <footer><div class="wrap">Beneath the Ashes • Chernarus Server Rules</div></footer>
 <script src="https://beneaththeashesdayz.github.io/site.js"></script>
