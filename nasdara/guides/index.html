@@ -3,44 +3,66 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Nasdara Guides | Beneath the Ashes</title>
-  <meta name="description" content="Nasdara guides — in preparation for Beneath the Ashes.">
-  <link rel="stylesheet" href="../../styles.css?v=embers-20260815-1">
+  <title>Nasdara Survivor Field Guides | Beneath the Ashes</title>
+  <meta name="description" content="Survive the frontier: Nasdara’s searchable Survivor Field Guide directory for getting started, survival, travel, building, and exploration.">
+  <link rel="stylesheet" href="../../styles.css?v=weather-guide-1">
   <style>
-    .nasdara-page{--nasdara-accent:#C69A52;--nasdara-hover:#E1BC78;--nasdara-bronze:#87633D;--nasdara-deep:#1d1812}
-    .nasdara-page .back{color:var(--nasdara-hover)}
-    .nasdara-page .kicker,.nasdara-page .project-label{color:var(--nasdara-accent)}
-    .nasdara-page .world-tag{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
-    .nasdara-page .server-info{border-color:var(--nasdara-bronze);background:linear-gradient(120deg,#1b1815,#141515)}
-    .nasdara-page .server-info h2{color:#f0ece5}
-    .nasdara-page .server-info p{max-width:620px}
-    .nasdara-page .server-endpoint span{border-color:var(--nasdara-bronze);background:#111416;color:#d8c4ad}
-    .nasdara-page .server-info .copy-server{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
-    .nasdara-page .server-info .copy-server:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
-    .nasdara-page .project-grid{padding-top:0}
-    .nasdara-page .project-card{border-color:rgba(135,99,61,.78);background:linear-gradient(150deg,#1b1815,#101112)}
-    .nasdara-page .project-card:after{background:radial-gradient(circle,rgba(198,154,82,.13),transparent 65%)}
-    .nasdara-page .project-card h2{color:#f0ece5}
-    .nasdara-page .project-card .button{border-color:var(--nasdara-bronze);background:#1d1812;color:var(--nasdara-hover)}
-    .nasdara-page .project-card .button:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
-    .nasdara-page .nasdara-status{border-color:var(--nasdara-bronze);background:#1d1812;color:var(--nasdara-hover);cursor:default}
-    .nasdara-page .nasdara-status:before{content:"";display:inline-block;width:7px;height:7px;margin-right:8px;border-radius:50%;background:var(--nasdara-accent);vertical-align:middle}
-    .nasdara-page .nasdara-community{margin:0 0 76px}
-    .nasdara-page .nasdara-community h2{margin:6px 0;font-size:1.45rem;text-transform:uppercase}
-    .nasdara-page .nasdara-community p{margin:0;color:var(--muted);line-height:1.6}
-    .nasdara-page .nasdara-community .button{border-color:var(--nasdara-bronze);background:#1d1812;color:var(--nasdara-hover)}
-    .nasdara-page .nasdara-community .button:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
-    .nasdara-page .launcher-select{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
-    .nasdara-page .launcher-select:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important}
-    .nasdara-page .launcher-select:focus{outline-color:var(--nasdara-hover)}
-    @media(min-width:761px) and (max-width:1100px){
-      .nasdara-page .server-info[data-server-ip]{grid-template-columns:1fr auto auto}
-      .nasdara-page .server-info[data-server-ip]>div:first-child{grid-column:1/-1}
-    }
-    @media(max-width:760px){
-      .nasdara-page .server-endpoint span{white-space:normal;overflow-wrap:anywhere}
-      .nasdara-page .nasdara-community{margin-bottom:54px}
-    }
+.nasdara-page{--nasdara-accent:#C69A52;--nasdara-hover:#E1BC78;--nasdara-bronze:#87633D;--nasdara-deep:#1d1812}
+.nasdara-page .back{color:var(--nasdara-hover)}
+.nasdara-page .kicker,.nasdara-page .project-label{color:var(--nasdara-accent)}
+.nasdara-page .world-tag{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
+.guide-card{border:1px solid var(--nasdara-bronze);background:linear-gradient(145deg,#1b1815,#101112);padding:26px;min-height:300px;display:flex;flex-direction:column}
+.guide-card h3{font-size:clamp(1.65rem,3.8vw,3rem);line-height:1;text-transform:uppercase;letter-spacing:-.03em;margin:10px 0 16px;overflow-wrap:anywhere}
+.guide-card p{color:var(--muted);line-height:1.65}
+.guide-card .project-links{margin-top:auto;padding-top:12px}
+.guide-card .project-label{font-size:.68rem;line-height:1.6}
+.guide-preparation{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border:1px solid var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover);font-size:.7rem;font-weight:800;letter-spacing:.1em;line-height:1.4}
+.guide-preparation:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--nasdara-accent);flex:none}
+.guide-directory .guide-card[hidden],.guide-directory .guide-section[hidden]{display:none}
+/* Guide directory controls and sections */
+.guide-directory{display:block;margin:34px 0 70px}
+.guide-tools{border:1px solid var(--line);background:linear-gradient(145deg,#171a1c,#111315);padding:20px 22px;margin:0 0 38px}
+.guide-tools-top{display:flex;align-items:flex-end;gap:18px;flex-wrap:wrap}
+.guide-search{flex:1 1 320px;min-width:0}
+.guide-search label{display:block;color:var(--ember);font-size:.82rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;margin:0 0 9px}
+.guide-search-row{display:flex;gap:10px;align-items:stretch}
+.guide-search input{width:100%;min-height:48px;border:1px solid var(--line);background:#0e1011;color:#f1e7dc;font:inherit;padding:11px 14px;border-radius:0}
+.guide-search input:focus-visible,.guide-jump:focus-visible,.guide-clear:focus-visible{outline:2px solid var(--ember);outline-offset:3px}
+.guide-search input::placeholder{color:var(--muted)}
+.guide-clear{white-space:nowrap;min-height:48px;margin:0}.guide-clear[hidden]{display:none!important}.guide-section .guide-card{min-width:0}
+.guide-jumps{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.guide-jump{display:inline-flex;align-items:center;min-height:36px;padding:8px 11px;border:1px solid var(--line);color:#f1e7dc;text-decoration:none;font-size:.78rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;background:#151719}
+.guide-jump:hover{border-color:#70513f;color:#fff}
+.guide-search-status{color:var(--muted);font-size:.92rem;margin:14px 0 0}
+.guide-section{margin:0 0 42px;scroll-margin-top:24px}
+.guide-section-title{color:var(--ember);font-size:clamp(1.15rem,2.3vw,1.65rem);letter-spacing:.1em;line-height:1.15;text-transform:uppercase;margin:0 0 19px;padding:0 0 12px;border-bottom:1px solid var(--line)}
+.guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.guide-coming-soon{margin-top:0}
+.guide-empty{border:1px solid var(--line);background:linear-gradient(145deg,#171a1c,#111315);padding:22px;color:var(--muted);font-size:1rem;line-height:1.65}
+.guide-empty[hidden]{display:none}
+@media(max-width:760px){
+  .guide-tools{padding:17px 16px;margin-bottom:30px}
+  .guide-tools-top{display:block}
+  .guide-search-row{display:block}
+  .guide-search input{min-height:50px}
+  .guide-clear{margin-top:10px;width:100%}
+  .guide-jumps{gap:7px;margin-top:14px}
+  .guide-jump{font-size:.73rem;padding:8px 9px}
+  .guide-section{margin-bottom:34px}
+  .guide-section-title{font-size:1.15rem;margin-bottom:16px}
+  .guide-grid{grid-template-columns:1fr;gap:14px}
+}
+
+.nasdara-page .guide-tools,.nasdara-page .guide-empty{border-color:var(--nasdara-bronze);background:linear-gradient(145deg,#1b1815,#101112)}
+.nasdara-page .guide-search label,.nasdara-page .guide-section-title{color:var(--nasdara-accent)}
+.nasdara-page .guide-section-title,.nasdara-page .guide-search input,.nasdara-page .guide-jump{border-color:var(--nasdara-bronze)}
+.nasdara-page .guide-jump,.nasdara-page .guide-tools .button,.nasdara-page .guide-empty .button{background:var(--nasdara-deep);color:var(--nasdara-hover);border-color:var(--nasdara-bronze)}
+.nasdara-page .guide-search input:focus-visible,.nasdara-page .guide-jump:focus-visible,.nasdara-page .guide-clear:focus-visible{outline-color:var(--nasdara-hover)}
+.nasdara-page .guide-jump:hover,.nasdara-page .guide-tools .button:hover,.nasdara-page .guide-empty .button:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
+.guide-jump{max-width:100%;overflow-wrap:anywhere}
+.nasdara-page .guide-section{scroll-margin-top:86px}
+.guide-notice{margin:18px 0 0;color:var(--muted);font-size:.9rem;line-height:1.65}
+@media(max-width:760px){.guide-card{padding:22px;min-height:280px}}
   </style>
 </head>
 <body class="world-nasdara nasdara-page">
@@ -48,20 +70,233 @@
 <main class="wrap">
   <section class="project-hero">
     <div class="page-context"><a class="back" href="../">← Nasdara Hub</a><div class="world-tag">WORLD // NASDARA</div></div>
-    <div class="kicker">Survivor Field Guide</div>
-    <h1>Guides</h1>
+    <div class="kicker">SURVIVOR FIELD GUIDE</div>
+    <h1>Survive<br>the Frontier</h1>
+    <p>Out here, knowledge is worth more than ammunition.</p>
+    <p>The frontier rewards those who prepare, adapt, and understand the dangers waiting beyond the settlements.</p>
+    <p>From mastering survival systems to navigating armed encounters, unlocking valuable supplies, and building a profitable operation, these field guides contain the knowledge every Nasdara survivor needs.</p>
+    <p>Learn the systems. Know the risks. Make every journey count.</p>
   </section>
-  <section class="project-grid" aria-label="Section status">
-    <article class="project-card">
-      <div class="project-label">Beyond the Ashes</div>
-      <h2>IN PREPARATION</h2>
-      <p>Nasdara's guides section is being prepared. Check back for updates.</p>
-      <div class="project-links"><a class="button secondary" href="../">Return to Nasdara →</a></div>
-    </article>
+  <section class="guide-directory" aria-label="Nasdara field guides">
+    <div class="guide-tools">
+      <div class="guide-tools-top"><div class="guide-search">
+        <label for="guide-search">Search guides</label>
+        <div class="guide-search-row"><input id="guide-search" type="search" placeholder="Search by title, category, or description" autocomplete="off"><button class="button guide-clear" id="guide-search-clear" type="button" hidden>Clear search</button></div>
+      </div></div>
+      <nav class="guide-jumps" aria-label="Guide sections">
+        <a class="guide-jump" href="#getting-started">Getting Started &amp; Server Tools</a>
+        <a class="guide-jump" href="#survival-progression">Survival &amp; Progression</a>
+        <a class="guide-jump" href="#vehicles-travel">Vehicles &amp; Travel</a>
+        <a class="guide-jump" href="#building-production">Building &amp; Production</a>
+        <a class="guide-jump" href="#exploration-rewards">Exploration &amp; Rewards</a>
+      </nav>
+      <p class="guide-search-status" id="guide-search-status" aria-live="polite">Showing all guides.</p>
+      <p class="guide-notice">All 20 field guides are in preparation. Detailed instructions will appear as each guide is verified for Nasdara.</p>
+    </div>
+    <section class="guide-section" id="getting-started" aria-labelledby="getting-started-title">
+      <h2 class="guide-section-title" id="getting-started-title">Getting Started &amp; Server Tools</h2>
+      <div class="guide-grid">
+        <article class="guide-card">
+          <div class="project-label">Getting Started &amp; Server Tools</div>
+          <h3>Getting Started in Nasdara</h3>
+          <p>Prepare for the first journey beyond the settlements. A starting point for finding your footing, gathering the essentials, and learning where to turn for help.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Getting Started &amp; Server Tools</div>
+          <h3>Updating Your Mods</h3>
+          <p>Keep the road into Nasdara open. Launcher preparation and mod-update guidance will help survivors get ready before their next visit.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Getting Started &amp; Server Tools</div>
+          <h3>Inventory Search</h3>
+          <p>A well-stocked shelter is only useful when its supplies can be found. This guide will cover the inventory search tools available to Nasdara survivors.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Getting Started &amp; Server Tools</div>
+          <h3>Server Tools &amp; Commands</h3>
+          <p>Know which tools belong in your field kit. A reference for verified server utilities, available commands, and where to find community support.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+      </div>
+    </section>
+    <section class="guide-section" id="survival-progression" aria-labelledby="survival-progression-title">
+      <h2 class="guide-section-title" id="survival-progression-title">Survival &amp; Progression</h2>
+      <div class="guide-grid">
+        <article class="guide-card">
+          <div class="project-label">Survival &amp; Progression</div>
+          <h3>Terje Skills &amp; Character Progression</h3>
+          <p>Survival is a long apprenticeship. Explore character progression and the skills relevant to life on the frontier as Nasdara’s guidance is prepared.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Survival &amp; Progression</div>
+          <h3>Survival Essentials</h3>
+          <p>Food, water, shelter, and preparation shape every journey. Build a stronger foundation for the everyday decisions that keep a survivor going.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Survival &amp; Progression</div>
+          <h3>Item Rarity &amp; Equipment</h3>
+          <p>Every piece of equipment deserves a closer look. A field reference to rarity, useful distinctions, and understanding what belongs in your pack.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Survival &amp; Progression</div>
+          <h3>Collectables &amp; Rewards</h3>
+          <p>Some finds deserve more than a passing glance. Discover Nasdara’s collecting opportunities as verified collection and reward details become available.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+      </div>
+    </section>
+    <section class="guide-section" id="vehicles-travel" aria-labelledby="vehicles-travel-title">
+      <h2 class="guide-section-title" id="vehicles-travel-title">Vehicles &amp; Travel</h2>
+      <div class="guide-grid">
+        <article class="guide-card">
+          <div class="project-label">Vehicles &amp; Travel</div>
+          <h3>Vehicles &amp; Ownership</h3>
+          <p>A dependable vehicle can bring distant settlements within reach. Ownership and vehicle-care guidance will help survivors prepare for the road ahead.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Vehicles &amp; Travel</div>
+          <h3>Vehicle Recovery</h3>
+          <p>A journey can go wrong far from shelter. Learn about the recovery options available in Nasdara once their use has been verified.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Vehicles &amp; Travel</div>
+          <h3>Fuel Management &amp; Siphoning</h3>
+          <p>An empty tank can turn a short trip into a long walk. A forthcoming reference for fuel planning and the fuel-handling tools available on the frontier.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Vehicles &amp; Travel</div>
+          <h3>Navigation &amp; Exploration</h3>
+          <p>Know what lies between departure and home. Prepare routes, think through supplies, and approach unfamiliar ground with a plan.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+      </div>
+    </section>
+    <section class="guide-section" id="building-production" aria-labelledby="building-production-title">
+      <h2 class="guide-section-title" id="building-production-title">Building &amp; Production</h2>
+      <div class="guide-grid">
+        <article class="guide-card">
+          <div class="project-label">Building &amp; Production</div>
+          <h3>BVB Base Building</h3>
+          <p>A reclaimed building is only the beginning. A guide to Nasdara’s BVB construction systems, with practical details to follow after verification.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Building &amp; Production</div>
+          <h3>Building Fortifications</h3>
+          <p>A place worth returning to deserves careful preparation. Explore fortification options as Nasdara’s building guidance takes shape.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Building &amp; Production</div>
+          <h3>Crafting &amp; Production</h3>
+          <p>Salvage gains new purpose at the workbench. A reference for verified crafting systems, production tools, and the supplies that support them.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Building &amp; Production</div>
+          <h3>Drug Running Operations</h3>
+          <p>Underground commerce carries its own uncertainties. A guide to Nasdara’s drug-running systems will follow once production and trade details are verified.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+      </div>
+    </section>
+    <section class="guide-section" id="exploration-rewards" aria-labelledby="exploration-rewards-title">
+      <h2 class="guide-section-title" id="exploration-rewards-title">Exploration &amp; Rewards</h2>
+      <div class="guide-grid">
+        <article class="guide-card">
+          <div class="project-label">Exploration &amp; Rewards</div>
+          <h3>AI Encounters &amp; Patrols</h3>
+          <p>Armed encounters demand attention beyond the next stretch of road. Prepare to understand Nasdara’s AI systems without assuming who is watching or why.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Exploration &amp; Rewards</div>
+          <h3>Hacked Crates</h3>
+          <p>Forgotten supply caches draw curious survivors beyond familiar routes. Verified guidance for Nasdara’s secured crates will be added here.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Exploration &amp; Rewards</div>
+          <h3>Black Market Opportunities</h3>
+          <p>Some business travels beyond the open markets of the Exchange. Explore underground trading opportunities as Nasdara-specific details are confirmed.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+        <article class="guide-card">
+          <div class="project-label">Exploration &amp; Rewards</div>
+          <h3>Special Encounters &amp; Events</h3>
+          <p>The frontier’s stories keep growing. A place for verified encounter guidance and community event information as each activity is documented.</p>
+          <div class="project-links"><span class="guide-preparation">IN PREPARATION</span></div>
+        </article>
+      </div>
+    </section>
+    <p class="guide-empty" id="guide-empty" hidden>No guides match that search. Try another term or <button class="button guide-clear-empty" type="button">clear the search</button>.</p>
   </section>
 </main>
 <footer><div class="wrap">Beneath the Ashes • Nasdara • <a href="https://discord.gg/NpwumFFzFy" target="_blank" rel="noopener noreferrer">Join Discord</a></div></footer>
 <script src="https://beneaththeashesdayz.github.io/site.js?v=embers-js-1"></script>
 <script src="../dust.js?v=nasdara-dust-4"></script>
+<script>
+(function(){
+  const input = document.getElementById("guide-search");
+  const clearButton = document.getElementById("guide-search-clear");
+  const emptyMessage = document.getElementById("guide-empty");
+  const status = document.getElementById("guide-search-status");
+  const sections = Array.from(document.querySelectorAll(".guide-section"));
+  const cards = sections.flatMap(section => Array.from(section.querySelectorAll(".guide-card")));
+  const clearButtons = [clearButton, document.querySelector(".guide-clear-empty")].filter(Boolean);
+
+  function filterGuideCards(){
+    const query = input.value.trim().toLowerCase();
+    let matches = 0;
+    sections.forEach(section => {
+      let sectionMatches = 0;
+      section.querySelectorAll(".guide-card").forEach(card => {
+        const searchableText = [
+          card.querySelector(".project-label")?.textContent || "",
+          card.querySelector("h3")?.textContent || "",
+          card.querySelector("p")?.textContent || ""
+        ].join(" ").toLowerCase();
+        const visible = !query || searchableText.includes(query);
+        card.hidden = !visible;
+        if (visible) sectionMatches += 1;
+      });
+      section.hidden = sectionMatches === 0;
+      matches += sectionMatches;
+    });
+    clearButton.hidden = !query;
+    emptyMessage.hidden = matches !== 0;
+    if (!query) {
+      status.textContent = "Showing all guides.";
+    } else if (matches === 0) {
+      status.textContent = "No matching guides.";
+    } else {
+      status.textContent = "Showing " + matches + " matching guide" + (matches === 1 ? "." : "s.");
+    }
+  }
+
+  // A category jump always reveals its destination, even during a search.
+  document.querySelectorAll(".guide-jump").forEach(link => link.addEventListener("click", function(){
+    input.value = "";
+    filterGuideCards();
+  }));
+  input.addEventListener("input", filterGuideCards);
+  clearButtons.forEach(button => button.addEventListener("click", function(){
+    input.value = "";
+    filterGuideCards();
+    input.focus();
+  }));
+  filterGuideCards();
+})();
+
+</script>
 </body>
 </html>
