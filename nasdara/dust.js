@@ -37,6 +37,7 @@
           border-radius: 999px;
           background: var(--tone);
           opacity: var(--opacity);
+          box-shadow: 0 0 4px rgba(225, 188, 120, .28);
           animation: nasdara-sand-drift var(--duration) linear var(--delay) infinite;
           will-change: transform, opacity;
         }
@@ -79,7 +80,7 @@
 
     const compact = window.matchMedia('(max-width: 760px)').matches;
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const grainCount = compact ? 14 : 28;
+    const grainCount = compact ? 20 : 44;
     const tones = ['#C69A52', '#E1BC78', '#87633D'];
 
     for (let i = 0; i < grainCount; i += 1) {
@@ -87,10 +88,10 @@
       grain.className = 'nasdara-dust__grain';
       grain.style.setProperty('--start-x', `${Math.random() * 100}%`);
       grain.style.setProperty('--start-y', `${Math.random() * 100}%`);
-      grain.style.setProperty('--size', `${(1 + Math.random() * 2.2).toFixed(1)}px`);
+      grain.style.setProperty('--size', `${(1.2 + Math.random() * 2.8).toFixed(1)}px`);
       grain.style.setProperty('--tone', tones[i % tones.length]);
-      grain.style.setProperty('--opacity', `${(.14 + Math.random() * .24).toFixed(2)}`);
-      grain.style.setProperty('--duration', `${(20 + Math.random() * 22).toFixed(1)}s`);
+      grain.style.setProperty('--opacity', `${(.24 + Math.random() * .28).toFixed(2)}`);
+      grain.style.setProperty('--duration', `${(14 + Math.random() * 18).toFixed(1)}s`);
       grain.style.setProperty('--delay', reducedMotion ? '0s' : `${(-Math.random() * 34).toFixed(1)}s`);
       grain.style.setProperty('--slope', `${((Math.random() - .5) * 18).toFixed(1)}vh`);
       dust.appendChild(grain);
