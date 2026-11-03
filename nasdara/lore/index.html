@@ -4,43 +4,35 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Nasdara Lore | Beneath the Ashes</title>
-  <meta name="description" content="Nasdara lore — in preparation for Beneath the Ashes.">
-  <link rel="stylesheet" href="../../styles.css?v=embers-20260815-1">
+  <meta name="description" content="The Nasdara Archive: an original frontier chronicle of survival, the Exchange, the Directorate, and the Last Signal.">
+  <link rel="stylesheet" href="../../styles.css?v=connection-hover-2">
   <style>
-    .nasdara-page{--nasdara-accent:#C69A52;--nasdara-hover:#E1BC78;--nasdara-bronze:#87633D;--nasdara-deep:#1d1812}
-    .nasdara-page .back{color:var(--nasdara-hover)}
-    .nasdara-page .kicker,.nasdara-page .project-label{color:var(--nasdara-accent)}
-    .nasdara-page .world-tag{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
-    .nasdara-page .server-info{border-color:var(--nasdara-bronze);background:linear-gradient(120deg,#1b1815,#141515)}
-    .nasdara-page .server-info h2{color:#f0ece5}
-    .nasdara-page .server-info p{max-width:620px}
-    .nasdara-page .server-endpoint span{border-color:var(--nasdara-bronze);background:#111416;color:#d8c4ad}
-    .nasdara-page .server-info .copy-server{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
-    .nasdara-page .server-info .copy-server:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
-    .nasdara-page .project-grid{padding-top:0}
-    .nasdara-page .project-card{border-color:rgba(135,99,61,.78);background:linear-gradient(150deg,#1b1815,#101112)}
-    .nasdara-page .project-card:after{background:radial-gradient(circle,rgba(198,154,82,.13),transparent 65%)}
-    .nasdara-page .project-card h2{color:#f0ece5}
-    .nasdara-page .project-card .button{border-color:var(--nasdara-bronze);background:#1d1812;color:var(--nasdara-hover)}
-    .nasdara-page .project-card .button:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
-    .nasdara-page .nasdara-status{border-color:var(--nasdara-bronze);background:#1d1812;color:var(--nasdara-hover);cursor:default}
-    .nasdara-page .nasdara-status:before{content:"";display:inline-block;width:7px;height:7px;margin-right:8px;border-radius:50%;background:var(--nasdara-accent);vertical-align:middle}
-    .nasdara-page .nasdara-community{margin:0 0 76px}
-    .nasdara-page .nasdara-community h2{margin:6px 0;font-size:1.45rem;text-transform:uppercase}
-    .nasdara-page .nasdara-community p{margin:0;color:var(--muted);line-height:1.6}
-    .nasdara-page .nasdara-community .button{border-color:var(--nasdara-bronze);background:#1d1812;color:var(--nasdara-hover)}
-    .nasdara-page .nasdara-community .button:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
-    .nasdara-page .launcher-select{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
-    .nasdara-page .launcher-select:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important}
-    .nasdara-page .launcher-select:focus{outline-color:var(--nasdara-hover)}
-    @media(min-width:761px) and (max-width:1100px){
-      .nasdara-page .server-info[data-server-ip]{grid-template-columns:1fr auto auto}
-      .nasdara-page .server-info[data-server-ip]>div:first-child{grid-column:1/-1}
-    }
+
+    .lore-story{max-width:930px;margin-top:28px;padding:38px 48px 42px}
+    .lore-story:after,.lore-explore:after{content:none}
+    .lore-story p{font-size:1.03rem;line-height:1.78}
+    .lore-story .story-chapter{margin-top:34px;padding-top:28px;border-top:1px solid rgba(103,79,61,.55);font-size:1.02rem;letter-spacing:.08em;text-transform:uppercase}
+    .lore-explore{max-width:930px;margin-top:22px;padding:24px 28px 28px}
+    .lore-explore p{margin-bottom:16px}
+    .lore-explore .section-nav{margin-top:16px}
     @media(max-width:760px){
-      .nasdara-page .server-endpoint span{white-space:normal;overflow-wrap:anywhere}
-      .nasdara-page .nasdara-community{margin-bottom:54px}
+      .lore-story{padding:26px 22px 28px 26px}
+      .lore-story p{font-size:1rem;line-height:1.76}
+      .lore-story .story-chapter{margin-top:28px;padding-top:22px}
+      .lore-explore{padding:22px 18px 24px 22px}
+      .lore-explore .section-nav{gap:8px}
+      .lore-explore .section-nav a{width:100%;text-align:left}
     }
+      .nasdara-page{--nasdara-accent:#C69A52;--nasdara-hover:#E1BC78;--nasdara-bronze:#87633D;--nasdara-deep:#1d1812}
+    .nasdara-page .back{color:var(--nasdara-hover)}
+    .nasdara-page .kicker{color:var(--nasdara-accent)}
+    .nasdara-page .world-tag{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
+    .nasdara-page .lore-story{background:linear-gradient(135deg,rgba(198,154,82,.075),rgba(20,23,25,.96) 34%)}
+    .nasdara-page .lore-story:before{background:linear-gradient(180deg,var(--nasdara-accent),var(--nasdara-bronze))}
+    .nasdara-page .lore-story h2,.nasdara-page .lore-story h3{color:var(--nasdara-hover)}
+    .nasdara-page .lore-story .story-chapter{border-top-color:rgba(135,99,61,.55)}
+    .lore-story .story-chapter{margin-bottom:20px;font-size:1.02rem;line-height:1.4}
+    .nasdara-page .section-nav a:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
   </style>
 </head>
 <body class="world-nasdara nasdara-page">
@@ -48,17 +40,59 @@
 <main class="wrap">
   <section class="project-hero">
     <div class="page-context"><a class="back" href="../">← Nasdara Hub</a><div class="world-tag">WORLD // NASDARA</div></div>
-    <div class="kicker">World Archive</div>
-    <h1>Lore</h1>
+    <div class="kicker">THE NASDARA ARCHIVE</div>
+    <h1>The Story<br>of Nasdara</h1>
+    <p>A fictional chronicle of the frontier.</p>
   </section>
-  <section class="project-grid" aria-label="Section status">
-    <article class="project-card">
-      <div class="project-label">Beyond the Ashes</div>
-      <h2>IN PREPARATION</h2>
-      <p>Nasdara's lore section is being prepared. Check back for updates.</p>
-      <div class="project-links"><a class="button secondary" href="../">Return to Nasdara →</a></div>
-    </article>
-  </section>
+  <article class="lore lore-story" aria-label="The Nasdara Archive">
+    <h3>Civilization fell. The frontier survived.</h3>
+
+    <h2 class="story-chapter">Chapter 1 — The Frontier Endures</h2>
+    <p>The first emergency broadcasts told people to remain indoors. The next told them to leave. By the time the instructions stopped contradicting one another, the roads were crowded with vehicles that had nowhere left to go. Families waited beside packed cars. Soldiers checked lists that changed between transmissions. Somewhere ahead, an evacuation was still supposed to be happening.</p>
+    <p>The infected moved through Nasdara faster than reliable news. A settlement could hear that a road was safe and find it abandoned by morning, its checkpoint empty and its barriers still lowered. Fuel deliveries failed. Telephone lines fell silent. The last officials to answer the radios promised reinforcements until their batteries, or their courage, gave out. Organized civilization disappeared in pieces, leaving people to guess which piece would be the last to fail.</p>
+    <p>Those who survived learned to keep their movements small. They sheltered behind locked doors, carried water in whatever held it, and waited for the sounds outside to pass. When they finally ventured farther, they found a country full of unfinished departures: meals left on tables, doors standing open, luggage beside vehicles whose owners had never returned.</p>
+    <p>In time, a few of those doors closed again. Someone patched a roof. Someone coaxed an engine back to life and made a second journey for the people left behind. Abandoned buildings became homes, then neighbors. Supplies were gathered for more than the next night. Across the frontier, survivors began making plans that assumed they would still be alive to finish them.</p>
+
+    <h2 class="story-chapter">Chapter 2 — The Price of Survival</h2>
+    <p>A running vehicle needed fuel. A repaired roof needed tools. A settlement with enough food might still be one broken pump away from thirst. The first exchanges were simple arrangements between people who had something to spare and people who could offer something useful in return. As journeys became more frequent, those arrangements began to outlive the strangers who made them.</p>
+    <p>Merchants kept shelves stocked from salvage and carried supplies between communities. Brokers remembered who needed parts and who had found them. Suppliers gathered goods in quantities a lone traveler could never carry. Survivors came to call this loose network <strong>The Exchange</strong>. It had no single office, no common uniform, and no authority that reached farther than the willingness of its members to deal.</p>
+    <p>The open markets offered a measure of predictability. A buyer could inspect a tool, argue over a price, and leave knowing where to return. Other business followed less visible routes. The Black Market drew those looking for weapons, valuable equipment, contraband, and merchandise whose previous ownership was best left unexplained. Information traveled with the goods, though its accuracy was rarely included in the price.</p>
+    <p>Drug-running grew among those quieter enterprises. Scarcity created customers, and customers created reasons to risk another journey. Some survivors used the proceeds to keep a household supplied; others built their lives around the trade. Legitimate merchants and underground brokers sometimes depended on the same roads and the same battered vehicles. Whatever passed between them, nobody could afford to forget how easily a supply route could disappear.</p>
+
+    <h2 class="story-chapter">Chapter 3 — The Convoys That Never Came Home</h2>
+    <p>Long before the roads fell empty, heavy vehicles had crossed Nasdara under armed escort. Residents remembered being held at temporary barriers while the convoys passed. Drivers remembered instructions to take another road. The cargo traveled under covers or inside sealed containers, accompanied by paperwork that ordinary checkpoint staff were permitted to inspect only briefly.</p>
+    <p>Most people had assumed the shipments belonged to the emergency response. Years later, scavengers found traces of them in places no evacuation had reached. A damaged truck could still hold its load. A supply cache could remain secured while everything around it weathered and decayed. Some containers bore inventory markings that survived more clearly than the names on the buildings nearby.</p>
+    <p>Where survivors managed to reach the contents, useful equipment sometimes emerged from the uncertainty. Supplies returned to circulation without an explanation for why they had been withheld, abandoned, or forgotten. A merchant might recognize an item and still know nothing about the shipment that carried it. The broken convoys offered evidence of a vast effort interrupted mid-journey, but little agreement about where that effort had been meant to end.</p>
+
+    <h2 class="story-chapter">Chapter 4 — The Directorate</h2>
+    <p>One name appeared often enough in recovered records to survive the collapse: <strong>The Directorate</strong>. Before the outbreak, it had been an emergency coordination and security organization responsible for protecting infrastructure, managing reserve supplies, and planning how the region would continue functioning through a major crisis. Its work lived in maintenance schedules, restricted access lists, and instructions that most civilians had never needed to read.</p>
+    <p>As the emergency deepened, its public explanations became shorter. Deliveries were reassigned. Facilities that had once answered ordinary inquiries began referring callers elsewhere. Convoys moved under new restrictions, and the records that remained grew less informative about what they carried. Some documents still described relief work. Others gave quantities and authorization references without naming a destination.</p>
+    <p>Then the Directorate disappeared from public view. No surviving announcement explained whether it had dissolved, withdrawn, or simply stopped reporting to anyone outside itself. Later evidence complicated every answer: stores that appeared to have been emptied after the evacuations, references to maintenance carried out after public services ceased, and supplies that seemed to have moved through an organization no one could find. None of it revealed how much had continued, or who had benefited from its survival.</p>
+    <p>Some believed it had preserved what it could while the region fell apart. Others believed that preserving the region had ceased to be its purpose. The surviving records were too incomplete to settle the argument, and the people who might have explained them were absent from every account.</p>
+
+    <h2 class="story-chapter">Chapter 5 — The Ones Still Watching</h2>
+    <p>The armed people encountered beyond the settlements were not all alike. Some carried mismatched equipment and moved with the caution of anyone trying to survive. Others kept their spacing, watched their flanks, and changed direction with a coordination that made travelers stop talking. Their weapons were maintained. Their attention seemed fixed on something beyond the nearest opportunity for loot.</p>
+    <p>Reports of these encounters spread through the markets. One survivor remembered a gesture passed between patrol members; another described equipment similar to something recovered from an old shipment. Each resemblance became part of a theory. Directorate personnel, hired security, deserters, or a force assembled from several broken organizations—all were offered as explanations, often by people who had seen the same patrol from very different distances.</p>
+    <p>No common insignia or single account tied every armed group to the same command. Equipment could change hands, and trained people could serve new employers. Whatever their loyalties, the organized patrols made one thing difficult to dismiss: someone still had the discipline, resources, or conviction to keep armed personnel moving through Nasdara. Travelers learned to notice them without assuming they understood the orders behind their movements.</p>
+
+    <h2 class="story-chapter">Chapter 6 — The Last Signal</h2>
+    <p>Among the stories carried between survivors, one concerned a voice on an abandoned emergency frequency. The accounts differed about when it had been heard and how much static surrounded it. They agreed on a sequence of numbers, spoken without explanation, followed by a sentence delivered in the measured tone of an official announcement: <strong>“Continuity remains in effect.”</strong></p>
+    <p>They called it <strong>the Last Signal</strong>. Some dismissed it as an old recording still cycling through a forgotten transmitter. Others believed it came from a Directorate facility whose automated systems had outlived everyone inside. A working power supply and an unattended recording could explain a great deal. Neither explained why, in some versions of the story, the numbers were different.</p>
+    <p>Those who thought someone was still issuing orders heard something more troubling in the message. Continuity required something to continue, and perhaps someone to receive instructions. Yet no account supplied a traceable origin, a dependable schedule, or an answer from the other end. The story passed from radio operators to travelers and from travelers to merchants, gathering certainty in the retelling while its source remained unknown.</p>
+
+    <h2 class="story-chapter">Chapter 7 — A World Worth Reclaiming</h2>
+    <p>Most mornings in Nasdara began with more immediate concerns. Water had to be carried. A vehicle needed another repair before it could bring supplies home. A wall left unfinished yesterday was still unfinished today, and someone had to decide whether the daylight was better spent building it or searching for the materials it lacked.</p>
+    <p>Communities grew around that work. Merchants reopened routes because people at the far end needed what they carried. Scavengers explored buildings for things whose value was measured in meals, repairs, and nights under a sound roof. An unfamiliar vehicle arriving with supplies could turn a difficult week into a manageable one. A spare part, passed to the right person, could keep an entire journey from being wasted.</p>
+    <p>Homes acquired the signs of people expecting to stay: a place set aside for tools, provisions stored against leaner days, room cleared for someone returning late. The frontier still demanded caution, but it also rewarded attention to ordinary things. Survivors could remember the old world without spending every day waiting for it to return. The lives taking shape around them were already worth protecting.</p>
+
+    <h2 class="story-chapter">Chapter 8 — Beyond the Ashes</h2>
+    <p>By evening, the markets began counting what had arrived and what was still missing. Beyond them, engines carried travelers toward shelter or another uncertain deal. A convoy's abandoned cargo might become tomorrow's supplies. An armed patrol might cross the road long after the last merchant had gone home. Each journey passed through a landscape where the unfinished business of the old world lay beside the beginnings of a new one.</p>
+    <p>The Directorate remained a name in damaged records and uneasy conversations. The Last Signal remained a story without an origin. Neither answered the questions survivors asked when they looked beyond the safety of their settlements. But there were other sounds in Nasdara now: a vehicle starting after days of repair, tools at work inside a reclaimed building, voices agreeing on the next delivery.</p>
+    <p>Whatever still operated beyond those lights, the people beneath them had work of their own to finish. They would bargain, build, scavenge, and carry what they could back along the roads. The frontier offered no promise that their efforts would endure. They returned to them anyway.</p>
+    <p class="lore-closing"><strong>The world ended. The frontier survived.</strong></p>
+    <p class="lore-closing"><strong>Welcome to Beneath the Ashes: Nasdara.</strong></p>
+  </article>
+  <nav class="section-nav" aria-label="Archive navigation"><a href="../">← Return to Nasdara</a></nav>
 </main>
 <footer><div class="wrap">Beneath the Ashes • Nasdara • <a href="https://discord.gg/NpwumFFzFy" target="_blank" rel="noopener noreferrer">Join Discord</a></div></footer>
 <script src="https://beneaththeashesdayz.github.io/site.js?v=embers-js-1"></script>
