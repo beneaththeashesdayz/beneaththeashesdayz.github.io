@@ -3,62 +3,174 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Nasdara Server Rules | Beneath the Ashes</title>
-  <meta name="description" content="Nasdara server rules — in preparation for Beneath the Ashes.">
-  <link rel="stylesheet" href="../../styles.css?v=embers-20260815-1">
+  <title>The Laws of Nasdara | Beneath the Ashes</title>
+  <meta name="description" content="Official BTA Nasdara server rules and community guidelines. A 100% PvE server: no PvP, raiding, theft, or deliberate damage to players or their property.">
+  <link rel="stylesheet" href="../../styles.css?v=header-3">
   <style>
     .nasdara-page{--nasdara-accent:#C69A52;--nasdara-hover:#E1BC78;--nasdara-bronze:#87633D;--nasdara-deep:#1d1812}
     .nasdara-page .back{color:var(--nasdara-hover)}
     .nasdara-page .kicker,.nasdara-page .project-label{color:var(--nasdara-accent)}
     .nasdara-page .world-tag{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
-    .nasdara-page .server-info{border-color:var(--nasdara-bronze);background:linear-gradient(120deg,#1b1815,#141515)}
-    .nasdara-page .server-info h2{color:#f0ece5}
-    .nasdara-page .server-info p{max-width:620px}
-    .nasdara-page .server-endpoint span{border-color:var(--nasdara-bronze);background:#111416;color:#d8c4ad}
-    .nasdara-page .server-info .copy-server{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
-    .nasdara-page .server-info .copy-server:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
-    .nasdara-page .project-grid{padding-top:0}
-    .nasdara-page .project-card{border-color:rgba(135,99,61,.78);background:linear-gradient(150deg,#1b1815,#101112)}
-    .nasdara-page .project-card:after{background:radial-gradient(circle,rgba(198,154,82,.13),transparent 65%)}
-    .nasdara-page .project-card h2{color:#f0ece5}
-    .nasdara-page .project-card .button{border-color:var(--nasdara-bronze);background:#1d1812;color:var(--nasdara-hover)}
-    .nasdara-page .project-card .button:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
-    .nasdara-page .nasdara-status{border-color:var(--nasdara-bronze);background:#1d1812;color:var(--nasdara-hover);cursor:default}
-    .nasdara-page .nasdara-status:before{content:"";display:inline-block;width:7px;height:7px;margin-right:8px;border-radius:50%;background:var(--nasdara-accent);vertical-align:middle}
-    .nasdara-page .nasdara-community{margin:0 0 76px}
-    .nasdara-page .nasdara-community h2{margin:6px 0;font-size:1.45rem;text-transform:uppercase}
-    .nasdara-page .nasdara-community p{margin:0;color:var(--muted);line-height:1.6}
-    .nasdara-page .nasdara-community .button{border-color:var(--nasdara-bronze);background:#1d1812;color:var(--nasdara-hover)}
-    .nasdara-page .nasdara-community .button:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
-    .nasdara-page .launcher-select{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
-    .nasdara-page .launcher-select:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important}
-    .nasdara-page .launcher-select:focus{outline-color:var(--nasdara-hover)}
-    @media(min-width:761px) and (max-width:1100px){
-      .nasdara-page .server-info[data-server-ip]{grid-template-columns:1fr auto auto}
-      .nasdara-page .server-info[data-server-ip]>div:first-child{grid-column:1/-1}
-    }
-    @media(max-width:760px){
-      .nasdara-page .server-endpoint span{white-space:normal;overflow-wrap:anywhere}
-      .nasdara-page .nasdara-community{margin-bottom:54px}
-    }
+    .nasdara-page .project-hero h1{font-size:clamp(3rem,8vw,6.5rem)}
+    .rules-subtitle{font-size:clamp(1.05rem,2vw,1.35rem);color:var(--nasdara-hover);font-weight:700;line-height:1.5;margin:0 0 18px}
+    .rules-policy,.rules-toc,.rules-section{border:1px solid var(--nasdara-bronze);background:linear-gradient(145deg,#1b1815,#101112);padding:28px;margin:0 0 24px;line-height:1.75}
+    .rules-policy{border-left:4px solid var(--nasdara-accent);background:linear-gradient(110deg,rgba(135,99,61,.25),#141515)}
+    .rules-policy h2{font-size:clamp(1.4rem,3vw,2rem);line-height:1.25;text-transform:uppercase;margin:8px 0 14px;color:var(--nasdara-hover)}
+    .rules-policy p{max-width:900px;margin:0}
+    .rules-policy .rules-policy-note{font-size:.9rem;color:var(--muted);margin-top:12px}
+    .rules-toc h2{font-size:1.1rem;text-transform:uppercase;letter-spacing:.1em;margin:0 0 16px;color:var(--nasdara-hover)}
+    .rules-toc ol{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 28px;padding-left:24px;margin:0}
+    .rules-toc li{padding-left:4px;min-width:0}
+    .rules-toc a{display:block;padding:6px 0;color:#f0ece5;text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+    .rules-section,#rules-contents{scroll-margin-top:86px}
+    .rules-section h2{display:flex;align-items:baseline;gap:12px;margin:0 0 20px;font-size:clamp(1.3rem,2.5vw,1.8rem);line-height:1.3;color:var(--nasdara-hover)}
+    .rule-number{color:var(--nasdara-accent);font-size:.8em;flex:none;font-weight:800}
+    .rules-section li+li{margin-top:9px}
+    .rules-section p{color:var(--muted);margin:0 0 16px}
+    .rules-section .rule-warning{border-left:3px solid #b77d4a;background:rgba(135,99,61,.13);padding:18px 20px;color:#f0ece5;margin:22px 0 0}
+    .support-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px;margin-bottom:24px}
+    .support-columns h3,.replacement-policy h3{color:var(--nasdara-hover);line-height:1.5}
+    .replacement-policy{border-top:1px solid var(--nasdara-bronze);padding-top:24px}
+    .replacement-policy p{color:#f0ece5}
+    .penalty-steps{list-style:none;counter-reset:penalty;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:0!important;margin:0}
+    .penalty-steps li{border:1px solid var(--nasdara-bronze);padding:18px;background:var(--nasdara-deep);margin:0!important}
+    .penalty-steps span{display:block;color:var(--muted);font-size:.85rem}
+    .penalty-steps strong{color:#f0ece5;font-size:1.1rem}
+    .rules-page a:focus-visible{outline:2px solid var(--nasdara-hover);outline-offset:4px}
+    .nasdara-page .section-nav{margin:0 0 52px}
+    .nasdara-page .section-nav a:hover,.rules-toc a:hover{border-color:var(--nasdara-hover)!important;color:var(--nasdara-hover)!important;background:#2a2117!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
+    @media(max-width:760px){.rules-policy,.rules-toc,.rules-section{padding:22px 18px}.rules-toc ol,.support-columns,.penalty-steps{grid-template-columns:1fr}.rules-section h2{gap:10px}.rules-section .rule-warning{padding:16px}.rules-toc ol{gap:4px}.support-columns{gap:22px}}
   </style>
 </head>
-<body class="world-nasdara nasdara-page">
+<body class="world-nasdara nasdara-page rules-page">
 <header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
 <main class="wrap">
   <section class="project-hero">
     <div class="page-context"><a class="back" href="../">← Nasdara Hub</a><div class="world-tag">WORLD // NASDARA</div></div>
-    <div class="kicker">Player Handbook</div>
-    <h1>Server Rules</h1>
+    <div class="kicker">PLAYER HANDBOOK</div>
+    <h1>The Laws<br>of Nasdara</h1>
+    <div class="rules-subtitle">Official Server Rules &amp; Community Guidelines</div>
+    <p>Even where civilization has fallen, order must remain. Nasdara is a place for survivors to explore, build, trade, and endure the dangers of a broken world together. These regulations protect that experience and ensure every survivor has a fair opportunity to thrive.</p>
   </section>
-  <section class="project-grid" aria-label="Section status">
-    <article class="project-card">
-      <div class="project-label">Beyond the Ashes</div>
-      <h2>IN PREPARATION</h2>
-      <p>Nasdara's server rules section is being prepared. Check back for updates.</p>
-      <div class="project-links"><a class="button secondary" href="../">Return to Nasdara →</a></div>
-    </article>
+  <section class="rules-policy" aria-labelledby="primary-policy">
+    <div class="project-label">Primary Server Policy</div>
+    <h2 id="primary-policy">BTA Nasdara is a 100% PvE server.</h2>
+    <p><strong>Player-versus-player combat, raiding, theft, and deliberate damage to other players or their property are strictly prohibited throughout the map.</strong></p>
+    <p class="rules-policy-note">There are no exceptions allowing PvP or raiding. The limited permission to loot eligible grave crosses is explained in Section 2.</p>
   </section>
+  <nav class="rules-toc" aria-labelledby="rules-contents">
+    <h2 id="rules-contents">Rules at a glance</h2>
+    <ol>
+      <li><a href="#general-conduct">General Conduct</a></li>
+      <li><a href="#pve-player-protection">PvE &amp; Player Protection</a></li>
+      <li><a href="#building-territories">Building &amp; Territories</a></li>
+      <li><a href="#vehicles-property">Vehicles &amp; Property</a></li>
+      <li><a href="#safe-zones-trading">Safe Zones &amp; Trading</a></li>
+      <li><a href="#admin-support">Admin Support &amp; Reimbursements</a></li>
+      <li><a href="#enforcement">Enforcement &amp; Penalties</a></li>
+    </ol>
+  </nav>
+  <section class="panel rules-section" id="general-conduct" aria-labelledby="general-conduct-heading">
+    <h2 id="general-conduct-heading"><span class="rule-number">01</span> General Conduct</h2>
+    <ul>
+        <li>Treat players and staff respectfully.</li>
+        <li>Racism, harassment, hate speech, and excessive toxicity are prohibited.</li>
+        <li>Cheating, exploiting, glitch abuse, duplication, and unauthorized third-party software are forbidden.</li>
+        <li>Report discovered exploits to staff. Deliberate exploitation may result in a permanent ban.</li>
+        <li>Use English in global chat unless staff announce otherwise.</li>
+        <li>In-game names must match Discord names to support identification and ticket handling.</li>
+        <li>Staff decisions are final.</li>
+      </ul>
+  </section>
+  <section class="panel rules-section" id="pve-player-protection" aria-labelledby="pve-player-protection-heading">
+    <h2 id="pve-player-protection-heading"><span class="rule-number">02</span> PvE &amp; Player Protection</h2>
+    <ul>
+        <li>Shooting, attacking, intentionally damaging, or killing other players is prohibited.</li>
+        <li>Teamkilling is prohibited.</li>
+        <li>Raiding player bases is prohibited.</li>
+        <li>Stealing from player-owned storage, vehicles, tents, or containers is prohibited.</li>
+        <li>Griefing, harassment, blocking access, and deliberately attracting infected toward other players or their bases are prohibited.</li>
+        <li>Grave crosses may be looted unless they are inside another player&#x27;s territory or an area designated by staff as a Safe Zone. This permission applies only to eligible grave crosses; it does not permit theft from protected storage, vehicles, tents, or containers.</li>
+      </ul>
+    <p class="rule-warning"><strong>No PvP. No raiding. No theft of protected property.</strong> These protections apply throughout the map.</p>
+  </section>
+  <section class="panel rules-section" id="building-territories" aria-labelledby="building-territories-heading">
+    <h2 id="building-territories-heading"><span class="rule-number">03</span> Building &amp; Territories</h2>
+    <ul>
+        <li>One permanent base is permitted per solo player or group.</li>
+        <li>Hidden supply stashes are allowed.</li>
+        <li>A temporary second territory flag is permitted exclusively for relocating an existing base.</li>
+        <li>Remove the original or temporary territory within 48 hours of placing the temporary second flag.</li>
+        <li>Do not block public roads, water sources, essential facilities, or access to important gameplay locations.</li>
+        <li>Do not obstruct traders or prevent other players from using public services.</li>
+        <li>No sky bases or unsupported floating structures.</li>
+        <li>Avoid excessive wall stacking or extremely large structures that negatively affect performance.</li>
+        <li>Staff may require changes to builds that cause server instability.</li>
+        <li>Structures violating building regulations may be removed without reimbursement.</li>
+      </ul>
+  </section>
+  <section class="panel rules-section" id="vehicles-property" aria-labelledby="vehicles-property-heading">
+    <h2 id="vehicles-property-heading"><span class="rule-number">04</span> Vehicles &amp; Property</h2>
+    <ul>
+        <li>All player-owned vehicles are protected throughout the map.</li>
+        <li>Vehicle theft, lockpicking, deliberate damage, unauthorized inventory access, and attempts to bypass ownership are prohibited.</li>
+        <li>Do not obstruct roads or public facilities with parked vehicles.</li>
+        <li>Players are responsible for maintaining spare vehicle keys.</li>
+        <li>Staff are not responsible for lost keys or player mistakes.</li>
+        <li>Loot cycling is prohibited.</li>
+      </ul>
+  </section>
+  <section class="panel rules-section" id="safe-zones-trading" aria-labelledby="safe-zones-trading-heading">
+    <h2 id="safe-zones-trading-heading"><span class="rule-number">05</span> Safe Zones &amp; Trading</h2>
+    <p>These trading protections apply across Nasdara. Safe Zone restrictions apply to any area staff designate as a Safe Zone.</p>
+    <ul>
+        <li>In any area designated by staff as a Safe Zone, theft, trolling, harassment, and trap placement are prohibited.</li>
+        <li>Do not take another player&#x27;s dropped items without permission.</li>
+        <li>Respect player transactions and trading activities.</li>
+        <li>Do not obstruct traders, trading stations, or public interaction points.</li>
+      </ul>
+  </section>
+  <section class="panel rules-section" id="admin-support" aria-labelledby="admin-support-heading">
+    <h2 id="admin-support-heading"><span class="rule-number">06</span> Admin Support &amp; Reimbursements</h2>
+    <div class="support-columns">
+      <div><h3>Staff May Assist With</h3>
+<ul>
+        <li>Confirmed server bugs.</li>
+        <li>Mod-related errors.</li>
+        <li>Players trapped in inaccessible map objects or structures.</li>
+        <li>Investigating rule violations.</li>
+        <li>Resolving server-side technical problems.</li>
+      </ul>
+      </div>
+      <div><h3>Staff Are Not Responsible For</h3>
+<ul>
+        <li>Lost keys.</li>
+        <li>Accidental item drops.</li>
+        <li>Player negligence.</li>
+        <li>Problems players can reasonably resolve using available gameplay tools.</li>
+        <li>Items lost through normal interactions with placed objects.</li>
+        <li>Vehicle recovery when functioning in-game recovery tools are available.</li>
+      </ul>
+      </div>
+    </div>
+    <div class="replacement-policy">
+      <h3>Vehicle Replacement Policy</h3>
+      <p>Vehicles may be replaced or repaired only when a confirmed server crash, mod error, or server-side bug caused the loss.</p>
+      <p><strong>Replacements remain subject to staff verification.</strong> Lost keys and player mistakes do not qualify.</p>
+    </div>
+  </section>
+  <section class="panel rules-section" id="enforcement" aria-labelledby="enforcement-heading">
+    <h2 id="enforcement-heading"><span class="rule-number">07</span> Enforcement &amp; Penalties</h2>
+    <p>The standard disciplinary progression is:</p>
+    <ol class="penalty-steps">
+      <li><span>First Offense</span><strong>Warning</strong></li>
+      <li><span>Second Offense</span><strong>Temporary Ban</strong></li>
+      <li><span>Third Offense</span><strong>Permanent Ban</strong></li>
+    </ol>
+    <p class="rule-warning"><strong>Severe violations, including cheating, duplication, serious harassment, and deliberate exploitation, may result in immediate permanent bans without prior warnings.</strong></p>
+    <p style="margin-top:18px">Staff retain discretion based on the seriousness and circumstances of each violation.</p>
+  </section>
+  <nav class="section-nav" aria-label="Rules navigation"><a href="../">← Return to Nasdara</a><a href="#rules-contents">Back to contents ↑</a></nav>
 </main>
 <footer><div class="wrap">Beneath the Ashes • Nasdara • <a href="https://discord.gg/NpwumFFzFy" target="_blank" rel="noopener noreferrer">Join Discord</a></div></footer>
 <script src="https://beneaththeashesdayz.github.io/site.js?v=embers-js-1"></script>

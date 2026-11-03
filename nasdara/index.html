@@ -33,6 +33,11 @@
     .nasdara-page .launcher-select{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
     .nasdara-page .launcher-select:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important}
     .nasdara-page .launcher-select:focus{outline-color:var(--nasdara-hover)}
+    .nasdara-page .nasdara-nav{margin:26px 0 0}
+    .nasdara-page .nasdara-nav a{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
+    .nasdara-page .nasdara-nav .nav-rules{background:var(--nasdara-hover);border-color:var(--nasdara-hover);color:#1d1812}
+    .nasdara-page .nasdara-nav a:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
+    .nasdara-page .nasdara-nav a:focus-visible{outline:2px solid var(--nasdara-hover);outline-offset:4px}
     @media(min-width:761px) and (max-width:1100px){
       .nasdara-page .server-info[data-server-ip]{grid-template-columns:1fr auto auto}
       .nasdara-page .server-info[data-server-ip]>div:first-child{grid-column:1/-1}
@@ -55,6 +60,10 @@
     <p>Beyond the abandoned roads and forgotten settlements lies a frontier shaped by desperate survivors, underground trade, organized threats, and secrets buried long before the world fell apart.</p>
     <p>The markets are open. The armed patrols are watching. And somewhere beyond the safety of civilization, something is still operating.</p>
     <p>Welcome to Nasdara. Your story begins here.</p>
+    <nav class="section-nav nasdara-nav" aria-label="Nasdara sections">
+      <a class="nav-rules" href="rules/">Official Server Rules →</a>
+      <a href="traders/">Traders</a><a href="lore/">Lore</a><a href="guides/">Guides</a><a href="modpack/">Modpack</a><a href="events/">Events</a>
+    </nav>
   </section>
 
   <section class="server-info" data-server-ip="64.20.36.155" data-server-port="2302">
