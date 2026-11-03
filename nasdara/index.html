@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Nasdara | Beneath the Ashes</title>
-  <meta name="description" content="Nasdara, a separate Beneath the Ashes PvE world featuring AI, hacked crates and drug-running systems.">
+  <meta name="description" content="Beyond the Ashes: the Beneath the Ashes Nasdara PvE survival world, trader network and survivor resources.">
   <link rel="stylesheet" href="../styles.css?v=embers-20260815-1">
   <style>
     .nasdara-page{--nasdara-accent:#C69A52;--nasdara-hover:#E1BC78;--nasdara-bronze:#87633D;--nasdara-deep:#1d1812}
@@ -17,8 +17,6 @@
     .nasdara-page .server-endpoint span{border-color:var(--nasdara-bronze);background:#111416;color:#d8c4ad}
     .nasdara-page .server-info .copy-server{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
     .nasdara-page .server-info .copy-server:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
-    .nasdara-page .nasdara-intro{max-width:860px;margin:0 0 28px;padding:20px 24px;border:1px solid var(--nasdara-bronze);border-left:3px solid var(--nasdara-accent);background:linear-gradient(110deg,rgba(135,99,61,.18),rgba(20,23,25,.96));color:#d8c4ad;line-height:1.7}
-    .nasdara-page .nasdara-intro strong{color:#f0ece5}
     .nasdara-page .project-grid{padding-top:0}
     .nasdara-page .project-card{border-color:rgba(135,99,61,.78);background:linear-gradient(150deg,#1b1815,#101112)}
     .nasdara-page .project-card:after{background:radial-gradient(circle,rgba(198,154,82,.13),transparent 65%)}
@@ -32,8 +30,14 @@
     .nasdara-page .nasdara-community p{margin:0;color:var(--muted);line-height:1.6}
     .nasdara-page .nasdara-community .button{border-color:var(--nasdara-bronze);background:#1d1812;color:var(--nasdara-hover)}
     .nasdara-page .nasdara-community .button:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
+    .nasdara-page .launcher-select{border-color:var(--nasdara-bronze);background:var(--nasdara-deep);color:var(--nasdara-hover)}
+    .nasdara-page .launcher-select:hover{border-color:var(--nasdara-hover)!important;background:#2a2117!important;color:var(--nasdara-hover)!important}
+    .nasdara-page .launcher-select:focus{outline-color:var(--nasdara-hover)}
+    @media(min-width:761px) and (max-width:1100px){
+      .nasdara-page .server-info[data-server-ip]{grid-template-columns:1fr auto auto}
+      .nasdara-page .server-info[data-server-ip]>div:first-child{grid-column:1/-1}
+    }
     @media(max-width:760px){
-      .nasdara-page .nasdara-intro{padding:16px 18px;margin-bottom:22px}
       .nasdara-page .server-endpoint span{white-space:normal;overflow-wrap:anywhere}
       .nasdara-page .nasdara-community{margin-bottom:54px}
     }
@@ -43,47 +47,62 @@
 <header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
 <main class="wrap">
   <section class="project-hero">
-    <div class="page-context"><a class="back" href="../">← All Worlds</a><div class="world-tag">World // Nasdara</div></div>
-    <div class="kicker">Separate Beneath the Ashes World</div>
-    <h1>Nasdara</h1>
-    <p>A separate BTA PvE server for survivors looking for a different frontier. Nasdara brings AI encounters, hacked crates and drug-running systems into its own world, with its own rules, traders, guides and modpack information.</p>
+    <div class="page-context"><a class="back" href="../">← All Worlds</a><div class="world-tag">WORLD // NASDARA</div></div>
+    <div class="kicker">BEYOND THE ASHES</div>
+    <h1>NASDARA</h1>
+    <p>A new world. New dangers. A different fight for survival.</p>
+    <p>Welcome to Nasdara, a Beneath the Ashes PvE survival experience where danger doesn't always announce itself.</p>
+    <p>Beyond the abandoned roads and forgotten settlements lies a frontier shaped by desperate survivors, underground trade, organized threats, and secrets buried long before the world fell apart.</p>
+    <p>The markets are open. The armed patrols are watching. And somewhere beyond the safety of civilization, something is still operating.</p>
+    <p>Welcome to Nasdara. Your story begins here.</p>
   </section>
 
   <section class="server-info" data-server-ip="64.20.36.155" data-server-port="2302">
     <div>
       <div class="project-label">Connection Information</div>
       <h2>Join Nasdara</h2>
-      <p>Install the required Nasdara mods through the DayZ Launcher before joining the server.</p>
+      <p>Your journey begins on the frontier. Install the required mods through the DayZ Launcher, prepare your equipment, and enter a world where every journey offers an opportunity—and every opportunity carries a risk.</p>
     </div>
     <div class="server-endpoint"><span>64.20.36.155:2302</span><button class="button copy-server" type="button">Copy Connection Info</button></div>
+    <select class="launcher-select" aria-label="Launcher Suggestions"><option value="" selected disabled>Launcher Suggestions</option><option value="steam">Steam Launcher</option><option value="dzsa">DZSA Launcher</option><option value="beans">DayZ Beans Launcher</option><option value="titan">DayZ Titan Launcher</option></select>
   </section>
-
-  <p class="nasdara-intro"><strong>Nasdara is kept separate from Chernarus.</strong> This page will collect Nasdara-specific information as each section is ready; Chernarus rules, trader details, guides and mod lists do not automatically apply here.</p>
 
   <section class="project-grid" aria-label="Nasdara resources">
     <article class="project-card">
-      <div class="project-label">Nasdara Resources</div>
-      <h2>Rules</h2>
-      <p>Nasdara’s PvE rules and server expectations will be published here when this section is ready.</p>
-      <div class="project-links"><span class="button secondary nasdara-status">In Preparation</span></div>
+      <div class="project-label">Player Handbook</div>
+      <h2>Server<br>Rules</h2>
+      <p>Even at the edge of civilization, there are rules worth protecting. Learn Nasdara's PvE protections, building expectations, community standards, and the rules that keep the frontier fair for every survivor.</p>
+      <div class="project-links"><a class="button secondary" href="rules/">Read Server Rules →</a></div>
     </article>
     <article class="project-card">
-      <div class="project-label">Nasdara Resources</div>
-      <h2>Traders</h2>
-      <p>A separate Nasdara trader directory is ready for review, with its own catalogue data and transaction directions.</p>
-      <div class="project-links"><a class="button secondary" href="traders/">Review Traders →</a></div>
+      <div class="project-label">Survivor Field Guide</div>
+      <h2>Know Your<br>Traders</h2>
+      <p>Everything has a price. From everyday survival supplies to weapons, rare equipment, and underground merchandise, Nasdara's trade network offers opportunities for those who know where to look.</p>
+      <div class="project-links"><a class="button secondary" href="traders/">Open Trader Network →</a></div>
     </article>
     <article class="project-card">
-      <div class="project-label">Nasdara Resources</div>
+      <div class="project-label">World Archive</div>
+      <h2>Lore</h2>
+      <p>The world may have fallen, but its secrets survived. Discover the history of Nasdara, the people who endured the collapse, the rise of its underground economy, and the mysterious forces that still operate beyond the settlements.</p>
+      <div class="project-links"><a class="button secondary" href="lore/">Read Lore →</a></div>
+    </article>
+    <article class="project-card">
+      <div class="project-label">Survivor Field Guide</div>
       <h2>Guides</h2>
-      <p>Nasdara-specific player guides will be added here as its systems and routes are documented.</p>
-      <div class="project-links"><span class="button secondary nasdara-status">In Preparation</span></div>
+      <p>Knowledge is the difference between surviving and thriving. Master Nasdara's survival systems, uncover valuable opportunities, navigate dangerous encounters, and learn how to turn the frontier's resources to your advantage.</p>
+      <div class="project-links"><a class="button secondary" href="guides/">Open Survival Guides →</a></div>
     </article>
     <article class="project-card">
-      <div class="project-label">Nasdara Resources</div>
+      <div class="project-label">Server Resources</div>
       <h2>Modpack</h2>
-      <p>Required mods are installed through the DayZ Launcher. The Nasdara modpack list will be published here when available.</p>
-      <div class="project-links"><span class="button secondary nasdara-status">In Preparation</span></div>
+      <p>Built for life on the frontier. Explore the equipment, vehicles, custom gear, and gameplay systems that define the Nasdara experience.</p>
+      <div class="project-links"><a class="button secondary" href="modpack/">View Server Modpack →</a></div>
+    </article>
+    <article class="project-card">
+      <div class="project-label">Live Events</div>
+      <h2>Events</h2>
+      <p>The frontier never stays quiet. Take part in community challenges, special encounters, limited-time activities, and events that bring new opportunities to the survivors of Nasdara.</p>
+      <div class="project-links"><a class="button secondary" href="events/">Explore Events →</a></div>
     </article>
   </section>
 
