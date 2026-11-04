@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>DayZ Dog Player Guide | Beneath the Ashes</title>
+  <meta name="description" content="BTA Chernarus dog adoption, Zombie Note prices, commands, feeding, injuries, kennels, vehicle travel, and ownership guidance.">
+  <link rel="stylesheet" href="../../../styles.css?v=connection-hover-2">
+  <style>
+.guide-page{padding:48px 0 76px}
+.guide-hero{border:1px solid #4c6263;background:radial-gradient(circle at 78% 12%,rgba(110,156,145,.22),transparent 30%),linear-gradient(145deg,#1b2929,#131719 64%);padding:42px 44px;margin:28px 0 24px;min-height:280px;display:flex;flex-direction:column;justify-content:end}
+.guide-hero h1{font-size:clamp(3.2rem,8vw,7rem);line-height:.86;letter-spacing:-.06em;text-transform:uppercase;margin:12px 0}
+.guide-hero p{max-width:760px;color:#d8c4ad;line-height:1.7}
+.dog-guide .guide-hero .kicker{color:#8ec0b3}
+.guide-highlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 24px}
+.guide-highlight{border:1px solid #4b5e5c;padding:18px;background:#171e1e;line-height:1.55;color:#c4d5d0}
+.guide-highlight strong{display:block;color:#b8e0d4;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:7px}
+.guide-panel{border:1px solid var(--line);background:#141719;padding:28px;margin-top:22px;scroll-margin-top:86px;min-width:0}
+.guide-panel h2{margin:0 0 18px;text-transform:uppercase;font-size:clamp(1.25rem,2.5vw,1.65rem);line-height:1.35;color:#dce9e4}
+.guide-panel h3{margin:26px 0 10px;color:#d8c4ad;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;line-height:1.5}
+.guide-panel p,.guide-panel li{color:var(--muted);line-height:1.75}
+.guide-panel p{margin:0 0 16px;max-width:930px}
+.guide-panel p:last-child{margin-bottom:0}
+.guide-panel strong{color:#f1e7dc}
+.guide-steps{padding-left:24px;margin:0;display:grid;gap:16px;max-width:960px}
+.guide-steps li{padding-left:8px}
+.guide-steps li::marker{color:#8ec0b3;font-weight:800}
+.guide-note{margin-top:22px!important;border-left:3px solid #719b91;padding:16px 18px;background:#17201f;color:#c4d5d0!important;line-height:1.7}
+.guide-note p{color:inherit}
+.guide-warning{border-left-color:#d99b5d;background:linear-gradient(110deg,#281d17,#181716);color:#f0d1b5!important}
+.guide-warning strong{color:#ffd9b8}
+.guide-toc ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 25px;padding-left:22px;margin:0}
+.guide-toc a{display:block;padding:5px 0;color:#d8c4ad;text-decoration:underline;text-underline-offset:4px;line-height:1.55}
+.table-scroll{max-width:100%;overflow-x:auto;border:1px solid #3b4947;margin:20px 0;-webkit-overflow-scrolling:touch}
+.dog-guide table{width:100%;min-width:540px;border-collapse:collapse;font-size:.94rem;line-height:1.65}
+.dog-guide caption{text-align:left;padding:13px 16px;background:#192321;color:#b8e0d4;font-weight:800}
+.dog-guide th,.dog-guide td{text-align:left;vertical-align:top;padding:14px 16px;border-bottom:1px solid #353d3b}
+.dog-guide thead th{color:#dce9e4;background:#1b2423;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
+.dog-guide tbody th{color:#ece7df;font-weight:700;min-width:130px}
+.dog-guide tbody td{color:#bbb9b0}
+.dog-guide tbody tr:nth-child(even){background:#171c1d}
+.dog-guide tr:last-child th,.dog-guide tr:last-child td{border-bottom:0}
+.guide-table-help{color:var(--muted);font-size:.85rem;line-height:1.65;margin:12px 0 0}
+.guide-troubleshooting{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:0}
+.guide-troubleshooting>div{border:1px solid var(--line);padding:18px;background:#111516}
+.guide-troubleshooting dt{color:#d8c4ad;font-weight:800;line-height:1.55;margin-bottom:8px}
+.guide-troubleshooting dd{color:var(--muted);line-height:1.7;margin:0}
+.dog-guide a:focus-visible,.dog-guide .table-scroll:focus-visible{outline:2px solid #8ec0b3;outline-offset:4px}
+.dog-guide .guide-panel a{color:#b8e0d4}
+.dog-guide .guide-panel a:hover{color:#e0eee8}
+.dog-guide .section-nav{margin-top:28px}
+@media(max-width:760px){.guide-page{padding-top:30px}.guide-hero{padding:28px 24px}.guide-panel{padding:24px 20px}.guide-highlights,.guide-toc ol,.guide-troubleshooting{grid-template-columns:1fr}.guide-toc ol{gap:6px}.guide-highlight{padding:16px}.dog-guide table{font-size:.9rem}.guide-note{padding:15px 16px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
+<main class="wrap guide-page dog-guide">
+  <div class="page-context"><a class="back" href="../">← Chernarus Guides</a><div class="world-tag">Companions &amp; Survival</div></div>
+  <section class="guide-hero" id="introduction">
+    <div class="kicker">BTA Player Guide · Chernarus</div>
+    <h1>DayZ<br>Dog</h1>
+<p>A loyal companion makes the long roads of Chernarus feel a little less lonely. Adopt your dog at one of BTA’s two public doghouses using <strong>Zombie Notes</strong>, choose from <strong>35 breed and appearance options</strong>, and give your four-legged survivor a place to rest at home.</p>
+  </section>
+  <div class="guide-highlights" aria-label="Before you adopt">
+    <div class="guide-highlight"><strong>Physical Zombie Notes</strong>Carry the adoption payment in your character’s inventory.</div>
+    <div class="guide-highlight"><strong>One active dog</strong>Your character needs a free dog slot to adopt or retrieve a dog.</div>
+    <div class="guide-highlight"><strong>Start with Follow</strong>Newly adopted dogs begin on Stay here. Give Follow before leaving.</div>
+  </div>
+  <nav class="guide-panel guide-toc" aria-labelledby="guide-contents">
+    <h2 id="guide-contents">In This Field Guide</h2>
+    <ol>
+      <li><a href="#quick-start">Quick Start — Getting Your First Dog</a></li>
+      <li><a href="#adoption-locations">Adoption Locations</a></li>
+      <li><a href="#breeds-prices">Available Breeds &amp; Adoption Prices</a></li>
+      <li><a href="#commands-controls">Commands &amp; Controls</a></li>
+      <li><a href="#naming-care">Naming &amp; Caring for Your Dog</a></li>
+      <li><a href="#feeding-equipment-injuries">Feeding, Equipment &amp; Treating Injuries</a></li>
+      <li><a href="#supplies-prices">Dog Supplies &amp; Trader Prices</a></li>
+      <li><a href="#kennels-storage">Kennels &amp; Dog Storage</a></li>
+      <li><a href="#travel">Traveling With Your Dog</a></li>
+      <li><a href="#ownership">Important Ownership Information</a></li>
+      <li><a href="#troubleshooting">Troubleshooting</a></li>
+      <li><a href="#mod-reference">Original Mod Reference</a></li>
+    </ol>
+    <p class="guide-table-help">On smaller screens, scroll tables sideways to see all columns.</p>
+  </nav>
+  <section class="guide-panel" id="quick-start" aria-labelledby="quick-start-heading">
+    <h2 id="quick-start-heading">Quick Start — Getting Your First Dog</h2>
+<ol class="guide-steps">
+<li>Carry enough <strong>physical Zombie Notes in your character’s inventory</strong>. You can use multiple stacks. Notes in a bank account, vehicle, or ground container do not count toward adoption.</li>
+<li>Approach the public doghouse and select <strong>Adopt a dog</strong>. Stay within about <strong>three metres</strong> while choosing and confirming.</li>
+<li>Choose your dog and check the displayed price. Every option shows its cost, and the confirmation button reads <strong>Adopt for [price] Zombie Notes</strong>.</li>
+<li>Confirm the adoption. A successful purchase deducts the exact price and assigns your chosen dog to you. Opening or cancelling the menu does not charge you.</li>
+<li>Give your new dog the <strong>Follow</strong> command before you leave. Newly adopted dogs begin on <strong>Stay here</strong>.</li>
+</ol>
+<aside class="guide-note"><p><strong>No bone is needed to adopt.</strong> BTA uses a paid, choose-your-dog menu rather than the original mod’s bone-based setup. There is no random adoption button, and player-built kennels cannot offer adoptions. If you do not have enough notes, the purchase is rejected without charging you.</p>
+</aside>  </section>
+  <section class="guide-panel" id="adoption-locations" aria-labelledby="adoption-locations-heading">
+    <h2 id="adoption-locations-heading">Adoption Locations</h2>
+<p>Find the public adoption doghouse beside <strong>Rowan</strong> or <strong>Hazel</strong>, our animal traders. <strong>Adopt at the doghouse; buy supplies from the trader.</strong></p>
+<div class="table-scroll" role="region" aria-label="Public adoption locations; scroll horizontally if needed" tabindex="0"><table><caption>Public adoption locations</caption><thead><tr><th scope="col">Location</th><th scope="col">Trader</th><th scope="col">Doghouse map coordinates</th></tr></thead><tbody>
+<tr><th scope="row">Western location</th><td>Rowan</td><td>X 586.29, Z 8152.18</td></tr>
+<tr><th scope="row">Central location</th><td>Hazel</td><td>X 7267.98, Z 7031.83</td></tr>
+</tbody></table></div>
+<p>These coordinates use X and Z for the map position. Both locations offer the same dog choices and adoption prices.</p>
+  </section>
+  <section class="guide-panel" id="breeds-prices" aria-labelledby="breeds-prices-heading">
+    <h2 id="breeds-prices-heading">Available Breeds &amp; Adoption Prices</h2>
+<p>Choose from <strong>35 breed and appearance options</strong>. Adoption costs vary by breed.</p><p>All prices are in Zombie Notes. Named and coat variants of the same breed share the price shown below.</p>
+<div class="table-scroll" role="region" aria-label="Adoption prices · Zombie Notes; scroll horizontally if needed" tabindex="0"><table><caption>Adoption prices · Zombie Notes</caption><thead><tr><th scope="col">Price</th><th scope="col">Breeds</th></tr></thead><tbody>
+<tr><th scope="row">2,500</th><td>Golden Retriever, Labrador, Collie</td></tr>
+<tr><th scope="row">3,500</th><td>Bullterrier, Dalmatian, German Pointer, Vizsla, Border Collie</td></tr>
+<tr><th scope="row">5,000</th><td>Siberian Husky, Pitbull, Boxer</td></tr>
+<tr><th scope="row">6,500</th><td>German Shepherd, Akita Inu</td></tr>
+<tr><th scope="row">7,500</th><td>Belgian Malinois, Dobermann, Rottweiler</td></tr>
+<tr><th scope="row">10,000</th><td>Czechoslovakian Wolfdog, St. Bernard</td></tr>
+</tbody></table></div>
+<p class="guide-note">Dogs cannot be sold back to the animal traders.</p>
+  </section>
+  <section class="guide-panel" id="commands-controls" aria-labelledby="commands-controls-heading">
+    <h2 id="commands-controls-heading">Commands &amp; Controls</h2>
+<p>Check <strong>Options → Controls → DayZ Dog</strong> to view or change your bindings. The keys below are the <strong>mod defaults</strong>; your existing bindings may differ.</p>
+<div class="table-scroll" role="region" aria-label="Commands and default keybindings; scroll horizontally if needed" tabindex="0"><table><caption>Commands and default keybindings</caption><thead><tr><th scope="col">Command</th><th scope="col">Default key</th><th scope="col">What it does</th></tr></thead><tbody>
+<tr><th scope="row">Whistle</th><td>Numpad +</td><td>Calls your active dog to your position and puts it into Follow. Use this if it gets stuck or falls behind.</td></tr>
+<tr><th scope="row">Follow</th><td>Numpad /</td><td>Brings your dog along with you. It can respond to infected threatening you.</td></tr>
+<tr><th scope="row">Patrol</th><td>Numpad *</td><td>Lets your dog engage nearby infected.</td></tr>
+<tr><th scope="row">Stay here</th><td>Numpad -</td><td>Keeps your dog in place. Use this before treating an injury.</td></tr>
+<tr><th scope="row">Toggle dog emotes</th><td>Numpad 9</td><td>Toggles the mod&#x27;s emote command feature.</td></tr>
+</tbody></table></div>
+<p>You can also use the available interaction prompts while looking at your dog. Allow a moment between commands. <strong>Whistle while on foot</strong>, with enough room for the dog to appear beside you.</p>
+<p class="guide-note"><strong>Map-based waypoint missions are disabled on BTA Chernarus.</strong> Use <strong>Follow</strong>, <strong>Patrol</strong>, and <strong>Stay here</strong> for everyday commands.</p>
+<p class="guide-note guide-warning"><strong>Keep control around other survivors.</strong> Dog attacks against players are not disabled on Chernarus. Follow the server’s combat rules. The mod’s automatic punishment for killing a dog is also disabled; community rules and staff decisions still apply.</p>
+<p><a href="../../rules/">Read the Chernarus server rules →</a></p>  </section>
+  <section class="guide-panel" id="naming-care" aria-labelledby="naming-care-heading">
+    <h2 id="naming-care-heading">Naming &amp; Caring for Your Dog</h2>
+<p>Look at your dog and select <strong>Dog Stats</strong> to check its health and recorded activity. To give it a name, use the name field and naming button in the management screen.</p>
+  </section>
+  <section class="guide-panel" id="feeding-equipment-injuries" aria-labelledby="feeding-equipment-injuries-heading">
+    <h2 id="feeding-equipment-injuries-heading">Feeding, Equipment &amp; Treating Injuries</h2>
+<h3>Feeding your dog</h3><p>Hold a real bone or supported meat in your hands, look at your dog and use <strong>Feed Dog</strong>. Supported meat includes deer, cow, pig, goat, boar, bear and sheep steaks, rabbit legs, and chicken breasts.</p>
+<p class="guide-note guide-warning">Before feeding, <strong>empty the dog’s mouth slot and remove its dog gas mask</strong>. The <strong>Feed Dog</strong> action will not appear while either slot is occupied. Let the eating action finish before giving another command.</p>
+<p><strong>A bone toy is not food.</strong> The dog bowl and bone toy are accessories; buying a bowl does not replace feeding your dog with a supported item.</p>
+<h3>Fetch and accessories</h3><p>For a game of fetch, keep your dog nearby, remove its gas mask and mouth attachment, and throw the ordinary dog bone toy. Start on clear, open ground.</p>
+<h3>Equipment</h3><p>Fit compatible collars, vests, and dog gas masks through the inventory attachment slots. Check your dog’s health after combat: equipment does not make it invulnerable.</p>
+<h3>Treating an injury</h3><ol class="guide-steps">
+<li>Command your dog to <strong>Stay here</strong>.</li>
+<li>Hold a usable bandage and crouch beside it.</li>
+<li>Look at the wounded dog and complete <strong>Bandage dog&#x27;s wound</strong>.</li>
+</ol>
+<p class="guide-note guide-warning">The treatment prompt appears only when the dog is wounded and staying in place. <strong>Dogs can die from their injuries.</strong> Carry bandages and pull your companion out of dangerous fights.</p>
+  </section>
+  <section class="guide-panel" id="supplies-prices" aria-labelledby="supplies-prices-heading">
+    <h2 id="supplies-prices-heading">Dog Supplies &amp; Trader Prices</h2>
+<p>Both <strong>Rowan and Hazel</strong> sell these supplies for <strong>Zombie Notes</strong> with <strong>unlimited stock</strong>. Matching colour or design variants share the listed price.</p>
+<div class="table-scroll" role="region" aria-label="Dog supplies · purchase prices in Zombie Notes; scroll horizontally if needed" tabindex="0"><table><caption>Dog supplies · purchase prices in Zombie Notes</caption><thead><tr><th scope="col">Item</th><th scope="col">Purchase price</th></tr></thead><tbody>
+<tr><th scope="row">Dog collar, any of seven colours</th><td>250</td></tr>
+<tr><th scope="row">Dog vest, any of six designs</th><td>1,000</td></tr>
+<tr><th scope="row">Dog gas mask</th><td>1,500</td></tr>
+<tr><th scope="row">Dog bowl</th><td>150</td></tr>
+<tr><th scope="row">Dog bone toy</th><td>200</td></tr>
+<tr><th scope="row">Small kennel kit</th><td>1,500</td></tr>
+<tr><th scope="row">Wooden kennel kit</th><td>2,000</td></tr>
+<tr><th scope="row">Large kennel kit</th><td>2,500</td></tr>
+<tr><th scope="row">Bones, full stack</th><td>50</td></tr>
+<tr><th scope="row">Bandage, full roll</th><td>250</td></tr>
+</tbody></table></div>
+<p class="guide-note">Both traders buy physical supplies back at <strong>50% of their purchase price before condition and quantity adjustments</strong>. A pristine, complete vest bought for 1,000 notes has a base sell-back value of <strong>500 notes</strong>. Damaged items and partly used stacks can return less; ruined items have no sell-back value.</p>
+  </section>
+  <section class="guide-panel" id="kennels-storage" aria-labelledby="kennels-storage-heading">
+    <h2 id="kennels-storage-heading">Kennels &amp; Dog Storage</h2>
+<p>Buy a kennel kit from Rowan or Hazel and deploy it at your base. <strong>Kennel kits do not spawn in the loot economy.</strong></p>
+<p>To store your dog, approach an <strong>empty deployed kennel</strong> with your dog assigned to you, look at the kennel, and choose <strong>Leave dog in kennel</strong>. To retrieve it, return with a <strong>free dog slot</strong> and choose <strong>Take dog from kennel</strong>. Only the stored dog’s owner can retrieve it.</p>
+<p><strong>Each kennel stores one dog.</strong> Retrieving your stored dog does not cost another adoption payment. Kennels provide storage and retrieval only; they never offer a menu to adopt a new dog.</p>
+<p class="guide-note guide-warning">Keep your kennel protected and accessible. <strong>Use the kennel interaction to store your dog.</strong> Telling it to Stay beside a kennel does not store it.</p>
+  </section>
+  <section class="guide-panel" id="travel" aria-labelledby="travel-heading">
+    <h2 id="travel-heading">Traveling With Your Dog</h2>
+<p>Set your dog to <strong>Follow before entering a vehicle</strong>. The mod temporarily stores the following dog and brings it back when you get out. A dog left on <strong>Stay</strong> or <strong>Patrol</strong> does not use this Follow travel behaviour.</p>
+<p>After reconnecting, give your active dog time to load. It can return at its last saved location. If it is away from you, use <strong>Whistle while on foot</strong>. If it still does not return, contact staff before paying for a replacement.</p>
+  </section>
+  <section class="guide-panel" id="ownership" aria-labelledby="ownership-heading">
+    <h2 id="ownership-heading">Important Ownership Information</h2>
+<p class="guide-note"><strong>Only one dog can be active per character.</strong> You cannot adopt or retrieve another dog while your character’s dog slot is occupied.</p>
+<p class="guide-note guide-warning"><strong>Character death clears your active dog ownership.</strong> The adoption payment does not protect an active dog from loss. When leaving dogs at home, store them in a kennel using the proper action.</p>
+  </section>
+  <section class="guide-panel" id="troubleshooting" aria-labelledby="troubleshooting-heading">
+    <h2 id="troubleshooting-heading">Troubleshooting</h2>
+<dl class="guide-troubleshooting"><div><dt>No Adopt a dog prompt</dt><dd>Check that you are at one of the two public houses, close enough to interact, and do not already have a dog assigned to your character. Your own kennel cannot offer adoptions.</dd></div>
+<div><dt>Not enough Zombie Notes</dt><dd>Carry enough physical notes in your character&#x27;s inventory. Notes in nearby storage or a bank balance do not pay for dog adoption.</dd></div>
+<div><dt>New dog stays behind</dt><dd>Newly adopted dogs start on Stay. Use Follow or Whistle.</dd></div>
+<div><dt>Dog will not eat</dt><dd>Hold supported food, remove its gas mask and mouth attachment, and wait for any current eating action to finish.</dd></div>
+<div><dt>No bandaging prompt</dt><dd>The dog must be wounded and on Stay. Hold a usable bandage and crouch beside it.</dd></div>
+<div><dt>Cannot retrieve a kennel dog</dt><dd>Make sure it is your stored dog and your character&#x27;s dog slot is free. Move close and aim at the kennel&#x27;s interaction point.</dd></div>
+<div><dt>Dog missing after reconnect</dt><dd>Wait for loading, try Whistle on foot, and ask staff for help if it remains missing. Include your location, dog choice and what happened before it disappeared.</dd></div>
+</dl>  </section>
+  <section class="guide-panel" id="mod-reference" aria-labelledby="mod-reference-heading">
+    <h2 id="mod-reference-heading">Original Mod Reference</h2>
+<p>For <strong>BTA adoption locations, prices, and kennel behaviour</strong>, follow this guide. The original mod’s general instructions describe a different, bone-based adoption setup.</p>
+<p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2471347750" target="_blank" rel="noopener noreferrer">Original DayZ Dog mod ↗</a></p>
+  </section>
+  <nav class="section-nav" aria-label="Guide navigation"><a href="../">← Return to Chernarus Guides</a><a href="#guide-contents">Back to contents ↑</a><a href="../../">Chernarus Hub →</a></nav>
+</main>
+<footer><div class="wrap">Beneath the Ashes • Chernarus • DayZ Dog Player Guide</div></footer>
+<script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
+</body>
+</html>
