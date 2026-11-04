@@ -1,13 +1,13 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-04T20:18:48.161139+00:00",
+  "syncedAt": "2026-11-04T21:20:45.854453+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 283,
-  "traderFileCount": 27,
-  "traderZoneFileCount": 20,
+  "marketFileCount": 286,
+  "traderFileCount": 29,
+  "traderZoneFileCount": 22,
   "files": [
     {
       "group": "market",
@@ -340,8 +340,29 @@
     },
     {
       "group": "market",
+      "filename": "BTA_Dog_Supplies.json",
+      "sha256": "0eee688d103eea4c1d371e46967b2a3c93185e5bbb00430735585bf384092689",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
       "filename": "BTA_Event_Eggs.json",
       "sha256": "9cdcdf5ec4fb6bf23cefc3d4223e38d02d683da9f1dd5d1539b4e361c09ce4fa",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "BTA_Horse_Adoptions.json",
+      "sha256": "4866cd38c8e61e1cd4358e1732d2b87cb80f0b23c01673a941427e52b34d36b0",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "BTA_Horse_Equipment.json",
+      "sha256": "0df16e4bb9c689019ee325fcf4f0ba5e9890f7ee7048a3be658fe418224ac885",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2013,6 +2034,20 @@
     },
     {
       "group": "traders",
+      "filename": "BTA_DogSupplies_Hazel.json",
+      "sha256": "448e6e194eaeca923038c3e4267c8d9a5643c053579c2b75c2eef28c4d850332",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "BTA_DogSupplies_Rowan.json",
+      "sha256": "1f610547c7b35bf1c05aec10f74158c707b0f885f77dbf6c97fa2e44302f44f9",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
       "filename": "BuildingSupplies.json",
       "sha256": "c1d9b6d5d0f15972bfa450b161bdbe4e566eeb244baa8cccefd8f37b0a022c95",
       "topLevelType": "object",
@@ -2190,6 +2225,20 @@
       "group": "traderzones",
       "filename": "Blackmarket_ZN.json",
       "sha256": "62be129ee01a4d391703ffcc7a1c370a39d3bc53b79c24e65deb9746c9e74cab",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "traderzones",
+      "filename": "BTA_DogSupplies_Hazel.json",
+      "sha256": "60047ed4afdad48ef4ae7276d03e80057c68e75e356b39113d69850e5cea1ded",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "traderzones",
+      "filename": "BTA_DogSupplies_Rowan.json",
+      "sha256": "ae37e6ffc7518732fbb24a93bfc13fb9664158cf3f1bf14da442abc3b48e1fb1",
       "topLevelType": "object",
       "entryCount": 7
     },

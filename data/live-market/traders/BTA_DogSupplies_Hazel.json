@@ -1,0 +1,24 @@
+{
+  "m_Version": 13,
+  "DisplayName": "Hazel - Dog Supplies and Horse Adoptions",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Trader",
+  "Currencies": [
+    "zombie_note"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "Zombie Notes",
+  "UseCategoryOrder": 1,
+  "Categories": [
+    "BTA_Dog_Supplies:1",
+    "BTA_Horse_Adoptions:0",
+    "BTA_Horse_Equipment:1"
+  ],
+  "Items": {
+    "bone": 1,
+    "bandagedressing": 1
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Horse Equipment",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "IsExchange": 0,
+  "InitStockPercent": 100,
+  "Items": [
+    {
+      "ClassName": "Bridle",
+      "MinPriceThreshold": 500,
+      "MaxPriceThreshold": 500,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Saddle",
+      "MinPriceThreshold": 1000,
+      "MaxPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Saddle_Western",
+      "MinPriceThreshold": 1500,
+      "MaxPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Saddle_English"
+      ]
+    },
+    {
+      "ClassName": "ArmourHorseHead",
+      "MinPriceThreshold": 2500,
+      "MaxPriceThreshold": 2500,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ArmourHorseNeck",
+      "MinPriceThreshold": 3000,
+      "MaxPriceThreshold": 3000,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ArmourHorseBack",
+      "MinPriceThreshold": 4000,
+      "MaxPriceThreshold": 4000,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

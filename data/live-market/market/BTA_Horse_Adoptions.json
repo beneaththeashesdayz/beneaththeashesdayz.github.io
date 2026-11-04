@@ -1,0 +1,80 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Horse Adoptions - Saddle and Bridle Included",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "IsExchange": 0,
+  "InitStockPercent": 100,
+  "Items": [
+    {
+      "ClassName": "BTA_HorseOffer_Brown",
+      "MinPriceThreshold": 12500,
+      "MaxPriceThreshold": 12500,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BTA_HorseOffer_Chestnut",
+        "BTA_HorseOffer_Chestnut_Light"
+      ]
+    },
+    {
+      "ClassName": "BTA_HorseOffer_Black",
+      "MinPriceThreshold": 15000,
+      "MaxPriceThreshold": 15000,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BTA_HorseOffer_White",
+        "BTA_HorseOffer_Gray",
+        "BTA_HorseOffer_Gray2",
+        "BTA_HorseOffer_Liver"
+      ]
+    },
+    {
+      "ClassName": "BTA_HorseOffer_Palomino",
+      "MinPriceThreshold": 17500,
+      "MaxPriceThreshold": 17500,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BTA_HorseOffer_BuckSkin",
+        "BTA_HorseOffer_BrownWhite"
+      ]
+    },
+    {
+      "ClassName": "BTA_HorseOffer_Appaloosa",
+      "MinPriceThreshold": 20000,
+      "MaxPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BTA_HorseOffer_Paint",
+        "BTA_HorseOffer_BlackWhiteSpot",
+        "BTA_HorseOffer_RedRoan"
+      ]
+    },
+    {
+      "ClassName": "BTA_HorseOffer_BTASkeleton",
+      "MinPriceThreshold": 75000,
+      "MaxPriceThreshold": 75000,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}
