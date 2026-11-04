@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-04T12:24:50.083062+00:00",
+  "syncedAt": "2026-11-04T13:22:07.772273+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -208,7 +208,7 @@
     {
       "group": "market",
       "filename": "Animal_Byproducts.json",
-      "sha256": "663c9d7bbd7ab1c044f3dad35fa11017dedd933bc655f490b1ec096d0af4fb5f",
+      "sha256": "f9a564ec1789251139f007c5809e4ef9c23a5161ca6de15f8ede6619c98551b3",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -229,7 +229,7 @@
     {
       "group": "market",
       "filename": "ATF_Gear.json",
-      "sha256": "112238ffe102c980d927a36b1f8f5eeadedc13984bb00f7d6ae0c323afd9fef2",
+      "sha256": "ab900a0202ae18fe2e6598f63a47d80dd9b8e27d5d72658c3563feab479c3487",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -243,7 +243,7 @@
     {
       "group": "market",
       "filename": "Backpacks.json",
-      "sha256": "8962b61a4453e741a67fa2993e8ee9be7d59c5dc2d9c284ffb36d6c0562552c2",
+      "sha256": "c375e27468ab92b5fd9b2407be3e19f37112e1eab5721c7871093ccbb392b96b",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -257,21 +257,21 @@
     {
       "group": "market",
       "filename": "Bandanas.json",
-      "sha256": "fe5c31dd4a1383b65996a2672cd5d4006f0363907116fbb0c5b60e0042a25e63",
+      "sha256": "59c5a62ae71c4978c62b359a597998afb1da20bc75b3386832c7d2ddae9eaff5",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Bars.json",
-      "sha256": "2be133818edfb03a8f4ca7442a641a06a1ba5a91cbf99ed35130e4d9764e25cc",
+      "sha256": "9b9e8717fd6362c5444df451576dcb031e4b8ea71feec4518f3b5284c6147395",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Bat_Baby_Gear_Set.json",
-      "sha256": "b714c04796a4664395fa8d360c395988e6ecf4a423cf8f1da790e009e6dd010b",
+      "sha256": "b909abf6d2fce02da3192ce982e766766e5a3e7975a919430eea4d98fb09ba95",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -299,14 +299,14 @@
     {
       "group": "market",
       "filename": "Belts.json",
-      "sha256": "9374998045a6a781df4f1be47e0983a69b104f7df5d49ddf96548e46d9296f10",
+      "sha256": "1f492aed4bd5a148fca9ff961f5f513227404fdb69027a25613a53eb4c989b4c",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Blouses_And_Suits.json",
-      "sha256": "900909f7d5989548bf3e9d6f1bd4abc9df8ad57897411f2d107c908ed37f55f1",
+      "sha256": "2e7f31d70161e68a81ef5793b381e3c14d487672aac61857dddc82a2c4b15c0a",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -327,7 +327,7 @@
     {
       "group": "market",
       "filename": "Boots_And_Shoes.json",
-      "sha256": "3b0afcf4a02942e8363caff19bde009059897c87ef133c29a5b3ac968a9895cd",
+      "sha256": "02d02ee446d44c7c3e0ac11e5148e2b31ce269b043b1fa11b958a9bc6ac9d074",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -341,7 +341,7 @@
     {
       "group": "market",
       "filename": "BTA_Event_Eggs.json",
-      "sha256": "3a27736ab50d505670c5ba043d2c8a39d2c62103c713fb0ccee78350509cd46e",
+      "sha256": "9cdcdf5ec4fb6bf23cefc3d4223e38d02d683da9f1dd5d1539b4e361c09ce4fa",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -369,14 +369,14 @@
     {
       "group": "market",
       "filename": "Cans.json",
-      "sha256": "66d7765a8f4ca689cacf0969010ca42393cac8d20f433a861d9981b83009d243",
+      "sha256": "41a457606bb0ba88c730c3f9246519de09658ffbaf25d61ae7eb9a5b230d4d23",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Caps.json",
-      "sha256": "8b1c58312c7afae70e74c1d7416a37aa1d0bd4e01846171acf1f6ee38d9638d4",
+      "sha256": "715f590301cfa0d00f0067024531ca51caa32465174949e058673b4ea065270f",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -453,7 +453,7 @@
     {
       "group": "market",
       "filename": "Casual_Soldier_Gear_Set.json",
-      "sha256": "a03cf9ed95b1b6c20f6a41ae1838d00e1e3b18ac316af4539dd2b747c1f7aa6d",
+      "sha256": "6e091168a18cf79ecafa787f7673961c8be52355dc44e71c976abdaa51f3f92c",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -488,14 +488,14 @@
     {
       "group": "market",
       "filename": "Coats_And_Jackets.json",
-      "sha256": "9f34525a65145eeb63478bf8132e3713fef8f65bd16427a09285f7089c27c563",
+      "sha256": "58796d24cba9e5836f2d23dbfc66895fe76271096e4d88427478500de7b49d04",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "CoD_Gear_Set.json",
-      "sha256": "2b2566b016d3dd6f06f6a4199b9fbba20e6f9c171b67e0f357c8ba70fb3453a6",
+      "sha256": "4bab179b8ea365438d0020c9a2cfb3294908c5afb0877226ed7bf7577660f7f6",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -516,14 +516,14 @@
     {
       "group": "market",
       "filename": "Containers.json",
-      "sha256": "ab42df18b868794c977f27aae706eeeed7b663a3eac4293b03c025ccea7d3604",
+      "sha256": "fd349fd6f2be6d6b28a93150dbc3561c8f5ab6d5a1c0df5824922454ef4c433a",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Crossbows.json",
-      "sha256": "4bccb4a2580a7d9a918c6c68ff0483c5978ddd6d3249959cc448c33cca974d36",
+      "sha256": "48d33b6f952ad2252508f147cbea964205467c853b6cc38e0331841b44d726d7",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -705,7 +705,7 @@
     {
       "group": "market",
       "filename": "Drinks.json",
-      "sha256": "9c0744b4590aa967fc240d6ed7f7402cdbcab435fbdbde0049fe0e77d07fd6a1",
+      "sha256": "8894a2c86c12307961e9a6510515d320035f168f30e5fb90c485820a147f2ad0",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -719,7 +719,7 @@
     {
       "group": "market",
       "filename": "Drug_Ingredients.json",
-      "sha256": "73e2e37638388d937bbc42a2eaf615c982743d8b6c522f43ec2d6e10f125b70b",
+      "sha256": "82e97c6957c9e2a712da8af5b5f59ae387f625e4136731a0e482d39367f891af",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -733,7 +733,7 @@
     {
       "group": "market",
       "filename": "Electronics.json",
-      "sha256": "87ca2f8e0344803c5962d72335eeda339e9b40502e81f5f9003233185a23647c",
+      "sha256": "4b01a78da6a6bff2824bcd8d74780425bb3e20d28510668f1d2b361e871c97af",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -950,35 +950,35 @@
     {
       "group": "market",
       "filename": "Explosives_And_Grenades.json",
-      "sha256": "7d569bb3905df64492b1998b92e6579a9b6b183c503ddcc74ba28bc696f6992f",
+      "sha256": "4bd55dd174a16452dcc2f2c9f5d2c4ca0fa26147fabb3c1ca193ddbdaa0fc08b",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Eyewear.json",
-      "sha256": "665b50bede2209dccbb9daedf657ca7cbfc15084ae4aed2a6b6640ddbad71598",
+      "sha256": "81ea9b659672df1f82db4f1281ca054e63acd53889180540d4ba443358ad0be3",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Fish.json",
-      "sha256": "ffda4e77e11b08a6e3c838ae6ea1812fe3e8ba949a94c0b7fd7455967b9cf6b1",
+      "sha256": "8eae8b8c338c8129b6c68a9c87e4b3612eedfe33ec8bcfdd7c5846df09cfd2e4",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Fish_Meat.json",
-      "sha256": "b94b0d136ab3b19b9604ae3ae005ea50b6a89221f11c1a4eb672c55e534c6601",
+      "sha256": "32cd9bff0b97d280c157d2ef458fa0e5d3caf5432102163c37fe5eaed38d55d5",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Fishing_Equipment.json",
-      "sha256": "7b7c0bdc8eece9152413983d4e4c278834f4345d9974934dc68e012558068b62",
+      "sha256": "05fcc94a24d230166e2dd54b1ebc487365e0928c939a047e221295ecf31d5423",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -992,7 +992,7 @@
     {
       "group": "market",
       "filename": "Food.json",
-      "sha256": "27efb431479e92d40303395caaf3996889788f79aba2feb2f651081bab5b281b",
+      "sha256": "abf036e5632ee529879dfd608c0b611ade12ff7923e7f00b34b3482b64c237e2",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1034,63 +1034,63 @@
     {
       "group": "market",
       "filename": "Fruit_And_Vegetables.json",
-      "sha256": "54e07bec346c87ea542b879f5bdc30bc7d9581ac21342685b32f6191db818911",
+      "sha256": "7de42ab3a6be87e1c776b31e6cafcce645ed19ebe20cb6ed694d44d8dcd68816",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "FSB_Alpha_Gear_Set.json",
-      "sha256": "bb579f4198b6b56b19e41c185c4aa23ba14a6ca9844d7bf16681bfbea1b392ab",
+      "sha256": "2e7ca7b7587166cc026c8acbacff54bc5c33937578440555522429e4bdf93c14",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Fuel_Canisters.json",
-      "sha256": "22c7586ce93feaccc22345923da1b141b8b06997ea00ff0450c72626717cf704",
+      "sha256": "2f297629835467af16ab9955096b13c2130ac74402e16c11fc966882a10e862a",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Furnishings.json",
-      "sha256": "b34603dd32a1db3971bcef23956456beecdce1280de6e48bc4c89c0e112bae1c",
+      "sha256": "c94c2097aa0b717a57ac177a139b1e026d79b2943358ec959905fec847e7d5fc",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Fusion_Bars.json",
-      "sha256": "5ffd75607de2772eba7d3f8e6d743071840c619d0c4e8622d7e69f8a37f2788a",
+      "sha256": "4cddafcf19c2745137e52c0f545b692ada327c1385b7f7ff752a03d52f9e8fa5",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Gardening.json",
-      "sha256": "35d1371d8418243096b7611a76e2ef9b395918d474f2a3da22d6b1ebd7311b7e",
+      "sha256": "e79f5e84b011758dffe876d5c016ad31cdbda510d7c9666f5ecfe73e52953a8f",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Geb's_Fish_Meat.json",
-      "sha256": "a0b4b71d456eb935ce0a62a386e6066fa1fac452e9ebbec454327b0873bb4908",
+      "sha256": "11e35698b557b5d35d09e7c2b45f46a336211060738bb7d937fd5daa9bec6ddf",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Geb's_Fishing_Supplies.json",
-      "sha256": "acfef3e2c5c6cbdf8021408701c8b895519e276f22de9a9da3a50723b8258ebe",
+      "sha256": "2cb96a7de5d2ced8738f7547d5da11cbcc7c487f39e44a92ed9a3543cfbdc3ca",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Gebs_Fish.json",
-      "sha256": "d33170b0bab74aff8397b6a3a3cae8332c55891252dad6c71756fb34d4a7792a",
+      "sha256": "8bc18e52715f59a7896f0a1809e3168e73965abd6dbd6294d3384e083158d0b4",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1132,35 +1132,35 @@
     {
       "group": "market",
       "filename": "Gems.json",
-      "sha256": "b7c5bd04f83c6fa8247585eda9edddc82c1163c37c061501706f58bb97248eda",
+      "sha256": "47af235ffe27c2d2eb82692611b8b5f28f3b802b81bdb9abe390b466b13c0ff3",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Ghillie_Sniper_Gear_Set.json",
-      "sha256": "883c7a5a5846c69efbb13cbad2e21eb9efc8066ccbba0345e3a00237fa5f084e",
+      "sha256": "0b61458257086c4ef7fb49962a5764803f5983cabf131decec214fff022ee4e5",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Ghillies.json",
-      "sha256": "bcadc564ae517ac2ac2f5ec2cf085ee75efa41ddb7e3133200aa193b6f495308",
+      "sha256": "6af161467dafcff9d08ed316927b3cdbd9c9c93dacb1cf8bbd98a6e9f7ccd7e5",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Ghost_Gear_Set.json",
-      "sha256": "e7f47348efc7d9a734079c862906f76893c4ae3979ded48b6aacab5eacd3119a",
+      "sha256": "9110e061b266bd10fbcf9034a85d3242ef5a4301e175983789d1bf6f6a2d9024",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Gloves.json",
-      "sha256": "c381ce67df7587eadfee3ee68f5e2104531858a1609b97096c06e844b72b4e9f",
+      "sha256": "62a8c634e2fe9ccf5e55ec0e31d58330a2bda3ce52c439705c68c0549dc93130",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1230,28 +1230,28 @@
     {
       "group": "market",
       "filename": "Hats_And_Hoods.json",
-      "sha256": "a2039fa4ed7fe2fe3860e83d0c2f48a4001d348cee9ece0accfec5bbb2789b03",
+      "sha256": "e25533d0a9019be3de850809319f9c091b420b6452ceea1bc0e42cdd6444a514",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Hazmat_Gear_Set.json",
-      "sha256": "cd94487fcc02e0e84ad57b05d8d1618d5f2eb916d05686ca3aff758f9b33ab83",
+      "sha256": "02bfb861002e807933d7e2517a61006f416d94ff1dca52c85387500f7698c544",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Headdresses.json",
-      "sha256": "c2f40f416e114f794affc898f54f79b33ddcbdd4c5cfd0cb74fb0fa0b22ca02b",
+      "sha256": "b67e60233997469b2c4b5d48f23de27eee72ce5e7529c272348cd047d3b0170b",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Heads.json",
-      "sha256": "39fc1f85296f538dfb64183b38a2c4b84aedd402d4175d05a1418468784c0e03",
+      "sha256": "3a9e98778db15e3497bb9bcc1886ec9a6b00721d1d1046f306017444c882fae7",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1265,14 +1265,14 @@
     {
       "group": "market",
       "filename": "Helmets.json",
-      "sha256": "54e370d55e0d67e9fe27f3c932f30d6d34d5fe996a434a6cfb480693b156f671",
+      "sha256": "417e6c71c23f68f663f402dc12facb72c674c631507eeb24962f82f14d47712c",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Holsters_And_Pouches.json",
-      "sha256": "8d21af66f98a0ee20e9f600d04b24afc5be4f815825416edb8a09b87dc9b75ac",
+      "sha256": "35f84294d492d01b557f15e20322bd02b0d6ac8ecd82d50589eace57d90fd608",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1321,14 +1321,14 @@
     {
       "group": "market",
       "filename": "Launchers_And_Ammo.json",
-      "sha256": "9f2cb98f04607100f4b756ac9a3e34a4bfc1aec1ea970fb905678008e151dba0",
+      "sha256": "583e98130a01369c4b686736e7e6dd05b16a2409648a13b2deb20c9a93d55791",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Lights.json",
-      "sha256": "e54c0b3580387b8d83b90702a9de6bf2d366a4f876e7573f115fd3e2bdc1fa7e",
+      "sha256": "7bfa88885393b285c650fc6d1542fe3bbec0c8b21eae62df87797fd799da7d67",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1342,7 +1342,7 @@
     {
       "group": "market",
       "filename": "LOFTD_Gear.json",
-      "sha256": "4e41e2357efaed29475cf57692035b1f1f26c331814845f216c78d1d4352c0c5",
+      "sha256": "d0d51d987305602fcd6482f7e5a5b4bcf105bf86d467553eb9280e67ecfb9189",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1391,14 +1391,14 @@
     {
       "group": "market",
       "filename": "Masks.json",
-      "sha256": "5033bd58fa9068e28bfb99355ce25422cabebd35ad42f484c96674426b29930c",
+      "sha256": "d7b81906c1705e39ca64a98f20d050c13dab64d5e2bd00f2a53c3e91bb8ea5ab",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Meat.json",
-      "sha256": "db0b15c50fbce2db29b1be5940fb9947994c9046d0f96db1359431753e8ef7a5",
+      "sha256": "2985fa113a8ac70770ad0aea613976178647293f840068cd04348a666662098d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1419,14 +1419,14 @@
     {
       "group": "market",
       "filename": "Mercenary_Gear_Set.json",
-      "sha256": "8a354084b1a8962eece46e9a342b3a5fbc476ffa0ec751d356d8189faf62804f",
+      "sha256": "7960ff77d116f3ff1f251ec8242b76041da0ccc63f493baa3894acdc601d4e4d",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Military_Gear_Set.json",
-      "sha256": "6f485aa1845b2db932c14201bd114553c41dca8c2d39d30efaa21ccb121022b4",
+      "sha256": "6c6450c4395a462ad7c9e809069cb8ec663ec01c8f00c6f13a2dfcdd66334af1",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1517,7 +1517,7 @@
     {
       "group": "market",
       "filename": "Multi_Gear_Set.json",
-      "sha256": "3b9d1b64cb90d198a713cec3b2c459090426b68104e6f77e685c859b21194955",
+      "sha256": "13a9a95234b940e9a0bad2a0cd24b82e37ecae1010a9cd217bf47abab14fe4df",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1601,7 +1601,7 @@
     {
       "group": "market",
       "filename": "Muzzles.json",
-      "sha256": "c7404d292c14a367d100963c89642501f0c5c854f8364ffb0b412b4668c66702",
+      "sha256": "b8d84393d0bc5a49117bad3d427f9ad69a284b89e659bb3618f9d8089174afa2",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1622,7 +1622,7 @@
     {
       "group": "market",
       "filename": "MYDF_Melee.json",
-      "sha256": "1e475eacdafdd4b41925b843f54c4e98ca2add67270e22faa7b9a8059a6a2582",
+      "sha256": "04fa2c72199555add9af76c8efb8c2002113540fee37d90d8ec02b7865cd7324",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1678,7 +1678,7 @@
     {
       "group": "market",
       "filename": "Operator_Gear_Set.json",
-      "sha256": "abeb9e87ccc0aa6d90eb2c32fa4d0797ef80599a06060782c8801e90db6232f8",
+      "sha256": "a687ccef338de5f4d1ca2a4314576b743129751731d1b3e6b721a927c0b70103",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1692,7 +1692,7 @@
     {
       "group": "market",
       "filename": "Pants_And_Shorts.json",
-      "sha256": "966f803076492600e93d182dc3a5e7fc8eb0a2e93710c0a8603b08ebf5634867",
+      "sha256": "0f596f2a16ce271aa242abdfa006e30e15eee374d4990fcf13d6a980b951db38",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1706,7 +1706,7 @@
     {
       "group": "market",
       "filename": "Pelts.json",
-      "sha256": "b6310b4a40979aa2acc7290566dbeeba6b1616ae000d25173093a5f9c7f66be6",
+      "sha256": "14bcab3f5dcd688f42c0a20530cfd8bda687cb1d96c07c399ff66f9e5beac110",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1755,7 +1755,7 @@
     {
       "group": "market",
       "filename": "Rabbit_Gear_Set.json",
-      "sha256": "76c9b0146e06c00e6bb0ba65596fbf9efb143076a238fd1f946c05021b1ba3f3",
+      "sha256": "d7429b25dc9fb732144ac5092c8c1ffbbe0c3f6af2235268c47368e978fa5f7a",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1790,14 +1790,14 @@
     {
       "group": "market",
       "filename": "Razor_Falcon_Gear_Set.json",
-      "sha256": "786a36f4add306fdc4b560c95ba1152468c0ab74723ab01e5b629e3014c1e2a4",
+      "sha256": "91fc0736c7025b4ca46eb28a1d58f6a4c73549bc83f8ed06cc0bd55c670c65bf",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Rider_Gear_Set.json",
-      "sha256": "14873dfe435d5353b23eed2ead6e56aecc49784be6807056704873907f031f36",
+      "sha256": "73fd3c7626767e2f24fbc9c0b687f75450713276c1fe1af329ea2daf522eaad0",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1811,28 +1811,28 @@
     {
       "group": "market",
       "filename": "Rugs.json",
-      "sha256": "0373e3617d0923a131a17c164bf998a7ae5b3da2a2850e34dc87d3a0d9e3085a",
+      "sha256": "a9936653d51c91331ca017e7b93fdd10ebc1befb57e2e1333962720ed4652875",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Russian_Soldier_v2_Gear_Set.json",
-      "sha256": "14cbac7142b56b246146b70ac000b3a565112c117c54bd20472bfea57ad39d78",
+      "sha256": "d77d8de1e8397cc644f95ac6bc7d824fc75c9e9f262d0731337997f6dddbc123",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Russian_Soldier_v3_Gear_Set.json",
-      "sha256": "4c8313522e0794041ed0041f1740df568e9d89d7d65a2b7870bbd91d45b1e705",
+      "sha256": "47700affe8a1dab3f13807ca307999e00487bcdf1ab8a1d315b306c483c962e3",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Russian_Soldier_v4_Gear_Set.json",
-      "sha256": "10780f5648317afd087467f9d291c9367c5f3aec3925fd5f52f29b17965e5f84",
+      "sha256": "06cd1fa877a2d9acb7dc8ca36276735a03102f1c198d92e33b864bc1449f7c85",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1846,7 +1846,7 @@
     {
       "group": "market",
       "filename": "Shirts_And_TShirts.json",
-      "sha256": "8b9ccdc2921881a139e53aaca4f0fbc1c4540b38e3bbfe744c33aadee8017774",
+      "sha256": "f1e88b28d1f4c7558952f55c454028ddd8a2b4e82513e208505bf9d49c5869f1",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1860,7 +1860,7 @@
     {
       "group": "market",
       "filename": "Skirts_And_Dresses.json",
-      "sha256": "9322b3fd5b602c30ac2f0a5c441bdc3d4a2aadc06d7b0dce2d3a03bf95765207",
+      "sha256": "22d2f336f7061bf22fa146ee0f0fc687656f74ffa7915851e1b882db07f80756",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1895,28 +1895,28 @@
     {
       "group": "market",
       "filename": "Supplies.json",
-      "sha256": "9634abcc5380fb7beb54e3e3182f1b216eb9fdc0b53055d1fb7c7988877aadb3",
+      "sha256": "ef3d8f6d7ce9618aadc0a8787e64a8c091fc67cc95574be934734facfcc70f3d",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Sweaters_And_Hoodies.json",
-      "sha256": "00de48fec7c64b2ece61bdd5ca9403749150b156e04c2469df275089a1f959b1",
+      "sha256": "e632f6d9717df09b0b57a568e38789d670d214bc95a15d04f7531c1e5793d0b0",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Tents.json",
-      "sha256": "91f977b92bafa465bf1a048a899ea4f41bd4334fa76d2a879c65108e0e467b86",
+      "sha256": "c5413d04754381e99b3c0f4697792a3f6abc641005217cba9b96726756c222cb",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Tools.json",
-      "sha256": "70576d41ecf60a715b1ff6cfa8de06ac9be5358e4e0207fcfc039a7f7f0a112f",
+      "sha256": "bb160ac4b3ee5f438d16abd8c9f58a73004b523da03bc6bab176971c6b72dbba",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1937,14 +1937,14 @@
     {
       "group": "market",
       "filename": "Tracksuit_Gear_Set.json",
-      "sha256": "ce7c3fc592363f518c12ddb9b5e10e1562891368fbf6974c0646751a7a5cc87f",
+      "sha256": "52a49dfb19c75b2f025df0185de0f9f5781ab3b97c036e62a46757af3d31ca52",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Umbrella_Gear_Set.json",
-      "sha256": "62ae7deb708bd3ec9964ea9b505e45d89ababebd949c80d1e7288bb146d024e7",
+      "sha256": "98d7859548f229e51605dd9cd33023f75b1900fb15c2ffa20ee6a263f3ab431d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1958,14 +1958,14 @@
     {
       "group": "market",
       "filename": "Vanilla_Halloween_Items.json",
-      "sha256": "7648ffe55bc0b7722ec1d5d0dc628e4624f45017ea6fe2ad4397664eadd94570",
+      "sha256": "d7218e277f0707c8ac6389b6fc6b721779618d13a228ebdb4d1aec77a3014047",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Vests.json",
-      "sha256": "858072d52732bbd565b9e80fe96800d38157dab4f73e568b78b3ad58275a9271",
+      "sha256": "66137763c0c34cda9e753c31d23aa1f575d4e4ab53d42b470f9fb575995795ab",
       "topLevelType": "object",
       "entryCount": 7
     },
