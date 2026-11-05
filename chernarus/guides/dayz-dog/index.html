@@ -50,9 +50,58 @@
 .dog-guide .guide-panel a:hover{color:#e0eee8}
 .dog-guide .section-nav{margin-top:28px}
 @media(max-width:760px){.guide-page{padding-top:30px}.guide-hero{padding:28px 24px}.guide-panel{padding:24px 20px}.guide-highlights,.guide-toc ol,.guide-troubleshooting{grid-template-columns:1fr}.guide-toc ol{gap:6px}.guide-highlight{padding:16px}.dog-guide table{font-size:.9rem}.guide-note{padding:15px 16px}}
+
+/* Field-guide refinements, scoped to this page. */
+.guide-toc,.guide-panel [id]{scroll-margin-top:86px}
+.guide-toc-groups{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.guide-toc-group{min-width:0;border-top:2px solid #4b5e5c;padding-top:14px}
+.guide-toc-group h3{margin:0 0 10px;color:#8ec0b3;font-size:.74rem;letter-spacing:.1em}
+.guide-toc .guide-toc-group ul{display:grid;gap:8px;list-style:none;margin:0;padding:0}
+.guide-toc a{font-size:.92rem;padding:6px 0;line-height:1.6;text-decoration-color:#53635d}
+.guide-panel h2{display:flex;align-items:flex-start;gap:13px}
+.guide-icon{width:26px;height:26px;flex:0 0 26px;color:#8ec0b3;margin-top:2px;stroke:currentColor;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.guide-panel h3 .guide-icon{width:21px;height:21px;vertical-align:middle;margin:0 9px 3px 0}
+#quick-start{border-top:2px solid #719b91;background:linear-gradient(115deg,#18201f,#141719 65%)}
+#adoption-locations,#kennels-storage{background:linear-gradient(145deg,#17201f,#141719 65%)}
+.guide-return{display:block;width:fit-content;margin:24px 0 0;padding:9px 0;font-size:.78rem;text-decoration:none;letter-spacing:.04em}
+.dog-guide .guide-return{color:#9aafa7}
+.guide-critical{border:1px solid #75513a;border-left:4px solid #d99b5d;background:linear-gradient(110deg,#302117,#1c1916);padding:18px 20px}
+.guide-critical .warning-title{display:flex;align-items:flex-start;gap:9px;margin-bottom:8px;color:#ffd9b8;font-size:.94rem;line-height:1.6}
+.warning-symbol{width:19px;height:19px;flex:0 0 19px;margin-top:3px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.guide-critical p{color:#f0d1b5;line-height:1.75;margin:0}
+.guide-note+p{margin-top:16px}
+.guide-panel>h2+.guide-note{margin-top:0!important}
+.guide-care-block{margin-top:24px;padding-top:22px;border-top:1px solid #3b4947;min-width:0}
+.guide-care-block h3:first-child{margin-top:0}
+.guide-panel>.guide-care-block:first-of-type{margin-top:0;padding-top:0;border-top:0}
+.adoption-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:22px 0 16px}
+.adoption-card{border:1px solid #4b5e5c;background:#111818;padding:22px;min-width:0}
+.adoption-card h3{font-size:1.25rem;color:#dce9e4;margin:0 0 6px;letter-spacing:.04em}
+.adoption-card .location-label{font-size:.85rem;margin-bottom:16px}
+.adoption-card .coordinate-label{display:block;color:#a8bdb4;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
+.adoption-coordinates{display:block;font:600 clamp(.88rem,2vw,1rem)/1.7 ui-monospace,Consolas,monospace;color:#eee5d8;user-select:all;overflow-wrap:anywhere}
+.copy-coordinates{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid #586e66;background:#1a2522;color:#c4ded3;font-family:inherit;font-size:.78rem;font-weight:700;line-height:1.5;padding:10px 13px;margin-top:16px;min-height:44px;cursor:pointer;max-width:100%}
+.copy-coordinates:hover{background:#23332e;border-color:#8ec0b3}
+.copy-coordinates[hidden]{display:none}
+.copy-coordinates .guide-icon{width:16px;height:16px;flex-basis:16px;margin:0}
+.copy-status{display:block;min-height:1.6em;margin-top:8px;color:#a8c9ba;font-size:.78rem;line-height:1.6}
+.dog-guide button:focus-visible,.adoption-coordinates:focus-visible{outline:2px solid #8ec0b3;outline-offset:4px}
+.dog-guide .price-table,.dog-guide .supplies-table{min-width:0}
+.price-table th:first-child{width:100px;white-space:nowrap;min-width:0}
+.supplies-table th:first-child{width:68%;min-width:0}
+.supplies-table td{white-space:nowrap}
+.dog-guide .command-table{min-width:620px}
+.command-table td:nth-child(2){white-space:nowrap}
+.guide-reference{margin-top:26px;padding-top:22px;border-top:1px solid #3b4947}
+.guide-reference h3{margin-top:0}
+.dog-guide .section-nav a{line-height:1.6;max-width:100%;overflow-wrap:anywhere}
+@media(max-width:1000px){.guide-toc-groups{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.guide-toc-groups,.adoption-grid{grid-template-columns:1fr}.guide-toc-groups{gap:20px}.adoption-card{padding:18px}.guide-panel h2{gap:10px}.guide-critical{padding:16px}.dog-guide th,.dog-guide td{padding:12px}.price-table th:first-child{width:76px}.dog-guide .section-nav{flex-direction:column;align-items:stretch}.guide-icon{width:23px;height:23px;flex-basis:23px}.guide-panel h2{font-size:1.18rem}.dog-guide table{font-size:.88rem}}
+@media(max-width:440px){body.dog-guide-page .site-support-link,body.dog-guide-page .site-store-link,body.dog-guide-page .site-discord-link{width:calc((100% - 48px)/3);font-size:.5rem;padding:0 4px;gap:4px;justify-content:center}body.dog-guide-page .site-support-link{left:12px;right:auto!important}body.dog-guide-page .site-store-link{left:calc((100% - 48px)/3 + 24px);right:auto}body.dog-guide-page .site-discord-link{right:12px}body.dog-guide-page .site-discord-link svg{width:16px;height:16px;flex-shrink:0}}
+@media(max-width:440px){body.dog-guide-page .site-discord-link span{white-space:normal;text-align:center;line-height:1.3}}
   </style>
 </head>
-<body>
+<body class="dog-guide-page">
 <header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
 <main class="wrap guide-page dog-guide">
   <div class="page-context"><a class="back" href="../">← Chernarus Guides</a><div class="world-tag">Companions &amp; Survival</div></div>
@@ -68,24 +117,16 @@
   </div>
   <nav class="guide-panel guide-toc" aria-labelledby="guide-contents">
     <h2 id="guide-contents">In This Field Guide</h2>
-    <ol>
-      <li><a href="#quick-start">Quick Start — Getting Your First Dog</a></li>
-      <li><a href="#adoption-locations">Adoption Locations</a></li>
-      <li><a href="#breeds-prices">Available Breeds &amp; Adoption Prices</a></li>
-      <li><a href="#commands-controls">Commands &amp; Controls</a></li>
-      <li><a href="#naming-care">Naming &amp; Caring for Your Dog</a></li>
-      <li><a href="#feeding-equipment-injuries">Feeding, Equipment &amp; Treating Injuries</a></li>
-      <li><a href="#supplies-prices">Dog Supplies &amp; Trader Prices</a></li>
-      <li><a href="#kennels-storage">Kennels &amp; Dog Storage</a></li>
-      <li><a href="#travel">Traveling With Your Dog</a></li>
-      <li><a href="#ownership">Important Ownership Information</a></li>
-      <li><a href="#troubleshooting">Troubleshooting</a></li>
-      <li><a href="#mod-reference">Original Mod Reference</a></li>
-    </ol>
+    <div class="guide-toc-groups">
+<div class="guide-toc-group" role="group" aria-labelledby="toc-group-0"><h3 id="toc-group-0">Getting Started</h3><ul><li><a href="#quick-start">Quick Start — Getting Your First Dog</a></li><li><a href="#adoption-locations">Adoption Locations</a></li><li><a href="#breeds-prices">Available Breeds &amp; Adoption Prices</a></li></ul></div>
+<div class="guide-toc-group" role="group" aria-labelledby="toc-group-1"><h3 id="toc-group-1">Commands &amp; Care</h3><ul><li><a href="#commands-controls">Commands &amp; Controls</a></li><li><a href="#naming-care">Naming &amp; Dog Stats</a></li><li><a href="#feeding-equipment-injuries">Feeding, Equipment &amp; Treating Injuries</a></li></ul></div>
+<div class="guide-toc-group" role="group" aria-labelledby="toc-group-2"><h3 id="toc-group-2">Equipment &amp; Storage</h3><ul><li><a href="#supplies-prices">Dog Supplies &amp; Trader Prices</a></li><li><a href="#kennels-storage">Kennels &amp; Dog Storage</a></li><li><a href="#travel">Traveling With Your Dog</a></li></ul></div>
+<div class="guide-toc-group" role="group" aria-labelledby="toc-group-3"><h3 id="toc-group-3">Ownership &amp; Support</h3><ul><li><a href="#ownership">Important Ownership Information</a></li><li><a href="#troubleshooting">Troubleshooting</a></li><li><a href="#mod-reference">Original Mod Reference</a></li></ul></div>
+</div>
     <p class="guide-table-help">On smaller screens, scroll tables sideways to see all columns.</p>
   </nav>
   <section class="guide-panel" id="quick-start" aria-labelledby="quick-start-heading">
-    <h2 id="quick-start-heading">Quick Start — Getting Your First Dog</h2>
+    <h2 id="quick-start-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="7" r="2"/><circle cx="16" cy="7" r="2"/><circle cx="4" cy="12" r="1.8"/><circle cx="20" cy="12" r="1.8"/><path d="M7 20c-4-1-2-5 0-6l3-3h4l3 3c2 1 4 5 0 6l-5-1z"/></svg>Quick Start — Getting Your First Dog</h2>
 <ol class="guide-steps">
 <li>Carry enough <strong>physical Zombie Notes in your character’s inventory</strong>. You can use multiple stacks. Notes in a bank account, vehicle, or ground container do not count toward adoption.</li>
 <li>Approach the public doghouse and select <strong>Adopt a dog</strong>. Stay within about <strong>three metres</strong> while choosing and confirming.</li>
@@ -94,20 +135,22 @@
 <li>Give your new dog the <strong>Follow</strong> command before you leave. Newly adopted dogs begin on <strong>Stay here</strong>.</li>
 </ol>
 <aside class="guide-note"><p><strong>No bone is needed to adopt.</strong> BTA uses a paid, choose-your-dog menu rather than the original mod’s bone-based setup. There is no random adoption button, and player-built kennels cannot offer adoptions. If you do not have enough notes, the purchase is rejected without charging you.</p>
-</aside>  </section>
+</aside>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a>  </section>
   <section class="guide-panel" id="adoption-locations" aria-labelledby="adoption-locations-heading">
-    <h2 id="adoption-locations-heading">Adoption Locations</h2>
+    <h2 id="adoption-locations-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Adoption Locations</h2>
 <p>Find the public adoption doghouse beside <strong>Rowan</strong> or <strong>Hazel</strong>, our animal traders. <strong>Adopt at the doghouse; buy supplies from the trader.</strong></p>
-<div class="table-scroll" role="region" aria-label="Public adoption locations; scroll horizontally if needed" tabindex="0"><table><caption>Public adoption locations</caption><thead><tr><th scope="col">Location</th><th scope="col">Trader</th><th scope="col">Doghouse map coordinates</th></tr></thead><tbody>
-<tr><th scope="row">Western location</th><td>Rowan</td><td>X 586.29, Z 8152.18</td></tr>
-<tr><th scope="row">Central location</th><td>Hazel</td><td>X 7267.98, Z 7031.83</td></tr>
-</tbody></table></div>
-<p>These coordinates use X and Z for the map position. Both locations offer the same dog choices and adoption prices.</p>
+<div class="adoption-grid">
+<article class="adoption-card" aria-labelledby="rowan-name"><h3 id="rowan-name">Rowan</h3><p class="location-label">Western location</p><span class="coordinate-label">Doghouse map coordinates · X / Z</span><code class="adoption-coordinates" id="rowan-coordinates" tabindex="0">X 586.29, Z 8152.18</code><button class="copy-coordinates" type="button" data-copy-coordinates="X 586.29, Z 8152.18" aria-label="Copy Rowan coordinates" hidden><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="1"/><path d="M16 8V3H3v13h5"/></svg><span>Copy coordinates</span></button><span class="copy-status" role="status" aria-live="polite"></span></article>
+<article class="adoption-card" aria-labelledby="hazel-name"><h3 id="hazel-name">Hazel</h3><p class="location-label">Central location</p><span class="coordinate-label">Doghouse map coordinates · X / Z</span><code class="adoption-coordinates" id="hazel-coordinates" tabindex="0">X 7267.98, Z 7031.83</code><button class="copy-coordinates" type="button" data-copy-coordinates="X 7267.98, Z 7031.83" aria-label="Copy Hazel coordinates" hidden><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="1"/><path d="M16 8V3H3v13h5"/></svg><span>Copy coordinates</span></button><span class="copy-status" role="status" aria-live="polite"></span></article>
+</div>
+<p>These coordinates use X and Z for the map position. <strong>Both locations offer the same dog choices and adoption prices.</strong></p>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a>
   </section>
   <section class="guide-panel" id="breeds-prices" aria-labelledby="breeds-prices-heading">
-    <h2 id="breeds-prices-heading">Available Breeds &amp; Adoption Prices</h2>
+    <h2 id="breeds-prices-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="7" r="2"/><circle cx="16" cy="7" r="2"/><circle cx="4" cy="12" r="1.8"/><circle cx="20" cy="12" r="1.8"/><path d="M7 20c-4-1-2-5 0-6l3-3h4l3 3c2 1 4 5 0 6l-5-1z"/></svg>Available Breeds &amp; Adoption Prices</h2>
 <p>Choose from <strong>35 breed and appearance options</strong>. Adoption costs vary by breed.</p><p>All prices are in Zombie Notes. Named and coat variants of the same breed share the price shown below.</p>
-<div class="table-scroll" role="region" aria-label="Adoption prices · Zombie Notes; scroll horizontally if needed" tabindex="0"><table><caption>Adoption prices · Zombie Notes</caption><thead><tr><th scope="col">Price</th><th scope="col">Breeds</th></tr></thead><tbody>
+<div class="table-scroll" role="region" aria-label="Adoption prices · Zombie Notes; scroll horizontally if needed" tabindex="0"><table class="price-table"><caption>Adoption prices · Zombie Notes</caption><thead><tr><th scope="col">Price</th><th scope="col">Breeds</th></tr></thead><tbody>
 <tr><th scope="row">2,500</th><td>Golden Retriever, Labrador, Collie</td></tr>
 <tr><th scope="row">3,500</th><td>Bullterrier, Dalmatian, German Pointer, Vizsla, Border Collie</td></tr>
 <tr><th scope="row">5,000</th><td>Siberian Husky, Pitbull, Boxer</td></tr>
@@ -116,11 +159,12 @@
 <tr><th scope="row">10,000</th><td>Czechoslovakian Wolfdog, St. Bernard</td></tr>
 </tbody></table></div>
 <p class="guide-note">Dogs cannot be sold back to the animal traders.</p>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a>
   </section>
   <section class="guide-panel" id="commands-controls" aria-labelledby="commands-controls-heading">
-    <h2 id="commands-controls-heading">Commands &amp; Controls</h2>
+    <h2 id="commands-controls-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3" fill="#141719"/><circle cx="15" cy="17" r="3" fill="#141719"/></svg>Commands &amp; Controls</h2>
 <p>Check <strong>Options → Controls → DayZ Dog</strong> to view or change your bindings. The keys below are the <strong>mod defaults</strong>; your existing bindings may differ.</p>
-<div class="table-scroll" role="region" aria-label="Commands and default keybindings; scroll horizontally if needed" tabindex="0"><table><caption>Commands and default keybindings</caption><thead><tr><th scope="col">Command</th><th scope="col">Default key</th><th scope="col">What it does</th></tr></thead><tbody>
+<div class="table-scroll" role="region" aria-label="Commands and default keybindings; scroll horizontally if needed" tabindex="0"><table class="command-table"><caption>Commands and default keybindings</caption><thead><tr><th scope="col">Command</th><th scope="col">Default key</th><th scope="col">What it does</th></tr></thead><tbody>
 <tr><th scope="row">Whistle</th><td>Numpad +</td><td>Calls your active dog to your position and puts it into Follow. Use this if it gets stuck or falls behind.</td></tr>
 <tr><th scope="row">Follow</th><td>Numpad /</td><td>Brings your dog along with you. It can respond to infected threatening you.</td></tr>
 <tr><th scope="row">Patrol</th><td>Numpad *</td><td>Lets your dog engage nearby infected.</td></tr>
@@ -129,30 +173,31 @@
 </tbody></table></div>
 <p>You can also use the available interaction prompts while looking at your dog. Allow a moment between commands. <strong>Whistle while on foot</strong>, with enough room for the dog to appear beside you.</p>
 <p class="guide-note"><strong>Map-based waypoint missions are disabled on BTA Chernarus.</strong> Use <strong>Follow</strong>, <strong>Patrol</strong>, and <strong>Stay here</strong> for everyday commands.</p>
-<p class="guide-note guide-warning"><strong>Keep control around other survivors.</strong> Dog attacks against players are not disabled on Chernarus. Follow the server’s combat rules. The mod’s automatic punishment for killing a dog is also disabled; community rules and staff decisions still apply.</p>
-<p><a href="../../rules/">Read the Chernarus server rules →</a></p>  </section>
-  <section class="guide-panel" id="naming-care" aria-labelledby="naming-care-heading">
-    <h2 id="naming-care-heading">Naming &amp; Caring for Your Dog</h2>
-<p>Look at your dog and select <strong>Dog Stats</strong> to check its health and recorded activity. To give it a name, use the name field and naming button in the management screen.</p>
-  </section>
+<aside class="guide-note guide-warning"><p><strong>Keep control around other survivors.</strong> The mod configuration does not disable dog attacks against players. That technical setting does not grant permission to attack: <strong>do not use your dog to attack players in protected PvE areas.</strong> Chernarus is a PvE server with designated PvP zones; player combat is permitted only within those zones and remains subject to the <a href="../../rules/">official Chernarus server rules</a>.</p><p>The mod’s automatic punishment for killing a dog is also disabled; community rules and staff decisions still apply.</p></aside>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a>  </section>
   <section class="guide-panel" id="feeding-equipment-injuries" aria-labelledby="feeding-equipment-injuries-heading">
-    <h2 id="feeding-equipment-injuries-heading">Feeding, Equipment &amp; Treating Injuries</h2>
-<h3>Feeding your dog</h3><p>Hold a real bone or supported meat in your hands, look at your dog and use <strong>Feed Dog</strong>. Supported meat includes deer, cow, pig, goat, boar, bear and sheep steaks, rabbit legs, and chicken breasts.</p>
+    <h2 id="feeding-equipment-injuries-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h18l-3 8H6zM8 4v3m4-4v4m4-3v3"/></svg>Feeding, Equipment &amp; Treating Injuries</h2>
+<div class="guide-care-block" id="naming-care"><h3 id="naming-care-heading">Naming &amp; Dog Stats</h3><p>Look at your dog and select <strong>Dog Stats</strong> to check its health and recorded activity. To give it a name, use the name field and naming button in the management screen.</p></div>
+<div class="guide-care-block"><h3><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h18l-3 8H6zM8 4v3m4-4v4m4-3v3"/></svg>Feeding your dog</h3><p>Hold a real bone or supported meat in your hands, look at your dog and use <strong>Feed Dog</strong>. Supported meat includes deer, cow, pig, goat, boar, bear and sheep steaks, rabbit legs, and chicken breasts.</p>
 <p class="guide-note guide-warning">Before feeding, <strong>empty the dog’s mouth slot and remove its dog gas mask</strong>. The <strong>Feed Dog</strong> action will not appear while either slot is occupied. Let the eating action finish before giving another command.</p>
 <p><strong>A bone toy is not food.</strong> The dog bowl and bone toy are accessories; buying a bowl does not replace feeding your dog with a supported item.</p>
 <h3>Fetch and accessories</h3><p>For a game of fetch, keep your dog nearby, remove its gas mask and mouth attachment, and throw the ordinary dog bone toy. Start on clear, open ground.</p>
-<h3>Equipment</h3><p>Fit compatible collars, vests, and dog gas masks through the inventory attachment slots. Check your dog’s health after combat: equipment does not make it invulnerable.</p>
-<h3>Treating an injury</h3><ol class="guide-steps">
+</div>
+<div class="guide-care-block"><h3>Equipment</h3><p>Fit compatible collars, vests, and dog gas masks through the inventory attachment slots. Check your dog’s health after combat: equipment does not make it invulnerable.</p>
+</div>
+<div class="guide-care-block"><h3><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/></svg>Treating an injury</h3><ol class="guide-steps">
 <li>Command your dog to <strong>Stay here</strong>.</li>
 <li>Hold a usable bandage and crouch beside it.</li>
 <li>Look at the wounded dog and complete <strong>Bandage dog&#x27;s wound</strong>.</li>
 </ol>
-<p class="guide-note guide-warning">The treatment prompt appears only when the dog is wounded and staying in place. <strong>Dogs can die from their injuries.</strong> Carry bandages and pull your companion out of dangerous fights.</p>
+<aside class="guide-note guide-warning guide-critical" aria-labelledby="warning-injuries"><strong class="warning-title" id="warning-injuries"><svg class="warning-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Dogs can die from their injuries</strong><p>The treatment prompt appears only when the dog is <strong>wounded and staying in place</strong>. Carry bandages, treat injuries, and pull your companion out of dangerous fights.</p></aside>
+</div>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a>
   </section>
   <section class="guide-panel" id="supplies-prices" aria-labelledby="supplies-prices-heading">
-    <h2 id="supplies-prices-heading">Dog Supplies &amp; Trader Prices</h2>
+    <h2 id="supplies-prices-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14v13H5zM9 8V5a3 3 0 0 1 6 0v3M5 13h14"/></svg>Dog Supplies &amp; Trader Prices</h2>
 <p>Both <strong>Rowan and Hazel</strong> sell these supplies for <strong>Zombie Notes</strong> with <strong>unlimited stock</strong>. Matching colour or design variants share the listed price.</p>
-<div class="table-scroll" role="region" aria-label="Dog supplies · purchase prices in Zombie Notes; scroll horizontally if needed" tabindex="0"><table><caption>Dog supplies · purchase prices in Zombie Notes</caption><thead><tr><th scope="col">Item</th><th scope="col">Purchase price</th></tr></thead><tbody>
+<div class="table-scroll" role="region" aria-label="Dog supplies · purchase prices in Zombie Notes; scroll horizontally if needed" tabindex="0"><table class="supplies-table"><caption>Dog supplies · purchase prices in Zombie Notes</caption><thead><tr><th scope="col">Item</th><th scope="col">Purchase price</th></tr></thead><tbody>
 <tr><th scope="row">Dog collar, any of seven colours</th><td>250</td></tr>
 <tr><th scope="row">Dog vest, any of six designs</th><td>1,000</td></tr>
 <tr><th scope="row">Dog gas mask</th><td>1,500</td></tr>
@@ -165,26 +210,30 @@
 <tr><th scope="row">Bandage, full roll</th><td>250</td></tr>
 </tbody></table></div>
 <p class="guide-note">Both traders buy physical supplies back at <strong>50% of their purchase price before condition and quantity adjustments</strong>. A pristine, complete vest bought for 1,000 notes has a base sell-back value of <strong>500 notes</strong>. Damaged items and partly used stacks can return less; ruined items have no sell-back value.</p>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a>
   </section>
   <section class="guide-panel" id="kennels-storage" aria-labelledby="kennels-storage-heading">
-    <h2 id="kennels-storage-heading">Kennels &amp; Dog Storage</h2>
+    <h2 id="kennels-storage-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 11 12 3l10 8M5 9v12h14V9M9 21v-6a3 3 0 0 1 6 0v6"/></svg>Kennels &amp; Dog Storage</h2>
 <p>Buy a kennel kit from Rowan or Hazel and deploy it at your base. <strong>Kennel kits do not spawn in the loot economy.</strong></p>
 <p>To store your dog, approach an <strong>empty deployed kennel</strong> with your dog assigned to you, look at the kennel, and choose <strong>Leave dog in kennel</strong>. To retrieve it, return with a <strong>free dog slot</strong> and choose <strong>Take dog from kennel</strong>. Only the stored dog’s owner can retrieve it.</p>
 <p><strong>Each kennel stores one dog.</strong> Retrieving your stored dog does not cost another adoption payment. Kennels provide storage and retrieval only; they never offer a menu to adopt a new dog.</p>
-<p class="guide-note guide-warning">Keep your kennel protected and accessible. <strong>Use the kennel interaction to store your dog.</strong> Telling it to Stay beside a kennel does not store it.</p>
+<aside class="guide-note guide-warning guide-critical" aria-labelledby="warning-kennel"><strong class="warning-title" id="warning-kennel"><svg class="warning-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Stay beside a kennel does not store your dog</strong><p>Use <strong>Leave dog in kennel</strong> to store your dog. Keep your kennel protected and accessible.</p></aside>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a>
   </section>
   <section class="guide-panel" id="travel" aria-labelledby="travel-heading">
-    <h2 id="travel-heading">Traveling With Your Dog</h2>
-<p>Set your dog to <strong>Follow before entering a vehicle</strong>. The mod temporarily stores the following dog and brings it back when you get out. A dog left on <strong>Stay</strong> or <strong>Patrol</strong> does not use this Follow travel behaviour.</p>
+    <h2 id="travel-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 16 2-7h10l2 7M4 16h16v4H4zM8 5h8M7 20v2m10-2v2M8 16h.01M16 16h.01"/></svg>Traveling With Your Dog</h2>
+<aside class="guide-note guide-warning guide-critical" aria-labelledby="warning-travel"><strong class="warning-title" id="warning-travel"><svg class="warning-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Give Follow before entering a vehicle</strong><p>The mod temporarily stores a <strong>following dog</strong> and brings it back when you get out. A dog left on <strong>Stay</strong> or <strong>Patrol</strong> does not use this Follow travel behaviour.</p></aside>
 <p>After reconnecting, give your active dog time to load. It can return at its last saved location. If it is away from you, use <strong>Whistle while on foot</strong>. If it still does not return, contact staff before paying for a replacement.</p>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a>
   </section>
   <section class="guide-panel" id="ownership" aria-labelledby="ownership-heading">
-    <h2 id="ownership-heading">Important Ownership Information</h2>
+    <h2 id="ownership-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 8 3v6c0 5-8 11-8 11S4 16 4 11V5zM12 8v5m0 4h.01"/></svg>Important Ownership Information</h2>
 <p class="guide-note"><strong>Only one dog can be active per character.</strong> You cannot adopt or retrieve another dog while your character’s dog slot is occupied.</p>
-<p class="guide-note guide-warning"><strong>Character death clears your active dog ownership.</strong> The adoption payment does not protect an active dog from loss. When leaving dogs at home, store them in a kennel using the proper action.</p>
+<aside class="guide-note guide-warning guide-critical" aria-labelledby="warning-death"><strong class="warning-title" id="warning-death"><svg class="warning-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Character death clears active dog ownership</strong><p>The adoption payment does not protect an active dog from loss. When leaving dogs at home, store them in a kennel using the proper action.</p></aside>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a>
   </section>
   <section class="guide-panel" id="troubleshooting" aria-labelledby="troubleshooting-heading">
-    <h2 id="troubleshooting-heading">Troubleshooting</h2>
+    <h2 id="troubleshooting-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-1 .7-1.5 1-1.5 3m0 3h.01"/></svg>Troubleshooting</h2>
 <dl class="guide-troubleshooting"><div><dt>No Adopt a dog prompt</dt><dd>Check that you are at one of the two public houses, close enough to interact, and do not already have a dog assigned to your character. Your own kennel cannot offer adoptions.</dd></div>
 <div><dt>Not enough Zombie Notes</dt><dd>Carry enough physical notes in your character&#x27;s inventory. Notes in nearby storage or a bank balance do not pay for dog adoption.</dd></div>
 <div><dt>New dog stays behind</dt><dd>Newly adopted dogs start on Stay. Use Follow or Whistle.</dd></div>
@@ -192,15 +241,38 @@
 <div><dt>No bandaging prompt</dt><dd>The dog must be wounded and on Stay. Hold a usable bandage and crouch beside it.</dd></div>
 <div><dt>Cannot retrieve a kennel dog</dt><dd>Make sure it is your stored dog and your character&#x27;s dog slot is free. Move close and aim at the kennel&#x27;s interaction point.</dd></div>
 <div><dt>Dog missing after reconnect</dt><dd>Wait for loading, try Whistle on foot, and ask staff for help if it remains missing. Include your location, dog choice and what happened before it disappeared.</dd></div>
-</dl>  </section>
-  <section class="guide-panel" id="mod-reference" aria-labelledby="mod-reference-heading">
-    <h2 id="mod-reference-heading">Original Mod Reference</h2>
+</dl>
+  <div class="guide-reference" id="mod-reference">
+    <h3 id="mod-reference-heading">Original Mod Reference</h3>
 <p>For <strong>BTA adoption locations, prices, and kennel behaviour</strong>, follow this guide. The original mod’s general instructions describe a different, bone-based adoption setup.</p>
 <p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2471347750" target="_blank" rel="noopener noreferrer">Original DayZ Dog mod ↗</a></p>
+  </div>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a>
   </section>
   <nav class="section-nav" aria-label="Guide navigation"><a href="../">← Return to Chernarus Guides</a><a href="#guide-contents">Back to contents ↑</a><a href="../../">Chernarus Hub →</a></nav>
 </main>
 <footer><div class="wrap">Beneath the Ashes • Chernarus • DayZ Dog Player Guide</div></footer>
 <script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
+<script>
+document.querySelectorAll('[data-copy-coordinates]').forEach((button) => {
+  button.hidden = false;
+  button.addEventListener('click', async () => {
+    const status = button.parentElement.querySelector('.copy-status');
+    status.textContent = '';
+    try {
+      await navigator.clipboard.writeText(button.dataset.copyCoordinates);
+      status.textContent = 'Copied: ' + button.dataset.copyCoordinates;
+    } catch {
+      const coordinates = button.parentElement.querySelector('.adoption-coordinates');
+      const range = document.createRange();
+      range.selectNodeContents(coordinates);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      status.textContent = 'Copy unavailable. Coordinates selected; copy them manually.';
+    }
+  });
+});
+</script>
 </body>
 </html>
