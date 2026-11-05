@@ -1,128 +1,165 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>DayZ Horse Guide | Beneath the Ashes</title>
-  <link rel="stylesheet" href="../../../styles.css?v=connection-hover-2">
-  <style>
-    .guide-page{padding:48px 0 76px}
-    .guide-hero{border:1px solid #4c6263;background:radial-gradient(circle at 78% 12%,rgba(110,156,145,.22),transparent 30%),linear-gradient(145deg,#1b2929,#131719 64%);padding:42px 44px;margin:28px 0 34px;min-height:280px;display:flex;flex-direction:column;justify-content:end}
-    .guide-hero h1{font-size:clamp(3.2rem,8vw,7rem);line-height:.86;letter-spacing:-.06em;text-transform:uppercase;margin:12px 0}
-    .guide-hero p{max-width:760px;color:#d8c4ad;line-height:1.7}
-    .guide-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr);gap:22px}
-    .guide-panel{border:1px solid var(--line);background:#141719;padding:26px}
-    .guide-panel h2{margin:0 0 18px;text-transform:uppercase;font-size:1.35rem}
-    .guide-panel h3{margin:20px 0 10px;color:#d8c4ad;text-transform:uppercase;font-size:1rem;letter-spacing:.08em}
-    .guide-panel p,.guide-panel li{color:var(--muted);line-height:1.6}
-    .guide-panel ul,.guide-panel ol{padding-left:20px;margin:0;display:grid;gap:10px}
-    .guide-panel strong{color:#f1e7dc}
-    .guide-step{border-left:3px solid #719b91;background:#17201f;padding:16px 18px;margin-top:12px}
-    .guide-step strong{display:block;color:#e0eee8;text-transform:uppercase;letter-spacing:.06em;margin-bottom:5px}
-    .guide-note{margin-top:22px;border-left:3px solid var(--ember);padding:16px 18px;background:#1c1714;color:#d8c4ad;line-height:1.6}
-    .horse-guide .guide-hero .kicker{color:#8ec0b3}
-    .horse-guide .guide-panel h2{color:#dce9e4}
-    .horse-warning{border-left-color:#d99b5d;background:linear-gradient(110deg,#281d17,#181716);color:#f0d1b5;font-weight:800}
-    .horse-warning strong{color:#ffd9b8}
-    .horse-total{border:1px solid #5d8278;border-left:4px solid #8ec0b3;background:linear-gradient(110deg,#192725,#141719);color:#dce9e4;font-size:1.04rem;font-weight:800}
-    .horse-total strong{color:#b8e0d4}
-    .horse-slots{margin-top:18px;padding:14px 16px;border:1px solid #4b5e5c;background:#171e1e;color:#c4d5d0;line-height:1.6}
-    .horse-stages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}
-    .horse-stage{padding:16px;border:1px solid #394846;background:#151c1c}
-    .horse-stage strong{display:block;margin-bottom:7px;color:#b8e0d4;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase}
-    .horse-stage span{display:block;color:var(--muted);font-size:.9rem;line-height:1.55}
-    .horse-guide .guide-steps{display:grid;gap:12px}
-    @media(max-width:760px){
-      .guide-hero{padding:28px 24px}
-      .guide-layout{grid-template-columns:1fr}
-      .horse-stages{grid-template-columns:1fr}
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DayZ Horse Player Guide | Beneath the Ashes</title>
+<meta name="description" content="Adopt a horse from Rowan or Hazel, compare Zombie Note prices, claim wild horses, learn riding controls, and build stables on BTA Chernarus.">
+<link rel="stylesheet" href="../../../styles.css?v=connection-hover-2"><style>
+.guide-page{padding:48px 0 76px}
+.guide-hero{border:1px solid #4c6263;background:radial-gradient(circle at 78% 12%,rgba(110,156,145,.22),transparent 30%),linear-gradient(145deg,#1b2929,#131719 64%);padding:42px 44px;margin:28px 0 24px;min-height:280px;display:flex;flex-direction:column;justify-content:end}
+.guide-hero h1{font-size:clamp(3.2rem,8vw,7rem);line-height:.86;letter-spacing:-.06em;text-transform:uppercase;margin:12px 0}
+.guide-hero p{max-width:760px;color:#d8c4ad;line-height:1.7}
+.horse-guide .guide-hero .kicker{color:#8ec0b3}
+.guide-highlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0 0 24px}
+.guide-highlight{border:1px solid #4b5e5c;padding:18px;background:#171e1e;line-height:1.55;color:#c4d5d0}
+.guide-highlight strong{display:block;color:#b8e0d4;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:7px}
+.guide-panel{border:1px solid var(--line);background:#141719;padding:28px;margin-top:22px;scroll-margin-top:86px;min-width:0}
+.guide-panel h2{margin:0 0 18px;text-transform:uppercase;font-size:clamp(1.25rem,2.5vw,1.65rem);line-height:1.35;color:#dce9e4}
+.guide-panel h3{margin:26px 0 10px;color:#d8c4ad;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;line-height:1.5}
+.guide-panel p,.guide-panel li{color:var(--muted);line-height:1.75}
+.guide-panel p{margin:0 0 16px;max-width:930px}
+.guide-panel p:last-child{margin-bottom:0}
+.guide-panel strong{color:#f1e7dc}
+.guide-steps{padding-left:24px;margin:0;display:grid;gap:16px;max-width:960px}
+.guide-steps li{padding-left:8px}
+.guide-steps li::marker{color:#8ec0b3;font-weight:800}
+.guide-note{margin-top:22px!important;border-left:3px solid #719b91;padding:16px 18px;background:#17201f;color:#c4d5d0!important;line-height:1.7}
+.guide-note p{color:inherit}
+.guide-warning{border-left-color:#d99b5d;background:linear-gradient(110deg,#281d17,#181716);color:#f0d1b5!important}
+.guide-warning strong{color:#ffd9b8}
+.guide-toc ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px 25px;padding-left:22px;margin:0}
+.guide-toc a{display:block;padding:5px 0;color:#d8c4ad;text-decoration:underline;text-underline-offset:4px;line-height:1.55}
+.table-scroll{max-width:100%;overflow-x:auto;border:1px solid #3b4947;margin:20px 0;-webkit-overflow-scrolling:touch}
+.horse-guide table{width:100%;min-width:540px;border-collapse:collapse;font-size:.94rem;line-height:1.65}
+.horse-guide caption{text-align:left;padding:13px 16px;background:#192321;color:#b8e0d4;font-weight:800}
+.horse-guide th,.horse-guide td{text-align:left;vertical-align:top;padding:14px 16px;border-bottom:1px solid #353d3b}
+.horse-guide thead th{color:#dce9e4;background:#1b2423;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
+.horse-guide tbody th{color:#ece7df;font-weight:700;min-width:130px}
+.horse-guide tbody td{color:#bbb9b0}
+.horse-guide tbody tr:nth-child(even){background:#171c1d}
+.horse-guide tr:last-child th,.horse-guide tr:last-child td{border-bottom:0}
+.guide-table-help{color:var(--muted);font-size:.85rem;line-height:1.65;margin:12px 0 0}
+.guide-troubleshooting{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:0}
+.guide-troubleshooting>div{border:1px solid var(--line);padding:18px;background:#111516}
+.guide-troubleshooting dt{color:#d8c4ad;font-weight:800;line-height:1.55;margin-bottom:8px}
+.guide-troubleshooting dd{color:var(--muted);line-height:1.7;margin:0}
+.horse-guide a:focus-visible,.horse-guide .table-scroll:focus-visible{outline:2px solid #8ec0b3;outline-offset:4px}
+.horse-guide .guide-panel a{color:#b8e0d4}
+.horse-guide .guide-panel a:hover{color:#e0eee8}
+.horse-guide .section-nav{margin-top:28px}
+@media(max-width:760px){.guide-page{padding-top:30px}.guide-hero{padding:28px 24px}.guide-panel{padding:24px 20px}.guide-highlights,.guide-toc ol,.guide-troubleshooting{grid-template-columns:1fr}.guide-toc ol{gap:6px}.guide-highlight{padding:16px}.horse-guide table{font-size:.9rem}.guide-note{padding:15px 16px}}
+
+/* Field-guide refinements, scoped to this page. */
+.guide-toc,.guide-panel [id]{scroll-margin-top:86px}
+.guide-toc-groups{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.guide-toc-group{min-width:0;border-top:2px solid #4b5e5c;padding-top:14px}
+.guide-toc-group h3{margin:0 0 10px;color:#8ec0b3;font-size:.74rem;letter-spacing:.1em}
+.guide-toc .guide-toc-group ul{display:grid;gap:8px;list-style:none;margin:0;padding:0}
+.guide-toc a{font-size:.92rem;padding:6px 0;line-height:1.6;text-decoration-color:#53635d}
+.guide-panel h2{display:flex;align-items:flex-start;gap:13px}
+.guide-icon{width:26px;height:26px;flex:0 0 26px;color:#8ec0b3;margin-top:2px;stroke:currentColor;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.guide-panel h3 .guide-icon{width:21px;height:21px;vertical-align:middle;margin:0 9px 3px 0}
+#quick-start{border-top:2px solid #719b91;background:linear-gradient(115deg,#18201f,#141719 65%)}
+#adoption-locations,#stable-storage{background:linear-gradient(145deg,#17201f,#141719 65%)}
+.guide-return{display:block;width:fit-content;margin:24px 0 0;padding:9px 0;font-size:.78rem;text-decoration:none;letter-spacing:.04em}
+.horse-guide .guide-return{color:#9aafa7}
+.guide-critical{border:1px solid #75513a;border-left:4px solid #d99b5d;background:linear-gradient(110deg,#302117,#1c1916);padding:18px 20px}
+.guide-critical .warning-title{display:flex;align-items:flex-start;gap:9px;margin-bottom:8px;color:#ffd9b8;font-size:.94rem;line-height:1.6}
+.warning-symbol{width:19px;height:19px;flex:0 0 19px;margin-top:3px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.guide-critical p{color:#f0d1b5;line-height:1.75;margin:0}
+.guide-note+p{margin-top:16px}
+.guide-panel>h2+.guide-note{margin-top:0!important}
+.guide-care-block{margin-top:24px;padding-top:22px;border-top:1px solid #3b4947;min-width:0}
+.guide-care-block h3:first-child{margin-top:0}
+.adoption-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:22px 0 16px}
+.adoption-card{border:1px solid #4b5e5c;background:#111818;padding:22px;min-width:0}
+.adoption-card h3{font-size:1.25rem;color:#dce9e4;margin:0 0 6px;letter-spacing:.04em}
+.adoption-card .location-label{font-size:.85rem;margin-bottom:16px}
+.adoption-card .coordinate-label{display:block;color:#a8bdb4;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
+.adoption-coordinates{display:block;font:600 clamp(.88rem,2vw,1rem)/1.7 ui-monospace,Consolas,monospace;color:#eee5d8;user-select:all;overflow-wrap:anywhere}
+.copy-coordinates{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid #586e66;background:#1a2522;color:#c4ded3;font-family:inherit;font-size:.78rem;font-weight:700;line-height:1.5;padding:10px 13px;margin-top:16px;min-height:44px;cursor:pointer;max-width:100%}
+.copy-coordinates:hover{background:#23332e;border-color:#8ec0b3}
+.copy-coordinates[hidden]{display:none}
+.copy-coordinates .guide-icon{width:16px;height:16px;flex-basis:16px;margin:0}
+.copy-status{display:block;min-height:1.6em;margin-top:8px;color:#a8c9ba;font-size:.78rem;line-height:1.6}
+.horse-guide button:focus-visible,.adoption-coordinates:focus-visible{outline:2px solid #8ec0b3;outline-offset:4px}
+.horse-guide .price-table,.horse-guide .supplies-table{min-width:0}
+.price-table th:first-child{width:100px;white-space:nowrap;min-width:0}
+.supplies-table th:first-child{width:68%;min-width:0}
+.supplies-table td{white-space:nowrap}
+.horse-guide .command-table{min-width:620px}
+.command-table td:nth-child(2){white-space:nowrap}
+.guide-reference{margin-top:26px;padding-top:22px;border-top:1px solid #3b4947}
+.guide-reference h3{margin-top:0}
+.horse-guide .section-nav a{line-height:1.6;max-width:100%;overflow-wrap:anywhere}
+@media(max-width:1000px){.guide-toc-groups{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.guide-toc-groups,.adoption-grid{grid-template-columns:1fr}.guide-toc-groups{gap:20px}.adoption-card{padding:18px}.guide-panel h2{gap:10px}.guide-critical{padding:16px}.horse-guide th,.horse-guide td{padding:12px}.price-table th:first-child{width:76px}.horse-guide .section-nav{flex-direction:column;align-items:stretch}.guide-icon{width:23px;height:23px;flex-basis:23px}.guide-panel h2{font-size:1.18rem}.horse-guide table{font-size:.88rem}}
+@media(max-width:440px){body.horse-guide-page .site-support-link,body.horse-guide-page .site-store-link,body.horse-guide-page .site-discord-link{width:calc((100% - 48px)/3);font-size:.5rem;padding:0 4px;gap:4px;justify-content:center}body.horse-guide-page .site-support-link{left:12px;right:auto!important}body.horse-guide-page .site-store-link{left:calc((100% - 48px)/3 + 24px);right:auto}body.horse-guide-page .site-discord-link{right:12px}body.horse-guide-page .site-discord-link svg{width:16px;height:16px;flex-shrink:0}}
+@media(max-width:440px){body.horse-guide-page .site-discord-link span{white-space:normal;text-align:center;line-height:1.3}}
+
+.horse-guide .guide-list{padding-left:22px;margin:0;display:grid;gap:12px}
+.stable-stages{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:22px 0}
+.stable-stage{border:1px solid #4b5e5c;background:#171e1e;padding:20px;min-width:0}
+.stable-stage h3{margin:0 0 12px;color:#b8e0d4;font-size:.85rem}
+.stable-stage ul{padding-left:20px;margin:0}
+.horse-guide .material-total{border:1px solid #5d8278;border-left:4px solid #8ec0b3;background:linear-gradient(110deg,#192725,#141719);color:#dce9e4!important}
+.horse-guide .procedure-heading{margin-top:26px}
+.horse-guide .command-table{min-width:480px}
+@media(max-width:760px){.stable-stages{grid-template-columns:1fr}}
+</style></head>
+<body class="horse-guide-page"><header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
+<main class="wrap guide-page horse-guide"><div class="page-context"><a class="back" href="../">← Chernarus Guides</a><div class="world-tag">Horses &amp; Survival</div></div>
+<section class="guide-hero" id="introduction"><div class="kicker">BTA Player Guide · Chernarus</div><h1>DayZ<br>Horse</h1><p>There is still a road through the ruins. Adopt a companion from Rowan or Hazel, or claim a wild horse, then settle into the saddle, mind its stamina, and build a stable for the horses you bring home.</p></section>
+<div class="guide-highlights" aria-label="Before you adopt"><div class="guide-highlight"><strong>Speak to Rowan or Hazel</strong>Horse adoption is in the trader menu. Doghouses are for dogs.</div><div class="guide-highlight"><strong>Saddle &amp; bridle included</strong>Trader adoptions arrive equipped; wild claiming needs your own gear.</div><div class="guide-highlight"><strong>One active horse</strong>Stable your current horse before adopting or retrieving another.</div></div>
+<nav class="guide-panel guide-toc" aria-labelledby="guide-contents"><h2 id="guide-contents">In This Field Guide</h2><div class="guide-toc-groups"><div class="guide-toc-group" role="group" aria-labelledby="toc-group-0"><h3 id="toc-group-0">Getting Started</h3><ul><li><a href="#quick-start">Quick Start — Your First Horse</a></li><li><a href="#adoption-locations">Horse Adoption Locations</a></li><li><a href="#horses-prices">Horses &amp; Adoption Prices</a></li></ul></div><div class="guide-toc-group" role="group" aria-labelledby="toc-group-1"><h3 id="toc-group-1">Riding &amp; Equipment</h3><ul><li><a href="#wild-horses">Finding &amp; Claiming Wild Horses</a></li><li><a href="#riding-controls">Riding Controls &amp; Stamina</a></li><li><a href="#horse-equipment">Equipment &amp; Accessories</a></li></ul></div><div class="guide-toc-group" role="group" aria-labelledby="toc-group-2"><h3 id="toc-group-2">Stables &amp; Ownership</h3><ul><li><a href="#building-stable">Building a Stable</a></li><li><a href="#stable-storage">Storing &amp; Retrieving Horses</a></li><li><a href="#horse-ownership">Ownership &amp; Warnings</a></li></ul></div><div class="guide-toc-group" role="group" aria-labelledby="toc-group-3"><h3 id="toc-group-3">Help &amp; Reference</h3><ul><li><a href="#troubleshooting">Troubleshooting</a></li><li><a href="#mod-reference">Original Mod Reference</a></li></ul></div></div><p class="guide-table-help">On smaller screens, scroll tables sideways to see all columns.</p></nav>
+<section class="guide-panel" id="quick-start" aria-labelledby="quick-start-heading"><h2 id="quick-start-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 21 1-8 5-5-1-5 5 3 3 5 2 2-2 3-5-1-2 6M12 5l-2-2M14 10h.01"/></svg>Quick Start — Getting Your First Horse</h2>
+<ol class="guide-steps"><li>Make sure you have <strong>no active horse assigned to your character</strong>. Stable your current horse before adopting another.</li><li>Carry enough <strong>physical Zombie Notes in your character’s inventory</strong> for the horse you want. A bank balance or notes left in nearby storage cannot pay for adoption.</li><li>Approach <strong>Rowan or Hazel directly</strong> and open the trader’s menu. Browse <strong>Horse Adoptions - Saddle and Bridle Included</strong>, then choose your horse and its colour or appearance variant.</li><li>Check the displayed price, set the quantity to <strong>one horse</strong>, and complete the purchase. Stay close to the trader and keep the nearby horse collection area clear.</li><li>Collect your chosen horse from the trader’s delivery point. It is <strong>registered to you with a basic saddle and bridle already fitted</strong>. You do not need to bring either item for a trader adoption. Use the horse’s riding prompt to mount.</li></ol><aside class="guide-note"><p><strong>Horses: speak to the trader. Dogs: use the public doghouse.</strong> Horse options are inside Rowan’s or Hazel’s trader menu. The doghouse beside them is for dog adoption and does not sell horses. Prefer the wild route? See <a href="#wild-horses">finding and claiming wild horses</a>.</p></aside>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="adoption-locations" aria-labelledby="adoption-locations-heading"><h2 id="adoption-locations-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Horse Adoption Locations</h2>
+<p>Find <strong>Rowan in western Chernarus</strong> or <strong>Hazel in central Chernarus</strong>. Use the same animal-trader meeting points listed in the <a href="../dayz-dog/">DayZ Dog Guide</a>; the traders stand nearby.</p><div class="adoption-grid"><article class="adoption-card" aria-labelledby="rowan-name"><h3 id="rowan-name">Rowan</h3><p class="location-label">Western Chernarus</p><span class="coordinate-label">Animal-trader meeting point · X / Z</span><code class="adoption-coordinates" id="rowan-coordinates" tabindex="0">X 586.29, Z 8152.18</code><button class="copy-coordinates" type="button" data-copy-coordinates="X 586.29, Z 8152.18" aria-label="Copy Rowan coordinates" hidden><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="1"/><path d="M16 8V3H3v13h5"/></svg><span>Copy coordinates</span></button><span class="copy-status" role="status" aria-live="polite"></span></article><article class="adoption-card" aria-labelledby="hazel-name"><h3 id="hazel-name">Hazel</h3><p class="location-label">Central Chernarus</p><span class="coordinate-label">Animal-trader meeting point · X / Z</span><code class="adoption-coordinates" id="hazel-coordinates" tabindex="0">X 7267.98, Z 7031.83</code><button class="copy-coordinates" type="button" data-copy-coordinates="X 7267.98, Z 7031.83" aria-label="Copy Hazel coordinates" hidden><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="1"/><path d="M16 8V3H3v13h5"/></svg><span>Copy coordinates</span></button><span class="copy-status" role="status" aria-live="polite"></span></article></div><p><strong>Both traders offer the same horse choices and adoption prices.</strong> These are map X/Z coordinates for the shared location. Once there, approach the trader and browse the horse options in their menu. Use the nearby public doghouse only when adopting a dog.</p>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="horses-prices" aria-labelledby="horses-prices-heading"><h2 id="horses-prices-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 21 1-8 5-5-1-5 5 3 3 5 2 2-2 3-5-1-2 6M12 5l-2-2M14 10h.01"/></svg>Available Horses &amp; Adoption Prices</h2>
+<p>Choose from <strong>16 horse colour and appearance options</strong>. Every adoption below includes a <strong>basic saddle and bridle</strong> and delivers the horse at that trader’s nearby collection point.</p><div class="table-scroll" role="region" aria-label="Horse adoption prices · Zombie Notes; scroll horizontally if needed" tabindex="0"><table class="price-table"><caption>Horse adoption prices · Zombie Notes</caption><thead><tr><th scope="col">Price</th><th scope="col">Horse options</th></tr></thead><tbody><tr><th scope="row">12,500</th><td>Brown horse, Chestnut horse, Light chestnut horse</td></tr><tr><th scope="row">15,000</th><td>Black horse, White horse, Grey horse, Grey horse (variant 2), Liver chestnut horse</td></tr><tr><th scope="row">17,500</th><td>Palomino horse, Buckskin horse, Brown-and-white horse</td></tr><tr><th scope="row">20,000</th><td>Appaloosa horse, Paint horse, Black-and-white spotted horse, Red roan horse</td></tr><tr><th scope="row">75,000</th><td>BTA Skeleton horse - The Hollow Steed</td></tr></tbody></table></div><p>Open the horse adoption category in Rowan’s or Hazel’s menu, select your preferred variant, and check its price before buying. <strong>Horses are adoption purchases only; they cannot be sold back to these traders.</strong></p><aside class="guide-note"><p><strong>Keep the payment on your character.</strong> The trader uses physical Zombie Notes. Notes inside nested containers may not count; move them directly into your character’s inventory if the menu reports insufficient funds.</p></aside><aside class="guide-note guide-warning guide-critical" aria-labelledby="warning-delivery"><strong class="warning-title" id="warning-delivery"><svg class="warning-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Leave room for your horse</strong><p>Stay close to Rowan or Hazel while purchasing. If the delivery area is occupied, clear people, animals, vehicles, or other obstructions and try again. An adoption rejected by the delivery checks does not take payment.</p></aside>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="wild-horses" aria-labelledby="wild-horses-heading"><h2 id="wild-horses-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 21 1-8 5-5-1-5 5 3 3 5 2 2-2 3-5-1-2 6M12 5l-2-2M14 10h.01"/></svg>Finding &amp; Claiming Wild Horses</h2>
+<p><strong>Wild-horse claiming is still available alongside trader adoption.</strong> This route uses your own equipment. Choose an <strong>unowned wild horse</strong> and keep your character’s active horse slot free.</p><ol class="guide-steps"><li>Gather a <strong>saddle and bridle</strong>. Unlike a trader adoption, a wild horse does not arrive with these fitted for you.</li><li>If needed, hold an <strong>apple</strong> and use the horse-bait interaction to lure a horse before you have a saddle.</li><li>Hold the <strong>saddle in your hands</strong>, approach the unowned horse, and use the attach action to claim it.</li><li>Attach the <strong>bridle</strong>, then use the horse’s interaction prompt to mount.</li></ol><p class="guide-note"><strong>An apple can also call your owned horse.</strong> Hold an apple and use the call interaction while on foot. The current call range is <strong>200 metres</strong>, and the horse needs clear space to appear near you. The call does not retrieve a horse stored in a stable.</p>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="riding-controls" aria-labelledby="riding-controls-heading"><h2 id="riding-controls-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3" fill="#141719"/><circle cx="15" cy="17" r="3" fill="#141719"/></svg>Riding Controls &amp; Stamina</h2>
+<p>Start slowly and give yourself room to learn the turns. These are the usual controls; existing keybindings may differ. The mod’s speed bindings are under <strong>Options → Controls → DayZ Horse</strong>.</p><div class="table-scroll" role="region" aria-label="Riding controls; scroll horizontally if needed" tabindex="0"><table class="command-table"><caption>Riding controls</caption><thead><tr><th scope="col">Action</th><th scope="col">Default control</th><th scope="col">Use</th></tr></thead><tbody><tr><th scope="row">Move &amp; steer</th><td>WASD</td><td>Move forward, turn, and move backward.</td></tr><tr><th scope="row">Change speed</th><td>Mouse wheel up / down</td><td>Increase or decrease your riding speed.</td></tr><tr><th scope="row">Jump</th><td>Space</td><td>Jump while riding.</td></tr><tr><th scope="row">Dismount</th><td>Interaction prompt</td><td>Use the on-screen action to get off your horse.</td></tr></tbody></table></div><p><strong>Horses have their own stamina.</strong> Faster riding drains it. Slow down or stop to let your horse recover before asking for more speed.</p><aside class="guide-note guide-warning guide-critical" aria-labelledby="warning-collisions"><strong class="warning-title" id="warning-collisions"><svg class="warning-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Watch the route</strong><p>Trees, fences, and other obstacles can throw you off in a collision. Ease off the speed when the route gets tight.</p></aside>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="horse-equipment" aria-labelledby="horse-equipment-heading"><h2 id="horse-equipment-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14v13H5zM9 8V5a3 3 0 0 1 6 0v3M5 13h14"/></svg>Horse Equipment &amp; Accessories</h2>
+<p><strong>A saddle and bridle are required for riding.</strong> Trader adoptions include a basic set already attached. Keep both fitted when you ride; for wild claiming, bring your own.</p><p><strong>Horse bags provide additional storage.</strong> They are separate accessories and are not part of the adoption’s included saddle-and-bridle set.</p><div class="table-scroll" role="region" aria-label="Rowan &amp; Hazel · horse equipment prices in Zombie Notes; scroll horizontally if needed" tabindex="0"><table class="supplies-table"><caption>Rowan &amp; Hazel · horse equipment prices in Zombie Notes</caption><thead><tr><th scope="col">Equipment</th><th scope="col">Purchase price</th></tr></thead><tbody><tr><th scope="row">Bridle</th><td>500</td></tr><tr><th scope="row">Basic saddle</th><td>1,000</td></tr><tr><th scope="row">Western saddle / English saddle</th><td>1,500</td></tr><tr><th scope="row">Horse head armour</th><td>2,500</td></tr><tr><th scope="row">Horse neck armour</th><td>3,000</td></tr><tr><th scope="row">Horse back armour</th><td>4,000</td></tr></tbody></table></div><p>Both animal traders sell the equipment listed above through their <strong>Horse Equipment</strong> category. The Western and English saddles share the listed price. Horse bags remain a storage option; they are not listed in this trader equipment catalogue.</p>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="building-stable" aria-labelledby="building-stable-heading"><h2 id="building-stable-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 11 12 3l10 8M5 9v12h14V9M9 21v-8h6v8M9 13l6 8m0-8-6 8"/></svg>Building a Stable</h2>
+<p>A stable gives you a proper place to store horses between journeys. Combine <strong>1 rope + 2 short sticks</strong>, select <strong>Craft Stable Kit</strong>, and place the kit in a suitable location.</p><div class="stable-stages"><div class="stable-stage"><h3>Stage 1</h3><ul><li>15 wooden logs</li><li>2 planks</li><li>20 nails</li></ul></div><div class="stable-stage"><h3>Stage 2</h3><ul><li>20 planks</li><li>80 nails</li></ul></div><div class="stable-stage"><h3>Stage 3</h3><ul><li>20 planks</li><li>60 nails</li></ul></div></div><p class="guide-note material-total"><strong>Materials total:</strong> 15 logs, 42 planks, and 160 nails, plus the rope and sticks for the kit.</p><p>Use the appropriate construction tool and follow the build prompts through all three stages. The stable must be fully finished before you can use its horse storage.</p>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="stable-storage" aria-labelledby="stable-storage-heading"><h2 id="stable-storage-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 11 12 3l10 8M5 9v12h14V9M9 21v-8h6v8M9 13l6 8m0-8-6 8"/></svg>Storing &amp; Retrieving Horses</h2>
+<h3 class="procedure-heading" id="storing-horse">Putting your horse in the stable</h3><ol class="guide-steps"><li>Fully finish the stable.</li><li>Bring your claimed horse nearby and <strong>dismount</strong>.</li><li>Approach an <strong>empty horse bay</strong>.</li><li>Aim at the bay’s horse-slot area and select the <strong>put horse into stable</strong> action.</li></ol><p class="guide-note"><strong>Three horse slots:</strong> A completed craftable stable has three available horse slots. If the prompt does not appear, adjust your position and aim around the empty bay.</p><aside class="guide-note guide-warning guide-critical" aria-labelledby="warning-storage"><strong class="warning-title" id="warning-storage"><svg class="warning-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Parking is not stable storage</strong><p>Simply parking a horse inside the stable does not store it. Complete the actual <strong>put horse into stable</strong> interaction before treating the horse as stored.</p></aside><h3 id="retrieving-horse">Taking your horse out</h3><p>Return with <strong>no active horse assigned to your character</strong>, aim at the occupied horse slot, and select the <strong>take horse from stable</strong> action. Keep the space beside the stable clear for the horse.</p>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="horse-ownership" aria-labelledby="horse-ownership-heading"><h2 id="horse-ownership-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 8 3v6c0 5-8 11-8 11S4 16 4 11V5zM12 8v5m0 4h.01"/></svg>Horse Ownership &amp; Important Warnings</h2>
+<aside class="guide-note guide-warning guide-critical" aria-labelledby="warning-limit"><strong class="warning-title" id="warning-limit"><svg class="warning-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>One active horse per character</strong><p>You cannot adopt another horse or retrieve a stabled horse while you already have an active horse. <strong>Stable your current horse first.</strong> This limit applies to adopted and wild-claimed horses alike.</p></aside><aside class="guide-note guide-warning guide-critical" aria-labelledby="warning-death"><strong class="warning-title" id="warning-death"><svg class="warning-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Character death clears active horse ownership</strong><p>When your character dies, the active horse is released as a wild horse and its ownership is cleared. Buying a horse does not protect it from this loss of ownership.</p></aside><div class="guide-care-block"><h3>After disconnecting or reconnecting</h3><p>The horse system saves your active horse’s position, health, and inventory when you disconnect and restores it when you reconnect. Allow time for it to load at the saved position. If it is nearby, use an apple to call it into clear space; the call range is <strong>200 metres</strong>.</p><p>If the horse does not return, <strong>contact staff before adopting or claiming a replacement</strong>. Include where you were and what happened before it disappeared.</p></div><p class="guide-note"><strong>Keep your stable protected and accessible.</strong> Store horses through the proper interaction and follow the <a href="../../rules/">official Chernarus server rules</a>. Riding or stable access does not grant permission to take another survivor’s horse.</p>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="troubleshooting" aria-labelledby="troubleshooting-heading"><h2 id="troubleshooting-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-1 .7-1.5 1-1.5 3m0 3h.01"/></svg>Troubleshooting</h2>
+<dl class="guide-troubleshooting"><div><dt>Looking for a horse at the doghouse?</dt><dd>Speak to Rowan or Hazel instead. Open the trader menu and browse Horse Adoptions - Saddle and Bridle Included. The public doghouse is only for dog adoption.</dd></div><div><dt>Not enough Zombie Notes?</dt><dd>Carry the payment physically on your character. If the trader does not count your notes, move them out of nested containers into your character’s inventory.</dd></div><div><dt>Adoption says you already have a horse?</dt><dd>Properly stable your current horse before buying another. A parked horse still occupies your active horse slot.</dd></div><div><dt>Horse delivery area occupied?</dt><dd>Clear the trader’s collection point, stay near Rowan or Hazel, and try again. The delivery checks reject the adoption without taking payment when the area is blocked.</dd></div><div><dt>No riding prompt?</dt><dd>Check that a saddle and bridle are fitted. Put held items away, make sure nobody is already riding, and leave room beside the horse to mount.</dd></div><div><dt>Horse slowing down?</dt><dd>Check its stamina. Slow down or stop to let it recover.</dd></div><div><dt>No stable-storage prompt?</dt><dd>Confirm construction is complete, you are dismounted, and the bay is empty. Adjust your position and aim at the horse-slot area.</dd></div><div><dt>Cannot retrieve a horse?</dt><dd>Check whether you already have an active horse. Store it first, then aim at the occupied stable slot.</dd></div><div><dt>Horse missing after reconnect?</dt><dd>Give it time to load, check the last saved location, and try the apple call if it is within 200 metres. Contact staff if it still does not return.</dd></div></dl><p class="guide-note"><strong>Report problems to staff with a screenshot and a brief description of what happened.</strong> Include the trader or stable location, your horse choice, and the action you tried.</p><div class="guide-reference" id="mod-reference"><h3 id="mod-reference-heading">Original Mod Reference</h3><p>Use this guide for BTA’s trader adoption, prices, and included equipment. General mod instructions may describe the wild-horse route instead.</p><p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3295021220" target="_blank" rel="noopener noreferrer">Original DayZ Horse mod ↗</a></p></div>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<nav class="section-nav" aria-label="Guide navigation"><a href="../">← Return to Chernarus Guides</a><a href="#guide-contents">Back to contents ↑</a><a href="../../">Chernarus Hub →</a></nav></main>
+<footer><div class="wrap">Beneath the Ashes • Chernarus • DayZ Horse Player Guide</div></footer><script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script><script>
+document.querySelectorAll('[data-copy-coordinates]').forEach((button) => {
+  button.hidden = false;
+  button.addEventListener('click', async () => {
+    const status = button.parentElement.querySelector('.copy-status');
+    status.textContent = '';
+    try {
+      await navigator.clipboard.writeText(button.dataset.copyCoordinates);
+      status.textContent = 'Copied: ' + button.dataset.copyCoordinates;
+    } catch {
+      const coordinates = button.parentElement.querySelector('.adoption-coordinates');
+      const range = document.createRange();
+      range.selectNodeContents(coordinates);
+      const selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      status.textContent = 'Copy unavailable. Coordinates selected; copy them manually.';
     }
-  </style>
-</head>
-<body>
-<header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
-<main class="wrap guide-page horse-guide">
-  <div class="page-context"><a class="back" href="../">← Chernarus Guides</a><div class="world-tag">Horses &amp; Survival</div></div>
-
-  <section class="guide-hero">
-    <div class="kicker">BTA Player Guide</div>
-    <h1>DayZ<br>Horse</h1>
-    <p>🐴 BTA Player Guide — DayZ Horse. Learn how to claim, ride, stable and retrieve your horse across Chernarus.</p>
-  </section>
-
-  <div class="guide-layout">
-    <section class="guide-panel">
-      <h2>Getting Your Horse</h2>
-      <p>Find a horse and gather a <strong>saddle and bridle</strong>. Hold the saddle in your hands, approach the horse, and use the attach action to claim it. Attach the bridle, then use the horse’s interaction prompt to mount.</p>
-      <div class="guide-note"><strong>🍎 Apple lure:</strong> An apple can lure a horse before you have a saddle. You can also use an apple to call your owned horse.</div>
-    </section>
-
-    <section class="guide-panel">
-      <h2>Riding Controls</h2>
-      <ul>
-        <li><strong>WASD:</strong> Move and steer, including moving backward.</li>
-        <li><strong>Mouse wheel:</strong> Change riding speed.</li>
-        <li><strong>Space:</strong> Jump.</li>
-        <li>Use the on-screen interaction prompt to dismount.</li>
-      </ul>
-      <p style="margin-top:18px">Horses have their own stamina. Faster riding drains it, so slow down or stop to let your horse recover.</p>
-      <div class="guide-note horse-warning"><strong>⚠️ Watch the route:</strong> Be careful around trees, fences, and other obstacles. Collisions can throw you off!</div>
-    </section>
-  </div>
-
-  <section class="guide-panel" style="margin-top:22px">
-    <h2>Equipment and Storage</h2>
-    <ul>
-      <li><strong>Saddle + bridle:</strong> Required for riding.</li>
-      <li><strong>Horse bags:</strong> Provide additional storage.</li>
-    </ul>
-  </section>
-
-  <section class="guide-panel" style="margin-top:22px">
-    <h2>Building a Stable</h2>
-    <p>Combine <strong>1 rope + 2 short sticks</strong>, select <strong>Craft Stable Kit</strong>, and place the kit in a suitable location.</p>
-    <div class="guide-steps">
-      <div class="guide-step"><strong>Stage 1</strong><p><strong>15 wooden logs, 2 planks, 20 nails.</strong></p></div>
-      <div class="guide-step"><strong>Stage 2</strong><p><strong>20 planks, 80 nails.</strong></p></div>
-      <div class="guide-step"><strong>Stage 3</strong><p><strong>20 planks, 60 nails.</strong></p></div>
-    </div>
-    <div class="guide-note horse-total"><strong>📦 Materials total:</strong> 15 logs, 42 planks, and 160 nails, plus the rope and sticks for the kit.</div>
-    <p style="margin-top:18px">Use the appropriate construction tool and follow the build prompts.</p>
-  </section>
-
-  <div class="guide-layout" style="margin-top:22px">
-    <section class="guide-panel">
-      <h2>Putting Your Horse in the Stable</h2>
-      <ol>
-        <li>Fully finish the stable.</li>
-        <li>Bring your claimed horse nearby and dismount.</li>
-        <li>Approach an empty horse bay.</li>
-        <li>Aim at the bay’s horse-slot area and select the <strong>put horse into stable</strong> action.</li>
-      </ol>
-      <div class="horse-slots"><strong>Three horse slots:</strong> A stable has three available horse slots.</div>
-      <div class="guide-note horse-warning"><strong>Important:</strong> Simply parking your horse inside does not complete the storage action.</div>
-      <p style="margin-top:18px">If the prompt doesn’t appear, adjust your position and aim around the empty bay.</p>
-    </section>
-
-    <section class="guide-panel">
-      <h2>Taking Your Horse Out</h2>
-      <p>Aim at the occupied horse slot and select the <strong>take horse from stable</strong> action.</p>
-      <div class="guide-note horse-warning"><strong>Active horse limit:</strong> You cannot retrieve another horse while you already have an active horse assigned to you.</div>
-    </section>
-  </div>
-
-  <section class="guide-panel" style="margin-top:22px">
-    <h2>If Something Isn’t Working</h2>
-    <ul>
-      <li><strong>No riding prompt?</strong> Check the saddle and bridle.</li>
-      <li><strong>Horse slowing down?</strong> Check its stamina.</li>
-      <li><strong>No stable-storage prompt?</strong> Confirm construction is complete, you’re dismounted, and the bay is empty.</li>
-      <li><strong>Can’t retrieve a horse?</strong> Check whether you already have an active horse.</li>
-    </ul>
-    <div class="guide-note" style="margin-top:24px"><strong>Please report problems to staff with a screenshot and a brief description of what happened.</strong></div>
-  </section>
-</main>
-<footer><div class="wrap">Beneath the Ashes • Chernarus Guides</div></footer>
-<script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
-</body>
-</html>
+  });
+});
+</script>
+</body></html>
