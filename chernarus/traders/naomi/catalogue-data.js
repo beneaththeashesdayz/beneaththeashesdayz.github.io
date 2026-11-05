@@ -18,7 +18,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Sodacan Spite',className:'sodacan_spite',category:'Drinks',mode:'sell',price:9780},
 {name:'Sodacan Takola',className:'sodacan_takola',category:'Drinks',mode:'buy',price:9955,sellPrice:4978},
 {name:'Sodacan Zumzam',className:'sodacan_zumzam',category:'Drinks',mode:'buy',price:9955,sellPrice:4978},
-{name:'Waterbottle',className:'waterbottle',category:'Drinks',mode:'sell',price:10310},
+{name:'Waterbottle',className:'waterbottle',category:'Drinks',mode:'buy',price:10310,sellPrice:5155},
 {name:'Winebottle',className:'winebottle',category:'Drinks',mode:'sell',price:8500},
 {name:'Achar',className:'achar',category:'Food',mode:'sell',price:10345},
 {name:'Bakedbeanscan',className:'bakedbeanscan',category:'Food',mode:'sell',price:9965},

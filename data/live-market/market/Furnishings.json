@@ -819,7 +819,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "BTA_TeddyShelf_Rustic_Kit"
+      ]
     },
     {
       "ClassName": "rag_baseitems_toolbench_kit",
