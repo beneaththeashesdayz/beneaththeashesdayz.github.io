@@ -284,6 +284,7 @@ window.traderCatalogue={traderName:'Indar',currency:'USD',items:[
 {name:'SKS Black',className:'sks_black',category:'Rifles',traderSells:true,traderBuys:true,buyPrice:6500,sellPrice:3250},
 {name:'SKS Desert',className:'sks_desert',category:'Rifles',traderSells:true,traderBuys:true,buyPrice:6500,sellPrice:3250},
 {name:'SKS Green',className:'sks_green',category:'Rifles',traderSells:true,traderBuys:true,buyPrice:6500,sellPrice:3250},
+{name:'SKS Winter',className:'sks_winter',category:'Rifles',traderSells:true,traderBuys:true,buyPrice:6500,sellPrice:3250},
 {name:'Ssg82',className:'ssg82',category:'Rifles',traderSells:true,traderBuys:true,buyPrice:6500,sellPrice:3250},
 {name:'Winchester70',className:'winchester70',category:'Rifles',traderSells:true,traderBuys:true,buyPrice:7500,sellPrice:3750},
 {name:'Winchester70 Black',className:'winchester70_black',category:'Rifles',traderSells:true,traderBuys:true,buyPrice:7500,sellPrice:3750},
