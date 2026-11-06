@@ -228,17 +228,6 @@
         "Bear_Pink",
         "Bear_White"
       ]
-    },
-    {
-      "ClassName": "pileofwoodenplanks",
-      "MaxPriceThreshold": 1000,
-      "MinPriceThreshold": 1000,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
     }
   ]
 }
