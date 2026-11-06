@@ -3,14 +3,14 @@
   "DisplayName": "Audi RS5 Parts",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": [
     {
       "ClassName": "star_audi_rs5_codriver",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -30,7 +30,7 @@
       "ClassName": "star_audi_rs5_driver",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -50,7 +50,7 @@
       "ClassName": "star_audi_rs5_hood",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -70,7 +70,7 @@
       "ClassName": "star_audi_rs5_trunk",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -90,7 +90,7 @@
       "ClassName": "star_audi_rs5_wheel",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -103,7 +103,8 @@
         "star_audi_rs5_wheel_red",
         "star_audi_rs5_wheel_silver",
         "star_audi_rs5_wheel_white",
-        "star_audi_rs5_wheel_yellow"
+        "star_audi_rs5_wheel_yellow",
+        "Star_Audi_RS5_Wheel_Ruined"
       ]
     }
   ]

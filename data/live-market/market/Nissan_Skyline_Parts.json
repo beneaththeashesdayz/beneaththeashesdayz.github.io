@@ -3,7 +3,7 @@
   "DisplayName": "Nissan Skyline Parts",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": [
     {
@@ -37,7 +37,8 @@
         "skyline_driverdoor_blue",
         "skyline_driverdoor_orange",
         "skyline_driverdoor_pink",
-        "skyline_driverdoor_red"
+        "skyline_driverdoor_red",
+        "Skyline_Trunk2"
       ]
     },
     {
@@ -83,7 +84,10 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "Skyline_Wheel2",
+        "Skyline_Wheel2_Ruined"
+      ]
     }
   ]
 }

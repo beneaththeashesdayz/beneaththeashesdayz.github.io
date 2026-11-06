@@ -1,0 +1,106 @@
+{
+  "m_Version": 12,
+  "DisplayName": "V140 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "V140_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "V140_driver_Blue",
+        "V140_driver_Red",
+        "V140_driver_white",
+        "V140_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "V140_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "V140_cargo1_Blue",
+        "V140_cargo1_Red",
+        "V140_cargo1_white",
+        "V140_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "V140_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "V140_cargo2_Blue",
+        "V140_cargo2_Red",
+        "V140_cargo2_white",
+        "V140_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "V140_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "V140_codriver_Blue",
+        "V140_codriver_Red",
+        "V140_codriver_white",
+        "V140_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "V140_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "V140_hood_Blue",
+        "V140_hood_Red",
+        "V140_hood_white",
+        "V140_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "V140_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "V140_trunk_Blue",
+        "V140_trunk_Red",
+        "V140_trunk_white",
+        "V140_trunk_yellow"
+      ]
+    }
+  ]
+}

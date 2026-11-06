@@ -3,14 +3,14 @@
   "DisplayName": "Dodge Widebody Hellcat Parts",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": [
     {
       "ClassName": "widebody_hellcat_codriver",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -26,7 +26,7 @@
       "ClassName": "widebody_hellcat_driver",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -42,7 +42,7 @@
       "ClassName": "widebody_hellcat_hood",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -58,7 +58,7 @@
       "ClassName": "widebody_hellcat_trunk",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -74,12 +74,14 @@
       "ClassName": "widebody_hellcatwheel_offroad",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "WideBody_HellcatWheel_offroad_Ruined"
+      ]
     }
   ]
 }

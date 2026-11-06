@@ -1,0 +1,558 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Hatchback 02 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "BelAirChevy_Wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BelAirChevy_Wheel_Ruined"
+      ]
+    },
+    {
+      "ClassName": "c7Wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "c7Wheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "ChargerWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ChargerWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "daytonaWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "daytonaWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "Dodge_Charger_EMPWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Dodge_Charger_EMPWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "f22Wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "f22Wheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "GemeraWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "GemeraWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "GT2RS_MRWheel_offroad_Front",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "GT2RS_MRWheel_offroad_Front_Ruined"
+      ]
+    },
+    {
+      "ClassName": "Hatchback_02_Cover",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Hatchback_02_Door_1_1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Hatchback_02_Door_1_1_BanditKitty",
+        "Hatchback_02_Door_1_1_Black",
+        "Hatchback_02_Door_1_1_Blue",
+        "Hatchback_02_Door_1_1_Red"
+      ]
+    },
+    {
+      "ClassName": "Hatchback_02_Hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Hatchback_02_Hood_BanditKitty",
+        "Hatchback_02_Hood_Black",
+        "Hatchback_02_Hood_Blue",
+        "Hatchback_02_Hood_Red"
+      ]
+    },
+    {
+      "ClassName": "Hatchback_02_Trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Hatchback_02_Trunk_BanditKitty",
+        "Hatchback_02_Trunk_Black",
+        "Hatchback_02_Trunk_Blue",
+        "Hatchback_02_Trunk_Red"
+      ]
+    },
+    {
+      "ClassName": "Huracan_TecnicaWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Huracan_TecnicaWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "hx58Wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "hx58Wheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "jeskoWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "jeskoWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "lfaWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "lfaWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "minicooper_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "minicooper_wheel_Ruined"
+      ]
+    },
+    {
+      "ClassName": "MUCIWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "MUCIWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "MustangWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "MustangWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "NissanWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "NissanWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "NSXWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "NSXWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "pofirebird_Wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "pofirebird_Wheel_Ruined"
+      ]
+    },
+    {
+      "ClassName": "r32Wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "r32Wheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "rmodf8Wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "rmodf8Wheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "rx8hachiWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "rx8hachiWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "Star_Agera_Wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Agera_wheel_black",
+        "Star_Agera_wheel_Blue",
+        "Star_Agera_wheel_Red",
+        "Star_Agera_Wheel_Ruined",
+        "Star_Agera_wheel_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_APC_Cobra_Wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_APC_Cobra_Wheel_Ruined"
+      ]
+    },
+    {
+      "ClassName": "Star_Audi_R8_Wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Audi_R8_wheel_Blue",
+        "Star_Audi_R8_wheel_carbon",
+        "Star_Audi_R8_wheel_orange",
+        "Star_Audi_R8_wheel_pink",
+        "Star_Audi_R8_wheel_Red",
+        "Star_Audi_R8_Wheel_Ruined",
+        "Star_Audi_R8_wheel_white",
+        "Star_Audi_R8_wheel_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Camaro_1969_Wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Camaro_1969_wheel_Blue",
+        "Star_Camaro_1969_wheel_Red",
+        "Star_Camaro_1969_Wheel_Ruined",
+        "Star_Camaro_1969_wheel_white",
+        "Star_Camaro_1969_wheel_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Mercedes_190E_Wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Mercedes_190E_wheel_Blue",
+        "Star_Mercedes_190E_wheel_carbon",
+        "Star_Mercedes_190E_wheel_orange",
+        "Star_Mercedes_190E_wheel_pink",
+        "Star_Mercedes_190E_wheel_Red",
+        "Star_Mercedes_190E_Wheel_Ruined",
+        "Star_Mercedes_190E_wheel_white",
+        "Star_Mercedes_190E_wheel_yellow",
+        "Star_Mercedes_190E_wheel2",
+        "Star_Mercedes_190E_wheel2_Blue",
+        "Star_Mercedes_190E_wheel2_carbon",
+        "Star_Mercedes_190E_wheel2_orange",
+        "Star_Mercedes_190E_wheel2_pink",
+        "Star_Mercedes_190E_wheel2_Red",
+        "Star_Mercedes_190E_wheel2_white",
+        "Star_Mercedes_190E_wheel2_yellow",
+        "Star_Mercedes_190E_wheel3",
+        "Star_Mercedes_190E_wheel3_Blue",
+        "Star_Mercedes_190E_wheel3_carbon",
+        "Star_Mercedes_190E_wheel3_orange",
+        "Star_Mercedes_190E_wheel3_pink",
+        "Star_Mercedes_190E_wheel3_Red",
+        "Star_Mercedes_190E_wheel3_white",
+        "Star_Mercedes_190E_wheel3_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Oshkosh_M1083_Wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Oshkosh_M1083_Wheel_Ruined"
+      ]
+    },
+    {
+      "ClassName": "SVJWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "SVJWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "t6Wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "t6Wheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "V140Wheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "V140Wheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "viperWheel_offroad",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "viperWheel_offroad_Ruined"
+      ]
+    },
+    {
+      "ClassName": "Hatchback_02_Door_1_2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Hatchback_02_Door_1_2_BanditKitty",
+        "Hatchback_02_Door_1_2_Black",
+        "Hatchback_02_Door_1_2_Blue",
+        "Hatchback_02_Door_1_2_Red"
+      ]
+    },
+    {
+      "ClassName": "Hatchback_02_Door_2_1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Hatchback_02_Door_2_1_BanditKitty",
+        "Hatchback_02_Door_2_1_Black",
+        "Hatchback_02_Door_2_1_Blue",
+        "Hatchback_02_Door_2_1_Red"
+      ]
+    },
+    {
+      "ClassName": "Hatchback_02_Door_2_2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Hatchback_02_Door_2_2_BanditKitty",
+        "Hatchback_02_Door_2_2_Black",
+        "Hatchback_02_Door_2_2_Blue",
+        "Hatchback_02_Door_2_2_Red"
+      ]
+    }
+  ]
+}

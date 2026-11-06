@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Gemera Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Gemera_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Gemera_driver_Blue",
+        "Gemera_driver_Red",
+        "Gemera_driver_white",
+        "Gemera_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Gemera_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Gemera_codriver_Blue",
+        "Gemera_codriver_Red",
+        "Gemera_codriver_white",
+        "Gemera_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Gemera_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Gemera_hood_Blue",
+        "Gemera_hood_Red",
+        "Gemera_hood_white",
+        "Gemera_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "Gemera_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Gemera_trunk_Blue",
+        "Gemera_trunk_Red",
+        "Gemera_trunk_white",
+        "Gemera_trunk_yellow"
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "DisplayName": "Dodge Challenger Parts",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": [
     {
@@ -21,7 +21,9 @@
         "dodge_challenger_codriver_darkblue",
         "dodge_challenger_codriver_green",
         "dodge_challenger_codriver_orange",
-        "dodge_challenger_codriver_red"
+        "dodge_challenger_codriver_red",
+        "Dodge_Challenger_CoDriver_Gray",
+        "Dodge_Challenger_CoDriver_Pink"
       ]
     },
     {
@@ -35,7 +37,13 @@
       "SpawnAttachments": [],
       "Variants": [
         "dodge_challenger_driver_black",
-        "dodge_challenger_driver_darkblue"
+        "dodge_challenger_driver_darkblue",
+        "Dodge_Challenger_Driver_Blue",
+        "Dodge_Challenger_Driver_Gray",
+        "Dodge_Challenger_Driver_Green",
+        "Dodge_Challenger_Driver_Orange",
+        "Dodge_Challenger_Driver_Pink",
+        "Dodge_Challenger_Driver_Red"
       ]
     },
     {
@@ -53,7 +61,9 @@
         "dodge_challenger_hood_darkblue",
         "dodge_challenger_hood_green",
         "dodge_challenger_hood_orange",
-        "dodge_challenger_hood_red"
+        "dodge_challenger_hood_red",
+        "Dodge_Challenger_Hood_Gray",
+        "Dodge_Challenger_Hood_Pink"
       ]
     },
     {
@@ -71,7 +81,9 @@
         "dodge_challenger_trunk_darkblue",
         "dodge_challenger_trunk_green",
         "dodge_challenger_trunk_orange",
-        "dodge_challenger_trunk_red"
+        "dodge_challenger_trunk_red",
+        "Dodge_Challenger_Trunk_Gray",
+        "Dodge_Challenger_Trunk_Pink"
       ]
     },
     {
@@ -83,7 +95,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "Dodge_Challenger_Wheel_Ruined"
+      ]
     }
   ]
 }

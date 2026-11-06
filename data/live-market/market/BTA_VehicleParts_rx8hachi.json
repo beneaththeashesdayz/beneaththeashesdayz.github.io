@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "rx 8hachi Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "rx8hachi_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "rx8hachi_driver_Blue",
+        "rx8hachi_driver_Red",
+        "rx8hachi_driver_white",
+        "rx8hachi_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "rx8hachi_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "rx8hachi_codriver_Blue",
+        "rx8hachi_codriver_Red",
+        "rx8hachi_codriver_white",
+        "rx8hachi_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "rx8hachi_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "rx8hachi_hood_Blue",
+        "rx8hachi_hood_Red",
+        "rx8hachi_hood_white",
+        "rx8hachi_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "rx8hachi_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "rx8hachi_trunk_Blue",
+        "rx8hachi_trunk_Red",
+        "rx8hachi_trunk_white",
+        "rx8hachi_trunk_yellow"
+      ]
+    }
+  ]
+}

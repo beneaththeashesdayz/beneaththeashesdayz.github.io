@@ -15,7 +15,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "Van_CamperRV_Wheel_Ruined"
+      ]
     },
     {
       "ClassName": "van_camperrv_doors_driver",

@@ -1,0 +1,153 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Truck 01 Covered Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "WoodenLog",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "WoodenPlank",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Truck_01_Covered_Cover",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Truck_01_Door_1_1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Truck_01_Door_1_1_Black",
+        "Truck_01_Door_1_1_Blue",
+        "Truck_01_Door_1_1_Green",
+        "Truck_01_Door_1_1_Lime",
+        "Truck_01_Door_1_1_Orange",
+        "Truck_01_Door_1_1_Red",
+        "Truck_01_Door_1_1_White",
+        "Truck_01_Door_1_1_Wine",
+        "Truck_01_Door_1_1_Yellow",
+        "Truck_01_Door_1_1_YellowBright"
+      ]
+    },
+    {
+      "ClassName": "Truck_01_Hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Truck_01_Hood_Black",
+        "Truck_01_Hood_Blue",
+        "Truck_01_Hood_Green",
+        "Truck_01_Hood_Lime",
+        "Truck_01_Hood_Orange",
+        "Truck_01_Hood_Red",
+        "Truck_01_Hood_White",
+        "Truck_01_Hood_Wine",
+        "Truck_01_Hood_Yellow",
+        "Truck_01_Hood_YellowBright"
+      ]
+    },
+    {
+      "ClassName": "BarrelHoles_Blue",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "BarrelHoles_Green",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "BarrelHoles_Red",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "BarrelHoles_Yellow",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Truck_01_Door_2_1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Truck_01_Door_2_1_Black",
+        "Truck_01_Door_2_1_Blue",
+        "Truck_01_Door_2_1_Green",
+        "Truck_01_Door_2_1_Lime",
+        "Truck_01_Door_2_1_Orange",
+        "Truck_01_Door_2_1_Red",
+        "Truck_01_Door_2_1_White",
+        "Truck_01_Door_2_1_Wine",
+        "Truck_01_Door_2_1_Yellow",
+        "Truck_01_Door_2_1_YellowBright"
+      ]
+    }
+  ]
+}

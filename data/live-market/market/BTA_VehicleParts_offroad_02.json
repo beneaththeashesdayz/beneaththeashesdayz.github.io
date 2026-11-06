@@ -1,0 +1,105 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Offroad 02 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Offroad_02_Cover",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Offroad_02_Door_1_1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Offroad_02_Door_1_1_Beige",
+        "Offroad_02_Door_1_1_BeigeRust"
+      ]
+    },
+    {
+      "ClassName": "Offroad_02_Hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Offroad_02_Hood_Beige",
+        "Offroad_02_Hood_BeigeRust"
+      ]
+    },
+    {
+      "ClassName": "Offroad_02_Trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Offroad_02_Trunk_Beige",
+        "Offroad_02_Trunk_BeigeRust"
+      ]
+    },
+    {
+      "ClassName": "Offroad_02_Door_1_2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Offroad_02_Door_1_2_Beige",
+        "Offroad_02_Door_1_2_BeigeRust"
+      ]
+    },
+    {
+      "ClassName": "Offroad_02_Door_2_1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Offroad_02_Door_2_1_Beige",
+        "Offroad_02_Door_2_1_BeigeRust"
+      ]
+    },
+    {
+      "ClassName": "Offroad_02_Door_2_2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Offroad_02_Door_2_2_Beige",
+        "Offroad_02_Door_2_2_BeigeRust"
+      ]
+    }
+  ]
+}

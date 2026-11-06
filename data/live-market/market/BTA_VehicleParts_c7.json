@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "c 7 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "c7_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "c7_driver_Blue",
+        "c7_driver_Red",
+        "c7_driver_white",
+        "c7_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "c7_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "c7_codriver_Blue",
+        "c7_codriver_Red",
+        "c7_codriver_white",
+        "c7_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "c7_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "c7_hood_Blue",
+        "c7_hood_Red",
+        "c7_hood_white",
+        "c7_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "c7_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "c7_trunk_Blue",
+        "c7_trunk_Red",
+        "c7_trunk_white",
+        "c7_trunk_yellow"
+      ]
+    }
+  ]
+}

@@ -3,14 +3,14 @@
   "DisplayName": "BMW M3 G80 Parts",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": [
     {
       "ClassName": "m3_g80_cargo1",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -28,7 +28,7 @@
       "ClassName": "m3_g80_cargo2",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -46,7 +46,7 @@
       "ClassName": "m3_g80_codriver",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -64,7 +64,7 @@
       "ClassName": "m3_g80_driver",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -82,7 +82,7 @@
       "ClassName": "m3_g80_hood",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -100,7 +100,7 @@
       "ClassName": "m3_g80_trunk",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -118,12 +118,14 @@
       "ClassName": "m3_g80wheel_offroad",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "M3_G80Wheel_offroad_Ruined"
+      ]
     }
   ]
 }

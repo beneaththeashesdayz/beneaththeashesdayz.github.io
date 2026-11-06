@@ -1,0 +1,55 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Oshkosh M1083 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Star_Oshkosh_M1083_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Oshkosh_M1083_driver_Black",
+        "Star_Oshkosh_M1083_driver_dessert",
+        "Star_Oshkosh_M1083_driver_winter"
+      ]
+    },
+    {
+      "ClassName": "Star_Oshkosh_M1083_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Oshkosh_M1083_codriver_Black",
+        "Star_Oshkosh_M1083_codriver_dessert",
+        "Star_Oshkosh_M1083_codriver_winter"
+      ]
+    },
+    {
+      "ClassName": "Star_Oshkosh_M1083_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Oshkosh_M1083_trunk_Black",
+        "Star_Oshkosh_M1083_trunk_dessert",
+        "Star_Oshkosh_M1083_trunk_winter"
+      ]
+    }
+  ]
+}

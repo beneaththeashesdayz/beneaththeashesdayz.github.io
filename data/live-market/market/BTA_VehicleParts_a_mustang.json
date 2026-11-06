@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "a Mustang Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "mustang_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mustang_driver_Blue",
+        "mustang_driver_Green",
+        "mustang_driver_Orange",
+        "mustang_driver_Red"
+      ]
+    },
+    {
+      "ClassName": "mustang_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mustang_codriver_Blue",
+        "mustang_codriver_Green",
+        "mustang_codriver_Orange",
+        "mustang_codriver_Red"
+      ]
+    },
+    {
+      "ClassName": "mustang_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mustang_hood_blue",
+        "mustang_hood_Green",
+        "mustang_hood_Orange",
+        "mustang_hood_Red"
+      ]
+    },
+    {
+      "ClassName": "mustang_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "mustang_trunk_blue",
+        "mustang_trunk_Green",
+        "mustang_trunk_Orange",
+        "mustang_trunk_Red"
+      ]
+    }
+  ]
+}

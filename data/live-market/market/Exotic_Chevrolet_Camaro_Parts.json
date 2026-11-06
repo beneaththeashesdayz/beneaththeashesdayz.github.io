@@ -3,14 +3,14 @@
   "DisplayName": "Chevrolet Camaro Parts",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": [
     {
       "ClassName": "camaro_codriver",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -26,7 +26,7 @@
       "ClassName": "camaro_driver",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -42,7 +42,7 @@
       "ClassName": "camaro_hood",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -58,7 +58,7 @@
       "ClassName": "camaro_trunk",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -74,12 +74,14 @@
       "ClassName": "camarowheel_offroad",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1.0,
+      "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "camaroWheel_offroad_Ruined"
+      ]
     }
   ]
 }

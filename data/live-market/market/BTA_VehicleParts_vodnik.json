@@ -1,0 +1,62 @@
+{
+  "m_Version": 12,
+  "DisplayName": "vodnik Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "ExpansionVodnik_Cover",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ExpansionVodnikDoorDriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ExpansionVodnikDoorDriver_Camo",
+        "ExpansionVodnikDoorDriver_CamoMedical"
+      ]
+    },
+    {
+      "ClassName": "ExpansionVodnikDoorCoDriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ExpansionVodnikDoorCoDriver_Camo",
+        "ExpansionVodnikDoorCoDriver_CamoMedical"
+      ]
+    },
+    {
+      "ClassName": "ExpansionVodnikWheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ExpansionVodnikWheel_Ruined"
+      ]
+    }
+  ]
+}

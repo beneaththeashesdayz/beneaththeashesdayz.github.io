@@ -1,0 +1,45 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Supra Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Supra_Roof",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Supra_Roof_Black",
+        "Supra_Roof_Blue",
+        "Supra_Roof_Falken",
+        "Supra_Roof_FastF",
+        "Supra_Roof_Green",
+        "Supra_Roof_Red",
+        "Supra_Roof_RustBlack",
+        "Supra_Roof_White"
+      ]
+    },
+    {
+      "ClassName": "Supra_Wheel_Ruined",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Supra_WheelBlack_Ruined",
+        "Supra_WheelBlue_Ruined",
+        "Supra_WheelRustBlack_Ruined"
+      ]
+    }
+  ]
+}

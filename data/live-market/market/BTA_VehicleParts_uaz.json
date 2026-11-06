@@ -1,0 +1,142 @@
+{
+  "m_Version": 12,
+  "DisplayName": "UAZ Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "ExpansionUAZ_Cover",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ExpansionUAZDoorCargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ExpansionUAZDoorCargo1_Black",
+        "ExpansionUAZDoorCargo1_Green",
+        "ExpansionUAZDoorCargo1_LightGreen"
+      ]
+    },
+    {
+      "ClassName": "ExpansionUAZDoorCargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ExpansionUAZDoorCargo2_Black",
+        "ExpansionUAZDoorCargo2_Green",
+        "ExpansionUAZDoorCargo2_LightGreen"
+      ]
+    },
+    {
+      "ClassName": "ExpansionUAZDoorCoDriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ExpansionUAZDoorCoDriver_Black",
+        "ExpansionUAZDoorCoDriver_Green",
+        "ExpansionUAZDoorCoDriver_LightGreen"
+      ]
+    },
+    {
+      "ClassName": "ExpansionUAZDoorDriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ExpansionUAZDoorDriver_Black",
+        "ExpansionUAZDoorDriver_Green",
+        "ExpansionUAZDoorDriver_LightGreen"
+      ]
+    },
+    {
+      "ClassName": "ExpansionUAZDoorHood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ExpansionUAZDoorHood_Black",
+        "ExpansionUAZDoorHood_Green",
+        "ExpansionUAZDoorHood_LightGreen"
+      ]
+    },
+    {
+      "ClassName": "ExpansionUAZDoorTrunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ExpansionUAZWheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "ExpansionUAZWheel_Ruined"
+      ]
+    },
+    {
+      "ClassName": "ExpansionUAZCargo_Cover",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "ExpansionUAZRoofless_Cover",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

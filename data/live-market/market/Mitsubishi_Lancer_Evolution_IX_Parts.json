@@ -3,7 +3,7 @@
   "DisplayName": "Mitsubishi Lancer Evolution IX Parts",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": [
     {
@@ -117,7 +117,8 @@
         "mitsubishi_lancerevolutionix_trunk_pink",
         "mitsubishi_lancerevolutionix_trunk_red",
         "mitsubishi_lancerevolutionix_trunk_white",
-        "mitsubishi_lancerevolutionix_trunk_yellow"
+        "mitsubishi_lancerevolutionix_trunk_yellow",
+        "Mitsubishi_LancerEvolutionIX_Trunk_lightblue"
       ]
     },
     {

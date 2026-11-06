@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "r 32 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "r32_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "r32_driver_Blue",
+        "r32_driver_Red",
+        "r32_driver_white",
+        "r32_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "r32_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "r32_codriver_Blue",
+        "r32_codriver_Red",
+        "r32_codriver_white",
+        "r32_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "r32_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "r32_hood_Blue",
+        "r32_hood_Red",
+        "r32_hood_white",
+        "r32_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "r32_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "r32_trunk_Blue",
+        "r32_trunk_Red",
+        "r32_trunk_white",
+        "r32_trunk_yellow"
+      ]
+    }
+  ]
+}

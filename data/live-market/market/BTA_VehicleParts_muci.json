@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "MUCI Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "MUCI_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "MUCI_driver_Blue",
+        "MUCI_driver_Red",
+        "MUCI_driver_white",
+        "MUCI_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "MUCI_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "MUCI_codriver_Blue",
+        "MUCI_codriver_Red",
+        "MUCI_codriver_white",
+        "MUCI_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "MUCI_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "MUCI_hood_Blue",
+        "MUCI_hood_Red",
+        "MUCI_hood_white",
+        "MUCI_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "MUCI_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "MUCI_trunk_Blue",
+        "MUCI_trunk_Red",
+        "MUCI_trunk_white",
+        "MUCI_trunk_yellow"
+      ]
+    }
+  ]
+}

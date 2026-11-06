@@ -15,7 +15,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "Van_DodgePhoenix_Wheel_destroyed"
+      ]
     },
     {
       "ClassName": "van_dodgephoenix_doors_driver",

@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "rmodf 8 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "rmodf8_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "rmodf8_driver_Blue",
+        "rmodf8_driver_Red",
+        "rmodf8_driver_white",
+        "rmodf8_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "rmodf8_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "rmodf8_codriver_Blue",
+        "rmodf8_codriver_Red",
+        "rmodf8_codriver_white",
+        "rmodf8_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "rmodf8_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "rmodf8_hood_Blue",
+        "rmodf8_hood_Red",
+        "rmodf8_hood_white",
+        "rmodf8_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "rmodf8_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "rmodf8_trunk_Blue",
+        "rmodf8_trunk_Red",
+        "rmodf8_trunk_white",
+        "rmodf8_trunk_yellow"
+      ]
+    }
+  ]
+}

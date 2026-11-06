@@ -1,0 +1,118 @@
+{
+  "m_Version": 12,
+  "DisplayName": "saab 900 turbo Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "saab_900_turbo_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "saab_900_turbo_driverdoor_black",
+        "saab_900_turbo_driverdoor_blue",
+        "saab_900_turbo_driverdoor_red",
+        "saab_900_turbo_driverdoor_white"
+      ]
+    },
+    {
+      "ClassName": "saab_900_turbo_wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "saab_900_turbo_wheel_ruined",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "saab_900_turbo_wheel2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "saab_900_turbo_wheel2_ruined",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "saab_900_turbo_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "saab_900_turbo_codriver_black",
+        "saab_900_turbo_codriver_blue",
+        "saab_900_turbo_codriver_red",
+        "saab_900_turbo_codriver_white"
+      ]
+    },
+    {
+      "ClassName": "saab_900_turbo_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "saab_900_turbo_hood_black",
+        "saab_900_turbo_hood_blue",
+        "saab_900_turbo_hood_red",
+        "saab_900_turbo_hood_white"
+      ]
+    },
+    {
+      "ClassName": "saab_900_turbo_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "saab_900_turbo_trunk_black",
+        "saab_900_turbo_trunk_blue",
+        "saab_900_turbo_trunk_red",
+        "saab_900_turbo_trunk_white"
+      ]
+    }
+  ]
+}

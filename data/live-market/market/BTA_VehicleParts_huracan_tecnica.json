@@ -1,0 +1,72 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Huracan Tecnica Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Huracan_Tecnica_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Huracan_Tecnica_driver_Blue",
+        "Huracan_Tecnica_driver_Green",
+        "Huracan_Tecnica_driver_Red",
+        "Huracan_Tecnica_driver_white",
+        "Huracan_Tecnica_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Huracan_Tecnica_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Huracan_Tecnica_codriver_Blue",
+        "Huracan_Tecnica_codriver_Green",
+        "Huracan_Tecnica_codriver_Red",
+        "Huracan_Tecnica_codriver_white",
+        "Huracan_Tecnica_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Huracan_Tecnica_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Huracan_Tecnica_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Huracan_Tecnica_trunk_Blue",
+        "Huracan_Tecnica_trunk_Green",
+        "Huracan_Tecnica_trunk_Red",
+        "Huracan_Tecnica_trunk_white",
+        "Huracan_Tecnica_trunk_yellow"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "daytona Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "daytona_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "daytona_driver_Blue",
+        "daytona_driver_Red",
+        "daytona_driver_white",
+        "daytona_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "daytona_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "daytona_codriver_Blue",
+        "daytona_codriver_Red",
+        "daytona_codriver_white",
+        "daytona_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "daytona_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "daytona_hood_Blue",
+        "daytona_hood_Red",
+        "daytona_hood_white",
+        "daytona_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "daytona_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "daytona_trunk_Blue",
+        "daytona_trunk_Red",
+        "daytona_trunk_white",
+        "daytona_trunk_yellow"
+      ]
+    }
+  ]
+}

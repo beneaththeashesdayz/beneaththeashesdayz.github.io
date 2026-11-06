@@ -1,0 +1,120 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Enzo Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Star_Enzo_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Enzo_driver_Blue",
+        "Star_Enzo_driver_orange",
+        "Star_Enzo_driver_pink",
+        "Star_Enzo_driver_Red",
+        "Star_Enzo_driver_white",
+        "Star_Enzo_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Enzo_Wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Enzo_wheel_Blue",
+        "Star_Enzo_wheel_orange",
+        "Star_Enzo_wheel_pink",
+        "Star_Enzo_wheel_Red",
+        "Star_Enzo_Wheel_Ruined",
+        "Star_Enzo_wheel_white",
+        "Star_Enzo_wheel_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Enzo_Wheel1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Enzo_wheel1_Blue",
+        "Star_Enzo_wheel1_orange",
+        "Star_Enzo_wheel1_pink",
+        "Star_Enzo_wheel1_Red",
+        "Star_Enzo_Wheel1_Ruined",
+        "Star_Enzo_wheel1_white",
+        "Star_Enzo_wheel1_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Enzo_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Enzo_codriver_Blue",
+        "Star_Enzo_codriver_orange",
+        "Star_Enzo_codriver_pink",
+        "Star_Enzo_codriver_Red",
+        "Star_Enzo_codriver_white",
+        "Star_Enzo_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Enzo_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Enzo_hood_Blue",
+        "Star_Enzo_hood_orange",
+        "Star_Enzo_hood_pink",
+        "Star_Enzo_hood_Red",
+        "Star_Enzo_hood_white",
+        "Star_Enzo_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Enzo_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Enzo_trunk_Blue",
+        "Star_Enzo_trunk_orange",
+        "Star_Enzo_trunk_pink",
+        "Star_Enzo_trunk_Red",
+        "Star_Enzo_trunk_white",
+        "Star_Enzo_trunk_yellow"
+      ]
+    }
+  ]
+}

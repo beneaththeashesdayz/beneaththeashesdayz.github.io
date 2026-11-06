@@ -1,0 +1,78 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Ford Raptor Monster Truck Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "fordraptorMonster_driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordraptorMonster_driverdoor_Baja",
+        "fordraptorMonster_driverdoor_Halo",
+        "fordraptorMonster_driverdoor_Raptor",
+        "fordraptorMonster_driverdoor_Roush",
+        "fordraptorMonster_driverdoor_WideOpen"
+      ]
+    },
+    {
+      "ClassName": "fordraptorMonster_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordraptorMonster_hood_Baja",
+        "fordraptorMonster_hood_Halo",
+        "fordraptorMonster_hood_Raptor",
+        "fordraptorMonster_hood_Roush",
+        "fordraptorMonster_hood_WideOpen"
+      ]
+    },
+    {
+      "ClassName": "fordraptorMonster_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordraptorMonster_trunk_Baja",
+        "fordraptorMonster_trunk_Halo",
+        "fordraptorMonster_trunk_Raptor",
+        "fordraptorMonster_trunk_Roush",
+        "fordraptorMonster_trunk_WideOpen"
+      ]
+    },
+    {
+      "ClassName": "fordraptorMonster_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "fordraptorMonster_codriver_Baja",
+        "fordraptorMonster_codriver_Halo",
+        "fordraptorMonster_codriver_Raptor",
+        "fordraptorMonster_codriver_Roush",
+        "fordraptorMonster_codriver_WideOpen"
+      ]
+    }
+  ]
+}

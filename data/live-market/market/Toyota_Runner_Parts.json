@@ -3,7 +3,7 @@
   "DisplayName": "Toyota Runner Parts",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": [
     {
@@ -28,7 +28,15 @@
         "runner_cargo1_pink",
         "runner_cargo1_red",
         "runner_cargo1_white",
-        "runner_cargo1_yellow"
+        "runner_cargo1_yellow",
+        "Runner_Cargo1_Brown",
+        "Runner_Cargo1_CamoWoodland",
+        "Runner_Cargo1_ChinaLake",
+        "Runner_Cargo1_Cyan",
+        "Runner_Cargo1_IceBreaker",
+        "Runner_Cargo1_OffGrid",
+        "Runner_Cargo1_SandStorm",
+        "Runner_Cargo1_UrbanTiegr"
       ]
     },
     {
@@ -53,7 +61,15 @@
         "runner_cargo2_pink",
         "runner_cargo2_red",
         "runner_cargo2_white",
-        "runner_cargo2_yellow"
+        "runner_cargo2_yellow",
+        "Runner_Cargo2_Brown",
+        "Runner_Cargo2_CamoWoodland",
+        "Runner_Cargo2_ChinaLake",
+        "Runner_Cargo2_Cyan",
+        "Runner_Cargo2_IceBreaker",
+        "Runner_Cargo2_OffGrid",
+        "Runner_Cargo2_SandStorm",
+        "Runner_Cargo2_UrbanTiegr"
       ]
     },
     {
@@ -78,7 +94,15 @@
         "runner_codriver_door_pink",
         "runner_codriver_door_red",
         "runner_codriver_door_white",
-        "runner_codriver_door_yellow"
+        "runner_codriver_door_yellow",
+        "Runner_CoDriver_Door_Brown",
+        "Runner_CoDriver_Door_CamoWoodland",
+        "Runner_CoDriver_Door_ChinaLake",
+        "Runner_CoDriver_Door_Cyan",
+        "Runner_CoDriver_Door_IceBreaker",
+        "Runner_CoDriver_Door_OffGrid",
+        "Runner_CoDriver_Door_SandStorm",
+        "Runner_CoDriver_Door_UrbanTiegr"
       ]
     },
     {
@@ -103,7 +127,15 @@
         "runner_driverdoor_pink",
         "runner_driverdoor_red",
         "runner_driverdoor_white",
-        "runner_driverdoor_yellow"
+        "runner_driverdoor_yellow",
+        "Runner_DriverDoor_Brown",
+        "Runner_DriverDoor_CamoWoodland",
+        "Runner_DriverDoor_ChinaLake",
+        "Runner_DriverDoor_Cyan",
+        "Runner_DriverDoor_IceBreaker",
+        "Runner_DriverDoor_OffGrid",
+        "Runner_DriverDoor_SandStorm",
+        "Runner_DriverDoor_UrbanTiegr"
       ]
     },
     {
@@ -128,7 +160,15 @@
         "runner_hood_pink",
         "runner_hood_red",
         "runner_hood_white",
-        "runner_hood_yellow"
+        "runner_hood_yellow",
+        "Runner_Hood_Brown",
+        "Runner_Hood_CamoWoodland",
+        "Runner_Hood_ChinaLake",
+        "Runner_Hood_Cyan",
+        "Runner_Hood_IceBreaker",
+        "Runner_Hood_OffGrid",
+        "Runner_Hood_SandStorm",
+        "Runner_Hood_UrbanTiegr"
       ]
     },
     {
@@ -152,7 +192,16 @@
         "runner_trunk_camowhite",
         "runner_trunk_red",
         "runner_trunk_white",
-        "runner_trunk_yellow"
+        "runner_trunk_yellow",
+        "Runner_Trunk_Brown",
+        "Runner_Trunk_CamoWoodland",
+        "Runner_Trunk_ChinaLake",
+        "Runner_Trunk_Cyan",
+        "Runner_Trunk_IceBreaker",
+        "Runner_Trunk_OffGrid",
+        "Runner_Trunk_pink",
+        "Runner_Trunk_SandStorm",
+        "Runner_Trunk_UrbanTiegr"
       ]
     },
     {

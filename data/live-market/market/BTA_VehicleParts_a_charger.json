@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "A Charger Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Charger_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Charger_driver_Blue",
+        "Charger_driver_Red",
+        "Charger_driver_white",
+        "Charger_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Charger_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Charger_codriver_Blue",
+        "Charger_codriver_Red",
+        "Charger_codriver_white",
+        "Charger_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Charger_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Charger_hood_Blue",
+        "Charger_hood_Red",
+        "Charger_hood_white",
+        "Charger_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "Charger_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Charger_trunk_Blue",
+        "Charger_trunk_Red",
+        "Charger_trunk_white",
+        "Charger_trunk_yellow"
+      ]
+    }
+  ]
+}

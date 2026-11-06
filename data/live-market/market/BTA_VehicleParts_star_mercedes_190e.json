@@ -1,0 +1,124 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Mercedes 190E Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Star_Mercedes_190E_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Mercedes_190E_driver_Blue",
+        "Star_Mercedes_190E_driver_carbon",
+        "Star_Mercedes_190E_driver_orange",
+        "Star_Mercedes_190E_driver_pink",
+        "Star_Mercedes_190E_driver_Red",
+        "Star_Mercedes_190E_driver_white",
+        "Star_Mercedes_190E_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Mercedes_190E_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Mercedes_190E_cargo1_Blue",
+        "Star_Mercedes_190E_cargo1_carbon",
+        "Star_Mercedes_190E_cargo1_orange",
+        "Star_Mercedes_190E_cargo1_pink",
+        "Star_Mercedes_190E_cargo1_Red",
+        "Star_Mercedes_190E_cargo1_white",
+        "Star_Mercedes_190E_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Mercedes_190E_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Mercedes_190E_cargo2_Blue",
+        "Star_Mercedes_190E_cargo2_carbon",
+        "Star_Mercedes_190E_cargo2_orange",
+        "Star_Mercedes_190E_cargo2_pink",
+        "Star_Mercedes_190E_cargo2_Red",
+        "Star_Mercedes_190E_cargo2_white",
+        "Star_Mercedes_190E_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Mercedes_190E_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Mercedes_190E_codriver_Blue",
+        "Star_Mercedes_190E_codriver_carbon",
+        "Star_Mercedes_190E_codriver_orange",
+        "Star_Mercedes_190E_codriver_pink",
+        "Star_Mercedes_190E_codriver_Red",
+        "Star_Mercedes_190E_codriver_white",
+        "Star_Mercedes_190E_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Mercedes_190E_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Mercedes_190E_hood_Blue",
+        "Star_Mercedes_190E_hood_carbon",
+        "Star_Mercedes_190E_hood_orange",
+        "Star_Mercedes_190E_hood_pink",
+        "Star_Mercedes_190E_hood_Red",
+        "Star_Mercedes_190E_hood_white",
+        "Star_Mercedes_190E_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Mercedes_190E_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Mercedes_190E_trunk_Blue",
+        "Star_Mercedes_190E_trunk_carbon",
+        "Star_Mercedes_190E_trunk_orange",
+        "Star_Mercedes_190E_trunk_pink",
+        "Star_Mercedes_190E_trunk_Red",
+        "Star_Mercedes_190E_trunk_white",
+        "Star_Mercedes_190E_trunk_yellow"
+      ]
+    }
+  ]
+}

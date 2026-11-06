@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "minicooper Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "minicooper_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "minicooper_driver_black",
+        "minicooper_driver_skin2",
+        "minicooper_driver_skin3",
+        "minicooper_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "minicooper_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "minicooper_codriver_black",
+        "minicooper_codriver_skin2",
+        "minicooper_codriver_skin3",
+        "minicooper_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "minicooper_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "minicooper_hood_black",
+        "minicooper_hood_skin2",
+        "minicooper_hood_skin3",
+        "minicooper_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "minicooper_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "minicooper_trunk_black",
+        "minicooper_trunk_skin2",
+        "minicooper_trunk_skin3",
+        "minicooper_trunk_yellow"
+      ]
+    }
+  ]
+}

@@ -52,7 +52,11 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "SeaChest_Upgraded_300",
+        "SeaChest_Upgraded_600",
+        "SeaChest_Upgraded_900"
+      ]
     }
   ]
 }

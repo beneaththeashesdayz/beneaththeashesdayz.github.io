@@ -3,7 +3,7 @@
   "DisplayName": "Dodge Charger Parts",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": [
     {
@@ -21,7 +21,8 @@
         "dodgecharger_cargo1_lightblue",
         "dodgecharger_cargo1_pink",
         "dodgecharger_cargo1_red",
-        "dodgecharger_cargo1_white"
+        "dodgecharger_cargo1_white",
+        "dodgecharger_cargo1_gray"
       ]
     },
     {
@@ -39,7 +40,8 @@
         "dodgecharger_cargo2_lightblue",
         "dodgecharger_cargo2_pink",
         "dodgecharger_cargo2_red",
-        "dodgecharger_cargo2_white"
+        "dodgecharger_cargo2_white",
+        "dodgecharger_cargo2_gray"
       ]
     },
     {
@@ -57,7 +59,8 @@
         "dodgecharger_hood_lightblue",
         "dodgecharger_hood_pink",
         "dodgecharger_hood_red",
-        "dodgecharger_hood_white"
+        "dodgecharger_hood_white",
+        "dodgecharger_hood_gray"
       ]
     },
     {
@@ -75,7 +78,9 @@
         "dodgecharger_trunk_lightblue",
         "dodgecharger_trunk_pink",
         "dodgecharger_trunk_red",
-        "dodgecharger_trunk_white"
+        "dodgecharger_trunk_white",
+        "dodgecharger_trunk_gray",
+        "dodgecharger_trunk2"
       ]
     },
     {

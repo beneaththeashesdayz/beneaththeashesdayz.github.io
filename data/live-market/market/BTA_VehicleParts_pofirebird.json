@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "pofirebird Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "pofirebird_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "pofirebird_driver_blue",
+        "pofirebird_driver_red",
+        "pofirebird_driver_white",
+        "pofirebird_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "pofirebird_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "pofirebird_codriver_blue",
+        "pofirebird_codriver_red",
+        "pofirebird_codriver_white",
+        "pofirebird_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "pofirebird_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "pofirebird_hood_blue",
+        "pofirebird_hood_red",
+        "pofirebird_hood_white",
+        "pofirebird_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "pofirebird_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "pofirebird_trunk_blue",
+        "pofirebird_trunk_red",
+        "pofirebird_trunk_white",
+        "pofirebird_trunk_yellow"
+      ]
+    }
+  ]
+}

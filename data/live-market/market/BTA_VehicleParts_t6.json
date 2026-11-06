@@ -1,0 +1,106 @@
+{
+  "m_Version": 12,
+  "DisplayName": "t 6 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "t6_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "t6_driver_Blue",
+        "t6_driver_Red",
+        "t6_driver_white",
+        "t6_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "t6_cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "t6_cargo1_Blue",
+        "t6_cargo1_Red",
+        "t6_cargo1_white",
+        "t6_cargo1_yellow"
+      ]
+    },
+    {
+      "ClassName": "t6_cargo2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "t6_cargo2_Blue",
+        "t6_cargo2_Red",
+        "t6_cargo2_white",
+        "t6_cargo2_yellow"
+      ]
+    },
+    {
+      "ClassName": "t6_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "t6_codriver_Blue",
+        "t6_codriver_Red",
+        "t6_codriver_white",
+        "t6_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "t6_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "t6_hood_Blue",
+        "t6_hood_Red",
+        "t6_hood_white",
+        "t6_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "t6_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "t6_trunk_Blue",
+        "t6_trunk_Red",
+        "t6_trunk_white",
+        "t6_trunk_yellow"
+      ]
+    }
+  ]
+}

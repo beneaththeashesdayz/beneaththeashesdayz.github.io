@@ -213,7 +213,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "CivSedanWheel_Ruined"
+      ]
     },
     {
       "ClassName": "hatchbackdoors_codriver_bluerust",
@@ -565,7 +567,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "Hatchback_02_Wheel_Ruined"
+      ]
     },
     {
       "ClassName": "offroad_02_door_1_1_rust",
@@ -631,7 +635,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "Offroad_02_Wheel_Ruined"
+      ]
     },
     {
       "ClassName": "sedan_02_door_1_1_greyrust",
@@ -840,7 +846,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "Sedan_02_Wheel_Ruined"
+      ]
     },
     {
       "ClassName": "truck_01_door_1_1_bluerust",
@@ -950,7 +958,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "Truck_01_Wheel_Ruined"
+      ]
     },
     {
       "ClassName": "truck_01_wheeldouble",
@@ -961,7 +971,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "Truck_01_WheelDouble_Ruined"
+      ]
     }
   ]
 }

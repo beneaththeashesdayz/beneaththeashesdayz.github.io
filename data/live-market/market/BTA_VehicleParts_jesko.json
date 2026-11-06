@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "jesko Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "jesko_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "jesko_driver_Blue",
+        "jesko_driver_Red",
+        "jesko_driver_white",
+        "jesko_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "jesko_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "jesko_codriver_Blue",
+        "jesko_codriver_Red",
+        "jesko_codriver_white",
+        "jesko_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "jesko_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "jesko_hood_Blue",
+        "jesko_hood_Red",
+        "jesko_hood_white",
+        "jesko_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "jesko_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "jesko_trunk_Blue",
+        "jesko_trunk_Red",
+        "jesko_trunk_white",
+        "jesko_trunk_yellow"
+      ]
+    }
+  ]
+}

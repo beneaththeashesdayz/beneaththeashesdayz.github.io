@@ -1,0 +1,87 @@
+{
+  "m_Version": 12,
+  "DisplayName": "GT2RS MR Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "GT2RS_MR_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "GT2RS_MR_driver_Blue",
+        "GT2RS_MR_driver_Red",
+        "GT2RS_MR_driver_white",
+        "GT2RS_MR_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "GT2RS_MR_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "GT2RS_MR_codriver_Blue",
+        "GT2RS_MR_codriver_Red",
+        "GT2RS_MR_codriver_white",
+        "GT2RS_MR_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "GT2RS_MR_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "GT2RS_MR_hood_Blue",
+        "GT2RS_MR_hood_Red",
+        "GT2RS_MR_hood_white",
+        "GT2RS_MR_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "GT2RS_MR_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "GT2RS_MR_trunk_Blue",
+        "GT2RS_MR_trunk_Red",
+        "GT2RS_MR_trunk_white",
+        "GT2RS_MR_trunk_yellow"
+      ]
+    },
+    {
+      "ClassName": "GT2RS_MRWheel_offroad_Rear",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "GT2RS_MRWheel_offroad_Rear_Ruined"
+      ]
+    }
+  ]
+}

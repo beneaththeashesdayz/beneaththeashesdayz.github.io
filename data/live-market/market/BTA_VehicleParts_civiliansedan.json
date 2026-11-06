@@ -1,0 +1,111 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Civilian Sedan Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "CivilianSedan_Cover",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "CivSedanDoors_Driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "CivSedanDoors_Driver_Black",
+        "CivSedanDoors_Driver_White",
+        "CivSedanDoors_Driver_Wine"
+      ]
+    },
+    {
+      "ClassName": "CivSedanHood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "CivSedanHood_Black",
+        "CivSedanHood_White",
+        "CivSedanHood_Wine"
+      ]
+    },
+    {
+      "ClassName": "CivSedanTrunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "CivSedanTrunk_Black",
+        "CivSedanTrunk_White",
+        "CivSedanTrunk_Wine"
+      ]
+    },
+    {
+      "ClassName": "CivSedanDoors_BackLeft",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "CivSedanDoors_BackLeft_Black",
+        "CivSedanDoors_BackLeft_White",
+        "CivSedanDoors_BackLeft_Wine"
+      ]
+    },
+    {
+      "ClassName": "CivSedanDoors_BackRight",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "CivSedanDoors_BackRight_Black",
+        "CivSedanDoors_BackRight_White",
+        "CivSedanDoors_BackRight_Wine"
+      ]
+    },
+    {
+      "ClassName": "CivSedanDoors_CoDriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "CivSedanDoors_CoDriver_Black",
+        "CivSedanDoors_CoDriver_White",
+        "CivSedanDoors_CoDriver_Wine"
+      ]
+    }
+  ]
+}

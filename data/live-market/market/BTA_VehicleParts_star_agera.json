@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Agera Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Star_Agera_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Agera_driver_black",
+        "Star_Agera_driver_Blue",
+        "Star_Agera_driver_Red",
+        "Star_Agera_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Agera_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Agera_codriver_black",
+        "Star_Agera_codriver_Blue",
+        "Star_Agera_codriver_Red",
+        "Star_Agera_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Agera_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Agera_hood_black",
+        "Star_Agera_hood_Blue",
+        "Star_Agera_hood_Red",
+        "Star_Agera_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Agera_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Agera_trunk_black",
+        "Star_Agera_trunk_Blue",
+        "Star_Agera_trunk_Red",
+        "Star_Agera_trunk_yellow"
+      ]
+    }
+  ]
+}

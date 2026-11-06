@@ -1,0 +1,86 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Audi R8 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Star_Audi_R8_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Audi_R8_driver_Blue",
+        "Star_Audi_R8_driver_carbon",
+        "Star_Audi_R8_driver_orange",
+        "Star_Audi_R8_driver_pink",
+        "Star_Audi_R8_driver_Red",
+        "Star_Audi_R8_driver_white",
+        "Star_Audi_R8_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Audi_R8_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Audi_R8_codriver_Blue",
+        "Star_Audi_R8_codriver_carbon",
+        "Star_Audi_R8_codriver_orange",
+        "Star_Audi_R8_codriver_pink",
+        "Star_Audi_R8_codriver_Red",
+        "Star_Audi_R8_codriver_white",
+        "Star_Audi_R8_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Audi_R8_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Audi_R8_hood_Blue",
+        "Star_Audi_R8_hood_carbon",
+        "Star_Audi_R8_hood_orange",
+        "Star_Audi_R8_hood_pink",
+        "Star_Audi_R8_hood_Red",
+        "Star_Audi_R8_hood_white",
+        "Star_Audi_R8_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Audi_R8_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Audi_R8_trunk_Blue",
+        "Star_Audi_R8_trunk_carbon",
+        "Star_Audi_R8_trunk_orange",
+        "Star_Audi_R8_trunk_pink",
+        "Star_Audi_R8_trunk_Red",
+        "Star_Audi_R8_trunk_white",
+        "Star_Audi_R8_trunk_yellow"
+      ]
+    }
+  ]
+}

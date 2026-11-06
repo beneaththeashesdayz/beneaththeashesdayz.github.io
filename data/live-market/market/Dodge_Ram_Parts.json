@@ -3,7 +3,7 @@
   "DisplayName": "Dodge Ram Parts",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": [
     {
@@ -35,7 +35,8 @@
         "dodgeram_cargo1_vectortrails",
         "dodgeram_cargo1_woodland_blue",
         "dodgeram_cargo1_woodland_nightfrost",
-        "dodgeram_cargo1_woodland_sand"
+        "dodgeram_cargo1_woodland_sand",
+        "DodgeRam_Cargo1_Rust"
       ]
     },
     {
@@ -67,7 +68,8 @@
         "dodgeram_cargo2_vectortrails",
         "dodgeram_cargo2_woodland_blue",
         "dodgeram_cargo2_woodland_nightfrost",
-        "dodgeram_cargo2_woodland_sand"
+        "dodgeram_cargo2_woodland_sand",
+        "DodgeRam_Cargo2_Rust"
       ]
     },
     {
@@ -99,7 +101,8 @@
         "dodgeram_codriver_door_vectortrails",
         "dodgeram_codriver_door_woodland_blue",
         "dodgeram_codriver_door_woodland_nightfrost",
-        "dodgeram_codriver_door_woodland_sand"
+        "dodgeram_codriver_door_woodland_sand",
+        "DodgeRam_CoDriver_Door_Rust"
       ]
     },
     {
@@ -131,7 +134,8 @@
         "dodgeram_driver_door_vectortrails",
         "dodgeram_driver_door_woodland_blue",
         "dodgeram_driver_door_woodland_nightfrost",
-        "dodgeram_driver_door_woodland_sand"
+        "dodgeram_driver_door_woodland_sand",
+        "DodgeRam_Driver_Door_Rust"
       ]
     },
     {
@@ -163,7 +167,8 @@
         "dodgeram_hood_vectortrails",
         "dodgeram_hood_woodland_blue",
         "dodgeram_hood_woodland_nightfrost",
-        "dodgeram_hood_woodland_sand"
+        "dodgeram_hood_woodland_sand",
+        "DodgeRam_Hood_Rust"
       ]
     },
     {
@@ -195,7 +200,8 @@
         "dodgeram_trunk_vectortrails",
         "dodgeram_trunk_woodland_blue",
         "dodgeram_trunk_woodland_nightfrost",
-        "dodgeram_trunk_woodland_sand"
+        "dodgeram_trunk_woodland_sand",
+        "DodgeRam_Trunk_Rust"
       ]
     },
     {

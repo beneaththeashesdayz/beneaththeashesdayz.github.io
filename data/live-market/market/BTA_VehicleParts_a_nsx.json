@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "A NSX Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "NSX_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "NSX_driver_Blue",
+        "NSX_driver_Red",
+        "NSX_driver_white",
+        "NSX_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "NSX_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "NSX_codriver_Blue",
+        "NSX_codriver_Red",
+        "NSX_codriver_white",
+        "NSX_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "NSX_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "NSX_hood_Blue",
+        "NSX_hood_Red",
+        "NSX_hood_white",
+        "NSX_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "NSX_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "NSX_trunk_Blue",
+        "NSX_trunk_Red",
+        "NSX_trunk_white",
+        "NSX_trunk_yellow"
+      ]
+    }
+  ]
+}

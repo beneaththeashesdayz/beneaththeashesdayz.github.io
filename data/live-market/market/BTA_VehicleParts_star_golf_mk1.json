@@ -1,0 +1,150 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Golf MK1 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "a_plate_base",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "a_plate",
+        "a_plate_remap",
+        "BTA_StarrVehiclePlate"
+      ]
+    },
+    {
+      "ClassName": "taxi_plate",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Star_Golf_MK1_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Golf_MK1_driver_Blue",
+        "Star_Golf_MK1_driver_carbon",
+        "Star_Golf_MK1_driver_jade",
+        "Star_Golf_MK1_driver_orange",
+        "Star_Golf_MK1_driver_pink",
+        "Star_Golf_MK1_driver_purple",
+        "Star_Golf_MK1_driver_Red",
+        "Star_Golf_MK1_driver_white",
+        "Star_Golf_MK1_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Golf_MK1_Wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Golf_MK1_BBS",
+        "Star_Golf_MK1_wheel_Blue",
+        "Star_Golf_MK1_wheel_carbon",
+        "Star_Golf_MK1_wheel_orange",
+        "Star_Golf_MK1_wheel_pink",
+        "Star_Golf_MK1_wheel_purple",
+        "Star_Golf_MK1_wheel_Red",
+        "Star_Golf_MK1_Wheel_Ruined",
+        "Star_Golf_MK1_wheel_white",
+        "Star_Golf_MK1_wheel_yellow",
+        "Star_Golf_MK1_BBS_Blue",
+        "Star_Golf_MK1_BBS_carbon",
+        "Star_Golf_MK1_BBS_orange",
+        "Star_Golf_MK1_BBS_pink",
+        "Star_Golf_MK1_BBS_purple",
+        "Star_Golf_MK1_BBS_Red",
+        "Star_Golf_MK1_BBS_white",
+        "Star_Golf_MK1_BBS_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Golf_MK1_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Golf_MK1_codriver_Blue",
+        "Star_Golf_MK1_codriver_carbon",
+        "Star_Golf_MK1_codriver_jade",
+        "Star_Golf_MK1_codriver_orange",
+        "Star_Golf_MK1_codriver_pink",
+        "Star_Golf_MK1_codriver_purple",
+        "Star_Golf_MK1_codriver_Red",
+        "Star_Golf_MK1_codriver_white",
+        "Star_Golf_MK1_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Golf_MK1_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Golf_MK1_hood_Blue",
+        "Star_Golf_MK1_hood_carbon",
+        "Star_Golf_MK1_hood_jade",
+        "Star_Golf_MK1_hood_orange",
+        "Star_Golf_MK1_hood_pink",
+        "Star_Golf_MK1_hood_purple",
+        "Star_Golf_MK1_hood_Red",
+        "Star_Golf_MK1_hood_white",
+        "Star_Golf_MK1_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Golf_MK1_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Golf_MK1_trunk_Blue",
+        "Star_Golf_MK1_trunk_carbon",
+        "Star_Golf_MK1_trunk_jade",
+        "Star_Golf_MK1_trunk_orange",
+        "Star_Golf_MK1_trunk_pink",
+        "Star_Golf_MK1_trunk_purple",
+        "Star_Golf_MK1_trunk_Red",
+        "Star_Golf_MK1_trunk_white",
+        "Star_Golf_MK1_trunk_yellow"
+      ]
+    }
+  ]
+}

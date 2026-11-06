@@ -1,0 +1,111 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Sedan 02 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Sedan_02_Cover",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Sedan_02_Door_1_1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Sedan_02_Door_1_1_Grey",
+        "Sedan_02_Door_1_1_Red",
+        "Sedan_02_Door_1_1_Yellow"
+      ]
+    },
+    {
+      "ClassName": "Sedan_02_Hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Sedan_02_Hood_Grey",
+        "Sedan_02_Hood_Red",
+        "Sedan_02_Hood_Yellow"
+      ]
+    },
+    {
+      "ClassName": "Sedan_02_Trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Sedan_02_Trunk_Grey",
+        "Sedan_02_Trunk_Red",
+        "Sedan_02_Trunk_Yellow"
+      ]
+    },
+    {
+      "ClassName": "Sedan_02_Door_1_2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Sedan_02_Door_1_2_Grey",
+        "Sedan_02_Door_1_2_Red",
+        "Sedan_02_Door_1_2_Yellow"
+      ]
+    },
+    {
+      "ClassName": "Sedan_02_Door_2_1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Sedan_02_Door_2_1_Grey",
+        "Sedan_02_Door_2_1_Red",
+        "Sedan_02_Door_2_1_Yellow"
+      ]
+    },
+    {
+      "ClassName": "Sedan_02_Door_2_2",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Sedan_02_Door_2_2_Grey",
+        "Sedan_02_Door_2_2_Red",
+        "Sedan_02_Door_2_2_Yellow"
+      ]
+    }
+  ]
+}

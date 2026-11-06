@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Dodge Charger EMP Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Dodge_Charger_EMP_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Dodge_Charger_EMP_driver_Blue",
+        "Dodge_Charger_EMP_driver_Red",
+        "Dodge_Charger_EMP_driver_white",
+        "Dodge_Charger_EMP_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Dodge_Charger_EMP_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Dodge_Charger_EMP_codriver_Blue",
+        "Dodge_Charger_EMP_codriver_Red",
+        "Dodge_Charger_EMP_codriver_white",
+        "Dodge_Charger_EMP_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Dodge_Charger_EMP_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Dodge_Charger_EMP_hood_Blue",
+        "Dodge_Charger_EMP_hood_Red",
+        "Dodge_Charger_EMP_hood_white",
+        "Dodge_Charger_EMP_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "Dodge_Charger_EMP_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Dodge_Charger_EMP_trunk_Blue",
+        "Dodge_Charger_EMP_trunk_Red",
+        "Dodge_Charger_EMP_trunk_white",
+        "Dodge_Charger_EMP_trunk_yellow"
+      ]
+    }
+  ]
+}

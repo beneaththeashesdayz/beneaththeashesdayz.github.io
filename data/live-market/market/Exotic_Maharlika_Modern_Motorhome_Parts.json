@@ -15,7 +15,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "Van_ModernMotorhome_Wheel_destroyed"
+      ]
     },
     {
       "ClassName": "van_modernmotorhome_doors_driver",

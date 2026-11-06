@@ -3,7 +3,7 @@
   "DisplayName": "Toyota Supra Parts",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75.0,
+  "InitStockPercent": 75,
   "IsExchange": 0,
   "Items": [
     {
@@ -22,7 +22,9 @@
         "supra_codriverdoor_lighting",
         "supra_codriverdoor_red",
         "supra_codriverdoor_sponge",
-        "supra_codriverdoor_white"
+        "supra_codriverdoor_white",
+        "Supra_CoDriverDoor_Falken",
+        "Supra_CoDriverDoor_RustBlack"
       ]
     },
     {
@@ -41,7 +43,9 @@
         "supra_driverdoor_lighting",
         "supra_driverdoor_red",
         "supra_driverdoor_sponge",
-        "supra_driverdoor_white"
+        "supra_driverdoor_white",
+        "Supra_DriverDoor_Falken",
+        "Supra_DriverDoor_RustBlack"
       ]
     },
     {
@@ -60,7 +64,9 @@
         "supra_hood_lighting",
         "supra_hood_red",
         "supra_hood_sponge",
-        "supra_hood_white"
+        "supra_hood_white",
+        "Supra_Hood_Falken",
+        "Supra_Hood_RustBlack"
       ]
     },
     {
@@ -79,7 +85,9 @@
         "supra_trunk_lighting",
         "supra_trunk_red",
         "supra_trunk_sponge",
-        "supra_trunk_white"
+        "supra_trunk_white",
+        "Supra_Trunk_Falken",
+        "Supra_Trunk_RustBlack"
       ]
     },
     {
@@ -91,7 +99,11 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "Supra_WheelBlack",
+        "Supra_WheelBlue",
+        "Supra_WheelRustBlack"
+      ]
     }
   ]
 }

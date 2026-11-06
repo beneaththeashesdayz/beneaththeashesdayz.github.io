@@ -1,0 +1,116 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Audi R8 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Audi_R8_Driverdoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Audi_R8_Driverdoor_Black",
+        "Audi_R8_Driverdoor_Blue",
+        "Audi_R8_Driverdoor_CustomPaint",
+        "Audi_R8_Driverdoor_CustomPaint2",
+        "Audi_R8_Driverdoor_DarkBlue",
+        "Audi_R8_Driverdoor_Green",
+        "Audi_R8_Driverdoor_Orange",
+        "Audi_R8_Driverdoor_Pink",
+        "Audi_R8_Driverdoor_Red",
+        "BTA_Audi_R8_Driverdoor_HauntedEmber"
+      ]
+    },
+    {
+      "ClassName": "Audi_R8_Wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BTA_Audi_R8_Wheel_HauntedEmber"
+      ]
+    },
+    {
+      "ClassName": "Audi_R8_Wheel_Ruined",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BTA_Audi_R8_Wheel_Ruined_HauntedEmber",
+        "BTA_Audi_R8_Wheel_HauntedEmber_Ruined"
+      ]
+    },
+    {
+      "ClassName": "Audi_R8_Codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Audi_R8_Codriver_Black",
+        "Audi_R8_Codriver_Blue",
+        "Audi_R8_Codriver_CustomPaint",
+        "Audi_R8_Codriver_CustomPaint2",
+        "Audi_R8_Codriver_DarkBlue",
+        "Audi_R8_Codriver_Green",
+        "Audi_R8_Codriver_Orange",
+        "Audi_R8_Codriver_Pink",
+        "Audi_R8_Codriver_Red",
+        "BTA_Audi_R8_Codriver_HauntedEmber"
+      ]
+    },
+    {
+      "ClassName": "Audi_R8_Hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BTA_Audi_R8_Hood_HauntedEmber"
+      ]
+    },
+    {
+      "ClassName": "Audi_R8_Trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Audi_R8_Trunk_Black",
+        "Audi_R8_Trunk_Blue",
+        "Audi_R8_Trunk_CustomPaint",
+        "Audi_R8_Trunk_CustomPaint2",
+        "Audi_R8_Trunk_DarkBlue",
+        "Audi_R8_Trunk_Green",
+        "Audi_R8_Trunk_Orange",
+        "Audi_R8_Trunk_Pink",
+        "Audi_R8_Trunk_Red",
+        "BTA_Audi_R8_Trunk_HauntedEmber"
+      ]
+    }
+  ]
+}

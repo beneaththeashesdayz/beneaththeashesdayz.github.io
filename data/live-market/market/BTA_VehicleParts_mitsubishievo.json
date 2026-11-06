@@ -1,0 +1,44 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Mitsubishi EVO Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Mitsubishi_LancerEvolutionIX_Wheel_Ruined",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "Mitsubishi_LancerEvolutionIX_Codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Mitsubishi_LancerEvolutionIX_Codriver_bee",
+        "Mitsubishi_LancerEvolutionIX_Codriver_black",
+        "Mitsubishi_LancerEvolutionIX_Codriver_blue",
+        "Mitsubishi_LancerEvolutionIX_Codriver_darkblue",
+        "Mitsubishi_LancerEvolutionIX_Codriver_fast2",
+        "Mitsubishi_LancerEvolutionIX_Codriver_green",
+        "Mitsubishi_LancerEvolutionIX_Codriver_lightblue",
+        "Mitsubishi_LancerEvolutionIX_Codriver_pink",
+        "Mitsubishi_LancerEvolutionIX_Codriver_red",
+        "Mitsubishi_LancerEvolutionIX_Codriver_white",
+        "Mitsubishi_LancerEvolutionIX_Codriver_yellow"
+      ]
+    }
+  ]
+}

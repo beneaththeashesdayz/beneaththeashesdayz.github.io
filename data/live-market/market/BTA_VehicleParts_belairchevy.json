@@ -1,0 +1,82 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Bel Air Chevy Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "BelAirChevy_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BelAirChevy_driver_black",
+        "BelAirChevy_driver_blue",
+        "BelAirChevy_driver_red",
+        "BelAirChevy_driver_white",
+        "BelAirChevy_driver_yellow",
+        "BTA_BelAir_driver_GreyPatchwork"
+      ]
+    },
+    {
+      "ClassName": "BelAirChevy_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BelAirChevy_codriver_black",
+        "BelAirChevy_codriver_blue",
+        "BelAirChevy_codriver_red",
+        "BelAirChevy_codriver_white",
+        "BelAirChevy_codriver_yellow",
+        "BTA_BelAir_codriver_GreyPatchwork"
+      ]
+    },
+    {
+      "ClassName": "BelAirChevy_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BelAirChevy_hood_black",
+        "BelAirChevy_hood_blue",
+        "BelAirChevy_hood_red",
+        "BelAirChevy_hood_white",
+        "BelAirChevy_hood_yellow",
+        "BTA_BelAir_hood_GreyPatchwork"
+      ]
+    },
+    {
+      "ClassName": "BelAirChevy_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BelAirChevy_trunk_black",
+        "BelAirChevy_trunk_blue",
+        "BelAirChevy_trunk_red",
+        "BelAirChevy_trunk_white",
+        "BelAirChevy_trunk_yellow",
+        "BTA_BelAir_trunk_GreyPatchwork"
+      ]
+    }
+  ]
+}

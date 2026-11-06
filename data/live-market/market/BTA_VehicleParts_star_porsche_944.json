@@ -1,0 +1,129 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Porsche 944 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Star_Porsche_944_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Porsche_944_driver_babyblue",
+        "Star_Porsche_944_driver_Blue",
+        "Star_Porsche_944_driver_green",
+        "Star_Porsche_944_driver_orange",
+        "Star_Porsche_944_driver_pink",
+        "Star_Porsche_944_driver_Red",
+        "Star_Porsche_944_driver_white",
+        "Star_Porsche_944_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Porsche_944_Wheel",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Porsche_944_wheel_babyblue",
+        "Star_Porsche_944_wheel_Blue",
+        "Star_Porsche_944_wheel_green",
+        "Star_Porsche_944_wheel_orange",
+        "Star_Porsche_944_wheel_pink",
+        "Star_Porsche_944_wheel_Red",
+        "Star_Porsche_944_Wheel_Ruined",
+        "Star_Porsche_944_wheel_white",
+        "Star_Porsche_944_wheel_yellow",
+        "Star_Porsche_944_wheel2",
+        "Star_Porsche_944_wheel3",
+        "Star_Porsche_944_wheel2_babyblue",
+        "Star_Porsche_944_wheel2_Blue",
+        "Star_Porsche_944_wheel2_green",
+        "Star_Porsche_944_wheel2_orange",
+        "Star_Porsche_944_wheel2_pink",
+        "Star_Porsche_944_wheel2_Red",
+        "Star_Porsche_944_wheel2_white",
+        "Star_Porsche_944_wheel2_yellow",
+        "Star_Porsche_944_wheel3_babyblue",
+        "Star_Porsche_944_wheel3_Blue",
+        "Star_Porsche_944_wheel3_green",
+        "Star_Porsche_944_wheel3_orange",
+        "Star_Porsche_944_wheel3_pink",
+        "Star_Porsche_944_wheel3_Red",
+        "Star_Porsche_944_wheel3_white",
+        "Star_Porsche_944_wheel3_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Porsche_944_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Porsche_944_codriver_babyblue",
+        "Star_Porsche_944_codriver_Blue",
+        "Star_Porsche_944_codriver_green",
+        "Star_Porsche_944_codriver_orange",
+        "Star_Porsche_944_codriver_pink",
+        "Star_Porsche_944_codriver_Red",
+        "Star_Porsche_944_codriver_white",
+        "Star_Porsche_944_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Porsche_944_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Porsche_944_hood_babyblue",
+        "Star_Porsche_944_hood_Blue",
+        "Star_Porsche_944_hood_green",
+        "Star_Porsche_944_hood_orange",
+        "Star_Porsche_944_hood_pink",
+        "Star_Porsche_944_hood_Red",
+        "Star_Porsche_944_hood_white",
+        "Star_Porsche_944_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Porsche_944_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Porsche_944_trunk_babyblue",
+        "Star_Porsche_944_trunk_Blue",
+        "Star_Porsche_944_trunk_green",
+        "Star_Porsche_944_trunk_orange",
+        "Star_Porsche_944_trunk_pink",
+        "Star_Porsche_944_trunk_Red",
+        "Star_Porsche_944_trunk_white",
+        "Star_Porsche_944_trunk_yellow"
+      ]
+    }
+  ]
+}

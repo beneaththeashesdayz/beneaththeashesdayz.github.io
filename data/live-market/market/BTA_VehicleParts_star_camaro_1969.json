@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "Camaro 1969 Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Star_Camaro_1969_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Camaro_1969_driver_Blue",
+        "Star_Camaro_1969_driver_Red",
+        "Star_Camaro_1969_driver_white",
+        "Star_Camaro_1969_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Camaro_1969_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Camaro_1969_codriver_Blue",
+        "Star_Camaro_1969_codriver_Red",
+        "Star_Camaro_1969_codriver_white",
+        "Star_Camaro_1969_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Camaro_1969_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Camaro_1969_hood_Blue",
+        "Star_Camaro_1969_hood_Red",
+        "Star_Camaro_1969_hood_white",
+        "Star_Camaro_1969_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "Star_Camaro_1969_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_Camaro_1969_trunk_Blue",
+        "Star_Camaro_1969_trunk_Red",
+        "Star_Camaro_1969_trunk_white",
+        "Star_Camaro_1969_trunk_yellow"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "lfa Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "lfa_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "lfa_driver_Blue",
+        "lfa_driver_Red",
+        "lfa_driver_white",
+        "lfa_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "lfa_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "lfa_codriver_Blue",
+        "lfa_codriver_Red",
+        "lfa_codriver_white",
+        "lfa_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "lfa_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "lfa_hood_Blue",
+        "lfa_hood_Red",
+        "lfa_hood_white",
+        "lfa_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "lfa_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "lfa_trunk_Blue",
+        "lfa_trunk_Red",
+        "lfa_trunk_white",
+        "lfa_trunk_yellow"
+      ]
+    }
+  ]
+}

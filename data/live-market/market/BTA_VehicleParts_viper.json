@@ -1,0 +1,74 @@
+{
+  "m_Version": 12,
+  "DisplayName": "viper Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "viper_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "viper_driver_Blue",
+        "viper_driver_Red",
+        "viper_driver_white",
+        "viper_driver_yellow"
+      ]
+    },
+    {
+      "ClassName": "viper_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "viper_codriver_Blue",
+        "viper_codriver_Red",
+        "viper_codriver_white",
+        "viper_codriver_yellow"
+      ]
+    },
+    {
+      "ClassName": "viper_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "viper_hood_Blue",
+        "viper_hood_Red",
+        "viper_hood_white",
+        "viper_hood_yellow"
+      ]
+    },
+    {
+      "ClassName": "viper_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "viper_trunk_Blue",
+        "viper_trunk_Red",
+        "viper_trunk_white",
+        "viper_trunk_yellow"
+      ]
+    }
+  ]
+}

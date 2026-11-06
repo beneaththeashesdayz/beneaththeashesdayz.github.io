@@ -1,0 +1,86 @@
+{
+  "m_Version": 12,
+  "DisplayName": "APC Cobra Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "Star_APC_Cobra_driver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_APC_Cobra_driver_camogreen",
+        "Star_APC_Cobra_driver_camoorange",
+        "Star_APC_Cobra_driver_camowhite",
+        "Star_APC_Cobra_driver_carbon",
+        "Star_APC_Cobra_driver_grey",
+        "Star_APC_Cobra_driver_Red",
+        "Star_APC_Cobra_driver_white"
+      ]
+    },
+    {
+      "ClassName": "Star_APC_Cobra_codriver",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_APC_Cobra_codriver_camogreen",
+        "Star_APC_Cobra_codriver_camoorange",
+        "Star_APC_Cobra_codriver_camowhite",
+        "Star_APC_Cobra_codriver_carbon",
+        "Star_APC_Cobra_codriver_grey",
+        "Star_APC_Cobra_codriver_Red",
+        "Star_APC_Cobra_codriver_white"
+      ]
+    },
+    {
+      "ClassName": "Star_APC_Cobra_hood",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_APC_Cobra_hood_camogreen",
+        "Star_APC_Cobra_hood_camoorange",
+        "Star_APC_Cobra_hood_camowhite",
+        "Star_APC_Cobra_hood_carbon",
+        "Star_APC_Cobra_hood_grey",
+        "Star_APC_Cobra_hood_Red",
+        "Star_APC_Cobra_hood_white"
+      ]
+    },
+    {
+      "ClassName": "Star_APC_Cobra_trunk",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "Star_APC_Cobra_trunk_camogreen",
+        "Star_APC_Cobra_trunk_camoorange",
+        "Star_APC_Cobra_trunk_camowhite",
+        "Star_APC_Cobra_trunk_carbon",
+        "Star_APC_Cobra_trunk_grey",
+        "Star_APC_Cobra_trunk_Red",
+        "Star_APC_Cobra_trunk_white"
+      ]
+    }
+  ]
+}
