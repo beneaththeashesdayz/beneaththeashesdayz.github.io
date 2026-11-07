@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-07T17:22:51.673432+00:00",
+  "syncedAt": "2026-11-07T18:21:59.956661+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -2910,7 +2910,7 @@
     {
       "group": "traderzones",
       "filename": "ExoticVehicleTrader.json",
-      "sha256": "d4195e27dc905f8bb918200040c3e701081871d29feedcb4e82f7cf435589f93",
+      "sha256": "8f52a9986111ad40ec00f6f4c6036f428a6ee38300e934dddc304a8231fac121",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2931,7 +2931,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "a5ff6dc512b50d510bd0786a15b618d9a945d439957d0ad1d6e79b2d78fbaa7a",
+      "sha256": "4b9594f4d90207031179142e2d8eba2ea364e10f3104067973d349ae985b24b9",
       "topLevelType": "object",
       "entryCount": 7
     },
