@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Biggun’s Bounty Hunt | Chernarus | Beneath the Ashes</title>
+  <meta name="description" content="Biggun’s Bounty Hunt on Chernarus, Saturday November 14, 2026, 6–7 PM EST / 11 PM–midnight GMT. Track Biggun, face his armed AI companions and recover his unique gear.">
+  <meta property="og:title" content="Biggun’s Bounty Hunt | Beneath the Ashes">
+  <meta property="og:description" content="One target. One hour. November 14, 2026, 6–7 PM EST. Static map intel, armed AI companions and a traveling PvP zone around Biggun.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://beneaththeashesdayz.github.io/chernarus/events/bigguns-bounty-hunt/">
+  <link rel="stylesheet" href="../../../styles.css?v=bounty-hunt-1">
+  <style>
+    .bounty-page main{padding-bottom:54px}
+    .bounty-page .page-context{margin-top:28px}
+    .bounty-hero{margin:28px 0 30px;padding:38px 40px;border:1px solid #62513f;border-left:3px solid #c7a16a;background:radial-gradient(ellipse at 100% 0,rgba(149,105,53,.16),transparent 60%),linear-gradient(125deg,#211d18,#121618)}
+    .bounty-hero h1{max-width:980px;margin:18px 0 20px;font-size:clamp(2.7rem,7vw,6rem);line-height:.92;letter-spacing:-.05em;text-transform:uppercase;color:#f0e8d8}
+    .bounty-hero h1 span{color:#d6b581}
+    .bounty-hero p{max-width:780px;color:var(--muted);line-height:1.75;margin:0}
+    .bounty-meta{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin:24px 0 0}
+    .bounty-meta .event-status{margin:0!important}
+    .event-status-upcoming{display:flex;width:max-content;max-width:100%;margin:0;padding:13px 18px;border:2px solid #c7a16a;background:#30261b;color:#f0d2a4;font-size:1rem;font-weight:1000;letter-spacing:.16em;box-shadow:0 0 22px rgba(199,161,106,.25)}.event-status-upcoming i{width:10px;height:10px;background:#c7a16a;box-shadow:0 0 12px #c7a16a}
+    .bounty-target{color:#e1c79e;font-size:.85rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}
+    .bounty-section{margin:0 0 30px}
+    .bounty-heading{padding-bottom:14px;margin-bottom:18px;border-bottom:1px solid var(--line)}
+    .bounty-heading h2{margin:8px 0 0;font-size:clamp(1.7rem,3vw,2.5rem);line-height:1.05;letter-spacing:-.03em;text-transform:uppercase}
+    .bounty-schedule{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:0}
+    .bounty-schedule>div,.bounty-panel{min-width:0;padding:24px;border:1px solid var(--line);background:linear-gradient(125deg,#191c1e,#111416)}
+    .bounty-schedule dt{color:#d6b581;font-size:.75rem;letter-spacing:.14em;font-weight:900;text-transform:uppercase}
+    .bounty-schedule dd{margin:10px 0 0}
+    .bounty-schedule time{display:block;font-size:clamp(1.7rem,4vw,2.4rem);font-weight:900;color:#f0e8d8}
+    .bounty-schedule dd span{display:block;margin-top:8px;color:var(--muted);line-height:1.6}
+    .bounty-intel{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .bounty-panel h3{margin:0 0 12px;color:#d6b581;font-size:.9rem;letter-spacing:.12em;text-transform:uppercase}
+    .bounty-panel p{color:var(--muted);line-height:1.75;margin:0}
+    .bounty-panel p+p{margin-top:12px}
+    .bounty-page strong{color:#f0e8d8}
+    .bounty-warning{padding:22px 24px;margin:18px 0 0;border:1px solid #814537;border-left:3px solid #e45d43;background:linear-gradient(110deg,#2c1b17,#151719)}
+    .bounty-warning h3{color:#ffb29b;margin:0 0 10px;font-size:.9rem;letter-spacing:.1em;text-transform:uppercase}
+    .bounty-warning p{margin:0;color:#d8c7be;line-height:1.7}
+    .bounty-rules{padding:24px;border:1px solid #62513f;background:#181919}
+    .bounty-rules h2{margin:8px 0 14px;font-size:1.6rem;text-transform:uppercase}
+    .bounty-rules p{margin:0;color:var(--muted);line-height:1.75}
+    .bounty-page .project-links{gap:12px}
+    .bounty-signoff{margin:26px 0 0;color:#d6b581;font-weight:800;line-height:1.7}
+    @media(max-width:760px){.bounty-hero{padding:28px 24px}.bounty-schedule,.bounty-intel{grid-template-columns:1fr}.bounty-panel,.bounty-schedule>div,.bounty-rules{padding:22px}.bounty-warning{padding:20px 22px}}
+    @media(max-width:430px){.bounty-hero{padding:25px 20px}.bounty-hero h1{font-size:clamp(2.3rem,11vw,3rem)}.bounty-meta{gap:16px}.bounty-page .button{max-width:100%;white-space:normal;text-align:center}.bounty-page header{padding-top:58px}.bounty-page .site-support-link,.bounty-page .site-store-link,.bounty-page .site-discord-link{width:calc((100% - 48px)/3)!important;padding:0 4px!important;min-height:34px!important;font-size:.48rem!important}.bounty-page .site-support-link{left:12px!important;right:auto!important}.bounty-page .site-store-link{left:calc((100% - 48px)/3 + 24px)!important;right:auto!important}.bounty-page .site-discord-link{left:auto!important;right:12px!important}}
+    @media(max-width:430px){.bounty-meta .event-status{font-size:.85rem!important;letter-spacing:.12em!important;padding:11px 14px!important}.bounty-page .site-discord-link{gap:5px!important}.bounty-page .site-discord-link svg{width:14px!important;height:14px!important}}
+  </style>
+</head>
+<body class="events-page bounty-page">
+<header><div class="wrap"><div class="brand"><div class="mark"><span></span></div><div>Beneath the Ashes</div></div></div></header>
+<main class="wrap">
+  <div class="page-context"><a class="back" href="../">← All Events</a><div class="world-tag">World // Chernarus</div></div>
+
+  <section class="bounty-hero" data-bounty-hunt data-event-start="2026-11-14T23:00:00Z" data-event-end="2026-11-15T00:00:00Z">
+    <div class="project-label">Saturday, November 14, 2026 // Chernarus</div>
+    <h1>Biggun’s<br><span>Bounty Hunt</span></h1>
+    <p><strong>One target. One hour.</strong> The notorious Biggun is the target. Track him down, eliminate him and recover the unique gear he carries.</p>
+    <div class="bounty-meta"><div class="event-status event-status-upcoming" data-bounty-status><i></i> Upcoming event</div><div class="bounty-target">Target: Biggun</div></div>
+  </section>
+
+  <section class="bounty-section" aria-labelledby="event-window">
+    <div class="bounty-heading"><div class="project-label">01 // Operation Window</div><h2 id="event-window">Saturday, November 14</h2></div>
+    <dl class="bounty-schedule">
+      <div><dt>Starting Time</dt><dd><time datetime="2026-11-14T23:00:00Z">6:00 PM EST</time><span>11:00 PM GMT · November 14, 2026</span></dd></div>
+      <div><dt>End Time</dt><dd><time datetime="2026-11-15T00:00:00Z">7:00 PM EST</time><span>Midnight GMT · November 15, 2026</span></dd></div>
+    </dl>
+  </section>
+
+  <section class="bounty-section" aria-labelledby="hunt-objective">
+    <div class="bounty-heading"><div class="project-label">02 // The Objective</div><h2 id="hunt-objective">Find the Target. Recover the Gear.</h2></div>
+    <div class="bounty-panel"><p><strong>Track down and eliminate Biggun.</strong> Recover the <strong>unique gear held by the target</strong>.</p></div>
+  </section>
+
+  <section class="bounty-section" aria-labelledby="field-intel">
+    <div class="bounty-heading"><div class="project-label">03 // Field Intel</div><h2 id="field-intel">Know What You’re Hunting</h2></div>
+    <div class="bounty-intel">
+      <article class="bounty-panel"><h3>Static Map Readings</h3><p>The target is marked on the map. These are <strong>static readings only</strong> — there are <strong>no live updates</strong>.</p></article>
+      <article class="bounty-panel"><h3>Armed AI Companions</h3><p>Biggun is accompanied by <strong>armed AI companions</strong>. The target is not traveling alone.</p></article>
+    </div>
+    <aside class="bounty-warning" aria-labelledby="pvp-warning"><h3 id="pvp-warning">Traveling PvP Zone</h3><p><strong>A traveling PvP zone is active around Biggun.</strong> Be aware of the zone as you approach the target. Participation requires compliance with the official Chernarus server rules.</p></aside>
+  </section>
+
+  <section class="bounty-rules" aria-labelledby="participation">
+    <div class="project-label">04 // Participation</div><h2 id="participation">Know the Rules. Good Hunting.</h2>
+    <p>Review the official Chernarus rules before taking part in Biggun’s Bounty Hunt.</p>
+    <div class="project-links"><a class="button" href="../../rules/">Official Chernarus Rules →</a><a class="button" href="../">Back to Chernarus Events →</a></div>
+  </section>
+  <p class="bounty-signoff">Beneath the Ashes — Survival is earned.</p>
+</main>
+<footer><div class="wrap">Beneath the Ashes • Chernarus • Biggun’s Bounty Hunt</div></footer>
+<script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
+<script src="./status.js?v=1"></script>
+</body>
+</html>

@@ -19,6 +19,7 @@
       .hollow-steed-card:after{left:0;right:0;bottom:auto;width:100%;height:180px;background:linear-gradient(180deg,rgba(18,24,32,.16),rgba(18,24,32,1)),url("../../assets/events/hollow-steed.jpg") center 43%/cover no-repeat;opacity:.8}
     }
     @media(max-width:430px){.hollow-steed-card{padding-top:165px}.hollow-steed-card:after{height:155px}}
+    .event-status-upcoming{display:flex;width:max-content;max-width:100%;margin:0 auto 22px;padding:13px 18px;border:2px solid #c7a16a;background:#30261b;color:#f0d2a4;font-size:1rem;font-weight:1000;letter-spacing:.16em;box-shadow:0 0 22px rgba(199,161,106,.25)}.event-status-upcoming i{width:10px;height:10px;background:#c7a16a;box-shadow:0 0 12px #c7a16a}
   </style>
 </head>
 <body class="events-page">
@@ -57,6 +58,15 @@
       </div>
 
       <div id="current-event-list" class="reward-ladder">
+        <a id="bigguns-bounty-hunt-card" class="reward-card elite" href="bigguns-bounty-hunt/" data-bounty-hunt data-event-start="2026-11-14T23:00:00Z" data-event-end="2026-11-15T00:00:00Z">
+          <div class="reward-tier">
+            <span>Saturday, November 14, 2026</span>
+            <h3>Biggun’s Bounty Hunt</h3>
+          </div>
+          <p><strong>Target: Biggun.</strong> Track him down, eliminate the target and recover the unique gear he carries. Expect armed AI companions and a traveling PvP zone around him.</p>
+          <p class="reward-name">6–7 PM EST · 11 PM–midnight GMT · Static map readings only</p>
+          <span class="event-status event-status-upcoming" data-bounty-status><i></i> Upcoming event</span>
+        </a>
         <a id="hollow-steed-card" class="reward-card master hollow-steed-card" href="hollow-steed/" data-event-end="2026-11-08T05:00:00Z">
           <div class="reward-tier">
             <span>Limited-Time Halloween Event</span>
@@ -205,5 +215,6 @@
       if(pastList){ pastList.prepend(card); }
     })();
   </script>
+  <script src="bigguns-bounty-hunt/status.js?v=1"></script>
 </body>
 </html>
