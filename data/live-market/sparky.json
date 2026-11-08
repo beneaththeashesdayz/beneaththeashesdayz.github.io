@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-11-08T22:21:31.636081+00:00",
+  "syncedAt": "2026-11-08T23:21:47.807321+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -817,6 +817,12 @@
       "traderItemClassname": "Garage_Sign_2",
       "personalTraderGroupname": "Helicopters",
       "groupTraderGroupname": "Helicopters",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
       "blackboxPreview": 0
     },
     {

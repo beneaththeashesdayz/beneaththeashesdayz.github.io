@@ -21,5 +21,8 @@
   "Categories": [
     "IAT_Raw_Ores:2"
   ],
-  "Items": {}
+  "Items": {
+    "pickaxe": 2,
+    "whetstone": 2
+  }
 }

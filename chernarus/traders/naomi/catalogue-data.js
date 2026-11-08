@@ -14,7 +14,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Sodacan Cola',className:'sodacan_cola',category:'Drinks',mode:'buy',price:9955,sellPrice:4978},
 {name:'Sodacan Fronta',className:'sodacan_fronta',category:'Drinks',mode:'buy',price:10040,sellPrice:5020},
 {name:'Sodacan Kvass',className:'sodacan_kvass',category:'Drinks',mode:'buy',price:9860,sellPrice:4930},
-{name:'Sodacan Pipsi',className:'sodacan_pipsi',category:'Drinks',mode:'sell',price:10165},
+{name:'Sodacan Pipsi',className:'sodacan_pipsi',category:'Drinks',mode:'buy',price:10165,sellPrice:5082},
 {name:'Sodacan Spite',className:'sodacan_spite',category:'Drinks',mode:'sell',price:9780},
 {name:'Sodacan Takola',className:'sodacan_takola',category:'Drinks',mode:'buy',price:9955,sellPrice:4978},
 {name:'Sodacan Zumzam',className:'sodacan_zumzam',category:'Drinks',mode:'buy',price:9955,sellPrice:4978},
