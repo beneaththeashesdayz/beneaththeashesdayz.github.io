@@ -36,7 +36,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Pajka',className:'pajka',category:'Food',mode:'buy',price:10345,sellPrice:5172},
 {name:'Pate',className:'pate',category:'Food',mode:'buy',price:9945,sellPrice:4972},
 {name:'Peachescan',className:'peachescan',category:'Food',mode:'buy',price:10080,sellPrice:5040},
-{name:'Porkcan',className:'porkcan',category:'Food',mode:'sell',price:10165},
+{name:'Porkcan',className:'porkcan',category:'Food',mode:'buy',price:10165,sellPrice:5082},
 {name:'Powderedmilk',className:'powderedmilk',category:'Food',mode:'buy',price:9995,sellPrice:4998},
 {name:'Rice',className:'rice',category:'Food',mode:'sell',price:9860},
 {name:'Saltymix',className:'saltymix',category:'Food',mode:'sell',price:9745},
