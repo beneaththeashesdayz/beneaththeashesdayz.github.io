@@ -19,6 +19,9 @@
   "DisplayCurrencyName": "USD",
   "UseCategoryOrder": 1,
   "Categories": [
+    "Helicopter_MH6_Parts:1",
+    "Helicopter_UH1H_Parts:1",
+    "Helicopter_Merlin_Parts:1",
     "Helicopter_Supplies:1"
   ],
   "Items": {
@@ -26,10 +29,6 @@
     "headlighth7_box": 1,
     "batterycharger": 1,
     "canistergasoline": 1,
-    "canistergasoline_avation_extended": 1,
-    "canistergasoline_cowprint_extended": 1,
-    "canistergasoline_petrolhead_extended": 1,
-    "canistergasoline_scifi_extended": 1,
     "pipewrench": 1,
     "epoxyputty": 1,
     "ducttape": 1,

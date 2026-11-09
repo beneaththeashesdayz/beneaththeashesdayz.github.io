@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-09T01:24:26.368543+00:00",
+  "syncedAt": "2026-11-09T02:19:44.439290+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 379,
+  "marketFileCount": 382,
   "traderFileCount": 31,
   "traderZoneFileCount": 24,
   "files": [
@@ -1929,8 +1929,29 @@
     },
     {
       "group": "market",
+      "filename": "Helicopter_Merlin_Parts.json",
+      "sha256": "628553f8b5c429f44535f8f2ac2d5aa27e7ca63b6e314390675d710a5a760f02",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Helicopter_MH6_Parts.json",
+      "sha256": "133b3c396dc561e05810b18f577a57554159338f2578be62d8e68c08db4d34d2",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
       "filename": "Helicopter_Supplies.json",
-      "sha256": "047b3124f550371842d9a18f957c58850684f1e3550ce391e8094f6ad55158d9",
+      "sha256": "8333e4e6542761f9d6a4a3c8a243470839b4021732d63dd745e60ab2dcb9698a",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Helicopter_UH1H_Parts.json",
+      "sha256": "69ce1de342a42f32de84ceb0dabec173ce401c6f9ee1be3a41f492a72e2aa7ac",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2805,7 +2826,7 @@
     {
       "group": "traders",
       "filename": "Helicopter_Supplies.json",
-      "sha256": "c79a6e15e30c1aeb7afc8a438b63afa35429f27befdc0c1398768022340c1d4f",
+      "sha256": "3365a6ac4ce6ce52a1aa6a455fa53cb8c2cc04493a4d1d0f86929379db5c9f4b",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2945,7 +2966,7 @@
     {
       "group": "traderzones",
       "filename": "ExoticVehicleTrader.json",
-      "sha256": "8f52a9986111ad40ec00f6f4c6036f428a6ee38300e934dddc304a8231fac121",
+      "sha256": "a9e055e0b7fa37248873992c4089deb88809e7f07001ee3129bb56931e9142ed",
       "topLevelType": "object",
       "entryCount": 7
     },
