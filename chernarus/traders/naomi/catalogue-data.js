@@ -56,7 +56,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Auriculariamushroom',className:'auriculariamushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
 {name:'Boletusmushroom',className:'boletusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
 {name:'Craterellusmushroom',className:'craterellusmushroom',category:'Fruit And Vegetables',mode:'sell',price:1200},
-{name:'Greenbellpepper',className:'greenbellpepper',category:'Fruit And Vegetables',mode:'sell',price:800},
+{name:'Greenbellpepper',className:'greenbellpepper',category:'Fruit And Vegetables',mode:'buy',price:800,sellPrice:400},
 {name:'Lactariusmushroom',className:'lactariusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
 {name:'Macrolepiotamushroom',className:'macrolepiotamushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
 {name:'Pear',className:'pear',category:'Fruit And Vegetables',mode:'sell',price:150},
