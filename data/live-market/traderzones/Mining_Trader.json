@@ -10,6 +10,7 @@
   "BuyPricePercent": 100.0,
   "SellPricePercent": 100.0,
   "Stock": {
+    "pickaxe": 0,
     "freezegem_amber_flawed": 0,
     "freezegem_turquoise_perfect": 0,
     "iat_miningore_silver": 1,
@@ -77,6 +78,7 @@
     "freezegem_amber": 0,
     "freezegem_iolite_perfect": 0,
     "freezegem_amber_perfect": 0,
+    "whetstone": 0,
     "freezegem_fancycolourdiamond_standard": 0,
     "freezegem_iolite_standard": 0,
     "freezebar_silver": 0
