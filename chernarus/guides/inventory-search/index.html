@@ -1,73 +1,58 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Inventory Search Guide | Beneath the Ashes</title>
-  <link rel="stylesheet" href="../../../styles.css?v=connection-hover-2">
-  <style>
-    .guide-page{padding:48px 0 76px}
-    .guide-hero{border:1px solid #5b4437;background:radial-gradient(circle at 78% 12%,rgba(201,103,45,.22),transparent 30%),linear-gradient(145deg,#241b18,#131719 64%);padding:42px 44px;margin:28px 0 34px;min-height:280px;display:flex;flex-direction:column;justify-content:end}
-    .guide-hero h1{font-size:clamp(3.2rem,8vw,7rem);line-height:.86;letter-spacing:-.06em;text-transform:uppercase;margin:12px 0}
-    .guide-hero p{max-width:760px;color:#d8c4ad;line-height:1.7}
-    .guide-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr);gap:22px}
-    .guide-panel{border:1px solid var(--line);background:#141719;padding:26px}
-    .guide-panel h2{margin:0 0 18px;text-transform:uppercase;font-size:1.35rem}
-    .guide-panel h3{margin:20px 0 10px;color:#d8c4ad;text-transform:uppercase;font-size:1rem;letter-spacing:.08em}
-    .guide-panel p,.guide-panel li{color:var(--muted);line-height:1.6}
-    .guide-panel ul,.guide-panel ol{padding-left:20px;margin:0;display:grid;gap:10px}
-    .guide-panel strong{color:#f1e7dc}
-    .guide-step{border-left:3px solid var(--ember);background:#1c1714;padding:16px 18px;margin-top:12px}
-    .guide-step strong{display:block;color:#f0d1b5;letter-spacing:.06em;margin-bottom:5px}
-    .guide-note{margin-top:22px;border-left:3px solid var(--ember);padding:16px 18px;background:#1c1714;color:#d8c4ad;line-height:1.6}
-    .inventory-guide .guide-hero .kicker{color:#e07b39}
-    .inventory-guide .guide-panel h2{color:#f1e7dc}
-    .inventory-warning{border-left-color:#e07b39;background:linear-gradient(110deg,#281d17,#181716);color:#f0d1b5;font-weight:800}
-    .inventory-warning strong{color:#ffd9b8}
-    .inventory-workshop{margin-top:20px}
-    .inventory-workshop .button{display:inline-block}
-    @media(max-width:760px){
-      .guide-hero{padding:28px 24px}
-      .guide-layout{grid-template-columns:1fr}
-      .guide-panel{padding:20px}
-    }
-  </style>
-</head>
-<body>
-<header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
-<main class="wrap guide-page inventory-guide">
-  <div class="page-context"><a class="back" href="../">← Chernarus Guides</a><div class="world-tag">Server Tools</div><div class="world-tag">Available // Chernarus</div></div>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inventory Search Guide | Beneath the Ashes</title><meta name="description" content="Press O to search your BTA Chernarus inventory by item name, classname, or container location. Find stored items and learn how to drop them safely.">
+<link rel="stylesheet" href="../../../styles.css?v=connection-hover-2"><style>
+.guide-page{padding:48px 0 76px}
+.guide-hero{border:1px solid #4c6263;background:radial-gradient(circle at 78% 12%,rgba(110,156,145,.22),transparent 30%),linear-gradient(145deg,#1b2929,#131719 64%);padding:42px 44px;margin:28px 0 24px;min-height:280px;display:flex;flex-direction:column;justify-content:end}
+.guide-hero h1{font-size:clamp(3.2rem,8vw,7rem);line-height:.86;letter-spacing:-.06em;text-transform:uppercase;margin:12px 0}
+.guide-hero p{max-width:760px;color:#d8c4ad;line-height:1.7}
+.inventory-guide .guide-hero .kicker{color:#8ec0b3}
+.guide-highlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:24px}
+.guide-highlight{border:1px solid #4b5e5c;padding:18px;background:#171e1e;line-height:1.55;color:#c4d5d0}
+.guide-highlight strong{display:block;color:#b8e0d4;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:7px}
+.guide-panel{border:1px solid var(--line);background:#141719;padding:28px;margin-top:22px;scroll-margin-top:86px;min-width:0}
+.guide-panel h2{display:flex;align-items:flex-start;gap:13px;margin:0 0 18px;text-transform:uppercase;font-size:clamp(1.25rem,2.5vw,1.65rem);line-height:1.35;color:#dce9e4}
+.guide-panel h3{margin:0 0 10px;color:#d8c4ad;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;line-height:1.5}
+.guide-panel p,.guide-panel li{color:var(--muted);line-height:1.75}
+.guide-panel p{margin:0 0 16px;max-width:930px}
+.guide-panel p:last-child{margin-bottom:0}
+.guide-panel strong{color:#f1e7dc}
+.guide-icon{width:26px;height:26px;flex:0 0 26px;color:#8ec0b3;margin-top:2px;stroke:currentColor;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.guide-return{display:block;width:fit-content;margin:24px 0 0;padding:9px 0;font-size:.78rem;text-decoration:none;letter-spacing:.04em}
+.inventory-guide .guide-return{color:#9aafa7}
+.inventory-guide a:focus-visible{outline:2px solid #8ec0b3;outline-offset:4px}
+.inventory-guide .guide-panel a{color:#b8e0d4}
+.inventory-guide .guide-panel a:hover{color:#e0eee8}
 
-  <section class="guide-hero">
-    <div class="kicker">Server Tools</div>
-    <h1>Inventory<br>Search</h1>
-    <p>Find what you need without opening every container in Chernarus like a survivor with a very specific shopping list.</p>
-  </section>
-
-  <section class="guide-panel">
-      <h2>Open Inventory Search</h2>
-      <p>Press <strong>O</strong> in-game to open Inventory Search and start looking through your stored items.</p>
-      <div class="guide-note"><strong>Keybinding:</strong> Change the key under <strong>Controls → BTA Inventory Finder</strong>. Existing test profiles may still have <strong>F7</strong> until the key is rebound.</div>
-    </section>
-  </div>
-
-  <section class="guide-panel" style="margin-top:22px">
-    <h2>Search the Results</h2>
-    <ol>
-      <li>Search by <strong>item name</strong>, <strong>classname</strong>, or <strong>container location</strong>.</li>
-      <li>Contents appear indented beneath their containers, so you can see what is stored inside them.</li>
-      <li>The location column shows where each item is stored. Select an item to see its full location.</li>
-      <li>Scroll through the results when the list is longer than the visible area.</li>
-    </ol>
-  </section>
-
-  <section class="guide-panel" style="margin-top:22px">
-    <h2>Drop an Item</h2>
-    <p><strong>Double-left-click</strong> an item to drop it at your feet.</p>
-    <div class="guide-note inventory-warning"><strong>⚠️ Container warning:</strong> Dropping a container also drops everything inside it. Check the item before clicking unless you meant to empty the whole thing onto the floor.</div>
-  </section>
-</main>
-<footer><div class="wrap">Beneath the Ashes • Chernarus Guides</div></footer>
-<script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
-</body>
-</html>
+.guide-toc ul{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px 24px;list-style:none;margin:0;padding:0}
+.guide-toc a{display:block;padding:10px 0;color:#d8c4ad;font-size:.92rem;line-height:1.6;text-decoration:underline;text-underline-offset:4px;text-decoration-color:#53635d}
+.inventory-shortcut{display:flex;align-items:center;gap:22px;padding:22px;border:1px solid #5d8278;background:linear-gradient(115deg,#192725,#141719)}
+.inventory-shortcut kbd{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;min-width:68px;padding:14px;border:1px solid #719b91;border-bottom-width:4px;border-radius:4px;background:#111819;color:#dce9e4;font:800 1.8rem/1.1 ui-monospace,Consolas,monospace}
+.inventory-shortcut p{margin:0}
+.guide-note{margin-top:20px;border-left:3px solid #719b91;padding:16px 18px;background:#17201f;color:#c4d5d0;line-height:1.7}
+.guide-note p{color:inherit}
+.inventory-steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;list-style:none;padding:0;margin:0}
+.inventory-step{border:1px solid #3b4947;background:#171e1e;padding:20px;min-width:0}
+.inventory-step .step-number{display:block;color:#8ec0b3;font-weight:800;font-size:.78rem;letter-spacing:.1em;margin-bottom:10px}
+.inventory-step h3{font-size:.88rem;color:#b8e0d4;letter-spacing:.05em;margin-bottom:10px}
+.inventory-step p{margin:0}
+.inventory-warning{margin-top:20px;border:1px solid #75513a;border-left:4px solid #d99b5d;background:linear-gradient(110deg,#302117,#1c1916);padding:18px 20px}
+.inventory-warning h3{display:flex;align-items:flex-start;gap:10px;color:#ffd9b8;font-size:.94rem;letter-spacing:.05em;margin:0 0 10px}
+.inventory-warning p{color:#f0d1b5;margin:0}
+.warning-symbol{width:21px;height:21px;flex:0 0 21px;margin-top:1px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.inventory-guide .section-nav{margin-top:28px}
+.inventory-guide .section-nav a{line-height:1.6;max-width:100%;overflow-wrap:anywhere}
+@media(max-width:760px){.guide-page{padding-top:30px}.guide-hero{padding:28px 24px}.guide-panel{padding:24px 20px}.guide-highlights{grid-template-columns:1fr}.guide-highlight{padding:16px}.guide-toc ul{gap:12px}.guide-toc a{font-size:.88rem}}
+@media(max-width:600px){.guide-toc ul,.inventory-steps{grid-template-columns:1fr}.guide-toc ul{gap:4px}.guide-panel h2{font-size:1.18rem;gap:10px}.guide-icon{width:23px;height:23px;flex-basis:23px}.inventory-guide .guide-hero h1{font-size:clamp(2.35rem,10.4vw,3.2rem)}.inventory-shortcut{padding:18px;gap:16px;align-items:flex-start}.inventory-shortcut kbd{min-width:52px;padding:12px;font-size:1.5rem}.inventory-warning,.inventory-step{padding:16px}.inventory-guide .section-nav{flex-direction:column;align-items:stretch}}
+@media(max-width:440px){body.inventory-guide-page .site-support-link,body.inventory-guide-page .site-store-link,body.inventory-guide-page .site-discord-link{width:calc((100% - 48px)/3);font-size:.5rem;padding:0 4px;gap:4px;justify-content:center}body.inventory-guide-page .site-support-link{left:12px;right:auto!important}body.inventory-guide-page .site-store-link{left:calc((100% - 48px)/3 + 24px);right:auto}body.inventory-guide-page .site-discord-link{right:12px}body.inventory-guide-page .site-discord-link svg{width:16px;height:16px;flex-shrink:0}body.inventory-guide-page .site-discord-link span{white-space:normal;text-align:center;line-height:1.3}}
+</style></head>
+<body class="inventory-guide-page"><header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
+<main class="wrap guide-page inventory-guide"><div class="page-context"><a class="back" href="../">← Chernarus Guides</a><div class="world-tag">Server Tools</div></div>
+<section class="guide-hero"><div class="kicker">BTA Player Guide · Chernarus</div><h1>Inventory<br>Search</h1><p>Find what you need without opening every container in Chernarus like a survivor with a very specific shopping list.</p></section>
+<div class="guide-highlights" aria-label="Inventory Search quick reference"><div class="guide-highlight"><strong>Open Inventory Search</strong>Press <b>O</b> while in-game.</div><div class="guide-highlight"><strong>Find Your Items</strong>Search by item name, classname, or container location.</div><div class="guide-highlight"><strong>Manage Your Results</strong>Identify where items are stored and drop items when needed.</div></div>
+<nav class="guide-panel guide-toc" id="guide-contents" aria-labelledby="contents-heading"><h2 id="contents-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5h13M8 12h13M8 19h13M3 5h.01M3 12h.01M3 19h.01"/></svg>In This Field Guide</h2><ul><li><a href="#opening-inventory-search">Opening Inventory Search</a></li><li><a href="#searching-your-inventory">Searching Your Inventory</a></li><li><a href="#dropping-items">Dropping Items</a></li></ul></nav>
+<section class="guide-panel" id="opening-inventory-search" aria-labelledby="opening-heading"><h2 id="opening-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M6 13h.01M10 13h.01M14 13h.01M18 13h.01M8 16h8"/></svg>Opening Inventory Search</h2><div class="inventory-shortcut"><kbd>O</kbd><p>Press <strong>O</strong> in-game to open Inventory Search and start looking through your stored items.</p></div><aside class="guide-note" aria-label="Keybinding information"><p><strong>Keybinding:</strong> Change the key under <strong>Controls → BTA Inventory Finder</strong>. Existing test profiles may still have <strong>F7</strong> until the key is rebound.</p></aside><a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="searching-your-inventory" aria-labelledby="searching-heading"><h2 id="searching-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/></svg>Searching Your Inventory</h2><ol class="inventory-steps"><li class="inventory-step"><span class="step-number">Step 01</span><h3>Search for an Item</h3><p>Search by <strong>item name</strong>, <strong>classname</strong>, or <strong>container location</strong>.</p></li><li class="inventory-step"><span class="step-number">Step 02</span><h3>Understand the Results</h3><p>Contents appear indented beneath their containers, so you can see what is stored inside them.</p></li><li class="inventory-step"><span class="step-number">Step 03</span><h3>Identify Item Locations</h3><p>The location column shows where each item is stored. Select an item to see its full location.</p></li><li class="inventory-step"><span class="step-number">Step 04</span><h3>Browse Longer Lists</h3><p>Scroll through the results when the list is longer than the visible area.</p></li></ol><a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="dropping-items" aria-labelledby="dropping-heading"><h2 id="dropping-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4"/></svg>Dropping Items</h2><p><strong>Double-left-click</strong> an item to drop it at your feet.</p><aside class="inventory-warning" aria-labelledby="container-warning-heading"><h3 id="container-warning-heading"><svg class="warning-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Warning — Dropping Containers</h3><p>Dropping a container also drops everything stored inside it. Double-check your selection before dropping anything!</p></aside><a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<nav class="section-nav" aria-label="Guide navigation"><a href="../">← Return to Chernarus Guides</a><a href="#guide-contents">Back to contents ↑</a><a href="../../">Chernarus Hub →</a></nav></main>
+<footer><div class="wrap">Beneath the Ashes • Chernarus • Inventory Search Guide</div></footer><script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script></body></html>
