@@ -67,7 +67,7 @@
     "flag_nsahrani": 0,
     "canopener": 1,
     "lfpg_pushbutton_kit": 1,
-    "megaphone": 10,
+    "megaphone": 1,
     "burlapsack": 1,
     "ammobox": 1,
     "barrel_yellow": 0,
@@ -415,7 +415,7 @@
     "bbp_solarplus_panelkit": 1,
     "headtorch_black": 1,
     "flag_apa": 0,
-    "bear_dark": 6,
+    "bear_dark": 1,
     "flag_tec": 1,
     "lfpg_cablereel": 1,
     "pitchfork": 1

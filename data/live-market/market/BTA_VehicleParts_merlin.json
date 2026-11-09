@@ -18,7 +18,7 @@
       "Variants": []
     },
     {
-      "ClassName": "ExpansionMerlinBackWheel",
+      "ClassName": "ExpansionMerlinBackWheel_Ruined",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
       "SellPricePercent": -1,
@@ -26,12 +26,10 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": [
-        "ExpansionMerlinBackWheel_Ruined"
-      ]
+      "Variants": []
     },
     {
-      "ClassName": "ExpansionMerlinFrontWheel",
+      "ClassName": "ExpansionMerlinFrontWheel_Ruined",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
       "SellPricePercent": -1,
@@ -39,9 +37,7 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": [
-        "ExpansionMerlinFrontWheel_Ruined"
-      ]
+      "Variants": []
     }
   ]
 }

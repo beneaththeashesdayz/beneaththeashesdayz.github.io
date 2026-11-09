@@ -1,0 +1,42 @@
+{
+  "m_Version": 13,
+  "DisplayName": "Helicopter Supplies",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Gas",
+  "Currencies": [
+    "Money_Dollar1",
+    "Money_Dollar2",
+    "Money_Dollar5",
+    "Money_Dollar10",
+    "Money_Dollar20",
+    "Money_Dollar50",
+    "Money_Dollar100"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "USD",
+  "UseCategoryOrder": 1,
+  "Categories": [
+    "Helicopter_Supplies:1"
+  ],
+  "Items": {
+    "sparkplug": 1,
+    "headlighth7_box": 1,
+    "batterycharger": 1,
+    "canistergasoline": 1,
+    "canistergasoline_avation_extended": 1,
+    "canistergasoline_cowprint_extended": 1,
+    "canistergasoline_petrolhead_extended": 1,
+    "canistergasoline_scifi_extended": 1,
+    "pipewrench": 1,
+    "epoxyputty": 1,
+    "ducttape": 1,
+    "wrench": 1,
+    "screwdriver": 1,
+    "metalwire": 1,
+    "tirerepairkit": 1,
+    "camonet": 1
+  }
+}

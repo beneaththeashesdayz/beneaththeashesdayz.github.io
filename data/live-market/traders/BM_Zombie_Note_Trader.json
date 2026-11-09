@@ -43,6 +43,11 @@
     "compass": 0,
     "gpsreceiver": 0,
     "lbs_sleepingpacked_new_camo": 0,
-    "orienteeringcompass": 0
+    "orienteeringcompass": 0,
+    "canistergasoline": 0,
+    "canistergasoline_avation_extended": 0,
+    "canistergasoline_cowprint_extended": 0,
+    "canistergasoline_petrolhead_extended": 0,
+    "canistergasoline_scifi_extended": 0
   }
 }

@@ -190,17 +190,6 @@
       "Variants": []
     },
     {
-      "ClassName": "screwdriver",
-      "MaxPriceThreshold": 750,
-      "MinPriceThreshold": 750,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
       "ClassName": "shovel",
       "MaxPriceThreshold": 1500,
       "MinPriceThreshold": 1500,
@@ -245,29 +234,7 @@
       "Variants": []
     },
     {
-      "ClassName": "wrench",
-      "MaxPriceThreshold": 1000,
-      "MinPriceThreshold": 1000,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
       "ClassName": "BearTrap",
-      "MaxPriceThreshold": 1500,
-      "MinPriceThreshold": 1500,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "Blowtorch",
       "MaxPriceThreshold": 1500,
       "MinPriceThreshold": 1500,
       "SellPricePercent": -1,

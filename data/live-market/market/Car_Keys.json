@@ -7,7 +7,7 @@
   "IsExchange": 0,
   "Items": [
     {
-      "ClassName": "expansioncarkey",
+      "ClassName": "shippingcontainerkeys_green",
       "MaxPriceThreshold": 435,
       "MinPriceThreshold": 435,
       "SellPricePercent": -1,
@@ -18,7 +18,7 @@
       "Variants": []
     },
     {
-      "ClassName": "shippingcontainerkeys_green",
+      "ClassName": "expansioncarkey",
       "MaxPriceThreshold": 435,
       "MinPriceThreshold": 435,
       "SellPricePercent": -1,

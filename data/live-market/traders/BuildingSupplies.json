@@ -34,6 +34,18 @@
     "RaG_Hunting_Cabin:0"
   ],
   "Items": {
-    "CanisterGasoline": 1
+    "CanisterGasoline": 1,
+    "blowtorch": 1,
+    "smallgascanister": 1,
+    "mediumgascanister": 1,
+    "largegascanister": 1,
+    "epoxyputty": 1,
+    "ducttape": 1,
+    "wrench": 1,
+    "screwdriver": 1,
+    "camonet": 1,
+    "camonetcivil": 1,
+    "camonetdesert": 1,
+    "camonetwinter": 1
   }
 }
