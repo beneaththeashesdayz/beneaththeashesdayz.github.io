@@ -1,92 +1,109 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Terje Skills Guide | Beneath the Ashes</title>
-  <meta name="description" content="Learn how Terje Skills work on BTA Chernarus, including skill progression, perks, crafting requirements, skill books and resets.">
-  <link rel="stylesheet" href="../../../styles.css?v=connection-hover-2">
-  <style>
-    .guide-page{padding:48px 0 76px}
-    .guide-hero{border:1px solid #5b4638;background:linear-gradient(145deg,#211d2a,#131719 62%);padding:42px 44px;margin:28px 0 34px;min-height:280px;display:flex;flex-direction:column;justify-content:end}
-    .guide-hero h1{font-size:clamp(3.2rem,8vw,7rem);line-height:.86;letter-spacing:-.06em;text-transform:uppercase;margin:12px 0}
-    .guide-hero p{max-width:780px;color:#d8c4ad;line-height:1.7}
-    .guide-layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr);gap:22px}
-    .guide-panel{border:1px solid var(--line);background:#141719;padding:26px}
-    .guide-panel h2{margin:0 0 18px;text-transform:uppercase;font-size:1.35rem}
-    .guide-panel h3{margin:20px 0 10px;color:#d8c4ad;text-transform:uppercase;font-size:1rem;letter-spacing:.08em}
-    .guide-panel p,.guide-panel li{color:var(--muted);line-height:1.6}
-    .guide-panel ul,.guide-panel ol{padding-left:20px;margin:0;display:grid;gap:10px}
-    .guide-panel strong{color:#f1e7dc}
-    .guide-note{margin-top:22px;border-left:3px solid var(--ember);padding:16px 18px;background:#1c1714;color:#d8c4ad;line-height:1.6}
-    .terje-guide .guide-hero .kicker{color:#c5a5df}
-    .terje-guide .guide-panel h2{color:#eee4dc}
-    .terje-guide .guide-stack{display:grid;gap:22px;margin-top:22px}
-    .terje-guide .skill-grid,.terje-guide .focus-grid,.terje-guide .recipe-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-    .terje-guide .skill-card,.terje-guide .focus-card,.terje-guide .recipe-card{border:1px solid #403c46;background:linear-gradient(145deg,#19171d,#131719);padding:20px}
-    .terje-guide .skill-card h3,.terje-guide .focus-card h3,.terje-guide .recipe-card h3{margin:0 0 9px;color:#d4b9ec;text-transform:uppercase;font-size:.95rem;letter-spacing:.08em}
-    .terje-guide .skill-card p,.terje-guide .focus-card p,.terje-guide .recipe-card p{margin:7px 0 0}
-    .terje-guide .skill-card strong,.terje-guide .focus-card strong,.terje-guide .recipe-card strong{color:#f1e7dc}
-    .terje-guide .skill-note{border-color:#a77bc7;background:linear-gradient(110deg,#211a27,#171518)}
-    .terje-guide .recipe-card{height:100%}
-    .terje-guide .recipe-card ul{margin-top:12px}
-    .terje-guide .recipe-card li{line-height:1.5}
-    .terje-guide .guide-table-wrap{overflow-x:auto;margin-top:16px}
-    .terje-guide .guide-table{width:100%;min-width:500px;border-collapse:collapse;color:var(--muted)}
-    .terje-guide .guide-table th,.terje-guide .guide-table td{padding:12px 14px;border:1px solid var(--line);text-align:left;vertical-align:top;line-height:1.5}
-    .terje-guide .guide-table th{color:#f1e7dc;background:#1c1714;text-transform:uppercase;font-size:.72rem;letter-spacing:.08em}
-    .terje-guide .guide-table tr:nth-child(even) td{background:#17191a}
-    .terje-guide .book-reading{border-left-color:#a77bc7;background:linear-gradient(110deg,#211a27,#171518)}
-    .terje-guide .reset-warning{border-left-color:#d99b5d;background:linear-gradient(110deg,#281d17,#181716)}
-    .terje-guide .ticket-link{margin-top:22px}
-    @media(max-width:760px){
-      .guide-hero{padding:28px 24px}
-      .guide-layout,.terje-guide .skill-grid,.terje-guide .focus-grid,.terje-guide .recipe-grid{grid-template-columns:1fr}
-      .guide-panel{padding:22px}
-      .terje-guide .skill-card,.terje-guide .focus-card,.terje-guide .recipe-card{padding:18px}
-    }
-  </style>
-</head>
-<body>
-<header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Terje Skills Guide | Beneath the Ashes</title><meta name="description" content="Learn how Terje Skills work on BTA Chernarus, including skill progression, perks, crafting requirements, skill books and resets."><link rel="stylesheet" href="../../../styles.css?v=connection-hover-2"><style>
+.guide-page{padding:48px 0 76px}
+.guide-hero{border:1px solid #4c6263;background:radial-gradient(circle at 78% 12%,rgba(110,156,145,.22),transparent 30%),linear-gradient(145deg,#1b2929,#131719 64%);padding:42px 44px;margin:28px 0 24px;min-height:280px;display:flex;flex-direction:column;justify-content:end}
+.guide-hero h1{font-size:clamp(3.2rem,8vw,7rem);line-height:.86;letter-spacing:-.06em;text-transform:uppercase;margin:12px 0}
+.guide-hero p{max-width:760px;color:#d8c4ad;line-height:1.7}
+.terje-guide .guide-hero .kicker{color:#8ec0b3}
+.guide-highlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:24px}
+.guide-highlight{border:1px solid #4b5e5c;padding:18px;background:#171e1e;line-height:1.55;color:#c4d5d0}
+.guide-highlight strong{display:block;color:#b8e0d4;font-size:.8rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:7px}
+.guide-panel{border:1px solid var(--line);background:#141719;padding:28px;margin-top:22px;scroll-margin-top:86px;min-width:0}
+.guide-panel h2{display:flex;align-items:flex-start;gap:13px;margin:0 0 18px;text-transform:uppercase;font-size:clamp(1.25rem,2.5vw,1.65rem);line-height:1.35;color:#dce9e4}
+.guide-panel h3{margin:0 0 10px;color:#d8c4ad;text-transform:uppercase;font-size:1rem;letter-spacing:.08em;line-height:1.5}
+.guide-panel p,.guide-panel li{color:var(--muted);line-height:1.75}
+.guide-panel p{margin:0 0 16px;max-width:930px}
+.guide-panel p:last-child{margin-bottom:0}
+.guide-panel strong{color:#f1e7dc}
+.guide-icon{width:26px;height:26px;flex:0 0 26px;color:#8ec0b3;margin-top:2px;stroke:currentColor;stroke-width:1.5;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.guide-toc-groups{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.guide-toc-group{min-width:0;border-top:2px solid #4b5e5c;padding-top:14px}
+.guide-toc-group h3{margin:0 0 10px;color:#8ec0b3;font-size:.74rem;letter-spacing:.1em}
+.guide-toc ul{display:grid;gap:8px;list-style:none;margin:0;padding:0}
+.guide-toc a{display:block;padding:6px 0;color:#d8c4ad;font-size:.92rem;line-height:1.6;text-decoration:underline;text-underline-offset:4px;text-decoration-color:#53635d}
+.guide-return{display:block;width:fit-content;margin:24px 0 0;padding:9px 0;font-size:.78rem;text-decoration:none;letter-spacing:.04em}
+.terje-guide .guide-return{color:#9aafa7}
+.terje-guide a:focus-visible{outline:2px solid #8ec0b3;outline-offset:4px}
+.terje-guide .guide-panel a{color:#b8e0d4}
+.terje-guide .guide-panel a:hover{color:#e0eee8}
 
-<main class="wrap guide-page terje-guide">
-  <div class="page-context"><a class="back" href="../">← Chernarus Guides</a><div class="world-tag">Character Progression</div></div>
-
-  <section class="guide-hero">
-    <div class="kicker">Survivor Field Guide</div>
-    <h1>Terje<br>Skills</h1>
-    <p>Terje Skills is back on BTA Chernarus! Your adventures can now build more than an impressive collection of questionable loot. As you carry out survival activities, you’ll develop skills and earn perks that help shape your survivor.</p>
-  </section>
-
-  <div class="guide-layout">
-    <section class="guide-panel">
-      <h2>How to Open Your Skills</h2>
-      <ol>
+.terje-guide .guide-panel ul,.terje-guide .guide-panel ol{padding-left:22px;margin:0;display:grid;gap:12px}
+.terje-guide .guide-toc ul{padding:0;margin:0;gap:8px;list-style:none}
+.terje-guide .guide-panel p{max-width:none}
+.guide-note{margin-top:20px;border-left:3px solid #719b91;padding:17px 19px;background:#17201f;color:#c4d5d0;line-height:1.75}
+.guide-note strong{color:#e0eee7}
+.guide-warning{border:1px solid #75513a;border-left:4px solid #d99b5d;background:linear-gradient(110deg,#302117,#1c1916);color:#f0d1b5}
+.guide-warning strong{color:#ffd9b8}
+.guide-warning p{color:inherit}
+.warning-title{display:flex;align-items:flex-start;gap:10px;margin:0 0 12px!important;color:#ffd9b8!important;font-size:1rem!important;line-height:1.5!important}
+.warning-symbol{width:22px;height:22px;flex:0 0 22px;margin-top:1px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.skill-note{border:1px solid #5d8278;border-left:4px solid #8ec0b3;background:linear-gradient(110deg,#192725,#141719)}
+.terje-guide .numbered-steps{list-style:none;counter-reset:step;padding:0!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px!important}
+.numbered-steps>li{counter-increment:step;position:relative;min-width:0;border:1px solid #3b4947;background:#171e1e;padding:20px 20px 20px 58px}
+.numbered-steps>li::before{content:counter(step,decimal-leading-zero);position:absolute;left:18px;top:21px;color:#8ec0b3;font-size:.8rem;font-weight:800;letter-spacing:.08em}
+.numbered-steps + p{margin-top:18px}
+.terje-guide .reading-steps{grid-template-columns:repeat(3,minmax(0,1fr))}
+.skill-grid,.focus-grid,.recipe-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px;align-items:start}
+.skill-card,.focus-card,.recipe-card{border:1px solid #4b5e5c;background:linear-gradient(145deg,#171e1e,#111718);padding:22px;min-width:0}
+.skill-card h3,.focus-card h3,.recipe-card h3{margin:0 0 14px;color:#b8e0d4;font-size:1rem;letter-spacing:.06em;line-height:1.5}
+.skill-card p,.focus-card p,.recipe-card p{margin:10px 0 0}
+.skill-card p strong{color:#b8e0d4;font-size:.8rem;letter-spacing:.03em}
+.focus-card{padding:18px 20px}
+.focus-card h3{font-size:.88rem;margin-bottom:8px}
+.focus-card p{margin:0}
+.card-kicker{display:block;color:#9aafa7;font-size:.72rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;line-height:1.6;margin-bottom:8px}
+.recipe-card ul{padding-left:20px!important}
+.guide-table-wrap{max-width:100%;overflow-x:auto;border:1px solid #3b4947;margin:20px 0;-webkit-overflow-scrolling:touch}
+.guide-table{width:100%;min-width:520px;border-collapse:collapse;font-size:.94rem;line-height:1.65}
+.guide-table th,.guide-table td{text-align:left;vertical-align:top;padding:14px 16px;border-bottom:1px solid #353d3b}
+.guide-table th{color:#dce9e4;background:#1b2423;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase}
+.guide-table td{color:#bbb9b0}
+.guide-table tbody tr:nth-child(even){background:#171e1e}
+.guide-table tbody tr:last-child td{border-bottom:0}
+.guide-table-wrap:focus-visible{outline:2px solid #8ec0b3;outline-offset:4px}
+.table-help{display:none;color:#9aafa7!important;font-size:.8rem;line-height:1.6!important;margin:-8px 0 20px!important}
+.book-patterns{border-left:2px solid #4b5e5c;background:#171e1e;padding:18px 18px 18px 40px!important;margin:16px 0 0!important}
+.terje-guide .guide-panel .book-rules,.terje-guide .guide-panel .support-checklist{list-style:none;padding:0;gap:12px}
+.book-rules li,.support-checklist li{border-left:2px solid #4b5e5c;background:#171e1e;padding:14px 18px;min-width:0}
+.reset-warning{margin-top:0;border-color:#9d6a38;border-left:5px solid #f0ae55;background:linear-gradient(110deg,#3a2818,#201b16);padding:24px}
+.reset-warning .warning-title{color:#ffd9a5!important;font-size:1.1rem!important}
+.reset-warning p{color:#ffe0bd;margin:0 0 14px}
+.reset-warning p:last-child{margin-bottom:0}
+.ticket-link{margin-top:22px}
+.ticket-link .button{display:inline-block;max-width:100%;white-space:normal;line-height:1.6}
+.terje-guide .section-nav{margin-top:28px}
+.terje-guide .section-nav a{line-height:1.6;max-width:100%;overflow-wrap:anywhere}
+@media(min-width:1001px){.guide-toc-groups{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:1000px){.guide-toc-groups{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.guide-page{padding-top:30px}.guide-hero{padding:28px 24px}.guide-panel{padding:24px 20px}.guide-highlights,.skill-grid,.focus-grid,.recipe-grid,.terje-guide .numbered-steps{grid-template-columns:1fr}.guide-highlight{padding:16px}.skill-card,.focus-card,.recipe-card{padding:18px}.table-help{display:block}.guide-table{font-size:.9rem}}
+@media(max-width:600px){.guide-toc-groups{grid-template-columns:1fr}.guide-panel h2{font-size:1.18rem;gap:10px}.guide-icon{width:23px;height:23px;flex-basis:23px}.numbered-steps>li{padding:18px 16px 18px 50px}.numbered-steps>li::before{left:15px;top:19px}.guide-note,.reset-warning{padding:16px}.guide-table th,.guide-table td{padding:12px}.terje-guide .section-nav{flex-direction:column;align-items:stretch}}
+@media(max-width:440px){body.terje-guide-page .site-support-link,body.terje-guide-page .site-store-link,body.terje-guide-page .site-discord-link{width:calc((100% - 48px)/3);font-size:.5rem;padding:0 4px;gap:4px;justify-content:center}body.terje-guide-page .site-support-link{left:12px;right:auto!important}body.terje-guide-page .site-store-link{left:calc((100% - 48px)/3 + 24px);right:auto}body.terje-guide-page .site-discord-link{right:12px}body.terje-guide-page .site-discord-link svg{width:16px;height:16px;flex-shrink:0}body.terje-guide-page .site-discord-link span{white-space:normal;text-align:center;line-height:1.3}}
+</style></head>
+<body class="terje-guide-page"><header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
+<main class="wrap guide-page terje-guide"><div class="page-context"><a class="back" href="../">← Chernarus Guides</a><div class="world-tag">Character Progression</div></div>
+<section class="guide-hero"><div class="kicker">BTA Player Guide · Chernarus</div><h1>Terje<br>Skills</h1><p>Terje Skills is back on BTA Chernarus! Your adventures can now build more than an impressive collection of questionable loot. As you carry out survival activities, you’ll develop skills and earn perks that help shape your survivor.</p></section>
+<div class="guide-highlights" aria-label="Terje Skills quick reference"><div class="guide-highlight"><strong>7 Enabled Skills</strong>Develop your survivor through seven different skills, each improving through related survival activities.</div><div class="guide-highlight"><strong>Levels ≠ Purchased Perks</strong>Earn experience to unlock new opportunities, but remember that perks requiring points must be purchased separately.</div><div class="guide-highlight"><strong>Skill Books</strong>Find and read eligible books to earn additional skill experience. Each specific book can reward you only once.</div></div>
+<nav class="guide-panel guide-toc" id="guide-contents" aria-labelledby="contents-heading"><h2 id="contents-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5h13M8 12h13M8 19h13M3 5h.01M3 12h.01M3 19h.01"/></svg>In This Field Guide</h2><div class="guide-toc-groups"><div class="guide-toc-group"><h3>Getting Started</h3><ul><li><a href="#open-skills">How to Open Your Skills</a></li><li><a href="#skills-levels-perks">Understanding Skills, Levels &amp; Perks</a></li><li><a href="#enabled-skills">The Seven Enabled Skills</a></li></ul></div><div class="guide-toc-group"><h3>Building Your Survivor</h3><ul><li><a href="#starting-focus">Choosing a Starting Focus</a></li><li><a href="#perk-crafting">Crafting That Requires Perks</a></li></ul></div><div class="guide-toc-group"><h3>Skill Books</h3><ul><li><a href="#book-subjects">Available Book Subjects</a></li><li><a href="#book-tiers">Skill Book Tiers &amp; Experience</a></li><li><a href="#reading-books">How to Read Skill Books</a></li><li><a href="#book-rules">Skill Book Rules &amp; Restrictions</a></li></ul></div><div class="guide-toc-group"><h3>Progress &amp; Support</h3><ul><li><a href="#death-progress">Death and Skill Progress</a></li><li><a href="#manual-resets">Manual Perk Resets</a></li><li><a href="#troubleshooting">Troubleshooting &amp; Support</a></li></ul></div></div></nav>
+<section class="guide-panel" id="open-skills" aria-labelledby="open-skills-heading"><h2 id="open-skills-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M6 9h.01M10 9h.01M14 9h.01M18 9h.01M8 16h8"/></svg>How to Open Your Skills</h2>
+<ol class="numbered-steps">
         <li>Press <strong>Tab</strong> to open your inventory.</li>
         <li>Scroll to the <strong>very bottom of your inventory</strong> to find your skills.</li>
         <li>Explore your progress and available perks.</li>
         <li>Read each perk’s description, requirements and point cost before upgrading.</li>
       </ol>
-      <div class="guide-note">Find somewhere safe before browsing. The infected will not politely wait while you plan your character.</div>
-    </section>
-
-    <section class="guide-panel">
-      <h2>Skills, Levels and Perks</h2>
-      <ul>
+      <div class="guide-note guide-warning">Find somewhere safe before browsing. The infected will not politely wait while you plan your character.</div>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="skills-levels-perks" aria-labelledby="skills-levels-perks-heading"><h2 id="skills-levels-perks-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M6 17v-4m6 4V8m6 9V3"/></svg>Understanding Skills, Levels &amp; Perks</h2>
+<ul>
         <li>Related activities earn experience in a skill.</li>
         <li>Levels measure progress and unlock access to perks.</li>
         <li>Perks provide specific benefits and may have level requirements, point costs and upgrade stages.</li>
         <li>Some improvements come from skill levels; others require spending perk points.</li>
       </ul>
       <div class="guide-note skill-note"><strong>Important:</strong> Leveling a skill does not automatically purchase its perks.</div>
-    </section>
-  </div>
-
-  <div class="guide-stack">
-    <section class="guide-panel">
-      <h2>Seven Skills Enabled on BTA</h2>
-      <p>Each skill improves through related survival activities and supports a different part of life in Chernarus.</p>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="enabled-skills" aria-labelledby="enabled-skills-heading"><h2 id="enabled-skills-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h16M6 17v-4m6 4V8m6 9V3"/></svg>The Seven Enabled Skills</h2>
+<p>Each skill improves through related survival activities and supports a different part of life in Chernarus.</p>
       <div class="skill-grid">
         <article class="skill-card">
           <h3>Metabolism</h3>
@@ -124,11 +141,9 @@
           <p><strong>Supports:</strong> Harvest yields, crop freshness, growth speed and gardening efficiency.</p>
         </article>
       </div>
-    </section>
-
-    <section class="guide-panel">
-      <h2>Choosing a Starting Focus</h2>
-      <p>There is no mandatory build. These are simple starting suggestions based on how you like to play.</p>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="starting-focus" aria-labelledby="starting-focus-heading"><h2 id="starting-focus-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 1v4m0 14v4M1 12h4m14 0h4"/></svg>Choosing a Starting Focus</h2>
+<p>There is no mandatory build. These are simple starting suggestions based on how you like to play.</p>
       <div class="focus-grid">
         <div class="focus-card"><h3>Explorers</h3><p>Athletics and Survival.</p></div>
         <div class="focus-card"><h3>Gear haulers</h3><p>Strength.</p></div>
@@ -137,20 +152,18 @@
         <div class="focus-card"><h3>Gardeners</h3><p>Farming.</p></div>
         <div class="focus-card"><h3>Food and drink managers</h3><p>Metabolism.</p></div>
       </div>
-    </section>
-
-    <section class="guide-panel">
-      <h2>Crafting That Requires Perks</h2>
-      <p>BTA requires the <strong>first purchased rank</strong> of the relevant perk for the recipes below. Both perks are under <strong>Survival</strong>.</p>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="perk-crafting" aria-labelledby="perk-crafting-heading"><h2 id="perk-crafting-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m4 20 8-8M14 3a5 5 0 0 0-4 7l4 4a5 5 0 0 0 7-4l-4 1-4-4z"/></svg>Crafting That Requires Perks</h2>
+<p>BTA requires the <strong>first purchased rank</strong> of the relevant perk for the recipes below. Both perks are under <strong>Survival</strong>.</p>
       <div class="recipe-grid">
-        <article class="recipe-card">
+        <article class="recipe-card"><span class="card-kicker">Survival perk</span>
           <h3>Ancestral Technologies</h3>
           <ul>
             <li>Hand-drill kits.</li>
             <li>Higher ranks improve the number of uses of crafted kits.</li>
           </ul>
         </article>
-        <article class="recipe-card">
+        <article class="recipe-card"><span class="card-kicker">Survival perk</span>
           <h3>Bushcrafter</h3>
           <ul>
             <li>Stone knives and bone knives.</li>
@@ -163,17 +176,13 @@
           </ul>
         </article>
       </div>
-      <div class="guide-note"><strong>Check the perk first:</strong> Raising Survival alone does not purchase the required perk. If the correct ingredients do not produce the recipe, check the perk requirements. This does not mean every crafting recipe on the server requires a perk. These mappings come from the mod’s published recipe code; do not extend them to unrelated recipes or other mods.</div>
-    </section>
+      <div class="guide-note guide-warning"><h3 class="warning-title"><svg class="warning-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Purchase the required perk rank</h3><strong>Check the perk first:</strong> Raising Survival alone does not purchase the required perk. If the correct ingredients do not produce the recipe, check the perk requirements. This does not mean every crafting recipe on the server requires a perk. These mappings come from the mod’s published recipe code; do not extend them to unrelated recipes or other mods.</div>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="book-subjects" aria-labelledby="book-subjects-heading"><h2 id="book-subjects-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5C7 2 2 4 2 4v16s5-2 10 1c5-3 10-1 10-1V4s-5-2-10 1Zm0 0v16M5 8h3m-3 4h3m8-4h3m-3 4h3"/></svg>Available Book Subjects</h2>
 
-    <section class="guide-panel">
-      <h2>Skill Books</h2>
-      <p>Skill books award experience toward a skill. They do <strong>not</strong> automatically purchase perks.</p>
-
-      <h3>Book Subjects</h3>
-      <div class="guide-table-wrap">
+      <div class="guide-table-wrap" role="region" aria-label="Skill book subjects and corresponding skills; scroll horizontally if needed" tabindex="0">
         <table class="guide-table">
-          <thead><tr><th>Book subject</th><th>Skill improved</th></tr></thead>
+          <thead><tr><th scope="col">Book subject</th><th scope="col">Skill improved</th></tr></thead>
           <tbody>
             <tr><td>Athletics</td><td>Athletics</td></tr>
             <tr><td>Strength</td><td>Strength</td></tr>
@@ -183,13 +192,16 @@
             <tr><td>Hunting</td><td>Hunting</td></tr>
           </tbody>
         </table>
-      </div>
+      </div><p class="table-help">Scroll sideways to read all columns when needed.</p>
       <div class="guide-note"><strong>Farming books:</strong> The base mod currently has no Farming book series. Do not look for Farming or Fishing books as recommended progression items. Use <strong>Nutrition</strong> as the subject for Metabolism books.</div>
 
-      <h3>Five Book Tiers</h3>
-      <div class="guide-table-wrap">
+
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="book-tiers" aria-labelledby="book-tiers-heading"><h2 id="book-tiers-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5C7 2 2 4 2 4v16s5-2 10 1c5-3 10-1 10-1V4s-5-2-10 1Zm0 0v16M5 8h3m-3 4h3m8-4h3m-3 4h3"/></svg>Skill Book Tiers &amp; Experience</h2>
+
+      <div class="guide-table-wrap" role="region" aria-label="Skill book tiers, suitable skill levels, and experience rewards; scroll horizontally if needed" tabindex="0">
         <table class="guide-table">
-          <thead><tr><th>Tier</th><th>Suitable skill level</th><th>Experience</th></tr></thead>
+          <thead><tr><th scope="col">Tier</th><th scope="col">Suitable skill level</th><th scope="col">Experience</th></tr></thead>
           <tbody>
             <tr><td>Beginner</td><td>0–10</td><td>300 XP</td></tr>
             <tr><td>Fundamentals</td><td>10–20</td><td>600 XP</td></tr>
@@ -198,58 +210,55 @@
             <tr><td>Expert</td><td>40–50</td><td>6,000 XP</td></tr>
           </tbody>
         </table>
-      </div>
+      </div><p class="table-help">Scroll sideways to read all columns when needed.</p>
       <p>Titles generally follow:</p>
-      <ul>
+      <ul class="book-patterns">
         <li>“[Subject] for Beginners”</li>
         <li>“[Subject] Fundamentals”</li>
         <li>“Advanced [Subject] Techniques”</li>
         <li>“Professional [Subject] Strategies”</li>
         <li>“Expert-Level [Subject]”</li>
       </ul>
-      <div class="guide-note"><strong>Read the item description:</strong> It shows the book’s skill, reward and level range. Two middle-tier Hunting book labels are swapped in the published mod, so the description’s level range is more reliable than the title or cover number.</div>
+      <div class="guide-note guide-warning"><h3 class="warning-title"><svg class="warning-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Book Label Warning</h3><strong>Read the item description:</strong> It shows the book’s skill, reward and level range. Two middle-tier Hunting book labels are swapped in the published mod, so the description’s level range is more reliable than the title or cover number.</div>
 
-      <div class="guide-note book-reading">
-        <strong>How to read</strong>
-        <ol>
+
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="reading-books" aria-labelledby="reading-books-heading"><h2 id="reading-books-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5C7 2 2 4 2 4v16s5-2 10 1c5-3 10-1 10-1V4s-5-2-10 1Zm0 0v16M5 8h3m-3 4h3m8-4h3m-3 4h3"/></svg>How to Read Skill Books</h2>
+
+
+        <ol class="numbered-steps reading-steps">
           <li>Hold the book in your hands.</li>
           <li>Use the <strong>Read</strong> action and let it finish.</li>
           <li>Check the relevant skill afterward.</li>
         </ol>
         <p>Reading takes approximately 15 seconds.</p>
-      </div>
 
-      <h3>Confirmed BTA Reading Rules</h3>
-      <ul>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="book-rules" aria-labelledby="book-rules-heading"><h2 id="book-rules-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5C7 2 2 4 2 4v16s5-2 10 1c5-3 10-1 10-1V4s-5-2-10 1Zm0 0v16M5 8h3m-3 4h3m8-4h3m-3 4h3"/></svg>Skill Book Rules &amp; Restrictions</h2>
+<p>Skill books award experience toward a skill. They do <strong>not</strong> automatically purchase perks.</p>
+
+
+      <ul class="book-rules">
         <li>Each specific book type or title awards experience only once per player profile; a duplicate copy does not provide another boost.</li>
         <li>Different tiers are different books and can help when the player meets their level requirements.</li>
         <li>Successful reading consumes the book.</li>
         <li>Already-known, too-difficult or too-basic books award no experience and are not consumed by that unsuccessful attempt.</li>
         <li>Consider giving unneeded duplicates to another survivor.</li>
       </ul>
-    </section>
-
-    <div class="guide-layout">
-      <section class="guide-panel">
-        <h2>Death and Progress</h2>
-        <ul>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="death-progress" aria-labelledby="death-progress-heading"><h2 id="death-progress-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Death and Skill Progress</h2>
+<ul>
           <li>Death does not automatically reset all skills and perks to zero.</li>
           <li>Some skill experience is deducted on death.</li>
           <li>Do not assume every level or perk remains unaffected.</li>
         </ul>
-      </section>
-
-      <section class="guide-panel">
-        <h2>Manual Perk Resets</h2>
-        <div class="guide-note reset-warning"><strong>Reset cost:</strong> Manual resets are enabled, but resetting returns only <strong>50% of the affected skill’s XP</strong>.</div>
-        <p>This is separate from the death penalty. Make the cost clear before choosing to reset a skill.</p>
-      </section>
-    </div>
-
-    <section class="guide-panel">
-      <h2>Troubleshooting and Support</h2>
-      <p>If a skill, perk, book or recipe is not behaving as expected, open a ticket and include:</p>
-      <ul>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="manual-resets" aria-labelledby="manual-resets-heading"><h2 id="manual-resets-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Manual Perk Resets</h2>
+<aside class="guide-note guide-warning reset-warning" aria-labelledby="reset-warning-heading"><h3 class="warning-title" id="reset-warning-heading"><svg class="warning-symbol" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Warning — Manual Skill Reset</h3><p>Thinking about resetting a skill? Choose carefully!</p><p><strong>Reset cost:</strong> Manual resets are enabled, but resetting returns only <strong>50% of the affected skill’s XP</strong>.</p><p>That means half of the affected skill’s XP is lost during the reset.</p><p>This is separate from the death penalty. Make the cost clear before choosing to reset a skill.</p></aside>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<section class="guide-panel" id="troubleshooting" aria-labelledby="troubleshooting-heading"><h2 id="troubleshooting-heading"><svg class="guide-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 4 2c-1 .7-1.5 1-1.5 3m0 3h.01"/></svg>Troubleshooting &amp; Support</h2>
+<p>If a skill, perk, book or recipe is not behaving as expected, open a ticket and include:</p>
+      <ul class="support-checklist">
         <li>The skill, perk, book or recipe involved.</li>
         <li>What you were doing and approximately when.</li>
         <li>Expected versus actual behavior.</li>
@@ -260,11 +269,6 @@
         <a class="button" href="https://discord.com/channels/1278830251383721984/1402637759990202368" target="_blank" rel="noopener noreferrer">Open a Support Ticket →</a>
       </div>
       <div class="guide-note"><strong>Get out there, find your specialty, and give your survivor something to show for all that chaos. 🖤🔥</strong></div>
-    </section>
-  </div>
-</main>
-
-<footer><div class="wrap">Beneath the Ashes • Chernarus Guides</div></footer>
-<script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script>
-</body>
-</html>
+<a class="guide-return" href="#guide-contents">Back to contents ↑</a></section>
+<nav class="section-nav" aria-label="Guide navigation"><a href="../">← Return to Chernarus Guides</a><a href="#guide-contents">Back to contents ↑</a><a href="../../">Chernarus Hub →</a></nav></main>
+<footer><div class="wrap">Beneath the Ashes • Chernarus • Terje Skills Guide</div></footer><script src="https://beneaththeashesdayz.github.io/site.js?v=support-2"></script></body></html>
