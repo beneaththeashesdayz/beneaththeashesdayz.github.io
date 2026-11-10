@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-11-10T14:21:53.846656+00:00",
+  "syncedAt": "2026-11-10T15:21:49.683343+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -866,7 +866,7 @@
     "impoundTimePenaltyRuined": 0,
     "costForExceedingMaxSlots": 10000
   },
-  "vehicleCount": 915,
+  "vehicleCount": 916,
   "vehicles": [
     {
       "name": "Civic",
@@ -64495,6 +64495,75 @@
         {
           "itemname": "Dodge_Challenger_Trunk_Darkblue",
           "colorGroup": "Dodge_Challenger_Trunk"
+        }
+      ]
+    },
+    {
+      "name": "Toyota 86 Rb",
+      "itemname": "BTA_Toyota86_BiGGuN",
+      "groupName": "Toyota_86_RB",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "BiGGuN",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "Toyota_86_RB_Wheel",
+          "colorGroup": "Toyota_86_RB_Wheel"
+        },
+        {
+          "itemname": "Toyota_86_RB_Wheel",
+          "colorGroup": "Toyota_86_RB_Wheel"
+        },
+        {
+          "itemname": "Toyota_86_RB_Wheel",
+          "colorGroup": "Toyota_86_RB_Wheel"
+        },
+        {
+          "itemname": "Toyota_86_RB_Wheel",
+          "colorGroup": "Toyota_86_RB_Wheel"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "BTA_Toyota86_BiGGuN_DriverDoor",
+          "colorGroup": "driver_door"
+        },
+        {
+          "itemname": "BTA_Toyota86_BiGGuN_PassengerDoor",
+          "colorGroup": "codriver_door"
+        },
+        {
+          "itemname": "BTA_Toyota86_BiGGuN_Hood",
+          "colorGroup": "Hood"
+        },
+        {
+          "itemname": "BTA_Toyota86_BiGGuN_Trunk",
+          "colorGroup": "Trunk"
+        },
+        {
+          "itemname": "BTA_Toyota86_BiGGuN_Plate",
+          "colorGroup": "a_plate"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
         }
       ]
     }
