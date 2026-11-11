@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-11T04:18:40.377373+00:00",
+  "syncedAt": "2026-11-11T05:21:46.475021+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -2924,7 +2924,7 @@
     {
       "group": "traderzones",
       "filename": "BTA_DogSupplies_Hazel.json",
-      "sha256": "60047ed4afdad48ef4ae7276d03e80057c68e75e356b39113d69850e5cea1ded",
+      "sha256": "751c6fddd4e394275a256c9fc6c8abcb22c77569423a23120ff612f25541173a",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -3015,7 +3015,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Consumables_Trader.json",
-      "sha256": "07d3cc29551687bfcdfe1a27ea37b84fcfec32be4eb97f08e0717ccde4fd64aa",
+      "sha256": "e9f0d12fd08f185167099c5f791b439028a6ef2b0ef641d0191660b270347a40",
       "topLevelType": "object",
       "entryCount": 7
     },
