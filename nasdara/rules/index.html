@@ -40,6 +40,21 @@
     .nasdara-page .section-nav{margin:0 0 52px}
     .nasdara-page .section-nav a:hover,.rules-toc a:hover{border-color:var(--nasdara-hover)!important;color:var(--nasdara-hover)!important;background:#2a2117!important;box-shadow:0 4px 14px rgba(198,154,82,.2)}
     @media(max-width:760px){.rules-policy,.rules-toc,.rules-section{padding:22px 18px}.rules-toc ol,.support-columns,.penalty-steps{grid-template-columns:1fr}.rules-section h2{gap:10px}.rules-section .rule-warning{padding:16px}.rules-toc ol{gap:4px}.support-columns{gap:22px}}
+
+    .rules-section .base-protection{border:1px solid var(--nasdara-bronze);border-left:4px solid var(--nasdara-accent);background:linear-gradient(110deg,#302619,#191713);padding:22px 24px;margin:0 0 26px;line-height:1.8}
+    .rules-section .base-protection h3{display:flex;align-items:flex-start;gap:12px;color:#f1ce91;font-size:clamp(1.02rem,2vw,1.3rem);line-height:1.45;letter-spacing:.04em;margin:0 0 18px;text-transform:uppercase}
+    .base-protection-icon{width:25px;height:25px;flex:0 0 25px;margin-top:2px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+    .rules-section .base-protection p{color:#efdfc3;margin:0 0 16px}
+    .rules-section .base-protection p:last-child{margin-bottom:0}
+    .base-protection strong{color:#ffe0aa}
+    .base-protection ul{padding-left:22px;margin:14px 0 20px}
+    .base-protection .base-protection-statements{border-top:1px solid var(--nasdara-bronze);border-bottom:1px solid var(--nasdara-bronze);padding:16px 0;margin:20px 0}
+    .base-protection-statements p{font-size:.93rem;font-weight:800;line-height:1.7}
+    .base-protection h4{margin:22px 0 12px;color:var(--nasdara-hover);font-size:1rem;line-height:1.5;text-transform:uppercase;letter-spacing:.04em}
+    .base-protection a,.rules-section .rule-warning a{color:var(--nasdara-hover);text-decoration:underline;text-underline-offset:3px}
+    .building-restrictions{border-top:1px solid var(--nasdara-bronze);padding-top:22px}
+    .building-restrictions h3{margin:0 0 16px;color:var(--nasdara-hover);font-size:.9rem;line-height:1.5;text-transform:uppercase;letter-spacing:.08em}
+    @media(max-width:760px){.rules-section .base-protection{padding:18px 16px}.rules-section .base-protection h3{gap:9px}.base-protection-icon{width:22px;height:22px;flex-basis:22px}}
   </style>
 </head>
 <body class="world-nasdara nasdara-page rules-page">
@@ -87,15 +102,48 @@
     <ul>
         <li>Shooting, attacking, intentionally damaging, or killing other players is prohibited.</li>
         <li>Teamkilling is prohibited.</li>
-        <li>Raiding player bases is prohibited.</li>
+        <li>Base raiding and base theft are prohibited anywhere on Nasdara, regardless of territory claims, flags or flagpoles, locks, accessibility, or apparent abandonment. See <a href="#building-territories">Section 03</a>.</li>
         <li>Stealing from player-owned storage, vehicles, tents, or containers is prohibited.</li>
         <li>Griefing, harassment, blocking access, and deliberately attracting infected toward other players or their bases are prohibited.</li>
         <li>Grave crosses may be looted unless they are inside another player&#x27;s territory or an area designated by staff as a Safe Zone. This permission applies only to eligible grave crosses; it does not permit theft from protected storage, vehicles, tents, or containers.</li>
       </ul>
-    <p class="rule-warning"><strong>No PvP. No raiding. No theft of protected property.</strong> These protections apply throughout the map.</p>
+    <p class="rule-warning"><strong>No PvP. No raiding. No theft of protected property.</strong> These protections apply throughout the map, regardless of territory claim or flag status. The grave-cross exception above applies only to eligible grave crosses; it is not permission to enter another player’s secured base, dismantle structures, or take items from player bases, storage containers, or protected property.</p>
   </section>
   <section class="panel rules-section" id="building-territories" aria-labelledby="building-territories-heading">
     <h2 id="building-territories-heading"><span class="rule-number">03</span> Building &amp; Territories</h2>
+    <aside class="base-protection" id="base-raiding-theft" aria-labelledby="base-raiding-theft-heading">
+      <h3 id="base-raiding-theft-heading"><svg class="base-protection-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Base Raiding &amp; Theft: Zero Tolerance</h3>
+      <p><strong>Base raiding, base theft, and unauthorized interference with player-built structures are STRICTLY PROHIBITED anywhere on Nasdara.</strong></p>
+      <p>All player-built bases, structures, and stored property are protected throughout the entire map. This protection applies regardless of:</p>
+      <ul>
+        <li>Whether a base has an active territory claim.</li>
+        <li>Whether a territory flag or flagpole is present.</li>
+        <li>Whether a flagpole is constructed, damaged, missing, or otherwise nonfunctional.</li>
+        <li>Whether the base appears occupied, abandoned, unfinished, or inactive.</li>
+        <li>Whether doors, gates, storage containers, or other structures are locked or unlocked.</li>
+        <li>Whether the base is actively maintained or appears to have been left unattended.</li>
+      </ul>
+      <div class="base-protection-statements">
+        <p><strong>AN UNCLAIMED BASE IS NOT AN UNPROTECTED BASE.</strong></p>
+        <p><strong>AN UNLOCKED CONTAINER IS NOT AN INVITATION TO STEAL.</strong></p>
+        <p><strong>AN ABANDONED-LOOKING BASE IS NOT FREE PROPERTY.</strong></p>
+      </div>
+      <p>Players are strictly prohibited from:</p>
+      <ul>
+        <li>Entering another player's secured base without permission.</li>
+        <li>Removing items from another player's base or storage containers.</li>
+        <li>Dismantling, destroying, damaging, or modifying another player's structures.</li>
+        <li>Removing locks, gates, doors, flags, or other base components.</li>
+        <li>Exploiting missing territory claims, inaccessible flagpoles, or other technical issues to gain unauthorized access.</li>
+        <li>Claiming, occupying, or taking ownership of another player's existing base without staff authorization.</li>
+      </ul>
+      <h4>Suspected Abandoned Bases</h4>
+      <p>If you discover a base you believe has been abandoned, you must submit a <a href="https://discord.com/channels/1278830251383721984/1402637759990202368" target="_blank" rel="noopener noreferrer">Discord support ticket</a> for staff review.</p>
+      <p><strong>Only authorized server staff may determine whether a base is abandoned and eligible for removal or cleanup.</strong> Players may not independently declare another player's base abandoned or claim its contents.</p>
+      <p>Authorized staff cleanup or enforcement is separate from player raiding. It does not grant players permission to take a base or its contents.</p>
+    </aside>
+    <div class="building-restrictions"><h3>Building Restrictions &amp; Territory Limits</h3>
+
     <ul>
         <li>One permanent base is permitted per solo player or group.</li>
         <li>Hidden supply stashes are allowed.</li>
@@ -108,6 +156,7 @@
         <li>Staff may require changes to builds that cause server instability.</li>
         <li>Structures violating building regulations may be removed without reimbursement.</li>
       </ul>
+      </div>
   </section>
   <section class="panel rules-section" id="vehicles-property" aria-labelledby="vehicles-property-heading">
     <h2 id="vehicles-property-heading"><span class="rule-number">04</span> Vehicles &amp; Property</h2>
@@ -161,6 +210,7 @@
   </section>
   <section class="panel rules-section" id="enforcement" aria-labelledby="enforcement-heading">
     <h2 id="enforcement-heading"><span class="rule-number">07</span> Enforcement &amp; Penalties</h2>
+    <p>Base raiding, base theft, and unauthorized interference with player-built structures are rule violations handled under the existing disciplinary progression and staff discretion below.</p>
     <p>The standard disciplinary progression is:</p>
     <ol class="penalty-steps">
       <li><span>First Offense</span><strong>Warning</strong></li>
