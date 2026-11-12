@@ -58,6 +58,17 @@
     .chernarus-page .rule-block ul{line-height:1.8}
     .rules-section .rule-warning p{color:#f2eee5}
     @media(max-width:760px){.zone-grid{grid-template-columns:1fr}.zone-panel{padding:20px 18px}}
+
+    .rules-section .base-protection{border:1px solid #9d643c;border-left:4px solid var(--chernarus-accent);background:linear-gradient(110deg,#302017,#191615);padding:22px 24px;margin:0 0 26px;line-height:1.8}
+    .rules-section .base-protection h3{display:flex;align-items:flex-start;gap:12px;color:#ffd0a9;font-size:clamp(1.02rem,2vw,1.3rem);line-height:1.45;letter-spacing:.04em;margin:0 0 18px;text-transform:uppercase}
+    .base-protection-icon{width:25px;height:25px;flex:0 0 25px;margin-top:2px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+    .rules-section .base-protection p{color:#efddcd;margin:0 0 16px}
+    .rules-section .base-protection p:last-child{margin-bottom:0}
+    .base-protection strong{color:#ffdab9}
+    .base-protection ul{padding-left:22px;margin:14px 0 20px}
+    .base-protection .base-protection-statement{border-top:1px solid #75513a;border-bottom:1px solid #75513a;padding:16px 0;font-weight:800;color:#ffe0c4}
+    .base-protection a,.rules-section .rule-warning a{color:var(--chernarus-hover);text-decoration:underline;text-underline-offset:3px}
+    @media(max-width:760px){.rules-section .base-protection{padding:18px 16px}.rules-section .base-protection h3{gap:9px}.base-protection-icon{width:22px;height:22px;flex-basis:22px}}
   </style>
 </head>
 <body class="chernarus-page rules-page">
@@ -89,11 +100,11 @@
           <li>PvP-related equipment losses are at the player's risk.</li>
           <li>Vehicle lockpicking and theft are permitted only under the existing vehicle rules in <a href="#vehicles-theft-ownership" style="text-decoration:underline">Section 5</a>.</li>
           <li>Combat logging remains prohibited.</li>
-          <li><strong>PvP zones are NOT raid zones.</strong> Base raiding is not permitted simply because a base is located within a PvP zone.</li>
+          <li><strong>PvP zones are NOT raid zones.</strong> Base raiding and base theft are prohibited server-wide, including PvP zones. Claim or flag status does not remove base protection.</li>
         </ul>
       </section>
     </div>
-    <p class="rule-warning"><strong>Important update:</strong><br>PvP zones are no longer raid zones. Vehicle theft is permitted only inside designated PvP zones.</p>
+    <p class="rule-warning"><strong>No base raiding. No base theft. Anywhere on Chernarus.</strong><br>All player-built bases, structures, and stored base property are protected regardless of claim or flag status, accessibility, or apparent abandonment. See <a href="#building-territories">Section 04</a>. Vehicle theft is permitted only inside designated PvP zones and remains subject to <a href="#vehicles-theft-ownership">Section 05</a>.</p>
   </section>
   <nav class="rules-toc" aria-labelledby="rules-contents">
     <h2 id="rules-contents">Rules at a glance</h2>
@@ -123,26 +134,45 @@
   <section class="panel rules-section" id="pve-player-protection" aria-labelledby="pve-player-protection-heading">
     <h2 id="pve-player-protection-heading"><span class="rule-number">02</span> PvE &amp; Player Protection</h2>
 <ul>
-<li>Base raiding is not allowed in PvE areas.</li>
-<li>Do not steal from player bases, vehicles or tents in PvE areas.</li>
+<li>Base raiding and base theft are strictly prohibited across the entire Chernarus map, including designated PvP zones. All player-built bases, structures, and stored base property are protected regardless of territory or ownership status. See <a href="#building-territories">Section 04</a>.</li>
+<li>Do not steal from player bases or their contents anywhere on Chernarus. Theft from vehicles or tents in PvE areas remains prohibited; vehicle protection and theft permissions are defined in <a href="#vehicles-theft-ownership">Section 05</a>.</li>
 <li>Do not grief players by following, blocking or intentionally baiting zombies into bases.</li>
-<li>Grave crosses may be looted in PvE areas unless they are inside a Safe Zone or a player Territory Radius.</li>
+<li>Grave crosses may be looted in PvE areas unless they are inside a Safe Zone, a player Territory Radius, or a protected player-built base or structure.</li>
 </ul>
   </section>
   <section class="panel rules-section" id="pvp-zones-combat" aria-labelledby="pvp-zones-combat-heading">
     <h2 id="pvp-zones-combat-heading"><span class="rule-number">03</span> PvP Zones &amp; Combat</h2>
 <ul>
 <li>Kill on sight is allowed inside designated PvP zones.</li>
-<li>Stealing and destruction are allowed inside PvP zones.</li>
-<li>PvP zones are not raid zones. Base raiding is not permitted simply because a base is inside a PvP zone.</li>
-<li>Vehicle lockpicking and vehicle theft are permitted only inside designated PvP zones.</li>
+<li>Stealing and destruction are allowed inside PvP zones only where permitted by these rules. This permission does not extend to player bases, base structures, or stored base property.</li>
+<li><strong>PvP zones are not raid zones.</strong> Base raiding, base theft, and unauthorized interference with player-built bases or structures are prohibited, including at unclaimed, flagless, unlocked, unfinished, inactive, or apparently abandoned bases.</li>
+<li>Vehicle lockpicking and vehicle theft are permitted only inside designated PvP zones and remain subject to <a href="#vehicles-theft-ownership">Section 05</a>.</li>
 <li>Entering a PvP zone is at your own risk. Staff will not assist with deaths, lost gear or disputes that occur there.</li>
 <li>Combat logging is prohibited.</li>
 </ul>
-    <p class="rule-warning"><strong>PvP zones are not raid zones.</strong> The theft and destruction permissions above do not grant permission to raid a base.</p>
+    <p class="rule-warning"><strong>PvP zones are not raid zones.</strong> Permission to fight, steal, or destroy property in a PvP zone does not authorize base raiding, base theft, or interference with player-built bases, base structures, or stored base property. The server-wide protections in <a href="#building-territories">Section 04</a> apply regardless of claim, flag, accessibility, or apparent abandonment. Vehicle permissions remain governed by <a href="#vehicles-theft-ownership">Section 05</a>.</p>
   </section>
   <section class="panel rules-section" id="building-territories" aria-labelledby="building-territories-heading">
     <h2 id="building-territories-heading"><span class="rule-number">04</span> Building &amp; Territories</h2>
+    <aside class="base-protection" id="base-raiding-theft" aria-labelledby="base-raiding-theft-heading">
+      <h3 id="base-raiding-theft-heading"><svg class="base-protection-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 21h20zM12 9v5m0 3h.01"/></svg>Base Raiding &amp; Theft: Zero Tolerance</h3>
+      <p>Base raiding, stealing from bases, and unauthorized interference with player-built structures are <strong>STRICTLY PROHIBITED across the entire Chernarus map, including designated PvP zones.</strong></p>
+      <p><strong>All player-built bases, structures, and stored property are protected, regardless of their territory or ownership status.</strong> This protection applies regardless of:</p>
+      <ul>
+        <li>Whether the base has an active territory claim.</li>
+        <li>Whether a territory flag or flagpole is present.</li>
+        <li>Whether a flagpole is constructed, damaged, missing, or otherwise nonfunctional.</li>
+        <li>Whether the base appears occupied, abandoned, unfinished, or inactive.</li>
+        <li>Whether the base is inside or outside a designated PvP zone.</li>
+        <li>Whether doors, gates, containers, or other storage areas have been left unlocked or accessible.</li>
+      </ul>
+      <p class="base-protection-statement">An unclaimed base is NOT an invitation to raid. An unlocked container is NOT permission to steal. An apparently abandoned base is NOT free property.</p>
+      <p>Players may not dismantle, destroy, damage, steal from, or otherwise interfere with another player's base or its contents without explicit authorization.</p>
+      <p>If you discover a base you believe is abandoned, you must contact server staff through a <a href="https://discord.com/channels/1278830251383721984/1402637759990202368" target="_blank" rel="noopener noreferrer">Discord support ticket</a>. Only authorized staff may determine whether a base or its contents are eligible for removal or cleanup.</p>
+      <p><strong>There are NO exceptions based on territory flags, claim status, accessibility, or apparent abandonment.</strong></p>
+    </aside>
+    <div class="rule-block"><h3>Building Restrictions &amp; Territory Limits</h3>
+
 <ul>
 <li>Do not build inside hospitals, medical buildings or police stations.</li>
 <li>Do not build inside the Mine.</li>
@@ -155,6 +185,7 @@
 <li>If your base causes lag, you may be required to fix it. Failure to comply may result in administrative action.</li>
 <li>Structures that violate these restrictions may be removed without reimbursement.</li>
 </ul>
+      </div>
   </section>
   <section class="panel rules-section vehicle-rules" id="vehicles-theft-ownership" aria-labelledby="vehicles-theft-ownership-heading">
     <h2 id="vehicles-theft-ownership-heading"><span class="rule-number">05</span> Vehicles, Theft &amp; Ownership</h2>
