@@ -25,7 +25,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Boxcerealcrunchin',className:'boxcerealcrunchin',category:'Food',mode:'buy',price:10140,sellPrice:5070},
 {name:'Brisketspread',className:'brisketspread',category:'Food',mode:'buy',price:10055,sellPrice:5028},
 {name:'Catfoodcan',className:'catfoodcan',category:'Food',mode:'sell',price:9885},
-{name:'Chips',className:'chips',category:'Food',mode:'sell',price:9715},
+{name:'Chips',className:'chips',category:'Food',mode:'buy',price:9715,sellPrice:4858},
 {name:'Crabcan',className:'crabcan',category:'Food',mode:'sell',price:10285},
 {name:'Crackers',className:'crackers',category:'Food',mode:'buy',price:9830,sellPrice:4915},
 {name:'Dogfoodcan',className:'dogfoodcan',category:'Food',mode:'sell',price:9905},
