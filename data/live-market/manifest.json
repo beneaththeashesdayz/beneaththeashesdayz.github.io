@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-12T17:23:20.767374+00:00",
+  "syncedAt": "2026-11-12T18:24:32.926414+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -642,7 +642,7 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_jeep_gladiatorf9_boss.json",
-      "sha256": "4fdba7c507bea4bc9856b354de3dda5702dface69d131d0f3686b86b72cfcfbb",
+      "sha256": "91276559f36cf4cff02b426b206a936c1967fee76282f8ec9e760889c34cb2bd",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2889,7 +2889,7 @@
     {
       "group": "traders",
       "filename": "Vehicle_Parts.json",
-      "sha256": "fc24e5c3e9b8e249906443eff3694e3b030e9c799f2b2dcbed21499b671139f8",
+      "sha256": "18dca3ce8b9076f0beb2532e9af7f31ac8db4d3f51998912924e2b5038034f07",
       "topLevelType": "object",
       "entryCount": 13
     },
