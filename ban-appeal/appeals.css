@@ -1,0 +1,22 @@
+.appeals-page .project-hero{padding-bottom:30px}
+.appeals-page .project-hero .kicker{margin-top:28px}
+.appeals-page .project-hero h1{font-size:clamp(2.8rem,8vw,5.5rem)}
+.appeal-layout{display:grid;grid-template-columns:minmax(240px,.7fr) minmax(0,1.5fr);gap:26px;padding-bottom:72px;align-items:start}
+.appeal-layout h2{margin:10px 0 18px;font-size:1.6rem}
+.appeal-guidance p{line-height:1.75;color:var(--muted)}
+.appeal-layout a{color:#f0c7aa;text-decoration:underline;text-underline-offset:3px}
+.appeal-fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 18px}
+.appeal-field{display:flex;flex-direction:column;gap:8px;min-width:0}
+.appeal-field.full{grid-column:1/-1}
+.appeal-field label{font-weight:700;font-size:.9rem}
+.appeal-field input,.appeal-field select,.appeal-field textarea{width:100%;min-width:0;flex:none;background:#111416;color:var(--text);border:1px solid var(--line);padding:13px 14px;border-radius:4px;font:inherit}
+.appeal-field textarea{resize:vertical;line-height:1.6}
+.appeal-form :is(input,select,textarea,button):focus-visible,.appeal-layout a:focus-visible{outline:2px solid #f0c7aa;outline-offset:3px}
+.appeal-field small,.field-help{color:var(--muted);font-size:.82rem;line-height:1.6;overflow-wrap:anywhere}
+.appeal-form>.field-help{margin:0 0 24px}
+.appeal-form .appeal-check~.field-help{margin:20px 0}
+.appeal-check{display:flex;align-items:flex-start;gap:12px;margin-top:26px;line-height:1.6;font-size:.9rem;cursor:pointer}
+.appeal-check input{flex:none;min-width:20px;min-height:20px;width:20px;height:20px;margin:3px 0 0;accent-color:var(--ember)}
+.appeal-form button{cursor:pointer;font-family:inherit}
+.appeal-trap{display:none}
+@media(max-width:760px){.appeal-layout,.appeal-fields{grid-template-columns:1fr}.appeal-field.full{grid-column:auto}.appeal-form{padding:20px}.appeal-form button{width:100%;justify-content:center}.appeals-page .brand>div:last-child{font-size:.8rem}}
