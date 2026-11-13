@@ -52,7 +52,7 @@ window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyba
 {name:'Zagorkychocolate',className:'zagorkychocolate',category:'Food',mode:'sell',price:9815},
 {name:'Zagorkypeanuts',className:'zagorkypeanuts',category:'Food',mode:'sell',price:9870},
 {name:'Agaricusmushroom',className:'agaricusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
-{name:'Apple',className:'apple',category:'Fruit And Vegetables',mode:'sell',price:150},
+{name:'Apple',className:'apple',category:'Fruit And Vegetables',mode:'buy',price:150,sellPrice:75},
 {name:'Auriculariamushroom',className:'auriculariamushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
 {name:'Boletusmushroom',className:'boletusmushroom',category:'Fruit And Vegetables',mode:'sell',price:150},
 {name:'Craterellusmushroom',className:'craterellusmushroom',category:'Fruit And Vegetables',mode:'sell',price:1200},
