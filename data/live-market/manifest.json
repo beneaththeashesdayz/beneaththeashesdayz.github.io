@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-14T08:23:38.805968+00:00",
+  "syncedAt": "2026-11-14T09:22:31.884001+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 357,
+  "marketFileCount": 356,
   "traderFileCount": 28,
   "traderZoneFileCount": 22,
   "files": [
@@ -244,13 +244,6 @@
       "group": "market",
       "filename": "Backpacks.json",
       "sha256": "c375e27468ab92b5fd9b2407be3e19f37112e1eab5721c7871093ccbb392b96b",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "BallerZ_Ammo.json",
-      "sha256": "eaf77c20522085b6d1e41ef8e678f9fb67cca5306fd4f0eca92c14f3ea3f8e1d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1972,7 +1965,7 @@
     {
       "group": "market",
       "filename": "Maharlika_Vehicles.json",
-      "sha256": "ff2d9b89449cecf1d2db4d1f3710bdec46fef41478865c42b8b7bfc2f604244f",
+      "sha256": "e3d221318331b34cabff1d8da0d430f9b129aaad12fb5ec2b277130604423891",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2021,7 +2014,7 @@
     {
       "group": "market",
       "filename": "Missing_Attachments_1.json",
-      "sha256": "3d04abd99c700f74b049b65831f774accb2c1027b9ca67d30463456ba5255304",
+      "sha256": "a3b9408102c520a5ee0752591bdfa629d96fa7d9ba0d0e45c9e9fad0c2c17374",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2525,7 +2518,7 @@
     {
       "group": "traders",
       "filename": "BM_Zombie_Note_Trader.json",
-      "sha256": "0e0619361dbe62a61fed1efd068aed41ea4ce97f4eb95504f2b5ec3c2b2b041b",
+      "sha256": "7a5184e22c21c6d5eae683ffd744cd7716bdfc54ccbf8f99b5fde7fd2a1ec5f3",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2630,7 +2623,7 @@
     {
       "group": "traders",
       "filename": "Exotric_Vehicle_Parts.json",
-      "sha256": "47328c64401e35da2a29387a94e8e9a4d37bd12a6df441194e0621a34bd60b42",
+      "sha256": "7b27ff72cd22884887f66882442fa095a66f69f720d3a761c4fb14429363f22b",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2679,7 +2672,7 @@
     {
       "group": "traders",
       "filename": "Special_Gear.json",
-      "sha256": "09877ec9e55da0ee1f06ba3f44e8e989dca23f5c6851a86b96f409555f9d1f1b",
+      "sha256": "b75d05991d7bf105f23be8325c6f3bdbe37b7d5ea23c8cb1157a7a4b5661161f",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2693,7 +2686,7 @@
     {
       "group": "traders",
       "filename": "Vehicle_Parts.json",
-      "sha256": "d2d8aaf4413b39049df91089522d15098b9ba19f50c7eb9226f20b508acf2d3d",
+      "sha256": "b18df49ad45f9db8127adc3dd7f9b8a9cfa4ed5c9fdef4334ac1d175cb3bcc27",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2714,7 +2707,7 @@
     {
       "group": "traderzones",
       "filename": "Blackmarket_ZN.json",
-      "sha256": "b388edc388a22253515568edca2af99b0cf8d1a7bc29f4e0244c0b72742bc218",
+      "sha256": "73e0e63e06b203f40b00cbfb49434b3c77d24bf8430942a67ca46cef26958878",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2840,7 +2833,7 @@
     {
       "group": "traderzones",
       "filename": "Main_ZombieNote_Trader.json",
-      "sha256": "bd79e8db2bc9665becc4c195ae169b1110513a5479eeb475283f22f1030f5e17",
+      "sha256": "9fc6fd0f0df647552d72e9c79db43787fb5a5c0a0d34ec980c6b6c03b1193bd8",
       "topLevelType": "object",
       "entryCount": 7
     },

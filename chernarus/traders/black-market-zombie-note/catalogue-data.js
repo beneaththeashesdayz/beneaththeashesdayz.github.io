@@ -2,7 +2,6 @@ window.traderCatalogue={traderName:'Black Market Zombie Note Trader',currency:'Z
 {name:"Compass",className:"compass",category:"#STR_EXPANSION_MARKET_CATEGORY_NAVIGATION",traderSells:true,traderBuys:false,buyPrice:25},
 {name:"GPS Receiver",className:"gpsreceiver",category:"#STR_EXPANSION_MARKET_CATEGORY_NAVIGATION",traderSells:true,traderBuys:false,buyPrice:50},
 {name:"Orienteering Compass",className:"orienteeringcompass",category:"#STR_EXPANSION_MARKET_CATEGORY_NAVIGATION",traderSells:true,traderBuys:false,buyPrice:25},
-{name:"Bz Bolt Quiver T1",className:"BZ_Bolt_Quiver_T1",category:"BallerZ Ammo",traderSells:true,traderBuys:false,buyPrice:50},
 {name:"Vp Set18 Belt Black",className:"vp_set18_belt_black",category:"Bat Baby Gear Set",traderSells:true,traderBuys:true,buyPrice:2000,sellPrice:1000},
 {name:"Vp Set18 Boots White",className:"vp_set18_boots_white",category:"Bat Baby Gear Set",traderSells:true,traderBuys:true,buyPrice:1000,sellPrice:500},
 {name:"Vp Set18 Gloves Black",className:"vp_set18_gloves_black",category:"Bat Baby Gear Set",traderSells:true,traderBuys:true,buyPrice:1000,sellPrice:500},

@@ -431,32 +431,6 @@
       ]
     },
     {
-      "ClassName": "Van_Cybertruck",
-      "MaxPriceThreshold": 23000,
-      "MinPriceThreshold": 23000,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "Van_CybertruckBattery",
-        "HeadlightH7",
-        "HeadlightH7",
-        "Van_Cybertruck_Wheel",
-        "Van_Cybertruck_Wheel",
-        "Van_Cybertruck_Wheel",
-        "Van_Cybertruck_Wheel",
-        "Van_Cybertruck_Doors_Driver",
-        "Van_Cybertruck_Doors_CoDriver",
-        "Van_Cybertruck_Doors_Cargo1",
-        "Van_Cybertruck_Doors_Cargo2",
-        "Van_Cybertruck_Doors_Trunk"
-      ],
-      "Variants": [
-        "Van_Cybertruck_Black_Blue"
-      ]
-    },
-    {
       "ClassName": "Van_Cybertruck_Black_Blue",
       "MaxPriceThreshold": 23000,
       "MinPriceThreshold": 23000,
