@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-11-14T07:20:17.966498+00:00",
+  "syncedAt": "2026-11-14T08:24:23.795276+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -878,7 +878,7 @@
     "impoundTimePenaltyRuined": 0,
     "costForExceedingMaxSlots": 10000
   },
-  "vehicleCount": 916,
+  "vehicleCount": 950,
   "vehicles": [
     {
       "name": "Civic",
@@ -33331,7 +33331,7 @@
       "sellPrice": -1,
       "repaintCost": -1,
       "insuranceCost": 150000,
-      "color": null,
+      "color": "",
       "additionalCargoItems": [],
       "attachmentItems": [
         {
@@ -37820,7 +37820,7 @@
       "sellPrice": -1,
       "repaintCost": -1,
       "insuranceCost": 150000,
-      "color": null,
+      "color": "",
       "additionalCargoItems": [],
       "attachmentItems": [
         {
@@ -64568,6 +64568,1184 @@
         {
           "itemname": "BTA_Toyota86_BiGGuN_Plate",
           "colorGroup": "a_plate"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "As350",
+      "itemname": "RFFSHeli_AS350",
+      "groupName": "AS350",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "AS350",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Apache",
+      "itemname": "RFFSHeli_Apache",
+      "groupName": "apache",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Apache",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Apache",
+      "itemname": "RFFSHeli_Apache_Desert",
+      "groupName": "apache",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Desert",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Apache",
+      "itemname": "RFFSHeli_Apache_Winter",
+      "groupName": "apache",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Winter",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Bell429",
+      "itemname": "RFFSHeli_Bell429",
+      "groupName": "bell429",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Bell429",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Bell429",
+      "itemname": "RFFSHeli_Bell429_Medic",
+      "groupName": "bell429",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Medic",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Bell429",
+      "itemname": "RFFSHeli_Bell429_Police",
+      "groupName": "bell429",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Police",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Bell429",
+      "itemname": "RFFSHeli_Bell429_Uganda",
+      "groupName": "bell429",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Uganda",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Bell429",
+      "itemname": "RFFSHeli_Bell429_ZS",
+      "groupName": "bell429",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "ZS",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Blackhawk",
+      "itemname": "RFFSHeli_Blackhawk",
+      "groupName": "blackhawk",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Blackhawk",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Blackhawk",
+      "itemname": "RFFSHeli_Blackhawk_Budhawk",
+      "groupName": "blackhawk",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Budhawk",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Blackhawk Cargo",
+      "itemname": "RFFSHeli_Blackhawk_Cargo",
+      "groupName": "blackhawk_cargo",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Cargo",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Blackhawk",
+      "itemname": "RFFSHeli_Blackhawk_Woodland",
+      "groupName": "blackhawk",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Woodland",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Blackhawk",
+      "itemname": "RFFSHeli_Blackhawk_blackblackhawk",
+      "groupName": "blackhawk",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "blackblackhawk",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Mbb Bo 105",
+      "itemname": "RFFSHeli_Bo105m",
+      "groupName": "mbb_bo_105",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Bo105m",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Mbb Bo 105",
+      "itemname": "RFFSHeli_Bo105m_blackcamo",
+      "groupName": "mbb_bo_105",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "blackcamo",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Ch47",
+      "itemname": "RFFSHeli_CH47",
+      "groupName": "ch47",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "CH47",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Ch53e",
+      "itemname": "RFFSHeli_CH53e",
+      "groupName": "ch53e",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "CH53e",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Ec135",
+      "itemname": "RFFSHeli_EC135",
+      "groupName": "ec135",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "EC135",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Ec135",
+      "itemname": "RFFSHeli_EC135_BlackCamo",
+      "groupName": "ec135",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "BlackCamo",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Heli Ka26",
+      "itemname": "RFFSHeli_Ka26",
+      "groupName": "heli_ka26",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Ka26",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Little Bird",
+      "itemname": "RFFSHeli_LittleBird",
+      "groupName": "little_bird",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "LittleBird",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Little Bird",
+      "itemname": "RFFSHeli_LittleBird_Camo",
+      "groupName": "little_bird",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Camo",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Little Bird",
+      "itemname": "RFFSHeli_LittleBird_Desert",
+      "groupName": "little_bird",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Desert",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Mi2",
+      "itemname": "RFFSHeli_Mi2",
+      "groupName": "mi2",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Mi2",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Mi2",
+      "itemname": "RFFSHeli_Mi2_Hornet",
+      "groupName": "mi2",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Hornet",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Mi2",
+      "itemname": "RFFSHeli_Mi2_Military",
+      "groupName": "mi2",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Military",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "R22",
+      "itemname": "RFFSHeli_R22",
+      "groupName": "r22",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "R22",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "R22",
+      "itemname": "RFFSHeli_R22_Black",
+      "groupName": "r22",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Black",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "R22",
+      "itemname": "RFFSHeli_R22_Red",
+      "groupName": "r22",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Red",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "S76",
+      "itemname": "RFFSHeli_S76",
+      "groupName": "S76",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "S76",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "S76",
+      "itemname": "RFFSHeli_S76_WoodlandCamo",
+      "groupName": "S76",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "WoodlandCamo",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Uh1 H",
+      "itemname": "RFFSHeli_UH1H",
+      "groupName": "UH1H",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "UH1H",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Uh1h Combat",
+      "itemname": "RFFSHeli_UH1H_Combat",
+      "groupName": "uh1h_combat",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Combat",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "RFFSHeli_aviation_battery",
+          "colorGroup": "battery"
+        },
+        {
+          "itemname": "RFFSHeli_igniter_plug",
+          "colorGroup": "igniter_plug"
+        },
+        {
+          "itemname": "RFFSHeli_hydraulic_hoses",
+          "colorGroup": "hydraulic_hoses"
+        },
+        {
+          "itemname": "RFFSHeli_wiring_harness",
+          "colorGroup": "electric_wires"
         },
         {
           "itemname": "HeadlightH7",

@@ -1,13 +1,13 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-14T07:20:03.599822+00:00",
+  "syncedAt": "2026-11-14T08:23:38.805968+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
   "marketFileCount": 357,
   "traderFileCount": 28,
-  "traderZoneFileCount": 24,
+  "traderZoneFileCount": 22,
   "files": [
     {
       "group": "market",
@@ -2741,13 +2741,6 @@
     },
     {
       "group": "traderzones",
-      "filename": "BTA_EggCollector.json",
-      "sha256": "c30a240dfc12a2a5a701b2870ee7ef7cb3898df7ee5d869f5407ad007b8198df",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "traderzones",
       "filename": "Collectables.json",
       "sha256": "685a9db759ce467956ae9f47f9c9f6ea2446eb198fc993b5272d7bc50d20adc7",
       "topLevelType": "object",
@@ -2848,13 +2841,6 @@
       "group": "traderzones",
       "filename": "Main_ZombieNote_Trader.json",
       "sha256": "bd79e8db2bc9665becc4c195ae169b1110513a5479eeb475283f22f1030f5e17",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "traderzones",
-      "filename": "Mining_Trader.json",
-      "sha256": "82561d7899e5c8a0a499a7906d8fdfa9cbfeb35226a0f7748e79fe87823da28c",
       "topLevelType": "object",
       "entryCount": 7
     },
