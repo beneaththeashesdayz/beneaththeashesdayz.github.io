@@ -7,13 +7,12 @@
   "RequiredCompletedQuestID": -1,
   "TraderIcon": "Shotgun",
   "Currencies": [
-    "Money_Dollar1",
-    "Money_Dollar2",
-    "Money_Dollar5",
-    "Money_Dollar10",
-    "Money_Dollar20",
-    "Money_Dollar50",
-    "Money_Dollar100"
+    "BTA_Dollar_1",
+    "BTA_Dollar_5",
+    "BTA_Dollar_10",
+    "BTA_Dollar_20",
+    "BTA_Dollar_50",
+    "BTA_Dollar_100"
   ],
   "DisplayCurrencyValue": 1,
   "DisplayCurrencyName": "USD",

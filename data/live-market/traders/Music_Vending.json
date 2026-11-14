@@ -7,7 +7,7 @@
   "RequiredCompletedQuestID": -1,
   "TraderIcon": "Trader",
   "Currencies": [
-    "zombie_note"
+    "BTA_ZombieNote"
   ],
   "DisplayCurrencyValue": 1,
   "DisplayCurrencyName": "Zombie Notes",
@@ -19,8 +19,6 @@
     "Music_Speakers:1",
     "Music_Parts_And_Power:1",
     "Music_FoXy_Cassettes:1",
-    "Music_DiZaster_Singles:1",
-    "Music_DiZaster_Albums:1",
     "Music_Digital_And_Discs:1",
     "Music_Storage_And_Displays:1",
     "Music_Microphones_And_Novelties:1"

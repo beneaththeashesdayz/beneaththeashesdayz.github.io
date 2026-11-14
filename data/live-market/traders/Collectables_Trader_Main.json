@@ -7,19 +7,17 @@
   "RequiredCompletedQuestID": -1,
   "TraderIcon": "Trader",
   "Currencies": [
-    "money_dollar1",
-    "money_dollar10",
-    "money_dollar100",
-    "money_dollar2",
-    "money_dollar20",
-    "money_dollar5",
-    "money_dollar50"
+    "BTA_Dollar_1",
+    "BTA_Dollar_10",
+    "BTA_Dollar_100",
+    "BTA_Dollar_20",
+    "BTA_Dollar_5",
+    "BTA_Dollar_50"
   ],
   "DisplayCurrencyValue": 1,
   "DisplayCurrencyName": "USD",
   "UseCategoryOrder": 0,
   "Categories": [
-    "Drippy_Sneakers:2",
     "Paragon_Collectables:2",
     "Pokemon:2",
     "Vyse_Collectables:2",

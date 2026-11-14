@@ -1,7 +1,5 @@
 window.traderCatalogue={traderName:'Rolf',currency:'ZOMBIE_NOTES',currencyLabel:'Zombie Notes',items:[
 {name:'Bz Bolt Quiver T1',className:'bz_bolt_quiver_t1',category:'BallerZ Ammo',mode:'sell',price:100},
-{name:'Km Magazineloader2',className:'km_magazineloader2',category:'Mag Loader',mode:'sell',price:750},
-{name:'Magloadercleaningkit',className:'magloadercleaningkit',category:'Mag Loader',mode:'sell',price:100},
 {name:'Compass',className:'compass',category:'Navigation',mode:'sell',price:50},
 {name:'Gpsreceiver',className:'gpsreceiver',category:'Navigation',mode:'sell',price:100},
 {name:'Orienteeringcompass',className:'orienteeringcompass',category:'Navigation',mode:'sell',price:50},

@@ -203,8 +203,6 @@ window.traderCatalogue={traderName:'Black Market Zombie Note Trader',currency:'Z
 {name:"Dksr Hazmat Suit Mask",className:"dksr_hazmat_suit_mask",category:"Hazmat GearSet",traderSells:true,traderBuys:true,buyPrice:4000,sellPrice:2000},
 {name:"Dksr Hazmat Suit Pants",className:"dksr_hazmat_suit_pants",category:"Hazmat GearSet",traderSells:true,traderBuys:true,buyPrice:6000,sellPrice:3000},
 {name:"Dksr Hazmat Suit Shoes",className:"dksr_hazmat_suit_shoes",category:"Hazmat GearSet",traderSells:true,traderBuys:true,buyPrice:1000,sellPrice:500},
-{name:"Km Magazineloader2",className:"km_magazineloader2",category:"Mag Loaders",traderSells:true,traderBuys:false,buyPrice:375},
-{name:"Magloadercleaningkit",className:"magloadercleaningkit",category:"Mag Loaders",traderSells:true,traderBuys:false,buyPrice:50},
 {name:"Sm Mercenary Bag Black And Blue",className:"sm_mercenary_bag_black_and_blue",category:"Mercenary Gear Set",traderSells:true,traderBuys:true,buyPrice:4000,sellPrice:2000},
 {name:"Sm Mercenary Bag Black And White",className:"sm_mercenary_bag_black_and_white",category:"Mercenary Gear Set",traderSells:true,traderBuys:true,buyPrice:4000,sellPrice:2000},
 {name:"Sm Mercenary Bag Red And Yellow",className:"sm_mercenary_bag_red_and_yellow",category:"Mercenary Gear Set",traderSells:true,traderBuys:true,buyPrice:4000,sellPrice:2000},

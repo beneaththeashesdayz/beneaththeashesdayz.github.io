@@ -7,7 +7,7 @@
   "RequiredCompletedQuestID": -1,
   "TraderIcon": "Trader",
   "Currencies": [
-    "zombie_note"
+    "BTA_ZombieNote"
   ],
   "DisplayCurrencyValue": 1,
   "DisplayCurrencyName": "Zombie Notes",

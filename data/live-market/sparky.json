@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-11-14T05:21:35.379573+00:00",
+  "syncedAt": "2026-11-14T06:21:14.005120+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -33331,7 +33331,7 @@
       "sellPrice": -1,
       "repaintCost": -1,
       "insuranceCost": 150000,
-      "color": "Gold",
+      "color": null,
       "additionalCargoItems": [],
       "attachmentItems": [
         {
@@ -37820,7 +37820,7 @@
       "sellPrice": -1,
       "repaintCost": -1,
       "insuranceCost": 150000,
-      "color": "Gold",
+      "color": null,
       "additionalCargoItems": [],
       "attachmentItems": [
         {

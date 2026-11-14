@@ -7,14 +7,13 @@
   "RequiredCompletedQuestID": -1,
   "TraderIcon": "Trader",
   "Currencies": [
-    "zombie_note"
+    "BTA_ZombieNote"
   ],
   "DisplayCurrencyValue": 1,
   "DisplayCurrencyName": "Zombie Notes",
   "UseCategoryOrder": 0,
   "Categories": [
     "Workbenches",
-    "Mag_Loader",
     "Gebs_Fishing_Gear:2",
     "SpawnTickets:0",
     "Ghillie_Sniper_Gear_Set:1",
