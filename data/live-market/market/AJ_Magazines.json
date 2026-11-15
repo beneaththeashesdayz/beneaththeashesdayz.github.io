@@ -13,7 +13,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -24,7 +24,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -35,7 +35,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -46,7 +46,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_545_PMAG_30rnd_FDE"
@@ -59,7 +59,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -70,7 +70,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -81,7 +81,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_762_PMAG_30rnd_Banana",
@@ -95,7 +95,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -106,7 +106,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -117,7 +117,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_AK_6L31_60rnd_ATAC",
@@ -131,7 +131,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -142,7 +142,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -153,7 +153,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -164,7 +164,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_D60_300_60Rnd_FDE"
@@ -177,7 +177,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_D60_60Rnd_FDE"
@@ -190,7 +190,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -201,7 +201,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -212,7 +212,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -223,7 +223,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -234,7 +234,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -245,7 +245,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -256,7 +256,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -267,7 +267,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -278,7 +278,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_HKGen2PM_300_30Rnd_FDE"
@@ -291,7 +291,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_HKGen2PM_30Rnd_FDE"
@@ -304,7 +304,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -315,7 +315,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -326,7 +326,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -337,7 +337,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -348,7 +348,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -359,7 +359,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -370,7 +370,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -381,7 +381,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -392,7 +392,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -403,7 +403,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -414,7 +414,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -425,7 +425,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -436,7 +436,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -447,7 +447,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -458,7 +458,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -469,7 +469,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_PMAG_20rnd_308_FDE"
@@ -482,7 +482,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_PMAG_20rnd_68_FDE"
@@ -495,7 +495,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_PMAG_300_30Rnd_CB",
@@ -509,7 +509,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_PMAG_30Rnd_CB",
@@ -523,7 +523,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -534,7 +534,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -545,7 +545,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -556,7 +556,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_SCARH_20rnd_FDE"
@@ -569,7 +569,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -580,7 +580,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -591,7 +591,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_SVD_10Rnd_Rattle"
@@ -604,7 +604,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -615,7 +615,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_Troy_300_30Rnd_FDE"
@@ -628,7 +628,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_Troy_30Rnd_FDE"
@@ -641,7 +641,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_Vityaz_30Rnd_FDE"
@@ -654,7 +654,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": [
         "AJW_Mag_Vityaz_PMAG_30Rnd_FDE",
@@ -668,7 +668,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     },
@@ -679,7 +679,7 @@
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
-      "QuantityPercent": 0,
+      "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
     }
