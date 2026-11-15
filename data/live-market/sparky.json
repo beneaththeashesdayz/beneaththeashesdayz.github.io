@@ -1,14 +1,15 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-11-15T17:19:59.904029+00:00",
+  "syncedAt": "2026-11-15T18:24:55.268053+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
     "thousandsSeparator": "."
   },
   "cargoItemsWhenBuyingVehicle": [
-    "HB_FlipVehicle_Bollard"
+    "HB_FlipVehicle_Bollard",
+    "DigitalCodeLock"
   ],
   "garageGroups": [
     {
@@ -27,16 +28,16 @@
       "canBuyVehiclesAtPlayerPlaced": 0,
       "canSellVehiclesAtPlayerPlaced": 0,
       "canSellVehiclesAtAdminPlaced": 1,
-      "addKeyToBoughtVehicle": 1,
+      "addKeyToBoughtVehicle": 0,
       "canRepaintVehicles": 1,
       "canRepairVehicle": 1,
-      "baseVehicleRepairCost": 10000.0,
-      "singleAttachmentRepairCost": 1000.0,
+      "baseVehicleRepairCost": 10000,
+      "singleAttachmentRepairCost": 1000,
       "canRepairVehicleAttachments": 1,
       "canRepairRuinedAttachments": 1,
       "canRefuelVehicle": 0,
-      "fuelCostPerLiter": 10.0,
-      "waterCoolantCostPerLiter": 5.0,
+      "fuelCostPerLiter": 10,
+      "waterCoolantCostPerLiter": 5,
       "vehicleWhitelist": [
         "Audi_RS6_ABT_Base",
         "BMW_M3_BOSS_Base",
@@ -113,66 +114,7 @@
         "Van_ModernMotorhome",
         "Van_Cybertruck",
         "Van_CamperRV",
-        "Van_HiluxCamper",
-        "dodgechargerhellcat_base",
-        "DodgeChargerPolice_base",
-        "GT3_Base",
-        "saab_900_turbo_Base",
-        "Nissan",
-        "HennesseyF150D",
-        "Armada_BearCat",
-        "A_Charger",
-        "a_Mustang",
-        "A_NSX",
-        "BelAirChevy",
-        "c7_Black",
-        "camaro",
-        "chevelle1970",
-        "daytona",
-        "e60",
-        "esc",
-        "f22",
-        "Gemera",
-        "GT2RS_MR",
-        "gt63",
-        "Huracan_Tecnica",
-        "hx58",
-        "jesko",
-        "lfa",
-        "M3_G80",
-        "m4w",
-        "a_m5",
-        "minicooper",
-        "MK5",
-        "MUCI",
-        "pofirebird",
-        "r32",
-        "rmodf8",
-        "rx8hachi",
-        "Star_Agera",
-        "Star_APC_Cobra",
-        "Star_Audi_R8",
-        "Star_Audi_RS5",
-        "Star_BMW_G81",
-        "Star_Camaro_1969",
-        "Star_Enzo",
-        "Star_Golf_MK1",
-        "Star_Hummer_H1",
-        "Star_Jeep_Rubi_Extra",
-        "Star_Mercedes_190E",
-        "Star_Oshkosh_M1083",
-        "Star_Porsche_944",
-        "Star_Rover_Defender",
-        "SVJ",
-        "VW_T6",
-        "Toyota_86_RB",
-        "tundra",
-        "V140",
-        "viper",
-        "WideBody_Hellcat",
-        "x5mcompetition",
-        "ExpansionBus",
-        "ExpansionTractor"
+        "Van_HiluxCamper"
       ],
       "levels": [
         {
@@ -201,13 +143,13 @@
       "addKeyToBoughtVehicle": 0,
       "canRepaintVehicles": 0,
       "canRepairVehicle": 1,
-      "baseVehicleRepairCost": 10000.0,
-      "singleAttachmentRepairCost": 1000.0,
+      "baseVehicleRepairCost": 10000,
+      "singleAttachmentRepairCost": 1000,
       "canRepairVehicleAttachments": 1,
       "canRepairRuinedAttachments": 1,
       "canRefuelVehicle": 0,
-      "fuelCostPerLiter": 10.0,
-      "waterCoolantCostPerLiter": 5.0,
+      "fuelCostPerLiter": 10,
+      "waterCoolantCostPerLiter": 5,
       "vehicleWhitelist": [
         "Audi_R8_Base",
         "Armada_BearCat",
@@ -296,42 +238,7 @@
         "Van_Motorhome_Teal",
         "Van_Motorhome_Purple",
         "Van_Motorhome_Black",
-        "Van_Motorhome_Camo",
-        "DodgeChargerPolice_base",
-        "saab_900_turbo_Base",
-        "A_Charger",
-        "a_Mustang",
-        "A_NSX",
-        "BelAirChevy",
-        "c7_Black",
-        "daytona",
-        "Dodge_Charger_EMP",
-        "f22",
-        "Gemera",
-        "Huracan_Tecnica",
-        "hx58",
-        "jesko",
-        "lfa",
-        "minicooper",
-        "MUCI",
-        "pofirebird",
-        "r32",
-        "rmodf8",
-        "rx8hachi",
-        "Star_Agera",
-        "Star_APC_Cobra",
-        "Star_Audi_R8",
-        "Star_Camaro_1969",
-        "Star_Enzo",
-        "Star_Golf_MK1",
-        "Star_Mercedes_190E",
-        "Star_Oshkosh_M1083",
-        "Star_Porsche_944",
-        "VW_T6",
-        "V140",
-        "viper",
-        "ExpansionBus",
-        "ExpansionTractor"
+        "Van_Motorhome_Camo"
       ],
       "levels": [
         {
@@ -402,16 +309,16 @@
       "canBuyVehiclesAtPlayerPlaced": 0,
       "canSellVehiclesAtPlayerPlaced": 0,
       "canSellVehiclesAtAdminPlaced": 1,
-      "addKeyToBoughtVehicle": 1,
+      "addKeyToBoughtVehicle": 0,
       "canRepaintVehicles": 1,
       "canRepairVehicle": 1,
-      "baseVehicleRepairCost": 10000.0,
-      "singleAttachmentRepairCost": 1000.0,
+      "baseVehicleRepairCost": 10000,
+      "singleAttachmentRepairCost": 1000,
       "canRepairVehicleAttachments": 1,
       "canRepairRuinedAttachments": 0,
       "canRefuelVehicle": 0,
-      "fuelCostPerLiter": 10.0,
-      "waterCoolantCostPerLiter": 5.0,
+      "fuelCostPerLiter": 10,
+      "waterCoolantCostPerLiter": 5,
       "vehicleWhitelist": [
         "ExpansionBigGyrocopter",
         "ExpansionGyrocopter",
@@ -443,23 +350,18 @@
       "canBuyVehiclesAtPlayerPlaced": 0,
       "canSellVehiclesAtPlayerPlaced": 0,
       "canSellVehiclesAtAdminPlaced": 1,
-      "addKeyToBoughtVehicle": 1,
+      "addKeyToBoughtVehicle": 0,
       "canRepaintVehicles": 1,
       "canRepairVehicle": 1,
-      "baseVehicleRepairCost": 10000.0,
-      "singleAttachmentRepairCost": 1000.0,
+      "baseVehicleRepairCost": 10000,
+      "singleAttachmentRepairCost": 1000,
       "canRepairVehicleAttachments": 1,
       "canRepairRuinedAttachments": 0,
       "canRefuelVehicle": 0,
-      "fuelCostPerLiter": 10.0,
-      "waterCoolantCostPerLiter": 5.0,
+      "fuelCostPerLiter": 10,
+      "waterCoolantCostPerLiter": 5,
       "vehicleWhitelist": [
-        "RFWC_base",
-        "ExpansionZodiacBoat",
-        "ExpansionVodnik",
-        "ExpansionLHD",
-        "ExpansionUtilityBoat",
-        "Boat_01_ColorBase"
+        "RFWC_base"
       ],
       "levels": [
         {
@@ -488,20 +390,15 @@
       "addKeyToBoughtVehicle": 0,
       "canRepaintVehicles": 0,
       "canRepairVehicle": 1,
-      "baseVehicleRepairCost": 10000.0,
-      "singleAttachmentRepairCost": 1000.0,
+      "baseVehicleRepairCost": 10000,
+      "singleAttachmentRepairCost": 1000,
       "canRepairVehicleAttachments": 1,
       "canRepairRuinedAttachments": 1,
       "canRefuelVehicle": 0,
-      "fuelCostPerLiter": 10.0,
-      "waterCoolantCostPerLiter": 5.0,
+      "fuelCostPerLiter": 10,
+      "waterCoolantCostPerLiter": 5,
       "vehicleWhitelist": [
-        "RFWC_base",
-        "ExpansionZodiacBoat",
-        "ExpansionVodnik",
-        "ExpansionLHD",
-        "ExpansionUtilityBoat",
-        "Boat_01_ColorBase"
+        "RFWC_base"
       ],
       "levels": [
         {
@@ -515,102 +412,6 @@
   "traders": [
     {
       "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Ground Vehicles",
-      "groupTraderGroupname": "Ground Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Ground Vehicles",
-      "groupTraderGroupname": "Ground Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
       "personalTraderGroupname": "Personal Vehicles",
       "groupTraderGroupname": "Personal Vehicles",
       "blackboxPreview": 0
@@ -635,20 +436,8 @@
     },
     {
       "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
       "blackboxPreview": 0
     },
     {
@@ -683,48 +472,6 @@
     },
     {
       "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Boats",
-      "groupTraderGroupname": "Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal Vehicles",
-      "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign_2",
       "personalTraderGroupname": "Personal Vehicles",
       "groupTraderGroupname": "Personal Vehicles",
       "blackboxPreview": 0
@@ -733,36 +480,6 @@
       "traderItemClassname": "Garage_Sign",
       "personalTraderGroupname": "Personal Vehicles",
       "groupTraderGroupname": "Personal Vehicles",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
-      "blackboxPreview": 0
-    },
-    {
-      "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
       "blackboxPreview": 0
     },
     {
@@ -809,18 +526,156 @@
     },
     {
       "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
       "personalTraderGroupname": "Personal_Boats",
       "groupTraderGroupname": "Personal_Boats",
       "blackboxPreview": 0
     },
     {
-      "traderItemClassname": "Garage_Sign_2",
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
       "personalTraderGroupname": "Helicopters",
       "groupTraderGroupname": "Helicopters",
       "blackboxPreview": 0
     },
     {
       "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Boats",
+      "groupTraderGroupname": "",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign_2",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal_Boats",
+      "groupTraderGroupname": "Personal_Boats",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
       "personalTraderGroupname": "Personal Vehicles",
       "groupTraderGroupname": "Personal Vehicles",
       "blackboxPreview": 0
@@ -839,8 +694,14 @@
     },
     {
       "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
+      "blackboxPreview": 0
+    },
+    {
+      "traderItemClassname": "Garage_Sign",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
       "blackboxPreview": 0
     },
     {
@@ -851,19 +712,19 @@
     },
     {
       "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
       "blackboxPreview": 0
     },
     {
       "traderItemClassname": "Garage_Sign",
-      "personalTraderGroupname": "Personal_Boats",
-      "groupTraderGroupname": "Personal_Boats",
+      "personalTraderGroupname": "Personal Vehicles",
+      "groupTraderGroupname": "Personal Vehicles",
       "blackboxPreview": 0
     }
   ],
   "impound": {
-    "defaultImpoundAfterTime": 14400,
+    "defaultImpoundAfterTime": -1,
     "minPlayerDistanceForImpound": 5.0,
     "impoundVehiclesProtectedByFlagpole": 1,
     "impoundRuinedVehicles": 1,
@@ -9642,10 +9503,10 @@
       "name": "Mk5",
       "itemname": "MK5",
       "groupName": "MK5",
-      "buyCost": 1230000,
+      "buyCost": -1,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 61500,
+      "insuranceCost": 150000,
       "color": "Default",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -9711,10 +9572,10 @@
       "name": "Mk5",
       "itemname": "MK5_Blue",
       "groupName": "MK5",
-      "buyCost": 1230000,
+      "buyCost": -1,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 61500,
+      "insuranceCost": 150000,
       "color": "Blue",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -9780,10 +9641,10 @@
       "name": "Mk5",
       "itemname": "MK5_Red",
       "groupName": "MK5",
-      "buyCost": 1230000,
+      "buyCost": -1,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 61500,
+      "insuranceCost": 150000,
       "color": "Red",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -9849,10 +9710,10 @@
       "name": "Mk5",
       "itemname": "MK5_white",
       "groupName": "MK5",
-      "buyCost": 1230000,
+      "buyCost": -1,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 61500,
+      "insuranceCost": 150000,
       "color": "white",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -9918,10 +9779,10 @@
       "name": "Mk5",
       "itemname": "MK5_yellow",
       "groupName": "MK5",
-      "buyCost": 1230000,
+      "buyCost": -1,
       "sellPrice": 922500,
       "repaintCost": 123000,
-      "insuranceCost": 61500,
+      "insuranceCost": 150000,
       "color": "yellow",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -33331,7 +33192,7 @@
       "sellPrice": -1,
       "repaintCost": -1,
       "insuranceCost": 150000,
-      "color": "",
+      "color": "Gold",
       "additionalCargoItems": [],
       "attachmentItems": [
         {
@@ -37820,7 +37681,7 @@
       "sellPrice": -1,
       "repaintCost": -1,
       "insuranceCost": 150000,
-      "color": "",
+      "color": "Gold",
       "additionalCargoItems": [],
       "attachmentItems": [
         {
@@ -61278,10 +61139,10 @@
       "name": "Motorbike 01",
       "itemname": "Motorbike_01_Blue",
       "groupName": "Motorbike_01",
-      "buyCost": 175000,
-      "sellPrice": 131250,
+      "buyCost": -1,
+      "sellPrice": 500,
       "repaintCost": -1,
-      "insuranceCost": 8750,
+      "insuranceCost": 5000,
       "color": "Blue",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -61307,10 +61168,10 @@
       "name": "Motorbike 01",
       "itemname": "Motorbike_01_Red",
       "groupName": "Motorbike_01",
-      "buyCost": 175000,
-      "sellPrice": 131250,
+      "buyCost": -1,
+      "sellPrice": 500,
       "repaintCost": -1,
-      "insuranceCost": 8750,
+      "insuranceCost": 5000,
       "color": "Red",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -61336,10 +61197,10 @@
       "name": "Motorbike 01",
       "itemname": "Motorbike_01_Yellow",
       "groupName": "Motorbike_01",
-      "buyCost": 175000,
-      "sellPrice": 131250,
+      "buyCost": -1,
+      "sellPrice": 500,
       "repaintCost": -1,
-      "insuranceCost": 8750,
+      "insuranceCost": 5000,
       "color": "Yellow",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -61365,10 +61226,10 @@
       "name": "Motorbike 02",
       "itemname": "Motorbike_02_Blue",
       "groupName": "Motorbike_02",
-      "buyCost": 175000,
-      "sellPrice": 131250,
+      "buyCost": -1,
+      "sellPrice": 500,
       "repaintCost": -1,
-      "insuranceCost": 8750,
+      "insuranceCost": 5000,
       "color": "Blue",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -61406,10 +61267,10 @@
       "name": "Motorbike 02",
       "itemname": "Motorbike_02_Green",
       "groupName": "Motorbike_02",
-      "buyCost": 175000,
-      "sellPrice": 131250,
+      "buyCost": -1,
+      "sellPrice": 500,
       "repaintCost": -1,
-      "insuranceCost": 8750,
+      "insuranceCost": 5000,
       "color": "Green",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -61447,10 +61308,10 @@
       "name": "Motorbike 02",
       "itemname": "Motorbike_02_Red",
       "groupName": "Motorbike_02",
-      "buyCost": 175000,
-      "sellPrice": 131250,
+      "buyCost": -1,
+      "sellPrice": 500,
       "repaintCost": -1,
-      "insuranceCost": 8750,
+      "insuranceCost": 5000,
       "color": "Red",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -61488,10 +61349,10 @@
       "name": "Motorbike 02",
       "itemname": "Motorbike_02_Yellow",
       "groupName": "Motorbike_02",
-      "buyCost": 175000,
-      "sellPrice": 131250,
+      "buyCost": -1,
+      "sellPrice": 500,
       "repaintCost": -1,
-      "insuranceCost": 8750,
+      "insuranceCost": 5000,
       "color": "Yellow",
       "additionalCargoItems": [],
       "attachmentItems": [
@@ -64446,71 +64307,6 @@
       ]
     },
     {
-      "name": "Dodge Challenger",
-      "itemname": "Dodge_ChallengerSRT_Darkblue",
-      "groupName": "Dodge_Challenger",
-      "buyCost": -1,
-      "sellPrice": -1,
-      "repaintCost": -1,
-      "insuranceCost": 5000,
-      "color": "Darkblue",
-      "additionalCargoItems": [],
-      "attachmentItems": [
-        {
-          "itemname": "HeadlightH7",
-          "colorGroup": "Replacement_Headlight"
-        },
-        {
-          "itemname": "HeadlightH7",
-          "colorGroup": "Replacement_Headlight"
-        },
-        {
-          "itemname": "CarBattery",
-          "colorGroup": "battery_car"
-        },
-        {
-          "itemname": "CarRadiator",
-          "colorGroup": "radiator_car"
-        },
-        {
-          "itemname": "SparkPlug",
-          "colorGroup": "sparkplug"
-        },
-        {
-          "itemname": "Dodge_Challenger_Wheel",
-          "colorGroup": "Dodge_Challenger_Wheel"
-        },
-        {
-          "itemname": "Dodge_Challenger_Wheel",
-          "colorGroup": "Dodge_Challenger_Wheel"
-        },
-        {
-          "itemname": "Dodge_Challenger_Wheel",
-          "colorGroup": "Dodge_Challenger_Wheel"
-        },
-        {
-          "itemname": "Dodge_Challenger_Wheel",
-          "colorGroup": "Dodge_Challenger_Wheel"
-        },
-        {
-          "itemname": "Dodge_Challenger_Driver_Darkblue",
-          "colorGroup": "Dodge_Challenger_Driver"
-        },
-        {
-          "itemname": "Dodge_Challenger_CoDriver_Darkblue",
-          "colorGroup": "Dodge_Challenger_CoDriver"
-        },
-        {
-          "itemname": "Dodge_Challenger_Hood_Darkblue",
-          "colorGroup": "Dodge_Challenger_Hood"
-        },
-        {
-          "itemname": "Dodge_Challenger_Trunk_Darkblue",
-          "colorGroup": "Dodge_Challenger_Trunk"
-        }
-      ]
-    },
-    {
       "name": "Toyota 86 Rb",
       "itemname": "BTA_Toyota86_BiGGuN",
       "groupName": "Toyota_86_RB",
@@ -64576,6 +64372,71 @@
         {
           "itemname": "HeadlightH7",
           "colorGroup": "Replacement_Headlight"
+        }
+      ]
+    },
+    {
+      "name": "Dodge Challenger",
+      "itemname": "Dodge_ChallengerSRT_Darkblue",
+      "groupName": "Dodge_Challenger",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": 5000,
+      "color": "Darkblue",
+      "additionalCargoItems": [],
+      "attachmentItems": [
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "HeadlightH7",
+          "colorGroup": "Replacement_Headlight"
+        },
+        {
+          "itemname": "CarBattery",
+          "colorGroup": "battery_car"
+        },
+        {
+          "itemname": "CarRadiator",
+          "colorGroup": "radiator_car"
+        },
+        {
+          "itemname": "SparkPlug",
+          "colorGroup": "sparkplug"
+        },
+        {
+          "itemname": "Dodge_Challenger_Wheel",
+          "colorGroup": "Dodge_Challenger_Wheel"
+        },
+        {
+          "itemname": "Dodge_Challenger_Wheel",
+          "colorGroup": "Dodge_Challenger_Wheel"
+        },
+        {
+          "itemname": "Dodge_Challenger_Wheel",
+          "colorGroup": "Dodge_Challenger_Wheel"
+        },
+        {
+          "itemname": "Dodge_Challenger_Wheel",
+          "colorGroup": "Dodge_Challenger_Wheel"
+        },
+        {
+          "itemname": "Dodge_Challenger_Driver_Darkblue",
+          "colorGroup": "Dodge_Challenger_Driver"
+        },
+        {
+          "itemname": "Dodge_Challenger_CoDriver_Darkblue",
+          "colorGroup": "Dodge_Challenger_CoDriver"
+        },
+        {
+          "itemname": "Dodge_Challenger_Hood_Darkblue",
+          "colorGroup": "Dodge_Challenger_Hood"
+        },
+        {
+          "itemname": "Dodge_Challenger_Trunk_Darkblue",
+          "colorGroup": "Dodge_Challenger_Trunk"
         }
       ]
     },
