@@ -24,7 +24,6 @@
     "Shotguns:1",
     "Submachine_Guns:1",
     "Sniper_Rifles:1",
-    "Launchers_And_Ammo:2",
     "Melee_Weapons:1",
     "Knifes:1",
     "MYDF_Melee:2",
@@ -45,9 +44,6 @@
     "DF_Weapons_LMG:2"
   ],
   "Items": {
-    "aysa_antiairmissile": 1,
-    "aysa_missilemag": 1,
-    "aysa_seekerscope": 1,
     "AJW_ACR_Black": 1,
     "AJW_ACR_RG": 1,
     "AJW_ACR_Tan": 1,

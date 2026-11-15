@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-15T04:20:35.574310+00:00",
+  "syncedAt": "2026-11-15T05:18:32.084404+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 349,
+  "marketFileCount": 348,
   "traderFileCount": 28,
   "traderZoneFileCount": 22,
   "files": [
@@ -1887,13 +1887,6 @@
     },
     {
       "group": "market",
-      "filename": "Launchers_And_Ammo.json",
-      "sha256": "583e98130a01369c4b686736e7e6dd05b16a2409648a13b2deb20c9a93d55791",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
       "filename": "Lights.json",
       "sha256": "7bfa88885393b285c650fc6d1542fe3bbec0c8b21eae62df87797fd799da7d67",
       "topLevelType": "object",
@@ -2616,7 +2609,7 @@
     {
       "group": "traders",
       "filename": "Secret_Trader.json",
-      "sha256": "b7d0b7e1d3634828025b570f2058d5c0705512f550a30f3f5736f59659a02f58",
+      "sha256": "cbef33edc63a4845028e2ebc250a0fd57f6cf4de41465e3ef7b26ad6cfa0299c",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2644,7 +2637,7 @@
     {
       "group": "traders",
       "filename": "Weapons.json",
-      "sha256": "fb89f9bdba0b1ae867e747ed71b16524c4c0d199c99b1fb51a9a048a3db29711",
+      "sha256": "869a5c8d0a6306f9543d9ee84158966a2993739428eac8f26b689173abf4a611",
       "topLevelType": "object",
       "entryCount": 13
     },
