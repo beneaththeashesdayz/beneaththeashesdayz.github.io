@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-15T19:23:08.176593+00:00",
+  "syncedAt": "2026-11-15T20:20:24.975533+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 348,
+  "marketFileCount": 368,
   "traderFileCount": 28,
   "traderZoneFileCount": 22,
   "files": [
@@ -2330,6 +2330,146 @@
       "group": "market",
       "filename": "Sleeping_Bags.json",
       "sha256": "00332bc19996517605a16ca87021653abd131fae31d905024cfadc7c8c0e3aca",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Ammo.json",
+      "sha256": "704248430bce94e51afa2a8c244efa5540f1907313ac5f161e1a08f83e519be5",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Assault_Rifles.json",
+      "sha256": "57a6186b7f2de266798d29407184a2e94a352c15ff93861f92e55753271e7cf5",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Bipods.json",
+      "sha256": "9225c2d67b389a57ff540b85228fdb5e609813545bd14ef6dd15f720d7b66e81",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Endgame_Weapons.json",
+      "sha256": "98fc0990be7952785f989265e7a851007020c42bde6b059353946db21e5a5eab",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Grips.json",
+      "sha256": "43f807b1c97a0c17e7208a45b8860013c6d9bc633c0c19d0fe93f2dfb63a1e51",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Handguards.json",
+      "sha256": "23472e7098694f0ab335fe3f930c522ccad2f54de77b51bc5988145a0510f39e",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Lights_And_Lasers.json",
+      "sha256": "7b9bdf1defb48f7045127eee4c93645af908ceefb56dcf48753b8cfd482ea005",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Machine_Guns.json",
+      "sha256": "271ee5c8536879a34d65e5d1657ff98fa61b452ec2912659a87da097e72abea2",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines.json",
+      "sha256": "94329a3c0e10e7fc819e4b64f5eddd1e21dcf198227287a33dec27f2a454273f",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Marksman_Rifles.json",
+      "sha256": "35495360c4174aaf4771aa552fbea3da751221dddf82c317e33b81521d2e3e3f",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Melee_And_Bayonets.json",
+      "sha256": "ae04b2e8dbbfcce60af7d5ac0099069ffac13d27f479e7c2b08ce7e7497d4a75",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Mounts_And_Extras.json",
+      "sha256": "82feb685da1f2190541d61532aefd2363a49c2b0674597615266eaeb8be7159b",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Muzzle_Devices.json",
+      "sha256": "f42b0c271d07b9003cba7e67a30587404b3e1dbcb1c49bc0bc71f2591a6e30af",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Optics.json",
+      "sha256": "6103b9cbe9b2c07ed5464c24f43bb4ce66dfc794b0ad85424a72a749edacb369",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Pistols.json",
+      "sha256": "a8b1b0591b6d2f894a2a2545cb354763aad0cc21bf069968637703dca047020e",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Rifles.json",
+      "sha256": "8ca21ab97a449a08f199ad2264a116df2b9d947ca950becf2daf3a5ee9590379",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Shotguns.json",
+      "sha256": "0ae7841f0fdb6de09e089f656be1078c4a63cdccb860f647aab34e8fd4ac06ec",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Stocks.json",
+      "sha256": "086e34d7eb4272b12844a7322d30035f9f6b3d22c1b00877d7166bf194d63f62",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Submachine_Guns.json",
+      "sha256": "2d82a1e204f8fe44bfba4ae37933181891a61e06f4fc8bf8cae9518efb73f747",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Suppressors.json",
+      "sha256": "bb7f28509dbf7615ac98fddefc75dfda059af10cd463f4734492b0ef6cb94fbd",
       "topLevelType": "object",
       "entryCount": 7
     },

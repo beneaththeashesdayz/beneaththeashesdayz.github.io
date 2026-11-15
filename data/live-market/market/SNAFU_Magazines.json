@@ -1,0 +1,1461 @@
+{
+  "m_Version": 12,
+  "DisplayName": "SNAFU Magazines",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "AA12_Mag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_12gaPellets"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_HK416_Mag",
+      "MaxPriceThreshold": 1100,
+      "MinPriceThreshold": 1100,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_556x45"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_M110_Mag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_M200_Mag",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_Ammo_408Chey"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_M249_Mag",
+      "MaxPriceThreshold": 2500,
+      "MinPriceThreshold": 2500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_556x45"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_M700_Mag",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_M82_Mag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_Ammo_50Cal"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_Mag_FAL_50Rnd",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_MP7_40Rnd",
+      "MaxPriceThreshold": 900,
+      "MinPriceThreshold": 900,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_46x30"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_VEPR_10rnd",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_Vityaz_Mag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Modified_SA58_30RND_BK",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Modified_SA58_30RND_DT",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Modified_SA58_30RND_WBK",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SA58_30RND_BK",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SA58_30RND_DT",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SA58_30RND_WBK",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SA58_DrumMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SG550_Mag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_556x45"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SN_Auto_Shotgun_Mag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_12gaPellets"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SN_M9_Mag",
+      "MaxPriceThreshold": 650,
+      "MinPriceThreshold": 650,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SN_Mp443_Mag",
+      "MaxPriceThreshold": 650,
+      "MinPriceThreshold": 650,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SN_Springfield_Mag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SN_USP_Mag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_45ACP"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_Agram_32rnd_Mag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_AK103_Mag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_AK12_Mag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_545x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_AK308_Mag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_AS50_Mag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_Ammo_50Cal"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_AWM_Mag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_338"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_ScarH_100RND_Mag_Black",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": [
+        "SNAFU_ScarH_100RND_Mag_Tan"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_BMAG300_Black",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_300ACC"
+      ],
+      "Variants": [
+        "SNAFU_BMAG300_Tan",
+        "SNAFUAR15_SPR_100RND_Mag"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_BMAG556_Black",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_556x45"
+      ],
+      "Variants": [
+        "SNAFU_BMAG556_Tan"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_Bren_30rdMag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_CMAG30300_Black",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_300ACC"
+      ],
+      "Variants": [
+        "SNAFU_CMAG30300_Tan",
+        "SNAFUAR15_SPR_30RND_Mag"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_CMAG30556_Black",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_556x45"
+      ],
+      "Variants": [
+        "SNAFU_CMAG30556_Tan"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_CMAG40300_Black",
+      "MaxPriceThreshold": 900,
+      "MinPriceThreshold": 900,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_300ACC"
+      ],
+      "Variants": [
+        "SNAFU_CMAG40300_Tan",
+        "SNAFUAR15_SPR_40RND_Mag"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_CMAG40556_Black",
+      "MaxPriceThreshold": 900,
+      "MinPriceThreshold": 900,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_556x45"
+      ],
+      "Variants": [
+        "SNAFU_CMAG40556_Tan"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_CMAG60300_Black",
+      "MaxPriceThreshold": 1100,
+      "MinPriceThreshold": 1100,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_300ACC"
+      ],
+      "Variants": [
+        "SNAFU_CMAG60300_Tan",
+        "SNAFUAR15_SPR_60RND_Mag"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_CMAG60556_Black",
+      "MaxPriceThreshold": 1100,
+      "MinPriceThreshold": 1100,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_556x45"
+      ],
+      "Variants": [
+        "SNAFU_CMAG60556_Tan"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_Fort12_12rnd_Mag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_FRF2_Mag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_G3A3_20rdMag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_KAC_Mag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_300ACC"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M14_Mag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M1918A2_Mag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_Ammo_3006"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M300Mag",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_Ammo_408Chey"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M60_100rdMag",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M76_Mag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_Mar10_15rnd_Mag",
+      "MaxPriceThreshold": 650,
+      "MinPriceThreshold": 650,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_338"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_MP9_30rnd_Mag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_MPX_30rnd_Mag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_PDW_45ACP_Mag",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_45ACP"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_PDW_9mm_Mag",
+      "MaxPriceThreshold": 850,
+      "MinPriceThreshold": 850,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_PKP_250RND_Mag",
+      "MaxPriceThreshold": 3000,
+      "MinPriceThreshold": 3000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x54"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_PL14HQP_Mag",
+      "MaxPriceThreshold": 650,
+      "MinPriceThreshold": 650,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_PMAG556_Black",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_556x45"
+      ],
+      "Variants": [
+        "SNAFU_PMAG556_Grey",
+        "SNAFU_PMAG556_OD",
+        "SNAFU_PMAG556_Tan"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_RPK16_Black_Mag",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_545x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_RPK16_Green_Mag",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_545x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_RPK16_Tan_Mag",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_545x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_Saint_Mag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_25RND_Mag_BK",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_25RND_Mag_DKMC",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_25RND_Mag_OD",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_25RND_Mag_Snow",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_25RND_Mag_Tan",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_SKS_10Rnd_Mag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_SKS_30Rnd_Mag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_SR25_Mag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_SR3Vikhr_Mag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x39"
+      ],
+      "Variants": [
+        "SR3_Vikhr_Mag"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_U100_Mag",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_556x45"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUAlligator_5rdMag",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_145Cal"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUAPS_20rdMag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_380"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUASh12_20rdMag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_127x55mm"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUAUG_30rdMag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_556x45"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUAX50_Mag",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_Ammo_50Cal"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUDVL10M2_5rdMag",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_338"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUGevar_10rdMag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_338"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUGM6Lynx_5rdMag",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_Ammo_50Cal"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUHoneyBadger_30rdMag_Black",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_300ACC"
+      ],
+      "Variants": [
+        "SNAFUHoneyBadger_30rdMag_Tan"
+      ]
+    },
+    {
+      "ClassName": "SNAFUKH9_30rdMag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUKivaari_10rdMag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_338"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUKivaari_25rdMag",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_338"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUM1A_20rdMag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUM24_Mag",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_338"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUM96_5rdMag",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_Ammo_408Chey"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUM98B_Mag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_338"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUMDAR_30rndMagB",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_556x45"
+      ],
+      "Variants": [
+        "SNAFUMDAR_30rndMagT"
+      ]
+    },
+    {
+      "ClassName": "SNAFUMDAR_60rndMagB",
+      "MaxPriceThreshold": 1100,
+      "MinPriceThreshold": 1100,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_556x45"
+      ],
+      "Variants": [
+        "SNAFUMDAR_60rndMagT"
+      ]
+    },
+    {
+      "ClassName": "SNAFUMk12_20rdMag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_556x45"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUP90_50rdMag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_5_7x28mm"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUPPSh_71rdMag",
+      "MaxPriceThreshold": 1200,
+      "MinPriceThreshold": 1200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_762x25"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUPPSKN_30rdMag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFURPD_100rdMag",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFURSASS_Mag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUSRSA2_10rdMag",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_338"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUSten_32rdMag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUT5000_Mag",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_338"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUTac21_5rdMag",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_338"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUThompsonMk2_30rdMag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_45ACP"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUUzi_32rdMag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUUzi_72rdMag",
+      "MaxPriceThreshold": 1200,
+      "MinPriceThreshold": 1200,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUVECTOR_45acp_Mag",
+      "MaxPriceThreshold": 850,
+      "MinPriceThreshold": 850,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_45ACP"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUVECTOR_9mm_Mag",
+      "MaxPriceThreshold": 1000,
+      "MinPriceThreshold": 1000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUVSSK_5rdMag",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_127x55mm"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNHK417_Mag",
+      "MaxPriceThreshold": 700,
+      "MinPriceThreshold": 700,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Tec9_Mag",
+      "MaxPriceThreshold": 800,
+      "MinPriceThreshold": 800,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_9x19"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "VR80_Magazine_10rd",
+      "MaxPriceThreshold": 600,
+      "MinPriceThreshold": 600,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_12gaPellets"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "VR80_Magazine_5rd",
+      "MaxPriceThreshold": 550,
+      "MinPriceThreshold": 550,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_12gaPellets"
+      ],
+      "Variants": []
+    }
+  ]
+}

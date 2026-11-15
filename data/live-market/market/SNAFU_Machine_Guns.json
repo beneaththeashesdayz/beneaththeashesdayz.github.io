@@ -1,0 +1,144 @@
+{
+  "m_Version": 12,
+  "DisplayName": "SNAFU Machine Guns",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "GCGN_M249",
+      "MaxPriceThreshold": 22000,
+      "MinPriceThreshold": 22000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M249_Mag",
+        "SNAFU_M249HG",
+        "SNAFU_M249Stock",
+        "SNAFU_M249Grip"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M1918A2",
+      "MaxPriceThreshold": 22000,
+      "MinPriceThreshold": 22000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_M1918A2_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M60",
+      "MaxPriceThreshold": 22000,
+      "MinPriceThreshold": 22000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_M60_100rdMag",
+        "SNAFU_M60_Handguard_E3"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_PKP_Black_GUN",
+      "MaxPriceThreshold": 22000,
+      "MinPriceThreshold": 22000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Snafu_PKP_250RND_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_PKP_NBlack_GUN",
+      "MaxPriceThreshold": 22000,
+      "MinPriceThreshold": 22000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Snafu_PKP_250RND_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_RPK16_Black",
+      "MaxPriceThreshold": 22000,
+      "MinPriceThreshold": 22000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_AK74_30Rnd"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_RPK16_Green",
+      "MaxPriceThreshold": 22000,
+      "MinPriceThreshold": 22000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_AK74_30Rnd"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_RPK16_Tan",
+      "MaxPriceThreshold": 22000,
+      "MinPriceThreshold": 22000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_AK74_30Rnd"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_U100",
+      "MaxPriceThreshold": 22000,
+      "MinPriceThreshold": 22000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_STANAG_30Rnd"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFURPD",
+      "MaxPriceThreshold": 22000,
+      "MinPriceThreshold": 22000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFURPD_100rdMag"
+      ],
+      "Variants": []
+    }
+  ]
+}
