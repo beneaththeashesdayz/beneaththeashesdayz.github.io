@@ -2,58 +2,9 @@
   "source": "Beneath the Ashes Chernarus live P2P market",
   "status": "ok",
   "note": null,
-  "syncedAt": "2026-11-15T23:19:32.663373+00:00",
+  "syncedAt": "2026-11-16T00:19:43.156230+00:00",
   "maxListingTimeSeconds": 604800,
   "listingFeePercent": 10,
-  "listingCount": 3,
-  "listings": [
-    {
-      "key": "d2d7d41192c9e689",
-      "traderId": 1,
-      "name": "Rag Baseitems Military Locker Big Kit",
-      "className": "rag_baseitems_military_locker_big_kit",
-      "skinName": null,
-      "seller": "strettbomb",
-      "price": 20000,
-      "listedAt": "2026-11-11T14:57:54+00:00",
-      "expiresAt": "2026-11-18T14:57:54+00:00",
-      "healthLevel": 0,
-      "quantity": 0.0,
-      "quantityType": 0,
-      "includedItemCount": 0,
-      "includedItems": []
-    },
-    {
-      "key": "97cf2b94ab032df6",
-      "traderId": 1,
-      "name": "Rag Baseitems Gunwall Nostand Kit",
-      "className": "rag_baseitems_gunwall_nostand_kit",
-      "skinName": null,
-      "seller": "strettbomb",
-      "price": 15000,
-      "listedAt": "2026-11-11T14:58:11+00:00",
-      "expiresAt": "2026-11-18T14:58:11+00:00",
-      "healthLevel": 0,
-      "quantity": 0.0,
-      "quantityType": 0,
-      "includedItemCount": 0,
-      "includedItems": []
-    },
-    {
-      "key": "589ad462137148cd",
-      "traderId": 1,
-      "name": "DNA Flux",
-      "className": "DNA_Flux",
-      "skinName": null,
-      "seller": "grot",
-      "price": 5000,
-      "listedAt": "2026-11-15T23:12:49+00:00",
-      "expiresAt": "2026-11-22T23:12:49+00:00",
-      "healthLevel": 0,
-      "quantity": 100.0,
-      "quantityType": 1,
-      "includedItemCount": 0,
-      "includedItems": []
-    }
-  ]
+  "listingCount": 0,
+  "listings": []
 }
