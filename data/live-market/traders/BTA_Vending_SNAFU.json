@@ -1,0 +1,22 @@
+{
+  "m_Version": 13,
+  "DisplayName": "SNAFU Weapons",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Shotgun",
+  "Currencies": [
+    "BTA_Dollar_1",
+    "BTA_Dollar_5",
+    "BTA_Dollar_10",
+    "BTA_Dollar_20",
+    "BTA_Dollar_50",
+    "BTA_Dollar_100"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "BTA Dollars",
+  "UseCategoryOrder": 0,
+  "Categories": [],
+  "Items": {}
+}

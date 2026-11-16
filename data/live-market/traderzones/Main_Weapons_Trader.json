@@ -2,13 +2,13 @@
   "m_Version": 6,
   "m_DisplayName": "Main Weapons Trader",
   "Position": [
-    7228.501953125,
-    254.84100341796875,
-    7052.46484375
+    7227.82,
+    255.885,
+    7056.08
   ],
-  "Radius": 5.0,
-  "BuyPricePercent": 100.0,
-  "SellPricePercent": 50.0,
+  "Radius": 10,
+  "BuyPricePercent": 100,
+  "SellPricePercent": 50,
   "Stock": {
     "my_df_weapons_dmr_svch": 1,
     "mag_mkii_10rnd": 1,

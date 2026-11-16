@@ -1,12 +1,12 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-16T01:20:39.646724+00:00",
+  "syncedAt": "2026-11-16T02:23:38.666676+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
   "marketFileCount": 368,
-  "traderFileCount": 28,
+  "traderFileCount": 31,
   "traderZoneFileCount": 22,
   "files": [
     {
@@ -2629,6 +2629,27 @@
     },
     {
       "group": "traders",
+      "filename": "BTA_Vending_AJWeapons.json",
+      "sha256": "dd9771a5bfbb914c46eded18bf956a52c18f67f9bbdcb01a66cda20bd077562c",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "BTA_Vending_DeltaForce.json",
+      "sha256": "5df058be425ff2899b687465912f69fe2c73a6e29aba8854282e6f0049fb89f1",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "BTA_Vending_SNAFU.json",
+      "sha256": "8e4305231eb87ceb9d696dc8a168a695d44b69596a64c31540c20791951bfce2",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
       "filename": "BuildingSupplies.json",
       "sha256": "fae89e83f135a6b823d4d1d7127eaebed820a05cbcec62ce849f03b0248e2b45",
       "topLevelType": "object",
@@ -2777,7 +2798,7 @@
     {
       "group": "traders",
       "filename": "Weapons.json",
-      "sha256": "869a5c8d0a6306f9543d9ee84158966a2993739428eac8f26b689173abf4a611",
+      "sha256": "9e9914ac33bd02db98310c7d01d9274b24efa661f20ea8f4bdee423324f84abe",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2910,7 +2931,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "feb0bced764a35ab05e0d0e47f20a4ef6cf17423871d4bf08dc3cc4f6181727d",
+      "sha256": "f7511260cad7306247255cf66b7b2d73ec9ed56225d2ef8bdba2de9222250ab6",
       "topLevelType": "object",
       "entryCount": 7
     },

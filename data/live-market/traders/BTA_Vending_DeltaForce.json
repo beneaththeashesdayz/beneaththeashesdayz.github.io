@@ -1,0 +1,41 @@
+{
+  "m_Version": 13,
+  "DisplayName": "My Delta Force Weapons",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Shotgun",
+  "Currencies": [
+    "BTA_Dollar_1",
+    "BTA_Dollar_5",
+    "BTA_Dollar_10",
+    "BTA_Dollar_20",
+    "BTA_Dollar_50",
+    "BTA_Dollar_100"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "BTA Dollars",
+  "UseCategoryOrder": 0,
+  "Categories": [
+    "MYDF_Melee:2",
+    "DF_Weapons_DMR:2",
+    "DF_Weapons_Pistol:2",
+    "DF_Weapons_Rifle:2",
+    "DF_Weapons_Shotgun:2",
+    "DF_Weapons_SMG:2",
+    "DF_Weapons_Sniper:2",
+    "DF_Weapons_LMG:2",
+    "Buttstocks:3",
+    "Handguards:3",
+    "Magazines:3"
+  ],
+  "Items": {
+    "mag_ak101_30rnd": 3,
+    "mag_ak74_30rnd": 3,
+    "mag_akm_30rnd": 3,
+    "mag_cmag_20rnd": 3,
+    "mag_deagle_9rnd": 3,
+    "mag_stanag_30rnd": 3
+  }
+}
