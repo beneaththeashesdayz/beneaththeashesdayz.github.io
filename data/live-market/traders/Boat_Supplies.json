@@ -20,5 +20,8 @@
   "Categories": [
     "Boat_Supplies:1"
   ],
-  "Items": {}
+  "Items": {
+    "sparkplug": 1,
+    "headlighth7_box": 1
+  }
 }
