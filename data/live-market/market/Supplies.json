@@ -7,42 +7,9 @@
   "IsExchange": 0,
   "Items": [
     {
-      "ClassName": "bbp_blueprint",
-      "MaxPriceThreshold": 5000,
-      "MinPriceThreshold": 5000,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
       "ClassName": "rope",
       "MaxPriceThreshold": 300,
       "MinPriceThreshold": 300,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "bbp_cement",
-      "MaxPriceThreshold": 1500,
-      "MinPriceThreshold": 1500,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "bbp_mortar_mix",
-      "MaxPriceThreshold": 1800,
-      "MinPriceThreshold": 1800,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,

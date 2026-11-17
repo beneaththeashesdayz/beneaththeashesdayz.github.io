@@ -7,12 +7,13 @@
   "RequiredCompletedQuestID": -1,
   "TraderIcon": "Nails",
   "Currencies": [
-    "BTA_Dollar_1",
-    "BTA_Dollar_10",
-    "BTA_Dollar_100",
-    "BTA_Dollar_20",
-    "BTA_Dollar_5",
-    "BTA_Dollar_50"
+    "bta_dollar_1",
+    "bta_dollar_10",
+    "bta_dollar_100",
+    "bta_dollar_20",
+    "bta_dollar_5",
+    "bta_dollar_50",
+    "bta_zombienote"
   ],
   "DisplayCurrencyValue": 1,
   "DisplayCurrencyName": "BTA Dollars",

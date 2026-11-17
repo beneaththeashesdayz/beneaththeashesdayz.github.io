@@ -7,17 +7,6 @@
   "IsExchange": 0,
   "Items": [
     {
-      "ClassName": "bbp_cement_mixer_kit",
-      "MaxPriceThreshold": 5000,
-      "MinPriceThreshold": 5000,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
       "ClassName": "Pen_Black",
       "MaxPriceThreshold": 100,
       "MinPriceThreshold": 100,

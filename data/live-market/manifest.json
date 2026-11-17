@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-17T21:21:17.248844+00:00",
+  "syncedAt": "2026-11-17T22:18:41.769392+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 383,
+  "marketFileCount": 384,
   "traderFileCount": 33,
   "traderZoneFileCount": 22,
   "files": [
@@ -291,8 +291,15 @@
     },
     {
       "group": "market",
+      "filename": "BBP_Decorating.json",
+      "sha256": "a09b80d6d0ecc0c9e0042d1229d219d5670ecbca0aef80eed13ac1d841e08ffe",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
       "filename": "BBP_Items.json",
-      "sha256": "b4f18c0e0cfc93adb6a6fbdeb5f762bf57fb28f21302a02758bc1f5daeca6328",
+      "sha256": "c4cc8298fca085855925301dcd0242f1bbcbfe8ba92c580f8ee523a55e29972e",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1734,7 +1741,7 @@
     {
       "group": "market",
       "filename": "Furnishings.json",
-      "sha256": "f6d55f831161e3d7299cdb0765f467f052b9599e74b09c875b6d3690aabc58de",
+      "sha256": "7b95eb6596157c7029597e98a19a86947cdea9ceeddcc4dd7c9af93c0f594686",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2329,7 +2336,7 @@
     {
       "group": "market",
       "filename": "RaG_Supplies.json",
-      "sha256": "269e3f3a2d3c3c6b59a2d8a89b9ab41a080774c5b709e95869a2409fc9ea40ec",
+      "sha256": "3e65eebfe18f03c0ee3050bdd58b5f3b5dfc18ab3a6c04a09eebebec34e41aaa",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2595,7 +2602,7 @@
     {
       "group": "market",
       "filename": "Supplies.json",
-      "sha256": "dc6761cabec0e1996e835064e2ae53e531229669d52d94409d8b3520f5f7d6bc",
+      "sha256": "4362590ceb3f1a022a56847df7cf3831aef3355761e15b41ac964948a269dfdf",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2616,7 +2623,7 @@
     {
       "group": "market",
       "filename": "Tools.json",
-      "sha256": "cb41a816e305e744f053e6792d895d6e8e4e1472542bf299766c994a9ba9c343",
+      "sha256": "d34979fedced605598c87b70914c38beaf51c563083cc97518d45f1ba732ceed",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2756,7 +2763,7 @@
     {
       "group": "traders",
       "filename": "BTA_Vending_RaGBaseItems.json",
-      "sha256": "6f4220818f7785c639a9153890f8d42979320f1bc3e42f56dbf4a60390915881",
+      "sha256": "f8d2af706fc457c89fa7345cb0bfd69e133af4c0f3836bdfd7e67271b6ad10b6",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2770,7 +2777,7 @@
     {
       "group": "traders",
       "filename": "BuildingSupplies.json",
-      "sha256": "e4c1ec7c8b199fd7ec24cace54dbb01229535d74b8916427f350cc09ab2d3e33",
+      "sha256": "61c910be68885db0d4bb679524d12c69c172508eb359cd46170b6c40a255aa08",
       "topLevelType": "object",
       "entryCount": 13
     },
