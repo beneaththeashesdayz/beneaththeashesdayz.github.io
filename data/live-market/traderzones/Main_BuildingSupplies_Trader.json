@@ -6,9 +6,9 @@
     253.0679931640625,
     6999.81396484375
   ],
-  "Radius": 5.0,
-  "BuyPricePercent": 100.0,
-  "SellPricePercent": 50.0,
+  "Radius": 5,
+  "BuyPricePercent": 100,
+  "SellPricePercent": 15,
   "Stock": {
     "partytent_lunapark": 1,
     "digitalcodelock": 1,

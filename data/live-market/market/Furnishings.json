@@ -988,6 +988,204 @@
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_beer_barrel_kit",
+      "MaxPriceThreshold": 150000,
+      "MinPriceThreshold": 150000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_bookshelf_kit",
+      "MaxPriceThreshold": 150000,
+      "MinPriceThreshold": 150000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_carlift_kit",
+      "MaxPriceThreshold": 1000000,
+      "MinPriceThreshold": 1000000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_carlift_static_kit",
+      "MaxPriceThreshold": 800000,
+      "MinPriceThreshold": 800000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_doorbell_kit",
+      "MaxPriceThreshold": 45000,
+      "MinPriceThreshold": 45000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_firewood_holder_kit",
+      "MaxPriceThreshold": 80000,
+      "MinPriceThreshold": 80000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_food_dono_stand_static_kit",
+      "MaxPriceThreshold": 60000,
+      "MinPriceThreshold": 60000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_furnace_kit",
+      "MaxPriceThreshold": 150000,
+      "MinPriceThreshold": 150000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_greenhouse_big_kit",
+      "MaxPriceThreshold": 300000,
+      "MinPriceThreshold": 300000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_greenhouse_big_static_kit",
+      "MaxPriceThreshold": 275000,
+      "MinPriceThreshold": 275000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_greenhouse_kit",
+      "MaxPriceThreshold": 200000,
+      "MinPriceThreshold": 200000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_greenhouse_static_kit",
+      "MaxPriceThreshold": 180000,
+      "MinPriceThreshold": 180000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_rag_head_kit",
+      "MaxPriceThreshold": 30000,
+      "MinPriceThreshold": 30000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_smoker_static_kit",
+      "MaxPriceThreshold": 150000,
+      "MinPriceThreshold": 150000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_table_saw_static_kit",
+      "MaxPriceThreshold": 225000,
+      "MinPriceThreshold": 225000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_trashcan_kit",
+      "MaxPriceThreshold": 30000,
+      "MinPriceThreshold": 30000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_trashcan_static_kit",
+      "MaxPriceThreshold": 30000,
+      "MinPriceThreshold": 30000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "rag_baseitems_xmas_calendar_kit",
+      "MaxPriceThreshold": 30000,
+      "MinPriceThreshold": 30000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
     }
   ]
 }
