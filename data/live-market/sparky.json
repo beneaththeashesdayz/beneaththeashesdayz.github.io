@@ -1,7 +1,7 @@
 {
   "source": "Beneath the Ashes Chernarus live LB Master garage",
   "status": "ok",
-  "syncedAt": "2026-11-17T20:24:06.097250+00:00",
+  "syncedAt": "2026-11-17T21:21:46.374826+00:00",
   "currency": {
     "prefix": "$",
     "suffix": "",
@@ -1600,26 +1600,6 @@
         {
           "itemname": "Supra_Wheel",
           "colorGroup": "Supra_Wheel"
-        },
-        {
-          "itemname": "Supra_DriverDoor_Lighting",
-          "colorGroup": "Supra_DriverDoor"
-        },
-        {
-          "itemname": "Supra_CoDriverDoor_Lighting",
-          "colorGroup": "Supra_CoDriverDoor"
-        },
-        {
-          "itemname": "Supra_Hood_Lighting",
-          "colorGroup": "Supra_Hood"
-        },
-        {
-          "itemname": "Supra_Trunk_Lighting",
-          "colorGroup": "Supra_Trunk"
-        },
-        {
-          "itemname": "4K_Plate_Server",
-          "colorGroup": "plate"
         }
       ]
     },
@@ -1693,14 +1673,14 @@
       ]
     },
     {
-      "name": "Supra",
+      "name": "1",
       "itemname": "Supra_Sponge",
-      "groupName": "Supra",
-      "buyCost": 330000,
-      "sellPrice": 247500,
-      "repaintCost": 33000,
-      "insuranceCost": 16500,
-      "color": "Sponge",
+      "groupName": "-1",
+      "buyCost": -1,
+      "sellPrice": -1,
+      "repaintCost": -1,
+      "insuranceCost": -1,
+      "color": "-1",
       "additionalCargoItems": [],
       "attachmentItems": [
         {
@@ -1738,26 +1718,6 @@
         {
           "itemname": "Supra_Wheel",
           "colorGroup": "Supra_Wheel"
-        },
-        {
-          "itemname": "Supra_DriverDoor_Sponge",
-          "colorGroup": "Supra_DriverDoor"
-        },
-        {
-          "itemname": "Supra_CoDriverDoor_Sponge",
-          "colorGroup": "Supra_CoDriverDoor"
-        },
-        {
-          "itemname": "Supra_Hood_Sponge",
-          "colorGroup": "Supra_Hood"
-        },
-        {
-          "itemname": "Supra_Trunk_Sponge",
-          "colorGroup": "Supra_Trunk"
-        },
-        {
-          "itemname": "4K_Plate_Server",
-          "colorGroup": "plate"
         }
       ]
     },

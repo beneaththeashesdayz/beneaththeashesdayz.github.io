@@ -18,17 +18,6 @@
       "Variants": []
     },
     {
-      "ClassName": "van_hiluxcamper_fridge",
-      "MaxPriceThreshold": 0,
-      "MinPriceThreshold": 0,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
       "ClassName": "van_hiluxcamper_cabin_black",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,

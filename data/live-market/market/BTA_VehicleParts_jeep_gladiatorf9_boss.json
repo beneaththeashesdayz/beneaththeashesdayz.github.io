@@ -16,21 +16,6 @@
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
-    },
-    {
-      "ClassName": "WoodenCrate",
-      "MaxPriceThreshold": 0,
-      "MinPriceThreshold": 0,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": [
-        "WoodenCrate_Upgraded_250",
-        "WoodenCrate_Upgraded_500",
-        "WoodenCrate_Upgraded_750"
-      ]
     }
   ]
 }

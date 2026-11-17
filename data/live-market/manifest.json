@@ -1,18 +1,18 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-17T20:23:29.075774+00:00",
+  "syncedAt": "2026-11-17T21:21:17.248844+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 377,
+  "marketFileCount": 383,
   "traderFileCount": 33,
   "traderZoneFileCount": 22,
   "files": [
     {
       "group": "market",
       "filename": "4KBOSS_Vehicle_Parts.json",
-      "sha256": "d5ac94524588ca3e52f09c52122410d0e1baaffca103d4cc5047fd1076976195",
+      "sha256": "ad6c02666a373dafcd6812d3a009a13b07ca4c2e68f320b75f540e17fcdd3bca",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -334,14 +334,14 @@
     {
       "group": "market",
       "filename": "BoomLay_Kits.json",
-      "sha256": "0b9917db061ecd7232b49a89aa0d5adf17999e78547889ca47106092706b20fe",
+      "sha256": "f8c66604fce5cc2be2a5e0f7e1f73d2864a1ee18f891fbcf069acb4fb5c8d56c",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BoomLay_Misc.json",
-      "sha256": "31ec2bbdfebbd34ef63b9dc2270dd1fd56673c767f94d445272b70737d9b2bc3",
+      "sha256": "50eda956ea9350ad5caa694062fa4e9adfd1899a890056da8bc02def7401fb5f",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -383,21 +383,21 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_a_charger.json",
-      "sha256": "130c315064c4a3360304c67822bdb0c4029afe54c24d135eed22657d3e9474f2",
+      "sha256": "cfcb2ce49426fee33758c2cb8cee94cf3d45c868c6a5a75eeddeb72972f2ef20",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_a_mustang.json",
-      "sha256": "dd37de029df2feb5cf1e3a4754e5697fd536e169a3f82b5e1d8662b6e9e86833",
+      "sha256": "8b6e7eed82f9a0ae32c01564671a7733312169c1fc86c3f6110a6701417818e0",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_a_nsx.json",
-      "sha256": "736230057b60a7e10f5ed9091d677b35f1bcc20a90f7301d45de06e53ca30c74",
+      "sha256": "03ad74c3c02b63302505800d36852e0a8186140f393e30089c3cacd4755107a5",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -411,7 +411,7 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_armada_exc20.json",
-      "sha256": "8a32c1e5656e9a8ca256c9f533bec3903916e9c21bc6a88753f1f317d84300e8",
+      "sha256": "b5d26a741a83993f524390f9c0a945ffcdbd6fbe06692959f7176a5ea344ebea",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -432,7 +432,7 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_belairchevy.json",
-      "sha256": "7ceb7f241644b20cbe1403719148b834fb80e9289bfe36b0651d51400e3dd421",
+      "sha256": "47459a3ffd2244316fb0a188aaecd122e49b2cd0a0a315ec505f7840da1ed434",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -453,14 +453,14 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_boat_01.json",
-      "sha256": "8510a61c98f3087c35390eb8b4fa1f0729021a05668033f4992a7e3348ec0440",
+      "sha256": "f23e27b8f538f9f21b4bf7a30e0f2781e8fbc51f48ce5ec476ddc1c5885b6a2b",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_c7.json",
-      "sha256": "5a97502d10a222fa321beb4894f3c823279339d6167d72fe18f981f7e1f9cb3c",
+      "sha256": "dfa97dee972d93081759244cc84777468aecf3d0953e87a844f4efc03930eada",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -481,35 +481,35 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_civiliansedan.json",
-      "sha256": "8fd3b19165a78072d52b2d8983fbdf0d2e0f3d2867a57a63281fb613cdf2b3d3",
+      "sha256": "a34eb1ca9994d8d3f6a0237e3132d78fbb44adeae89ce4a64a175246b14d55a5",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_daytona.json",
-      "sha256": "fe4fcf1262c964a5a9af4b297395a6e0f986548db4ccd8df723996f9a4a73f8c",
+      "sha256": "b47ae074fdb6e8854d233055f736cff26abdd38886f957156f51afc7a868e303",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_dodge_charger_emp.json",
-      "sha256": "f319714eda35b26a8b77509d6b434f26f0c4b0b8453020086bc78fdee5a0e6c9",
+      "sha256": "9e791393b977de04a77d0f732adac3c0c783394adc10d8f5f570085f19bf1694",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_dodgecharger_police.json",
-      "sha256": "86277ad19ab6836ae7c759e43851cd7c26160d2df2202c0509acd15900d8e414",
+      "sha256": "87c3c073156cd687a080558489c1dc095e34020a4620a5911f2217a0c019596e",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_dodgechargerhellcat.json",
-      "sha256": "469e3590ccee102c76fae99598e2b47f330be6f9f8836b99539f020223753814",
+      "sha256": "68703fe7f986bb4339b5d0852b44eb618503c70c0f8aaaa5848c98ab760e4a8d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -537,7 +537,7 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_f22.json",
-      "sha256": "270c7cd48a0bd44765ba4214c2e61eb97928e2c8584f0c92add8eda4426b0522",
+      "sha256": "a75d63196b6b6270e15deed8898a8025f8d8ad0a1856ee5926f75d251a56c8e0",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -572,14 +572,14 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_ford_raptor_monstertruck.json",
-      "sha256": "1dabb06085cf6e078f38f932d7ec5ce70736968a0aa04fe3876e80d4c6c1a7ac",
+      "sha256": "e9c379b44f6868f05cfd588b18c163fa0dffa827985aced452e1605a2abed1a0",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_gemera.json",
-      "sha256": "f31d910106744ff4c4ff9814b49b8dde6af25a4aeea16453a988aa43c92e0733",
+      "sha256": "45c5c5ec343df016bfb868f7468a4070287db96bb21866965110d752e70df980",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -593,14 +593,14 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_gt2rs_mr.json",
-      "sha256": "05d6926e95ad67c1e73b9e327b85f9ae7bd5268486a3feda7c1df57dd94c95d2",
+      "sha256": "0f5fdbcaee9992eee0225a8a8f5be94ac1e9ba6216b51b71b145ce06903ed233",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_gt3.json",
-      "sha256": "1282d3284d68cb1e54d3254425219512b9faf8339e0fa4a48a7c41868137600e",
+      "sha256": "87dc3d62b8352aa048a2272844b8c03da11c86692bb442c0d150b9852fbab210",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -621,42 +621,42 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_hatchback_02.json",
-      "sha256": "7008cf2082454fe9c18d3c0339f7413e43e1d161e59c816436968a769dcfb03d",
+      "sha256": "16fd3ba61af19495e97dd6dd3e4cf2f7e0b3a1117031b3ab55280f923c299b64",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_huracan_tecnica.json",
-      "sha256": "19aabc447a20dce0d3ddd1f1099107f1d62fd93403fbeb45ce98b1ad4cc7281c",
+      "sha256": "2c3fbcd5cdb9bae6e84a40b7c2275d91e3d8ec5c68626325d9a5051b2e8d36f5",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_hx58.json",
-      "sha256": "ee783cf119e871073afb583df3c48b9a34fee56483e88854ae73c5d14e2a5659",
+      "sha256": "5f477a422ae0136f869f08ab9c70599ae4df951a47c3afae9397b13892f9759f",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_ikarus.json",
-      "sha256": "8233d3a3c67addbaa97405587de9ea0fe29d320e485c5dfeb9910af3805636b8",
+      "sha256": "ead8c83589d69ee1f5579a9ca2b564aeb1c21957981ee37d9d54431d4bd38d94",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_jeep_gladiatorf9_boss.json",
-      "sha256": "31687a5174bf341a94f18c0621450185fff13d3c6b47dc0e2f87b42e4355e113",
+      "sha256": "8397ed347df6ac5b43d5e2b7188a332caf2501e741473cda750d5fde2610eb17",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_jesko.json",
-      "sha256": "b3923d33187fd993b1ed4d6fc11a8fec5e9ef5a68b1089f50d523bd6e06d7d72",
+      "sha256": "84f6373e62452d8b172d81505095400fe9c6157f61dd2f572e35521b80987267",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -670,14 +670,14 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_lfa.json",
-      "sha256": "b5ef9fccf72e3da4a1fb71488ed4a54f8175ebed63beb9b0fa13a9c60402c468",
+      "sha256": "4cc2529eeab8f88bac7e7dc90affae7406573d5bf6d193aeb642e8c1468536c1",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_lhd.json",
-      "sha256": "89d5409aad5dcda71a1dad4387d336650df97815483bf04486849908301f7dda",
+      "sha256": "9bd645158ca1a2aa91d285bae0480b85f33216ddd7ce75a174e5f07280cab10c",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -691,14 +691,14 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_mh6.json",
-      "sha256": "a8deafe4b129d3f83be982db454bdc95ebe5532db5e38b9edfaa0cc3964e8705",
+      "sha256": "bd93e6b124bdbecdf4263ae46b9a89878bac0849ec51bc1b9501fdfff5923402",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_minicooper.json",
-      "sha256": "a7db9f6745f5691b10f5bca4d5f628c5d11eadd7c7ecadb0b1ba901d286f9231",
+      "sha256": "b3f9c41220f781b53ef54b4ae2bcfe6b0e4d606e6a0c2c164469ad84dd542b21",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -712,35 +712,35 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_motorbike_01.json",
-      "sha256": "c4b0681fb5ad6579bc152d46a0a11ddb27aeabae7e52a1c5b114e93d1fdec4c7",
+      "sha256": "6462f7c265e07b552bf31e4a50675898a6ba8d92089dc7a104f1fcf30d6fcf12",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_motorbike_02.json",
-      "sha256": "1f4335f38967bece111bef1cfbad51817003af378fe4f2c8ad38b82b6af5ca96",
+      "sha256": "ca7e44309c3e14f319fe786e461e42d0bb72df1dea6c3c948b65c5e54e2b4b6c",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_motorhome_apo.json",
-      "sha256": "5a490a678347b99497628d43b57451278db8cbe9da6bc5f3f30851b2e8c9d897",
+      "sha256": "21e03f08831fa45af7ebbb23b3a98f8f1c44fee0217fc6d649d6e5d3be239461",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_muci.json",
-      "sha256": "c08e83faf6a23cf384282fdbf8abe3427958b907c3ae60c63be57f303c361a89",
+      "sha256": "1d2ea785692eaa042854b93e503a9e7c8768963117919a9e3778d72b5872097d",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_nissan.json",
-      "sha256": "f0c5a81fd8e58b6ff76243fe6b772057d9b229fe6f7e3cad4626943b610ecb79",
+      "sha256": "4979f00c1297068e6a63eaf41f9cfafebd54e73e2617d45d593ded4e44b45426",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -754,42 +754,42 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_offroad_02.json",
-      "sha256": "c5146d9dece7e17103a8bd0c73cfa533824d98523be0d8d086a389b208c2db5d",
+      "sha256": "3e69daccfa44a0ce0a70f822e1d3e60d14f6133314c14222f32bba7f3a572845",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_offroadhatchback.json",
-      "sha256": "63cdc04214e3a44999cd2f2087e6603d8973136b7ed01ac513049bc4aff39e4f",
+      "sha256": "3e6a19aabcbd482e0ffc1d71611fe89369a4e1d7f25261e10c7e8e90bec327a8",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_pofirebird.json",
-      "sha256": "bbf857335161135917d51027f7499421844347b64554adab5070e0397c0a8ee4",
+      "sha256": "e646781e08f6f171ef9bc69020618b0e0cbfadd171c974a0e2ba3df11fe1b9d1",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_r32.json",
-      "sha256": "9d8c555f807ca0990a0dbb3aded6ca62645467b886f367a3ea52d8c346a77cf2",
+      "sha256": "779a9e6593294fb42f390a87ac8b09285e832fbe47b50e12d5fe813cae19a210",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_rhib.json",
-      "sha256": "6d7bc7005c1e0dec270d6a486e6118005942f57655a365bd01b7fff9fedd97a6",
+      "sha256": "69d26f1c83b65f961a4587affbd3330d265dc5678b4f7faa4f74019e1f386804",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_rmodf8.json",
-      "sha256": "a94ae03cd92bc8a35438644b98815cfa4b77dc52ca00a0df556f467ee0b83036",
+      "sha256": "7c544cab4db6b910a8594fcf1ad0753a9b14177dfe3629d72d1b196f4d98c46a",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -803,21 +803,21 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_rx8hachi.json",
-      "sha256": "99021284692c76829652e012363d62d0b6f0fb17914ed5a590772f0686158913",
+      "sha256": "4d8cbc9d3add51421dc34eb825d67545924b82a57440fe6a0c3b30e068aa40f4",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_saab_900_turbo.json",
-      "sha256": "67d13d13d2787b9e59bd844915a217bbf919a6a27e59ed15f6df986ef206bb42",
+      "sha256": "4e4fa82695e9bc7881ec28c2dffb5b218d8da0c32f285f5eba649444e1e241cc",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_sedan_02.json",
-      "sha256": "4d7caf8e06210392688d13ef0da00a71ae2ece6b32914f1dd64c9e57eb88a371",
+      "sha256": "cec0eb0e14321182dfe74c26d1fbe92acba15a7c8bcf20ddf3567feeb845be44",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -838,63 +838,63 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_star_agera.json",
-      "sha256": "c079452b971eb9ac23ec7cb4885b0dcdf5ae6977b0c4e655efb0d847382dace6",
+      "sha256": "1db4674a2900fed1efc008cbbd761e1c13768bac998b111322a9044534c2ec2b",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_star_apc_cobra.json",
-      "sha256": "4d0f36eb14684503ece4d8daca7b4ce736e10d6808ed34309ec4d550dc38cc66",
+      "sha256": "e80dd01584ccbf3b0f73b2db69b8d3b6a3e3baed2e51e211a4c60bfe8893b8a4",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_star_audi_r8.json",
-      "sha256": "44f3a061f6c3692b0e538e3b38772cad0ce895b6bedff81828a9d017342399ff",
+      "sha256": "9a034686895a3833c033959135c723ced4b02e663fd7e5f0a33fd9fded97bd23",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_star_camaro_1969.json",
-      "sha256": "f89ee0a694017d42a65041b4dbc5a59efc463c6593596e33a367e6c6373b8f5f",
+      "sha256": "f02ee17dbd8d998e8403854bc18f1ea38b97f7fe4645e2a547928094d271ee26",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_star_enzo.json",
-      "sha256": "59f956d78c8e6d058c585f633d211dc8e2107dd6a88fc4d66df8413f310debf2",
+      "sha256": "5cb76180ad4fe330f19041d22b8d999daf3f05b799613cfb41d5fe46e5155504",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_star_golf_mk1.json",
-      "sha256": "96c83322495d972cb91926fef215a0941f87f7d386f78f3c9bf56c0fb8ea97ae",
+      "sha256": "45386ffcec0264ffa3dda3d6493232c4e916b59f445be5bd9fe4ac49b302cc05",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_star_mercedes_190e.json",
-      "sha256": "8b63dacfc4d427daea9d0aea98a6edf083f2ec50d34d5051e8932951598c2d4f",
+      "sha256": "5085b68ae32b91507df2eb1f6e1d4f36f1af9e955e50204ddb02f9d3b2b729e7",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_star_oshkosh_m1083.json",
-      "sha256": "9131854a9812f8a9226b56bdb10bda9ea0495e60d7a2cb1a8023f30a8ad1e57d",
+      "sha256": "e4b9a574060d93828b2873f0def234a6b1b51cb6ef467d3a3f854ec90e4e7610",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_star_porsche_944.json",
-      "sha256": "5f74e531f30414e72983719063d2b4ba407cd7f748e404b9d08f40e104658eaa",
+      "sha256": "12852516f138ac45eb786ce03df92b1cb51d26fd3faa9f4f06fd76c45559c7c4",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -908,14 +908,14 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_svj.json",
-      "sha256": "f9c8f06cdd29a63561a6296d834fc17541b2886b4bac45b25e8f05a4c2766599",
+      "sha256": "42430146ef8486cd977af01a8374687b326c9d32e330c80e9c541f30b7b71bf9",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_t6.json",
-      "sha256": "837983336ae9d6a1abade65d7a8a25f20c165ef730c9ba5c73055433dd820615",
+      "sha256": "16c11ee08c15d463acf228bd2b915aaace11200fc0e144ef5560887afe2e8a4d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -929,28 +929,28 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_toyota_86_rb.json",
-      "sha256": "e8628c09bc32790977e72518deb817c5b934385fb955a01dcce5778698b1117d",
+      "sha256": "049c1399db82862f7524e03c4cd47f3e973508db56046e99afd6ec6d63f06729",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_tractor2.json",
-      "sha256": "b8950d18dd63d58f874b6270f241ce78d06d6f7abbe4541bcee9feca56f193b3",
+      "sha256": "79ddc8e40471aca1713a870e1234e904a5e9098e5f0b6065f495609848e6e2c8",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_truck_01_covered.json",
-      "sha256": "f1321f7c5ba1c76618b238cb7f1856404c37c01214170c12f4db7d0e3a72d9d3",
+      "sha256": "50e9c8fdd388d779101593c581027676216ca9b7f17ee3333b3eb80e14a51e0e",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_uaz.json",
-      "sha256": "36555ea41699f11ae7412df41b66f189adef347de6c98b5c046d0cf88710330e",
+      "sha256": "1282cb5d1766a3cc626bf387e1f1493e01fefbdf03cee18a5eea70b43e654f81",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -978,14 +978,14 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_v140.json",
-      "sha256": "35a12e4ff32043e8ac6132dcb98072dff30b7af9a33462cd4dc8994e1a606be9",
+      "sha256": "fb32dafcf9f0f1086b36ab6a216659c7d1a88f9734839d6f71d24fdd9bfb8f46",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_van_cybertruck.json",
-      "sha256": "b2a81407f1497ca080a22a6dccd39c49773b60c94e75582761d40e3b1bbd390e",
+      "sha256": "b19c69b6f681ea0ebf257cdfa4f3568b2131d2c13be166af7697e1b930009618",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -999,21 +999,21 @@
     {
       "group": "market",
       "filename": "BTA_VehicleParts_viper.json",
-      "sha256": "19c5d8a2250a2f1497f74e80e66f6d4f0419f6642e150d177bece3bb9526c870",
+      "sha256": "437f378d6a180401d0b002709154898d41b755c5c34d33baf5dbe486dbb68ed3",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_vodnik.json",
-      "sha256": "75879edb8255f744994445a51f6e9199c4bcb0b2e34af3e4e9119792afc9860b",
+      "sha256": "6e385a413360893721d3b6fdc9140a911489afd7b67894646563b67b432b5f0d",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "BTA_VehicleParts_zodiac.json",
-      "sha256": "facca9a5b632eb6a21169fad93eec3c7f623c1603ba9c45d61fc4f7d720bece5",
+      "sha256": "0af047b06c312f0c7f4999ade1fb4139efdc34c6b311fcf712aad8416cbf31d8",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1076,7 +1076,7 @@
     {
       "group": "market",
       "filename": "Car_Parts.json",
-      "sha256": "eed6c00eeb9201728de20874a8c9d4856fcdf7c5993b46897524bc3e764580cc",
+      "sha256": "2a9d7632e249951ed0f4be3328a57076e693937eb7c290709110e4dd400b8d2c",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1321,7 +1321,7 @@
     {
       "group": "market",
       "filename": "Dodge_Charger_Parts.json",
-      "sha256": "c1d2fa53eb99a83dc6cd5b5234705512227de57e5a498fe6efa8a53be3b3eba7",
+      "sha256": "303616b6de62ff5d92a9b34df6a93c42f697354a9bddbd21bd4b231f5a5b6281",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1383,197 +1383,239 @@
     },
     {
       "group": "market",
+      "filename": "Exotic_4KBOSS_Vehicle_Parts.json",
+      "sha256": "6cc76c9177c2daae043a634b934b477c43fa1586007fba0dc98952a0bc815af6",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
       "filename": "Exotic_Armada_Bearcat_Parts.json",
-      "sha256": "0ea5d23109efec24514f97d6a5a6a0ed5e0b7025eb31b1f17041b4325968b759",
+      "sha256": "e73dffd41514e590974005f3993bd582f52b452d51d6dc35c7cbf261c3b56297",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Audi_RS5_Parts.json",
-      "sha256": "2830ebb9d5a15857ff6b1f4c5ffaee7d91c549a41d926d3902d355aa6fb53864",
+      "sha256": "ff102ceaa0641a9cd893821a701c4fd31858a5077a064019cba80802750869be",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_BMW_E60_Parts.json",
-      "sha256": "8214363678021ac1aef5554a8302a76b5a9b60c925a84cb22c6af8cd8d5eb3ed",
+      "sha256": "4e440678be68ba5044a077178409130a179b609f74df27dd0ad15fa6568437ec",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_BMW_G81_Parts.json",
-      "sha256": "cb1a0cd2ea85f12103c862e5f971f2ea51273740fe5c5a34ca33e1cd56d528b7",
+      "sha256": "9bf4dc95c25da3837059d2fdcbfdffea6c9569dfd2cfc9c045154b8061bf64fa",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_BMW_M3_G80_Parts.json",
-      "sha256": "e0d03e1c807be3aec296a6ae88877c2557d682920d14bdfa3cd3e9f9bc776c21",
+      "sha256": "e61bc79639d4622bbc47c77f7b881c1cdfb6c725a75b7b4625e5b5d8ca2e6cef",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_BMW_M4W_Parts.json",
-      "sha256": "46a3d767792f9099679e916be98378af7b5748c2031fcc48b4d9087564c2a680",
+      "sha256": "77c685884767dd74e5c8b33675ee42eae963bd053df1e2fd4db741d826dbbaea",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_BMW_M5_Parts.json",
-      "sha256": "df36ac37a7f1c4bd89c7ceba6557bb78b71763d33b84eaf5be944fe346f8ec31",
+      "sha256": "79c33b62f8c67e61783dcb50889d48c5de5431de02aad0be0e42efce23bed6f2",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_BMW_X5M_Competition_Parts.json",
-      "sha256": "a6e9ae17d4f30c5fc69e954896d64ab45ba62c7e544e7e40d2eb56c2dc242437",
+      "sha256": "ce0b3f10270bc89f9e550406496cb8216a0544a21e8474c28344f5e69d762bb1",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_BTA_Vehicle_Parts.json",
+      "sha256": "71f14609b00915164413e9cb7f4c5f77819239b1c2f1959d58c79b6515ba5924",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Cadillac_Escalade_Parts.json",
-      "sha256": "f7f456f1a39df821305d5e0dc45d3dfbffd3e3869df22548e7ea5623c7ddf4a0",
+      "sha256": "fe4805d94f33dc2ce749b250caabf2e90ddff728109fa7fab2ba021eab2644dc",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_CarPack_Vehicle_Parts.json",
+      "sha256": "293ee264cd8ab6deea2e746e2b1ff4d98e411d207f50d81fb70ce544adeffaae",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Chevrolet_Camaro_Parts.json",
-      "sha256": "5d104eb77aa15d7c37e2f153ebf44b8d6401e269ed6ae279df993c95f6082a09",
+      "sha256": "942baaaa97eced37a15319c4aab6ccb92da8d629a39690bb1ab3927cc18e83ef",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Chevrolet_Chevelle_1970_Parts.json",
-      "sha256": "b66cdc3bc2f36ed7f85bf39cb0aabc89bb180b7ba3c0b2afbc0c8923f7799a55",
+      "sha256": "582ce0cc43a0cc0143c0390ba6e822997ec123f6617400d05ba039ed11847c5c",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Chevrolet_Z71_Parts.json",
-      "sha256": "ec483128e2b930a3425a9c654119efe1fb6f3cfbc04ab71bef9e31e8d896306a",
+      "sha256": "1fc9fb1d8991ad76489cf6285cafed4deb6b66d2a39d16e2473ed5903c0a9376",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Dodge_Charger_Parts.json",
-      "sha256": "85cd5c542e37fdb8093fbbade960d9187ad6bcf97152d23f4055fb29caaf3e02",
+      "sha256": "303616b6de62ff5d92a9b34df6a93c42f697354a9bddbd21bd4b231f5a5b6281",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Dodge_Widebody_Hellcat_Parts.json",
-      "sha256": "98ae43752887f099ce1af35f064c08f03d99e5616c88c17b8e113551a4412729",
+      "sha256": "5ea58e11e2d5f8e93bfeb6da9200456461457e9900b8d77cd3747b7447b7aecf",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Expansion_Vehicle_Parts.json",
+      "sha256": "daa52e4244a7be0b4321529301cf172ee47895b301f6a28fb4ca87b08af1985d",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Hennessey_F150D_Parts.json",
-      "sha256": "730e3c73dad662e9d4dad1f6d700fcc0c92583e7869d8724c029828da95be91a",
+      "sha256": "32a092cfc46b176f93c7e89c7917af8d9650144af42bf8ccf58dd876e32e53d6",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Hummer_H1_Parts.json",
-      "sha256": "e4c8b7a0c08d831c3171e19ab7e2b25677f0d3566e0aa7e3f89da4ba14a08038",
+      "sha256": "1134cbd97a88de11388e1fe366ed345c9faf6fb5cbc4794c6f37d939dc6ab030",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Jeep_Rubicon_Parts.json",
-      "sha256": "e46e967eba067a0ce3555a63a6a0747a2db531e8818ff3cb52fffbf4380438f0",
+      "sha256": "3f49b5bf564875387056685808f059c9c099d55309aa98942380781e41da5dfc",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Land_Rover_Defender_Parts.json",
-      "sha256": "f4daa9a0d4592f739e5e1807c6ae4a83742d0202cdd145d1f5891c287036e885",
+      "sha256": "aba8ae242c3186fb76337888d070e5d8d48d7b11107a068efa2b47003ca95176",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Maharlika_Camper_RV_Parts.json",
-      "sha256": "2f21c0096182d905a7dd822292dd89b63d0eb2561d3f2c386ff4d9d7d8d5b130",
+      "sha256": "fbb8b1fe082ce566bca890772e6ac96fa4abddec99f42ed18fc1c1ada358013a",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Maharlika_Classic_Motorhome_Parts.json",
-      "sha256": "fb3d64f05cf2e343f34688650234fe2c4dcdc4c77bcea746f943a770d09c74c3",
+      "sha256": "9e92d8e07c861d08fb45c59a56020cd71679126939ba0724823f2227360a1fa2",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Maharlika_Cybertruck_Parts.json",
-      "sha256": "0411e27366c4a64a6d04767da09a144f0353f5b25dc66b1ec861c39c60ebd8e4",
+      "sha256": "15ee3f484c159c254de551ef315ea3ab1afac49d951bbe0bc06cb6cba6a50aff",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Maharlika_Dodge_Phoenix_Parts.json",
-      "sha256": "dbb8d0576fe258329399c607d70bbe3cff0761ac6769153e2b665afb2fcd005f",
+      "sha256": "f09c1825daeedf5a441356c1d9eecfd02c4d9206f958afbc25074b80748a8e4a",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Maharlika_Hilux_Camper_Parts.json",
-      "sha256": "b66b60aaa1fe070788888f5b473cf1dd802a7ff0680400c69d518da6fe341b12",
+      "sha256": "79345e5b6fe657924a3d11a37f34377ec290ed26540f00de5fb6bef4d315cfb4",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Maharlika_Modern_Motorhome_Parts.json",
-      "sha256": "9c9ca30dea22a7cefd25f4b3c8c2815970c2ee78774946ad593502ad7ee79033",
+      "sha256": "60ebac1d7011534fcc7acb445c855807951d4d2b8c303eead7518d93948d650b",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Maharlika_Vehicle_Parts.json",
+      "sha256": "3451723d0fbe79d5e1b636b52b4e5478f627aa0ec817873bcc9fc8e42921a0a9",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Mercedes_GT63_Parts.json",
-      "sha256": "5c8faddc6cb56165d2fdd3e57fd890edafb37b6ac3adb9a04f2eac52dd084722",
+      "sha256": "acc55a66d22e1850447365a65c1f4cb45ea32bd94d36c346c7ab6432630faf4c",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_MK5_Parts.json",
-      "sha256": "6c5ad1525a92e06ecf0a1b4962f68d2558fb146e6abcd4e215f37e8cebc154a7",
+      "sha256": "c1b273a38808b96a1dc4634fd8d3be1b54eaf6216bb95038eb88ac9d7acd99be",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Toyota_86_Parts.json",
-      "sha256": "88ed3a3f0fd8d9e8fb7b2bdfce80b7fa4e50ae4671b7687131f47b164b8adeb4",
+      "sha256": "f4b41e9fe84d0b7439480c67ba6c8bf26648847927a2482cbadb84f32f725ff7",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Exotic_Toyota_Tundra_Parts.json",
-      "sha256": "3962eacd7ce52d885d06a3971a50ed8713e1244bd3a17d99b2aaa427db33d118",
+      "sha256": "9cec9fd8b449ad9d96f10b275173c86b6d7671313888f42dc62d9ca59b2257ed",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "Exotic_Vanilla_Vehicle_Parts.json",
+      "sha256": "3402e60cfd6c8a416ea6bebb56187b0b2ac10fe1a4c8b93d81d092c38e1ae195",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1587,7 +1629,7 @@
     {
       "group": "market",
       "filename": "Expansion_Vehicle_Parts.json",
-      "sha256": "d3f8f6ccc2c03185a3182192da73b9f3e1a229f9b353df2d8b7bb6e11f8d5a4d",
+      "sha256": "998a36b3523e1727708fcdb441a45eaf536e04e8e69dbe358bef099b2f35ff92",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1958,14 +2000,14 @@
     {
       "group": "market",
       "filename": "Maharlika_Accessories.json",
-      "sha256": "e79a0b313ee2200f2386199ff66672736ad978362ed776980ea6a3a7c0a13c48",
+      "sha256": "3472b52e741328fc5c6be7af466f27ed21a2a3def22dc845a11f1d123be58bfa",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Maharlika_Purchase_Parts.json",
-      "sha256": "99835975f401f17a5f3b3987fa47ef44ad712f9453923ec138f2f0965a908d82",
+      "sha256": "8c2d7abfd49c641d7076905a27578306e5425553e796843fc2480bae05140a99",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2049,7 +2091,7 @@
     {
       "group": "market",
       "filename": "Motorhome_Parts.json",
-      "sha256": "072221aea52e4f95881b40be3db7cabc42fcff20f66be817eb222779a4e3432a",
+      "sha256": "c58d2cceffee53ab66cea51e3bbfba8d76e1db1ceb1e1ebab47ca50e34daa6b3",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2266,7 +2308,7 @@
     {
       "group": "market",
       "filename": "Porsche_911_GT3_Parts.json",
-      "sha256": "e455e6150c86b5f766a7256953bb8ba706e26716ff739e379e29fc83366af8f1",
+      "sha256": "7ed3d1a0a8d2c0b44ce4119cb13d2873debaf5ee9d60e028901d944be81579c9",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2798,14 +2840,14 @@
     {
       "group": "traders",
       "filename": "Exotic_Vehicle_Trader.json",
-      "sha256": "0d4620878a095303650bfcd634beec6822ea09441004d1562446e73fe23d07f8",
+      "sha256": "e529de6d8d22a96b6a3cebf292d6d3fddb58e061cd0006ea473cde8333dc5f51",
       "topLevelType": "object",
       "entryCount": 13
     },
     {
       "group": "traders",
       "filename": "Exotric_Vehicle_Parts.json",
-      "sha256": "bde8612818d9bb5e47d2f5ae088fddda03362c92142640d5b7677e593189ae7c",
+      "sha256": "1ac29e70aa007e7062497fc095921e5a310b1fc7c5cf24c1857da5e4aab077df",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2819,7 +2861,7 @@
     {
       "group": "traders",
       "filename": "Helicopter_Supplies.json",
-      "sha256": "e03c23dba5cb8092a5d0f3676c1c695d9574b83c80793720b688358be96b2829",
+      "sha256": "c6558e5193c90860bd15c737d622cac6ae36ebf7a06d4131bcb805d228136c3a",
       "topLevelType": "object",
       "entryCount": 13
     },

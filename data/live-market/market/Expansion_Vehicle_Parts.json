@@ -3,14 +3,14 @@
   "DisplayName": "Expansion Vehicle Parts",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75,
   "IsExchange": 0,
+  "InitStockPercent": 75.0,
   "Items": [
     {
       "ClassName": "Expansion_Landrover_Driverdoor",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1,
+      "SellPricePercent": -1.0,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -74,21 +74,10 @@
       ]
     },
     {
-      "ClassName": "Expansion_LandRover_Cover",
-      "MaxPriceThreshold": 1500,
-      "MinPriceThreshold": 1500,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
       "ClassName": "ExpansionUAZDoorDriver",
       "MaxPriceThreshold": 0,
       "MinPriceThreshold": 0,
-      "SellPricePercent": -1,
+      "SellPricePercent": -1.0,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
@@ -116,50 +105,6 @@
         "ExpansionUAZWheel",
         "ExpansionUAZWheel_Ruined"
       ]
-    },
-    {
-      "ClassName": "ExpansionUAZ_Cover",
-      "MaxPriceThreshold": 1500,
-      "MinPriceThreshold": 1500,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "ExpansionUAZCargo_Cover",
-      "MaxPriceThreshold": 1500,
-      "MinPriceThreshold": 1500,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "ExpansionUAZRoofless_Cover",
-      "MaxPriceThreshold": 1500,
-      "MinPriceThreshold": 1500,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "ExpansionUAZCargoRoofless_Cover",
-      "MaxPriceThreshold": 1500,
-      "MinPriceThreshold": 1500,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
     }
   ]
 }

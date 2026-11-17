@@ -1,0 +1,69 @@
+{
+  "m_Version": 12,
+  "DisplayName": "BTA Vehicle Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 75,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "WoodenCrate_Upgraded_250",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "WoodenCrate_Upgraded_500",
+        "WoodenCrate_Upgraded_750"
+      ]
+    },
+    {
+      "ClassName": "BTA_BelAir_driver_GreyPatchwork",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BTA_BelAir_codriver_GreyPatchwork",
+        "BTA_BelAir_hood_GreyPatchwork",
+        "BTA_BelAir_trunk_GreyPatchwork"
+      ]
+    },
+    {
+      "ClassName": "BTA_Jeep_Rubicon_cargo1_RustPatchwork",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "BTA_Jeep_Rubicon_cargo2_RustPatchwork",
+        "BTA_Jeep_Rubicon_codriver_RustPatchwork",
+        "BTA_Jeep_Rubicon_driver_RustPatchwork",
+        "BTA_Jeep_Rubicon_hood_RustPatchwork",
+        "BTA_Jeep_Rubicon_trunk_RustPatchwork",
+        "BTA_Jeep_Rubicon_Wheel_RustPatchwork",
+        "BTA_Jeep_Rubicon_Wheel_RustPatchwork_Ruined"
+      ]
+    },
+    {
+      "ClassName": "BTA_StarrVehiclePlate",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

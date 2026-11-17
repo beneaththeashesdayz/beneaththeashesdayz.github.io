@@ -128,17 +128,6 @@
       "Variants": []
     },
     {
-      "ClassName": "bl_pallet_frame_solo",
-      "MaxPriceThreshold": 2500,
-      "MinPriceThreshold": 2500,
-      "SellPricePercent": -1.0,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
       "ClassName": "bl_coffee_bag",
       "MaxPriceThreshold": 5000,
       "MinPriceThreshold": 5000,
