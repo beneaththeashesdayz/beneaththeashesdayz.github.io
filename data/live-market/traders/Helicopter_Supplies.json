@@ -18,15 +18,15 @@
   "DisplayCurrencyName": "BTA Dollars",
   "UseCategoryOrder": 1,
   "Categories": [
-    "Helicopter_MH6_Parts:1",
-    "Helicopter_UH1H_Parts:1",
-    "Helicopter_Merlin_Parts:1",
+    "Expansion_Heli_Parts:1",
     "Helicopter_Supplies:1",
     "RFFS_Heliz_Parts:1",
     "RFFS_Heliz_Maintenance:1",
     "RFFS_Heliz_Flight_Cases:1"
   ],
   "Items": {
-    "metalwire": 1
+    "metalwire": 1,
+    "sparkplug": 1,
+    "headlighth7_box": 1
   }
 }

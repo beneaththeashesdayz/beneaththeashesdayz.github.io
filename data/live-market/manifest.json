@@ -1,11 +1,11 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-17T18:19:40.565358+00:00",
+  "syncedAt": "2026-11-17T19:20:32.776219+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 373,
+  "marketFileCount": 374,
   "traderFileCount": 33,
   "traderZoneFileCount": 22,
   "files": [
@@ -1572,6 +1572,13 @@
     },
     {
       "group": "market",
+      "filename": "Expansion_Heli_Parts.json",
+      "sha256": "1a8f4c292b69a969fb124e79ac164abe8ce0761134444ff9886ce26436aeae32",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
       "filename": "Explosives_And_Grenades.json",
       "sha256": "4bd55dd174a16452dcc2f2c9f5d2c4ca0fa26147fabb3c1ca193ddbdaa0fc08b",
       "topLevelType": "object",
@@ -1825,28 +1832,28 @@
     {
       "group": "market",
       "filename": "Helicopter_Merlin_Parts.json",
-      "sha256": "628553f8b5c429f44535f8f2ac2d5aa27e7ca63b6e314390675d710a5a760f02",
+      "sha256": "619aae77f4a2b7f976df1a3609a13194cf3b27d508978a28d19ca958abead5c4",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Helicopter_MH6_Parts.json",
-      "sha256": "133b3c396dc561e05810b18f577a57554159338f2578be62d8e68c08db4d34d2",
+      "sha256": "b2aba6b382402deb94003478983eb9ad1eec438f7314e669df9bd50ea1a9823b",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Helicopter_Supplies.json",
-      "sha256": "8333e4e6542761f9d6a4a3c8a243470839b4021732d63dd745e60ab2dcb9698a",
+      "sha256": "184e42a6dd53deab5723b403acb5b9f4db2685f32cc232726f51ac15c680d0d2",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "Helicopter_UH1H_Parts.json",
-      "sha256": "69ce1de342a42f32de84ceb0dabec173ce401c6f9ee1be3a41f492a72e2aa7ac",
+      "sha256": "401247656f9d7a878069a06f4c5877989059bf4934132ff824751d027ad18d93",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2791,7 +2798,7 @@
     {
       "group": "traders",
       "filename": "Helicopter_Supplies.json",
-      "sha256": "c7eba1865a4f85f9b13a7edf07c51845916d677a4a04f086f26db7330c29f5b5",
+      "sha256": "e03c23dba5cb8092a5d0f3676c1c695d9574b83c80793720b688358be96b2829",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2924,7 +2931,7 @@
     {
       "group": "traderzones",
       "filename": "Helicopter_Supplies.json",
-      "sha256": "0b8d4a1df75a625b91924284d0a51aeb538877d3610c21f69cdab9d3fbfa2064",
+      "sha256": "4c93404418100fced1f94478199bea0d6e017a42135bd6c863c4d80a578d3218",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2938,14 +2945,14 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "cccecf7d16dad4df54d949ade28421ef9dd319abd06819a36066f101592abe4d",
+      "sha256": "ee3c8be23b844daa2ded054d0f4724de70ca1f84a24c0fa309d28fe44ef4ee69",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_BuildingSupplies_Trader.json",
-      "sha256": "7b8ae973eac3c5b678dc50751fb9925c07291b1e063d2a319656abffaf000add",
+      "sha256": "f40df338841ff57876bed4a1f66c41f22510797ae49847eb02ab427dd8d9fe35",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2959,7 +2966,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Consumables_Trader.json",
-      "sha256": "4bd6f85cd2211ed41fd145c649453844e304d59f861fda26e1aba986be46c4f7",
+      "sha256": "8887d79720a75e26b52dcd81f7516984974a524afdc085793b070d24a8a37935",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2973,14 +2980,14 @@
     {
       "group": "traderzones",
       "filename": "Main_VehicleParts_Trader.json",
-      "sha256": "98b9448606a9947a91e07d5268e80477dc3959a3179a21c193c310169aa6ea13",
+      "sha256": "c2d9875be1fb1c6330cbc6d00f1d6cbf8bb30e4c04d5755e6fbde839acc64a7b",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "18a375db87773edd9627a57485b2b2b8a0773b30a6d4b8fb3e5b2203b4f59153",
+      "sha256": "48f4e8299af132a7fc952225db4fa9250e3e6fd5637b454e05eca36234f9ddba",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -3001,7 +3008,7 @@
     {
       "group": "traderzones",
       "filename": "Secret_Trader.json",
-      "sha256": "96f62f61806e8bff3dd5d4ed9b9ddd1d04ffb8667dda1472e91b9dc7974b0e19",
+      "sha256": "12f649a49af863254fcb890ba561e0ef75063ea2c7ecc51b4ff9225077b2d2c5",
       "topLevelType": "object",
       "entryCount": 7
     },
