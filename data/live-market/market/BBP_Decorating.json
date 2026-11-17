@@ -3,20 +3,9 @@
   "DisplayName": "BBP Decorating",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
-  "InitStockPercent": 75,
   "IsExchange": 0,
+  "InitStockPercent": 75,
   "Items": [
-    {
-      "ClassName": "bbp_painting",
-      "MaxPriceThreshold": 750,
-      "MinPriceThreshold": 750,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
     {
       "ClassName": "bbp_carpet_1",
       "MaxPriceThreshold": 3500,
@@ -26,7 +15,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "BBP_Carpet_2"
+      ]
     },
     {
       "ClassName": "bbp_plaster_1",
@@ -37,7 +28,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "BBP_Plaster_2"
+      ]
     },
     {
       "ClassName": "bbp_wallpaper_1",
@@ -48,7 +41,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "BBP_WallPaper_2"
+      ]
     },
     {
       "ClassName": "bbp_wallpaper_mural_1",
@@ -59,7 +54,9 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "BBP_WallPaper_Mural_2"
+      ]
     }
   ]
 }
