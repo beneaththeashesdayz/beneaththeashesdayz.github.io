@@ -1,0 +1,98 @@
+{
+  "m_Version": 12,
+  "DisplayName": "RFFS Heliz Maintenance",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "RFFSHeli_hydraulic_fluid",
+      "MaxPriceThreshold": 8500,
+      "MinPriceThreshold": 8500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RFFSHeli_igniter_plug",
+      "MaxPriceThreshold": 12500,
+      "MinPriceThreshold": 12500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RFFSHeli_hydraulic_hoses",
+      "MaxPriceThreshold": 20000,
+      "MinPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RFFSHeli_wiring_harness",
+      "MaxPriceThreshold": 25000,
+      "MinPriceThreshold": 25000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RFFSHeli_aviation_battery",
+      "MaxPriceThreshold": 35000,
+      "MinPriceThreshold": 35000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RFFSHeli_batterycharger",
+      "MaxPriceThreshold": 30000,
+      "MinPriceThreshold": 30000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RFFSHeli_aviation_toolbox",
+      "MaxPriceThreshold": 50000,
+      "MinPriceThreshold": 50000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "RFFSHeli_avionics_unit",
+      "MaxPriceThreshold": 75000,
+      "MinPriceThreshold": 75000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": 100,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

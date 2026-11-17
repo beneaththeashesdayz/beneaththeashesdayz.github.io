@@ -1,0 +1,288 @@
+{
+  "m_Version": 12,
+  "DisplayName": "RFFS Heliz Parts",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "RFFSHeli_Apache_DriverDoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "RFFSHeli_Apache_CodriverDoor",
+        "RFFSHeli_Apache_DriverDoor_Desert",
+        "RFFSHeli_Apache_CodriverDoor_Desert",
+        "RFFSHeli_Apache_DriverDoor_Winter",
+        "RFFSHeli_Apache_CodriverDoor_Winter"
+      ]
+    },
+    {
+      "ClassName": "RFFSHeli_AS350_DriverDoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "RFFSHeli_AS350_CodriverDoor",
+        "RFFSHeli_AS350_Cargo1",
+        "RFFSHeli_AS350_Cargo2"
+      ]
+    },
+    {
+      "ClassName": "RFFSHeli_Bell429_DriverDoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "RFFSHeli_Bell429_CodriverDoor",
+        "RFFSHeli_Bell429_Cargo1",
+        "RFFSHeli_Bell429_Cargo2",
+        "RFFSHeli_Bell429_Cargo3",
+        "RFFSHeli_Bell429_Cargo4",
+        "RFFSHeli_Bell429_DriverDoor_Medic",
+        "RFFSHeli_Bell429_CodriverDoor_Medic",
+        "RFFSHeli_Bell429_Cargo1_Medic",
+        "RFFSHeli_Bell429_Cargo2_Medic",
+        "RFFSHeli_Bell429_Cargo3_Medic",
+        "RFFSHeli_Bell429_Cargo4_Medic",
+        "RFFSHeli_Bell429_DriverDoor_Police",
+        "RFFSHeli_Bell429_CodriverDoor_Police",
+        "RFFSHeli_Bell429_Cargo1_Police",
+        "RFFSHeli_Bell429_Cargo2_Police",
+        "RFFSHeli_Bell429_Cargo3_Police",
+        "RFFSHeli_Bell429_Cargo4_Police",
+        "RFFSHeli_Bell429_DriverDoor_Uganda",
+        "RFFSHeli_Bell429_CodriverDoor_Uganda",
+        "RFFSHeli_Bell429_Cargo1_Uganda",
+        "RFFSHeli_Bell429_Cargo2_Uganda",
+        "RFFSHeli_Bell429_Cargo3_Uganda",
+        "RFFSHeli_Bell429_Cargo4_Uganda",
+        "RFFSHeli_Bell429_DriverDoor_ZS",
+        "RFFSHeli_Bell429_CodriverDoor_ZS",
+        "RFFSHeli_Bell429_Cargo1_ZS",
+        "RFFSHeli_Bell429_Cargo2_ZS",
+        "RFFSHeli_Bell429_Cargo3_ZS",
+        "RFFSHeli_Bell429_Cargo4_ZS"
+      ]
+    },
+    {
+      "ClassName": "RFFSHeli_Blackhawk_DriverDoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "RFFSHeli_Blackhawk_CodriverDoor",
+        "RFFSHeli_Blackhawk_Cargo1",
+        "RFFSHeli_Blackhawk_Cargo1a",
+        "RFFSHeli_Blackhawk_Cargo2",
+        "RFFSHeli_Blackhawk_Cargo2a",
+        "RFFSHeli_Blackhawk_Cargo3",
+        "RFFSHeli_Blackhawk_Cargo4",
+        "RFFSHeli_Blackhawk_DriverDoor_blackblackhawk",
+        "RFFSHeli_Blackhawk_CodriverDoor_blackblackhawk",
+        "RFFSHeli_Blackhawk_Cargo1_blackblackhawk",
+        "RFFSHeli_Blackhawk_Cargo1a_blackblackhawk",
+        "RFFSHeli_Blackhawk_Cargo2_blackblackhawk",
+        "RFFSHeli_Blackhawk_Cargo2a_blackblackhawk",
+        "RFFSHeli_Blackhawk_Cargo3_blackblackhawk",
+        "RFFSHeli_Blackhawk_Cargo4_blackblackhawk",
+        "RFFSHeli_Blackhawk_DriverDoor_Budhawk",
+        "RFFSHeli_Blackhawk_CodriverDoor_Budhawk",
+        "RFFSHeli_Blackhawk_Cargo1_Budhawk",
+        "RFFSHeli_Blackhawk_Cargo1a_Budhawk",
+        "RFFSHeli_Blackhawk_Cargo2_Budhawk",
+        "RFFSHeli_Blackhawk_Cargo2a_Budhawk",
+        "RFFSHeli_Blackhawk_Cargo3_Budhawk",
+        "RFFSHeli_Blackhawk_Cargo4_Budhawk",
+        "RFFSHeli_Blackhawk_DriverDoor_Woodland",
+        "RFFSHeli_Blackhawk_CodriverDoor_Woodland",
+        "RFFSHeli_Blackhawk_Cargo1_Woodland",
+        "RFFSHeli_Blackhawk_Cargo1a_Woodland",
+        "RFFSHeli_Blackhawk_Cargo2_Woodland",
+        "RFFSHeli_Blackhawk_Cargo2a_Woodland",
+        "RFFSHeli_Blackhawk_Cargo3_Woodland",
+        "RFFSHeli_Blackhawk_Cargo4_Woodland"
+      ]
+    },
+    {
+      "ClassName": "RFFSHeli_Bo105m_DriverDoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "RFFSHeli_Bo105m_CodriverDoor",
+        "RFFSHeli_Bo105m_Cargo1",
+        "RFFSHeli_Bo105m_Cargo2",
+        "RFFSHeli_Bo105m_Cargo3",
+        "RFFSHeli_Bo105m_Cargo4",
+        "RFFSHeli_Bo105m_DriverDoor_blackcamo",
+        "RFFSHeli_Bo105m_CodriverDoor_blackcamo",
+        "RFFSHeli_Bo105m_Cargo1_blackcamo",
+        "RFFSHeli_Bo105m_Cargo2_blackcamo",
+        "RFFSHeli_Bo105m_Cargo3_blackcamo",
+        "RFFSHeli_Bo105m_Cargo4_blackcamo"
+      ]
+    },
+    {
+      "ClassName": "RFFSHeli_CH47_Cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "RFFSHeli_CH47_Cargo2"
+      ]
+    },
+    {
+      "ClassName": "RFFSHeli_CH53e_Cargo1",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "RFFSHeli_CH53e_Cargo2"
+      ]
+    },
+    {
+      "ClassName": "RFFSHeli_EC135_DriverDoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "RFFSHeli_EC135_CodriverDoor",
+        "RFFSHeli_EC135_Cargo1",
+        "RFFSHeli_EC135_Cargo2",
+        "RFFSHeli_EC135_Cargo3",
+        "RFFSHeli_EC135_Cargo4",
+        "RFFSHeli_EC135_DriverDoor_BlackCamo",
+        "RFFSHeli_EC135_CodriverDoor_BlackCamo",
+        "RFFSHeli_EC135_Cargo1_BlackCamo",
+        "RFFSHeli_EC135_Cargo2_BlackCamo",
+        "RFFSHeli_EC135_Cargo3_BlackCamo",
+        "RFFSHeli_EC135_Cargo4_BlackCamo"
+      ]
+    },
+    {
+      "ClassName": "RFFSHeli_Ka26_DriverDoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "RFFSHeli_Ka26_CodriverDoor",
+        "RFFSHeli_Ka26_Cargo1",
+        "RFFSHeli_Ka26_Cargo2"
+      ]
+    },
+    {
+      "ClassName": "RFFSHeli_Mi2_DriverDoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "RFFSHeli_Mi2_CodriverDoor",
+        "RFFSHeli_Mi2_Cargo1",
+        "RFFSHeli_Mi2_DriverDoor_Hornet",
+        "RFFSHeli_Mi2_CodriverDoor_Hornet",
+        "RFFSHeli_Mi2_Cargo1_Hornet",
+        "RFFSHeli_Mi2_DriverDoor_Military",
+        "RFFSHeli_Mi2_CodriverDoor_Military",
+        "RFFSHeli_Mi2_Cargo1_Military"
+      ]
+    },
+    {
+      "ClassName": "RFFSHeli_R22_DriverDoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "RFFSHeli_R22_CodriverDoor",
+        "RFFSHeli_R22_DriverDoor_Black",
+        "RFFSHeli_R22_CodriverDoor_Black",
+        "RFFSHeli_R22_DriverDoor_Red",
+        "RFFSHeli_R22_CodriverDoor_Red"
+      ]
+    },
+    {
+      "ClassName": "RFFSHeli_S76_DriverDoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "RFFSHeli_S76_CodriverDoor",
+        "RFFSHeli_S76_Cargo1",
+        "RFFSHeli_S76_Cargo2",
+        "RFFSHeli_S76_DriverDoor_WoodlandCamo",
+        "RFFSHeli_S76_CodriverDoor_WoodlandCamo",
+        "RFFSHeli_S76_Cargo1_WoodlandCamo",
+        "RFFSHeli_S76_Cargo2_WoodlandCamo"
+      ]
+    },
+    {
+      "ClassName": "RFFSHeli_UH1H_DriverDoor",
+      "MaxPriceThreshold": 0,
+      "MinPriceThreshold": 0,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "RFFSHeli_UH1H_CodriverDoor",
+        "RFFSHeli_UH1H_Cargo1",
+        "RFFSHeli_UH1H_Cargo2",
+        "RFFSHeli_UH1H_Cargo1a",
+        "RFFSHeli_UH1H_Cargo2a",
+        "RFFSHeli_UH1H_Combat_DriverDoor",
+        "RFFSHeli_UH1H_Combat_CodriverDoor"
+      ]
+    }
+  ]
+}

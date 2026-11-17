@@ -1,0 +1,25 @@
+{
+  "m_Version": 13,
+  "DisplayName": "BoomLay's Things",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Nails",
+  "Currencies": [
+    "BTA_Dollar_1",
+    "BTA_Dollar_10",
+    "BTA_Dollar_100",
+    "BTA_Dollar_20",
+    "BTA_Dollar_5",
+    "BTA_Dollar_50"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "BTA Dollars",
+  "UseCategoryOrder": 1,
+  "Categories": [
+    "BoomLay_Kits:0",
+    "BoomLay_Misc:1"
+  ],
+  "Items": {}
+}
