@@ -91,7 +91,9 @@
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
-      "SpawnAttachments": [],
+      "SpawnAttachments": [
+        "MediumGasCanister"
+      ],
       "Variants": []
     },
     {
@@ -124,7 +126,9 @@
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
-      "SpawnAttachments": [],
+      "SpawnAttachments": [
+        "Battery9V"
+      ],
       "Variants": []
     },
     {

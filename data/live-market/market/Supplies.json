@@ -29,17 +29,6 @@
       "Variants": []
     },
     {
-      "ClassName": "rag_baseitems_workbench_blueprint",
-      "MaxPriceThreshold": 5000,
-      "MinPriceThreshold": 5000,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
       "ClassName": "tripod",
       "MaxPriceThreshold": 1000,
       "MinPriceThreshold": 1000,
@@ -115,20 +104,6 @@
       "QuantityPercent": -1,
       "SpawnAttachments": [],
       "Variants": []
-    },
-    {
-      "ClassName": "Bear_Dark",
-      "MaxPriceThreshold": 1500,
-      "MinPriceThreshold": 1500,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": [
-        "Bear_Pink",
-        "Bear_White"
-      ]
     },
     {
       "ClassName": "CamoNetCivil",
