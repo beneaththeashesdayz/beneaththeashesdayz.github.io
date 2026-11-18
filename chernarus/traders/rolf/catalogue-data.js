@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Rolf',currency:'ZOMBIE_NOTES',currencyLabel:'Zombie Notes',items:[
+window.traderCatalogue={traderName:'Felix Rook',currency:'ZOMBIE_NOTES',currencyLabel:'Zombie Notes',items:[
 {name:'Compass',className:'compass',category:'Navigation',mode:'sell',price:50},
 {name:'Gpsreceiver',className:'gpsreceiver',category:'Navigation',mode:'sell',price:100},
 {name:'Orienteeringcompass',className:'orienteeringcompass',category:'Navigation',mode:'sell',price:50},

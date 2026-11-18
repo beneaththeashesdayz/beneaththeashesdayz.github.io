@@ -175,7 +175,7 @@ def main() -> None:
             fields.append(f"sellPrice:{item['sellPrice']}")
         encoded.append("{" + ",".join(fields) + "}")
 
-    output = "window.traderCatalogue={traderName:'Black Market Zombie Note Trader',currency:'ZOMBIE_NOTES',currencyLabel:'Zombie Notes',items:[\n" + ",\n".join(encoded) + "\n]};\n"
+    output = "window.traderCatalogue={traderName:'Graves',currency:'ZOMBIE_NOTES',currencyLabel:'Zombie Notes',items:[\n" + ",\n".join(encoded) + "\n]};\n"
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUT_FILE.write_text(output, encoding="utf-8")
     print(f"Built Black Market Zombie Note catalogue: {len(ordered)} items")

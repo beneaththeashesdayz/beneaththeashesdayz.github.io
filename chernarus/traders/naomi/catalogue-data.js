@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Naomi',currency:'USD',inheritedCategoryBuyback:true,inheritedSellPercent:50,buybackExcludedCategories:['Gardening'],items:[
+window.traderCatalogue={traderName:'Nora Bell',currency:'USD',inheritedCategoryBuyback:true,inheritedSellPercent:50,buybackExcludedCategories:['Gardening'],items:[
 {name:'Loner Can Empty',className:'loner_can_empty',category:'Cans',mode:'sell',price:300},
 {name:'Loner Can Small Empty',className:'loner_can_small_empty',category:'Cans',mode:'sell',price:250},
 {name:'Ayranbottle',className:'ayranbottle',category:'Drinks',mode:'sell',price:9845},

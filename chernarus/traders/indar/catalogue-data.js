@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Indar',currency:'USD',items:[
+window.traderCatalogue={traderName:'Jonas Flint',currency:'USD',items:[
 {name:'Ak101',className:'ak101',category:'Assault Rifles',traderSells:true,traderBuys:true,buyPrice:7750,sellPrice:3875},
 {name:'Ak101 Black',className:'ak101_black',category:'Assault Rifles',traderSells:true,traderBuys:true,buyPrice:7750,sellPrice:3875},
 {name:'Ak101 Green',className:'ak101_green',category:'Assault Rifles',traderSells:true,traderBuys:true,buyPrice:7750,sellPrice:3875},

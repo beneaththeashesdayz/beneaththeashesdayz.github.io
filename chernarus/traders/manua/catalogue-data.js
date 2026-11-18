@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Manua',currency:'USD',items:[
+window.traderCatalogue={traderName:'Wade Mercer',currency:'USD',items:[
 {name:'Battery9v',className:'battery9v',category:'Batteries',buyPrice:10,sellPrice:5,traderSells:true,traderBuys:true,stockMode:'infinite'},
 {name:'Bbp Bedding',className:'bbp_bedding',category:'Bbp Items',buyPrice:500,sellPrice:250,traderSells:true,traderBuys:true,stockMode:'infinite'},
 {name:'Bbp Bedkit',className:'bbp_bedkit',category:'Bbp Items',buyPrice:3500,sellPrice:1750,traderSells:true,traderBuys:true,stockMode:'infinite'},

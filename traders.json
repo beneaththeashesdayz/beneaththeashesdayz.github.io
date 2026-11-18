@@ -1,7 +1,7 @@
 [
   {
     "slug": "gabi",
-    "name": "Gabi",
+    "name": "Iris Finch",
     "title": "Collectables Trader",
     "location": "The Curator's Refuge",
     "region": "Mainland Chernarus",
@@ -22,7 +22,7 @@
       "Bobblehead display stands"
     ],
     "notes": [
-      "Gabi pays less than Cinder Market, but offers a convenient mainland option.",
+      "Iris Finch pays less than Cinder Market, but offers a convenient mainland option.",
       "Cinder Market is the better choice when chasing maximum profit.",
       "She does not buy individual trading cards."
     ],
@@ -30,7 +30,7 @@
   },
   {
     "slug": "hassan",
-    "name": "Hassan",
+    "name": "Idris Vale",
     "title": "Drug Production Trader",
     "location": "Cinder Market",
     "region": "Eastern Sea",
@@ -53,7 +53,7 @@
   },
   {
     "slug": "kaito",
-    "name": "Kaito",
+    "name": "Silas Crow",
     "title": "Premium Collectables Trader",
     "location": "Cinder Market",
     "region": "Eastern Sea",
@@ -77,7 +77,7 @@
   },
   {
     "slug": "peter",
-    "name": "Peter",
+    "name": "Gideon Holt",
     "title": "Hunting Trader",
     "location": "Cinder & Fang",
     "region": "Chernarus",
@@ -98,7 +98,7 @@
   },
   {
     "slug": "keiko",
-    "name": "Keiko",
+    "name": "Mira Reed",
     "title": "Fishing Trader",
     "location": "The Grey Current",
     "region": "Chernarus",

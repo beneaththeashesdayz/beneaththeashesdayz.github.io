@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Hassan',currency:'USD',groupCollectableVariants:true,items:[
+window.traderCatalogue={traderName:'Idris Vale',currency:'USD',groupCollectableVariants:true,items:[
 {name:'Baby Batter Nug',className:'im7s_smallnug_babybatter',category:'Cannabis Nuggets',sellPrice:578,traderSells:false,traderBuys:true,stockMode:'infinite'},
 {name:'Barney Nug',className:'im7s_smallnug_barney',category:'Cannabis Nuggets',sellPrice:608,traderSells:false,traderBuys:true,stockMode:'infinite'},
 {name:'Blue Cookies Nug',className:'im7s_smallnug_bluecookies',category:'Cannabis Nuggets',sellPrice:630,traderSells:false,traderBuys:true,stockMode:'infinite'},

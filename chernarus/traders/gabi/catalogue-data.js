@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Gabi',currency:'USD',groupCollectableVariants:true,items:[
+window.traderCatalogue={traderName:'Iris Finch',currency:'USD',groupCollectableVariants:true,items:[
 {name:'Arrakis Black Dildo',className:'ArrakisBlackDildo',category:'Adult Toys',sellPrice:12500,traderSells:false,traderBuys:true,stockMode:'infinite'},
 {name:'Arrakis Black Dildo Half',className:'ArrakisBlackDildoHalf',category:'Adult Toys',sellPrice:9000,traderSells:false,traderBuys:true,stockMode:'infinite'},
 {name:'Arrakis Black Dildo Mega',className:'ArrakisBlackDildoMega',category:'Adult Toys',sellPrice:20000,traderSells:false,traderBuys:true,stockMode:'infinite'},

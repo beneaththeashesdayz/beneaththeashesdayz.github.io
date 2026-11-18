@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Keiko',currency:'USD',groupCollectableVariants:true,items:[
+window.traderCatalogue={traderName:'Mira Reed',currency:'USD',groupCollectableVariants:true,items:[
 {name:'Carp',className:'carp',category:'Fish',buyPrice:1400,sellPrice:1400,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Mackerel',className:'mackerel',category:'Fish',buyPrice:1400,sellPrice:1400,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Redcaviar',className:'redcaviar',category:'Fish',buyPrice:2500,sellPrice:2500,traderSells:true,traderBuys:true,stockMode:'finite'},

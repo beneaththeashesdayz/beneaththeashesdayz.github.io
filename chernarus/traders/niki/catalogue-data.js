@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Niki',currency:'USD',items:[
+window.traderCatalogue={traderName:'Milo Briggs',currency:'USD',items:[
 {name:'Audi Rs6 Abt Cargo1',className:'audi_rs6_abt_cargo1',category:'Audi RS6 Parts',buyPrice:0,sellPrice:0,traderSells:true,traderBuys:true,stockMode:'infinite'},
 {name:'Audi Rs6 Abt Cargo1 Black',className:'audi_rs6_abt_cargo1_black',category:'Audi RS6 Parts',buyPrice:0,sellPrice:0,traderSells:true,traderBuys:true,stockMode:'infinite'},
 {name:'Audi Rs6 Abt Cargo1 Blue',className:'audi_rs6_abt_cargo1_blue',category:'Audi RS6 Parts',buyPrice:0,sellPrice:0,traderSells:true,traderBuys:true,stockMode:'infinite'},

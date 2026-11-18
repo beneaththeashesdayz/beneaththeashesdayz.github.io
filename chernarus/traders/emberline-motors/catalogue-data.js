@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Emberline Motors',currency:'ZOMBIE_NOTES',currencyLabel:'Zombie Notes',items:[
+window.traderCatalogue={traderName:'Victor Hale',currency:'ZOMBIE_NOTES',currencyLabel:'Zombie Notes',items:[
 {name:'Armada BearCat',className:'armada_bearcat',category:'Armored Vehicle',buyPrice:24000,traderSells:true,traderBuys:false,stockMode:'infinite'},
 {name:'Armada BearCat Black',className:'armada_bearcat_black',category:'Armored Vehicle',buyPrice:24000,traderSells:true,traderBuys:false,stockMode:'infinite'},
 {name:'Car Military Big Crate',className:'car_military_big_crate',category:'Car Crates',buyPrice:600,traderSells:true,traderBuys:false,stockMode:'infinite'},

@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Peter',currency:'USD',groupCollectableVariants:true,items:[
+window.traderCatalogue={traderName:'Gideon Holt',currency:'USD',groupCollectableVariants:true,items:[
 {name:'Bone',className:'Bone',category:'Animal Byproducts',buyPrice:50,sellPrice:50,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Lard',className:'Lard',category:'Animal Byproducts',buyPrice:75,sellPrice:75,traderSells:true,traderBuys:true,stockMode:'finite'},
 {name:'Crossbow Autumn',className:'crossbow_autumn',category:'Crossbows',buyPrice:2000,sellPrice:2000,traderSells:true,traderBuys:true,stockMode:'finite'},

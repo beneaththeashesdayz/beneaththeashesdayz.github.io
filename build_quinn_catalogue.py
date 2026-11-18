@@ -252,8 +252,8 @@ def main():
             fields.append(f"sellPrice:{int(item['sellPrice'])}")
         lines.append("{" + ",".join(fields) + "}")
 
-    OUT.write_text("window.traderCatalogue={traderName:'Quinn',currency:'USD',items:[\n" + ",\n".join(lines) + "\n]};\n", encoding="utf-8")
-    print(f"Built Quinn: {len(ordered)} clothing/gear items from Clothing.json + Main_Clothing_Trader.json")
+    OUT.write_text("window.traderCatalogue={traderName:'Ellis Ward',currency:'USD',items:[\n" + ",\n".join(lines) + "\n]};\n", encoding="utf-8")
+    print(f"Built Ellis Ward: {len(ordered)} clothing/gear items from Clothing.json + Main_Clothing_Trader.json")
     if missing_categories:
         print("WARNING missing categories: " + ", ".join(missing_categories))
     if missing_items:

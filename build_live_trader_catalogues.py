@@ -13,17 +13,17 @@ MARKET_SETTINGS_FILE = LIVE_ROOT / "market-settings.json"
 
 TRADERS = {
     "naomi": {
-        "name": "Naomi",
+        "name": "Nora Bell",
         "zone": "Main_Consumables_Trader.json",
         "currency": "USD",
         "currency_label": None,
-        # Naomi's normal consumables are available in both directions. Gardening
-        # stock is the deliberate exception: players may sell it to Naomi only.
+        # Nora Bell's normal consumables are available in both directions. Gardening
+        # stock is the deliberate exception: players may sell it to Nora Bell only.
         "inherited_category_buyback": True,
         "buyback_excluded_categories": ["Gardening"],
     },
     "rolf": {
-        "name": "Rolf",
+        "name": "Felix Rook",
         "zone": "Main_ZombieNote_Trader.json",
         "currency": "ZOMBIE_NOTES",
         "currency_label": "Zombie Notes",
@@ -32,14 +32,14 @@ TRADERS = {
 
 TRADER_CONFIG_CATALOGUES = {
     "boris": {
-        "name": "Boris",
+        "name": "Oren Pike",
         "trader": "Drug_Ingredients.json",
         "zone": "Drug_Ingredients.json",
         "currency": "USD",
         "currency_label": None,
     },
     "attachment-trader": {
-        "name": "Attachment Trader",
+        "name": "Tess Archer",
         "trader": "Attachments.json",
         "zone": "Main_Attachments_Trader.json",
         "currency": "USD",

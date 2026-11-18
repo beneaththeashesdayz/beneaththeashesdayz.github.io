@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Black Market Zombie Note Trader',currency:'ZOMBIE_NOTES',currencyLabel:'Zombie Notes',items:[
+window.traderCatalogue={traderName:'Graves',currency:'ZOMBIE_NOTES',currencyLabel:'Zombie Notes',items:[
 {name:"Compass",className:"compass",category:"#STR_EXPANSION_MARKET_CATEGORY_NAVIGATION",traderSells:true,traderBuys:false,buyPrice:25},
 {name:"GPS Receiver",className:"gpsreceiver",category:"#STR_EXPANSION_MARKET_CATEGORY_NAVIGATION",traderSells:true,traderBuys:false,buyPrice:50},
 {name:"Orienteering Compass",className:"orienteeringcompass",category:"#STR_EXPANSION_MARKET_CATEGORY_NAVIGATION",traderSells:true,traderBuys:false,buyPrice:25},

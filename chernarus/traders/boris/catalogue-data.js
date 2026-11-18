@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Boris',currency:'USD',items:[
+window.traderCatalogue={traderName:'Oren Pike',currency:'USD',items:[
 {name:'Im7s Acetic Anhydride',className:'im7s_acetic_anhydride',category:'Drug Ingredients',buyPrice:4000,traderSells:true,traderBuys:false},
 {name:'Im7s Acetone',className:'im7s_acetone',category:'Drug Ingredients',buyPrice:2500,traderSells:true,traderBuys:false},
 {name:'Im7s Ammonia',className:'im7s_ammonia',category:'Drug Ingredients',buyPrice:3000,traderSells:true,traderBuys:false},

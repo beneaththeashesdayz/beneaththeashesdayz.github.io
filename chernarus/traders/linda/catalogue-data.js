@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Linda',currency:'USD',items:[
+window.traderCatalogue={traderName:'Lena Shaw',currency:'USD',items:[
 {name:'Alcohol Tincture',className:'disinfectantalcohol',category:'Medical Supplies',buyPrice:500,sellPrice:250,traderSells:true,traderBuys:true},
 {name:'Bandage Dressing',className:'bandagedressing',category:'Medical Supplies',buyPrice:250,sellPrice:125,traderSells:true,traderBuys:true},
 {name:'Blood Test Kit',className:'bloodtestkit',category:'Medical Supplies',buyPrice:900,sellPrice:450,traderSells:true,traderBuys:true},

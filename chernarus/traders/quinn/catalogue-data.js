@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Quinn',currency:'USD',items:[
+window.traderCatalogue={traderName:'Ellis Ward',currency:'USD',items:[
 {name:'Armband Altis',className:'armband_altis',category:'Armbands',traderSells:true,traderBuys:true,buyPrice:250,sellPrice:125},
 {name:'Armband Apa',className:'armband_apa',category:'Armbands',traderSells:true,traderBuys:true,buyPrice:250,sellPrice:125},
 {name:'Armband Babydeer',className:'armband_babydeer',category:'Armbands',traderSells:true,traderBuys:true,buyPrice:250,sellPrice:125},

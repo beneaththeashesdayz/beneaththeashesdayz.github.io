@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Attachment Trader',currency:'USD',items:[
+window.traderCatalogue={traderName:'Tess Archer',currency:'USD',items:[
 {name:'Ajw Ammo 300aac',className:'AJW_Ammo_300AAC',category:'Aj Ammo',buyPrice:56,sellPrice:28,traderSells:true,traderBuys:true},
 {name:'Ajw Ammo 300wm',className:'AJW_Ammo_300WM',category:'Aj Ammo',buyPrice:100,sellPrice:50,traderSells:true,traderBuys:true},
 {name:'Ajw Ammo .338',className:'AJW_Ammo_338',category:'Aj Ammo',buyPrice:130,sellPrice:65,traderSells:true,traderBuys:true},

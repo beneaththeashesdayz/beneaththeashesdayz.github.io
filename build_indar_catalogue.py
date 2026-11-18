@@ -112,8 +112,8 @@ def main():
         if "buyPrice" in r: fields.append(f"buyPrice:{r['buyPrice']}")
         if "sellPrice" in r: fields.append(f"sellPrice:{r['sellPrice']}")
         lines.append("{" + ",".join(fields) + "}")
-    OUT.write_text("window.traderCatalogue={traderName:'Indar',currency:'USD',items:[\n" + ",\n".join(lines) + "\n]};\n", encoding="utf-8")
-    print(f"Built Indar catalogue: {len(ordered)} items")
+    OUT.write_text("window.traderCatalogue={traderName:'Jonas Flint',currency:'USD',items:[\n" + ",\n".join(lines) + "\n]};\n", encoding="utf-8")
+    print(f"Built Jonas Flint catalogue: {len(ordered)} items")
 
 if __name__ == "__main__":
     main()

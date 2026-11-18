@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Kaito',currency:'USD',groupCollectableVariants:true,items:[
+window.traderCatalogue={traderName:'Silas Crow',currency:'USD',groupCollectableVariants:true,items:[
 {name:'Pokemoncard001',className:'pokemoncard001',category:'Collector Cards',sellPrice:324,traderSells:false,traderBuys:true,stockMode:'infinite'},
 {name:'Pokemoncard002',className:'pokemoncard002',category:'Collector Cards',sellPrice:326,traderSells:false,traderBuys:true,stockMode:'infinite'},
 {name:'Pokemoncard003',className:'pokemoncard003',category:'Collector Cards',sellPrice:327,traderSells:false,traderBuys:true,stockMode:'infinite'},

@@ -1,4 +1,4 @@
-window.traderCatalogue={traderName:'Emberline Parts',currency:'ZOMBIE_NOTES',currencyLabel:'Zombie Notes',items:[
+window.traderCatalogue={traderName:'Nina Calder',currency:'ZOMBIE_NOTES',currencyLabel:'Zombie Notes',items:[
 {name:'Armada BearCat Cargo 1',className:'armada_bearcat_cargo1',category:'Armada BearCat Parts',buyPrice:0,traderSells:true,traderBuys:false,stockMode:'infinite'},
 {name:'Armada BearCat Cargo 1 Black',className:'armada_bearcat_cargo1_black',category:'Armada BearCat Parts',buyPrice:0,traderSells:true,traderBuys:false,stockMode:'infinite'},
 {name:'Armada BearCat Cargo 2',className:'armada_bearcat_cargo2',category:'Armada BearCat Parts',buyPrice:0,traderSells:true,traderBuys:false,stockMode:'infinite'},

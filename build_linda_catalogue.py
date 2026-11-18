@@ -110,9 +110,9 @@ def main() -> None:
             )
         )
 
-    output = "window.traderCatalogue={traderName:'Linda',currency:'USD',items:[\n" + ",\n".join(lines) + "\n]};\n"
+    output = "window.traderCatalogue={traderName:'Lena Shaw',currency:'USD',items:[\n" + ",\n".join(lines) + "\n]};\n"
     OUT_FILE.write_text(output, encoding="utf-8")
-    print(f"Built Linda: {len(rows)} medical items from Medicals.json + Main_Medicals_Trader.json")
+    print(f"Built Lena Shaw: {len(rows)} medical items from Medicals.json + Main_Medicals_Trader.json")
 
 
 if __name__ == "__main__":
