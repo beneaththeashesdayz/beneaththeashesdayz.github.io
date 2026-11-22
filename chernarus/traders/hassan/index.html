@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Idris Vale | Cinder Market | Chernarus | Beneath the Ashes</title>
-  <meta name="description" content="Meet Idris Vale, Cinder Market's drug production trader, and browse his live USD inventory of finished goods, production supplies, LSD and cannabis products.">
-  <meta property="og:title" content="Idris Vale | Chernarus Drug Production Trader">
-  <meta property="og:description" content="Meet Idris Vale at Cinder Market and browse his live drug-production inventory and prices.">
+  <title>Chernarus Traders — Under Maintenance | Beneath the Ashes</title>
+  <meta name="description" content="The Chernarus trader website is temporarily under maintenance. Please check back later.">
+  <meta property="og:title" content="Chernarus Traders — Under Maintenance | Beneath the Ashes">
+  <meta property="og:description" content="The Chernarus trader website is temporarily under maintenance. Please check back later.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://beneaththeashesdayz.github.io/assets/traders/hassan.jpg">
   <meta property="og:url" content="https://beneaththeashesdayz.github.io/chernarus/traders/hassan/">
@@ -14,10 +14,23 @@
   <link rel="stylesheet" href="../../../styles.css">
   <link rel="stylesheet" href="../catalogue.css?v=12">
   <link rel="stylesheet" href="../catalogue-variants.css?v=1">
+<link rel="stylesheet" href="../maintenance.css?v=20261122">
 </head>
 <body>
 <header><div class="wrap"><div class="brand"><div class="mark"><span>🔥</span></div><div>Beneath the Ashes</div></div></div></header>
-<main class="wrap profile">
+<!-- Chernarus trader website maintenance: remove only when reopening the trader pages. -->
+<main class="wrap trader-maintenance" aria-labelledby="trader-maintenance-title">
+<section class="maintenance-panel">
+<p class="maintenance-world">Beneath the Ashes · Chernarus</p>
+<h1 id="trader-maintenance-title">Chernarus Traders</h1>
+<p class="maintenance-status">Under Maintenance</p>
+<p class="maintenance-message">The Chernarus trader directory and trader pages are temporarily unavailable while we carry out maintenance.</p>
+<p class="maintenance-message">Please check back later. Thank you for your patience.</p>
+<nav class="maintenance-links" aria-label="Chernarus navigation"><a class="button" href="../../">Chernarus Hub</a><a class="button" href="../../guides/">Player Guides</a></nav>
+</section>
+</main>
+
+<main class="wrap profile" data-trader-maintenance-content hidden inert aria-hidden="true" style="display:none!important">
   <div class="profile-header"><a class="back" href="../">← Chernarus Traders</a><div class="world-tag">World // Chernarus</div></div>
 <section class="profile-top">
 <div>
@@ -50,9 +63,9 @@
   </section>
 </main>
 <footer><div class="wrap">Beneath the Ashes • Chernarus Trader Network</div></footer>
-<script src="../../../data/live-market/variant-groups.js?v=1"></script>
-<script src="./catalogue-data.js?v=2"></script>
-<script src="../catalogue.js?v=20"></script>
+<script src="../../../data/live-market/variant-groups.js?v=1" type="application/x-bta-maintenance" data-trader-maintenance-disabled></script>
+<script src="./catalogue-data.js?v=2" type="application/x-bta-maintenance" data-trader-maintenance-disabled></script>
+<script src="../catalogue.js?v=20" type="application/x-bta-maintenance" data-trader-maintenance-disabled></script>
 <script src="https://beneaththeashesdayz.github.io/site.js"></script>
 </body>
 </html>
