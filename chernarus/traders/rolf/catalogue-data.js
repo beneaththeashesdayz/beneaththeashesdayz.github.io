@@ -1,4 +1,6 @@
 window.traderCatalogue={traderName:'Felix Rook',currency:'ZOMBIE_NOTES',currencyLabel:'Zombie Notes',items:[
+{name:'Binoculars',className:'binoculars',category:'Navigation',mode:'sell',price:75},
+{name:'Chernarusmap',className:'chernarusmap',category:'Navigation',mode:'sell',price:25},
 {name:'Compass',className:'compass',category:'Navigation',mode:'sell',price:50},
 {name:'Gpsreceiver',className:'gpsreceiver',category:'Navigation',mode:'sell',price:100},
 {name:'Orienteeringcompass',className:'orienteeringcompass',category:'Navigation',mode:'sell',price:50},
