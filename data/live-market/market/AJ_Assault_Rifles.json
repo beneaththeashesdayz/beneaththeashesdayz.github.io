@@ -88,6 +88,160 @@
       "Variants": [
         "AJW_MK12_FDE"
       ]
+    },
+    {
+      "ClassName": "AJW_XM7_Short_Black",
+      "MaxPriceThreshold": 9500,
+      "MinPriceThreshold": 9500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "AJW_Mag_L7AWM_20rnd_68"
+      ],
+      "Variants": [
+        "AJW_XM7_Short_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_HoneyBadger_Black",
+      "MaxPriceThreshold": 8500,
+      "MinPriceThreshold": 8500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "AJW_Mag_Troy_300_30Rnd_Black"
+      ],
+      "Variants": [
+        "AJW_HoneyBadger_FDE",
+        "AJW_HoneyBadger_Badger"
+      ]
+    },
+    {
+      "ClassName": "AJW_MCX_300_Black",
+      "MaxPriceThreshold": 8500,
+      "MinPriceThreshold": 8500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "AJW_Mag_Troy_300_30Rnd_Black"
+      ],
+      "Variants": [
+        "AJW_MCX_300_Grey",
+        "AJW_MCX_300_FDE",
+        "AJW_MCX_300_OD",
+        "AJW_MCX_300_Rattlecan"
+      ]
+    },
+    {
+      "ClassName": "AJW_MCX_Black",
+      "MaxPriceThreshold": 8500,
+      "MinPriceThreshold": 8500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "AJW_MCX_STD_HG_Black",
+        "AJW_MCX_Stock_STD",
+        "Mag_STANAG_30Rnd"
+      ],
+      "Variants": [
+        "AJW_MCX_OD",
+        "AJW_MCX_Grey",
+        "AJW_MCX_FDE",
+        "AJW_MCX_Rattlecan"
+      ]
+    },
+    {
+      "ClassName": "AJW_M4A1_10",
+      "MaxPriceThreshold": 8500,
+      "MinPriceThreshold": 8500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "AJW_M4_RISHndgrd",
+        "AJW_BS_SOPMOD_Black",
+        "Mag_STANAG_30Rnd"
+      ],
+      "Variants": [
+        "AJW_M4A1_10_FDE",
+        "AJW_M4A1_10_Rattle",
+        "AJW_M4A1_10_AOR2"
+      ]
+    },
+    {
+      "ClassName": "AJW_M4A1",
+      "MaxPriceThreshold": 8500,
+      "MinPriceThreshold": 8500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_STANAG_30Rnd"
+      ],
+      "Variants": [
+        "AJW_M4A1_FDE",
+        "AJW_M4A1_Rattle",
+        "AJW_M4A1_AOR2"
+      ]
+    },
+    {
+      "ClassName": "AJW_HK416_14_Black",
+      "MaxPriceThreshold": 8500,
+      "MinPriceThreshold": 8500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "AJW_HK_HG_STD_Quad_Black",
+        "AJW_BS_Magpul_MOE_Black",
+        "Mag_STANAG_30Rnd"
+      ],
+      "Variants": [
+        "AJW_HK416_14_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_HK416_10_Black",
+      "MaxPriceThreshold": 8500,
+      "MinPriceThreshold": 8500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "AJW_HK_HG_STD_Quad_Black",
+        "AJW_BS_Magpul_MOE_Black",
+        "Mag_STANAG_30Rnd"
+      ],
+      "Variants": [
+        "AJW_HK416_10_FDE"
+      ]
+    },
+    {
+      "ClassName": "AJW_SCARL_Black",
+      "MaxPriceThreshold": 8500,
+      "MinPriceThreshold": 8500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_STANAG_30Rnd"
+      ],
+      "Variants": [
+        "AJW_SCARL_TAN"
+      ]
     }
   ]
 }

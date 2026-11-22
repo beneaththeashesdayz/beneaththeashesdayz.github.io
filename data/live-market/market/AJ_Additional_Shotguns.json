@@ -5,33 +5,5 @@
   "Color": "FBFCFEFF",
   "InitStockPercent": 0,
   "IsExchange": 0,
-  "Items": [
-    {
-      "ClassName": "AJW_Mossberg590",
-      "MaxPriceThreshold": 3500,
-      "MinPriceThreshold": 3500,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [],
-      "Variants": []
-    },
-    {
-      "ClassName": "AJW_DMK12_Black",
-      "MaxPriceThreshold": 3500,
-      "MinPriceThreshold": 3500,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "AJW_BS_BCM_Black",
-        "AJW_Mag_DMK12_5rnd"
-      ],
-      "Variants": [
-        "AJW_DMK12_FDE"
-      ]
-    }
-  ]
+  "Items": []
 }

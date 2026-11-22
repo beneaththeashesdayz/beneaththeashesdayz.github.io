@@ -5,37 +5,5 @@
   "Color": "FBFCFEFF",
   "InitStockPercent": 0,
   "IsExchange": 0,
-  "Items": [
-    {
-      "ClassName": "AJW_M60E6_Black",
-      "MaxPriceThreshold": 14000,
-      "MinPriceThreshold": 14000,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "AJW_Mag_M60_100Rnd"
-      ],
-      "Variants": [
-        "AJW_M60E6_FDE"
-      ]
-    },
-    {
-      "ClassName": "AJW_PKM",
-      "MaxPriceThreshold": 14000,
-      "MinPriceThreshold": 14000,
-      "SellPricePercent": -1,
-      "MaxStockThreshold": 1,
-      "MinStockThreshold": 1,
-      "QuantityPercent": -1,
-      "SpawnAttachments": [
-        "AJW_Mag_PKM_200Rnd"
-      ],
-      "Variants": [
-        "AJW_PKM_Worn",
-        "AJW_PKM_WL_Painted"
-      ]
-    }
-  ]
+  "Items": []
 }

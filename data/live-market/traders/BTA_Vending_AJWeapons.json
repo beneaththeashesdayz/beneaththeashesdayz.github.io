@@ -18,10 +18,7 @@
   "DisplayCurrencyName": "BTA Dollars",
   "UseCategoryOrder": 0,
   "Categories": [
-    "AJ_Additional_Assault_Rifles:1",
-    "AJ_Additional_Machine_Guns:1",
-    "AJ_Additional_Pistols:1",
-    "AJ_Additional_Shotguns:1",
+    "AJ_Machine_Guns:1",
     "AJ_Assault_Rifles:1",
     "AJ_BlackMarket_Weapons:1",
     "AJ_Pistols:1",
