@@ -1,0 +1,132 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Weapons - .300 Blackout",
+  "Items": [
+    {
+      "ClassName": "SNAFU_AR15SPRBK",
+      "MaxPriceThreshold": 10625,
+      "MinPriceThreshold": 10625,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_CMAG30300_Black",
+        "SNAFU_HGMlok",
+        "SNAFU_UBR_Stock",
+        "SNAFU_PistolGripColtA2"
+      ],
+      "Variants": [
+        "SNAFU_AR15SPRTAN",
+        "SNAFUAR15_SPR_Black_GUN",
+        "SNAFUAR15_SPR_Tan_GUN"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_KAC_Gun",
+      "MaxPriceThreshold": 10625,
+      "MinPriceThreshold": 10625,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_CMAG30300_Black"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M4300AC_10_GUN",
+      "MaxPriceThreshold": 10625,
+      "MinPriceThreshold": 10625,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_CMAG30300_Black",
+        "SNAFU_MK9",
+        "SNAFU_UBR_Stock",
+        "SNAFU_PistolGripColtA2"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M4300AC_14_GUN",
+      "MaxPriceThreshold": 10625,
+      "MinPriceThreshold": 10625,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_CMAG30300_Black",
+        "SNAFU_MK13",
+        "SNAFU_UBR_Stock",
+        "SNAFU_PistolGripColtA2"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M4300AC_14DV_GUN",
+      "MaxPriceThreshold": 10625,
+      "MinPriceThreshold": 10625,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_CMAG30300_Black",
+        "SNAFU_GIGripColtA2",
+        "SNAFU_M4SS_Stock"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M4300AC_16_GUN",
+      "MaxPriceThreshold": 10625,
+      "MinPriceThreshold": 10625,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_CMAG30300_Black",
+        "SNAFU_MK15",
+        "SNAFU_UBR_Stock",
+        "SNAFU_PistolGripColtA2"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUHoneyBadger_Black",
+      "MaxPriceThreshold": 10625,
+      "MinPriceThreshold": 10625,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_CMAG30300_Black"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUHoneyBadger_Tan",
+      "MaxPriceThreshold": 10625,
+      "MinPriceThreshold": 10625,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_CMAG30300_Black"
+      ],
+      "Variants": []
+    }
+  ]
+}

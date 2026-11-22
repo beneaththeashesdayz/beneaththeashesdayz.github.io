@@ -1,0 +1,101 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Magazines - 7.62x39mm",
+  "Items": [
+    {
+      "ClassName": "GCGN_VEPR_10rnd",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_AK103_Mag",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_Bren_30rdMag",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_SKS_10Rnd_Mag",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_SKS_30Rnd_Mag",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUPPSKN_30rdMag",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFURPD_100rdMag",
+      "MaxPriceThreshold": 4750,
+      "MinPriceThreshold": 4750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_762x39"
+      ],
+      "Variants": []
+    }
+  ]
+}

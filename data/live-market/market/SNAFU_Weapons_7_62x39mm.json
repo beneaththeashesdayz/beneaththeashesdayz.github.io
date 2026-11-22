@@ -1,0 +1,144 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Weapons - 7.62x39mm",
+  "Items": [
+    {
+      "ClassName": "GCGN_Vepr",
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_VEPR_10rnd"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SN_AKM",
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_AKM_30Rnd"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_AK103A",
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_AKM_30Rnd"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_Bren",
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Bren_30rdMag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M70",
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_AKM_30Rnd"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_MK4710Gun",
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_AKM_30Rnd",
+        "SNAFU_MK9",
+        "SNAFU_UBR_Stock"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_MK4716Gun",
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_AKM_30Rnd",
+        "SNAFU_MK15",
+        "SNAFU_UBR_Stock"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUPPSKN",
+      "MaxPriceThreshold": 10000,
+      "MinPriceThreshold": 10000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFUPPSKN_30rdMag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFURPD",
+      "MaxPriceThreshold": 13750,
+      "MinPriceThreshold": 13750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFURPD_100rdMag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_SKS",
+      "MaxPriceThreshold": 8750,
+      "MinPriceThreshold": 8750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_SKS_10Rnd_Mag"
+      ],
+      "Variants": []
+    }
+  ]
+}

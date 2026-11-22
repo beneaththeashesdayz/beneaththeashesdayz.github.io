@@ -1,0 +1,36 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Weapons - 7.62x54mmR",
+  "Items": [
+    {
+      "ClassName": "Snafu_PKP_Black_GUN",
+      "MaxPriceThreshold": 17500,
+      "MinPriceThreshold": 17500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Snafu_PKP_250RND_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_PKP_NBlack_GUN",
+      "MaxPriceThreshold": 17500,
+      "MinPriceThreshold": 17500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Snafu_PKP_250RND_Mag"
+      ],
+      "Variants": []
+    }
+  ]
+}

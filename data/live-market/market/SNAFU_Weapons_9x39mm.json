@@ -1,0 +1,26 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Weapons - 9x39mm",
+  "Items": [
+    {
+      "ClassName": "SNAFUSR3_Vikhr",
+      "MaxPriceThreshold": 15625,
+      "MinPriceThreshold": 15625,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_VSS_10Rnd",
+        "SNAFU_SR3HG",
+        "SNAFU_WSR3Stock",
+        "SNAFU_SR3Grip"
+      ],
+      "Variants": []
+    }
+  ]
+}

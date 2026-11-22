@@ -1,0 +1,23 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Weapons - .380 ACP",
+  "Items": [
+    {
+      "ClassName": "SNAFUAPS",
+      "MaxPriceThreshold": 1563,
+      "MinPriceThreshold": 1563,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFUAPS_20rdMag"
+      ],
+      "Variants": []
+    }
+  ]
+}

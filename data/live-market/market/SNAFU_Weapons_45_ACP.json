@@ -1,0 +1,62 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Weapons - .45 ACP",
+  "Items": [
+    {
+      "ClassName": "SN_USP",
+      "MaxPriceThreshold": 1563,
+      "MinPriceThreshold": 1563,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SN_USP_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_PDW_45ACP",
+      "MaxPriceThreshold": 6875,
+      "MinPriceThreshold": 6875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_PDW_45ACP_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUThompsonMk2",
+      "MaxPriceThreshold": 6875,
+      "MinPriceThreshold": 6875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFUThompsonMk2_30rdMag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUVECTOR_45acp_GUN",
+      "MaxPriceThreshold": 6875,
+      "MinPriceThreshold": 6875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFUVECTOR_45acp_Mag"
+      ],
+      "Variants": []
+    }
+  ]
+}

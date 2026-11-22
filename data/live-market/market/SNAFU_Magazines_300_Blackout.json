@@ -1,0 +1,102 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Magazines - .300 Blackout",
+  "Items": [
+    {
+      "ClassName": "SNAFU_BMAG300_Black",
+      "MaxPriceThreshold": 4750,
+      "MinPriceThreshold": 4750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_300ACC"
+      ],
+      "Variants": [
+        "SNAFU_BMAG300_Tan",
+        "SNAFUAR15_SPR_100RND_Mag"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_CMAG30300_Black",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_300ACC"
+      ],
+      "Variants": [
+        "SNAFU_CMAG30300_Tan",
+        "SNAFUAR15_SPR_30RND_Mag"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_CMAG40300_Black",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_300ACC"
+      ],
+      "Variants": [
+        "SNAFU_CMAG40300_Tan",
+        "SNAFUAR15_SPR_40RND_Mag"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_CMAG60300_Black",
+      "MaxPriceThreshold": 3000,
+      "MinPriceThreshold": 3000,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_300ACC"
+      ],
+      "Variants": [
+        "SNAFU_CMAG60300_Tan",
+        "SNAFUAR15_SPR_60RND_Mag"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_KAC_Mag",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_300ACC"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUHoneyBadger_30rdMag_Black",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_300ACC"
+      ],
+      "Variants": [
+        "SNAFUHoneyBadger_30rdMag_Tan"
+      ]
+    }
+  ]
+}

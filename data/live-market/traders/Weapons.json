@@ -26,16 +26,25 @@
     "Sniper_Rifles:1",
     "Melee_Weapons:1",
     "Knifes:1",
-    "Buttstocks:3",
-    "Handguards:3",
-    "Magazines:3"
+    "Buttstocks:1",
+    "Handguards:1",
+    "Magazines:1",
+    "Ammo:1",
+    "Ammo_Boxes:1",
+    "Bayonets:1",
+    "Muzzles:1",
+    "Optics:1",
+    "Batteries:1"
   ],
   "Items": {
-    "mag_ak101_30rnd": 3,
-    "mag_ak74_30rnd": 3,
-    "mag_akm_30rnd": 3,
-    "mag_cmag_20rnd": 3,
-    "mag_deagle_9rnd": 3,
-    "mag_stanag_30rnd": 3
+    "mag_ak101_30rnd": 1,
+    "mag_ak74_30rnd": 1,
+    "mag_akm_30rnd": 1,
+    "mag_cmag_20rnd": 1,
+    "mag_deagle_9rnd": 1,
+    "mag_stanag_30rnd": 1,
+    "tlrlight": 1,
+    "universallight": 1,
+    "weaponcleaningkit": 1
   }
 }

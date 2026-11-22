@@ -1,0 +1,118 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Weapons - .408 CheyTac",
+  "Items": [
+    {
+      "ClassName": "GCGN_M200",
+      "MaxPriceThreshold": 31250,
+      "MinPriceThreshold": 31250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M200_Mag",
+        "SNAFU_M200S_BK"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_M200_Tan",
+      "MaxPriceThreshold": 31250,
+      "MinPriceThreshold": 31250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M200_Mag",
+        "SNAFU_M200S_Tan"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M200Green",
+      "MaxPriceThreshold": 31250,
+      "MinPriceThreshold": 31250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M200_Mag",
+        "SNAFU_M200S_Green"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M200SNOW",
+      "MaxPriceThreshold": 31250,
+      "MinPriceThreshold": 31250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M200_Mag",
+        "SNAFU_M200S_Snow"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M300BK",
+      "MaxPriceThreshold": 31250,
+      "MinPriceThreshold": 31250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M200_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M300Green",
+      "MaxPriceThreshold": 31250,
+      "MinPriceThreshold": 31250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M200_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M300TAN",
+      "MaxPriceThreshold": 31250,
+      "MinPriceThreshold": 31250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M200_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUM96",
+      "MaxPriceThreshold": 31250,
+      "MinPriceThreshold": 31250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFUM96_5rdMag"
+      ],
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Pistol Grips",
+  "Items": [
+    {
+      "ClassName": "SNAFU_PistolGripColtA2",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": [
+        "SNAFU_GIGripColtA2",
+        "SNAFU_TACGripColtA2_BK",
+        "SNAFU_TACGripColtA2_Grey",
+        "SNAFU_TACGripColtA2_OD",
+        "SNAFU_TACGripColtA2_Tan"
+      ]
+    }
+  ]
+}

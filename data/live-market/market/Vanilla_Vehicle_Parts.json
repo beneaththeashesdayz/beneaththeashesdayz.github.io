@@ -8,8 +8,8 @@
   "Items": [
     {
       "ClassName": "carbattery",
-      "MaxPriceThreshold": 0,
-      "MinPriceThreshold": 0,
+      "MaxPriceThreshold": 3500,
+      "MinPriceThreshold": 3500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
@@ -19,8 +19,8 @@
     },
     {
       "ClassName": "carradiator",
-      "MaxPriceThreshold": 0,
-      "MinPriceThreshold": 0,
+      "MaxPriceThreshold": 4000,
+      "MinPriceThreshold": 4000,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
@@ -30,8 +30,8 @@
     },
     {
       "ClassName": "headlighth7",
-      "MaxPriceThreshold": 0,
-      "MinPriceThreshold": 0,
+      "MaxPriceThreshold": 250,
+      "MinPriceThreshold": 250,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
@@ -41,8 +41,8 @@
     },
     {
       "ClassName": "sparkplug",
-      "MaxPriceThreshold": 0,
-      "MinPriceThreshold": 0,
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,
@@ -52,8 +52,8 @@
     },
     {
       "ClassName": "headlighth7_box",
-      "MaxPriceThreshold": 0,
-      "MinPriceThreshold": 0,
+      "MaxPriceThreshold": 500,
+      "MinPriceThreshold": 500,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,

@@ -1,0 +1,368 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Weapons - .308 Winchester",
+  "Items": [
+    {
+      "ClassName": "SNAFU_M60",
+      "MaxPriceThreshold": 17500,
+      "MinPriceThreshold": 17500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_M60_100rdMag",
+        "SNAFU_M60_Handguard_E3"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_M110_Black",
+      "MaxPriceThreshold": 16875,
+      "MinPriceThreshold": 16875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M110_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_M110_Green",
+      "MaxPriceThreshold": 16875,
+      "MinPriceThreshold": 16875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M110_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_M110_Tan",
+      "MaxPriceThreshold": 16875,
+      "MinPriceThreshold": 16875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M110_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_AK308",
+      "MaxPriceThreshold": 14375,
+      "MinPriceThreshold": 14375,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_AK308_Mag",
+        "SNAFU_AK_HG",
+        "SNAFU_AK19_Stock"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_FRF2",
+      "MaxPriceThreshold": 22500,
+      "MinPriceThreshold": 22500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_FRF2_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_G3A3",
+      "MaxPriceThreshold": 14375,
+      "MinPriceThreshold": 14375,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_G3A3_20rdMag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M14",
+      "MaxPriceThreshold": 14375,
+      "MinPriceThreshold": 14375,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_M14_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M76",
+      "MaxPriceThreshold": 15625,
+      "MinPriceThreshold": 15625,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_M76_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_Saint_Gun",
+      "MaxPriceThreshold": 14375,
+      "MinPriceThreshold": 14375,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Saint_Mag",
+        "SNAFU_HG625",
+        "SNAFU_GIGripColtA2",
+        "SNAFU_M4SS_Stock"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_Black_GUN",
+      "MaxPriceThreshold": 11875,
+      "MinPriceThreshold": 11875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Snafu_ScarH_25RND_Mag_Tan"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_DKMC_GUN",
+      "MaxPriceThreshold": 11875,
+      "MinPriceThreshold": 11875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Snafu_ScarH_25RND_Mag_Tan"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_OD_GUN",
+      "MaxPriceThreshold": 11875,
+      "MinPriceThreshold": 11875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Snafu_ScarH_25RND_Mag_Tan"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_Snow_GUN",
+      "MaxPriceThreshold": 11875,
+      "MinPriceThreshold": 11875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Snafu_ScarH_25RND_Mag_Tan"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_Tan_GUN",
+      "MaxPriceThreshold": 11875,
+      "MinPriceThreshold": 11875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Snafu_ScarH_25RND_Mag_Tan"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_SR25_Gun",
+      "MaxPriceThreshold": 16875,
+      "MinPriceThreshold": 16875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M110_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUDSASA58_Gun",
+      "MaxPriceThreshold": 11875,
+      "MinPriceThreshold": 11875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_FAL_20Rnd",
+        "SA58_Stock",
+        "SNAFU_DSAHG1"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUM1A_Black",
+      "MaxPriceThreshold": 14375,
+      "MinPriceThreshold": 14375,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_M14_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUM1A_Green",
+      "MaxPriceThreshold": 14375,
+      "MinPriceThreshold": 14375,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_M14_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUM1A_Tan",
+      "MaxPriceThreshold": 14375,
+      "MinPriceThreshold": 14375,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_M14_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFURSASS_dkmc_GUN",
+      "MaxPriceThreshold": 16875,
+      "MinPriceThreshold": 16875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M110_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFURSASS_od_GUN",
+      "MaxPriceThreshold": 16875,
+      "MinPriceThreshold": 16875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M110_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFURSASS_Wood_GUN",
+      "MaxPriceThreshold": 16875,
+      "MinPriceThreshold": 16875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M110_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNHK417_Gun",
+      "MaxPriceThreshold": 17500,
+      "MinPriceThreshold": 17500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M110_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNSA58_Gun",
+      "MaxPriceThreshold": 11875,
+      "MinPriceThreshold": 11875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_FAL_20Rnd",
+        "SA58_Stock"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_M700",
+      "MaxPriceThreshold": 20625,
+      "MinPriceThreshold": 20625,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M700_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M48",
+      "MaxPriceThreshold": 8125,
+      "MinPriceThreshold": 8125,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Magazines - .308 Winchester",
+  "Items": [
+    {
+      "ClassName": "GCGN_M110_Mag",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_M700_Mag",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_Mag_FAL_50Rnd",
+      "MaxPriceThreshold": 2750,
+      "MinPriceThreshold": 2750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Modified_SA58_30RND_BK",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Modified_SA58_30RND_DT",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Modified_SA58_30RND_WBK",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SA58_30RND_BK",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SA58_30RND_DT",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SA58_30RND_WBK",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SA58_DrumMag",
+      "MaxPriceThreshold": 2750,
+      "MinPriceThreshold": 2750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_AK308_Mag",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_ScarH_100RND_Mag_Black",
+      "MaxPriceThreshold": 4750,
+      "MinPriceThreshold": 4750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": [
+        "SNAFU_ScarH_100RND_Mag_Tan"
+      ]
+    },
+    {
+      "ClassName": "SNAFU_FRF2_Mag",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_G3A3_20rdMag",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M14_Mag",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M60_100rdMag",
+      "MaxPriceThreshold": 4750,
+      "MinPriceThreshold": 4750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_M76_Mag",
+      "MaxPriceThreshold": 750,
+      "MinPriceThreshold": 750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_Saint_Mag",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_25RND_Mag_BK",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_25RND_Mag_DKMC",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_25RND_Mag_OD",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_25RND_Mag_Snow",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Snafu_ScarH_25RND_Mag_Tan",
+      "MaxPriceThreshold": 1500,
+      "MinPriceThreshold": 1500,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_SR25_Mag",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUM1A_20rdMag",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFURSASS_Mag",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNHK417_Mag",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Ammo_308Win"
+      ],
+      "Variants": []
+    }
+  ]
+}

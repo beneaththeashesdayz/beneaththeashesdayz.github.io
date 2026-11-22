@@ -1,0 +1,28 @@
+{
+  "m_Version": 13,
+  "DisplayName": "My Delta Force Weapons",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Shotgun",
+  "Currencies": [
+    "BTA_Dollar_1",
+    "BTA_Dollar_5",
+    "BTA_Dollar_10",
+    "BTA_Dollar_20",
+    "BTA_Dollar_50",
+    "BTA_Dollar_100"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "BTA Dollars",
+  "UseCategoryOrder": 0,
+  "Categories": [],
+  "Items": {
+    "My_DF_Weapons_DMR_Marlin": 2,
+    "My_DF_Weapons_Pistols_Deagle": 2,
+    "My_DF_Weapons_Rifles_Ash12": 2,
+    "My_DF_Weapons_Snipers_AWM": 2,
+    "My_DF_Weapons_Snipers_M82": 2
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "m_Version": 12,
+  "DisplayName": "AJ's Pistols - Additional Models",
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 0,
+  "IsExchange": 0,
+  "Items": [
+    {
+      "ClassName": "AJW_10mmPistol",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "AJW_Mag_Beretta92FS_15Rnd"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "AJW_HKMk23SOCOM",
+      "MaxPriceThreshold": 1250,
+      "MinPriceThreshold": 1250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "AJW_Mag_HKMk23_12Rnd"
+      ],
+      "Variants": []
+    }
+  ]
+}

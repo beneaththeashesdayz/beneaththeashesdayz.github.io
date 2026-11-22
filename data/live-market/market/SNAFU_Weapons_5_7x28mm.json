@@ -1,0 +1,23 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Weapons - 5.7x28mm",
+  "Items": [
+    {
+      "ClassName": "SNAFUP90",
+      "MaxPriceThreshold": 6875,
+      "MinPriceThreshold": 6875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFUP90_50rdMag"
+      ],
+      "Variants": []
+    }
+  ]
+}

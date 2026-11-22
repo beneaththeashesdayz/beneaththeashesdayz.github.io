@@ -1,0 +1,23 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Magazines - 4.6x30mm",
+  "Items": [
+    {
+      "ClassName": "GCGN_MP7_40Rnd",
+      "MaxPriceThreshold": 1750,
+      "MinPriceThreshold": 1750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Ammo_46x30"
+      ],
+      "Variants": []
+    }
+  ]
+}

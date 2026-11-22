@@ -1,0 +1,219 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Weapons - 9x19mm",
+  "Items": [
+    {
+      "ClassName": "SN_Glock19",
+      "MaxPriceThreshold": 1563,
+      "MinPriceThreshold": 1563,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_Glock_15Rnd"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SN_M9",
+      "MaxPriceThreshold": 1563,
+      "MinPriceThreshold": 1563,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SN_M9_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SN_Mp443",
+      "MaxPriceThreshold": 1563,
+      "MinPriceThreshold": 1563,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SN_Mp443_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SN_Springfield",
+      "MaxPriceThreshold": 1563,
+      "MinPriceThreshold": 1563,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SN_Springfield_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_Fort12_GUN",
+      "MaxPriceThreshold": 1563,
+      "MinPriceThreshold": 1563,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Fort12_12rnd_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_PL14HQP",
+      "MaxPriceThreshold": 1563,
+      "MinPriceThreshold": 1563,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_PL14HQP_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "GCGN_Vityaz",
+      "MaxPriceThreshold": 6250,
+      "MinPriceThreshold": 6250,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_Vityaz_Mag",
+        "SNAFU_AK19_Stock"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_Agram_GUN",
+      "MaxPriceThreshold": 6875,
+      "MinPriceThreshold": 6875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_Agram_32rnd_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_MP9_GUN",
+      "MaxPriceThreshold": 6875,
+      "MinPriceThreshold": 6875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_MP9_30rnd_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_MPX_GUN",
+      "MaxPriceThreshold": 6875,
+      "MinPriceThreshold": 6875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_MPX_30rnd_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_PDW_9mm",
+      "MaxPriceThreshold": 6875,
+      "MinPriceThreshold": 6875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_PDW_9mm_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUKH9",
+      "MaxPriceThreshold": 6875,
+      "MinPriceThreshold": 6875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFUKH9_30rdMag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUSten",
+      "MaxPriceThreshold": 6875,
+      "MinPriceThreshold": 6875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFUSten_32rdMag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUUzi",
+      "MaxPriceThreshold": 6875,
+      "MinPriceThreshold": 6875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFUUzi_32rdMag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUVECTOR_9mm_GUN",
+      "MaxPriceThreshold": 6875,
+      "MinPriceThreshold": 6875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFUVECTOR_9mm_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "Tec9_Gun",
+      "MaxPriceThreshold": 6875,
+      "MinPriceThreshold": 6875,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Tec9_Mag"
+      ],
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Weapons - 5.45x39mm",
+  "Items": [
+    {
+      "ClassName": "SNAFU_AEK545_Gun",
+      "MaxPriceThreshold": 9688,
+      "MinPriceThreshold": 9688,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_AK74_30Rnd"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_AK12A",
+      "MaxPriceThreshold": 9688,
+      "MinPriceThreshold": 9688,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_AK74_30Rnd",
+        "SNAFU_AK_AR_Stock",
+        "SNAFU_AK_HG"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_RPK16_Black",
+      "MaxPriceThreshold": 13750,
+      "MinPriceThreshold": 13750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_AK74_30Rnd"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_RPK16_Green",
+      "MaxPriceThreshold": 13750,
+      "MinPriceThreshold": 13750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_AK74_30Rnd"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_RPK16_Tan",
+      "MaxPriceThreshold": 13750,
+      "MinPriceThreshold": 13750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "Mag_AK74_30Rnd"
+      ],
+      "Variants": []
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "m_Version": 12,
+  "Icon": "Deliver",
+  "Color": "FBFCFEFF",
+  "InitStockPercent": 100,
+  "IsExchange": 0,
+  "DisplayName": "SNAFU Weapons - .50 BMG",
+  "Items": [
+    {
+      "ClassName": "GCGN_M82_Barret",
+      "MaxPriceThreshold": 43750,
+      "MinPriceThreshold": 43750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "GCGN_M82_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFU_AS50_GUN",
+      "MaxPriceThreshold": 43750,
+      "MinPriceThreshold": 43750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFU_AS50_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUAX50_GUN",
+      "MaxPriceThreshold": 43750,
+      "MinPriceThreshold": 43750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFUAX50_Mag"
+      ],
+      "Variants": []
+    },
+    {
+      "ClassName": "SNAFUGM6Lynx",
+      "MaxPriceThreshold": 43750,
+      "MinPriceThreshold": 43750,
+      "SellPricePercent": -1,
+      "MaxStockThreshold": 1,
+      "MinStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [
+        "SNAFUGM6Lynx_5rdMag"
+      ],
+      "Variants": []
+    }
+  ]
+}

@@ -6,9 +6,9 @@
     2.884190082550049,
     10006.2998046875
   ],
-  "Radius": 5.0,
-  "BuyPricePercent": 100.0,
-  "SellPricePercent": 100.0,
+  "Radius": 5,
+  "BuyPricePercent": 100,
+  "SellPricePercent": 50,
   "Stock": {
     "expansionkeychain_green": 1,
     "smallgascanister": 1,

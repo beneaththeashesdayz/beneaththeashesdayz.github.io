@@ -1,0 +1,38 @@
+{
+  "m_Version": 13,
+  "DisplayName": "AJ's Weapons",
+  "MinRequiredReputation": 0,
+  "MaxRequiredReputation": 2147483647,
+  "RequiredFaction": "",
+  "RequiredCompletedQuestID": -1,
+  "TraderIcon": "Shotgun",
+  "Currencies": [
+    "BTA_Dollar_1",
+    "BTA_Dollar_5",
+    "BTA_Dollar_10",
+    "BTA_Dollar_20",
+    "BTA_Dollar_50",
+    "BTA_Dollar_100"
+  ],
+  "DisplayCurrencyValue": 1,
+  "DisplayCurrencyName": "BTA Dollars",
+  "UseCategoryOrder": 0,
+  "Categories": [],
+  "Items": {
+    "AJW_AK50": 2,
+    "AJW_AK50_MCB": 2,
+    "AJW_AWM_AOR2": 2,
+    "AJW_AWM_FDE": 2,
+    "AJW_AWM_Gold": 2,
+    "AJW_AWM_Green": 2,
+    "AJW_Gewehr43_Wood": 2,
+    "AJW_GOL_Magnum_Green": 2,
+    "AJW_K98_BlackTie": 2,
+    "AJW_K98_Standard": 2,
+    "AJW_K98_Tac_Poly": 2,
+    "AJW_K98_Tac_Wood": 2,
+    "AJW_M82A1CQ_Black": 2,
+    "AJW_M82A1CQ_FDE": 2,
+    "AJW_M82A1CQ_OD": 2
+  }
+}

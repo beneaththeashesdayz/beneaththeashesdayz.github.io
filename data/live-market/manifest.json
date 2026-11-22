@@ -1,12 +1,12 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-22T20:20:53.936376+00:00",
+  "syncedAt": "2026-11-22T21:21:29.965432+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 384,
-  "traderFileCount": 33,
+  "marketFileCount": 444,
+  "traderFileCount": 36,
   "traderZoneFileCount": 22,
   "files": [
     {
@@ -20,6 +20,34 @@
       "group": "market",
       "filename": "Adult_Toys.json",
       "sha256": "64d345843ab7b271f5114cdd0ca657b8c6c6a6438a64e8424d0436304e435857",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "AJ_Additional_Assault_Rifles.json",
+      "sha256": "774fef6fad51971c1f0e5d1f8ff8686d5fbdacbc4b8485b12a5712bf233c6637",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "AJ_Additional_Machine_Guns.json",
+      "sha256": "131676512b0ecdd1aded97c8ec41f428a90e9d1a29b72914c945f4840aa3dd7f",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "AJ_Additional_Pistols.json",
+      "sha256": "4740a4051efad2dcf7c07472d00e79ec786697b77ef55dc80b987f16ed55f8c3",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "AJ_Additional_Shotguns.json",
+      "sha256": "0f9e520e4669575436974d9e95afa1906b410ff1dedd221faade2152cae2689c",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -75,7 +103,7 @@
     {
       "group": "market",
       "filename": "AJ_BlackMarket_Weapons.json",
-      "sha256": "4821e74e0fa4425389a3116d4196d603f68d6d7ecaea1b67dba442da26e009d6",
+      "sha256": "778d35cfc7f808688a5b934d98a7859ae5ff778ab3e5083319a89b74ff815a39",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -159,7 +187,14 @@
     {
       "group": "market",
       "filename": "AJ_Rifles.json",
-      "sha256": "f235a5d5fa8a84769342b5c946f6bb5be18cb8818d9234942b6127ad679d099b",
+      "sha256": "6d8de9a2bb022ac0f1fce7a477aeef62719e922999034854e5b70e175ca5f22d",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "AJ_Rifles_Reserve.json",
+      "sha256": "4ed5ad296874e38cf350dcc07d190f961b5c6f96337c82cfe375ddf2e7368544",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -334,7 +369,7 @@
     {
       "group": "market",
       "filename": "Boat_Supplies.json",
-      "sha256": "3097a9c947c55df58e1b57a99a71de6146c3f0c0c88b2decb5b3a71c985cbe75",
+      "sha256": "dadcd10383e8cdd1fbb4ab64c5593bebbaba2ba0277a8d636e5495eefb295183",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1201,8 +1236,148 @@
     },
     {
       "group": "market",
-      "filename": "DF_Weapons_DMR.json",
-      "sha256": "5f9ff4e23ca4696532b05a9ed766804e92d3d64a08325c6508240f7a27d49897",
+      "filename": "DF_Weapons_Caliber_12_7x55mm.json",
+      "sha256": "530d54b86d304b5f55602d6da9769003609bb34dcdbb5a4b6c76a70b7ecc86a9",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_12_Gauge.json",
+      "sha256": "a302faa24fadbbadda4526180ca2ea414d3bf941f4afb50e4a8e2136b107ae9f",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_300_Blackout.json",
+      "sha256": "5545424c2196d24f09b789830e9a1b24fc1c02e431371fc044f6d62f3d3730f0",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_308_Win_and_7_62x51mm.json",
+      "sha256": "7b49c32ed04d18b2dbfbc4a67cee84313fad720726b455354f9526b0a3b33842",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_338_Lapua_Magnum.json",
+      "sha256": "7414226d704094bee984bbbaa1b64c43db76620418b472cb903a146d095d86d3",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_357_Magnum.json",
+      "sha256": "1e61481b94bc9db2836e96eb124801814966adf25527a8e03a92b8eba7d00a66",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_357_Magnum_50_AE.json",
+      "sha256": "4f0b19582fb4034ce879b56a15ac4606d5f83562854d6c142ed0bf6e8f19edef",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_380_ACP_9x19mm.json",
+      "sha256": "6c7f3418d3583ac09f2d65e2d231bc079ea2570df7dfee740bbb4924d8eaeb3b",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_45_70.json",
+      "sha256": "8ce7392743908188990809762de6b6d47c28940461904585f5117d42084e34a9",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_45_ACP.json",
+      "sha256": "12a852af7b438e65a022b4ffb28400ac1d5ff55de65706cc20ee8e44c84ae9ef",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_4_6x30mm.json",
+      "sha256": "62c7e1c63640340d56fd62ae91ead44ff154b94fb05bfed408c0b770be14dba8",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_50_BMG.json",
+      "sha256": "284aa2e18e79a41b93f7108c4daf6f3b786c0d698b5e9a05f5809b303539b212",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_5_45x39mm.json",
+      "sha256": "97d7f88f7defa8517696ba02fa3528dfac3f8237d2d7eebfe67def6f3eae3058",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_5_56x45mm.json",
+      "sha256": "bc046515a3560af0279ec31ed3acc2c2feb4a8ee1e154a53de3cf981c5bdc32c",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_5_7x28mm.json",
+      "sha256": "c63466afe8870aff749f8d34d5cf8a244f709047064c98464d62b1f424f2ea3e",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_5_8x42mm.json",
+      "sha256": "0a652a5361ff980bd0c02b1159ccdf52d5292c35a291bcd20399d88cd1ebb978",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_6_8x51mm.json",
+      "sha256": "27bd1aa4a919640d762e210015f96b4819622b1bc35ecf12d8a2785c309cef3d",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_7_62x39mm.json",
+      "sha256": "2b2bdb100f83a084f4076d1ceef298e9fd69d3162f5be6a990b6b7d4a5ffd24f",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_7_62x54mmR.json",
+      "sha256": "7678e07b5442b6570ac468b868d0726d6bcd16c0de1f3fb923d289479506c159",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_9x19mm.json",
+      "sha256": "51d1d8401e75244d5b407648ff89f681083c9efa045eed98dd95e2364cdeb9eb",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "DF_Weapons_Caliber_9x39mm.json",
+      "sha256": "409815cc3dbdb9bfcbbe8f46d922026b25d222c4af85d3568633cc33d0003f4b",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1231,13 +1406,6 @@
       "group": "market",
       "filename": "DF_Weapons_Light.json",
       "sha256": "e7c57a5a7b3aef94e7c954a390e63abfd71343231ea93992933d5f47d1998557",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "DF_Weapons_LMG.json",
-      "sha256": "badbd3d8608adf37ba7cddf65d57def353fadce0246cbbd64a85b77598787c97",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1273,41 +1441,6 @@
       "group": "market",
       "filename": "DF_Weapons_Pisg.json",
       "sha256": "287c035d68d1276b27907e2b8b9291219a0734230f10b3a81d8b55659e419311",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "DF_Weapons_Pistol.json",
-      "sha256": "89bbd37df6509762f50c98d392a9b3aa28f9d85d257e8041ac9c9959eed1c5fc",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "DF_Weapons_Rifle.json",
-      "sha256": "afd489b34562b58595643b573c62075022d51b8793d859f66dd95345a67e295b",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "DF_Weapons_Shotgun.json",
-      "sha256": "e6f68f78aece4e0b1e184a0925a142520fdf25eebd86cec24d710317405d0346",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "DF_Weapons_SMG.json",
-      "sha256": "0f22d724b84b02009a6eca1d7ec8197375b11d6b74587d2ff7b43d803d245b69",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "DF_Weapons_Sniper.json",
-      "sha256": "d977a4417601d231d201edbb08dd929fe0e96337bd2ff80ab3b297cbe8a4130d",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2440,141 +2573,428 @@
     },
     {
       "group": "market",
-      "filename": "SNAFU_Ammo.json",
-      "sha256": "704248430bce94e51afa2a8c244efa5540f1907313ac5f161e1a08f83e519be5",
+      "filename": "SNAFU_Ammunition.json",
+      "sha256": "65a5274f4bb0c89f07b7205c1885e74c483d0f09b957bbe997db33e98ecb92fa",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
-      "filename": "SNAFU_Assault_Rifles.json",
-      "sha256": "57a6186b7f2de266798d29407184a2e94a352c15ff93861f92e55753271e7cf5",
+      "filename": "SNAFU_Bayonets.json",
+      "sha256": "33cd42511e3d28721065488e743d4d1c0e17ad8db310f23a8b3b9ed90f697c12",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "SNAFU_Bipods.json",
-      "sha256": "9225c2d67b389a57ff540b85228fdb5e609813545bd14ef6dd15f720d7b66e81",
+      "sha256": "5cfab3fe0c2ae263276b15b030a0cd49da53680a863cee9f01c287f633e1e229",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
-      "filename": "SNAFU_Endgame_Weapons.json",
-      "sha256": "98fc0990be7952785f989265e7a851007020c42bde6b059353946db21e5a5eab",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "SNAFU_Grips.json",
-      "sha256": "43f807b1c97a0c17e7208a45b8860013c6d9bc633c0c19d0fe93f2dfb63a1e51",
+      "filename": "SNAFU_Foregrips.json",
+      "sha256": "aedb80bbb0a0642c87b98c60344a1811e5933da1761028a257e820d1640161e4",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "SNAFU_Handguards.json",
-      "sha256": "23472e7098694f0ab335fe3f930c522ccad2f54de77b51bc5988145a0510f39e",
+      "sha256": "5b2265db61f0feefc645dcb8f0314a7c474d4ef61bfe276fc4060735e93fb93d",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
-      "filename": "SNAFU_Lights_And_Lasers.json",
-      "sha256": "7b9bdf1defb48f7045127eee4c93645af908ceefb56dcf48753b8cfd482ea005",
+      "filename": "SNAFU_Iron_Sights.json",
+      "sha256": "f8528ebad18d88e73c1ebca2ed647560adc518d8787319c722ca9e05dc5fa47e",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
-      "filename": "SNAFU_Machine_Guns.json",
-      "sha256": "271ee5c8536879a34d65e5d1657ff98fa61b452ec2912659a87da097e72abea2",
+      "filename": "SNAFU_Knives.json",
+      "sha256": "4a42a94a4eb7d5da818d4ab577b434a0fe00f0902c623efaeaa0dd2287d30101",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
-      "filename": "SNAFU_Magazines.json",
-      "sha256": "94329a3c0e10e7fc819e4b64f5eddd1e21dcf198227287a33dec27f2a454273f",
+      "filename": "SNAFU_Lasers.json",
+      "sha256": "e552bc204abcaaf644b8b3a81688ccaf8352757280385a3dc9117f78b03af834",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
-      "filename": "SNAFU_Marksman_Rifles.json",
-      "sha256": "35495360c4174aaf4771aa552fbea3da751221dddf82c317e33b81521d2e3e3f",
+      "filename": "SNAFU_Lights.json",
+      "sha256": "e5a969ff2d013f14d8d2b7a8e55e7253090ff774b06e0bc889490731c34820ba",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
-      "filename": "SNAFU_Melee_And_Bayonets.json",
-      "sha256": "ae04b2e8dbbfcce60af7d5ac0099069ffac13d27f479e7c2b08ce7e7497d4a75",
+      "filename": "SNAFU_Magazines_12_7x55mm.json",
+      "sha256": "6343f362c225b2835eeab3db5e19c4c1d44e6783d2cc4d7177d534b6b215ed38",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
-      "filename": "SNAFU_Mounts_And_Extras.json",
-      "sha256": "82feb685da1f2190541d61532aefd2363a49c2b0674597615266eaeb8be7159b",
+      "filename": "SNAFU_Magazines_12_Gauge.json",
+      "sha256": "daf9bcf45538bd0ca231c0906a4dd161449a9487d81fddbda005bb0ba6c523c5",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_14_5x114mm.json",
+      "sha256": "2538012f39754e72b28e522f837b115b7bb4e2c237b32bda73d0427c2116e44f",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_300_Blackout.json",
+      "sha256": "1861bff313546eadec45ee5650a950e958b7ba50f758ff6244b39dff1a4d0343",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_308_Winchester.json",
+      "sha256": "0bd11b55f1cf2a1fcd776e27900db2c7e914baabc065e3d273bd0b67ac74532e",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_30_06_Springfield.json",
+      "sha256": "3a9588033830894e16d827e005e2c40df2c8c0b45ad0656a6d4503d16f191477",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_338.json",
+      "sha256": "14df90e56724fa3cec0ee7ea8a8cc357ecc8c000c6623220450da2fde201cf30",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_380_ACP.json",
+      "sha256": "27d1dba25659809e87e2ed5c4949ce53b5da0c3d0043ce28df94437570757e77",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_408_CheyTac.json",
+      "sha256": "9e1812a7d7ee5ad18668bb21d8e5556d61073384760bb11105c652ef7ad4e26e",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_45_ACP.json",
+      "sha256": "03b4a94393a77802bf209d9c94edd2a6b2226819fd7d0a69e2890fc101e79765",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_4_6x30mm.json",
+      "sha256": "f2ad54b5cb0026f72c1b3bd99b7082ebcb279406581fb637c00a0b90b326bd85",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_50_BMG.json",
+      "sha256": "820813255f0d542479069b24f30e8841efb926bd33f566babdb562ef6cf093bf",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_5_45x39mm.json",
+      "sha256": "814e2126e5042683f722a1557b0e2ba9485f30d07727681bafa6e8725ae3f365",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_5_56x45mm.json",
+      "sha256": "217078f173c137ee9d076fa01a8d0393c2d4176184485451873ee075d7ce719b",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_5_7x28mm.json",
+      "sha256": "99e279394cf6fb19e0971b89f9893ffc8b03af2529c89243fe790a3c4e9dfb12",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_7_62x25mm.json",
+      "sha256": "676be7decfb2422470f532d090abc36a6ca0c6adca9cdcb8d1dc3753cacd76b7",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_7_62x39mm.json",
+      "sha256": "fccef2123bb4deb67a1a41d9ee5edb5f3edfc6c205b52edc85922ca30612aa4a",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_7_62x54mmR.json",
+      "sha256": "ca72255fb0ad418e04039044045581322c29059760de936426ca2f9f3e35a719",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_9x19mm.json",
+      "sha256": "45be431984dabf565244ba11693225302f6c44eb1cb4260fa08f347d417d2edd",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Magazines_9x39mm.json",
+      "sha256": "f4a152fab7e1b0caabe96319e8c4dc3160bc3b47a037a3062e804613c562328f",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "SNAFU_Muzzle_Devices.json",
-      "sha256": "f42b0c271d07b9003cba7e67a30587404b3e1dbcb1c49bc0bc71f2591a6e30af",
+      "sha256": "bf50747f5d20cd59d20c771521bb088b2512b55191c7796e5e1b29aaeec82a0d",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
-      "filename": "SNAFU_Optics.json",
-      "sha256": "6103b9cbe9b2c07ed5464c24f43bb4ce66dfc794b0ad85424a72a749edacb369",
+      "filename": "SNAFU_Optic_Mounts.json",
+      "sha256": "acf69570511e039d5ccaf19fe56a20daa435d26b799e31d915673e7665e5419a",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
-      "filename": "SNAFU_Pistols.json",
-      "sha256": "a8b1b0591b6d2f894a2a2545cb354763aad0cc21bf069968637703dca047020e",
+      "filename": "SNAFU_Pistol_Grips.json",
+      "sha256": "d179adc575fee08d3b5b2cd45671968edc0060e619e3a14ce8a451ca94e66b88",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
-      "filename": "SNAFU_Rifles.json",
-      "sha256": "8ca21ab97a449a08f199ad2264a116df2b9d947ca950becf2daf3a5ee9590379",
+      "filename": "SNAFU_Red_Dot_and_Holographic_Sights.json",
+      "sha256": "499418fcd4b5e5eefa641a11e9f435af88aa2eff7b36501970c0292b73055fc5",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
-      "filename": "SNAFU_Shotguns.json",
-      "sha256": "0ae7841f0fdb6de09e089f656be1078c4a63cdccb860f647aab34e8fd4ac06ec",
+      "filename": "SNAFU_Scopes.json",
+      "sha256": "15ce42ab8a4baff165a85955d8ee60d5f5940db84141582d15657369eb98b516",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Shotgun_Chokes.json",
+      "sha256": "628f241cec1dc785c6e9c47db88ed9ede80bad9f1cd6c738683159d04139243a",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "SNAFU_Stocks.json",
-      "sha256": "086e34d7eb4272b12844a7322d30035f9f6b3d22c1b00877d7166bf194d63f62",
-      "topLevelType": "object",
-      "entryCount": 7
-    },
-    {
-      "group": "market",
-      "filename": "SNAFU_Submachine_Guns.json",
-      "sha256": "2d82a1e204f8fe44bfba4ae37933181891a61e06f4fc8bf8cae9518efb73f747",
+      "sha256": "7fc165a06ae25b81552c48749cb86911e8211381c2ba8646d0f42f30ddb2f7b7",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "market",
       "filename": "SNAFU_Suppressors.json",
-      "sha256": "bb7f28509dbf7615ac98fddefc75dfda059af10cd463f4734492b0ef6cb94fbd",
+      "sha256": "16099f5f4b82955151245dc63dc8e77e46b87de9a02c06937e906bedd11c6988",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_12_7x55mm.json",
+      "sha256": "e6812f6e3292986d2b3545bf840bd0875dee07b82e841b4ca8e4784bc281ce48",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_12_Gauge.json",
+      "sha256": "007451924819c7edd63e8be2b3cd30b2bffa576a666bd8dc1e2582e9261b8d65",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_14_5x114mm.json",
+      "sha256": "1204c0b1545c9447a4c9ec90eaca09eda9863e047bd913c90b549e9aae2b3f9c",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_300_Blackout.json",
+      "sha256": "1ff5822027139d549fefc118a190bdec132566362f81ccd10d12522675ee38cb",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_308_Winchester.json",
+      "sha256": "888de29582a7c6a37f98f809f0425b0f70d460bfb7a8175efcf849d759169585",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_30_06_Springfield.json",
+      "sha256": "b576e0179df2be9570181143aaf405c18da6f0a5ea8980ceb374b1af49cd08aa",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_338.json",
+      "sha256": "3ddc9e7ade709af95900cd58160fb6c889a0e48639fc8d586177ee46baaf9ed2",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_357_Magnum.json",
+      "sha256": "990c79bfff0b5a037578d702490fa67d2e1029c15ada038c24e15329cb2f4349",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_380_ACP.json",
+      "sha256": "001109f64167ed7305c1f610c2b63e8c85e7a6187b23ff338e0af81a7f532713",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_408_CheyTac.json",
+      "sha256": "a7ff60f3ef0a2e38bdf98444687faf9100d3cb927134f1150f7fa7790fe42df3",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_44_Magnum.json",
+      "sha256": "986924b83b818d286631e0c72e513100d55b9d3fed469ed7006f58df2e2e879c",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_45_70.json",
+      "sha256": "443b472be4695d55ab15fdb4d69fb257ede6e5908a98385f31180023dc9fee17",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_45_ACP.json",
+      "sha256": "323f8f144e4a9395c6906708d03a0dd11a02f883d29073b53d8db67b002101b8",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_4_6x30mm.json",
+      "sha256": "7882024e4357f958529e0f863c45dc5d152305a6e656d81ba62ee10243a00fb3",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_500_S_W.json",
+      "sha256": "0e8401860b2063e34805d1137e77f910bcced9ac4923e2db897dcfd7be1c9942",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_50_BMG.json",
+      "sha256": "65a4b116ba5710f1a612568b26e4bcbf36c82d317fcb3d9d9236390911af2855",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_5_45x39mm.json",
+      "sha256": "2f1037186b8c67adf8421aa520a4d8ac24b4f1241dda18ae9c9d6d9f4643391e",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_5_56x45mm.json",
+      "sha256": "8f5fcbf871acc049a4eee06200fe6c28559d8cb7daa02aac99baf77679865c4e",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_5_7x28mm.json",
+      "sha256": "b184f7e234efb572af4c5758e449d41f84b9e6e6745d24d9ecd76f40a578b7f3",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_7_62x25mm.json",
+      "sha256": "c3f503064c036e12d11aa651916001e21b46ada8c0e038309a112a57def4788d",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_7_62x39mm.json",
+      "sha256": "b0c354d220ded0313a51ad4cd53abe45c3b9510715e88083e4b4a0c27512b81f",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_7_62x54mmR.json",
+      "sha256": "f972f1f0a7d2dbd8a62a72246e24560f27c71fe5f7fff15fed8d596b6dc345cb",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_9x19mm.json",
+      "sha256": "6340143bedcd3650ca666440bb10896208cfd02a8889296e6cdaf8738efed1f3",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "SNAFU_Weapons_9x39mm.json",
+      "sha256": "bb34c54411a9baf327fa459572f72f01065fcbb613d33f5ebbbd71658ab99dc8",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2665,7 +3085,7 @@
     {
       "group": "market",
       "filename": "Vanilla_Vehicle_Parts.json",
-      "sha256": "a31a0eca078575a3a319c9fcdde487982b3da9898023bfdec2e59d0a55d06304",
+      "sha256": "315046f68612b2bce49f6ad32bf75a9dd6296a927516a4fee45ecbeaaa1f0229",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2707,7 +3127,7 @@
     {
       "group": "traders",
       "filename": "Blackmarket.json",
-      "sha256": "d0d83ed783cb24f709298a734c939f10b7b976b5645c00542529d8d6ef7414ae",
+      "sha256": "8f8a30aa1d014f55715da229822fa7bd0ae0f896bf5dc71136d11fa148561b07",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2722,6 +3142,27 @@
       "group": "traders",
       "filename": "Boat_Supplies.json",
       "sha256": "b57a3276cd1f8505a4a4a6a90093c9cea615171a4a2aa2383aba768da877ee3a",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "BTA_Cinder_Vending_AJWeapons.json",
+      "sha256": "733f4cd8bca9cc66d5566cb63e514fc791bb1e9076004a6ab4310ef88058693f",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "BTA_Cinder_Vending_DeltaForce.json",
+      "sha256": "67208b173316d9d939c57996152d5c9d265825f99fe7d9cd8487173d7c275db2",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
+      "filename": "BTA_Cinder_Vending_SNAFU.json",
+      "sha256": "7c0b86a7ed09e37f7e743645485c5b63ae42e02664980f3b2617e3f3711ec9e6",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2742,7 +3183,7 @@
     {
       "group": "traders",
       "filename": "BTA_Vending_AJWeapons.json",
-      "sha256": "dd9771a5bfbb914c46eded18bf956a52c18f67f9bbdcb01a66cda20bd077562c",
+      "sha256": "644df8e519bfbee4aeb377458a99bce1f4035893d6bd1c2c01b34cec1edbd24e",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2756,7 +3197,7 @@
     {
       "group": "traders",
       "filename": "BTA_Vending_DeltaForce.json",
-      "sha256": "5df058be425ff2899b687465912f69fe2c73a6e29aba8854282e6f0049fb89f1",
+      "sha256": "0b81f2341cc59c0e540f0e52e2896703f88d7e869224237be79cdcb3943b4496",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2770,7 +3211,7 @@
     {
       "group": "traders",
       "filename": "BTA_Vending_SNAFU.json",
-      "sha256": "8e4305231eb87ceb9d696dc8a168a695d44b69596a64c31540c20791951bfce2",
+      "sha256": "f601f814ecd7a25819c53073657eebd6667eca885bbf32b184d59acfe8fcdcc4",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2896,7 +3337,7 @@
     {
       "group": "traders",
       "filename": "Secret_Trader.json",
-      "sha256": "cbef33edc63a4845028e2ebc250a0fd57f6cf4de41465e3ef7b26ad6cfa0299c",
+      "sha256": "09ef804a62f004e3ca57cec258d8d4f357e7a0cabea0f41782c83b385fec0879",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2924,7 +3365,7 @@
     {
       "group": "traders",
       "filename": "Weapons.json",
-      "sha256": "9e9914ac33bd02db98310c7d01d9274b24efa661f20ea8f4bdee423324f84abe",
+      "sha256": "a6812b490801134bf5793518cfef10e9ed7e5a07492f57e060d724fa76dff98f",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2945,7 +3386,7 @@
     {
       "group": "traderzones",
       "filename": "Boat_Supplies.json",
-      "sha256": "81e31da6d9cbeac7b983993a8316ec1253be2144273a33a21451b209aa743e23",
+      "sha256": "1388eda4200d065b417952776260f859b345cc0d87717cff9462a8e63909bbea",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -3015,21 +3456,21 @@
     {
       "group": "traderzones",
       "filename": "Main_Attachments_Trader.json",
-      "sha256": "ffbeb96f993d4c9327f4baf8564f42c90814d6c7434cc586e8cdee21b65e71a9",
+      "sha256": "cb9f7b0d7bdf1e72115d4c28815f9fde21d36383fd7553674c972c5593cbb64a",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_BuildingSupplies_Trader.json",
-      "sha256": "b926f153ba6a69d37c8d8f7470a6d1e6ab632aa1b412c5c612b3ecf732ad629f",
+      "sha256": "8ee265f66bcf886821fb3589f1b8860cb923e23cefbc9505319166311b7d6f0a",
       "topLevelType": "object",
       "entryCount": 7
     },
     {
       "group": "traderzones",
       "filename": "Main_Clothing_Trader.json",
-      "sha256": "6cbb925f4fab7882c229da5bed970466fcd23089ca43c71e7d01ef7a78803f15",
+      "sha256": "211454301b4ac66429e61bce2ded3117729676043e4f9d68919f2cc868654fb5",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -3057,7 +3498,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "1c6e1238fdd4c1b7f772e48fb9c1d554ecafdb83ef7bd89dbe8bad6a3bc381e4",
+      "sha256": "05a8632188952b8baebbf8f78550fac563ef3d16f109a07ccd0bf9d042f8274d",
       "topLevelType": "object",
       "entryCount": 7
     },
