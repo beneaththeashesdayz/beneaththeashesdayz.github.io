@@ -48,7 +48,20 @@
       "MinStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": []
+      "Variants": [
+        "rag_baseitems_coffee_mug_blue_break",
+        "rag_baseitems_coffee_mug_green_bar",
+        "rag_baseitems_coffee_mug_green_break",
+        "rag_baseitems_coffee_mug_green_fresh",
+        "rag_baseitems_coffee_mug_purple_bar",
+        "rag_baseitems_coffee_mug_purple_break",
+        "rag_baseitems_coffee_mug_rag",
+        "rag_baseitems_coffee_mug_red_bar",
+        "rag_baseitems_coffee_mug_red_break",
+        "rag_baseitems_coffee_mug_yellow_break",
+        "rag_baseitems_coffee_mug_yellow_fresh",
+        "rag_baseitems_coffee_mug_yellow_shop"
+      ]
     },
     {
       "ClassName": "rag_baseitems_coffee_pack",

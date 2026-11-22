@@ -15,10 +15,29 @@
       "MaxStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": [
-        "BTA_HorseOffer_Chestnut",
-        "BTA_HorseOffer_Chestnut_Light"
-      ]
+      "Variants": []
+    },
+    {
+      "ClassName": "BTA_HorseOffer_Chestnut",
+      "MinPriceThreshold": 12500,
+      "MaxPriceThreshold": 12500,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "BTA_HorseOffer_Chestnut_Light",
+      "MinPriceThreshold": 12500,
+      "MaxPriceThreshold": 12500,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
     },
     {
       "ClassName": "BTA_HorseOffer_Black",
@@ -29,12 +48,51 @@
       "MaxStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": [
-        "BTA_HorseOffer_White",
-        "BTA_HorseOffer_Gray",
-        "BTA_HorseOffer_Gray2",
-        "BTA_HorseOffer_Liver"
-      ]
+      "Variants": []
+    },
+    {
+      "ClassName": "BTA_HorseOffer_White",
+      "MinPriceThreshold": 15000,
+      "MaxPriceThreshold": 15000,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "BTA_HorseOffer_Gray",
+      "MinPriceThreshold": 15000,
+      "MaxPriceThreshold": 15000,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "BTA_HorseOffer_Gray2",
+      "MinPriceThreshold": 15000,
+      "MaxPriceThreshold": 15000,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "BTA_HorseOffer_Liver",
+      "MinPriceThreshold": 15000,
+      "MaxPriceThreshold": 15000,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
     },
     {
       "ClassName": "BTA_HorseOffer_Palomino",
@@ -45,10 +103,29 @@
       "MaxStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": [
-        "BTA_HorseOffer_BuckSkin",
-        "BTA_HorseOffer_BrownWhite"
-      ]
+      "Variants": []
+    },
+    {
+      "ClassName": "BTA_HorseOffer_BuckSkin",
+      "MinPriceThreshold": 17500,
+      "MaxPriceThreshold": 17500,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "BTA_HorseOffer_BrownWhite",
+      "MinPriceThreshold": 17500,
+      "MaxPriceThreshold": 17500,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
     },
     {
       "ClassName": "BTA_HorseOffer_Appaloosa",
@@ -59,11 +136,40 @@
       "MaxStockThreshold": 1,
       "QuantityPercent": -1,
       "SpawnAttachments": [],
-      "Variants": [
-        "BTA_HorseOffer_Paint",
-        "BTA_HorseOffer_BlackWhiteSpot",
-        "BTA_HorseOffer_RedRoan"
-      ]
+      "Variants": []
+    },
+    {
+      "ClassName": "BTA_HorseOffer_Paint",
+      "MinPriceThreshold": 20000,
+      "MaxPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "BTA_HorseOffer_BlackWhiteSpot",
+      "MinPriceThreshold": 20000,
+      "MaxPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
+    },
+    {
+      "ClassName": "BTA_HorseOffer_RedRoan",
+      "MinPriceThreshold": 20000,
+      "MaxPriceThreshold": 20000,
+      "SellPricePercent": -1,
+      "MinStockThreshold": 1,
+      "MaxStockThreshold": 1,
+      "QuantityPercent": -1,
+      "SpawnAttachments": [],
+      "Variants": []
     },
     {
       "ClassName": "BTA_HorseOffer_BTASkeleton",

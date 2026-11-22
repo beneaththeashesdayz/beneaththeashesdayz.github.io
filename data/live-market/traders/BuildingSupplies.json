@@ -23,7 +23,6 @@
     "Batteries:1",
     "BBP_Items:1",
     "BBP_Decorating:1",
-    "Supplies:1",
     "Tools:1",
     "Lights:1",
     "Flags:1",
@@ -41,8 +40,14 @@
     "wrench": 1,
     "screwdriver": 1,
     "camonet": 1,
-    "camonetcivil": 1,
-    "camonetdesert": 1,
-    "camonetwinter": 1
+    "rope": 1,
+    "nailbox": 1,
+    "tripod": 1,
+    "barbedwire": 1,
+    "burlapsack": 1,
+    "fabric": 1,
+    "metalplate": 1,
+    "metalwire": 1,
+    "netting": 1
   }
 }
