@@ -18,6 +18,8 @@
     "Gebs_Fishing_Gear:2"
   ],
   "Items": {
+    "binoculars": 0,
+    "chernarusmap": 0,
     "compass": 0,
     "gpsreceiver": 0,
     "lbs_sleepingpacked_new_camo": 0,

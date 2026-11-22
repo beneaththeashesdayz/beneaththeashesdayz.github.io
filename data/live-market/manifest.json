@@ -1,6 +1,6 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-22T16:21:13.553683+00:00",
+  "syncedAt": "2026-11-22T17:20:52.702063+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
@@ -1622,7 +1622,7 @@
     {
       "group": "market",
       "filename": "Exotic_Vanilla_Vehicle_Parts.json",
-      "sha256": "cd307417fdbfe58ea04dccf30f36c517b50108cccf121009726c8b6c86530c2e",
+      "sha256": "1d25eb2c12e061bd6fe2a50c3f3b0040b9882f78fed21e01c6524430f3e1d1fa",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2203,7 +2203,7 @@
     {
       "group": "market",
       "filename": "Navigation.json",
-      "sha256": "fbd0865ba2f15abb88a3a39726ed9d37af028f5159b172b3a4511563325cf378",
+      "sha256": "40ca16b0575b1636050f18e65a1dc3d811e771437e03ca5bcf38ef2e444fec2e",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2378,7 +2378,7 @@
     {
       "group": "market",
       "filename": "Rifles.json",
-      "sha256": "aba1fe93bd640269e2c9fe44de61d797743f876152076e68737cadfbc8333e48",
+      "sha256": "07f082db7c879c434a7ab226b2f81dc3ee518c76c9761c440053757411462e1b",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2854,7 +2854,7 @@
     {
       "group": "traders",
       "filename": "Exotric_Vehicle_Parts.json",
-      "sha256": "03044cc0800a8a86cfa858f9ccdf468bcdd05faf7f193896b035906e905e9ad4",
+      "sha256": "c93366b2fd5393ba14e8b7e5ecb3d46faee75ca05383ab094c9e47603c7ff59f",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2903,7 +2903,7 @@
     {
       "group": "traders",
       "filename": "Special_Gear.json",
-      "sha256": "b75d05991d7bf105f23be8325c6f3bdbe37b7d5ea23c8cb1157a7a4b5661161f",
+      "sha256": "577e6e000395d6a178d47bb519776f75d328e760cc8c415c41d1cdcfbd13b3ed",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -2917,7 +2917,7 @@
     {
       "group": "traders",
       "filename": "Vehicle_Parts.json",
-      "sha256": "5f2c70299c1ac657fa166637553fb0a6db051834af2db85e07de89f1958467d4",
+      "sha256": "6d6dd4ed2dba9835eee247a586f70eeacb3180c6e5a370e35c7f21e828d6fe94",
       "topLevelType": "object",
       "entryCount": 13
     },

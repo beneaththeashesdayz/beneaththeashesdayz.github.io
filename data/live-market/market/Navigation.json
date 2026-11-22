@@ -8,8 +8,8 @@
   "Items": [
     {
       "ClassName": "binoculars",
-      "MaxPriceThreshold": 3000,
-      "MinPriceThreshold": 2000,
+      "MaxPriceThreshold": 75,
+      "MinPriceThreshold": 75,
       "SellPricePercent": -1,
       "MaxStockThreshold": 1,
       "MinStockThreshold": 1,

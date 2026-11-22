@@ -21,10 +21,13 @@
   "Categories": [
     "4KBOSS_Vehicle_Parts:1",
     "Expansion_Vehicle_Parts:1",
-    "Vanilla_Vehicle_Parts:1"
+    "Vanilla_Vehicle_Parts:1",
+    "Exotic_Vanilla_Vehicle_Parts:1"
   ],
   "Items": {
     "garage_sign_playerkit": 0,
-    "garage_sign_playerkit_2": 0
+    "garage_sign_playerkit_2": 0,
+    "glowplug": 1,
+    "truckbattery": 1
   }
 }

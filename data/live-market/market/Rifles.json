@@ -20,7 +20,8 @@
       "Variants": [
         "cz527_black",
         "cz527_camo",
-        "cz527_green"
+        "cz527_green",
+        "cz527_woodland"
       ]
     },
     {
@@ -78,7 +79,8 @@
         "sawedoffmosin9130",
         "sawedoffmosin9130_black",
         "sawedoffmosin9130_camo",
-        "sawedoffmosin9130_green"
+        "sawedoffmosin9130_green",
+        "mosin9130_woodland"
       ]
     },
     {
@@ -119,7 +121,8 @@
       "Variants": [
         "sks_black",
         "sks_green",
-        "sks_winter"
+        "sks_winter",
+        "sks_woodland"
       ]
     },
     {
