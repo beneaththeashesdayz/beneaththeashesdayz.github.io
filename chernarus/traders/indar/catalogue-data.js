@@ -7,8 +7,8 @@ window.traderCatalogue={traderName:'Jonas Flint',currency:'USD',items:[
 {name:'Ammo 308wintracer',className:'ammo_308wintracer',category:'Ammo',traderSells:true,traderBuys:true,buyPrice:64,sellPrice:32},
 {name:'Ammo 357',className:'ammo_357',category:'Ammo',traderSells:true,traderBuys:true,buyPrice:55,sellPrice:28},
 {name:'Ammo 380',className:'ammo_380',category:'Ammo',traderSells:true,traderBuys:true,buyPrice:22,sellPrice:11},
-{name:'Ammo 40mm Chemgas',className:'ammo_40mm_chemgas',category:'Ammo',traderSells:true,traderBuys:true,buyPrice:1000,sellPrice:500},
-{name:'Ammo 40mm Explosive',className:'ammo_40mm_explosive',category:'Ammo',traderSells:true,traderBuys:true,buyPrice:1000,sellPrice:500},
+{name:'Ammo 40mm Chemgas',className:'ammo_40mm_chemgas',category:'Ammo',traderSells:false,traderBuys:true,sellPrice:500},
+{name:'Ammo 40mm Explosive',className:'ammo_40mm_explosive',category:'Ammo',traderSells:false,traderBuys:true,sellPrice:500},
 {name:'Ammo 40mm Smoke Black',className:'ammo_40mm_smoke_black',category:'Ammo',traderSells:true,traderBuys:true,buyPrice:1000,sellPrice:500},
 {name:'Ammo 40mm Smoke Green',className:'ammo_40mm_smoke_green',category:'Ammo',traderSells:true,traderBuys:true,buyPrice:1000,sellPrice:500},
 {name:'Ammo 40mm Smoke Red',className:'ammo_40mm_smoke_red',category:'Ammo',traderSells:true,traderBuys:true,buyPrice:1000,sellPrice:500},
@@ -321,7 +321,5 @@ window.traderCatalogue={traderName:'Jonas Flint',currency:'USD',items:[
 {name:'Pipe',className:'pipe',category:'Vanilla Melee Weapons',traderSells:true,traderBuys:true,buyPrice:300,sellPrice:150},
 {name:'Pipewrench',className:'pipewrench',category:'Vanilla Melee Weapons',traderSells:true,traderBuys:true,buyPrice:500,sellPrice:250},
 {name:'Policebaton',className:'policebaton',category:'Vanilla Melee Weapons',traderSells:true,traderBuys:true,buyPrice:500,sellPrice:250},
-{name:'Spearbone',className:'spearbone',category:'Vanilla Melee Weapons',traderSells:true,traderBuys:true,buyPrice:500,sellPrice:250},
-{name:'Spearstone',className:'spearstone',category:'Vanilla Melee Weapons',traderSells:true,traderBuys:true,buyPrice:400,sellPrice:200},
 {name:'Stunbaton',className:'stunbaton',category:'Vanilla Melee Weapons',traderSells:true,traderBuys:true,buyPrice:750,sellPrice:375}
 ]};

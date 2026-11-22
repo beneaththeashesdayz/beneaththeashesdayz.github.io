@@ -19,9 +19,6 @@
   "UseCategoryOrder": 0,
   "Categories": [
     "MYDF_Melee:1",
-    "Buttstocks:1",
-    "Handguards:1",
-    "Magazines:1",
     "DF_Weapons_Caliber_12_Gauge:1",
     "DF_Weapons_Caliber_300_Blackout:1",
     "DF_Weapons_Caliber_308_Win_and_7_62x51mm:1",
@@ -37,14 +34,21 @@
     "DF_Weapons_Caliber_7_62x39mm:1",
     "DF_Weapons_Caliber_7_62x54mmR:1",
     "DF_Weapons_Caliber_9x19mm:1",
-    "DF_Weapons_Caliber_9x39mm:1"
+    "DF_Weapons_Caliber_9x39mm:1",
+    "DF_Weapons_Barrel:1",
+    "DF_Weapons_Bipod:1",
+    "DF_Weapons_Frog:1",
+    "DF_Weapons_Handguard:1",
+    "DF_Weapons_Laser:1",
+    "DF_Weapons_Light:1",
+    "DF_Weapons_Magazine:1",
+    "DF_Weapons_Muzzle:1",
+    "DF_Weapons_Optic:1",
+    "DF_Weapons_Other:1",
+    "DF_Weapons_Pisg:1",
+    "DF_Weapons_Stock:1",
+    "MYDF_Ammo:1",
+    "MYDF_Ammo_Boxes:1"
   ],
-  "Items": {
-    "mag_ak101_30rnd": 1,
-    "mag_ak74_30rnd": 1,
-    "mag_akm_30rnd": 1,
-    "mag_cmag_20rnd": 1,
-    "mag_deagle_9rnd": 1,
-    "mag_stanag_30rnd": 1
-  }
+  "Items": {}
 }

@@ -1,10 +1,10 @@
 {
   "m_Version": 12,
-  "DisplayName": "MYDF Optics",
+  "DisplayName": "Delta Force - Optics",
   "Icon": "Deliver",
   "Color": "FBFCFEFF",
   "IsExchange": 0,
-  "InitStockPercent": 100.0,
+  "InitStockPercent": 100,
   "Items": [
     {
       "ClassName": "My_DF_Weapons_Attachments_optic_1p",

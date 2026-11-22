@@ -45,6 +45,12 @@
     "mag_stanag_30rnd": 1,
     "tlrlight": 1,
     "universallight": 1,
-    "weaponcleaningkit": 1
+    "weaponcleaningkit": 1,
+    "ammo_40mm_explosive": 2,
+    "ammo_40mm_chemgas": 2,
+    "ammo_40mm_smoke_black": 1,
+    "ammo_40mm_smoke_green": 1,
+    "ammo_40mm_smoke_red": 1,
+    "ammo_40mm_smoke_white": 1
   }
 }

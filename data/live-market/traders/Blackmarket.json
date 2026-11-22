@@ -40,6 +40,12 @@
   ],
   "Items": {
     "tlrlight": 2,
-    "universallight": 2
+    "universallight": 2,
+    "ammo_40mm_explosive": 1,
+    "ammo_40mm_chemgas": 1,
+    "ammo_40mm_smoke_black": 1,
+    "ammo_40mm_smoke_green": 1,
+    "ammo_40mm_smoke_red": 1,
+    "ammo_40mm_smoke_white": 1
   }
 }
