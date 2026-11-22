@@ -1,0 +1,9 @@
+.trader-maintenance{padding-top:clamp(32px,6vw,72px);padding-bottom:clamp(40px,7vw,88px)}
+.trader-maintenance .maintenance-panel{max-width:900px;margin:0 auto;padding:clamp(24px,5vw,48px);border:1px solid #87633D;border-left:4px solid #C69A52;background:linear-gradient(125deg,#241d16,#111719 80%);box-sizing:border-box}
+.trader-maintenance .maintenance-world{color:var(--muted);font-size:.875rem;letter-spacing:.12em;text-transform:uppercase;margin:0 0 20px}
+.trader-maintenance h1{font-size:clamp(2rem,6vw,4rem);line-height:1.08;margin:0 0 24px;overflow-wrap:break-word}
+.trader-maintenance .maintenance-status{display:inline-block;max-width:100%;box-sizing:border-box;padding:10px 16px;border:1px solid #C69A52;background:#302519;color:#E1BC78;font-size:1rem;font-weight:900;line-height:1.5;letter-spacing:.08em;text-transform:uppercase;margin:0 0 22px}
+.trader-maintenance .maintenance-message{font-size:1rem;line-height:1.8;color:var(--muted);max-width:64ch;margin:0 0 16px}
+.trader-maintenance .maintenance-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.trader-maintenance .maintenance-links a{font-size:1rem;line-height:1.5;padding:12px 18px;box-sizing:border-box;text-align:center;max-width:100%}
+@media(max-width:480px){.trader-maintenance .maintenance-links{flex-direction:column}.trader-maintenance .maintenance-links a{width:100%}}
