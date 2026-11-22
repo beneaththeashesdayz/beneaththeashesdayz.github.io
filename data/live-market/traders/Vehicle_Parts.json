@@ -23,5 +23,8 @@
     "Expansion_Vehicle_Parts:1",
     "Vanilla_Vehicle_Parts:1"
   ],
-  "Items": {}
+  "Items": {
+    "garage_sign_playerkit": 0,
+    "garage_sign_playerkit_2": 0
+  }
 }
