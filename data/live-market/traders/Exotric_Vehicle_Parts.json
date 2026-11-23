@@ -29,7 +29,8 @@
     "BTA_VehicleParts_jeep_gladiatorf9_boss:1",
     "BTA_VehicleParts_accessories:1",
     "BTA_VehicleParts_vehicles_objects_gear:1",
-    "BTA_VehicleParts_mh6:1"
+    "BTA_VehicleParts_mh6:1",
+    "Vehicle_Recovery:0"
   ],
   "Items": {
     "supra_wheelblue": 3,
@@ -2753,7 +2754,6 @@
     "muciwheel_offroad": 1,
     "dodgeram_cargo2_vectortrails": 3,
     "x5mcompetition_cargo1_pink": 1,
-    "hb_flipvehicle_bollard": 0,
     "minicooper_wheel": 1,
     "rx8hachi_trunk_blue": 1,
     "nissan_codriver": 1,

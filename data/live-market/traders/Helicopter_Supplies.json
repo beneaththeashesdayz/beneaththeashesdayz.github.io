@@ -22,7 +22,8 @@
     "Helicopter_Supplies:1",
     "RFFS_Heliz_Parts:1",
     "RFFS_Heliz_Maintenance:1",
-    "RFFS_Heliz_Flight_Cases:1"
+    "RFFS_Heliz_Flight_Cases:1",
+    "Vehicle_Recovery:0"
   ],
   "Items": {
     "sparkplug": 1,

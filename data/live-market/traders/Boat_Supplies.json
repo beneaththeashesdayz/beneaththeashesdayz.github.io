@@ -18,7 +18,8 @@
   "DisplayCurrencyName": "BTA Dollars",
   "UseCategoryOrder": 1,
   "Categories": [
-    "Boat_Supplies:1"
+    "Boat_Supplies:1",
+    "Vehicle_Recovery:0"
   ],
   "Items": {
     "sparkplug": 1,

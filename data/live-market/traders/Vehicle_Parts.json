@@ -22,7 +22,8 @@
     "4KBOSS_Vehicle_Parts:1",
     "Expansion_Vehicle_Parts:1",
     "Vanilla_Vehicle_Parts:1",
-    "Exotic_Vanilla_Vehicle_Parts:1"
+    "Exotic_Vanilla_Vehicle_Parts:1",
+    "Vehicle_Recovery:0"
   ],
   "Items": {
     "garage_sign_playerkit": 0,

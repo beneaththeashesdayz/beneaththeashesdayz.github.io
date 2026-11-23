@@ -1,0 +1,13 @@
+{
+  "m_Version": 6,
+  "m_DisplayName": "Cinder Military Outfitter",
+  "Position": [
+    7842.01,
+    1.47634,
+    902.305
+  ],
+  "Radius": 4,
+  "BuyPricePercent": 200,
+  "SellPricePercent": 200,
+  "Stock": {}
+}

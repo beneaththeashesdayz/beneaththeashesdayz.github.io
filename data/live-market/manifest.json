@@ -1,13 +1,13 @@
 {
   "source": "GTX Gaming DayZ Chernarus live server",
-  "syncedAt": "2026-11-22T23:21:15.705698+00:00",
+  "syncedAt": "2026-11-23T00:24:06.981626+00:00",
   "marketPath": "profiles/ExpansionMod/Market",
   "tradersPath": "profiles/ExpansionMod/Traders",
   "traderZonesPath": "mpmissions/dayzOffline.chernarusplus/expansion/traderzones",
   "marketSettingsPath": "mpmissions/dayzOffline.chernarusplus/expansion/settings/MarketSettings.json",
-  "marketFileCount": 427,
-  "traderFileCount": 36,
-  "traderZoneFileCount": 22,
+  "marketFileCount": 429,
+  "traderFileCount": 37,
+  "traderZoneFileCount": 23,
   "files": [
     {
       "group": "market",
@@ -293,6 +293,13 @@
       "group": "market",
       "filename": "Backpacks.json",
       "sha256": "c375e27468ab92b5fd9b2407be3e19f37112e1eab5721c7871093ccbb392b96b",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
+      "filename": "BallerZ_Military_Gear.json",
+      "sha256": "e1f9c114801760400e68cdd3e678172b3c3e45374af58026b419a1a731e4c8d0",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -1517,7 +1524,7 @@
     {
       "group": "market",
       "filename": "Engine_Parts.json",
-      "sha256": "b5a52973b142d86fe36079efaab5cd032e291b354b750ed39b440051d1fd1f05",
+      "sha256": "34ece45fe057c7828ff0d51443119b73fdfe91ddf11e3a1384cacbbd9f838f3c",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -2972,6 +2979,13 @@
     },
     {
       "group": "market",
+      "filename": "Vehicle_Recovery.json",
+      "sha256": "0f77795b676d7cd5c4df7cdf9f66c5075bb0d52d922a811b33337f03d4f4f880",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "market",
       "filename": "Vests.json",
       "sha256": "66137763c0c34cda9e753c31d23aa1f575d4e4ab53d42b470f9fb575995795ab",
       "topLevelType": "object",
@@ -3022,7 +3036,7 @@
     {
       "group": "traders",
       "filename": "Boat_Supplies.json",
-      "sha256": "b57a3276cd1f8505a4a4a6a90093c9cea615171a4a2aa2383aba768da877ee3a",
+      "sha256": "29fb0806cef93f5589c9a2dd90446cb930664b04c83f89d42f4fa2b48dfb3228",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -3105,6 +3119,13 @@
     },
     {
       "group": "traders",
+      "filename": "Cinder_Military_Outfitter.json",
+      "sha256": "b2d8bd275f94fd7a803d4577fde6616e8d207f18976c9825b2030fbc85f68abf",
+      "topLevelType": "object",
+      "entryCount": 13
+    },
+    {
+      "group": "traders",
       "filename": "Clothing.json",
       "sha256": "6e7d5d778f108bfc6234532d90f4e8e9310d09e39e51fbbfcd733310b215a282",
       "topLevelType": "object",
@@ -3176,7 +3197,7 @@
     {
       "group": "traders",
       "filename": "Exotric_Vehicle_Parts.json",
-      "sha256": "c93366b2fd5393ba14e8b7e5ecb3d46faee75ca05383ab094c9e47603c7ff59f",
+      "sha256": "eec37fcb0b8c160ae7e4b4ba35cba28e8c2d67b14a4e245d81fa8e8004a672d9",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -3190,7 +3211,7 @@
     {
       "group": "traders",
       "filename": "Helicopter_Supplies.json",
-      "sha256": "45a1d3b755cde8a460f68193807daace715de991a7ef767092c4ad9ced6ee0ac",
+      "sha256": "865f311bcc826b2292f9851a8f070451434c31623e06d1b181333daa4851de2a",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -3239,7 +3260,7 @@
     {
       "group": "traders",
       "filename": "Vehicle_Parts.json",
-      "sha256": "6d6dd4ed2dba9835eee247a586f70eeacb3180c6e5a370e35c7f21e828d6fe94",
+      "sha256": "9ff50c8c84b91552ff7d519fcc010bf2b18b27a84c1308964bf448260d111e48",
       "topLevelType": "object",
       "entryCount": 13
     },
@@ -3253,7 +3274,7 @@
     {
       "group": "traderzones",
       "filename": "Blackmarket.json",
-      "sha256": "1290f70bc62c9f5b56804ce19f8e2c79dce126031a400c9299ca222e58d5e775",
+      "sha256": "8ae24b2624cf4f8165776be1d5e0ab7fdcc28517a166025dffedf265cf870d89",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -3267,7 +3288,7 @@
     {
       "group": "traderzones",
       "filename": "Boat_Supplies.json",
-      "sha256": "1388eda4200d065b417952776260f859b345cc0d87717cff9462a8e63909bbea",
+      "sha256": "f1711a45a02d9192e3e9f88e5aced52c6967d577b406eb58d65f8a96de043949",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -3282,6 +3303,13 @@
       "group": "traderzones",
       "filename": "BTA_DogSupplies_Rowan.json",
       "sha256": "2d565d0d3a08a2c2af4bffd83d521f82d2467e16c2d3ee565779cab8a9d7627b",
+      "topLevelType": "object",
+      "entryCount": 7
+    },
+    {
+      "group": "traderzones",
+      "filename": "Cinder_Military_Outfitter.json",
+      "sha256": "b6b3f0c2a7e16aec1d4303e4079fabe514fe7094df15a263ee139e2ab05af453",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -3323,7 +3351,7 @@
     {
       "group": "traderzones",
       "filename": "Helicopter_Supplies.json",
-      "sha256": "25f1703ecd570a770cf0cf62e09a6fb33af544fbe97a3e7cf9697d452bc181af",
+      "sha256": "cb6ae6f1de3a95c44c1e134aa02a76425635c3e3a97eeb40323209b56c5a87f0",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -3351,7 +3379,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Clothing_Trader.json",
-      "sha256": "211454301b4ac66429e61bce2ded3117729676043e4f9d68919f2cc868654fb5",
+      "sha256": "39800f84a7de6092f1e8b9de8491fffa37274c68b0ebe53c1528f0830ed1e7f8",
       "topLevelType": "object",
       "entryCount": 7
     },
@@ -3379,7 +3407,7 @@
     {
       "group": "traderzones",
       "filename": "Main_Weapons_Trader.json",
-      "sha256": "541f5e8fe9578afc504077225b235792bcf26a09d6e74d148d0536641f618023",
+      "sha256": "9f69708aa510f02e8340d07ba77618592df2032ae5d2c2992abe03eb65e0833d",
       "topLevelType": "object",
       "entryCount": 7
     },
