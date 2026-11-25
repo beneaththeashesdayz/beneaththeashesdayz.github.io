@@ -67,7 +67,7 @@ window.traderCatalogue={traderName:'Nora Bell',currency:'USD',inheritedCategoryB
 {name:'Slicedpumpkin',className:'slicedpumpkin',category:'Fruit And Vegetables',mode:'sell',price:250},
 {name:'Tomato',className:'tomato',category:'Fruit And Vegetables',mode:'sell',price:200},
 {name:'Zucchini',className:'zucchini',category:'Fruit And Vegetables',mode:'sell',price:900},
-{name:'Gardenlime',className:'gardenlime',category:'Gardening',mode:'sell',price:4000},
+{name:'Gardenlime',className:'gardenlime',category:'Gardening',mode:'buy',price:4000,sellPrice:2000},
 {name:'Pepperseedspack',className:'pepperseedspack',category:'Gardening',mode:'buy',price:2000,sellPrice:1000},
 {name:'Pumpkinseedspack',className:'pumpkinseedspack',category:'Gardening',mode:'buy',price:2000,sellPrice:1000},
 {name:'Tomatoseedspack',className:'tomatoseedspack',category:'Gardening',mode:'sell',price:2000},
