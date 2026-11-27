@@ -71,7 +71,7 @@ window.traderCatalogue={traderName:'Nora Bell',currency:'USD',inheritedCategoryB
 {name:'Pepperseedspack',className:'pepperseedspack',category:'Gardening',mode:'buy',price:2000,sellPrice:1000},
 {name:'Pumpkinseedspack',className:'pumpkinseedspack',category:'Gardening',mode:'buy',price:2000,sellPrice:1000},
 {name:'Tomatoseedspack',className:'tomatoseedspack',category:'Gardening',mode:'sell',price:2000},
-{name:'Zucchiniseedspack',className:'zucchiniseedspack',category:'Gardening',mode:'sell',price:2000},
+{name:'Zucchiniseedspack',className:'zucchiniseedspack',category:'Gardening',mode:'buy',price:2000,sellPrice:1000},
 {name:'Mfp 100grand',className:'mfp_100grand',category:'Mega Food Pack',mode:'sell',price:13250},
 {name:'Mfp 5thavenue',className:'mfp_5thavenue',category:'Mega Food Pack',mode:'sell',price:13250},
 {name:'Mfp Aimsodaapple',className:'mfp_aimsodaapple',category:'Mega Food Pack',mode:'sell',price:13554},
