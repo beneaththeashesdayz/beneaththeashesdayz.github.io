@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Custom Item Retextures &amp; Personalization | Beneath the Ashes</title>
-  <meta name="description" content="Explore custom vehicle retextures, gear retextures, weapon skins and personalized license plates for BTA Chernarus and Nasdara. Bring your design ideas to Discord support. Purchases pending monetization approval.">
+  <meta name="description" content="Customization purchases are open for BTA Chernarus and Nasdara. Explore vehicle and gear retextures, weapon skins and personalized plates, with prices in USD and requests through Discord support.">
   <meta property="og:title" content="Custom Item Retextures &amp; Personalization | Beneath the Ashes">
-  <meta property="og:description" content="Your gear. Your style. Your story. Custom vehicle, gear and weapon retextures and personalized plates for Chernarus and Nasdara. Purchases pending approval.">
+  <meta property="og:description" content="Your gear. Your style. Your story. Customization purchases are open for Chernarus and Nasdara. View service prices in USD and start a Discord customization ticket.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://beneaththeashesdayz.github.io/vehicle-customization/">
   <link rel="canonical" href="https://beneaththeashesdayz.github.io/vehicle-customization/">
@@ -32,6 +32,26 @@
     .customization-page .custom-price{display:flex;gap:14px;align-items:center;padding:16px 0 20px;margin-bottom:18px;border-bottom:1px solid var(--line)}
     .customization-page .custom-price strong{font-size:2.6rem;line-height:1;color:#efc9a3;letter-spacing:-.05em}
     .customization-page .custom-price span{font-size:.875rem;color:var(--muted);line-height:1.6}
+    .customization-page .custom-price{flex-wrap:wrap}
+    .customization-page .custom-price strong{display:inline-flex;align-items:baseline;gap:7px;white-space:nowrap}
+    .customization-page .custom-price strong .custom-currency{font-size:1rem;color:#efc9a3;letter-spacing:.03em}
+    .customization-page .custom-open{display:inline-block;border:1px solid #87633d;background:#241b14;color:#efc9a3;padding:8px 12px;font-weight:800;font-size:.95rem;line-height:1.5}
+    .customization-page .custom-example{width:100%;border-collapse:collapse;margin:16px 0;font-size:.95rem}
+    .customization-page .custom-example caption{text-align:left;color:#efc9a3;font-weight:800;line-height:1.5;margin-bottom:10px}
+    .customization-page .custom-example th,.customization-page .custom-example td{padding:9px 8px;text-align:left;border-bottom:1px solid var(--line)}
+    .customization-page .custom-example td:last-child,.customization-page .custom-example th:last-child{text-align:right;white-space:nowrap}
+    .customization-page .custom-example tfoot{color:#efc9a3;font-weight:800}
+    .customization-page .custom-policy,.customization-page .custom-faq{margin:0 0 30px}
+    .customization-page .custom-policy-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin:24px 0 0}
+    .customization-page .custom-policy-list>div{min-width:0;border-bottom:1px solid var(--line);padding-bottom:20px}
+    .customization-page .custom-policy-list dt{font-size:1rem;line-height:1.5;font-weight:800;color:#efc9a3}
+    .customization-page .custom-policy-list dd{margin:10px 0 0;color:var(--muted);line-height:1.7}
+    .customization-page .custom-process{margin:20px 0!important}
+    .customization-page .custom-process li{padding:6px 0}
+    .customization-page .custom-faq details{border-top:1px solid var(--line);padding:17px 0}
+    .customization-page .custom-faq summary{font-size:1rem;line-height:1.6;font-weight:800;cursor:pointer;color:#ede3d5}
+    .customization-page .custom-faq details[open] summary{color:#efc9a3;margin-bottom:12px}
+    .customization-page .custom-faq details p{margin:0;max-width:88ch}
     .customization-page .custom-callout{padding:16px 18px;margin:22px 0 0;border-left:2px solid #b18056;background:#211b16;color:#dec5aa;line-height:1.65;font-size:.92rem}
     .customization-page .custom-links{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 0}
     .customization-page .custom-links a,.customization-page .custom-panel p a{color:#e7b48c;text-underline-offset:4px}
@@ -42,7 +62,7 @@
     .customization-page .custom-closing{margin:28px 0 0;padding:22px 0 0;border-top:1px solid var(--line);color:#efc9a3;font-size:1.1rem;font-weight:800}
     .customization-page .custom-panel>:last-child{margin-bottom:0}
     @media(max-width:760px){
-      .customization-page .custom-services,.customization-page .custom-support-grid{grid-template-columns:1fr}
+      .customization-page .custom-services,.customization-page .custom-support-grid,.customization-page .custom-policy-list{grid-template-columns:1fr}
       .customization-page .custom-panel{padding:23px 20px}
       .customization-page .custom-notice{padding:18px 20px}
       .customization-page .project-hero h1{font-size:clamp(2.5rem,11vw,4rem)}
@@ -64,87 +84,112 @@
     <div class="page-context"><a class="back" href="../">← Home</a><div class="world-tag">Chernarus &amp; Nasdara</div></div>
     <div class="kicker">Custom Item Retextures &amp; Personalization</div>
     <h1>Your gear.<br><span>Your style.</span></h1>
+    <p class="custom-open">Purchases open · Service prices in USD</p>
     <p class="custom-intro">Make it yours, even in the wasteland.</p>
     <p>Custom colors, detailed artwork, unique illustrations or a theme that's entirely your own. Explore cosmetic retextures for items across Chernarus and Nasdara—from clothing and equipment to weapons, vehicles and personalized license plates—then bring your ideas to our team.</p>
     <div class="project-links"><a class="button" href="#custom-options">Explore the Options ↓</a><a class="button" href="#request">How to Submit a Request →</a></div>
+    <nav class="custom-links" aria-label="Customization information"><a href="#custom-policies">Customization Policies</a><a href="#custom-faq">Frequently Asked Questions</a></nav>
   </section>
 
   <div class="custom-services" id="custom-options">
     <section class="custom-panel" aria-labelledby="retextures">
       <div class="project-label">01 // A New Coat of Paint</div>
       <h2 id="retextures">Custom Vehicle Retextures</h2>
-      <div class="custom-price"><strong>$25</strong><span>Service price<br>Creation &amp; implementation</span></div>
-      <p>Give your favorite vehicle a personalized texture based on your requested design.</p>
+      <div class="custom-price"><strong>$25 <span class="custom-currency">USD</span></strong><span>One design · one approved model<br>Creation &amp; implementation</span></div>
+      <p>Commission a custom design for one approved vehicle model. <strong>Model variants are not included.</strong></p>
       <h3>Designs We Can Create</h3>
-      <ul><li>Solid colors and custom color combinations.</li><li>Patterns, including camouflage, florals, geometric designs and themed prints.</li><li>Detailed custom artwork and one-of-a-kind illustrations.</li><li>Full vehicle themes, original designs and elaborate custom liveries.</li></ul>
+      <ul><li>Solid colors and custom color combinations.</li><li>Patterns, including florals, geometric designs and themed prints.</li><li>Detailed custom artwork and one-of-a-kind illustrations.</li><li>Full vehicle themes, original designs and elaborate custom liveries.</li></ul>
       <h3>How It Works</h3>
-      <ol>
-        <li><strong>You must already own the vehicle in-game.</strong> Vehicles are not included with a custom texture request.</li>
-        <li>Submit your design idea and any reference images, artwork, colors or patterns through a Discord support ticket.</li>
-        <li>Our team creates and implements your texture, then confirms the in-game repainting process for your selected server.</li>
-        <li>Follow the instructions in your ticket to apply the texture. Staff will confirm any applicable repainting cost in <strong>in-game currency</strong>.</li>
-      </ol>
-      <div class="custom-callout"><strong>What the $25 covers:</strong> creation and implementation of your custom texture. It does not include the vehicle or any separate in-game repainting cost.</div>
+      <p><strong>You must already own the vehicle in-game.</strong> Include its exact make and model, your server and your design references in your ticket. Staff will confirm compatibility and the applicable in-game repainting process.</p>
+      <div class="custom-callout"><strong>What the $25 USD covers:</strong> creation and implementation of your custom texture. The vehicle and any separate repainting charges in <strong>in-game currency</strong> are not included.</div>
+      <p>The design can be reused on a replacement of the same approved model without another USD fee. You must obtain the replacement vehicle in-game and pay any normal repainting costs. See the <a href="#policy-continuity">shared reuse policy</a> and <a href="#policy-wipes">wipe policy</a>.</p>
       <div class="custom-links"><a href="#request">Discuss Your Vehicle Retexture →</a></div>
     </section>
 
     <section class="custom-panel" aria-labelledby="license-plates">
       <div class="project-label">02 // Leave Your Mark</div>
       <h2 id="license-plates">Personalized License Plates</h2>
-      <div class="custom-price"><strong>$5</strong><span>Service price<br>Creation &amp; implementation</span></div>
+      <div class="custom-price"><strong>$5 <span class="custom-currency">USD</span></strong><span>Service price<br>Creation &amp; implementation</span></div>
       <p>Because even the apocalypse deserves a little personalization. Put your Discord name, survivor nickname or a phrase of your own on a custom plate.</p>
       <h3>Plate Design Options</h3>
       <ul><li>Custom text.</li><li>Any color combination.</li><li>Different plate styles and variants.</li><li>Personalized names, phrases and creative designs.</li></ul>
-      <h3>How It Works</h3>
-      <ol>
-        <li>Submit your desired plate text, colors and preferred design or variant through a Discord support ticket.</li>
-        <li>Our team creates your personalized license plate texture.</li>
-        <li>Staff will confirm how the completed plate will be made available on your selected server.</li>
-        <li>Follow the instructions in your ticket to obtain the plate. Staff will confirm any separate purchase cost in <strong>in-game currency</strong>.</li>
-      </ol>
-      <div class="custom-callout"><strong>What the $5 covers:</strong> creation and implementation of the custom plate design. Any separate in-game purchase cost is not included.</div>
-      <div class="custom-callout"><strong>Check compatibility first.</strong> Custom license plates are currently functional only on select in-game vehicles. Not every vehicle supports this system. Open a support ticket before submitting your design so staff can investigate your vehicle’s compatibility.</div>
+      <h3>Check Your Vehicle</h3>
+      <p>Personalized plates are available only for compatible vehicles. Include your <strong>vehicle make and model, server, desired plate text, colors and design preferences</strong> in your ticket so staff can check the request.</p>
+      <div class="custom-callout"><strong>What the $5 USD covers:</strong> creation and implementation of the plate design. Any separate purchase cost in <strong>in-game currency</strong> is not included.</div>
+      <p>Staff assess the requested text, including its length and special characters, for each vehicle and design. The plate design can be reused on another compatible vehicle without another USD fee; obtain the plate in-game and pay any normal in-game costs.</p>
       <div class="custom-links"><a href="#request">Ask About Plate Compatibility →</a></div>
     </section>
 
     <section class="custom-panel" aria-labelledby="gear-retextures">
       <div class="project-label">03 // Wear Your Story</div>
       <h2 id="gear-retextures">Custom Gear Retextures</h2>
-      <div class="custom-price"><strong>$15</strong><span>Service price · per piece<br>Creation &amp; implementation</span></div>
+      <div class="custom-price"><strong>$15 <span class="custom-currency">USD</span></strong><span>Per individual gear item<br>Creation &amp; implementation</span></div>
       <p>Give your clothing, backpacks, armor and other gear a look that belongs to your survivor. Request a standalone piece or a coordinated design across your kit.</p>
       <h3>Make It Your Own</h3>
-      <ul><li>Custom colors, patterns and camouflage.</li><li>Detailed artwork, personal designs and themed pieces.</li><li>Matching designs across multiple gear pieces.</li></ul>
-      <p>Bring the item name, your ideas and any reference images to a Discord support ticket. Staff will confirm compatibility and implementation details with you.</p>
-      <div class="custom-callout"><strong>$15 per gear piece:</strong> each item is priced separately, including pieces in a matching set.</div>
+      <ul><li>Custom colors, patterns and themed finishes.</li><li>Detailed artwork, personal designs and themed pieces.</li><li>Matching designs across multiple gear pieces.</li></ul>
+      <p>Compatibility must be confirmed for each item. Bring the exact item names, your server and reference images to your ticket.</p>
+      <table class="custom-example"><caption>Example: a four-piece matching set</caption><thead><tr><th scope="col">Gear item</th><th scope="col">Price (USD)</th></tr></thead><tbody><tr><th scope="row">Jacket</th><td>$15 USD</td></tr><tr><th scope="row">Pants</th><td>$15 USD</td></tr><tr><th scope="row">Backpack</th><td>$15 USD</td></tr><tr><th scope="row">Vest</th><td>$15 USD</td></tr></tbody><tfoot><tr><th scope="row">Total</th><td>$60 USD</td></tr></tfoot></table>
+      <div class="custom-callout"><strong>Per item, not per set:</strong> the example covers four retextures. The jacket, pants, backpack and vest themselves must be obtained separately in-game.</div>
     </section>
 
     <section class="custom-panel" aria-labelledby="weapon-skins">
       <div class="project-label">04 // A Signature Finish</div>
       <h2 id="weapon-skins">Custom Weapon Skins</h2>
-      <div class="custom-price"><strong>$15</strong><span>Service price · per weapon<br>Creation &amp; implementation</span></div>
+      <div class="custom-price"><strong>$15 <span class="custom-currency">USD</span></strong><span>Per weapon<br>Creation &amp; implementation</span></div>
       <p>Put your own mark on your chosen weapon with a custom cosmetic skin, from distinctive colorwork to detailed artwork and a theme built around your survivor.</p>
       <h3>Design Your Finish</h3>
-      <ul><li>Custom color schemes, patterns and camouflage.</li><li>Original artwork, illustrations and themed designs.</li><li>A look that complements your other customized items.</li></ul>
-      <p>Include the exact weapon name and your design references in a Discord support ticket. Staff will confirm compatibility and implementation details with you.</p>
-      <div class="custom-callout"><strong>$15 per weapon:</strong> each weapon skin is priced separately. These are cosmetic changes, not weapon upgrades.</div>
+      <ul><li>Custom color schemes, patterns and themed finishes.</li><li>Original artwork, illustrations and themed designs.</li><li>A look that complements your other customized items.</li></ul>
+      <h3>Optional Matching Attachment Set</h3>
+      <p>Add one matching attachment set for an <strong>additional $15 USD</strong>. A set covers <strong>one approved, compatible attachment per supported slot</strong> on the selected weapon.</p>
+      <p>List the magazines, suppressors, stocks, handguards, optics and any other supported parts you want included. Staff check compatibility for the weapon and each selected attachment.</p>
+      <p><strong>Weapon skin + one attachment set: $30 USD.</strong></p>
+      <div class="custom-callout"><strong>Skin only:</strong> the USD service charge does not include the in-game weapon or any physical attachments. These are cosmetic changes, not weapon upgrades.</div>
     </section>
   </div>
+
+  <section class="custom-panel custom-policy" id="custom-policies" aria-labelledby="policy-heading">
+    <div class="project-label">Shared Information // All Services</div>
+    <h2 id="policy-heading">Customization Policies</h2>
+    <p>These terms apply to vehicle retextures, personalized plates, gear retextures and weapon skins on Chernarus and Nasdara.</p>
+    <dl class="custom-policy-list">
+      <div><dt>Customization charges and in-game items</dt><dd>All advertised service charges are in <strong>USD</strong> and cover the custom appearance, creation and implementation. They do not include the actual vehicle, gear, weapon or attachments. Obtain your base items through normal gameplay. In-game item prices and any repainting charges are separate from the USD service fee.</dd></div>
+      <div><dt>Compatibility and mod permissions</dt><dd>Not every item, vehicle, weapon part or plate system supports customization. Before accepting payment, staff confirm compatibility and verify that the relevant mod permits retexturing and monetized use. Custom appearances depend on the underlying item, compatible mods and the server's implementation.</dd></div>
+      <div id="policy-servers"><dt>One purchase, one selected server</dt><dd>Services are offered on Chernarus and Nasdara, but each purchase covers <strong>only the server selected in your ticket</strong>. Adding the same design to the other server is a new purchase at the standard service price.</dd></div>
+      <div id="policy-access"><dt>Available through normal gameplay</dt><dd>Retextured items are made available to <strong>all players through normal gameplay</strong> on the selected server. Purchasing a design does not give you exclusive access to its in-game appearance.</dd></div>
+      <div id="policy-previews"><dt>Previews, approval and revisions</dt><dd>You review a preview and approve the design before implementation. <strong>As many design revisions as needed are included until implementation</strong>, including changes after approval but before implementation. Changes requested after implementation are not included and require a separate quote.</dd></div>
+      <div id="policy-timing"><dt>Timing for your design</dt><dd>Staff quote timing individually in your Discord ticket, depending on the complexity of the design. There is no single turnaround time for every request.</dd></div>
+      <div id="policy-continuity"><dt>Reuse after loss, destruction or death</dt><dd>Reuse your vehicle design on a replacement of the <strong>same approved model</strong>, or your gear or weapon design on the <strong>same approved item</strong>, without another USD fee. Plate designs may be reused on another compatible vehicle. You must obtain the replacement item or plate through gameplay and pay any normal in-game acquisition or repainting costs.</dd></div>
+      <div id="policy-wipes"><dt>Automatic availability after wipes</dt><dd>Purchased designs remain available <strong>automatically after server wipes</strong>, without another USD fee, as long as the approved item is still supported. You must still obtain the item in-game and pay normal in-game costs.</dd></div>
+      <div id="policy-mods"><dt>If an item or mod loses support</dt><dd>If a mod is removed, discontinued or becomes incompatible, we will offer to adapt the design to another supported item at <strong>no additional USD fee</strong>. The same option applies if an item unexpectedly proves incompatible after payment.</dd></div>
+      <div id="policy-refunds"><dt>Cancellations and refunds</dt><dd><strong>All customization payments are non-refundable.</strong> This applies before design work begins, during design work, after approval and after implementation. For unexpected incompatibility or a loss of mod support, see the <a href="#policy-mods">design adaptation policy</a>.</dd></div>
+      <div id="policy-artwork"><dt>Artwork and content restrictions</dt><dd>No hateful, racist, sexually explicit or illegal content. You must own or have permission to use any artwork, logos or images you submit. Staff check the relevant mod's retexturing and monetized-use permissions before accepting payment.</dd></div>
+      <div><dt>Cosmetic appearance, not gameplay advantage</dt><dd>Custom appearances must not improve item statistics or provide an in-game advantage. The service buys a cosmetic design, not improved performance, equipment or currency. See <a href="https://www.bohemia.net/en/monetization/faq" target="_blank" rel="noopener noreferrer">Bohemia Interactive’s official monetization FAQ</a>.</dd></div>
+    </dl>
+  </section>
 
   <section class="custom-panel custom-request" id="request" aria-labelledby="request-heading">
     <div class="project-label">05 // Bring Us Your Idea</div>
     <h2 id="request-heading">Start With a Support Ticket</h2>
     <p><strong>All custom retexture, weapon skin and license plate requests for Chernarus and Nasdara currently go through Discord support.</strong> Our staff will review your request, confirm compatibility and explain the implementation process for your selected server.</p>
+      <ol class="custom-process">
+        <li><strong>Open a customization ticket.</strong> Use the Discord support link below.</li>
+        <li><strong>Provide the item and design details.</strong> Include your server, exact item or model, references and any matching pieces.</li>
+        <li><strong>Confirm compatibility and pricing with staff.</strong> Staff check the exact items, mod permissions and design scope, then confirm the total price.</li>
+        <li><strong>Pay through the link provided in your ticket.</strong> Staff send a Tip4Server checkout link after confirming compatibility and pricing. Complete payment, then design work begins on the individually quoted schedule. <strong>All payments are non-refundable.</strong></li>
+        <li><strong>Review and approve the design.</strong> Check the preview and confirm the final appearance.</li>
+        <li><strong>Implementation and in-game availability.</strong> Staff implement the approved appearance and explain how to access or apply it on the selected server.</li>
+      </ol>
     <h3>Include These Details</h3>
-    <ul><li>Your server: Chernarus or Nasdara.</li><li>The exact item or weapon name; for vehicles, include the make and model.</li><li>The customization you’re requesting and every piece you’d like included.</li><li>Reference images, artwork, themes, colors or patterns you’d like us to use.</li><li>For plates, your preferred text, colors and plate style or variant.</li><li>Any additional details that help us understand your vision.</li></ul>
+    <ul><li>Your server: Chernarus or Nasdara.</li><li>The exact item or weapon name; for vehicles and plates, include the vehicle make and model.</li><li>The customization you’re requesting and every gear piece or weapon attachment you’d like included.</li><li>Reference images, artwork, themes, colors or patterns you’d like us to use.</li><li>For plates, your desired text, colors and plate style or variant.</li><li>Any additional details that help us understand your vision.</li></ul>
     <div class="project-links"><a class="button" href="https://discord.com/channels/1278830251383721984/1402637759990202368" target="_blank" rel="noopener noreferrer">Open a Discord Support Ticket →</a><a class="button" href="https://discord.gg/NpwumFFzFy" target="_blank" rel="noopener noreferrer">Join Beneath the Ashes →</a></div>
   </section>
 
   <div class="custom-support-grid">
     <section class="custom-panel" aria-labelledby="storefront-heading">
-      <div class="project-label">Coming Soon // Tip4Server</div>
-      <h2 id="storefront-heading">Storefront Options Are on the Way</h2>
-      <p>We’re working on bringing vehicle and gear retextures, weapon skins and personalized license plates to our Tip4Server storefront alongside our other server support offerings.</p>
-      <p><strong>These customization options are not available for purchase yet.</strong> Until the listings are available and the required approval is granted, use the Discord ticket system for all requests.</p>
+      <div class="project-label">Purchasing Open // Tip4Server</div>
+      <h2 id="storefront-heading">Purchase Customization Services</h2>
+      <p><strong>Customization purchases are open.</strong> Start a Discord customization ticket with your selected server, exact item and design details.</p>
+      <p>Staff provide your <strong>Tip4Server checkout link directly in the ticket</strong> after confirming compatibility, mod permissions and pricing. Use that link to pay for the agreed service before design work begins.</p>
       <div class="custom-links"><a href="https://beneaththeashedayz.tip4serv.com/" target="_blank" rel="noopener noreferrer">Visit the BTA Storefront →</a></div>
     </section>
     <section class="custom-panel" aria-labelledby="support-heading">
@@ -156,6 +201,27 @@
       <div class="custom-links"><a href="https://www.bohemia.net/en/monetization/dayz" target="_blank" rel="noopener noreferrer">Bohemia Interactive’s Official Monetization Guidelines →</a></div>
     </section>
   </div>
+
+  <section class="custom-panel custom-faq" id="custom-faq" aria-labelledby="faq-heading">
+    <div class="project-label">Quick Answers // Before You Order</div>
+    <h2 id="faq-heading">Frequently Asked Questions</h2>
+    <details><summary>Are customization purchases currently open?</summary><p>Yes. Purchases are open for custom vehicle retextures, personalized license plates, gear retextures and weapon skins. All listed service prices are in USD.</p></details>
+    <details><summary>How do I purchase a customization?</summary><p>Open a <a href="#request">Discord customization ticket</a> with your server, item and design details. Staff confirm compatibility, mod permissions and pricing, then send a Tip4Server checkout link in the ticket. Payment comes before design work; you approve a preview before implementation.</p></details>
+    <details><summary>What does the $25 USD vehicle service cover?</summary><p>One custom design for one approved vehicle model. Model variants are not included. The actual vehicle and any in-game repainting costs are separate.</p></details>
+    <details><summary>Does purchasing a customization include the in-game item?</summary><p>No. The USD charge covers cosmetic customization, not the actual vehicle, gear, weapon or attachments. Obtain base items through normal gameplay; any in-game acquisition or repainting costs are separate.</p></details>
+    <details><summary>Will I see my design before it goes live?</summary><p>Yes. You review a preview and approve the design before staff implement it. See the <a href="#policy-previews">preview and revision policy</a>.</p></details>
+    <details><summary>Can I request design changes?</summary><p>As many revisions as needed are included until implementation, even after approval. Changes requested after implementation require a separate quote.</p></details>
+    <details><summary>How long will my customization take?</summary><p>Staff quote timing individually in your Discord ticket based on design complexity.</p></details>
+    <details><summary>Can another player use my custom design?</summary><p>Yes. Retextured items are available to all players through normal gameplay on the selected server. The design's in-game appearance is not exclusive to the buyer.</p></details>
+    <details><summary>What happens if I lose my customized item?</summary><p>You can reuse the design without another USD fee on a replacement of the same approved vehicle model, gear item or weapon. Plates can be reused on another compatible vehicle. Obtain the replacement item or plate in-game and pay normal in-game costs. See the <a href="#policy-continuity">reuse policy</a>.</p></details>
+    <details><summary>Will my customization survive a server wipe?</summary><p>Yes. Designs remain available automatically without another USD fee while the approved item is supported. You still need to obtain the item in-game and pay normal in-game costs.</p></details>
+    <details><summary>Can I use my customization on both BTA servers?</summary><p>A purchase covers only the server selected in your ticket. Adding the same design to the other server requires a new purchase at the standard service price.</p></details>
+    <details><summary>Can I customize any vehicle, weapon or piece of gear?</summary><p>Compatibility must be checked for the exact item and server. Not every model, gear item, weapon part or plate system supports customization. Include the make and model for vehicle and plate requests, and identify each gear item or attachment.</p></details>
+    <details><summary>What happens if a third-party mod is removed?</summary><p>If the mod is removed, discontinued or becomes incompatible, we offer to adapt your design to another supported item at no additional USD fee. See the <a href="#policy-mods">mod support policy</a>.</p></details>
+    <details><summary>Are matching weapon attachments included?</summary><p>The $15 USD weapon skin covers the weapon design. One matching attachment set costs an additional $15 USD and covers one approved, compatible attachment per supported slot on the selected weapon. The combined design price is $30 USD; actual in-game weapons and attachments are not included.</p></details>
+    <details><summary>What happens if my requested item cannot be customized?</summary><p>Staff check compatibility and mod permissions before accepting payment. If an item unexpectedly proves incompatible after payment, we offer to adapt the design to another supported item at no additional USD fee.</p></details>
+    <details><summary>Can I cancel or get a refund?</summary><p>All customization payments are non-refundable, including before work begins. This remains the policy during design work, after approval and after implementation. Unexpected incompatibility is handled through the <a href="#policy-mods">design adaptation policy</a>.</p></details>
+  </section>
   <p class="custom-closing">Your gear. Your style. Your story.<br>— The Beneath the Ashes Team</p>
 </main>
 <footer><div class="wrap">Beneath the Ashes • Cosmetic Customization • <a href="../">Return to the Network</a></div></footer>
